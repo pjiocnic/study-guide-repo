@@ -1,0 +1,21 @@
+Path docker
+	- Pulton's docker deep dive book ... daily slow read???
+	- Packt pub's Learning docker
+	- Brett Fisher's Docker mastery <=================  In progress (9/10)
+	
+Path Angular
+	- do at work
+	
+Big Data
+
+Machine Learning
+	- Learn python
+	- Setup VMs with spark / kafka
+	- Pluralsight's Dvid Chappell's course <===========  start here
+	
+Kubernetes
+	- JEE + Kubernetes
+	
+Projects to execute
+	Install spark / kafka on a docker / vagrant vm
+	Install docker + angular
