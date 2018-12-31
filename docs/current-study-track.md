@@ -18,3 +18,7 @@
 ## Spring Integration
 -[Understanding Spring Integration](https://my.safaribooksonline.com/video/programming/java/9781491968703)
 
+
+# Backlog
+
+1. [Kafka Series by Stephane M@Udemy]
