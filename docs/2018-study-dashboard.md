@@ -14,6 +14,9 @@
 # Spring Data
 1. [An Introduction to Spring Data](https://www.youtube.com/watch?v=jIae_pcG-9M)
 
+# Spring Microservices
+1. **[TOP BOOK - MUST READ]** Spring 5.0 Microservices - Second Edition By Rajesh V
+
 # Kafka
 1. [Developing Real-Time Data Pipelines with Apache Kafka](https://www.youtube.com/watch?v=GRPLRONVDWY)
 2. [Spring Tips: Spring Cloud Stream Kafka Streams](https://www.youtube.com/watch?v=YPDzcmqwCNo)  
@@ -28,3 +31,6 @@
 
 # Spring cloud
 1. [Spring Cloud on AWS](https://www.youtube.com/watch?v=Qq3CTHRLEwc)
+
+# Docker (Advanced)
+- Docker Containers: Build and Deploy with Kubernetes, Flannel, Cockpit, and Atomic By: Christopher Negus
