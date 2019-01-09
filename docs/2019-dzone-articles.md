@@ -7,3 +7,7 @@
 
 # kafka
 - [Introducing Hive-Kafka integration for real-time Kafka SQL queries](https://hortonworks.com/blog/introducing-hive-kafka-sql/)
+
+# nifi
+- [Building a Custom Apache NiFi Operations Dashboard (Part 1)](https://dzone.com/articles/building-a-custom-apache-nifi-operations-dashboard)
+- [Simple Apache NiFi Operations Dashboard - Part 2](https://dzone.com/articles/simple-apache-nifi-operations-dashboard-part-2-spr)
