@@ -22,3 +22,21 @@
 # Backlog
 
 1. [Kafka Series by Stephane M@Udemy]
+
+----
+1/27/2019 summary
+
+// daily reads
+Spring 5 from beginner to guru 
+Lambda and streams in action
+
+// staged
+Spring integration
+Kubernetes book? where did i leave off? Kubernetes $65, kubernetes for java developers
+Kafka by Stephane 
+
+
+Interview
+1. Threading (see pluralsight/interview path)
+2. Generics
+3. Collections
