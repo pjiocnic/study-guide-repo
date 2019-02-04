@@ -1,6 +1,6 @@
 ## ClassLoaders
 
-!()[images/weblogic-classloaders.png]
+![](images/weblogic-classloaders.png)
 
 ## Shared Libraries in WebLogic
 - http://docs.oracle.com/middleware/1212/wls/WLPRG/libraries.htm
