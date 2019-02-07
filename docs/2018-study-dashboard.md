@@ -6,6 +6,8 @@
 # JDK 8
 1. [JDK 8: Lessons Learnt With Lambdas and Streams](https://www.youtube.com/watch?v=wZKmA6XodNE)
 2. [Java 8 Language Capabilities, What's in it for you?](https://www.youtube.com/watch?v=j9nj5dTo54Q)
+3. [From Collections to Streams in Java 8 Using Lambda Expressions](https://app.pluralsight.com/library/courses/java-8-lambda-expressions-collections-streams)
+4. [Streams, Collectors, and Optionals for Data Processing in Java 8](https://app.pluralsight.com/library/courses/java-8-data-processing-streams-collectors-optionals)
 
 # Spring Boot
 1. [Spring Tips: Metrics Collection in Spring Boot 2 with Micrometer](https://www.youtube.com/watch?v=JAdxO1XboJY)
@@ -16,12 +18,17 @@
 
 # Spring Microservices
 1. **[TOP BOOK - MUST READ]** Spring 5.0 Microservices - Second Edition By Rajesh V
+2. [Java Microservices with Spring Cloud: Developing Services](https://app.pluralsight.com/library/courses/java-microservices-spring-cloud-developing-services)
+3. [Java Microservices with Spring Cloud: Coordinating Services](https://app.pluralsight.com/library/courses/java-microservices-spring-cloud-coordinating-services)
 
 # Kafka
 1. [Developing Real-Time Data Pipelines with Apache Kafka](https://www.youtube.com/watch?v=GRPLRONVDWY)
 2. [Spring Tips: Spring Cloud Stream Kafka Streams](https://www.youtube.com/watch?v=YPDzcmqwCNo)  
 	- https://github.com/joshlong/spring-cloud-stream-kafka-streams﻿
 	- https://github.com/spring-tips/spring-cloud-stream-kafka-streams﻿
+
+# JAVA EE
+1. [Java EE 8 High Performance](https://my.safaribooksonline.com/video/-/9781788473613)
 
 # Spark
 1. [Apache Spark for Big Data Processing](https://www.youtube.com/watch?v=Zv_mnjYhFAk)

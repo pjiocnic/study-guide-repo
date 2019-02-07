@@ -10,3 +10,5 @@
 - https://blogs.oracle.com/jamesbayer/weblogic-server-shared-libraries-for-static-resources
 - https://blogs.oracle.com/jamesbayer/weblogic-server-shared-libraries-ndash-including-jars
 - https://www.igorkromin.net/index.php/2015/11/18/packaging-a-shared-library-using-maven-for-deployment-to-weblogic/
+
+http://java.net/projects/weblogic-examples/sources/weblogic-12c-user-examples/show/jeffrey.west/maven-examples/simple-maven-example
