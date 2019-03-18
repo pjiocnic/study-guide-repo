@@ -35,6 +35,16 @@ Spring integration
 Kubernetes book? where did i leave off? Kubernetes $65, kubernetes for java developers
 Kafka by Stephane 
 
+03092019:
+- Weekends(SAT and SUN) start by reading few FAQs from http://www.angelikalanger.com/GenericsFAQ
+- Complete Partha Kuchana book on software architecture design patterns an then move onto design patterns by doug schmidtt
+- Slow read of oracle indexes book (SQL Performance explained by Markus Winand) - only on weekends
+- Kubernetes for Java developers - slow watch during commute
+- Stephen Grider's course on weekdays
+
+
+
+
 
 Interview
 1. Threading (see pluralsight/interview path)

@@ -8,6 +8,12 @@
 2. [Java 8 Language Capabilities, What's in it for you?](https://www.youtube.com/watch?v=j9nj5dTo54Q)
 3. [From Collections to Streams in Java 8 Using Lambda Expressions](https://app.pluralsight.com/library/courses/java-8-lambda-expressions-collections-streams)
 4. [Streams, Collectors, and Optionals for Data Processing in Java 8](https://app.pluralsight.com/library/courses/java-8-data-processing-streams-collectors-optionals)
+5. [Must Read Book] Java Generics and Collections By: Maurice Naftalin; Philip Wadler  
+   This book has a good section on design patterns - Visitor/Interpreter/Function/Strategy/Subject-Observer
+   
+# Microservices
+1. [Refactor your Java EE application using Microservices and Containers Arun Gupta](https://learning.oreilly.com/videos/refactor-your-java/9781491950593/9781491950593-video236649)  
+   https://github.com/arun-gupta/microservices
 
 # Spring Boot
 1. [Spring Tips: Metrics Collection in Spring Boot 2 with Micrometer](https://www.youtube.com/watch?v=JAdxO1XboJY)

@@ -1,0 +1,2 @@
+1. [Refactor your Java EE application using Microservices and Containers Arun Gupta](https://learning.oreilly.com/videos/refactor-your-java/9781491950593/9781491950593-video236649)
+https://github.com/arun-gupta/microservices

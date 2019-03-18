@@ -1,0 +1,1 @@
+1. Read one item of the Effective Java on the weekends for the entire year.  Staart your weekend with 1 item
