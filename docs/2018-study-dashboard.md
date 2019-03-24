@@ -1,7 +1,14 @@
+# Stories Love read next
+1. [Deploying a Spring Boot Application on AWS Using AWS Elastic Beanstalk](https://aws.amazon.com/blogs/devops/deploying-a-spring-boot-application-on-aws-using-aws-elastic-beanstalk/)
+
+---
+
 # Kubernetes
 1. [**START HERE** Spring Boot Micro-services, Containers, and Kubernetes - How To](https://www.youtube.com/watch?v=Bcs-inRnLDc) / [Source code](https://github.com/saturnism/spring-boot-docker/tree/master/examples)
 2. [Kubernetes for the Spring Developer - Meaghan Kjelland](https://www.youtube.com/watch?v=OsWXtVbTnv0)
 3. [Deploying Spring Boot Apps on Kubernetes - Thomas Risberg](https://www.youtube.com/watch?v=RelPurLZnII)
+
+---
 
 # JDK 8
 1. [JDK 8: Lessons Learnt With Lambdas and Streams](https://www.youtube.com/watch?v=wZKmA6XodNE)
