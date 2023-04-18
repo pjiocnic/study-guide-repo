@@ -97,3 +97,8 @@ ValidateConnection: If you set this property to true, the cache manager tests fo
 # Examples to explore
 https://github.com/chargeahead/springbootconnectionleak
 https://www.youtube.com/watch?v=FOQwsAQLseo
+https://carlos-db.medium.com/very-simple-java-configuration-for-monitoring-sql-queries-with-p6spy-and-hikari-connection-pool-6dcf63d88529
+https://medium.com/swlh/application-monitoring-with-prometheus-and-grafana-part-3-1c4ad5e1b042
+https://www.callicoder.com/spring-boot-actuator-metrics-monitoring-dashboard-prometheus-grafana/
+
+https://coderstower.com/2022/01/29/spring-boot-observability-discovering-a-database-connection-leak/
