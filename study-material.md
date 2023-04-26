@@ -22,3 +22,7 @@
 1. [AWS: Create a subscription filter on Cloudwatch Log groups using Kinesis](https://awstip.com/aws-create-a-subscription-filter-on-cloudwatch-log-groups-using-kinesis-44b80e365bc9)
 2. [Using CloudWatch Logs subscription filters](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#LambdaFunctionExample)
 3. [How To Use AWS CloudWatch Subscription Filters By Kanika Modi](https://aws.plainenglish.io/how-to-use-aws-cloudwatch-subscription-filters-2f33f3e450c9)
+
+# Design Patterns
+
+1. [Scalable Data Processing with AWS Serverless Scatter-Gather Pattern Implementation](https://aws.plainenglish.io/scalable-data-processing-with-aws-serverless-scatter-gather-pattern-implementation-63d25d6f6d23)
