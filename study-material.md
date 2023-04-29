@@ -2,6 +2,8 @@
 # DocumentDB
 
 1. [Creating a REST API for Amazon DocumentDB (with MongoDB compatibility) with Amazon API Gateway and AWS Lambda by Brian Hess](https://aws.amazon.com/blogs/database/creating-a-rest-api-for-amazon-documentdb-with-mongodb-compatibility-with-amazon-api-gateway-and-aws-labda/)
+2. [Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
+3. https://github.com/aws-samples/amazon-documentdb-integration-with-application-autoscaler
 
 # MongoDB
 
@@ -26,10 +28,6 @@
 
 # IAM
 
-1. [AWS Cross Account Access Part 1 By Crishantha Nanayakkara](https://crishantha.medium.com/aws-cross-account-access-70c5b2fac543)
-2. [AWS Cross Account Access Part 2 By Crishantha Nanayakkara](https://crishantha.medium.com/aws-cross-account-access-6db4d7be37de)
-3. [AWS Multi-Account Strategy Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/2d357547-41c3-45c5-8d84-c401420a5fb3/en-US/getting-started/organizational-units)
-4. [Multi-Account Security Governance Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/d3f60827-89f2-46a8-9be7-6e7185bd7665/en-US)
 
 # ElasticCache
 
