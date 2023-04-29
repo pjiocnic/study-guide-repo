@@ -1,3 +1,5 @@
+<h1> Table of Contents </h1>
+
 <!-- TOC -->
 
 - [1. DocumentDB](#1-documentdb)
