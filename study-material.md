@@ -55,6 +55,7 @@
 1. [Example IAM identity-based policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)
 2. [How and when to use different IAM policy types](https://catalog.workshops.aws/iam-policy-types/en-US)
 3. [IAM policy evaluation workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/6dc3124a-6bd4-46eb-b5c4-be438a82ba3d/en-US)
+4. [Effective IAM for Amazon Web Services](https://www.effectiveiam.com/)
 
 # 4. Encryption
 1. [Difference between AWS S3 Bucket Encryption SSE-C , SSE-S3, SSE-KMS](https://awstip.com/5-minutes-to-aws-s3-bucket-encryption-sse-c-sse-s3-sse-kms-e2fb07b05cb3)
