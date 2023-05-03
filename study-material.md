@@ -40,6 +40,7 @@
 - [10. Spring Boot Transactions](#10-spring-boot-transactions)
 - [11. DynamoDB vs DocumentDB](#11-dynamodb-vs-documentdb)
 - [12. RDS](#12-rds)
+- [13. DynamoDB](#13-dynamodb)
 
 <!-- /TOC -->
 
@@ -228,3 +229,7 @@
 # 12. RDS
 1. [Scaling Your Amazon RDS Instance Vertically and Horizontally by Marie Yap and Neha Gupta](https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/)
 2. [How can I distribute read requests across multiple Amazon RDS read replicas](https://aws.amazon.com/premiumsupport/knowledge-center/requests-rds-read-replicas/)
+
+# 13. DynamoDB
+
+1. [Use Amazon DynamoDB global tables in DynamoDB Shell by Amrith Kumar](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-global-tables-in-dynamodb-shell/)
