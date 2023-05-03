@@ -20,7 +20,7 @@
   - [1.15. Caching](#115-caching)
   - [1.16. ECS](#116-ecs)
   - [1.17. Transactions](#117-transactions)
-  - [1.18. Troublsehooting](#118-troublsehooting)
+  - [1.18. Troubleshooting](#118-troubleshooting)
   - [1.19. Cost](#119-cost)
 - [2. MongoDB](#2-mongodb)
   - [2.1. Patterns](#21-patterns)
@@ -115,7 +115,7 @@
 1. [Introducing transactions in Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek](https://aws.amazon.com/blogs/database/introducing-transactions-in-amazon-documentdb-with-mongodb-compatibility/)
 2. [Introducing MongoDB 4.0 compatibility and Transactions in Amazon DocumentDB by Joseph Idziorek ](https://aws.amazon.com/blogs/database/introducing-amazon-documentdb-with-mongodb-compatibility-4-0/)
 
-## 1.18. Troublsehooting
+## 1.18. Troubleshooting
 
 1. [Profiling slow-running queries in Amazon DocumentDB (with MongoDB compatibility) by Meet Bhagdev](https://aws.amazon.com/blogs/database/profiling-slow-running-queries-in-amazon-documentdb-with-mongodb-compatibility/ )
 2. [Monitoring metrics and setting up alarms on your Amazon DocumentDB (with MongoDB compatibility) clusters by Ryan Thurston](https://aws.amazon.com/blogs/database/monitoring-metrics-and-setting-up-alarms-on-your-amazon-documentdb-with-mongodb-compatibility-clusters/)
