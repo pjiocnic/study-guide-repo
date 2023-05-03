@@ -18,18 +18,18 @@
   - [1.13. Data Modeling](#113-data-modeling)
   - [1.14. Keys](#114-keys)
   - [1.15. Caching](#115-caching)
-  - [1.15. ECS](#115-ecs)
-  - [1.16 Transactions](#116-transactions)
-  - [1.17. Troublsehooting](#117-troublsehooting)
-  - [1.18. Cost](#118-cost)
+  - [1.16. ECS](#116-ecs)
+  - [1.17. Transactions](#117-transactions)
+  - [1.18. Troublsehooting](#118-troublsehooting)
+  - [1.19. Cost](#119-cost)
 - [2. MongoDB](#2-mongodb)
-  - [Patterns](#patterns)
-  - [Anti-Patterns](#anti-patterns)
-  - [Data Modeling](#data-modeling)
-  - [Change Data Streams](#change-data-streams)
-  - [JOINs and Aggregations](#joins-and-aggregations)
-  - [Versioning](#versioning)
-  - [Optimistic Locking](#optimistic-locking)
+  - [2.1. Patterns](#21-patterns)
+  - [2.2. Anti-Patterns](#22-anti-patterns)
+  - [2.3. Data Modeling](#23-data-modeling)
+  - [2.4. Change Data Streams](#24-change-data-streams)
+  - [2.5. JOINs and Aggregations](#25-joins-and-aggregations)
+  - [2.6. Versioning](#26-versioning)
+  - [2.7. Optimistic Locking](#27-optimistic-locking)
 - [3. IAM](#3-iam)
 - [4. Encryption](#4-encryption)
 - [5. ElasticCache](#5-elasticcache)
@@ -106,28 +106,28 @@
 
 1. [Caching for performance with Amazon DocumentDB and Amazon ElastiCache by Georges Leschener](https://aws.amazon.com/blogs/database/caching-for-performance-with-amazon-documentdb-and-amazon-elasticache/)
 
-## 1.15. ECS
+## 1.16. ECS
 
 1. [Deploy a containerized application with Amazon ECS and connect to Amazon DocumentDB (with MongoDB compatibility) securely by Hidenori Koizumi](https://aws.amazon.com/blogs/database/deploy-a-containerized-application-with-amazon-ecs-and-connect-to-amazon-documentdb-securely/)
 
-## 1.16 Transactions
+## 1.17. Transactions
 
 1. [Introducing transactions in Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek](https://aws.amazon.com/blogs/database/introducing-transactions-in-amazon-documentdb-with-mongodb-compatibility/)
 2. [Introducing MongoDB 4.0 compatibility and Transactions in Amazon DocumentDB by Joseph Idziorek ](https://aws.amazon.com/blogs/database/introducing-amazon-documentdb-with-mongodb-compatibility-4-0/)
 
-## 1.17. Troublsehooting
+## 1.18. Troublsehooting
 
 1. [Profiling slow-running queries in Amazon DocumentDB (with MongoDB compatibility) by Meet Bhagdev](https://aws.amazon.com/blogs/database/profiling-slow-running-queries-in-amazon-documentdb-with-mongodb-compatibility/ )
 2. [Monitoring metrics and setting up alarms on your Amazon DocumentDB (with MongoDB compatibility) clusters by Ryan Thurston](https://aws.amazon.com/blogs/database/monitoring-metrics-and-setting-up-alarms-on-your-amazon-documentdb-with-mongodb-compatibility-clusters/)
 
-## 1.18. Cost
+## 1.19. Cost
 
 1. [Using cost allocation tags with Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek ](https://aws.amazon.com/blogs/database/using-cost-allocation-tags-with-amazon-documentdb-with-mongodb-compatibility/)
 2. [Optimizing for cost with Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek](https://aws.amazon.com/blogs/database/optimizing-for-cost-with-amazon-documentdb-with-mongodb-compatibility/)
 
 # 2. MongoDB
 
-## Patterns
+## 2.1. Patterns
 
 1. [Building with Patterns: The Polymorphic Pattern Ken W. Alger, Daniel Coupal](https://www.mongodb.com/developer/products/mongodb/polymorphic-pattern/)
 2. [Dive into 6 Common MongoDB Patterns With Example](https://medium.com/geekculture/dive-into-6-common-mongodb-patterns-with-examples-3fa7ece34b55)
@@ -135,13 +135,13 @@
 4. [MongoDB Data Modeling Patterns](https://medium.com/@italoservio/mongodb-data-modeling-patterns-ae2e7a4ff155)
 5. [M320: MongoDB Data Modeling](https://learn.mongodb.com/courses/m320-mongodb-data-modeling)
 
-## Anti-Patterns
+## 2.2. Anti-Patterns
 
 1. [Schema Design Anti-Patterns Series MongoDB](https://www.youtube.com/watch?v=8CZs-0it9r4)
 2. [Schema Design Anti-Patterns - Part 1](https://www.youtube.com/watch?v=8CZs-0it9r4)
 3. [Schema Design Anti-Patterns - Part 2](https://www.youtube.com/watch?v=mHeP5IbozDU)
 
-## Data Modeling
+## 2.3. Data Modeling
 
 1. [Data Modeling with MongoDB](https://www.youtube.com/watch?v=3GHZd0zv170)
 2. [Advanced Data Modeling](https://www.youtube.com/watch?v=qGzJRsaOOO0)
@@ -154,11 +154,11 @@
 9. [DocumentDB Insider Hour | Episode 14 | Data Modeling By Karthik Vijayraghavan](https://www.twitch.tv/videos/1235477994)
 10. [DocumentDB Insider Hour | Episode 21 | Document Modeling](https://www.youtube.com/watch?v=Lqjq36GC8Os)
 
-## Change Data Streams
+## 2.4. Change Data Streams
 
 1. [Change Streams & Triggers with Node.js Tutorial](https://www.mongodb.com/developer/languages/javascript/nodejs-change-streams-triggers/)
 
-## JOINs and Aggregations
+## 2.5. JOINs and Aggregations
 
 1. [JOINs and Aggregations Using Real-Time Indexing on MongoDB Atlas](https://www.youtube.com/watch?v=6be6aEOHk3w)
 2. [Joins and Other Aggregation Enhancements Coming in MongoDB 3.2 (Part 1 of 3) – Introduction](https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-1-of-3-introduction)
@@ -166,11 +166,11 @@
 4. [Joins and Other Aggregation Enhancements Coming in MongoDB 3.2 (Part 3 of 3) – Adding Some Code Glue and Geolocation](https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-3-of-3-adding-some-code-glue-and-geolocation)
 5. [JOINs and Aggregations Using Real-Time Indexing on MongoDB Atlas By Bhat](https://www.youtube.com/watch?v=6be6aEOHk3w)
 
-## Versioning
+## 2.6. Versioning
 
 1. [Versioning using mongoose-vermongo](https://medium.com/versioning-in-database-mongodb-versioning-vermongo/database-versioning-7cf59a729bb3)
 
-## Optimistic Locking
+## 2.7. Optimistic Locking
 
 1. [Optimistic locking in Mongo](https://medium.com/@andris.briedis/optimistic-locking-in-mongo-69fa693864ec)
 
