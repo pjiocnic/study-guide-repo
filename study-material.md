@@ -30,6 +30,7 @@
   - [2.5. JOINs and Aggregations](#25-joins-and-aggregations)
   - [2.6. Versioning](#26-versioning)
   - [2.7. Optimistic Locking](#27-optimistic-locking)
+  - [2.8 DocumentDB vs MongoDB](#28-documentdb-vs-mongodb)
 - [3. IAM](#3-iam)
 - [4. Encryption](#4-encryption)
 - [5. ElasticCache](#5-elasticcache)
@@ -55,6 +56,7 @@
 1. [Scaling Amazon DocumentDB (with MongoDB compatibility), Part 1: Scaling reads by Leonid Koren and Jeff Duffy](https://aws.amazon.com/blogs/database/scaling-amazon-documentdb-with-mongodb-compatibility-part-1-scaling-reads/)
 2. [Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
 3. https://github.com/aws-samples/amazon-documentdb-integration-with-application-autoscaler
+4. https://docs.aws.amazon.com/documentdb/latest/developerguide/db-cluster-manage-performance.html#db-cluster-manage-scaling-instance
 
 ## 1.3. Backups
 
@@ -175,7 +177,9 @@
 
 1. [Optimistic locking in Mongo](https://medium.com/@andris.briedis/optimistic-locking-in-mongo-69fa693864ec)
 
+## 2.8 DocumentDB vs MongoDB
 
+1. [Amazon DocumentDB Architectural Comparisons](https://www.mongodb.com/compare/documentdb-vs-mongodb/architecture)
 
 
 
@@ -229,7 +233,9 @@
 # 12. RDS
 1. [Scaling Your Amazon RDS Instance Vertically and Horizontally by Marie Yap and Neha Gupta](https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/)
 2. [How can I distribute read requests across multiple Amazon RDS read replicas](https://aws.amazon.com/premiumsupport/knowledge-center/requests-rds-read-replicas/)
+3. [Choose the right Amazon RDS deployment option: Single-AZ instance, Multi-AZ instance, or Multi-AZ database cluster by Ankush Agarwal and Pranshu Mishra](https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/)
 
 # 13. DynamoDB
 
 1. [Use Amazon DynamoDB global tables in DynamoDB Shell by Amrith Kumar](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-global-tables-in-dynamodb-shell/)
+2. [SQL, NoSQL, and Scale: How DynamoDB scales where relational databases don't By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/)
