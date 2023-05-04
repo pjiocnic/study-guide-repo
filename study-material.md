@@ -42,7 +42,7 @@
 - [11. DynamoDB vs DocumentDB](#11-dynamodb-vs-documentdb)
 - [12. RDS](#12-rds)
 - [13. DynamoDB](#13-dynamodb)
-  - [13.1. DysnamoDB workshop](#131-dysnamodb-workshop)
+  - [13.1. DynamoDB workshop](#131-dynamodb-workshop)
   - [13.2. DynamoDB Videos](#132-dynamodb-videos)
 - [14. Lambda](#14-lambda)
 - [15. DNS](#15-dns)
@@ -245,7 +245,7 @@
 1. [Use Amazon DynamoDB global tables in DynamoDB Shell by Amrith Kumar](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-global-tables-in-dynamodb-shell/)
 2. [SQL, NoSQL, and Scale: How DynamoDB scales where relational databases don't By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/)
 
-## 13.1. DysnamoDB workshop
+## 13.1. DynamoDB workshop
 
 1. [Hands-on Labs for Amazon DynamoDB](https://amazon-dynamodb-labs.com/event-driven-architecture.html)
 
