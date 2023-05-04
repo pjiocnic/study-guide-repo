@@ -2,7 +2,7 @@
 
 <!-- TOC -->
 
-- [1. Event Driven, ECS, Lambda](#1-event-driven-ecs-lambda)
+- [1. Event broker with ECS, Lambda](#1-event-broker-with-ecs-lambda)
 - [2. Subscription filters](#2-subscription-filters)
 - [3. Centralized logging](#3-centralized-logging)
 - [4. ECS Fargate and Kinesis](#4-ecs-fargate-and-kinesis)
@@ -11,7 +11,7 @@
 
 <!-- /TOC -->
 
-# 1. Event Driven, ECS, Lambda
+# 1. Event broker with ECS, Lambda
 
 1. [Building a modern, event-driven application for insurance claims processing – Part 1 by Emily Shea and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-1/)
 2. [Building a modern, event-driven application for insurance claims processing – Part 2 by Emily Shea, Vaibhav Jain, and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-2/)
