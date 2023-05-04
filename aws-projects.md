@@ -8,6 +8,7 @@
 - [4. ECS Fargate and Kinesis](#4-ecs-fargate-and-kinesis)
 - [5. Static Websites](#5-static-websites)
 - [6. Reporting](#6-reporting)
+- [7. Step functions](#7-step-functions)
 
 <!-- /TOC -->
 
@@ -42,3 +43,8 @@
 # 6. Reporting
 
 1. [Generate Excel workbooks from Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL by Baji Shaik, Anuradha Chintha, and Uma Agarwal](https://aws.amazon.com/blogs/database/generate-excel-workbooks-from-amazon-rds-for-postgresql-or-amazon-aurora-postgresql/)
+
+# 7. Step functions
+
+1. [Orchestrating high performance computing with AWS Step Functions and AWS Batch](https://aws.amazon.com/blogs/compute/orchestrating-high-performance-computing-with-aws-step-functions-and-aws-batch/)
+- demonstrates orchestration of HPC workloads using Step Functions, AWS Batch, and Lambda
