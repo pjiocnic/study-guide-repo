@@ -30,7 +30,7 @@
   - [2.5. JOINs and Aggregations](#25-joins-and-aggregations)
   - [2.6. Versioning](#26-versioning)
   - [2.7. Optimistic Locking](#27-optimistic-locking)
-  - [2.8 DocumentDB vs MongoDB](#28-documentdb-vs-mongodb)
+  - [2.8. DocumentDB vs MongoDB](#28-documentdb-vs-mongodb)
 - [3. IAM](#3-iam)
 - [4. Encryption](#4-encryption)
 - [5. ElasticCache](#5-elasticcache)
@@ -42,6 +42,8 @@
 - [11. DynamoDB vs DocumentDB](#11-dynamodb-vs-documentdb)
 - [12. RDS](#12-rds)
 - [13. DynamoDB](#13-dynamodb)
+  - [13.1. DysnamoDB workshop](#131-dysnamodb-workshop)
+  - [13.2. DynamoDB Videos](#132-dynamodb-videos)
 - [14. Lambda](#14-lambda)
 - [15. DNS](#15-dns)
 
@@ -139,6 +141,8 @@
 3. [Data Model Examples and Patterns](https://www.mongodb.com/docs/manual/applications/data-models/)
 4. [MongoDB Data Modeling Patterns](https://medium.com/@italoservio/mongodb-data-modeling-patterns-ae2e7a4ff155)
 5. [M320: MongoDB Data Modeling](https://learn.mongodb.com/courses/m320-mongodb-data-modeling)
+6. [Building with Patterns: The Bucket Pattern](https://www.mongodb.com/blog/post/building-with-patterns-the-bucket-pattern)
+7. [All Schema Tutorials from MongoDB](https://www.mongodb.com/developer/products/mongodb/schema/tutorials/)
 
 ## 2.2. Anti-Patterns
 
@@ -158,6 +162,7 @@
 8. [MongoDB schema design](https://medium.com/hackernoon/mongodb-schema-design-86327d8fae83)
 9. [DocumentDB Insider Hour | Episode 14 | Data Modeling By Karthik Vijayraghavan](https://www.twitch.tv/videos/1235477994)
 10. [DocumentDB Insider Hour | Episode 21 | Document Modeling](https://www.youtube.com/watch?v=Lqjq36GC8Os)
+11. [Document modeling with Amazon DocumentDB and Hackolade by Karthik Vijayraghavan and Pascal Desmarets ](https://aws.amazon.com/blogs/database/document-modeling-with-amazon-documentdb-and-hackolade/)
 
 ## 2.4. Change Data Streams
 
@@ -179,11 +184,9 @@
 
 1. [Optimistic locking in Mongo](https://medium.com/@andris.briedis/optimistic-locking-in-mongo-69fa693864ec)
 
-## 2.8 DocumentDB vs MongoDB
+## 2.8. DocumentDB vs MongoDB
 
 1. [Amazon DocumentDB Architectural Comparisons](https://www.mongodb.com/compare/documentdb-vs-mongodb/architecture)
-
-
 
 # 3. IAM
 1. [Example IAM identity-based policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)
@@ -241,6 +244,17 @@
 
 1. [Use Amazon DynamoDB global tables in DynamoDB Shell by Amrith Kumar](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-global-tables-in-dynamodb-shell/)
 2. [SQL, NoSQL, and Scale: How DynamoDB scales where relational databases don't By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/)
+
+## 13.1. DysnamoDB workshop
+
+1. [Hands-on Labs for Amazon DynamoDB](https://amazon-dynamodb-labs.com/event-driven-architecture.html)
+
+## 13.2. DynamoDB Videos
+
+1. [AWS re:Invent 2019: [REPEAT 1] Amazon DynamoDB deep dive: Advanced design patterns (DAT403-R1) By Rick H](https://www.youtube.com/watch?v=6yqfmXiZTlM)
+2. [DynamoDB under the hood - How does it works? What is the architecture of the database service?](https://www.youtube.com/watch?v=ZhXqNcbR4n0&t=909s)
+3. [7 Common DynamoDB Patterns for Modeling and Building an App with Alex De Brie](https://www.youtube.com/watch?v=Q6-qWdsa8a4&t=200s)
+4. [Designing a DynamoDB Table in 4 Steps: From Entities to Access Patterns](https://www.youtube.com/watch?v=JLZOI8patlw)
 
 # 14. Lambda
 
