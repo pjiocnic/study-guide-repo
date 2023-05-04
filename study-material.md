@@ -206,12 +206,14 @@
 1. [Generate JSON Schema from JSON](https://www.jsonschema.net/)
 
 # 3. IAM
+
 1. [Example IAM identity-based policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)
 2. [How and when to use different IAM policy types](https://catalog.workshops.aws/iam-policy-types/en-US)
 3. [IAM policy evaluation workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/6dc3124a-6bd4-46eb-b5c4-be438a82ba3d/en-US)
 4. [Effective IAM for Amazon Web Services](https://www.effectiveiam.com/)
 
 # 4. Encryption
+
 1. [Difference between AWS S3 Bucket Encryption SSE-C , SSE-S3, SSE-KMS](https://awstip.com/5-minutes-to-aws-s3-bucket-encryption-sse-c-sse-s3-sse-kms-e2fb07b05cb3)
 2. [START HERE](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3)
 3. https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating/6001_s3_bucket.html
@@ -235,11 +237,13 @@
 1. [Scalable Data Processing with AWS Serverless Scatter-Gather Pattern Implementation](https://aws.plainenglish.io/scalable-data-processing-with-aws-serverless-scatter-gather-pattern-implementation-63d25d6f6d23)
 
 # 8. Centralized logging
+
 1. [Stream Amazon CloudWatch Logs to a Centralized Account for Audit and Analysis by David Bailey](https://aws.amazon.com/blogs/architecture/stream-amazon-cloudwatch-logs-to-a-centralized-account-for-audit-and-analysis/)
 2. [Using CloudWatch Logs subscription filters](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#LambdaFunctionExample)
 3. [AWS: Create a subscription filter on Cloudwatch Log groups using Kinesis](https://awstip.com/aws-create-a-subscription-filter-on-cloudwatch-log-groups-using-kinesis-44b80e365bc9)
 
 # 9. Step functions
+
 1. [Serverless Loan Broker @AWS, Part 1: Step Functions By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions.html)
 2. [Serverless Loan Broker @AWS, Part 2: Recipient List By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions_recipient_list.html)
 3. [Serverless Loan Broker @AWS, Part 3: Publish-Subscribe with SNS By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions_pubsub.html)
@@ -247,12 +251,15 @@
 5. [Serverless Loan Broker @ AWS, Part 5: Integration Patterns with CDK By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_cdk.html)
 
 # 10. Spring Boot Transactions
+
 1. [Best Practices for Using @Transactional in Spring Boot](https://medium.com/@omernaci/best-practices-for-using-transactional-in-spring-boot-ff416146a0e7)
 
 # 11. DynamoDB vs DocumentDB
+
 1. [Build with DynamoDB | When Should I use Amazon DynamoDB or Amazon DocumentDB](https://www.twitch.tv/aws/video/484071022)
 
 # 12. RDS
+
 1. [Scaling Your Amazon RDS Instance Vertically and Horizontally by Marie Yap and Neha Gupta](https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/)
 2. [How can I distribute read requests across multiple Amazon RDS read replicas](https://aws.amazon.com/premiumsupport/knowledge-center/requests-rds-read-replicas/)
 3. [[MUST SEE] Choose the right Amazon RDS deployment option: Single-AZ instance, Multi-AZ instance, or Multi-AZ database cluster by Ankush Agarwal and Pranshu Mishra](https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/)
