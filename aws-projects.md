@@ -29,6 +29,7 @@
 1. [Stream Amazon CloudWatch Logs to a Centralized Account for Audit and Analysis by David Bailey](https://aws.amazon.com/blogs/architecture/stream-amazon-cloudwatch-logs-to-a-centralized-account-for-audit-and-analysis/)
 2. [Using CloudWatch Logs subscription filters](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#LambdaFunctionExample)
 3. [AWS: Create a subscription filter on Cloudwatch Log groups using Kinesis](https://awstip.com/aws-create-a-subscription-filter-on-cloudwatch-log-groups-using-kinesis-44b80e365bc9)
+4. [How to implement centralized logging in AWS using opensearch and kibana](https://aws.amazon.com/solutions/implementations/centralized-logging/)
 
 # 4. ECS Fargate and Kinesis
 
