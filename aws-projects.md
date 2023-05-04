@@ -6,6 +6,8 @@
 - [2. Subscription filters](#2-subscription-filters)
 - [3. Centralized logging](#3-centralized-logging)
 - [4. ECS Fargate and Kinesis](#4-ecs-fargate-and-kinesis)
+- [5. Static Websites](#5-static-websites)
+- [6. Reporting](#6-reporting)
 
 <!-- /TOC -->
 
@@ -31,3 +33,11 @@
 # 4. ECS Fargate and Kinesis
 
 1. [Building a scalable streaming data processor with Amazon Kinesis Data Streams on AWS Fargate by Florian Mair](https://github.com/aws-samples/amazon-kinesis-data-processor-aws-fargate)
+
+# 5. Static Websites
+
+1. [Hosting Internal HTTPS Static Websites with ALB, S3, and PrivateLink by Schuyler Jager](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/)
+
+# 6. Reporting
+
+1. [Generate Excel workbooks from Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL by Baji Shaik, Anuradha Chintha, and Uma Agarwal](https://aws.amazon.com/blogs/database/generate-excel-workbooks-from-amazon-rds-for-postgresql-or-amazon-aurora-postgresql/)
