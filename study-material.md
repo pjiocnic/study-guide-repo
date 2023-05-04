@@ -22,6 +22,7 @@
   - [1.17. Transactions](#117-transactions)
   - [1.18. Troubleshooting](#118-troubleshooting)
   - [1.19. Cost](#119-cost)
+  - [1.20 Tools](#120-tools)
 - [2. MongoDB](#2-mongodb)
   - [2.1. Patterns](#21-patterns)
   - [2.2. Anti-Patterns](#22-anti-patterns)
@@ -31,6 +32,8 @@
   - [2.6. Versioning](#26-versioning)
   - [2.7. Optimistic Locking](#27-optimistic-locking)
   - [2.8. DocumentDB vs MongoDB](#28-documentdb-vs-mongodb)
+  - [2.9 Schema Validation](#29-schema-validation)
+  - [2.10 Tools](#210-tools)
 - [3. IAM](#3-iam)
 - [4. Encryption](#4-encryption)
 - [5. ElasticCache](#5-elasticcache)
@@ -132,6 +135,10 @@
 1. [Using cost allocation tags with Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek ](https://aws.amazon.com/blogs/database/using-cost-allocation-tags-with-amazon-documentdb-with-mongodb-compatibility/)
 2. [Optimizing for cost with Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek](https://aws.amazon.com/blogs/database/optimizing-for-cost-with-amazon-documentdb-with-mongodb-compatibility/)
 
+## 1.20 Tools
+
+1. [Studio 3T](https://docs.aws.amazon.com/documentdb/latest/developerguide/studio3t.html)
+
 # 2. MongoDB
 
 ## 2.1. Patterns
@@ -187,6 +194,16 @@
 ## 2.8. DocumentDB vs MongoDB
 
 1. [Amazon DocumentDB Architectural Comparisons](https://www.mongodb.com/compare/documentdb-vs-mongodb/architecture)
+
+## 2.9 Schema Validation
+
+1. [MongoDB Schema Validation Rules By Panos Zafeiropoulos](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b)
+2. [JSON Schema Validation - Locking down your model the smart way](https://www.mongodb.com/blog/post/json-schema-validation--locking-down-your-model-the-smart-way)
+3. [JSON Schema Validation: A Vocabulary for Structural Validation of JSON](http://json-schema.org/draft/2020-12/json-schema-validation.html#name-json-pointers)
+4. [Generate JSON Schema from JSON](https://www.jsonschema.net/)
+
+## 2.10 Tools
+1. [Generate JSON Schema from JSON](https://www.jsonschema.net/)
 
 # 3. IAM
 1. [Example IAM identity-based policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)
