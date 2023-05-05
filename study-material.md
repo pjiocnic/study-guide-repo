@@ -34,7 +34,7 @@
   - [2.8. DocumentDB vs MongoDB](#28-documentdb-vs-mongodb)
   - [2.9. Schema Validation](#29-schema-validation)
   - [2.10. Tools](#210-tools)
-  - [2.11 Sample Data](#211-sample-data)
+  - [2.11. Sample Data](#211-sample-data)
 - [3. IAM](#3-iam)
 - [4. Encryption](#4-encryption)
 - [5. ElasticCache](#5-elasticcache)
@@ -49,6 +49,8 @@
   - [11.2. DynamoDB Videos](#112-dynamodb-videos)
 - [12. Lambda](#12-lambda)
 - [13. DNS](#13-dns)
+- [14. S3](#14-s3)
+  - [14.1. Encryption](#141-encryption)
 
 <!-- /TOC -->
 
@@ -211,7 +213,7 @@
 ## 2.10. Tools
 1. [Generate JSON Schema from JSON](https://www.jsonschema.net/)
 
-## 2.11 Sample Data
+## 2.11. Sample Data
 
 1. [Sample Data from MongoDB](https://www.mongodb.com/docs/atlas/sample-data/)
 
@@ -296,3 +298,10 @@
 
 1. [How to centralize DNS management in a multi-account environment by Mahmoud Matouk ](https://aws.amazon.com/blogs/security/how-to-centralize-dns-management-in-a-multi-account-environment/)
 2. [$\textcolor{red}{\textsf{MUST SEE}}$ Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
+
+# 14. S3
+
+## 14.1. Encryption
+
+1. [workshop - Encryption On AWS - Tutorial](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3/serverside/sses3)
+2. [5 minutes to AWS S3 Bucket Encryption SSE-C , SSE-S3, SSE-KMS](https://awstip.com/5-minutes-to-aws-s3-bucket-encryption-sse-c-sse-s3-sse-kms-e2fb07b05cb3)
