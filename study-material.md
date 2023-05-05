@@ -93,7 +93,7 @@
 
 ## 1.10. AWS Config
 
-1. [[MUST SEE] Evaluate Amazon DocumentDB (with MongoDB compatibility) configurations using AWS Config by Jesus Bernal and Karthik Vijayraghavan](https://aws.amazon.com/blogs/database/evaluate-amazon-documentdb-with-mongodb-compatibility-configurations-using-aws-config/)
+1. [<span style="color:red">[MUST SEE]</span> Evaluate Amazon DocumentDB (with MongoDB compatibility) configurations using AWS Config by Jesus Bernal and Karthik Vijayraghavan](https://aws.amazon.com/blogs/database/evaluate-amazon-documentdb-with-mongodb-compatibility-configurations-using-aws-config/)
 
 ## 1.11. Archiving
 
@@ -107,8 +107,8 @@
 
 1. [Introduction to data modeling with Amazon DocumentDB (with MongoDB compatibility) for relational database users by Sameer Kumar](https://aws.amazon.com/blogs/database/introduction-to-data-modeling-with-amazon-documentdb-with-mongodb-compatibility-for-relational-database-users/)
 2. [Document modeling with Amazon DocumentDB and Hackolade by Karthik Vijayraghavan and Pascal Desmarets](https://aws.amazon.com/blogs/database/document-modeling-with-amazon-documentdb-and-hackolade/)
-3. [[MUST SEE] Migrating relational databases to Amazon DocumentDB (with MongoDB compatibility) by Ganesh Sawhney](https://aws.amazon.com/blogs/database/migrating-relational-databases-to-amazon-documentdb-with-mongodb-compatibility/)
-4. [[MUST SEE] DocumentDB Insider Hour | Episode 21 | Document Modeling](https://www.youtube.com/watch?v=Lqjq36GC8Os)
+3. [<span style="color:red">[MUST SEE]</span> Migrating relational databases to Amazon DocumentDB (with MongoDB compatibility) by Ganesh Sawhney](https://aws.amazon.com/blogs/database/migrating-relational-databases-to-amazon-documentdb-with-mongodb-compatibility/)
+4. [<span style="color:red">[MUST SEE]</span> DocumentDB Insider Hour | Episode 21 | Document Modeling](https://www.youtube.com/watch?v=Lqjq36GC8Os)
 5. [Data Modeling Methodology for Amazon DocumentDB- AWS Virtual Workshop By Mihai Aldoiu and Jason Plank](https://www.youtube.com/watch?v=Y87DVChZfwk&t=3s&pp=ygUpYXdzIGRvY3VtZW50ZGIgbWloYWkgYWxkb2x1IGRhdGEgbW9kZWxpbmc%3D)
 
 ## 1.14. Keys
@@ -127,7 +127,7 @@
 
 1. [Introducing transactions in Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek](https://aws.amazon.com/blogs/database/introducing-transactions-in-amazon-documentdb-with-mongodb-compatibility/)
 2. [Introducing MongoDB 4.0 compatibility and Transactions in Amazon DocumentDB by Joseph Idziorek ](https://aws.amazon.com/blogs/database/introducing-amazon-documentdb-with-mongodb-compatibility-4-0/)
-3. [[MUST SEE] Using Transactions with Amazon DocumentDB (with MongoDB compatibility) 4.0 - AWS Online Tech Talks](https://www.youtube.com/watch?v=5m_jRQvOo_I)
+3. [<span style="color:red">[MUST SEE]</span> Using Transactions with Amazon DocumentDB (with MongoDB compatibility) 4.0 - AWS Online Tech Talks](https://www.youtube.com/watch?v=5m_jRQvOo_I)
 
 ## 1.18. Troubleshooting
 
@@ -174,7 +174,8 @@
 9. [DocumentDB Insider Hour | Episode 14 | Data Modeling By Karthik Vijayraghavan](https://www.twitch.tv/videos/1235477994)
 10. [DocumentDB Insider Hour | Episode 21 | Document Modeling](https://www.youtube.com/watch?v=Lqjq36GC8Os)
 11. [Document modeling with Amazon DocumentDB and Hackolade by Karthik Vijayraghavan and Pascal Desmarets ](https://aws.amazon.com/blogs/database/document-modeling-with-amazon-documentdb-and-hackolade/)
-12. [[MY NEXT] A Complete Methodology of Data Modeling for MongoDB](https://www.youtube.com/watch?v=DUCvYbcgGsQ)
+12. [<span style="color:red">[MUST SEE]</span> A Complete Methodology of Data Modeling for MongoDB](https://www.youtube.com/watch?v=DUCvYbcgGsQ)
+13. [Data Modeling Introduction By MongoDB Docs](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/)
 
 ## 2.4. Change Data Streams
 
@@ -267,7 +268,7 @@
 
 1. [Scaling Your Amazon RDS Instance Vertically and Horizontally by Marie Yap and Neha Gupta](https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/)
 2. [How can I distribute read requests across multiple Amazon RDS read replicas](https://aws.amazon.com/premiumsupport/knowledge-center/requests-rds-read-replicas/)
-3. [[MUST SEE] Choose the right Amazon RDS deployment option: Single-AZ instance, Multi-AZ instance, or Multi-AZ database cluster by Ankush Agarwal and Pranshu Mishra](https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/)
+3. [<span style="color:red">[MUST SEE]</span> Choose the right Amazon RDS deployment option: Single-AZ instance, Multi-AZ instance, or Multi-AZ database cluster by Ankush Agarwal and Pranshu Mishra](https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/)
 
 # 11. DynamoDB
 
