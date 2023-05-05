@@ -22,7 +22,7 @@
   - [1.17. Transactions](#117-transactions)
   - [1.18. Troubleshooting](#118-troubleshooting)
   - [1.19. Cost](#119-cost)
-  - [1.20 Tools](#120-tools)
+  - [1.20. Tools](#120-tools)
 - [2. MongoDB](#2-mongodb)
   - [2.1. Patterns](#21-patterns)
   - [2.2. Anti-Patterns](#22-anti-patterns)
@@ -32,21 +32,23 @@
   - [2.6. Versioning](#26-versioning)
   - [2.7. Optimistic Locking](#27-optimistic-locking)
   - [2.8. DocumentDB vs MongoDB](#28-documentdb-vs-mongodb)
-  - [2.9 Schema Validation](#29-schema-validation)
-  - [2.10 Tools](#210-tools)
+  - [2.9. Schema Validation](#29-schema-validation)
+  - [2.10. Tools](#210-tools)
+  - [2.11 Sample Data](#211-sample-data)
 - [3. IAM](#3-iam)
 - [4. Encryption](#4-encryption)
 - [5. ElasticCache](#5-elasticcache)
-- [7. Design Patterns](#7-design-patterns)
-- [9. Step functions](#9-step-functions)
-- [10. Spring Boot Transactions](#10-spring-boot-transactions)
-- [11. DynamoDB vs DocumentDB](#11-dynamodb-vs-documentdb)
-- [12. RDS](#12-rds)
-- [13. DynamoDB](#13-dynamodb)
-  - [13.1. DynamoDB workshop](#131-dynamodb-workshop)
-  - [13.2. DynamoDB Videos](#132-dynamodb-videos)
-- [14. Lambda](#14-lambda)
-- [15. DNS](#15-dns)
+- [6. Design Patterns](#6-design-patterns)
+  - [6.1. Storage-first patterns](#61-storage-first-patterns)
+- [7. Step functions](#7-step-functions)
+- [8. Spring Boot Transactions](#8-spring-boot-transactions)
+- [9. DynamoDB vs DocumentDB](#9-dynamodb-vs-documentdb)
+- [10. RDS](#10-rds)
+- [11. DynamoDB](#11-dynamodb)
+  - [11.1. DynamoDB workshop](#111-dynamodb-workshop)
+  - [11.2. DynamoDB Videos](#112-dynamodb-videos)
+- [12. Lambda](#12-lambda)
+- [13. DNS](#13-dns)
 
 <!-- /TOC -->
 
@@ -62,6 +64,7 @@
 2. [Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
 3. https://github.com/aws-samples/amazon-documentdb-integration-with-application-autoscaler
 4. https://docs.aws.amazon.com/documentdb/latest/developerguide/db-cluster-manage-performance.html#db-cluster-manage-scaling-instance
+5. [New Amazon DocumentDB features for aggregations, arrays, and indexing by Joseph Idziorek](https://aws.amazon.com/blogs/database/new-amazon-documentdb-features-for-aggregations-arrays-and-indexing/)
 
 ## 1.3. Backups
 
@@ -126,7 +129,6 @@
 2. [Introducing MongoDB 4.0 compatibility and Transactions in Amazon DocumentDB by Joseph Idziorek ](https://aws.amazon.com/blogs/database/introducing-amazon-documentdb-with-mongodb-compatibility-4-0/)
 3. [[MUST SEE] Using Transactions with Amazon DocumentDB (with MongoDB compatibility) 4.0 - AWS Online Tech Talks](https://www.youtube.com/watch?v=5m_jRQvOo_I)
 
-
 ## 1.18. Troubleshooting
 
 1. [Profiling slow-running queries in Amazon DocumentDB (with MongoDB compatibility) by Meet Bhagdev](https://aws.amazon.com/blogs/database/profiling-slow-running-queries-in-amazon-documentdb-with-mongodb-compatibility/ )
@@ -137,7 +139,7 @@
 1. [Using cost allocation tags with Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek ](https://aws.amazon.com/blogs/database/using-cost-allocation-tags-with-amazon-documentdb-with-mongodb-compatibility/)
 2. [Optimizing for cost with Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek](https://aws.amazon.com/blogs/database/optimizing-for-cost-with-amazon-documentdb-with-mongodb-compatibility/)
 
-## 1.20 Tools
+## 1.20. Tools
 
 1. [Studio 3T](https://docs.aws.amazon.com/documentdb/latest/developerguide/studio3t.html)
 
@@ -197,15 +199,19 @@
 
 1. [Amazon DocumentDB Architectural Comparisons](https://www.mongodb.com/compare/documentdb-vs-mongodb/architecture)
 
-## 2.9 Schema Validation
+## 2.9. Schema Validation
 
 1. [MongoDB Schema Validation Rules By Panos Zafeiropoulos](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b)
 2. [JSON Schema Validation - Locking down your model the smart way](https://www.mongodb.com/blog/post/json-schema-validation--locking-down-your-model-the-smart-way)
 3. [JSON Schema Validation: A Vocabulary for Structural Validation of JSON](http://json-schema.org/draft/2020-12/json-schema-validation.html#name-json-pointers)
 4. [Generate JSON Schema from JSON](https://www.jsonschema.net/)
 
-## 2.10 Tools
+## 2.10. Tools
 1. [Generate JSON Schema from JSON](https://www.jsonschema.net/)
+
+## 2.11 Sample Data
+
+1. [Sample Data from MongoDB](https://www.mongodb.com/docs/atlas/sample-data/)
 
 # 3. IAM
 
@@ -227,11 +233,20 @@
 3. [Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
 4. [Automated query caching into Amazon ElastiCache for Amazon RDS, Amazon Aurora and Amazon Redshift by Darin Briskman](https://aws.amazon.com/blogs/database/automating-sql-caching-for-amazon-elasticache-and-amazon-rds)
 
-# 7. Design Patterns
+# 6. Design Patterns
 
 1. [Scalable Data Processing with AWS Serverless Scatter-Gather Pattern Implementation](https://aws.plainenglish.io/scalable-data-processing-with-aws-serverless-scatter-gather-pattern-implementation-63d25d6f6d23)
+2. [Serverless-Architecture-Patterns-in-AWS](https://blog.richiebartlett.com/Work_%E4%BB%95%E4%BA%8B/Serverless-Architecture-Patterns-in-AWS/)
 
-# 9. Step functions
+## 6.1. Storage-first patterns
+
+1. [Building storage-first serverless applications with HTTP APIs service integrations by Eric Johnson](https://aws.amazon.com/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/)
+2. [Build Better Serverless APIs By Going Storage First By Allen Helton](https://www.readysetcloud.io/blog/allen.helton/built-better-serverless-apis-by-going-storage-first/)
+3. [Storage-First pattern in AWS with API Gateway, Part 1: using S3](https://dev.to/aws-builders/storage-first-pattern-in-aws-with-api-gateway-part-1-using-s3-1l5p)
+4. [The Storage First Pattern By Jeremy Daly](https://www.jeremydaly.com/the-storage-first-pattern/)
+5. [Storage-First Serverless Solutions By Serverless Advocate](https://blog.serverlessadvocate.com/storage-first-serverless-solutions-c0fc182243b9)
+
+# 7. Step functions
 
 1. [Serverless Loan Broker @AWS, Part 1: Step Functions By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions.html)
 2. [Serverless Loan Broker @AWS, Part 2: Recipient List By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions_recipient_list.html)
@@ -239,43 +254,43 @@
 4. [Serverless Loan Broker @ AWS, Part 4: Automation By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_automation.html)
 5. [Serverless Loan Broker @ AWS, Part 5: Integration Patterns with CDK By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_cdk.html)
 
-# 10. Spring Boot Transactions
+# 8. Spring Boot Transactions
 
 1. [Best Practices for Using @Transactional in Spring Boot](https://medium.com/@omernaci/best-practices-for-using-transactional-in-spring-boot-ff416146a0e7)
 
-# 11. DynamoDB vs DocumentDB
+# 9. DynamoDB vs DocumentDB
 
 1. [Build with DynamoDB | When Should I use Amazon DynamoDB or Amazon DocumentDB](https://www.twitch.tv/aws/video/484071022)
 
-# 12. RDS
+# 10. RDS
 
 1. [Scaling Your Amazon RDS Instance Vertically and Horizontally by Marie Yap and Neha Gupta](https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/)
 2. [How can I distribute read requests across multiple Amazon RDS read replicas](https://aws.amazon.com/premiumsupport/knowledge-center/requests-rds-read-replicas/)
 3. [[MUST SEE] Choose the right Amazon RDS deployment option: Single-AZ instance, Multi-AZ instance, or Multi-AZ database cluster by Ankush Agarwal and Pranshu Mishra](https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/)
 
-# 13. DynamoDB
+# 11. DynamoDB
 
 1. [Use Amazon DynamoDB global tables in DynamoDB Shell by Amrith Kumar](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-global-tables-in-dynamodb-shell/)
 2. [SQL, NoSQL, and Scale: How DynamoDB scales where relational databases don't By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/)
 
-## 13.1. DynamoDB workshop
+## 11.1. DynamoDB workshop
 
 1. [Hands-on Labs for Amazon DynamoDB](https://amazon-dynamodb-labs.com/event-driven-architecture.html)
 
-## 13.2. DynamoDB Videos
+## 11.2. DynamoDB Videos
 
 1. [AWS re:Invent 2019: [REPEAT 1] Amazon DynamoDB deep dive: Advanced design patterns (DAT403-R1) By Rick H](https://www.youtube.com/watch?v=6yqfmXiZTlM)
 2. [DynamoDB under the hood - How does it works? What is the architecture of the database service?](https://www.youtube.com/watch?v=ZhXqNcbR4n0&t=909s)
 3. [7 Common DynamoDB Patterns for Modeling and Building an App with Alex De Brie](https://www.youtube.com/watch?v=Q6-qWdsa8a4&t=200s)
 4. [Designing a DynamoDB Table in 4 Steps: From Entities to Access Patterns](https://www.youtube.com/watch?v=JLZOI8patlw)
 
-# 14. Lambda
+# 12. Lambda
 
 1. [S3-to-Lambda patterns: Avoiding recursive invocation](https://github.com/aws-samples/s3-to-lambda-invocation-patterns)
 2. [Understanding techniques to reduce AWS Lambda costs in serverless applications by James Beswick](https://aws.amazon.com/blogs/compute/understanding-techniques-to-reduce-aws-lambda-costs-in-serverless-applications/)
 3. [Using AWS Lambda SnapStart with infrastructure as code and CI/CD pipelines by James Beswick](https://aws.amazon.com/blogs/compute/using-aws-lambda-snapstart-with-infrastructure-as-code-and-ci-cd-pipelines/)
 
-# 15. DNS
+# 13. DNS
 
 1. [How to centralize DNS management in a multi-account environment by Mahmoud Matouk ](https://aws.amazon.com/blogs/security/how-to-centralize-dns-management-in-a-multi-account-environment/)
 2. [Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal |](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
