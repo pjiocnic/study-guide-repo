@@ -27,6 +27,7 @@
 2. [How To Use AWS CloudWatch Subscription Filters By Kanika Modi](https://aws.plainenglish.io/how-to-use-aws-cloudwatch-subscription-filters-2f33f3e450c9)
 3. [Sending events to CloudWatch Logs](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/send-cloudtrail-events-to-cloudwatch-logs.html)
 4. [Using CloudWatch Logs subscription filters](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#LambdaFunctionExample)
+5. [Sending CloudTrail events to CloudWatch Logs](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/send-cloudtrail-events-to-cloudwatch-logs.html)
 
 # 3. Centralized logging
 
