@@ -36,21 +36,22 @@
   - [2.10. Tools](#210-tools)
   - [2.11. Sample Data](#211-sample-data)
 - [3. IAM](#3-iam)
-- [4. Encryption](#4-encryption)
-- [5. ElasticCache](#5-elasticcache)
-- [6. Design Patterns](#6-design-patterns)
-  - [6.1. Storage-first patterns](#61-storage-first-patterns)
-- [7. Step functions](#7-step-functions)
-- [8. Spring Boot Transactions](#8-spring-boot-transactions)
-- [9. DynamoDB vs DocumentDB](#9-dynamodb-vs-documentdb)
-- [10. RDS](#10-rds)
-- [11. DynamoDB](#11-dynamodb)
-  - [11.1. DynamoDB workshop](#111-dynamodb-workshop)
-  - [11.2. DynamoDB Videos](#112-dynamodb-videos)
-- [12. Lambda](#12-lambda)
-- [13. DNS](#13-dns)
-- [14. S3](#14-s3)
-  - [14.1. Encryption](#141-encryption)
+- [4. Organizations](#4-organizations)
+- [5. Encryption](#5-encryption)
+- [6. ElasticCache](#6-elasticcache)
+- [7. Design Patterns](#7-design-patterns)
+  - [7.1. Storage-first patterns](#71-storage-first-patterns)
+- [8. Step functions](#8-step-functions)
+- [9. Spring Boot Transactions](#9-spring-boot-transactions)
+- [10. DynamoDB vs DocumentDB](#10-dynamodb-vs-documentdb)
+- [11. RDS](#11-rds)
+- [12. DynamoDB](#12-dynamodb)
+  - [12.1. DynamoDB workshop](#121-dynamodb-workshop)
+  - [12.2. DynamoDB Videos](#122-dynamodb-videos)
+- [13. Lambda](#13-lambda)
+- [14. DNS](#14-dns)
+- [15. S3](#15-s3)
+  - [15.1. Encryption](#151-encryption)
 
 <!-- /TOC -->
 
@@ -224,25 +225,30 @@
 3. [IAM policy evaluation workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/6dc3124a-6bd4-46eb-b5c4-be438a82ba3d/en-US)
 4. [Effective IAM for Amazon Web Services](https://www.effectiveiam.com/)
 
-# 4. Encryption
+# 4. Organizations
+
+1. [How to Use Service Control Policies in AWS Organizations by Frank Phillis](https://aws.amazon.com/blogs/security/how-to-use-service-control-policies-in-aws-organizations/)
+2. [Best Practices for Organizational Units with AWS Organizations by Andrew Blackham and Sam Elmalak ](https://aws.amazon.com/blogs/mt/best-practices-for-organizational-units-with-aws-organizations/)
+
+# 5. Encryption
 
 1. [Difference between AWS S3 Bucket Encryption SSE-C , SSE-S3, SSE-KMS](https://awstip.com/5-minutes-to-aws-s3-bucket-encryption-sse-c-sse-s3-sse-kms-e2fb07b05cb3)
 2. [START HERE](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3)
 3. https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating/6001_s3_bucket.html
 
-# 5. ElasticCache
+# 6. ElasticCache
 
 1. [Using the Heimdall Proxy to Split Reads and Writes for Amazon Aurora and Amazon RDS by Jatin Singh and Erik Brandsberg](https://aws.amazon.com/blogs/apn/using-the-heimdall-proxy-to-split-reads-and-writes-for-amazon-aurora-and-amazon-rds/)
 2. [Database Caching Strategies Using Redis](https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html)
 3. [Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
 4. [Automated query caching into Amazon ElastiCache for Amazon RDS, Amazon Aurora and Amazon Redshift by Darin Briskman](https://aws.amazon.com/blogs/database/automating-sql-caching-for-amazon-elasticache-and-amazon-rds)
 
-# 6. Design Patterns
+# 7. Design Patterns
 
 1. [Scalable Data Processing with AWS Serverless Scatter-Gather Pattern Implementation](https://aws.plainenglish.io/scalable-data-processing-with-aws-serverless-scatter-gather-pattern-implementation-63d25d6f6d23)
 2. [Serverless-Architecture-Patterns-in-AWS](https://blog.richiebartlett.com/Work_%E4%BB%95%E4%BA%8B/Serverless-Architecture-Patterns-in-AWS/)
 
-## 6.1. Storage-first patterns
+## 7.1. Storage-first patterns
 
 1. [Building storage-first serverless applications with HTTP APIs service integrations by Eric Johnson](https://aws.amazon.com/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/)
 2. [Build Better Serverless APIs By Going Storage First By Allen Helton](https://www.readysetcloud.io/blog/allen.helton/built-better-serverless-apis-by-going-storage-first/)
@@ -250,7 +256,7 @@
 4. [The Storage First Pattern By Jeremy Daly](https://www.jeremydaly.com/the-storage-first-pattern/)
 5. [Storage-First Serverless Solutions By Serverless Advocate](https://blog.serverlessadvocate.com/storage-first-serverless-solutions-c0fc182243b9)
 
-# 7. Step functions
+# 8. Step functions
 
 1. [Serverless Loan Broker @AWS, Part 1: Step Functions By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions.html)
 2. [Serverless Loan Broker @AWS, Part 2: Recipient List By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions_recipient_list.html)
@@ -258,50 +264,50 @@
 4. [Serverless Loan Broker @ AWS, Part 4: Automation By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_automation.html)
 5. [Serverless Loan Broker @ AWS, Part 5: Integration Patterns with CDK By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_cdk.html)
 
-# 8. Spring Boot Transactions
+# 9. Spring Boot Transactions
 
 1. [Best Practices for Using @Transactional in Spring Boot](https://medium.com/@omernaci/best-practices-for-using-transactional-in-spring-boot-ff416146a0e7)
 
-# 9. DynamoDB vs DocumentDB
+# 10. DynamoDB vs DocumentDB
 
 1. [Build with DynamoDB | When Should I use Amazon DynamoDB or Amazon DocumentDB](https://www.twitch.tv/aws/video/484071022)
 
-# 10. RDS
+# 11. RDS
 
 1. [Scaling Your Amazon RDS Instance Vertically and Horizontally by Marie Yap and Neha Gupta](https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/)
 2. [How can I distribute read requests across multiple Amazon RDS read replicas](https://aws.amazon.com/premiumsupport/knowledge-center/requests-rds-read-replicas/)
 3. [<span style="color:red">[MUST SEE]</span> Choose the right Amazon RDS deployment option: Single-AZ instance, Multi-AZ instance, or Multi-AZ database cluster by Ankush Agarwal and Pranshu Mishra](https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/)
 
-# 11. DynamoDB
+# 12. DynamoDB
 
 1. [Use Amazon DynamoDB global tables in DynamoDB Shell by Amrith Kumar](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-global-tables-in-dynamodb-shell/)
 2. [SQL, NoSQL, and Scale: How DynamoDB scales where relational databases don't By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/)
 
-## 11.1. DynamoDB workshop
+## 12.1. DynamoDB workshop
 
 1. [Hands-on Labs for Amazon DynamoDB](https://amazon-dynamodb-labs.com/event-driven-architecture.html)
 
-## 11.2. DynamoDB Videos
+## 12.2. DynamoDB Videos
 
 1. [AWS re:Invent 2019: [REPEAT 1] Amazon DynamoDB deep dive: Advanced design patterns (DAT403-R1) By Rick H](https://www.youtube.com/watch?v=6yqfmXiZTlM)
 2. [DynamoDB under the hood - How does it works? What is the architecture of the database service?](https://www.youtube.com/watch?v=ZhXqNcbR4n0&t=909s)
 3. [7 Common DynamoDB Patterns for Modeling and Building an App with Alex De Brie](https://www.youtube.com/watch?v=Q6-qWdsa8a4&t=200s)
 4. [Designing a DynamoDB Table in 4 Steps: From Entities to Access Patterns](https://www.youtube.com/watch?v=JLZOI8patlw)
 
-# 12. Lambda
+# 13. Lambda
 
 1. [S3-to-Lambda patterns: Avoiding recursive invocation](https://github.com/aws-samples/s3-to-lambda-invocation-patterns)
 2. [Understanding techniques to reduce AWS Lambda costs in serverless applications by James Beswick](https://aws.amazon.com/blogs/compute/understanding-techniques-to-reduce-aws-lambda-costs-in-serverless-applications/)
 3. [Using AWS Lambda SnapStart with infrastructure as code and CI/CD pipelines by James Beswick](https://aws.amazon.com/blogs/compute/using-aws-lambda-snapstart-with-infrastructure-as-code-and-ci-cd-pipelines/)
 
-# 13. DNS
+# 14. DNS
 
 1. [How to centralize DNS management in a multi-account environment by Mahmoud Matouk ](https://aws.amazon.com/blogs/security/how-to-centralize-dns-management-in-a-multi-account-environment/)
 2. [$\textcolor{red}{\textsf{MUST SEE}}$ Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
 
-# 14. S3
+# 15. S3
 
-## 14.1. Encryption
+## 15.1. Encryption
 
 1. [workshop - Encryption On AWS - Tutorial](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3/serverside/sses3)
 2. [5 minutes to AWS S3 Bucket Encryption SSE-C , SSE-S3, SSE-KMS](https://awstip.com/5-minutes-to-aws-s3-bucket-encryption-sse-c-sse-s3-sse-kms-e2fb07b05cb3)
