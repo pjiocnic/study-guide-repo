@@ -12,6 +12,12 @@
 
 
 # Parked
-AWS Lambda in Action Danilo Poccia
+1. AWS Lambda in Action Danilo Poccia
 Chapter 16. Calling external services
 Chapter 17. Receiving events from other services
+2. [Schema validation from MongoDB docs](https://www.mongodb.com/docs/manual/core/schema-validation/)
+3. MongoDB Applied Design Patterns Rick Copeland
+    - Chapter 1. To Embed or Reference
+    - Chapter 2. Polymorphic Schemas
+    - Chapter 3. Mimicking Transactional Behavior
+4.

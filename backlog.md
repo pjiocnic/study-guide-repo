@@ -33,8 +33,11 @@
   - [2.7. Optimistic Locking](#27-optimistic-locking)
   - [2.8. DocumentDB vs MongoDB](#28-documentdb-vs-mongodb)
   - [2.9. Schema Validation](#29-schema-validation)
-  - [2.10. Tools](#210-tools)
-  - [2.11. Sample Data](#211-sample-data)
+  - [2.10. Aggregations](#210-aggregations)
+  - [2.11. Tools](#211-tools)
+  - [2.12. Sample Data](#212-sample-data)
+  - [2.13. Books](#213-books)
+  - [2.14. Courses](#214-courses)
 - [3. IAM](#3-iam)
 - [4. Organizations](#4-organizations)
 - [5. Encryption](#5-encryption)
@@ -52,7 +55,7 @@
 - [12. DynamoDB](#12-dynamodb)
   - [12.1. DynamoDB workshop](#121-dynamodb-workshop)
   - [12.2. DynamoDB Videos](#122-dynamodb-videos)
-  - [12.3 Lambda](#123-lambda)
+  - [12.3. Lambda](#123-lambda)
 - [13. Lambda](#13-lambda)
 - [14. DNS](#14-dns)
 - [15. S3](#15-s3)
@@ -143,7 +146,7 @@
 
 1. [Introducing transactions in Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek](https://aws.amazon.com/blogs/database/introducing-transactions-in-amazon-documentdb-with-mongodb-compatibility/)
 2. [Introducing MongoDB 4.0 compatibility and Transactions in Amazon DocumentDB by Joseph Idziorek ](https://aws.amazon.com/blogs/database/introducing-amazon-documentdb-with-mongodb-compatibility-4-0/)
-3. [<span style="color:red">[MY NEXT]</span> Using Transactions with Amazon DocumentDB (with MongoDB compatibility) 4.0 - AWS Online Tech Talks](https://www.youtube.com/watch?v=5m_jRQvOo_I)
+3. [[MY NEXT]Using Transactions with Amazon DocumentDB (with MongoDB compatibility) 4.0 - AWS Online Tech Talks](https://www.youtube.com/watch?v=5m_jRQvOo_I)
 
 ## 1.18. Troubleshooting
 
@@ -170,6 +173,7 @@
 5. [M320: MongoDB Data Modeling](https://learn.mongodb.com/courses/m320-mongodb-data-modeling)
 6. [Building with Patterns: The Bucket Pattern](https://www.mongodb.com/blog/post/building-with-patterns-the-bucket-pattern)
 7. [All Schema Tutorials from MongoDB](https://www.mongodb.com/developer/products/mongodb/schema/tutorials/)
+8. [Building with Patterns: A Summary](https://www.mongodb.com/blog/post/building-with-patterns-a-summary)
 
 ## 2.2. Anti-Patterns
 
@@ -226,12 +230,27 @@
 5. [Schema validation from MongoDB docs](https://www.mongodb.com/docs/manual/core/schema-validation/)
 6. [Add a choice, conditional, or pattern field from hackolade docs](https://hackolade.com/help/Addachoiceconditionalorpatternfi.html)
 
-## 2.10. Tools
+## 2.10. Aggregations
+
+1. [Use a View to Join Two Collections](https://www.mongodb.com/docs/manual/core/views/join-collections-with-view/)
+
+## 2.11. Tools
 1. [Generate JSON Schema from JSON](https://www.jsonschema.net/)
 
-## 2.11. Sample Data
+## 2.12. Sample Data
 
 1. [Sample Data from MongoDB](https://www.mongodb.com/docs/atlas/sample-data/)
+
+## 2.13. Books
+
+1. [Practical MongoDB Aggregations Book](https://www.practical-mongodb-aggregations.com/front-cover.html)
+
+## 2.14. Courses
+
+1. [The MongoDB Aggregation Framework (M121)](https://university.mongodb.com/courses/M121/about)
+2. [M100: MongoDB for SQL Pros](https://learn.mongodb.com/courses/m100-mongodb-for-sql-pros)
+3. [MongoDB CRUD Operations in Java](https://learn.mongodb.com/learn/course/mongodb-crud-operations-in-java/lesson-1-working-with-mongodb-documents-in-java/learn?client=customer)
+4. [Using MongoDB with Java](https://learn.mongodb.com/learn/learning-path/using-mongodb-with-java)
 
 # 3. IAM
 
@@ -328,7 +347,7 @@
 3. [7 Common DynamoDB Patterns for Modeling and Building an App with Alex De Brie](https://www.youtube.com/watch?v=Q6-qWdsa8a4&t=200s)
 4. [Designing a DynamoDB Table in 4 Steps: From Entities to Access Patterns](https://www.youtube.com/watch?v=JLZOI8patlw)
 
-## 12.3 Lambda
+## 12.3. Lambda
 1. [Building enterprise applications using Amazon DynamoDB, AWS Lambda, and Go by Geoffroy Rollat ](https://aws.amazon.com/blogs/database/building-enterprise-applications-using-amazon-dynamodb-aws-lambda-and-golang/)
 
 
