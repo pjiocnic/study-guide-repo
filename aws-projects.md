@@ -10,8 +10,9 @@
 - [6. Reporting](#6-reporting)
 - [7. Step functions](#7-step-functions)
 - [8. URL Shortner](#8-url-shortner)
-  - [Without Lambda](#without-lambda)
-  - [With Lambda](#with-lambda)
+  - [8.1. Without Lambda](#81-without-lambda)
+  - [8.2. With Lambda](#82-with-lambda)
+- [9. Serverless](#9-serverless)
 
 <!-- /TOC -->
 
@@ -55,13 +56,18 @@
 
 # 8. URL Shortner
 
-## Without Lambda
+## 8.1. Without Lambda
 
 1. [Building a serverless URL shortener app without AWS Lambda – part 1 by Eric Johnson](https://aws.amazon.com/blogs/compute/building-a-serverless-url-shortener-app-without-lambda-part-1/)
 2. [Building a serverless URL shortener app without AWS Lambda – part 2 by Eric Johnson](https://aws.amazon.com/blogs/compute/building-a-serverless-url-shortener-app-without-lambda-part-2/)
 3. [Building a serverless URL shortener app without AWS Lambda – part 3 by Eric Johnson](https://aws.amazon.com/blogs/compute/building-a-serverless-url-shortener-app-without-lambda-part-3/)
 
-## With Lambda
+## 8.2. With Lambda
 
 1. [Serverless URL Shortener using AWS | by Jeeri Deka](https://medium.com/@jeeri95/serverless-url-shortener-using-aws-97f1929c475e)
 2. [Building Serverless URL Shortener Service on AWS](https://dev.to/aws-builders/building-serverless-url-shortener-service-on-aws-1895)
+
+# 9. Serverless
+
+1. [I Built a Serverless App To Cross-Post My Blogs By Allen Helton](https://betterprogramming.pub/i-built-a-serverless-app-to-cross-post-my-blogs-aa4c6979ff9b)
+

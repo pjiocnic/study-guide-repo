@@ -41,10 +41,10 @@
 - [6. ElasticCache](#6-elasticcache)
 - [7. Design Patterns](#7-design-patterns)
   - [7.1. Storage-first patterns](#71-storage-first-patterns)
-  - [7.2 Sequence Generator](#72-sequence-generator)
-  - [7.3 Priority Queues](#73-priority-queues)
-  - [7.4 Webhooks](#74-webhooks)
-  - [7.5 Scatter Gather](#75-scatter-gather)
+  - [7.2. Sequence Generator](#72-sequence-generator)
+  - [7.3. Priority Queues](#73-priority-queues)
+  - [7.4. Webhooks](#74-webhooks)
+  - [7.5. Scatter Gather](#75-scatter-gather)
 - [8. Step functions](#8-step-functions)
 - [9. Spring Boot Transactions](#9-spring-boot-transactions)
 - [10. DynamoDB vs DocumentDB](#10-dynamodb-vs-documentdb)
@@ -52,12 +52,16 @@
 - [12. DynamoDB](#12-dynamodb)
   - [12.1. DynamoDB workshop](#121-dynamodb-workshop)
   - [12.2. DynamoDB Videos](#122-dynamodb-videos)
+  - [12.3 Lambda](#123-lambda)
 - [13. Lambda](#13-lambda)
 - [14. DNS](#14-dns)
 - [15. S3](#15-s3)
   - [15.1. Encryption](#151-encryption)
-  - [15.2 Uploading](#152-uploading)
-- [Testing](#testing)
+  - [15.2. Uploading](#152-uploading)
+- [16. Testing](#16-testing)
+- [17. Case Studies](#17-case-studies)
+- [18. Solutions](#18-solutions)
+- [19. Wokshops](#19-wokshops)
 
 <!-- /TOC -->
 
@@ -83,6 +87,7 @@
 
 1. [Running AWS Lambda-based applications with Amazon DocumentDB by Raj Chilakapati and Gowri Balasubramanian](https://aws.amazon.com/blogs/database/running-aws-lambda-based-applications-with-amazon-documentdb/)
 2. [Creating a REST API for Amazon DocumentDB (with MongoDB compatibility) with Amazon API Gateway and AWS Lambda by Brian Hess](https://aws.amazon.com/blogs/database/creating-a-rest-api-for-amazon-documentdb-with-mongodb-compatibility-with-amazon-api-gateway-and-aws-labda/)
+3. [Using AWS Lambda with Amazon DocumentDB](https://docs.aws.amazon.com/lambda/latest/dg/with-documentdb.html)
 
 ## 1.5. Change Capture
 1. [Capture changes from Amazon DocumentDB via AWS Lambda and publish them to Amazon MSK by Murat Balkan](https://aws.amazon.com/blogs/database/capture-changes-from-amazon-documentdb-via-aws-lambda-and-publish-them-to-amazon-msk/)
@@ -262,16 +267,16 @@
 4. [The Storage First Pattern By Jeremy Daly](https://www.jeremydaly.com/the-storage-first-pattern/)
 5. [Storage-First Serverless Solutions By Serverless Advocate](https://blog.serverlessadvocate.com/storage-first-serverless-solutions-c0fc182243b9)
 
-## 7.2 Sequence Generator
+## 7.2. Sequence Generator
 
 1. [Generating Sequence Numbers in Serverless via API Gateway By Sheen Brisals](https://medium.com/lego-engineering/sequence-numbering-in-serverless-via-api-gateway-40e5f6c83e93)
 2. [Reliable Auto-Incrementing Integers in DynamoDB By Bite-Sized Serverless](https://bitesizedserverless.com/bite/reliable-auto-increments-in-dynamodb/)
 
-## 7.3 Priority Queues
+## 7.3. Priority Queues
 
 1. [Implement the Priority Queue Pattern with SQS and Lambda](https://bitesizedserverless.com/bite/implement-the-priority-queue-pattern-with-sqs-and-lambda/)
 
-## 7.4 Webhooks
+## 7.4. Webhooks
 
 1. [Building a Webhooks System By Derek Comartin](https://www.youtube.com/watch?v=NuHC5uwbFAc&list=PLThyvG1mlMzm2FyVpKDiU2c7VtrB2Zezg&index=33)
 2. [Building a Webhooks System with Event Driven Architecture](https://codeopinion.com/building-a-webhooks-system-with-event-driven-architecture/)
@@ -279,7 +284,7 @@
 4. [Getting started with serverless for developers: Part 1 by Benjamin Smith ](https://aws.amazon.com/blogs/compute/getting-started-with-serverless-for-developers-part-1/)
 
 
-## 7.5 Scatter Gather
+## 7.5. Scatter Gather
 
 1. [[MY NEXT] Serverless Loan Broker @AWS, Part 1: Step Functions By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions.html)
 2. [Serverless Loan Broker @AWS, Part 2: Recipient List By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions_recipient_list.html)
@@ -301,7 +306,7 @@
 
 1. [Scaling Your Amazon RDS Instance Vertically and Horizontally by Marie Yap and Neha Gupta](https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/)
 2. [How can I distribute read requests across multiple Amazon RDS read replicas](https://aws.amazon.com/premiumsupport/knowledge-center/requests-rds-read-replicas/)
-3. [<span style="color:red">[MY NEXT]</span> Choose the right Amazon RDS deployment option: Single-AZ instance, Multi-AZ instance, or Multi-AZ database cluster by Ankush Agarwal and Pranshu Mishra](https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/)
+3. [[MY NEXT] Choose the right Amazon RDS deployment option: Single-AZ instance, Multi-AZ instance, or Multi-AZ database cluster by Ankush Agarwal and Pranshu Mishra](https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/)
 
 # 12. DynamoDB
 
@@ -318,6 +323,9 @@
 2. [DynamoDB under the hood - How does it works? What is the architecture of the database service?](https://www.youtube.com/watch?v=ZhXqNcbR4n0&t=909s)
 3. [7 Common DynamoDB Patterns for Modeling and Building an App with Alex De Brie](https://www.youtube.com/watch?v=Q6-qWdsa8a4&t=200s)
 4. [Designing a DynamoDB Table in 4 Steps: From Entities to Access Patterns](https://www.youtube.com/watch?v=JLZOI8patlw)
+
+## 12.3 Lambda
+1. [Building enterprise applications using Amazon DynamoDB, AWS Lambda, and Go by Geoffroy Rollat ](https://aws.amazon.com/blogs/database/building-enterprise-applications-using-amazon-dynamodb-aws-lambda-and-golang/)
 
 # 13. Lambda
 
@@ -338,12 +346,25 @@
 1. [workshop - Encryption On AWS - Tutorial](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3/serverside/sses3)
 2. [5 minutes to AWS S3 Bucket Encryption SSE-C , SSE-S3, SSE-KMS](https://awstip.com/5-minutes-to-aws-s3-bucket-encryption-sse-c-sse-s3-sse-kms-e2fb07b05cb3)
 
-## 15.2 Uploading
+## 15.2. Uploading
 
 1. [Patterns for building an API to upload files to Amazon S3 by Thomas Moore,](https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/)
 
-# Testing
+# 16. Testing
 
 1. [Testing Serverless Applications](https://serverlessland.com/testing)
+
+# 17. Case Studies
+
+1. [Prime Video Switched from Serverless to EC2 and ECS to Save Costs](https://www.infoq.com/news/2023/05/prime-ec2-ecs-saves-costs/)
+
+# 18. Solutions
+
+1. [How can I prevent my public GitHub repository from showing up on search results?](https://www.quora.com/How-can-I-prevent-my-public-GitHub-repository-from-showing-up-on-search-results)
+
+# 19. Wokshops
+
+1. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
+- [Shared Services account](https://docs.aws.amazon.com/managedservices/latest/userguide/shared-services-account.html)
 
 
