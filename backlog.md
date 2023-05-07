@@ -61,7 +61,9 @@
 - [16. Testing](#16-testing)
 - [17. Case Studies](#17-case-studies)
 - [18. Solutions](#18-solutions)
-- [19. Wokshops](#19-wokshops)
+- [19. Workshops](#19-workshops)
+- [20. FireHose](#20-firehose)
+- [21. Aethna](#21-aethna)
 
 <!-- /TOC -->
 
@@ -329,6 +331,7 @@
 ## 12.3 Lambda
 1. [Building enterprise applications using Amazon DynamoDB, AWS Lambda, and Go by Geoffroy Rollat ](https://aws.amazon.com/blogs/database/building-enterprise-applications-using-amazon-dynamodb-aws-lambda-and-golang/)
 
+
 # 13. Lambda
 
 1. [S3-to-Lambda patterns: Avoiding recursive invocation](https://github.com/aws-samples/s3-to-lambda-invocation-patterns)
@@ -337,6 +340,8 @@
 4. [Developing evolutionary architecture with AWS Lambda by Luca Mezzalira](https://aws.amazon.com/blogs/compute/developing-evolutionary-architecture-with-aws-lambda/)
 5. [[MY NEXT] Building serverless Java applications with the AWS SAM CLI by James Beswick](https://aws.amazon.com/blogs/compute/building-serverless-java-applications-with-the-aws-sam-cli/)
     - [Building Java apps with SAM | Serverless Office Hours](https://www.youtube.com/watch?v=c7_gGalsIyE)
+6. [Understanding Amazon SQS and AWS Lambda Event Source Mapping for Efficient Message Processing by Tushar Sharma and Shaun Wang](https://aws.amazon.com/blogs/apn/understanding-amazon-sqs-and-aws-lambda-event-source-mapping-for-efficient-message-processing/)
+7. [Issues to Avoid When Implementing Serverless Architecture with AWS Lambda by Andrei Maksimov](https://aws.amazon.com/blogs/architecture/mistakes-to-avoid-when-implementing-serverless-architecture-with-lambda/)
 
 # 14. DNS
 
@@ -366,9 +371,28 @@
 
 1. [How can I prevent my public GitHub repository from showing up on search results?](https://www.quora.com/How-can-I-prevent-my-public-GitHub-repository-from-showing-up-on-search-results)
 
-# 19. Wokshops
+# 19. Workshops
 
 1. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
 - [Shared Services account](https://docs.aws.amazon.com/managedservices/latest/userguide/shared-services-account.html)
+2. [Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
+- Lab 1: Configure the network
+- Lab 2: Set up your RDS database using cfn
+- Lab 3: Set up Elasticache for Memcached using cfn
+- Lab 4: Create the shared filesystem using cfn
+- Lab 5: Create the load balancer using cfn
+- Lab 6: Create a launch configuration using cfn
+- Lab 7: Create the app server using cfn
+- Lab 8: Configure caching using cfn
+- Lab 9:: Add a Content Delivery Network using cfn
+- Lab 10: Chaos testing with AWS Fault Injection Simulator
+
+# 20. FireHose
+
+1. [Amazon Kinesis Firehose Data Transformation with AWS Lambda by Bryan Liston](https://aws.amazon.com/blogs/compute/amazon-kinesis-firehose-data-transformation-with-aws-lambda/)
+
+# 21. Aethna
+
+1. [Loading Data from S3 to AWS Athena](https://levelup.gitconnected.com/loading-data-from-s3-to-aws-athena-7c56c63efccc)
 
 

@@ -13,6 +13,7 @@
   - [8.1. Without Lambda](#81-without-lambda)
   - [8.2. With Lambda](#82-with-lambda)
 - [9. Serverless](#9-serverless)
+- [10. Auditing](#10-auditing)
 
 <!-- /TOC -->
 
@@ -73,3 +74,7 @@
 1. [I Built a Serverless App To Cross-Post My Blogs By Allen Helton](https://betterprogramming.pub/i-built-a-serverless-app-to-cross-post-my-blogs-aa4c6979ff9b)
 2. /Volumes/Lexar/git-repos/aws-repo/aws-samples/serverless/aws-lambda-zombie-workshop:Learnt from Danilo Poccia's AWSLambda In Action. Cap 17
 - Webhooks example
+
+# 10. Auditing
+
+1.
