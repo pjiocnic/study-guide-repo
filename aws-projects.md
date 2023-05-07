@@ -79,7 +79,8 @@
 
 # 10. Auditing
 
-1.
+1. [Why You NEED an Audit Table For Your Database (Part 1 of 2)](https://www.youtube.com/watch?v=7QFUEh-FYYE)
+2. [Create an Audit Table in AWS - Practical AWS Projects (Part 2 of 2)](https://www.youtube.com/watch?v=17AmrTqn0GY)
 
 # 11. Patterns
 
