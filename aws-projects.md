@@ -14,6 +14,7 @@
   - [8.2. With Lambda](#82-with-lambda)
 - [9. Serverless](#9-serverless)
 - [10. Auditing](#10-auditing)
+- [11. Patterns](#11-patterns)
 
 <!-- /TOC -->
 
@@ -22,6 +23,7 @@
 1. [Building a modern, event-driven application for insurance claims processing – Part 1 by Emily Shea and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-1/)
 2. [Building a modern, event-driven application for insurance claims processing – Part 2 by Emily Shea, Vaibhav Jain, and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-2/)
 3. [Extending a serverless, event-driven architecture to existing container workloads by Dhiraj Mahapatro and Sascha Moellering](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
+
 
 # 2. Subscription filters
 
@@ -78,3 +80,7 @@
 # 10. Auditing
 
 1.
+
+# 11. Patterns
+
+1. [Prevent API overload with rate limiting in AWS](https://dev.to/aws-builders/prevent-api-overload-with-rate-limiting-in-aws-1dgb)
