@@ -9,3 +9,9 @@
 # 05/13/2023 (SAT):
 
 - MongoDB Indexing chapter
+
+
+# Parked
+AWS Lambda in Action Danilo Poccia
+Chapter 16. Calling external services
+Chapter 17. Receiving events from other services

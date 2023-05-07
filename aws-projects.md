@@ -66,8 +66,10 @@
 
 1. [Serverless URL Shortener using AWS | by Jeeri Deka](https://medium.com/@jeeri95/serverless-url-shortener-using-aws-97f1929c475e)
 2. [Building Serverless URL Shortener Service on AWS](https://dev.to/aws-builders/building-serverless-url-shortener-service-on-aws-1895)
+3. [AWS Lambda Handler Cookbook - A Serverless Service Template By Ran the builder](https://ran-isenberg.github.io/aws-lambda-handler-cookbook/)
 
 # 9. Serverless
 
 1. [I Built a Serverless App To Cross-Post My Blogs By Allen Helton](https://betterprogramming.pub/i-built-a-serverless-app-to-cross-post-my-blogs-aa4c6979ff9b)
-
+2. /Volumes/Lexar/git-repos/aws-repo/aws-samples/serverless/aws-lambda-zombie-workshop:Learnt from Danilo Poccia's AWSLambda In Action. Cap 17
+- Webhooks example
