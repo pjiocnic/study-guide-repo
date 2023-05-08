@@ -23,6 +23,7 @@
   - [1.18. Troubleshooting](#118-troubleshooting)
   - [1.19. Cost](#119-cost)
   - [1.20. Tools](#120-tools)
+  - [1.21. Elastic Clusters](#121-elastic-clusters)
 - [2. MongoDB](#2-mongodb)
   - [2.1. Patterns](#21-patterns)
   - [2.2. Anti-Patterns](#22-anti-patterns)
@@ -170,6 +171,14 @@
 ## 1.20. Tools
 
 1. [Studio 3T](https://docs.aws.amazon.com/documentdb/latest/developerguide/studio3t.html)
+
+## 1.21. Elastic Clusters
+
+1. [Announcing Amazon DocumentDB Elastic Clusters by Veliswa Boya](https://aws.amazon.com/blogs/aws/announcing-amazon-documentdb-elastic-clusters/)
+2. [Amazon DocumentDB elastic clusters: how it works](https://docs.aws.amazon.com/documentdb/latest/developerguide/elastic-how-it-works.html)
+3. [Getting Started with Amazon DocumentDB Elastic Clusters- AWS Database in 15 By Vin Yu](https://www.youtube.com/watch?v=6uVb35pd-mA)
+4. [Choose shard keys to optimize Amazon DocumentDB Elastic Clusters by Jason Dalba ](https://aws.amazon.com/blogs/database/choose-shard-keys-to-optimize-amazon-documentdb-elastic-clusters/)
+5. [Elastic Scaling wtith Amazon DocumentDB- AWS Virtual Workshop By Vin Yu and Pratik Das](https://www.youtube.com/watch?v=I5yIZKx1ctM)
 
 # 2. MongoDB
 
