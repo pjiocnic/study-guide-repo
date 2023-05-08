@@ -71,6 +71,8 @@
 - [15. S3](#15-s3)
   - [15.1. Encryption](#151-encryption)
   - [15.2. Uploading](#152-uploading)
+  - [15.3 Access Control](#153-access-control)
+  - [Replication](#replication)
 - [16. Testing](#16-testing)
 - [17. Case Studies](#17-case-studies)
 - [18. Solutions](#18-solutions)
@@ -425,10 +427,17 @@
 
 1. [workshop - Encryption On AWS - Tutorial](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3/serverside/sses3)
 2. [5 minutes to AWS S3 Bucket Encryption SSE-C , SSE-S3, SSE-KMS](https://awstip.com/5-minutes-to-aws-s3-bucket-encryption-sse-c-sse-s3-sse-kms-e2fb07b05cb3)
+3. [Secure AWS S3 with KMS Encryption By Neil Davis](https://www.youtube.com/watch?v=uqyf66kgB94)
 
 ## 15.2. Uploading
 
 1. [Patterns for building an API to upload files to Amazon S3 by Thomas Moore,](https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/)
+
+## 15.3 Access Control
+1. [Amazon S3 Access Control - IAM Policies, Bucket Policies and ACLs](https://www.youtube.com/watch?v=xFzJw6wJ8eY&t=16s)
+
+## Replication
+1. [Configuring Amazon S3 Cross-Region Replication (CRR) and Same-Region Replication (SRR) By Neil Davis](https://www.youtube.com/watch?v=trmicgGpmd4&t=6s)
 
 # 16. Testing
 
