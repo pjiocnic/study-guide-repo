@@ -49,7 +49,7 @@
   - [7.3. Priority Queues](#73-priority-queues)
   - [7.4. Webhooks](#74-webhooks)
   - [7.5. Scatter Gather](#75-scatter-gather)
-  - [Rate Limiter](#rate-limiter)
+  - [7.6. Rate Limiter](#76-rate-limiter)
 - [8. Step functions](#8-step-functions)
 - [9. Spring Boot Transactions](#9-spring-boot-transactions)
 - [10. DynamoDB vs DocumentDB](#10-dynamodb-vs-documentdb)
@@ -71,8 +71,9 @@
 - [15. S3](#15-s3)
   - [15.1. Encryption](#151-encryption)
   - [15.2. Uploading](#152-uploading)
-  - [15.3 Access Control](#153-access-control)
-  - [Replication](#replication)
+  - [15.3. Access Control](#153-access-control)
+  - [15.4. Replication](#154-replication)
+  - [15.5 Cross Account Access](#155-cross-account-access)
 - [16. Testing](#16-testing)
 - [17. Case Studies](#17-case-studies)
 - [18. Solutions](#18-solutions)
@@ -191,6 +192,7 @@
 3. [Data Model Examples and Patterns](https://www.mongodb.com/docs/manual/applications/data-models/)
 4. [MongoDB Data Modeling Patterns](https://medium.com/@italoservio/mongodb-data-modeling-patterns-ae2e7a4ff155)
 5. [M320: MongoDB Data Modeling](https://learn.mongodb.com/courses/m320-mongodb-data-modeling)
+- Polymorphism
 6. [Building with Patterns: The Bucket Pattern](https://www.mongodb.com/blog/post/building-with-patterns-the-bucket-pattern)
 7. [All Schema Tutorials from MongoDB](https://www.mongodb.com/developer/products/mongodb/schema/tutorials/)
 8. [Building with Patterns: A Summary](https://www.mongodb.com/blog/post/building-with-patterns-a-summary)
@@ -334,7 +336,7 @@
 4. [Serverless Loan Broker @ AWS, Part 4: Automation By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_automation.html)
 5. [Serverless Loan Broker @ AWS, Part 5: Integration Patterns with CDK By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_cdk.html)
 
-## Rate Limiter
+## 7.6. Rate Limiter
 
 1. [Prevent API overload with rate limiting in AWS](https://dev.to/aws-builders/prevent-api-overload-with-rate-limiting-in-aws-1dgb)
 2. [[RATED] System Design Basics: Rate Limiter By Abhinav Singh](https://builtin.com/software-engineering-perspectives/rate-limiter)
@@ -433,11 +435,14 @@
 
 1. [Patterns for building an API to upload files to Amazon S3 by Thomas Moore,](https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/)
 
-## 15.3 Access Control
+## 15.3. Access Control
 1. [Amazon S3 Access Control - IAM Policies, Bucket Policies and ACLs](https://www.youtube.com/watch?v=xFzJw6wJ8eY&t=16s)
 
-## Replication
+## 15.4. Replication
 1. [Configuring Amazon S3 Cross-Region Replication (CRR) and Same-Region Replication (SRR) By Neil Davis](https://www.youtube.com/watch?v=trmicgGpmd4&t=6s)
+
+## 15.5 Cross Account Access
+1. [Cross-Account Access to Amazon S3 | AWS IAM By Neil Davis](https://www.youtube.com/watch?v=HP8XSRWrFQc)
 
 # 16. Testing
 
@@ -466,6 +471,7 @@
 - Lab 8: Configure caching using cfn
 - Lab 9:: Add a Content Delivery Network using cfn
 - Lab 10: Chaos testing with AWS Fault Injection Simulator
+3. [Amazon Athena Workshop :: Hands on Labs](https://catalog.us-east-1.prod.workshops.aws/workshops/9981f1a1-abdc-49b5-8387-cb01d238bb78/en-US)
 
 # 20. FireHose
 
