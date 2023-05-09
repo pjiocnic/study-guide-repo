@@ -24,6 +24,9 @@
   - [1.19. Cost](#119-cost)
   - [1.20. Tools](#120-tools)
   - [1.21. Elastic Clusters](#121-elastic-clusters)
+  - [1.22. Integrations](#122-integrations)
+    - [1.22.1. Opensearch Integration using Change Streams](#1221-opensearch-integration-using-change-streams)
+  - [1.23 Change Streams](#123-change-streams)
 - [2. MongoDB](#2-mongodb)
   - [2.1. Patterns](#21-patterns)
   - [2.2. Anti-Patterns](#22-anti-patterns)
@@ -185,6 +188,19 @@
 3. [Getting Started with Amazon DocumentDB Elastic Clusters- AWS Database in 15 By Vin Yu](https://www.youtube.com/watch?v=6uVb35pd-mA)
 4. [Choose shard keys to optimize Amazon DocumentDB Elastic Clusters by Jason Dalba ](https://aws.amazon.com/blogs/database/choose-shard-keys-to-optimize-amazon-documentdb-elastic-clusters/)
 5. [Elastic Scaling wtith Amazon DocumentDB- AWS Virtual Workshop By Vin Yu and Pratik Das](https://www.youtube.com/watch?v=I5yIZKx1ctM)
+
+## 1.22. Integrations
+
+### 1.22.1. Opensearch Integration using Change Streams
+
+1. [Run full text search queries on Amazon DocumentDB (with MongoDB compatibility) data with Amazon OpenSearch Service by Meet Bhagdev, Herbert Gomez, and Vijay Injam](https://aws.amazon.com/blogs/database/run-full-text-search-queries-on-amazon-documentdb-data-with-amazon-elasticsearch-service/)
+- CFN that launches: Amazon DocumentDB cluster, Amazon ES domain, AWS Secrets Manager secret, Amazon SNS trigger, EventBridge rule, Enable change streams (CS) for DocDB, Lambda replicates from CS to ES
+
+## 1.23 Change Streams
+
+1. [Run full text search queries on Amazon DocumentDB (with MongoDB compatibility) data with Amazon OpenSearch Service by Meet Bhagdev, Herbert Gomez, and Vijay Injam](https://aws.amazon.com/blogs/database/run-full-text-search-queries-on-amazon-documentdb-data-with-amazon-elasticsearch-service/)
+- CFN that launches: Amazon DocumentDB cluster, Amazon ES domain, AWS Secrets Manager secret, Amazon SNS trigger, EventBridge rule, Enable change streams (CS) for DocDB, Lambda replicates from CS to ES
+2. [DocumentDB workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/464d6c17-9faa-4fef-ac9f-dd49610174d3/en-US/change-streams)
 
 # 2. MongoDB
 
