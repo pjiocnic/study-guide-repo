@@ -23,10 +23,12 @@
   - [1.18. Troubleshooting](#118-troubleshooting)
   - [1.19. Cost](#119-cost)
   - [1.20. Tools](#120-tools)
+    - [1.20.1. IDE](#1201-ide)
+    - [1.20.2. Connecting from outside VPC](#1202-connecting-from-outside-vpc)
   - [1.21. Elastic Clusters](#121-elastic-clusters)
   - [1.22. Integrations](#122-integrations)
     - [1.22.1. Opensearch Integration using Change Streams](#1221-opensearch-integration-using-change-streams)
-  - [1.23 Change Streams](#123-change-streams)
+    - [1.22.2. MSK Integration using Change Streams](#1222-msk-integration-using-change-streams)
 - [2. MongoDB](#2-mongodb)
   - [2.1. Patterns](#21-patterns)
   - [2.2. Anti-Patterns](#22-anti-patterns)
@@ -179,7 +181,13 @@
 
 ## 1.20. Tools
 
+### 1.20.1. IDE
+
 1. [Studio 3T](https://docs.aws.amazon.com/documentdb/latest/developerguide/studio3t.html)
+
+### 1.20.2. Connecting from outside VPC
+
+1. [Connecting to an Amazon DocumentDB Cluster from Outside an Amazon VPC](https://docs.aws.amazon.com/documentdb/latest/developerguide/connect-from-outside-a-vpc.html)
 
 ## 1.21. Elastic Clusters
 
@@ -196,11 +204,10 @@
 1. [Run full text search queries on Amazon DocumentDB (with MongoDB compatibility) data with Amazon OpenSearch Service by Meet Bhagdev, Herbert Gomez, and Vijay Injam](https://aws.amazon.com/blogs/database/run-full-text-search-queries-on-amazon-documentdb-data-with-amazon-elasticsearch-service/)
 - CFN that launches: Amazon DocumentDB cluster, Amazon ES domain, AWS Secrets Manager secret, Amazon SNS trigger, EventBridge rule, Enable change streams (CS) for DocDB, Lambda replicates from CS to ES
 
-## 1.23 Change Streams
+### 1.22.2. MSK Integration using Change Streams
 
-1. [Run full text search queries on Amazon DocumentDB (with MongoDB compatibility) data with Amazon OpenSearch Service by Meet Bhagdev, Herbert Gomez, and Vijay Injam](https://aws.amazon.com/blogs/database/run-full-text-search-queries-on-amazon-documentdb-data-with-amazon-elasticsearch-service/)
-- CFN that launches: Amazon DocumentDB cluster, Amazon ES domain, AWS Secrets Manager secret, Amazon SNS trigger, EventBridge rule, Enable change streams (CS) for DocDB, Lambda replicates from CS to ES
-2. [DocumentDB workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/464d6c17-9faa-4fef-ac9f-dd49610174d3/en-US/change-streams)
+1. [Capture changes from Amazon DocumentDB via AWS Lambda and publish them to Amazon MSK by Murat Balkan](https://aws.amazon.com/blogs/database/capture-changes-from-amazon-documentdb-via-aws-lambda-and-publish-them-to-amazon-msk/)
+- CFN
 
 # 2. MongoDB
 
