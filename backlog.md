@@ -54,6 +54,9 @@
 - [9. Spring Boot Transactions](#9-spring-boot-transactions)
 - [10. DynamoDB vs DocumentDB](#10-dynamodb-vs-documentdb)
 - [11. RDS](#11-rds)
+  - [11.1. Scaling](#111-scaling)
+  - [11.2. Deployment - Single-AZ instance, Multi-AZ instance, or Multi-AZ](#112-deployment---single-az-instance-multi-az-instance-or-multi-az)
+  - [11.3. Replication](#113-replication)
 - [12. DynamoDB](#12-dynamodb)
   - [12.1. DynamoDB workshop](#121-dynamodb-workshop)
   - [12.2. DynamoDB Videos](#122-dynamodb-videos)
@@ -73,7 +76,7 @@
   - [15.2. Uploading](#152-uploading)
   - [15.3. Access Control](#153-access-control)
   - [15.4. Replication](#154-replication)
-  - [15.5 Cross Account Access](#155-cross-account-access)
+  - [15.5. Cross Account Access](#155-cross-account-access)
 - [16. Testing](#16-testing)
 - [17. Case Studies](#17-case-studies)
 - [18. Solutions](#18-solutions)
@@ -359,9 +362,16 @@
 
 # 11. RDS
 
+## 11.1. Scaling
 1. [Scaling Your Amazon RDS Instance Vertically and Horizontally by Marie Yap and Neha Gupta](https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/)
 2. [How can I distribute read requests across multiple Amazon RDS read replicas](https://aws.amazon.com/premiumsupport/knowledge-center/requests-rds-read-replicas/)
-3. [[MY NEXT] Choose the right Amazon RDS deployment option: Single-AZ instance, Multi-AZ instance, or Multi-AZ database cluster by Ankush Agarwal and Pranshu Mishra](https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/)
+
+## 11.2. Deployment - Single-AZ instance, Multi-AZ instance, or Multi-AZ
+1. [[MY NEXT] Choose the right Amazon RDS deployment option: Single-AZ instance, Multi-AZ instance, or Multi-AZ database cluster by Ankush Agarwal and Pranshu Mishra](https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/)
+
+## 11.3. Replication
+
+1. [Best practices for Amazon RDS PostgreSQL replication by Vivek Singh ](https://aws.amazon.com/blogs/database/best-practices-for-amazon-rds-postgresql-replication/)
 
 # 12. DynamoDB
 
@@ -441,7 +451,7 @@
 ## 15.4. Replication
 1. [Configuring Amazon S3 Cross-Region Replication (CRR) and Same-Region Replication (SRR) By Neil Davis](https://www.youtube.com/watch?v=trmicgGpmd4&t=6s)
 
-## 15.5 Cross Account Access
+## 15.5. Cross Account Access
 1. [Cross-Account Access to Amazon S3 | AWS IAM By Neil Davis](https://www.youtube.com/watch?v=HP8XSRWrFQc)
 
 # 16. Testing
@@ -480,5 +490,9 @@
 # 21. Aethna
 
 1. [Loading Data from S3 to AWS Athena](https://levelup.gitconnected.com/loading-data-from-s3-to-aws-athena-7c56c63efccc)
+2. [Extracting and joining data from multiple data sources with Athena Federated Query by Saurabh Bhutyani and Amir Basirat](https://aws.amazon.com/blogs/big-data/extracting-and-joining-data-from-multiple-data-sources-with-athena-federated-query/)
+- CFN available
+3. [Query any data source with Amazon Athena’s new federated query by Janak Agarwal](https://aws.amazon.com/blogs/big-data/query-any-data-source-with-amazon-athenas-new-federated-query/)
+4. [Optimize Federated Query Performance using EXPLAIN and EXPLAIN ANALYZE in Amazon Athena by Nishchai JM and Varad Ram ](https://aws.amazon.com/blogs/big-data/optimize-federated-query-performance-using-explain-and-explain-analyze-in-amazon-athena/)
 
 
