@@ -1,4 +1,9 @@
 
+<!-- TOC -->
+
+- [1. Builder Pattern](#1-builder-pattern)
+
+<!-- /TOC -->
 
 # 1. Builder Pattern
 
