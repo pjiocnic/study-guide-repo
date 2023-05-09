@@ -44,7 +44,7 @@
   - [2.12. Sample Data](#212-sample-data)
   - [2.13. Books](#213-books)
   - [2.14. Courses](#214-courses)
-  - [2.15 Integrations](#215-integrations)
+  - [2.15 Docker](#215-docker)
 - [3. IAM](#3-iam)
 - [4. Organizations](#4-organizations)
 - [5. Encryption](#5-encryption)
@@ -303,8 +303,9 @@
 3. [MongoDB CRUD Operations in Java](https://learn.mongodb.com/learn/course/mongodb-crud-operations-in-java/lesson-1-working-with-mongodb-documents-in-java/learn?client=customer)
 4. [Using MongoDB with Java](https://learn.mongodb.com/learn/learning-path/using-mongodb-with-java)
 
-## 2.15 Integrations
+## 2.15 Docker
 
+1. [MongoDB in Docker](https://medium.com/@zzpzaf.se/mongodb-in-docker-bfa77346b389)
 
 # 3. IAM
 
