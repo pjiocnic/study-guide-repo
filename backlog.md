@@ -44,6 +44,7 @@
   - [2.12. Sample Data](#212-sample-data)
   - [2.13. Books](#213-books)
   - [2.14. Courses](#214-courses)
+  - [2.15 Integrations](#215-integrations)
 - [3. IAM](#3-iam)
 - [4. Organizations](#4-organizations)
 - [5. Encryption](#5-encryption)
@@ -208,6 +209,8 @@
 
 1. [Capture changes from Amazon DocumentDB via AWS Lambda and publish them to Amazon MSK by Murat Balkan](https://aws.amazon.com/blogs/database/capture-changes-from-amazon-documentdb-via-aws-lambda-and-publish-them-to-amazon-msk/)
 - CFN
+2. [Building Dynamic Data Pipes Using AWS DocumentDB, MSK and Lambda](https://medium.com/cisco-fpie/taming-of-the-queue-f320f855a09)
+
 
 # 2. MongoDB
 
@@ -299,6 +302,9 @@
 2. [M100: MongoDB for SQL Pros](https://learn.mongodb.com/courses/m100-mongodb-for-sql-pros)
 3. [MongoDB CRUD Operations in Java](https://learn.mongodb.com/learn/course/mongodb-crud-operations-in-java/lesson-1-working-with-mongodb-documents-in-java/learn?client=customer)
 4. [Using MongoDB with Java](https://learn.mongodb.com/learn/learning-path/using-mongodb-with-java)
+
+## 2.15 Integrations
+
 
 # 3. IAM
 
