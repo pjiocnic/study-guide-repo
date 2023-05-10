@@ -15,6 +15,7 @@
 - [9. Serverless](#9-serverless)
 - [10. Auditing](#10-auditing)
 - [11. Patterns](#11-patterns)
+- [AutoScaling](#autoscaling)
 
 <!-- /TOC -->
 
@@ -85,3 +86,7 @@
 # 11. Patterns
 
 1. [Prevent API overload with rate limiting in AWS](https://dev.to/aws-builders/prevent-api-overload-with-rate-limiting-in-aws-1dgb)
+
+# AutoScaling
+
+1. [Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
