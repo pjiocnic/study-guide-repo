@@ -7,3 +7,19 @@
 5. [Amazon EC2 Auto Scaling with EC2 Spot Instances](https://aws.amazon.com/getting-started/hands-on/ec2-auto-scaling-spot-instances/)
 6. [Scaling an ASG using target tracking with a dynamic SQS target](https://aws.amazon.com/blogs/compute/scaling-an-asg-using-target-tracking-with-a-dynamic-sqs-target/)
 7. [Scaling based on Amazon SQS](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-using-sqs-queue.html)
+
+# Netflix's autoscaler Titus
+
+1. [Auto Scaling Production Services on Titus](https://netflixtechblog.com/auto-scaling-production-services-on-titus-1f3cd49f5cd7)
+- https://github.com/aws/aws-auto-scaling-custom-resource
+
+# Scaling Policy based on Memory
+
+1. [How to create an Amazon EC2 Auto Scaling policy based on a memory utilization metric (Linux) by Ahmed Magdy Wahdan](https://aws.amazon.com/blogs/mt/create-amazon-ec2-auto-scaling-policy-memory-utilization-metric-linux/)
+- Includes a CFN
+
+# Scaling Policy based on CPU
+
+# Custom Target Target Tracking Policy
+
+1. [Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)

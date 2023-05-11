@@ -6,6 +6,9 @@
 - [2. Websockets](#2-websockets)
 - [3. Best Practices](#3-best-practices)
 - [4. Usage Plans](#4-usage-plans)
+- [5. Private Enpoints](#5-private-enpoints)
+- [6. Use Cases](#6-use-cases)
+  - [6.1. URL Shortner](#61-url-shortner)
 
 <!-- /TOC -->
 
@@ -28,3 +31,13 @@
 1. [Creating Usage Plans in console](https://aws.amazon.com/blogs/aws/new-usage-plans-for-amazon-api-gateway/)
 1. [Visualizing Amazon API Gateway usage plans using Amazon QuickSight by Roberto Iturralde](https://aws.amazon.com/blogs/compute/visualizing-amazon-api-gateway-usage-plans-using-amazon-quicksight/)
 - Includes a CFN
+
+# 5. Private Enpoints
+
+1. [Serverless Private APIs — Part 1 By Serverless Advocate](https://levelup.gitconnected.com/serverless-private-apis-60749934b161)
+
+# 6. Use Cases
+
+## 6.1. URL Shortner
+
+1. [Building Serverless URL Shortener Service on AWS Using API Gateway and Dynamodb](https://dev.to/aws-builders/building-serverless-url-shortener-service-on-aws-1895)

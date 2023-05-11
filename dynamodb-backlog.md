@@ -1,5 +1,21 @@
 
-# 1. Consistent Hashing
+<!-- TOC -->
+
+- [1. Multiple topics](#1-multiple-topics)
+- [2. Indexes](#2-indexes)
+  - [2.1. GSI](#21-gsi)
+  - [2.2. LSI](#22-lsi)
+  - [2.3. Partition Key](#23-partition-key)
+- [3. Real world use cases](#3-real-world-use-cases)
+- [4. Data Modeling](#4-data-modeling)
+- [5. Workshop](#5-workshop)
+- [6. UseCases](#6-usecases)
+  - [6.1. URL Shortner](#61-url-shortner)
+- [7. Streams](#7-streams)
+
+<!-- /TOC -->
+
+# 1. Multiple topics
 
 1. [DynamoDB: An Inside Look Into NoSQL – Part 1](https://cloudacademy.com/blog/dynamodb-an-inside-look-into-nosql-part-1/)
 1. [DynamoDB: An Inside Look Into NoSQL – Part 2](https://cloudacademy.com/blog/dynamodb-an-inside-look-into-nosql-part-2/)
@@ -23,7 +39,7 @@
 
 1. [Local Secondary Indexes for Amazon DynamoDB by Jeff Barr ](https://aws.amazon.com/blogs/aws/local-secondary-indexes-for-amazon-dynamodb/)
 
-## 2.3 Partition Key
+## 2.3. Partition Key
 
 1. [Choosing the Right DynamoDB Partition Key by Gowri Balasubramanian and Sean Shriver ](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
 
@@ -41,11 +57,15 @@
 1. [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
 2. [Amazon DynamoDB Labs](https://catalog.us-east-1.prod.workshops.aws/workshops/3319b690-3a41-4921-9af8-f31c7bef4cdb/en-US)
 
-# UseCases
+# 6. UseCases
 
 1. [Implement serverless FIFO queues with filtering capabilities using Amazon DynamoDB transactions by Nikhil Penmetsa and Randy DeFauw](https://aws.amazon.com/blogs/database/serverless-fifo-queues-filtering-dynamodb-transactions/)
 2. [See Alex Debrie's DynamoDB book for use cases]()
 
-# Streams
+## 6.1. URL Shortner
+
+1. See [apgw-backlog.md](./apgw-backlog.md)
+
+# 7. Streams
 
 1. [DynamoDB Streams Use Cases and Design Patterns by Gowri Balasubramanian](https://aws.amazon.com/blogs/database/dynamodb-streams-use-cases-and-design-patterns/)
