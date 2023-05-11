@@ -14,8 +14,9 @@
 - [10. Comparison between REST and GraphQL API architectures](#10-comparison-between-rest-and-graphql-api-architectures)
 - [11. RDSProxy](#11-rdsproxy)
 - [12. IAM](#12-iam)
-  - [Curate](#curate)
-- [12. Examples](#12-examples)
+- [13. Autoscaling](#13-autoscaling)
+- [14. Curate](#14-curate)
+- [15. Examples](#15-examples)
 
 <!-- /TOC -->
 
@@ -73,7 +74,11 @@
 
 1. [Operating Lambda: Building a solid security foundation – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-1/)
 
-## Curate
+# 13. Autoscaling
+
+See [autoscaling-backlog.md](./autoscaling-backlog.md)
+
+# 14. Curate
 
 1. [Operating Lambda: Design principles in event-driven architectures – Part 2 by James Beswick |](https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2/)
 2. [Operating Lambda: Anti-patterns in event-driven architectures – Part 3 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-anti-patterns-in-event-driven-architectures-part-3/)
@@ -83,6 +88,6 @@
 2. [Building well-architected serverless applications: Controlling serverless API access – part 2 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-2/)
 3. [Building well-architected serverless applications: Controlling serverless API access – part 3 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-3/)
 
-# 12. Examples
+# 15. Examples
 1. [aws/serverless-application-model](https://github.com/aws/serverless-application-model/tree/master/examples)
 - Found this link from https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/

@@ -63,6 +63,9 @@
 2. [Building a Webhooks System with Event Driven Architecture](https://codeopinion.com/building-a-webhooks-system-with-event-driven-architecture/)
 3. [How an AWS Lambda Function Can Be Integrated with Box Webhooks by Gaurav Verma ](https://aws.amazon.com/blogs/apn/how-an-aws-lambda-function-can-be-integrated-with-box-webhooks/)
 4. [Getting started with serverless for developers: Part 1 by Benjamin Smith ](https://aws.amazon.com/blogs/compute/getting-started-with-serverless-for-developers-part-1/)
+5. [Handling Twitter Webhooks with AWS Lambda and Step Functions](https://www.linkedin.com/pulse/handling-twitter-webhooks-aws-lambda-step-functions-frederik-willaert/)
+6.  [[MY NEXT]Generic webhook to EventBridge event bus](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:721177882564:applications~generic-webhook-to-eventbridge)
+-  https://github.com/vacationtracker/generic-webhook-to-eventbridge
 
 ## 5.5. Scatter Gather
 
