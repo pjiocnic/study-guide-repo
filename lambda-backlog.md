@@ -13,6 +13,8 @@
 - [9. Error Handling](#9-error-handling)
 - [10. Comparison between REST and GraphQL API architectures](#10-comparison-between-rest-and-graphql-api-architectures)
 - [11. RDSProxy](#11-rdsproxy)
+- [12. IAM](#12-iam)
+  - [Curate](#curate)
 - [12. Examples](#12-examples)
 
 <!-- /TOC -->
@@ -66,6 +68,20 @@
 # 11. RDSProxy
 
 1. [Using Amazon RDS Proxy with AWS Lambda by George Mao](https://aws.amazon.com/blogs/compute/using-amazon-rds-proxy-with-aws-lambda/)
+
+# 12. IAM
+
+1. [Operating Lambda: Building a solid security foundation – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-1/)
+
+## Curate
+
+1. [Operating Lambda: Design principles in event-driven architectures – Part 2 by James Beswick |](https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2/)
+2. [Operating Lambda: Anti-patterns in event-driven architectures – Part 3 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-anti-patterns-in-event-driven-architectures-part-3/)
+3. [Operating Lambda: Application design – Part 3 by James Beswick |](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-part-3/)
+3. https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf
+4. [Building well-architected serverless applications: Controlling serverless API access – part 1 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-1/)
+2. [Building well-architected serverless applications: Controlling serverless API access – part 2 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-2/)
+3. [Building well-architected serverless applications: Controlling serverless API access – part 3 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-3/)
 
 # 12. Examples
 1. [aws/serverless-application-model](https://github.com/aws/serverless-application-model/tree/master/examples)
