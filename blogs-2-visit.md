@@ -4,6 +4,7 @@
 - [1. Various](#1-various)
 - [2. AWS Architecture](#2-aws-architecture)
 - [OpenSource Blogs](#opensource-blogs)
+- [Serverless](#serverless)
 
 <!-- /TOC -->
 
@@ -34,3 +35,8 @@
 1. [Top Posts of 2018 by Deirdré Straughan](https://aws.amazon.com/blogs/opensource/top-posts-2018/)
 2. [Top ten AWS Open Source blog posts in 2019 by Deirdré Straughan ](https://aws.amazon.com/blogs/opensource/top-ten-aws-open-source-blog-posts-in-2019/)
     - [Running APIs Written in Java on AWS Lambda by Stefano Buliani ](https://aws.amazon.com/blogs/opensource/java-apis-aws-lambda/)
+
+# Serverless
+
+1. [Serverless at AWS re:Invent 2019 by George Mao](https://aws.amazon.com/blogs/architecture/serverless-at-aws-reinvent-2019/)
+2. [Top Resources for API Architects and Developers by George Mao](https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/)
