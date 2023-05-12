@@ -29,19 +29,7 @@
   - [10.1. Scaling](#101-scaling)
   - [10.2. Deployment - Single-AZ instance, Multi-AZ instance, or Multi-AZ](#102-deployment---single-az-instance-multi-az-instance-or-multi-az)
   - [10.3. Replication](#103-replication)
-- [11. DynamoDB](#11-dynamodb)
-  - [11.1. DynamoDB workshop](#111-dynamodb-workshop)
-  - [11.2. DynamoDB Videos](#112-dynamodb-videos)
-  - [11.3. Development](#113-development)
-  - [11.4. Lambda](#114-lambda)
-- [12. Lambda](#12-lambda)
 - [13. DNS](#13-dns)
-- [14. S3](#14-s3)
-  - [14.1. Encryption](#141-encryption)
-  - [14.2. Uploading](#142-uploading)
-  - [14.3. Access Control](#143-access-control)
-  - [14.4. Replication](#144-replication)
-  - [14.5. Cross Account Access](#145-cross-account-access)
 - [15. Testing](#15-testing)
 - [16. Case Studies](#16-case-studies)
 - [17. Solutions](#17-solutions)
@@ -172,8 +160,6 @@
 3. [Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
 4. [Automated query caching into Amazon ElastiCache for Amazon RDS, Amazon Aurora and Amazon Redshift by Darin Briskman](https://aws.amazon.com/blogs/database/automating-sql-caching-for-amazon-elasticache-and-amazon-rds)
 
-
-
 # 7. Step functions
 
 # 8. Spring Boot Transactions
@@ -197,59 +183,10 @@
 
 1. [Best practices for Amazon RDS PostgreSQL replication by Vivek Singh ](https://aws.amazon.com/blogs/database/best-practices-for-amazon-rds-postgresql-replication/)
 
-# 11. DynamoDB
-
-1. [Use Amazon DynamoDB global tables in DynamoDB Shell by Amrith Kumar](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-global-tables-in-dynamodb-shell/)
-2. [SQL, NoSQL, and Scale: How DynamoDB scales where relational databases don't By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/)
-
-## 11.1. DynamoDB workshop
-
-1. [Hands-on Labs for Amazon DynamoDB](https://amazon-dynamodb-labs.com/event-driven-architecture.html)
-
-## 11.2. DynamoDB Videos
-
-1. [AWS re:Invent 2019: [REPEAT 1] Amazon DynamoDB deep dive: Advanced design patterns (DAT403-R1) By Rick H](https://www.youtube.com/watch?v=6yqfmXiZTlM)
-2. [DynamoDB under the hood - How does it works? What is the architecture of the database service?](https://www.youtube.com/watch?v=ZhXqNcbR4n0&t=909s)
-3. [7 Common DynamoDB Patterns for Modeling and Building an App with Alex De Brie](https://www.youtube.com/watch?v=Q6-qWdsa8a4&t=200s)
-4. [Designing a DynamoDB Table in 4 Steps: From Entities to Access Patterns](https://www.youtube.com/watch?v=JLZOI8patlw)
-
-## 11.3. Development
-
-1. [Working with JSON data in Amazon DynamoDB by Amrith Kumar](https://aws.amazon.com/blogs/database/working-with-json-data-in-amazon-dynamodb/)
-
-## 11.4. Lambda
-
-1. [Building enterprise applications using Amazon DynamoDB, AWS Lambda, and Go by Geoffroy Rollat ](https://aws.amazon.com/blogs/database/building-enterprise-applications-using-amazon-dynamodb-aws-lambda-and-golang/)
-
-# 12. Lambda
-
-
-
 # 13. DNS
 
 1. [How to centralize DNS management in a multi-account environment by Mahmoud Matouk ](https://aws.amazon.com/blogs/security/how-to-centralize-dns-management-in-a-multi-account-environment/)
 2. [[MY NEXT] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
-
-# 14. S3
-
-## 14.1. Encryption
-
-1. [workshop - Encryption On AWS - Tutorial](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3/serverside/sses3)
-2. [5 minutes to AWS S3 Bucket Encryption SSE-C , SSE-S3, SSE-KMS](https://awstip.com/5-minutes-to-aws-s3-bucket-encryption-sse-c-sse-s3-sse-kms-e2fb07b05cb3)
-3. [Secure AWS S3 with KMS Encryption By Neil Davis](https://www.youtube.com/watch?v=uqyf66kgB94)
-
-## 14.2. Uploading
-
-1. [Patterns for building an API to upload files to Amazon S3 by Thomas Moore,](https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/)
-
-## 14.3. Access Control
-1. [Amazon S3 Access Control - IAM Policies, Bucket Policies and ACLs](https://www.youtube.com/watch?v=xFzJw6wJ8eY&t=16s)
-
-## 14.4. Replication
-1. [Configuring Amazon S3 Cross-Region Replication (CRR) and Same-Region Replication (SRR) By Neil Davis](https://www.youtube.com/watch?v=trmicgGpmd4&t=6s)
-
-## 14.5. Cross Account Access
-1. [Cross-Account Access to Amazon S3 | AWS IAM By Neil Davis](https://www.youtube.com/watch?v=HP8XSRWrFQc)
 
 # 15. Testing
 
