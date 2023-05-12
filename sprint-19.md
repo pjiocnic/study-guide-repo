@@ -10,8 +10,8 @@
 
 - MongoDB Indexing chapter
 
-
 # Parked
+
 1. AWS Lambda in Action Danilo Poccia
     - Chapter 16. Calling external services
     - Chapter 17. Receiving events from other services
@@ -30,3 +30,4 @@
 11. [Advanced Schema Design Patterns](https://www.youtube.com/watch?v=bxw1AkH2aM4&t=92s)
 12. [Building real-life asynchronous architectures | Serverless Office Hours](https://www.youtube.com/watch?v=tkLEaaUmC30)
 13. [M320: MongoDB Data Modeling](https://learn.mongodb.com/learn/course/m320-mongodb-data-modeling/lesson-4-patterns-part-2/learn?client=customer&page=5)
+14. [How to index on Amazon DocumentDB (with MongoDB compatibility) by Cody Allen ](https://aws.amazon.com/blogs/database/how-to-index-on-amazon-documentdb-with-mongodb-compatibility/)
