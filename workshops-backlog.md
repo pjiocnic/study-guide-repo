@@ -6,6 +6,9 @@
 - [3. Account setup](#3-account-setup)
 - [4. Cloudformation](#4-cloudformation)
 - [5. Athena](#5-athena)
+- [6. Lambda](#6-lambda)
+  - [6.1. Using Java](#61-using-java)
+- [7. Serverless](#7-serverless)
 
 <!-- /TOC -->
 
@@ -40,3 +43,14 @@
 # 5. Athena
 
 1. [[My NEXT] Amazon Athena Workshop :: Hands on Labs](https://catalog.us-east-1.prod.workshops.aws/workshops/9981f1a1-abdc-49b5-8387-cb01d238bb78/en-US)
+
+# 6. Lambda
+
+## 6.1. Using Java
+
+1. [Java on AWS Lambda](https://catalog.workshops.aws/java-on-aws-lambda/en-US)
+
+# 7. Serverless
+
+1. [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
+    - [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage by Chris Munns](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)

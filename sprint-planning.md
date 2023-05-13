@@ -8,6 +8,7 @@ https://www.epochconverter.com/weeks/2023
   - [2.2. Centralized Logging](#22-centralized-logging)
   - [2.3. IAM Authentication for RDS](#23-iam-authentication-for-rds)
   - [2.4. Hub and Spoke](#24-hub-and-spoke)
+  - [2.5. Serverless](#25-serverless)
 
 <!-- /TOC -->
 
@@ -44,3 +45,6 @@ https://www.epochconverter.com/weeks/2023
 ## 2.4. Hub and Spoke
 [[MY NEXT] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
 
+## 2.5. Serverless
+1. [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
+    - [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage by Chris Munns](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)

@@ -181,7 +181,6 @@
 1. [Best practices for Amazon RDS PostgreSQL replication by Vivek Singh ](https://aws.amazon.com/blogs/database/best-practices-for-amazon-rds-postgresql-replication/)
 
 
-
 # 15. Testing
 
 1. [Testing Serverless Applications](https://serverlessland.com/testing)

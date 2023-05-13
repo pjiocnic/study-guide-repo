@@ -6,3 +6,11 @@
 - https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
 4. [Choosing the Right DynamoDB Partition Key by Gowri Balasubramanian and Sean Shriver ](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
 5. [How to design Amazon DynamoDB global secondary indexes by Shubham Sethi](https://aws.amazon.com/blogs/database/how-to-design-amazon-dynamodb-global-secondary-indexes/)
+6. [[MY NEXT] From relational DB to single DynamoDB table: a step-by-step exploration](https://www.trek10.com/blog/dynamodb-single-table-relational-modeling)
+
+# Java
+1. [JAVA REPLATFORMING By Mark Sailes](https://serverlessland.com/content/service/lambda/paved-path/java-replatforming/introduction)
+
+# Work
+1. List all access patterns
+2. Add RCRD_LCTR

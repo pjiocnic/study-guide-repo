@@ -133,6 +133,7 @@
 2. [Optimizing for cost with Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek](https://aws.amazon.com/blogs/database/optimizing-for-cost-with-amazon-documentdb-with-mongodb-compatibility/)
 3. [Five Ways to Optimize for Cost with Amazon DocumentDB](https://aws.amazon.com/documentdb/resources/video-five-ways-optimize-cost/)
 4. [Optimize AWS DocumentDB Cost and Performance with AWS Graviton2](https://awsmadeeasy.com/blog/aws-documentdb-to-aws-graviton2/)
+5. [Amazon DocumentDB (with MongoDB compatibility) pricing](https://aws.amazon.com/documentdb/pricing/)
 
 # 21. Tools
 

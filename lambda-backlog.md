@@ -17,6 +17,7 @@
 - [13. Autoscaling](#13-autoscaling)
 - [14. Curate](#14-curate)
 - [15. Examples](#15-examples)
+- [16. Testing](#16-testing)
 
 <!-- /TOC -->
 
@@ -91,3 +92,8 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 15. Examples
 1. [aws/serverless-application-model](https://github.com/aws/serverless-application-model/tree/master/examples)
 - Found this link from https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/
+
+# 16. Testing
+
+1. [Review of "Testing Serverless Architectures" by Yan Cui](https://www.trek10.com/blog/review-of-testing-serverless-architectures-by-yan-cui)
+2.[Testing Serverless Applications By Dan Fox](https://serverlessland.com/testing)
