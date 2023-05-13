@@ -7,6 +7,7 @@
 4. [Choosing the Right DynamoDB Partition Key by Gowri Balasubramanian and Sean Shriver ](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
 5. [How to design Amazon DynamoDB global secondary indexes by Shubham Sethi](https://aws.amazon.com/blogs/database/how-to-design-amazon-dynamodb-global-secondary-indexes/)
 6. [[MY NEXT] From relational DB to single DynamoDB table: a step-by-step exploration](https://www.trek10.com/blog/dynamodb-single-table-relational-modeling)
+7. [DocumentDB Pricing](https://aws.amazon.com/documentdb/pricing/)
 
 # Java
 1. [JAVA REPLATFORMING By Mark Sailes](https://serverlessland.com/content/service/lambda/paved-path/java-replatforming/introduction)
