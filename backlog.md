@@ -29,16 +29,13 @@
   - [10.1. Scaling](#101-scaling)
   - [10.2. Deployment - Single-AZ instance, Multi-AZ instance, or Multi-AZ](#102-deployment---single-az-instance-multi-az-instance-or-multi-az)
   - [10.3. Replication](#103-replication)
-- [13. DNS](#13-dns)
 - [15. Testing](#15-testing)
 - [16. Case Studies](#16-case-studies)
 - [17. Solutions](#17-solutions)
-- [18. Workshops](#18-workshops)
 - [19. FireHose](#19-firehose)
-- [20. Aethna](#20-aethna)
+- [20. Athena](#20-athena)
 
 <!-- /TOC -->
-
 
 # 1. MongoDB
 
@@ -183,10 +180,7 @@
 
 1. [Best practices for Amazon RDS PostgreSQL replication by Vivek Singh ](https://aws.amazon.com/blogs/database/best-practices-for-amazon-rds-postgresql-replication/)
 
-# 13. DNS
 
-1. [How to centralize DNS management in a multi-account environment by Mahmoud Matouk ](https://aws.amazon.com/blogs/security/how-to-centralize-dns-management-in-a-multi-account-environment/)
-2. [[MY NEXT] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
 
 # 15. Testing
 
@@ -200,28 +194,11 @@
 
 1. [How can I prevent my public GitHub repository from showing up on search results?](https://www.quora.com/How-can-I-prevent-my-public-GitHub-repository-from-showing-up-on-search-results)
 
-# 18. Workshops
-
-1. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
-- [Shared Services account](https://docs.aws.amazon.com/managedservices/latest/userguide/shared-services-account.html)
-2. [Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
-- Lab 1: Configure the network
-- Lab 2: Set up your RDS database using cfn
-- Lab 3: Set up Elasticache for Memcached using cfn
-- Lab 4: Create the shared filesystem using cfn
-- Lab 5: Create the load balancer using cfn
-- Lab 6: Create a launch configuration using cfn
-- Lab 7: Create the app server using cfn
-- Lab 8: Configure caching using cfn
-- Lab 9:: Add a Content Delivery Network using cfn
-- Lab 10: Chaos testing with AWS Fault Injection Simulator
-3. [Amazon Athena Workshop :: Hands on Labs](https://catalog.us-east-1.prod.workshops.aws/workshops/9981f1a1-abdc-49b5-8387-cb01d238bb78/en-US)
-
 # 19. FireHose
 
 1. [Amazon Kinesis Firehose Data Transformation with AWS Lambda by Bryan Liston](https://aws.amazon.com/blogs/compute/amazon-kinesis-firehose-data-transformation-with-aws-lambda/)
 
-# 20. Aethna
+# 20. Athena
 
 1. [Loading Data from S3 to AWS Athena](https://levelup.gitconnected.com/loading-data-from-s3-to-aws-athena-7c56c63efccc)
 2. [Extracting and joining data from multiple data sources with Athena Federated Query by Saurabh Bhutyani and Amir Basirat](https://aws.amazon.com/blogs/big-data/extracting-and-joining-data-from-multiple-data-sources-with-athena-federated-query/)

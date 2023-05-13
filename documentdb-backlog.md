@@ -7,30 +7,31 @@
 - [2. Scaling](#2-scaling)
 - [3. Backups](#3-backups)
 - [4. Connection Pooling](#4-connection-pooling)
-- [4. Lambda](#4-lambda)
-- [5. Change Streams](#5-change-streams)
-- [6. Indexing](#6-indexing)
-- [7. Development](#7-development)
-- [8. JDBC](#8-jdbc)
-- [9. IAM](#9-iam)
-- [10. AWS Config](#10-aws-config)
-- [11. Archiving](#11-archiving)
-- [12. Spring Boot](#12-spring-boot)
-- [13. Data Modeling](#13-data-modeling)
-- [14. Keys](#14-keys)
-- [15. Caching](#15-caching)
-- [16. ECS](#16-ecs)
-- [17. Transactions](#17-transactions)
-- [18. Troubleshooting](#18-troubleshooting)
-- [19. Cost](#19-cost)
-- [20. Tools](#20-tools)
-  - [20.1. IDE](#201-ide)
-  - [20.2. Connecting from outside VPC](#202-connecting-from-outside-vpc)
-- [21. Elastic Clusters](#21-elastic-clusters)
-- [22. Integrations](#22-integrations)
-  - [22.1. Opensearch Integration using Change Streams](#221-opensearch-integration-using-change-streams)
-  - [22.2. MSK Integration using Change Streams](#222-msk-integration-using-change-streams)
-- [23. Java](#23-java)
+- [5. Lambda](#5-lambda)
+- [6. Change Streams](#6-change-streams)
+- [7. Indexing](#7-indexing)
+- [8. Development](#8-development)
+- [9. JDBC](#9-jdbc)
+- [10. IAM](#10-iam)
+- [11. AWS Config](#11-aws-config)
+- [12. Archiving](#12-archiving)
+- [13. Spring Boot](#13-spring-boot)
+- [14. Data Modeling](#14-data-modeling)
+- [15. Keys](#15-keys)
+- [16. Caching](#16-caching)
+- [17. ECS](#17-ecs)
+- [18. Transactions](#18-transactions)
+- [19. Troubleshooting](#19-troubleshooting)
+- [20. Cost](#20-cost)
+- [21. Tools](#21-tools)
+  - [21.1. IDE](#211-ide)
+  - [21.2. Connecting from outside VPC](#212-connecting-from-outside-vpc)
+- [22. Elastic Clusters](#22-elastic-clusters)
+  - [22.1. Choosing Shard keys](#221-choosing-shard-keys)
+- [23. Integrations](#23-integrations)
+  - [23.1. Opensearch Integration using Change Streams](#231-opensearch-integration-using-change-streams)
+  - [23.2. MSK Integration using Change Streams](#232-msk-integration-using-change-streams)
+- [24. Java](#24-java)
 
 <!-- /TOC -->
 
@@ -53,49 +54,49 @@
 # 4. Connection Pooling
 1. [[MY NEXT] Serverless DocumentDB Connection Caching Service — Part 1 By Serverless Advocate](https://towardsaws.com/serverless-documentdb-connection-caching-service-part-1-23db3a3df6dc)
 
-# 4. Lambda
+# 5. Lambda
 
 1. [Running AWS Lambda-based applications with Amazon DocumentDB by Raj Chilakapati and Gowri Balasubramanian](https://aws.amazon.com/blogs/database/running-aws-lambda-based-applications-with-amazon-documentdb/)
 2. [Creating a REST API for Amazon DocumentDB (with MongoDB compatibility) with Amazon API Gateway and AWS Lambda by Brian Hess](https://aws.amazon.com/blogs/database/creating-a-rest-api-for-amazon-documentdb-with-mongodb-compatibility-with-amazon-api-gateway-and-aws-labda/)
 3. [Using AWS Lambda with Amazon DocumentDB](https://docs.aws.amazon.com/lambda/latest/dg/with-documentdb.html)
 
-# 5. Change Streams
+# 6. Change Streams
 
 1. [Capture changes from Amazon DocumentDB via AWS Lambda and publish them to Amazon MSK by Murat Balkan](https://aws.amazon.com/blogs/database/capture-changes-from-amazon-documentdb-via-aws-lambda-and-publish-them-to-amazon-msk/)
 2. [Archiving Data with Amazon DocumentDB Change Streams](https://catalog.us-east-1.prod.workshops.aws/workshops/464d6c17-9faa-4fef-ac9f-dd49610174d3/en-US/change-streams)
 
-# 6. Indexing
+# 7. Indexing
 
 1. [How to index on Amazon DocumentDB (with MongoDB compatibility) by Cody Allen ](https://aws.amazon.com/blogs/database/how-to-index-on-amazon-documentdb-with-mongodb-compatibility/)
 
-# 7. Development
+# 8. Development
 
 1. [Building resilient applications with Amazon DocumentDB (with MongoDB compatibility), Part 1: Client configuration by Karthik Vijayraghavan](https://aws.amazon.com/blogs/database/building-resilient-applications-with-amazon-documentdb-with-mongodb-compatibility-part-1-client-configuration/)
 2. [Building resilient applications with Amazon DocumentDB (with MongoDB compatibility), Part 2: Exception handling by Karthik Vijayraghavan](https://aws.amazon.com/blogs/database/building-resilient-applications-with-amazon-documentdb-with-mongodb-compatibility-part-2-exception-handling/)
 3. [Get started with the Amazon DocumentDB JDBC driver by Douglas Bonser ](https://aws.amazon.com/blogs/database/get-started-with-the-amazon-documentdb-jdbc-driver/)
 4. [Connecting to an Amazon DocumentDB Cluster from Outside an Amazon VPC](https://docs.aws.amazon.com/documentdb/latest/developerguide/connect-from-outside-a-vpc.html)
 
-# 8. JDBC
+# 9. JDBC
 
 1. [Get started with the Amazon DocumentDB JDBC driver by Douglas Bonser](https://aws.amazon.com/blogs/database/get-started-with-the-amazon-documentdb-jdbc-driver/)
 
-# 9. IAM
+# 10. IAM
 
 1. [Introducing Amazon DocumentDB (with MongoDB compatibility) user-defined roles for access control by Tim Callaghan](https://aws.amazon.com/blogs/database/introducing-amazon-documentdb-with-mongodb-compatibility-user-defined-roles-for-access-control/)
 
-# 10. AWS Config
+# 11. AWS Config
 
 1. [[MY NEXT] Evaluate Amazon DocumentDB (with MongoDB compatibility) configurations using AWS Config by Jesus Bernal and Karthik Vijayraghavan](https://aws.amazon.com/blogs/database/evaluate-amazon-documentdb-with-mongodb-compatibility-configurations-using-aws-config/)
 
-# 11. Archiving
+# 12. Archiving
 
 1. [Archive data from Amazon DocumentDB (with MongoDB compatibility) to Amazon S3 by Mark Mulligan and Karthik Vijayraghavan](https://aws.amazon.com/blogs/database/archive-data-from-amazon-documentdb-with-mongodb-compatibility-to-amazon-s3/)
 
-# 12. Spring Boot
+# 13. Spring Boot
 
 1. [Integrate your Spring Boot application with Amazon DocumentDB (with MongoDB compatibility) by Gururaj S Bayari ](https://aws.amazon.com/blogs/database/integrate-your-spring-boot-application-with-amazon-documentdb/)
 
-# 13. Data Modeling
+# 14. Data Modeling
 
 1. [Introduction to data modeling with Amazon DocumentDB (with MongoDB compatibility) for relational database users by Sameer Kumar](https://aws.amazon.com/blogs/database/introduction-to-data-modeling-with-amazon-documentdb-with-mongodb-compatibility-for-relational-database-users/)
 2. [Document modeling with Amazon DocumentDB and Hackolade by Karthik Vijayraghavan and Pascal Desmarets](https://aws.amazon.com/blogs/database/document-modeling-with-amazon-documentdb-and-hackolade/)
@@ -103,67 +104,72 @@
 4. [<span style="color:red">[MY NEXT]</span> DocumentDB Insider Hour | Episode 21 | Document Modeling](https://www.youtube.com/watch?v=Lqjq36GC8Os)
 5. [Data Modeling Methodology for Amazon DocumentDB- AWS Virtual Workshop By Mihai Aldoiu and Jason Plank](https://www.youtube.com/watch?v=Y87DVChZfwk&t=3s&pp=ygUpYXdzIGRvY3VtZW50ZGIgbWloYWkgYWxkb2x1IGRhdGEgbW9kZWxpbmc%3D)
 
-# 14. Keys
+# 15. Keys
 
 1. [Choose shard keys to optimize Amazon DocumentDB Elastic Clusters by Jason Dalba](https://aws.amazon.com/blogs/database/choose-shard-keys-to-optimize-amazon-documentdb-elastic-clusters/)
 
-# 15. Caching
+# 16. Caching
 
 1. [Caching for performance with Amazon DocumentDB and Amazon ElastiCache by Georges Leschener](https://aws.amazon.com/blogs/database/caching-for-performance-with-amazon-documentdb-and-amazon-elasticache/)
 
-# 16. ECS
+# 17. ECS
 
 1. [Deploy a containerized application with Amazon ECS and connect to Amazon DocumentDB (with MongoDB compatibility) securely by Hidenori Koizumi](https://aws.amazon.com/blogs/database/deploy-a-containerized-application-with-amazon-ecs-and-connect-to-amazon-documentdb-securely/)
 
-# 17. Transactions
+# 18. Transactions
 
 1. [Introducing transactions in Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek](https://aws.amazon.com/blogs/database/introducing-transactions-in-amazon-documentdb-with-mongodb-compatibility/)
 2. [Introducing MongoDB 4.0 compatibility and Transactions in Amazon DocumentDB by Joseph Idziorek ](https://aws.amazon.com/blogs/database/introducing-amazon-documentdb-with-mongodb-compatibility-4-0/)
 3. [[MY NEXT] Using Transactions with Amazon DocumentDB (with MongoDB compatibility) 4.0 - AWS Online Tech Talks](https://www.youtube.com/watch?v=5m_jRQvOo_I)
 
-# 18. Troubleshooting
+# 19. Troubleshooting
 
 1. [Profiling slow-running queries in Amazon DocumentDB (with MongoDB compatibility) by Meet Bhagdev](https://aws.amazon.com/blogs/database/profiling-slow-running-queries-in-amazon-documentdb-with-mongodb-compatibility/ )
 2. [Monitoring metrics and setting up alarms on your Amazon DocumentDB (with MongoDB compatibility) clusters by Ryan Thurston](https://aws.amazon.com/blogs/database/monitoring-metrics-and-setting-up-alarms-on-your-amazon-documentdb-with-mongodb-compatibility-clusters/)
 
-# 19. Cost
+# 20. Cost
 
 1. [Using cost allocation tags with Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek ](https://aws.amazon.com/blogs/database/using-cost-allocation-tags-with-amazon-documentdb-with-mongodb-compatibility/)
 2. [Optimizing for cost with Amazon DocumentDB (with MongoDB compatibility) by Joseph Idziorek](https://aws.amazon.com/blogs/database/optimizing-for-cost-with-amazon-documentdb-with-mongodb-compatibility/)
+3. [Five Ways to Optimize for Cost with Amazon DocumentDB](https://aws.amazon.com/documentdb/resources/video-five-ways-optimize-cost/)
+4. [Optimize AWS DocumentDB Cost and Performance with AWS Graviton2](https://awsmadeeasy.com/blog/aws-documentdb-to-aws-graviton2/)
 
-# 20. Tools
+# 21. Tools
 
-## 20.1. IDE
+## 21.1. IDE
 
 1. [Studio 3T](https://docs.aws.amazon.com/documentdb/latest/developerguide/studio3t.html)
 2. [DbVisualizer](https://www.dbvis.com/download/)
 - see https://aws.amazon.com/blogs/database/get-started-with-the-amazon-documentdb-jdbc-driver/
 
-## 20.2. Connecting from outside VPC
+## 21.2. Connecting from outside VPC
 
 1. [Connecting to an Amazon DocumentDB Cluster from Outside an Amazon VPC](https://docs.aws.amazon.com/documentdb/latest/developerguide/connect-from-outside-a-vpc.html)
 
-# 21. Elastic Clusters
+# 22. Elastic Clusters
 
 1. [Announcing Amazon DocumentDB Elastic Clusters by Veliswa Boya](https://aws.amazon.com/blogs/aws/announcing-amazon-documentdb-elastic-clusters/)
 2. [Amazon DocumentDB elastic clusters: how it works](https://docs.aws.amazon.com/documentdb/latest/developerguide/elastic-how-it-works.html)
 3. [Getting Started with Amazon DocumentDB Elastic Clusters- AWS Database in 15 By Vin Yu](https://www.youtube.com/watch?v=6uVb35pd-mA)
-4. [Choose shard keys to optimize Amazon DocumentDB Elastic Clusters by Jason Dalba ](https://aws.amazon.com/blogs/database/choose-shard-keys-to-optimize-amazon-documentdb-elastic-clusters/)
 5. [Elastic Scaling wtith Amazon DocumentDB- AWS Virtual Workshop By Vin Yu and Pratik Das](https://www.youtube.com/watch?v=I5yIZKx1ctM)
 
-# 22. Integrations
+## 22.1. Choosing Shard keys
 
-## 22.1. Opensearch Integration using Change Streams
+1. [Choose shard keys to optimize Amazon DocumentDB Elastic Clusters by Jason Dalba](https://aws.amazon.com/blogs/database/choose-shard-keys-to-optimize-amazon-documentdb-elastic-clusters/)
+
+# 23. Integrations
+
+## 23.1. Opensearch Integration using Change Streams
 
 1. [Run full text search queries on Amazon DocumentDB (with MongoDB compatibility) data with Amazon OpenSearch Service by Meet Bhagdev, Herbert Gomez, and Vijay Injam](https://aws.amazon.com/blogs/database/run-full-text-search-queries-on-amazon-documentdb-data-with-amazon-elasticsearch-service/)
 - CFN that launches: Amazon DocumentDB cluster, Amazon ES domain, AWS Secrets Manager secret, Amazon SNS trigger, EventBridge rule, Enable change streams (CS) for DocDB, Lambda replicates from CS to ES
 
-## 22.2. MSK Integration using Change Streams
+## 23.2. MSK Integration using Change Streams
 
 1. [Capture changes from Amazon DocumentDB via AWS Lambda and publish them to Amazon MSK by Murat Balkan](https://aws.amazon.com/blogs/database/capture-changes-from-amazon-documentdb-via-aws-lambda-and-publish-them-to-amazon-msk/)
 - Includes CFN
 2. [Building Dynamic Data Pipes Using AWS DocumentDB, MSK and Lambda](https://medium.com/cisco-fpie/taming-of-the-queue-f320f855a09)
 
-# 23. Java
+# 24. Java
 
 1. [Samples to show amazon-documentdb-jdbc-driver usage](https://github.com/aws/amazon-documentdb-jdbc-driver/blob/develop/src/main/java/software/amazon/documentdb/jdbc/persist/DocumentDbSchemaReader.Java)

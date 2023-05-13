@@ -56,11 +56,13 @@
 2. [7 Common DynamoDB Patterns for Modeling and Building an App with Alex De Brie](https://www.youtube.com/watch?v=Q6-qWdsa8a4&t=186s)
 - Code: https://github.com/alexdebrie/dynamodb-instagram
 3. [Alex de Brie: DynamoDB Misconceptions | Serverless Office Hours](https://www.youtube.com/watch?v=F8TYmz9fj2Y&)
-4. [](https://www.youtube.com/watch?v=KYy8X8t4MB8)
+4. [Fundamentals of Amazon DynamoDB Single Table Design with Rick Houlihan](https://www.youtube.com/watch?v=KYy8X8t4MB8)
+5. [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401) By Rick Houlihan](https://www.youtube.com/watch?v=HaEPXoXVf2k)
+-  https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
+
 # 5. Workshop
 
-1. [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
-2. [Amazon DynamoDB Labs](https://catalog.us-east-1.prod.workshops.aws/workshops/3319b690-3a41-4921-9af8-f31c7bef4cdb/en-US)
+See [workshops-backlog.md](./workshops-backlog.md)
 
 # 6. UseCases
 
@@ -78,7 +80,6 @@
 1. [Use Amazon DynamoDB global tables in DynamoDB Shell by Amrith Kumar](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-global-tables-in-dynamodb-shell/)
 2. [SQL, NoSQL, and Scale: How DynamoDB scales where relational databases don't By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/)
 
-
 # 8. DynamoDB Videos
 
 1. [AWS re:Invent 2019: [REPEAT 1] Amazon DynamoDB deep dive: Advanced design patterns (DAT403-R1) By Rick H](https://www.youtube.com/watch?v=6yqfmXiZTlM)
@@ -93,3 +94,4 @@
 # 10. Lambda Integration
 
 1. [Building enterprise applications using Amazon DynamoDB, AWS Lambda, and Go by Geoffroy Rollat ](https://aws.amazon.com/blogs/database/building-enterprise-applications-using-amazon-dynamodb-aws-lambda-and-golang/)
+
