@@ -16,6 +16,7 @@
 - [10. Auditing](#10-auditing)
 - [11. Patterns](#11-patterns)
 - [AutoScaling](#autoscaling)
+- [AWS CookBook](#aws-cookbook)
 
 <!-- /TOC -->
 
@@ -90,3 +91,7 @@
 # AutoScaling
 
 1. [Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
+
+# AWS CookBook
+
+1. [AWS Cookbook](https://github1s.com/AWSCookbook/Databases)

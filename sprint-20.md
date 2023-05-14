@@ -28,6 +28,7 @@
 10. [Using write sharding to distribute workloads evenly](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-sharding.html)
 11. [See section on Optimize for provisioned throughput use @ How to design Amazon DynamoDB global secondary indexes](https://aws.amazon.com/blogs/database/how-to-design-amazon-dynamodb-global-secondary-indexes/)
 12. [DocumentDB Pricing](https://aws.amazon.com/documentdb/pricing/)
+13. [Creating a single-table design with Amazon DynamoDB by James Beswick](https://aws.amazon.com/blogs/compute/creating-a-single-table-design-with-amazon-dynamodb/)
 
 # Java
 1. [JAVA REPLATFORMING By Mark Sailes](https://serverlessland.com/content/service/lambda/paved-path/java-replatforming/introduction)
@@ -35,3 +36,4 @@
 # Work
 1. List all access patterns
 2. Add RCRD_LCTR
+
