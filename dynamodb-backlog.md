@@ -7,6 +7,7 @@
   - [3.1. GSI](#31-gsi)
   - [3.2. LSI](#32-lsi)
 - [4. Partition Key](#4-partition-key)
+- [Sharding](#sharding)
 - [5. Data Modeling](#5-data-modeling)
   - [5.1. Sample Models](#51-sample-models)
 - [6. Workshop](#6-workshop)
@@ -74,6 +75,9 @@
 5. [See section on Optimize for provisioned throughput use @ How to design Amazon DynamoDB global secondary indexes](https://aws.amazon.com/blogs/database/how-to-design-amazon-dynamodb-global-secondary-indexes/)
 6. [Best practices for designing and using partition keys effectively](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html)
 
+# Sharding
+
+1. [Choosing the right number of shards for your large-scale Amazon DynamoDB table by Anuj Dewangan and Sean Shriver](https://aws.amazon.com/blogs/database/choosing-the-right-number-of-shards-for-your-large-scale-amazon-dynamodb-table)
 
 # 5. Data Modeling
 
@@ -92,7 +96,6 @@
 ## 5.1. Sample Models
 
 1. [DynamoDB Single-Table Design Examples Library by dynobase](https://dynobase.dev/dynamodb-single-table-design-examples/)
-
 
 # 6. Workshop
 
