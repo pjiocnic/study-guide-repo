@@ -5,6 +5,7 @@
 - [2. AWS Architecture](#2-aws-architecture)
 - [OpenSource Blogs](#opensource-blogs)
 - [Serverless](#serverless)
+- [DynamoDB](#dynamodb)
 
 <!-- /TOC -->
 
@@ -40,3 +41,7 @@
 
 1. [Serverless at AWS re:Invent 2019 by George Mao](https://aws.amazon.com/blogs/architecture/serverless-at-aws-reinvent-2019/)
 2. [Top Resources for API Architects and Developers by George Mao](https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/)
+
+# DynamoDB
+
+1. [Awesome DynamoDB rerource list by Alex Debrie](https://github.com/alexdebrie/awesome-dynamodb/blob/master/README.md)

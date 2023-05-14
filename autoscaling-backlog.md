@@ -7,7 +7,7 @@
 - [4. Custom Target Target Tracking Policy](#4-custom-target-target-tracking-policy)
 - [5. EC2 Auto Scaling](#5-ec2-auto-scaling)
   - [5.1. Introduction](#51-introduction)
-  - [5.2. Using Promethus metrics](#52-using-promethus-metrics)
+  - [5.2. Using Prometheus metrics](#52-using-prometheus-metrics)
 - [6. Lambda](#6-lambda)
 
 <!-- /TOC -->
@@ -42,7 +42,7 @@
 2. [EC2 Auto Scaling from AWS General Immersion Day wokshop](https://catalog.us-east-1.prod.workshops.aws/workshops/f3a3e2bd-e1d5-49de-b8e6-dac361842e76/en-US/basic-modules/10-ec2/ec2-auto-scaling/ec2-auto-scaling)
 3. [Amazon EC2 Auto Scaling with EC2 Spot Instances](https://aws.amazon.com/getting-started/hands-on/ec2-auto-scaling-spot-instances/)
 
-## 5.2. Using Promethus metrics
+## 5.2. Using Prometheus metrics
 
 1. [Auto-scaling Amazon EC2 using Amazon Managed Service for Prometheus and alert manager](https://aws.amazon.com/blogs/mt/auto-scaling-amazon-ec2-using-amazon-managed-service-for-prometheus-and-alert-manager/)
 

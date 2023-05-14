@@ -5,6 +5,7 @@ https://www.epochconverter.com/weeks/2023
 - [1. Topics to visit](#1-topics-to-visit)
 - [2. Examples to work on](#2-examples-to-work-on)
   - [2.1. Custom Autoscaling](#21-custom-autoscaling)
+  - [2.2 Scaling provisioned Concurrency](#22-scaling-provisioned-concurrency)
   - [2.2. Centralized Logging](#22-centralized-logging)
   - [2.3. IAM Authentication for RDS](#23-iam-authentication-for-rds)
   - [2.4. Hub and Spoke](#24-hub-and-spoke)
@@ -12,6 +13,7 @@ https://www.epochconverter.com/weeks/2023
   - [2.6. Review SDK Examples](#26-review-sdk-examples)
   - [2.7. Priority Queues](#27-priority-queues)
   - [2.8. FIFO Queues](#28-fifo-queues)
+  - [2.9 Near-Real-Time Event Processing](#29-near-real-time-event-processing)
 
 <!-- /TOC -->
 
@@ -39,6 +41,10 @@ https://www.epochconverter.com/weeks/2023
 ## 2.1. Custom Autoscaling
 1. [Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
 
+## 2.2 Scaling provisioned Concurrency
+
+See Lambda-backlog.md
+
 ## 2.2. Centralized Logging
 2. [Stream Amazon CloudWatch Logs to a Centralized Account for Audit and Analysis by David Bailey](https://aws.amazon.com/blogs/architecture/stream-amazon-cloudwatch-logs-to-a-centralized-account-for-audit-and-analysis/)
 
@@ -62,3 +68,7 @@ https://www.epochconverter.com/weeks/2023
 ## 2.8. FIFO Queues
 
 1. [Implement serverless FIFO queues with filtering capabilities using Amazon DynamoDB transactions by Nikhil Penmetsa and Randy DeFauw](https://aws.amazon.com/blogs/database/serverless-fifo-queues-filtering-dynamodb-transactions/)
+
+## 2.9 Near-Real-Time Event Processing
+
+1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams/)

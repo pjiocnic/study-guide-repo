@@ -16,6 +16,7 @@
   - [6.4. FIFO Queues](#64-fifo-queues)
   - [6.5. Sequence Generator](#65-sequence-generator)
   - [6.6. URL Shortner](#66-url-shortner)
+  - [6.7 Near-Real-Time Event Processing](#67-near-real-time-event-processing)
 - [7. Streams](#7-streams)
 - [8. DynamoDB Videos](#8-dynamodb-videos)
 - [9. Development](#9-development)
@@ -25,6 +26,8 @@
   - [9.4. Enhanced DynamoDB client](#94-enhanced-dynamodb-client)
   - [9.5. HTTP Client](#95-http-client)
 - [10. Lambda Integration](#10-lambda-integration)
+- [11. Migration](#11-migration)
+- [12. Blogs](#12-blogs)
 
 <!-- /TOC -->
 
@@ -109,6 +112,10 @@ See [workshops-backlog.md](./workshops-backlog.md)
 
 1. See [apgw-backlog.md](./apgw-backlog.md)
 
+## 6.7 Near-Real-Time Event Processing
+
+1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams/)
+
 # 7. Streams
 
 1. [DynamoDB Streams Use Cases and Design Patterns by Gowri Balasubramanian](https://aws.amazon.com/blogs/database/dynamodb-streams-use-cases-and-design-patterns/)
@@ -170,5 +177,10 @@ See [workshops-backlog.md](./workshops-backlog.md)
 3. [Building a serverless developer authentication API in Java using AWS Lambda, Amazon DynamoDB, and Amazon Cognito – Part 2 by Dhruv Thukral](https://aws.amazon.com/blogs/developer/building-a-serverless-developer-authentication-api-in-java-using-aws-lambda-amazon-dynamodb-and-amazon-cognito-part-2/)
 4. [Building a serverless developer authentication API in Java using AWS Lambda, Amazon DynamoDB, and Amazon Cognito – Part 3 by Dhruv Thukral](https://aws.amazon.com/blogs/developer/building-a-serverless-developer-authentication-api-in-java-using-aws-lambda-amazon-dynamodb-and-amazon-cognito-part-3/)
 
+# 11. Migration
 
+1. [Near Zero Downtime Migration from MySQL to DynamoDB by YongSeong Lee ](https://aws.amazon.com/blogs/big-data/near-zero-downtime-migration-from-mysql-to-dynamodb/)
 
+# 12. Blogs
+
+[See Dynamo Blogs @ blogs-2-visit.md](./blogs-2-visit.md)
