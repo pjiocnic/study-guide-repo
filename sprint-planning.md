@@ -9,6 +9,9 @@ https://www.epochconverter.com/weeks/2023
   - [2.3. IAM Authentication for RDS](#23-iam-authentication-for-rds)
   - [2.4. Hub and Spoke](#24-hub-and-spoke)
   - [2.5. Serverless](#25-serverless)
+  - [2.6. Review SDK Examples](#26-review-sdk-examples)
+  - [2.7. Priority Queues](#27-priority-queues)
+  - [2.8. FIFO Queues](#28-fifo-queues)
 
 <!-- /TOC -->
 
@@ -48,3 +51,14 @@ https://www.epochconverter.com/weeks/2023
 ## 2.5. Serverless
 1. [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
     - [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage by Chris Munns](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)
+
+## 2.6. Review SDK Examples
+1. [https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2)
+
+## 2.7. Priority Queues
+
+1. [[MY NEXT] Implementing priority queueing with Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/implementing-priority-queueing-with-amazon-dynamodb/)
+
+## 2.8. FIFO Queues
+
+1. [Implement serverless FIFO queues with filtering capabilities using Amazon DynamoDB transactions by Nikhil Penmetsa and Randy DeFauw](https://aws.amazon.com/blogs/database/serverless-fifo-queues-filtering-dynamodb-transactions/)
