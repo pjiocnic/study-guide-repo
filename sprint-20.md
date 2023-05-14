@@ -2,7 +2,7 @@
 
 1. [[May 14] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
 2. [[May 14] AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401)](https://www.youtube.com/watch?v=HaEPXoXVf2k) https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
-3. [Everything you need to know about DynamoDB Partitions](https://www.alexdebrie.com/posts/dynamodb-partitions/)
+3. [[May 15] Everything you need to know about DynamoDB Partitions](https://www.alexdebrie.com/posts/dynamodb-partitions/)
 4. [[May 15] Choosing the Right DynamoDB Partition Key by Gowri Balasubramanian and Sean Shriver](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
 5. [[May 16] Online Shop](https://github.com/aws-samples/amazon-dynamodb-design-patterns/tree/master/examples/an-online-shop)
 6. [[May 17] From relational DB to single DynamoDB table: a step-by-step exploration](https://www.trek10.com/blog/dynamodb-single-table-relational-modeling)
