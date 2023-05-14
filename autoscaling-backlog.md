@@ -10,6 +10,7 @@
   - [6.1. Introduction](#61-introduction)
   - [6.2. Using Prometheus metrics](#62-using-prometheus-metrics)
 - [7. Lambda](#7-lambda)
+- [Scaling DynamoDB](#scaling-dynamodb)
 
 <!-- /TOC -->
 
@@ -52,5 +53,9 @@
 # 7. Lambda
 
 1. [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage By Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)
+
+# Scaling DynamoDB
+
+1. [4.6 Autoscaling DynamoDB Table Provisioned Capacity @ AWS Cookbook](https://learning.oreilly.com/library/view/aws-cookbook/9781492092599/ch04.html#auto_scaling_dynamodb_table_provisioned)
 
 
