@@ -1,5 +1,21 @@
 # Sprint 20 - May 15, 2023	May 21, 2023: DynamoDB Focus
 
+# General
+
+1. Make notes (GSI.md) from [How to design Amazon DynamoDB global secondary indexes by Shubham Sethi](https://aws.amazon.com/blogs/database/how-to-design-amazon-dynamodb-global-secondary-indexes/)
+- Handling low selectivity columns
+- Designing unique keys
+2. Make notes on "Various ways to setup document db env"
+- /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/documentdb/quick-start/my-readme.md
+- /Volumes/Lexar/git-repos/aws-repo/books/mongodb/mongodb-the-definitive-guide-3rd-ed/Getting Started with MongoDB and NoSQL LiveLessons By Caleb Curry.md
+3. Consolidate DocDB CLI commands
+4. Handling schemas in MongoDB vs DocDB
+- Schema validations
+- Conditional schemas
+5. Setting up compass for DocBD
+
+# DynamoDB
+
 1. [[May 14] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
 2. [[May 14] AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401)](https://www.youtube.com/watch?v=HaEPXoXVf2k) https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
 3. [[May 15] Everything you need to know about DynamoDB Partitions](https://www.alexdebrie.com/posts/dynamodb-partitions/)

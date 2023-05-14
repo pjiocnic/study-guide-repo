@@ -1,38 +1,43 @@
 
 <!-- TOC -->
 
-- [1. Multiple topics](#1-multiple-topics)
-- [2. Indexes](#2-indexes)
-  - [2.1. GSI](#21-gsi)
-  - [2.2. LSI](#22-lsi)
-- [3. Partition Key](#3-partition-key)
-- [4. Data Modeling](#4-data-modeling)
-  - [4.1. Handling keys with Low cardinality](#41-handling-keys-with-low-cardinality)
-- [5. Workshop](#5-workshop)
-- [6. UseCases](#6-usecases)
-  - [6.1. Usescases from AlexDebrie's Book](#61-usescases-from-alexdebries-book)
-  - [6.2. Real world use cases](#62-real-world-use-cases)
-  - [6.3. Priority Queues](#63-priority-queues)
-  - [6.4. FIFO Queues](#64-fifo-queues)
-  - [6.5. Sequence Generator](#65-sequence-generator)
-  - [6.6. URL Shortner](#66-url-shortner)
-  - [6.7. Near-Real-Time Event Processing](#67-near-real-time-event-processing)
-- [7. Streams](#7-streams)
-- [8. DynamoDB Videos](#8-dynamodb-videos)
-- [9. Development](#9-development)
-  - [9.1. Java](#91-java)
-  - [9.2. GSI](#92-gsi)
-  - [9.3. DynamoDBMapper](#93-dynamodbmapper)
-  - [9.4. Enhanced DynamoDB client](#94-enhanced-dynamodb-client)
-  - [9.5. HTTP Client](#95-http-client)
-- [10. Design Patterns](#10-design-patterns)
-- [11. Lambda Integration](#11-lambda-integration)
-- [12. Migration](#12-migration)
-- [13. Blogs](#13-blogs)
+- [1. Frequent GoTos](#1-frequent-gotos)
+- [2. Multiple topics](#2-multiple-topics)
+- [3. Indexes](#3-indexes)
+  - [3.1. GSI](#31-gsi)
+  - [3.2. LSI](#32-lsi)
+- [4. Partition Key](#4-partition-key)
+- [5. Data Modeling](#5-data-modeling)
+  - [5.1. Handling keys with Low cardinality](#51-handling-keys-with-low-cardinality)
+- [6. Workshop](#6-workshop)
+- [7. UseCases](#7-usecases)
+  - [7.1. Usescases from AlexDebrie's Book](#71-usescases-from-alexdebries-book)
+  - [7.2. Real world use cases](#72-real-world-use-cases)
+  - [7.3. Priority Queues](#73-priority-queues)
+  - [7.4. FIFO Queues](#74-fifo-queues)
+  - [7.5. Sequence Generator](#75-sequence-generator)
+  - [7.6. URL Shortner](#76-url-shortner)
+  - [7.7. Near-Real-Time Event Processing](#77-near-real-time-event-processing)
+- [8. Streams](#8-streams)
+- [9. DynamoDB Videos](#9-dynamodb-videos)
+- [10. Development](#10-development)
+  - [10.1. Java](#101-java)
+  - [10.2. GSI](#102-gsi)
+  - [10.3. DynamoDBMapper](#103-dynamodbmapper)
+  - [10.4. Enhanced DynamoDB client](#104-enhanced-dynamodb-client)
+  - [10.5. HTTP Client](#105-http-client)
+- [11. Design Patterns](#11-design-patterns)
+- [12. Lambda Integration](#12-lambda-integration)
+- [13. Migration](#13-migration)
+- [14. Blogs](#14-blogs)
 
 <!-- /TOC -->
 
-# 1. Multiple topics
+# 1. Frequent GoTos
+
+1. [Links currated by Alex Debrie](https://github.com/alexdebrie/awesome-dynamodb/blob/master/README.md)
+
+# 2. Multiple topics
 
 1. [DynamoDB: An Inside Look Into NoSQL – Part 1](https://cloudacademy.com/blog/dynamodb-an-inside-look-into-nosql-part-1/)
 1. [DynamoDB: An Inside Look Into NoSQL – Part 2](https://cloudacademy.com/blog/dynamodb-an-inside-look-into-nosql-part-2/)
@@ -43,9 +48,9 @@
 1. [Membership and Failure Detection in DynamoDB: An Inside Look Into NoSQL, Part 7](https://cloudacademy.com/blog/membership-and-failure-detection-in-dynamodb-an-inside-look-into-nosql-part-7/)
 1. [Monitoring DynamoDB with CloudWatch](https://cloudacademy.com/blog/cloudwatch-monitoring-dynamodb/)
 
-# 2. Indexes
+# 3. Indexes
 
-## 2.1. GSI
+## 3.1. GSI
 
 1. [How to use DynamoDB global secondary indexes to improve query performance and reduce costs by Shubham Sethi ](https://aws.amazon.com/blogs/database/how-to-use-dynamodb-global-secondary-indexes-to-improve-query-performance-and-reduce-costs/)
 2. [How to design Amazon DynamoDB global secondary indexes by Shubham Sethi ](https://aws.amazon.com/blogs/database/how-to-design-amazon-dynamodb-global-secondary-indexes/)
@@ -53,11 +58,11 @@
 4. [Scaling Writes on Amazon DynamoDB Tables with Global Secondary Indexes by Ian Meyers](https://aws.amazon.com/blogs/database/serverless-fifo-queues-filtering-dynamodb-transactions/)
 5. [Create, Update, and Delete Global Secondary Indexes Using the Amazon DynamoDB Document API by Manikandan Subramanian](https://aws.amazon.com/blogs/developer/create-update-and-delete-global-secondary-indexes-using-the-amazon-dynamodb-document-api/)
 
-## 2.2. LSI
+## 3.2. LSI
 
 1. [Local Secondary Indexes for Amazon DynamoDB by Jeff Barr ](https://aws.amazon.com/blogs/aws/local-secondary-indexes-for-amazon-dynamodb/)
 
-# 3. Partition Key
+# 4. Partition Key
 
 1. [Choosing the Right DynamoDB Partition Key by Gowri Balasubramanian and Sean Shriver ](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
 2. [Using write sharding to distribute workloads evenly](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-sharding.html)
@@ -67,7 +72,7 @@
 6. [Best practices for designing and using partition keys effectively](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html)
 
 
-# 4. Data Modeling
+# 5. Data Modeling
 
 1. [Data modeling with Amazon DynamoDB Alex DeBrie](https://d1.awsstatic.com/events/reinvent/2019/Data_modeling_with_Amazon_DynamoDB_CMY304.pdf)
 - [AWS re:Invent 2019: Data modeling with Amazon DynamoDB (CMY304)](https://www.youtube.com/watch?v=DIQVJqiSUkE)
@@ -80,51 +85,51 @@
 7. [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401) By Rick Houlihan](https://www.youtube.com/watch?v=HaEPXoXVf2k)
 -  https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
 
-## 4.1. Handling keys with Low cardinality
+## 5.1. Handling keys with Low cardinality
 
 
-# 5. Workshop
+# 6. Workshop
 
 See [workshops-backlog.md](./workshops-backlog.md)
 
-# 6. UseCases
+# 7. UseCases
 
-## 6.1. Usescases from AlexDebrie's Book
+## 7.1. Usescases from AlexDebrie's Book
 
 1. [See Alex Debrie's DynamoDB book for use cases]()
 
-## 6.2. Real world use cases
+## 7.2. Real world use cases
 
 1. [Real-world use cases for Amazon DynamoDB By Sean Shriver and Ankur Kasliwal](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Real-world_use_cases_for_Amazon_DynamoDB_DAT305-R1.pdf)
 
-## 6.3. Priority Queues
+## 7.3. Priority Queues
 
 1. [[MY NEXT] Implementing priority queueing with Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/implementing-priority-queueing-with-amazon-dynamodb/)
 
-## 6.4. FIFO Queues
+## 7.4. FIFO Queues
 
 1. [Implement serverless FIFO queues with filtering capabilities using Amazon DynamoDB transactions by Nikhil Penmetsa and Randy DeFauw](https://aws.amazon.com/blogs/database/serverless-fifo-queues-filtering-dynamodb-transactions/)
 
-## 6.5. Sequence Generator
+## 7.5. Sequence Generator
 
 1. [See Sequence Generator @ system-design-patterns-backlog.md](./system-design-patterns-backlog.md)
 
-## 6.6. URL Shortner
+## 7.6. URL Shortner
 
 1. See [apgw-backlog.md](./apgw-backlog.md)
 
-## 6.7. Near-Real-Time Event Processing
+## 7.7. Near-Real-Time Event Processing
 
 1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams/)
 
-# 7. Streams
+# 8. Streams
 
 1. [DynamoDB Streams Use Cases and Design Patterns by Gowri Balasubramanian](https://aws.amazon.com/blogs/database/dynamodb-streams-use-cases-and-design-patterns/)
 
 1. [Use Amazon DynamoDB global tables in DynamoDB Shell by Amrith Kumar](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-global-tables-in-dynamodb-shell/)
 2. [SQL, NoSQL, and Scale: How DynamoDB scales where relational databases don't By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/)
 
-# 8. DynamoDB Videos
+# 9. DynamoDB Videos
 
 1. [AWS re:Invent 2019: [REPEAT 1] Amazon DynamoDB deep dive: Advanced design patterns (DAT403-R1) By Rick H](https://www.youtube.com/watch?v=6yqfmXiZTlM)
 2. [DynamoDB under the hood - How does it works? What is the architecture of the database service?](https://www.youtube.com/watch?v=ZhXqNcbR4n0&t=909s)
@@ -132,11 +137,11 @@ See [workshops-backlog.md](./workshops-backlog.md)
 4. [Designing a DynamoDB Table in 4 Steps: From Entities to Access Patterns](https://www.youtube.com/watch?v=JLZOI8patlw)
 5. [{Video] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
 
-# 9. Development
+# 10. Development
 
 1. [Working with JSON data in Amazon DynamoDB by Amrith Kumar](https://aws.amazon.com/blogs/database/working-with-json-data-in-amazon-dynamodb/)
 
-## 9.1. Java
+## 10.1. Java
 
 1. [Setting up DynamoDB local (downloadable version)](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html)
 2. [Load sample data](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SampleData.html)
@@ -145,11 +150,11 @@ See [workshops-backlog.md](./workshops-backlog.md)
 5. [Working with Global Secondary Indexes: Java](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GSIJavaDocumentAPI.html)
 6. [Sample code from AWS](https://github.com/aws/aws-sdk-java/tree/master/src/samples/AmazonDynamoDBDocumentAPI/quick-start/com/amazonaws/services/dynamodbv2/document/quickstart)
 
-## 9.2. GSI
+## 10.2. GSI
 
 1. [Create, Update, and Delete Global Secondary Indexes Using the Amazon DynamoDB Document API by Manikandan Subramanian](https://aws.amazon.com/blogs/developer/create-update-and-delete-global-secondary-indexes-using-the-amazon-dynamodb-document-api/)
 
-## 9.3. DynamoDBMapper
+## 10.3. DynamoDBMapper
 
 1. [[MY NEXT] Amazon DynamoDB single-table design using DynamoDBMapper and Spring Boot by Arjan Schaaf ](https://aws.amazon.com/blogs/database/amazon-dynamodb-single-table-design-using-dynamodbmapper-and-spring-boot/)
 2. [The DynamoDBMapper, Local Secondary Indexes, and You! by Wade Matveyenko](https://aws.amazon.com/blogs/developer/the-dynamodbmapper-local-secondary-indexes-and-you/)
@@ -161,19 +166,19 @@ See [workshops-backlog.md](./workshops-backlog.md)
 8. [Client-side Encryption for Amazon DynamoDB by Hanson Char](https://aws.amazon.com/blogs/developer/client-side-encryption-for-amazon-dynamodb/)
 9. [Using Custom Marshallers to Store Complex Objects in Amazon DynamoDB by zachmu](https://aws.amazon.com/blogs/developer/using-custom-marshallers-to-store-complex-objects-in-amazon-dynamodb/)
 
-## 9.4. Enhanced DynamoDB client
+## 10.4. Enhanced DynamoDB client
 
 1. [Introducing enhanced DynamoDB client in the AWS SDK for Java v2 by Ben Maizels](https://aws.amazon.com/blogs/developer/introducing-enhanced-dynamodb-client-in-the-aws-sdk-for-java-v2/)
 
-## 9.5. HTTP Client
+## 10.5. HTTP Client
 
 1. [Tuning AWS Java SDK HTTP request settings for latency-aware Amazon DynamoDB applications by Joarder Kamal and Sean Shriver](https://aws.amazon.com/blogs/database/tuning-aws-java-sdk-http-request-settings-for-latency-aware-amazon-dynamodb-applications/)
 
-# 10. Design Patterns
+# 11. Design Patterns
 
 1. [Amazon DynamoDB Design Patterns](https://github.com/aws-samples/amazon-dynamodb-design-patterns/tree/master)
 
-# 11. Lambda Integration
+# 12. Lambda Integration
 
 1. [Building enterprise applications using Amazon DynamoDB, AWS Lambda, and Go by Geoffroy Rollat ](https://aws.amazon.com/blogs/database/building-enterprise-applications-using-amazon-dynamodb-aws-lambda-and-golang/)
 2. [Serverless Architectures with Java 8, AWS Lambda, and Amazon DynamoDB — Part 1](https://aws.amazon.com/blogs/startups/serverless-architectures-with-java-8-aws-lambda-and-amazon-dynamodb-part-1/)
@@ -182,10 +187,10 @@ See [workshops-backlog.md](./workshops-backlog.md)
 3. [Building a serverless developer authentication API in Java using AWS Lambda, Amazon DynamoDB, and Amazon Cognito – Part 2 by Dhruv Thukral](https://aws.amazon.com/blogs/developer/building-a-serverless-developer-authentication-api-in-java-using-aws-lambda-amazon-dynamodb-and-amazon-cognito-part-2/)
 4. [Building a serverless developer authentication API in Java using AWS Lambda, Amazon DynamoDB, and Amazon Cognito – Part 3 by Dhruv Thukral](https://aws.amazon.com/blogs/developer/building-a-serverless-developer-authentication-api-in-java-using-aws-lambda-amazon-dynamodb-and-amazon-cognito-part-3/)
 
-# 12. Migration
+# 13. Migration
 
 1. [Near Zero Downtime Migration from MySQL to DynamoDB by YongSeong Lee ](https://aws.amazon.com/blogs/big-data/near-zero-downtime-migration-from-mysql-to-dynamodb/)
 
-# 13. Blogs
+# 14. Blogs
 
 [See Dynamo Blogs @ blogs-2-visit.md](./blogs-2-visit.md)
