@@ -45,3 +45,4 @@
 # DynamoDB
 
 1. [Awesome DynamoDB rerource list by Alex Debrie](https://github.com/alexdebrie/awesome-dynamodb/blob/master/README.md)
+2. [DynamoDB WhitePaper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)

@@ -78,6 +78,7 @@
 
 1. [Choosing the right number of shards for your large-scale Amazon DynamoDB table by Anuj Dewangan and Sean Shriver](https://aws.amazon.com/blogs/database/choosing-the-right-number-of-shards-for-your-large-scale-amazon-dynamodb-table)
 2. [Using write sharding to distribute workloads evenly](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-sharding.html)
+3. [Leaderboard & Write Sharding By Alex Debrie](https://www.dynamodbguide.com/leaderboard-write-sharding/)
 
 # 5. Data Modeling
 
