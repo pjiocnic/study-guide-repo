@@ -16,7 +16,7 @@
   - [6.4. FIFO Queues](#64-fifo-queues)
   - [6.5. Sequence Generator](#65-sequence-generator)
   - [6.6. URL Shortner](#66-url-shortner)
-  - [6.7 Near-Real-Time Event Processing](#67-near-real-time-event-processing)
+  - [6.7. Near-Real-Time Event Processing](#67-near-real-time-event-processing)
 - [7. Streams](#7-streams)
 - [8. DynamoDB Videos](#8-dynamodb-videos)
 - [9. Development](#9-development)
@@ -25,9 +25,10 @@
   - [9.3. DynamoDBMapper](#93-dynamodbmapper)
   - [9.4. Enhanced DynamoDB client](#94-enhanced-dynamodb-client)
   - [9.5. HTTP Client](#95-http-client)
-- [10. Lambda Integration](#10-lambda-integration)
-- [11. Migration](#11-migration)
-- [12. Blogs](#12-blogs)
+- [10. Design Patterns](#10-design-patterns)
+- [11. Lambda Integration](#11-lambda-integration)
+- [12. Migration](#12-migration)
+- [13. Blogs](#13-blogs)
 
 <!-- /TOC -->
 
@@ -112,7 +113,7 @@ See [workshops-backlog.md](./workshops-backlog.md)
 
 1. See [apgw-backlog.md](./apgw-backlog.md)
 
-## 6.7 Near-Real-Time Event Processing
+## 6.7. Near-Real-Time Event Processing
 
 1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams/)
 
@@ -168,7 +169,11 @@ See [workshops-backlog.md](./workshops-backlog.md)
 
 1. [Tuning AWS Java SDK HTTP request settings for latency-aware Amazon DynamoDB applications by Joarder Kamal and Sean Shriver](https://aws.amazon.com/blogs/database/tuning-aws-java-sdk-http-request-settings-for-latency-aware-amazon-dynamodb-applications/)
 
-# 10. Lambda Integration
+# 10. Design Patterns
+
+1. [Amazon DynamoDB Design Patterns](https://github.com/aws-samples/amazon-dynamodb-design-patterns/tree/master)
+
+# 11. Lambda Integration
 
 1. [Building enterprise applications using Amazon DynamoDB, AWS Lambda, and Go by Geoffroy Rollat ](https://aws.amazon.com/blogs/database/building-enterprise-applications-using-amazon-dynamodb-aws-lambda-and-golang/)
 2. [Serverless Architectures with Java 8, AWS Lambda, and Amazon DynamoDB — Part 1](https://aws.amazon.com/blogs/startups/serverless-architectures-with-java-8-aws-lambda-and-amazon-dynamodb-part-1/)
@@ -177,10 +182,10 @@ See [workshops-backlog.md](./workshops-backlog.md)
 3. [Building a serverless developer authentication API in Java using AWS Lambda, Amazon DynamoDB, and Amazon Cognito – Part 2 by Dhruv Thukral](https://aws.amazon.com/blogs/developer/building-a-serverless-developer-authentication-api-in-java-using-aws-lambda-amazon-dynamodb-and-amazon-cognito-part-2/)
 4. [Building a serverless developer authentication API in Java using AWS Lambda, Amazon DynamoDB, and Amazon Cognito – Part 3 by Dhruv Thukral](https://aws.amazon.com/blogs/developer/building-a-serverless-developer-authentication-api-in-java-using-aws-lambda-amazon-dynamodb-and-amazon-cognito-part-3/)
 
-# 11. Migration
+# 12. Migration
 
 1. [Near Zero Downtime Migration from MySQL to DynamoDB by YongSeong Lee ](https://aws.amazon.com/blogs/big-data/near-zero-downtime-migration-from-mysql-to-dynamodb/)
 
-# 12. Blogs
+# 13. Blogs
 
 [See Dynamo Blogs @ blogs-2-visit.md](./blogs-2-visit.md)
