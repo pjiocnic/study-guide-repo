@@ -3,17 +3,18 @@ https://www.epochconverter.com/weeks/2023
 <!-- TOC -->
 
 - [1. Topics to visit](#1-topics-to-visit)
-- [2. Examples to work on](#2-examples-to-work-on)
-  - [2.1. Custom Autoscaling](#21-custom-autoscaling)
-  - [2.2 Scaling provisioned Concurrency](#22-scaling-provisioned-concurrency)
-  - [2.2. Centralized Logging](#22-centralized-logging)
-  - [2.3. IAM Authentication for RDS](#23-iam-authentication-for-rds)
-  - [2.4. Hub and Spoke](#24-hub-and-spoke)
-  - [2.5. Serverless](#25-serverless)
-  - [2.6. Review SDK Examples](#26-review-sdk-examples)
-  - [2.7. Priority Queues](#27-priority-queues)
-  - [2.8. FIFO Queues](#28-fifo-queues)
-  - [2.9 Near-Real-Time Event Processing](#29-near-real-time-event-processing)
+- [2. In Progress](#2-in-progress)
+- [3. Examples to work on](#3-examples-to-work-on)
+  - [3.1. Custom Autoscaling](#31-custom-autoscaling)
+  - [3.2. Scaling provisioned Concurrency](#32-scaling-provisioned-concurrency)
+  - [3.3. Centralized Logging](#33-centralized-logging)
+  - [3.4. IAM Authentication for RDS](#34-iam-authentication-for-rds)
+  - [3.5. Hub and Spoke](#35-hub-and-spoke)
+  - [3.6. Serverless](#36-serverless)
+  - [3.7. Review SDK Examples](#37-review-sdk-examples)
+  - [3.8. Priority Queues](#38-priority-queues)
+  - [3.9. FIFO Queues](#39-fifo-queues)
+  - [3.10. Near-Real-Time Event Processing](#310-near-real-time-event-processing)
 
 <!-- /TOC -->
 
@@ -37,39 +38,44 @@ https://www.epochconverter.com/weeks/2023
 15. Hands-on with AWS S3 Safari course By Rick
 16. Review Lambda examples (Integration with other services) from https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html
 
-# 2. Examples to work on
+# 2. In Progress
 
-## 2.1. Custom Autoscaling
+1. [Amazon DocumentDB (with MongoDB compatibility) Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/464d6c17-9faa-4fef-ac9f-dd49610174d3/en-US/prerequisites/cloud9)
+2. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
+
+# 3. Examples to work on
+
+## 3.1. Custom Autoscaling
 1. [Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
 
-## 2.2 Scaling provisioned Concurrency
+## 3.2. Scaling provisioned Concurrency
 
 See Lambda-backlog.md
 
-## 2.2. Centralized Logging
+## 3.3. Centralized Logging
 2. [Stream Amazon CloudWatch Logs to a Centralized Account for Audit and Analysis by David Bailey](https://aws.amazon.com/blogs/architecture/stream-amazon-cloudwatch-logs-to-a-centralized-account-for-audit-and-analysis/)
 
-## 2.3. IAM Authentication for RDS
+## 3.4. IAM Authentication for RDS
 3. [How to securely provide database credentials to Lambda functions by using AWS Secrets Manager by Ramesh Adabala, Anand Komandooru, and Noorul Hasan](https://aws.amazon.com/blogs/security/how-to-securely-provide-database-credentials-to-lambda-functions-by-using-aws-secrets-manager/)
 
-## 2.4. Hub and Spoke
+## 3.5. Hub and Spoke
 [[MY NEXT] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
 
-## 2.5. Serverless
+## 3.6. Serverless
 1. [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
     - [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage by Chris Munns](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)
 
-## 2.6. Review SDK Examples
+## 3.7. Review SDK Examples
 1. [https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2)
 
-## 2.7. Priority Queues
+## 3.8. Priority Queues
 
 1. [[MY NEXT] Implementing priority queueing with Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/implementing-priority-queueing-with-amazon-dynamodb/)
 
-## 2.8. FIFO Queues
+## 3.9. FIFO Queues
 
 1. [Implement serverless FIFO queues with filtering capabilities using Amazon DynamoDB transactions by Nikhil Penmetsa and Randy DeFauw](https://aws.amazon.com/blogs/database/serverless-fifo-queues-filtering-dynamodb-transactions/)
 
-## 2.9 Near-Real-Time Event Processing
+## 3.10. Near-Real-Time Event Processing
 
 1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams/)
