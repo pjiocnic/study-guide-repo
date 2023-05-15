@@ -57,5 +57,8 @@
 # 8. Scaling DynamoDB
 
 1. [4.6 Autoscaling DynamoDB Table Provisioned Capacity @ AWS Cookbook](https://learning.oreilly.com/library/view/aws-cookbook/9781492092599/ch04.html#auto_scaling_dynamodb_table_provisioned)
+2. [Amazon DynamoDB auto scaling: Performance and cost optimization at any scale by Daniel Yoder and Sean Shriver](https://aws.amazon.com/blogs/database/amazon-dynamodb-auto-scaling-performance-and-cost-optimization-at-any-scale/)
+3. [New – Auto Scaling for Amazon DynamoDB by Jeff Barr](https://aws.amazon.com/blogs/aws/new-auto-scaling-for-amazon-dynamodb/)
+4. [The problems with DynamoDB Auto Scaling and how it might be improved By Yan Cui](https://medium.com/hackernoon/the-problems-with-dynamodb-auto-scaling-and-how-it-might-be-improved-a92029c8c10b)
 
 

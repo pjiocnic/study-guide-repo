@@ -20,6 +20,7 @@
 
 1. [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
 2. [Amazon DynamoDB Labs FastTrack](https://catalog.us-east-1.prod.workshops.aws/workshops/3319b690-3a41-4921-9af8-f31c7bef4cdb/en-US)
+3. [Build a Serverless Web Application with AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
 
 # 3. Account setup
 
