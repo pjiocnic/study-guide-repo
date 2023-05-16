@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-arrays-and-embedded-documents
