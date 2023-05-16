@@ -8,11 +8,15 @@ https://www.epochconverter.com/weeks/2023
   - [3.1. Developer Guides](#31-developer-guides)
   - [3.2. DR](#32-dr)
   - [3.3. EKS](#33-eks)
-  - [Fargate](#fargate)
-  - [Lambda](#lambda)
-  - [3.4. Step Functions](#34-step-functions)
-  - [3.5. S3](#35-s3)
-  - [3.6. OU](#36-ou)
+  - [3.4. Fargate](#34-fargate)
+  - [3.5. Lambda](#35-lambda)
+  - [3.6. Networking](#36-networking)
+    - [3.6.1. Hub and Spoke](#361-hub-and-spoke)
+  - [3.7. Patterns](#37-patterns)
+  - [3.8. SAM](#38-sam)
+  - [3.9. Step Functions](#39-step-functions)
+  - [3.10. S3](#310-s3)
+  - [3.11. OU](#311-ou)
 - [4. Examples to work on](#4-examples-to-work-on)
   - [4.1. Custom Autoscaling](#41-custom-autoscaling)
   - [4.2. Scaling provisioned Concurrency](#42-scaling-provisioned-concurrency)
@@ -71,22 +75,40 @@ https://www.epochconverter.com/weeks/2023
 2. [Automatically build and deploy a Java application to Amazon EKS using a CI/CD pipeline](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/automatically-build-and-deploy-a-java-application-to-amazon-eks-using-a-ci-cd-pipeline.html)
 3. [Deploy a sample Java microservice on Amazon EKS and expose the microservice using an Application Load Balancer](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-sample-java-microservice-on-amazon-eks-and-expose-the-microservice-using-an-application-load-balancer.html)
 
-## Fargate
+## 3.4. Fargate
 
-1. [Run message-driven workloads at scale by using AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-message-driven-workloads-at-scale-by-using-aws-fargate.html)
-2. [Run event-driven and scheduled workloads at scale with AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-event-driven-and-scheduled-workloads-at-scale-with-aws-fargate.html)
+1. [[MUST SEE] Run message-driven workloads at scale by using AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-message-driven-workloads-at-scale-by-using-aws-fargate.html)
+2. [[MUST SEE] Run event-driven and scheduled workloads at scale with AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-event-driven-and-scheduled-workloads-at-scale-with-aws-fargate.html)
 
-## Lambda
+## 3.5. Lambda
 
 1. [Generate a static outbound IP address using a Lambda function, Amazon VPC, and a serverless architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/generate-a-static-outbound-ip-address-using-a-lambda-function-amazon-vpc-and-a-serverless-architecture.html)
+2. [Cache secrets using AWS Lambda extensions](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/cache-secrets-using-aws-lambda-extensions.html)
+3. [Testing serverless applications on AWS](https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-application-testing/introduction.html)
+4. [Automate deployment of nested applications using AWS SAM](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/automate-deployment-of-nested-applications-using-aws-sam.html)
 
-## 3.4. Step Functions
+## 3.6. Networking
+
+### 3.6.1. Hub and Spoke
+
+1. [Privately access a central AWS service endpoint from multiple VPCs](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/privately-access-a-central-aws-service-endpoint-from-multiple-vpcs.html)
+
+## 3.7. Patterns
+
+1. [Decompose monoliths into microservices by using CQRS and event sourcing](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/decompose-monoliths-into-microservices-by-using-cqrs-and-event-sourcing.html)
+
+## 3.8. SAM
+
+1. [Deploy multiple-stack applications using AWS CDK with TypeScript](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-multiple-stack-applications-using-aws-cdk-with-typescript.html)
+2. [Automate deployment of nested applications using AWS SAM](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/automate-deployment-of-nested-applications-using-aws-sam.html)
+
+## 3.9. Step Functions
 1. [Implement the serverless saga pattern by using AWS Step Functions](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/implement-the-serverless-saga-pattern-by-using-aws-step-functions.html)
 
-## 3.5. S3
+## 3.10. S3
 1. [Copy data from an S3 bucket to another account and Region by using the AWS CLI](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/copy-data-from-an-s3-bucket-to-another-account-and-region-by-using-the-aws-cli.html)
 
-## 3.6. OU
+## 3.11. OU
 
 1. [OU structure in regulated AWS landing zones: an example from the pharmaceutical industry](https://docs.aws.amazon.com/prescriptive-guidance/latest/ou-structure-landing-zone/introduction.html)
 
