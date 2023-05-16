@@ -34,6 +34,11 @@
 # Java
 1. [JAVA REPLATFORMING By Mark Sailes](https://serverlessland.com/content/service/lambda/paved-path/java-replatforming/introduction)
 
+# Parked
+
+1. [Choose shard keys to optimize Amazon DocumentDB Elastic Clusters by Jason Dalba](https://aws.amazon.com/blogs/database/choose-shard-keys-to-optimize-amazon-documentdb-elastic-clusters/)
+2. [AWS Organizations Hands-on! (AWS Certified Solutions Architect - Professional) By Enlear Academy](https://www.youtube.com/watch?v=jtKqYM9GjNM)
+
 # Work
 1. List all access patterns
 2. Add RCRD_LCTR

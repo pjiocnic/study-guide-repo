@@ -36,7 +36,9 @@ https://www.epochconverter.com/weeks/2023
 13. Event broker example by mohapathra
 14. Webhooks: From Lambda in action
 15. Hands-on with AWS S3 Safari course By Rick
-16. Review Lambda examples (Integration with other services) from https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html
+16. Review Lambda examples (Integration with other services) from
+- https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html
+- https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html
 
 # 2. In Progress
 

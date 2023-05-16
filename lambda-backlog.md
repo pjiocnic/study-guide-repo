@@ -18,6 +18,7 @@
 - [14. Curate](#14-curate)
 - [15. Examples](#15-examples)
 - [16. Testing](#16-testing)
+- [17. SQS Integration](#17-sqs-integration)
 
 <!-- /TOC -->
 
@@ -97,4 +98,10 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 16. Testing
 
 1. [Review of "Testing Serverless Architectures" by Yan Cui](https://www.trek10.com/blog/review-of-testing-serverless-architectures-by-yan-cui)
-2.[Testing Serverless Applications By Dan Fox](https://serverlessland.com/testing)
+2. [Testing Serverless Applications By Dan Fox](https://serverlessland.com/testing)
+
+# 17. SQS Integration
+
+1. [Handle SQS message failure in batch with partial batch response feature](https://medium.com/srcecde/handle-sqs-message-failure-in-batch-with-partial-batch-response-b858ad212573)
+2. [Lambda + SQS Users Should Know About This](https://www.youtube.com/watch?v=0707Py8Jyf0)
+3. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://repost.aws/knowledge-center/lambda-sqs-scaling)

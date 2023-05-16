@@ -43,6 +43,7 @@
 - [18. Autoscaler](#18-autoscaler)
 - [19. Blogs](#19-blogs)
 - [20. SQL Style Interface](#20-sql-style-interface)
+- [21. IAM](#21-iam)
 
 <!-- /TOC -->
 
@@ -76,10 +77,11 @@
 ## 4.1. GSI
 
 1. [How to use DynamoDB global secondary indexes to improve query performance and reduce costs by Shubham Sethi ](https://aws.amazon.com/blogs/database/how-to-use-dynamodb-global-secondary-indexes-to-improve-query-performance-and-reduce-costs/)
-2. [How to design Amazon DynamoDB global secondary indexes by Shubham Sethi ](https://aws.amazon.com/blogs/database/how-to-design-amazon-dynamodb-global-secondary-indexes/)
+2. [[MAKE NOTES] How to design Amazon DynamoDB global secondary indexes by Shubham Sethi ](https://aws.amazon.com/blogs/database/how-to-design-amazon-dynamodb-global-secondary-indexes/)
 3. [Now Available – Global Secondary Indexes for Amazon DynamoDB by Jeff Barr ](https://aws.amazon.com/blogs/aws/now-available-global-secondary-indexes-for-amazon-dynamodb/)
 4. [Scaling Writes on Amazon DynamoDB Tables with Global Secondary Indexes by Ian Meyers](https://aws.amazon.com/blogs/database/serverless-fifo-queues-filtering-dynamodb-transactions/)
 5. [Create, Update, and Delete Global Secondary Indexes Using the Amazon DynamoDB Document API by Manikandan Subramanian](https://aws.amazon.com/blogs/developer/create-update-and-delete-global-secondary-indexes-using-the-amazon-dynamodb-document-api/)
+6. [DynamoDB GSI Overloading - Quick Demo](https://www.youtube.com/watch?v=50OFFo7AmZo)
 
 ## 4.2. LSI
 
@@ -91,6 +93,7 @@
 2. [Why is my Amazon DynamoDB table being throttled?](https://repost.aws/knowledge-center/dynamodb-table-throttled)
 3. [A cookbook to deal with throttling issues in Amazon DynamoDB](https://levelup.gitconnected.com/a-cookbook-to-deal-with-throttling-issues-in-amazon-dynamodb-f953c4ea4785)
 4. [Tuning AWS Java SDK HTTP request settings for latency-aware Amazon DynamoDB applications by Joarder Kamal and Sean Shriver](https://aws.amazon.com/blogs/database/tuning-aws-java-sdk-http-request-settings-for-latency-aware-amazon-dynamodb-applications/)
+
 
 # 6. Partition Key
 
@@ -177,9 +180,9 @@ See [workshops-backlog.md](./workshops-backlog.md)
 ## 12.1. Vidoes with Rick Houlihan
 
 1. [AWS re:Invent 2017: [REPEAT] Advanced Design Patterns for Amazon DynamoDB (DAT403-R)](https://www.youtube.com/watch?v=jzeKPKpucS0)
-2. [[Video] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
-3. [AWS re:Invent 2019: [REPEAT 1] Amazon DynamoDB deep dive: Advanced design patterns (DAT403-R1)](https://www.youtube.com/watch?v=6yqfmXiZTlM)
-4. [Amazon DynamoDB deep dive: Advanced design patterns](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf)
+2. [[MAKE NOTES] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
+3. [[MAKE NOTES] AWS re:Invent 2019: [REPEAT 1] Amazon DynamoDB deep dive: Advanced design patterns (DAT403-R1)](https://www.youtube.com/watch?v=6yqfmXiZTlM)
+4. [[MAKE NOTES] Amazon DynamoDB deep dive: Advanced design patterns](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf)
 
 ## 12.2. Vidoes with Alex Debrie
 
@@ -286,3 +289,10 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 20. SQL Style Interface
 
 1. [Build faster with Amazon DynamoDB and PartiQL: SQL-compatible operations by Pete Naylor and Akshat Vig](https://aws.amazon.com/blogs/database/build-faster-with-amazon-dynamodb-and-partiql-sql-compatible-operations/)
+
+# 21. IAM
+
+1. [Fine-Grained Access Control for Amazon DynamoDB by Jeff Barr](https://aws.amazon.com/blogs/aws/fine-grained-access-control-for-amazon-dynamodb/)
+2. [Getting Started with Fine-Grained Access Control for DynamoDB](https://www.youtube.com/watch?v=uAUYphLWL5w)
+2. [DynamoDB Item and Column Level Access Controls | Part 1 of 2](https://www.youtube.com/watch?v=gHjrj_Efk20)
+3. [Setup DynamoDB Column and Row Level Permissions | Part 2 of 2](https://www.youtube.com/watch?v=vluovhSOzxA&t=19s)
