@@ -9,41 +9,43 @@
   - [4.2. LSI](#42-lsi)
 - [5. Throttling](#5-throttling)
 - [6. Partition Key](#6-partition-key)
-- [7. Sharding](#7-sharding)
-- [8. Data Modeling](#8-data-modeling)
-  - [8.1. Sample Models](#81-sample-models)
-  - [8.2. Modeling Hierarchical Data Structures](#82-modeling-hierarchical-data-structures)
-- [9. Workshop](#9-workshop)
-- [10. UseCases](#10-usecases)
-  - [10.1. Usescases from AlexDebrie's Book](#101-usescases-from-alexdebries-book)
-  - [10.2. Real world use cases](#102-real-world-use-cases)
-  - [10.3. Priority Queues](#103-priority-queues)
-  - [10.4. FIFO Queues](#104-fifo-queues)
-  - [10.5. Sequence Generator](#105-sequence-generator)
-  - [10.6. URL Shortner](#106-url-shortner)
-  - [10.7. Near-Real-Time Event Processing](#107-near-real-time-event-processing)
-- [11. Streams](#11-streams)
-- [12. DynamoDB Videos](#12-dynamodb-videos)
-  - [12.1. Vidoes with Rick Houlihan](#121-vidoes-with-rick-houlihan)
-  - [12.2. Vidoes with Alex Debrie](#122-vidoes-with-alex-debrie)
-- [13. Development](#13-development)
-  - [13.1. Storing Attributes in a JSON (Fastest way to query)](#131-storing-attributes-in-a-json-fastest-way-to-query)
-  - [13.2. Using Document API](#132-using-document-api)
-  - [13.3. Writing Queries](#133-writing-queries)
-  - [13.4. Java](#134-java)
-  - [13.5. GSI](#135-gsi)
-  - [13.6. DynamoDBMapper](#136-dynamodbmapper)
-  - [13.7. Enhanced DynamoDB client](#137-enhanced-dynamodb-client)
-- [14. Design Patterns](#14-design-patterns)
-  - [14.1. Rate Limiter](#141-rate-limiter)
-  - [14.2. Sequence Generators](#142-sequence-generators)
-- [15. Lambda Integration](#15-lambda-integration)
-- [16. Enterprise Grade Example](#16-enterprise-grade-example)
-- [17. Migration](#17-migration)
-- [18. Autoscaler](#18-autoscaler)
-- [19. Blogs](#19-blogs)
-- [20. SQL Style Interface](#20-sql-style-interface)
-- [21. IAM](#21-iam)
+- [7. Partitions](#7-partitions)
+- [8. Querying](#8-querying)
+- [9. Sharding](#9-sharding)
+- [10. Data Modeling](#10-data-modeling)
+  - [10.1. Sample Models](#101-sample-models)
+  - [10.2. Modeling Hierarchical Data Structures](#102-modeling-hierarchical-data-structures)
+- [11. Workshop](#11-workshop)
+- [12. UseCases](#12-usecases)
+  - [12.1. Usescases from AlexDebrie's Book](#121-usescases-from-alexdebries-book)
+  - [12.2. Real world use cases](#122-real-world-use-cases)
+  - [12.3. Priority Queues](#123-priority-queues)
+  - [12.4. FIFO Queues](#124-fifo-queues)
+  - [12.5. Sequence Generator](#125-sequence-generator)
+  - [12.6. URL Shortner](#126-url-shortner)
+  - [12.7. Near-Real-Time Event Processing](#127-near-real-time-event-processing)
+- [13. Streams](#13-streams)
+- [14. DynamoDB Videos](#14-dynamodb-videos)
+  - [14.1. Vidoes with Rick Houlihan](#141-vidoes-with-rick-houlihan)
+  - [14.2. Vidoes with Alex Debrie](#142-vidoes-with-alex-debrie)
+- [15. Development](#15-development)
+  - [15.1. Storing Attributes in a JSON (Fastest way to query)](#151-storing-attributes-in-a-json-fastest-way-to-query)
+  - [15.2. Using Document API](#152-using-document-api)
+  - [15.3. Writing Queries](#153-writing-queries)
+  - [15.4. Java](#154-java)
+  - [15.5. GSI](#155-gsi)
+  - [15.6. DynamoDBMapper](#156-dynamodbmapper)
+  - [15.7. Enhanced DynamoDB client](#157-enhanced-dynamodb-client)
+- [16. Design Patterns](#16-design-patterns)
+  - [16.1. Rate Limiter](#161-rate-limiter)
+  - [16.2. Sequence Generators](#162-sequence-generators)
+- [17. Lambda Integration](#17-lambda-integration)
+- [18. Enterprise Grade Example](#18-enterprise-grade-example)
+- [19. Migration](#19-migration)
+- [20. Autoscaler](#20-autoscaler)
+- [21. Blogs](#21-blogs)
+- [22. SQL Style Interface](#22-sql-style-interface)
+- [23. IAM](#23-iam)
 
 <!-- /TOC -->
 
@@ -97,19 +99,27 @@
 
 # 6. Partition Key
 
-1. [Choosing the Right DynamoDB Partition Key by Gowri Balasubramanian and Sean Shriver ](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
+1. [[READ AGAIN] Choosing the Right DynamoDB Partition Key by Gowri Balasubramanian and Sean Shriver ](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
 2. [Using write sharding to distribute workloads evenly](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-sharding.html)
-3. [Everything you need to know about DynamoDB Partitions](https://www.alexdebrie.com/posts/dynamodb-partitions/)
-4. [See section on Optimize for provisioned throughput use @ How to design Amazon DynamoDB global secondary indexes](https://aws.amazon.com/blogs/database/how-to-design-amazon-dynamodb-global-secondary-indexes/)
-5. [Best practices for designing and using partition keys effectively](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html)
+3. [See section on Optimize for provisioned throughput use @ How to design Amazon DynamoDB global secondary indexes](https://aws.amazon.com/blogs/database/how-to-design-amazon-dynamodb-global-secondary-indexes/)
+4. [Best practices for designing and using partition keys effectively](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html)
 
-# 7. Sharding
+# 7. Partitions
+
+1. [Partitioning Behavior of DynamoDB by Parth Modi](https://www.cloudbees.com/blog/partitioning-behavior-of-dynamodb)
+2. [Everything you need to know about DynamoDB Partitions By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-partitions/)
+
+# 8. Querying
+
+1. [Querying and Pagination with DynamoDB by Parth Modi](https://www.cloudbees.com/blog/querying-and-pagination-with-dynamodb)
+
+# 9. Sharding
 
 1. [Choosing the right number of shards for your large-scale Amazon DynamoDB table by Anuj Dewangan and Sean Shriver](https://aws.amazon.com/blogs/database/choosing-the-right-number-of-shards-for-your-large-scale-amazon-dynamodb-table)
 2. [Using write sharding to distribute workloads evenly](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-sharding.html)
 3. [Leaderboard & Write Sharding By Alex Debrie](https://www.dynamodbguide.com/leaderboard-write-sharding/)
 
-# 8. Data Modeling
+# 10. Data Modeling
 
 1. [Data modeling with Amazon DynamoDB Alex DeBrie](https://d1.awsstatic.com/events/reinvent/2019/Data_modeling_with_Amazon_DynamoDB_CMY304.pdf)
 - [AWS re:Invent 2019: Data modeling with Amazon DynamoDB (CMY304)](https://www.youtube.com/watch?v=DIQVJqiSUkE)
@@ -123,91 +133,91 @@
 -  https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
 8. [Creating a single-table design with Amazon DynamoDB by James Beswick](https://aws.amazon.com/blogs/compute/creating-a-single-table-design-with-amazon-dynamodb/)
 
-## 8.1. Sample Models
+## 10.1. Sample Models
 
 1. [DynamoDB Single-Table Design Examples Library by dynobase](https://dynobase.dev/dynamodb-single-table-design-examples/)
 
-## 8.2. Modeling Hierarchical Data Structures
+## 10.2. Modeling Hierarchical Data Structures
 
 https://www.dynamodbguide.com/hierarchical-data/
 https://www.youtube.com/watch?v=jzeKPKpucS0&t=2165s
 
-# 9. Workshop
+# 11. Workshop
 
 See [workshops-backlog.md](./workshops-backlog.md)
 
-# 10. UseCases
+# 12. UseCases
 
-## 10.1. Usescases from AlexDebrie's Book
+## 12.1. Usescases from AlexDebrie's Book
 
 1. [See Alex Debrie's DynamoDB book for use cases]()
 
-## 10.2. Real world use cases
+## 12.2. Real world use cases
 
 1. [Real-world use cases for Amazon DynamoDB By Sean Shriver and Ankur Kasliwal](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Real-world_use_cases_for_Amazon_DynamoDB_DAT305-R1.pdf)
 
-## 10.3. Priority Queues
+## 12.3. Priority Queues
 
 1. [[MY NEXT] Implementing priority queueing with Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/implementing-priority-queueing-with-amazon-dynamodb/)
 
-## 10.4. FIFO Queues
+## 12.4. FIFO Queues
 
 1. [Implement serverless FIFO queues with filtering capabilities using Amazon DynamoDB transactions by Nikhil Penmetsa and Randy DeFauw](https://aws.amazon.com/blogs/database/serverless-fifo-queues-filtering-dynamodb-transactions/)
 
-## 10.5. Sequence Generator
+## 12.5. Sequence Generator
 
 1. [See Sequence Generator @ system-design-patterns-backlog.md](./system-design-patterns-backlog.md)
 
-## 10.6. URL Shortner
+## 12.6. URL Shortner
 
 1. See [apgw-backlog.md](./apgw-backlog.md)
 
-## 10.7. Near-Real-Time Event Processing
+## 12.7. Near-Real-Time Event Processing
 
 1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams/)
 
-# 11. Streams
+# 13. Streams
 
 1. [DynamoDB Streams Use Cases and Design Patterns by Gowri Balasubramanian](https://aws.amazon.com/blogs/database/dynamodb-streams-use-cases-and-design-patterns/)
 2. [Use Amazon DynamoDB global tables in DynamoDB Shell by Amrith Kumar](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-global-tables-in-dynamodb-shell/)
 3. [SQL, NoSQL, and Scale: How DynamoDB scales where relational databases don't By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/)
 
-# 12. DynamoDB Videos
+# 14. DynamoDB Videos
 
 1. [DynamoDB under the hood - How does it work? What is the architecture of the database service?](https://www.youtube.com/watch?v=ZhXqNcbR4n0&t=909s)
 2. [Designing a DyamoDB Table in 4 Steps: From Entities to Access Patterns](https://www.youtube.com/watch?v=JLZOI8patlw)
 
-## 12.1. Vidoes with Rick Houlihan
+## 14.1. Vidoes with Rick Houlihan
 
 1. [AWS re:Invent 2017: [REPEAT] Advanced Design Patterns for Amazon DynamoDB (DAT403-R)](https://www.youtube.com/watch?v=jzeKPKpucS0)
 2. [[MAKE NOTES] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
 3. [[MAKE NOTES] AWS re:Invent 2019: [REPEAT 1] Amazon DynamoDB deep dive: Advanced design patterns (DAT403-R1)](https://www.youtube.com/watch?v=6yqfmXiZTlM)
 4. [[MAKE NOTES] Amazon DynamoDB deep dive: Advanced design patterns](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf)
 
-## 12.2. Vidoes with Alex Debrie
+## 14.2. Vidoes with Alex Debrie
 
 1. [7 Common DynamoDB Patterns for Modeling and Building an App with Alex De Brie](https://www.youtube.com/watch?v=Q6-qWdsa8a4&t=200s)
 
-# 13. Development
+# 15. Development
 
 1. [Amazon DynamoDB Update – JSON, Expanded Free Tier, Flexible Scaling, Larger Items by Jeff Barr ](https://aws.amazon.com/blogs/aws/dynamodb-update-json-and-more/)
 
-## 13.1. Storing Attributes in a JSON (Fastest way to query)
+## 15.1. Storing Attributes in a JSON (Fastest way to query)
 
 1. [Working with JSON data in Amazon DynamoDB by Amrith Kumar](https://aws.amazon.com/blogs/database/working-with-json-data-in-amazon-dynamodb/)
 
-## 13.2. Using Document API
+## 15.2. Using Document API
 
 1. [Introducing DynamoDB Document API (Part 1) by Hanson Char](https://aws.amazon.com/blogs/developer/introducing-dynamodb-document-api-part-1/)
 2. [Introducing DynamoDB Document API (Part 2) by Hanson Char ](https://aws.amazon.com/blogs/developer/introducing-dynamodb-document-api-part-2/)
 3. [A-Z Document API quick-start folder](https://github.com/aws/aws-sdk-java/tree/master/src/samples/AmazonDynamoDBDocumentAPI/quick-start/com/amazonaws/services/dynamodbv2/document/quickstart)
 
-## 13.3. Writing Queries
+## 15.3. Writing Queries
 
 1. [Using Improved Conditional Writes in DynamoDB by David Yanacek](https://aws.amazon.com/blogs/developer/using-improved-conditional-writes-in-dynamodb/)
 2. [Improved Query Filtering and Conditional Updates for DynamoDB by Jeff Barr ](https://aws.amazon.com/blogs/aws/improved-queries-and-updates-for-dynamodb/)
 
-## 13.4. Java
+## 15.4. Java
 
 1. [Setting up DynamoDB local (downloadable version)](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html)
 2. [Load sample data](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SampleData.html)
@@ -217,11 +227,11 @@ See [workshops-backlog.md](./workshops-backlog.md)
 6. [Sample code from AWS](https://github.com/aws/aws-sdk-java/tree/master/src/samples/AmazonDynamoDBDocumentAPI/quick-start/com/amazonaws/services/dynamodbv2/document/quickstart)
 7. [Writing less code when using the AWS SDK for Java by Jason Fulghum](https://aws.amazon.com/blogs/developer/writing-less-code-when-using-the-aws-sdk-for-java/)
 
-## 13.5. GSI
+## 15.5. GSI
 
 1. [Create, Update, and Delete Global Secondary Indexes Using the Amazon DynamoDB Document API by Manikandan Subramanian](https://aws.amazon.com/blogs/developer/create-update-and-delete-global-secondary-indexes-using-the-amazon-dynamodb-document-api/)
 
-## 13.6. DynamoDBMapper
+## 15.6. DynamoDBMapper
 
 1. [[MY NEXT] Amazon DynamoDB single-table design using DynamoDBMapper and Spring Boot by Arjan Schaaf](https://aws.amazon.com/blogs/database/amazon-dynamodb-single-table-design-using-dynamodbmapper-and-spring-boot/)
 2. [The DynamoDBMapper, Local Secondary Indexes, and You! by Wade Matveyenko](https://aws.amazon.com/blogs/developer/the-dynamodbmapper-local-secondary-indexes-and-you/)
@@ -233,23 +243,23 @@ See [workshops-backlog.md](./workshops-backlog.md)
 8. [Client-side Encryption for Amazon DynamoDB by Hanson Char](https://aws.amazon.com/blogs/developer/client-side-encryption-for-amazon-dynamodb/)
 9. [Using Custom Marshallers to Store Complex Objects in Amazon DynamoDB by zachmu](https://aws.amazon.com/blogs/developer/using-custom-marshallers-to-store-complex-objects-in-amazon-dynamodb/)
 
-## 13.7. Enhanced DynamoDB client
+## 15.7. Enhanced DynamoDB client
 
 1. [Introducing enhanced DynamoDB client in the AWS SDK for Java v2 by Ben Maizels](https://aws.amazon.com/blogs/developer/introducing-enhanced-dynamodb-client-in-the-aws-sdk-for-java-v2/)
 
-# 14. Design Patterns
+# 16. Design Patterns
 
 1. [Amazon DynamoDB Design Patterns](https://github.com/aws-samples/amazon-dynamodb-design-patterns/tree/master)
 
-## 14.1. Rate Limiter
+## 16.1. Rate Limiter
 
 1. [Rate-Limited Scans in Amazon DynamoDB by Jason Fulghum](https://aws.amazon.com/blogs/developer/rate-limited-scans-in-amazon-dynamodb/)
 
-## 14.2. Sequence Generators
+## 16.2. Sequence Generators
 
 1. [Atomic counters](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html#WorkingWithItems.AtomicCounters)
 
-# 15. Lambda Integration
+# 17. Lambda Integration
 
 1. [How to Create an AWS IAM Policy to Grant AWS Lambda Access to an Amazon DynamoDB Table by Andrew Robinson](https://aws.amazon.com/blogs/security/how-to-create-an-aws-iam-policy-to-grant-aws-lambda-access-to-an-amazon-dynamodb-table/)
 2. [Using AWS Lambda with Amazon DynamoDB](https://docs.aws.amazon.com/lambda/latest/dg/with-ddb.html)
@@ -270,27 +280,27 @@ See [workshops-backlog.md](./workshops-backlog.md)
 8. [Building a serverless developer authentication API in Java using AWS Lambda, Amazon DynamoDB, and Amazon Cognito – Part 3 by Dhruv Thukral](https://aws.amazon.com/blogs/developer/building-a-serverless-developer-authentication-api-in-java-using-aws-lambda-amazon-dynamodb-and-amazon-cognito-part-3/)
 9. [Serverless architectures working with DynamoDB and Lambda - AWS Virtual Workshop](https://www.youtube.com/watch?v=SKmHrhUR9oY)
 
-# 16. Enterprise Grade Example
+# 18. Enterprise Grade Example
 
 1. [Building enterprise applications using Amazon DynamoDB, AWS Lambda, and Go by Geoffroy Rollat ](https://aws.amazon.com/blogs/database/building-enterprise-applications-using-amazon-dynamodb-aws-lambda-and-golang/)
 
-# 17. Migration
+# 19. Migration
 
 1. [Near Zero Downtime Migration from MySQL to DynamoDB by YongSeong Lee ](https://aws.amazon.com/blogs/big-data/near-zero-downtime-migration-from-mysql-to-dynamodb/)
 
-# 18. Autoscaler
+# 20. Autoscaler
 
 See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
-# 19. Blogs
+# 21. Blogs
 
 [See Dynamo Blogs @ blogs-2-visit.md](./blogs-2-visit.md)
 
-# 20. SQL Style Interface
+# 22. SQL Style Interface
 
 1. [Build faster with Amazon DynamoDB and PartiQL: SQL-compatible operations by Pete Naylor and Akshat Vig](https://aws.amazon.com/blogs/database/build-faster-with-amazon-dynamodb-and-partiql-sql-compatible-operations/)
 
-# 21. IAM
+# 23. IAM
 
 1. [Fine-Grained Access Control for Amazon DynamoDB by Jeff Barr](https://aws.amazon.com/blogs/aws/fine-grained-access-control-for-amazon-dynamodb/)
 2. [Getting Started with Fine-Grained Access Control for DynamoDB](https://www.youtube.com/watch?v=uAUYphLWL5w)
