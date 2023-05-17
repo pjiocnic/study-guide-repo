@@ -11,6 +11,7 @@
   - [6.2. Using Prometheus metrics](#62-using-prometheus-metrics)
 - [7. Lambda](#7-lambda)
 - [8. Scaling DynamoDB](#8-scaling-dynamodb)
+- [ECS](#ecs)
 
 <!-- /TOC -->
 
@@ -61,4 +62,8 @@
 3. [New – Auto Scaling for Amazon DynamoDB by Jeff Barr](https://aws.amazon.com/blogs/aws/new-auto-scaling-for-amazon-dynamodb/)
 4. [The problems with DynamoDB Auto Scaling and how it might be improved By Yan Cui](https://medium.com/hackernoon/the-problems-with-dynamodb-auto-scaling-and-how-it-might-be-improved-a92029c8c10b)
 
+
+# ECS
+
+11. [Deep Dive on Amazon ECS Cluster Auto Scaling by Nick Coult](https://aws.amazon.com/blogs/containers/deep-dive-on-amazon-ecs-cluster-auto-scaling/)
 

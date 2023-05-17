@@ -19,6 +19,8 @@
 - [15. Examples](#15-examples)
 - [16. Testing](#16-testing)
 - [17. SQS Integration](#17-sqs-integration)
+- [18. Stream Event Sources](#18-stream-event-sources)
+- [Curate](#curate)
 
 <!-- /TOC -->
 
@@ -105,3 +107,11 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [Handle SQS message failure in batch with partial batch response feature](https://medium.com/srcecde/handle-sqs-message-failure-in-batch-with-partial-batch-response-b858ad212573)
 2. [Lambda + SQS Users Should Know About This](https://www.youtube.com/watch?v=0707Py8Jyf0)
 3. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://repost.aws/knowledge-center/lambda-sqs-scaling)
+
+# 18. Stream Event Sources
+
+1. [SVS323-R – Mastering AWS Lambda streaming event sources](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Mastering_AWS_Lambda_streaming_event_sources_SVS323-R1.pdf)
+
+# Curate
+
+1. [https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)

@@ -13,6 +13,7 @@
   - [5.5. Scatter Gather](#55-scatter-gather)
   - [5.6. Rate Limiter](#56-rate-limiter)
   - [CQRS](#cqrs)
+  - [Event Sourcing](#event-sourcing)
 
 <!-- /TOC -->
 
@@ -93,3 +94,9 @@
 
 1. [How does CQRS (command query responsibility segregation) work?](https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-data-persistence/cqrs-pattern.html)
 2. [Build a CQRS event store with Amazon DynamoDB by Luke Popplewell ](https://aws.amazon.com/blogs/database/build-a-cqrs-event-store-with-amazon-dynamodb/)
+3. [CQRS and Websockets](https://youtu.be/qs0U0LdNkV0?list=PLJo-rJlep0ECijHdz01OZXo3bqhbW_Hb2&t=2384)
+
+## Event Sourcing
+
+1. [How does EventSourcing pattern work](https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-data-persistence/service-per-team.html)
+2. [Decompose monoliths into microservices by using CQRS and event sourcing](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/decompose-monoliths-into-microservices-by-using-cqrs-and-event-sourcing.html)

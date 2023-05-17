@@ -9,6 +9,7 @@
 - [6. Lambda](#6-lambda)
   - [6.1. Using Java](#61-using-java)
 - [7. Serverless](#7-serverless)
+- [Curate](#curate)
 
 <!-- /TOC -->
 
@@ -55,3 +56,12 @@
 
 1. [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
     - [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage by Chris Munns](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)
+2. [Welcome to the Serverlesspresso workshop! ](https://workshop.serverlesscoffee.com/)
+4. [Welcome to Innovator Island! ](https://www.eventbox.dev/published/lesson/innovator-island/)
+
+# Curate
+
+1. [Enterprise Cloud Native Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/0466c70e-4216-4352-98d9-5a8af59c86b2/en-)
+2. [Designing Cloud Native Microservices on AWS (via DDD/EventStormingWorkshop)](https://github.com/aws-samples/designing-cloud-native-microservices-on-aws)
+3. [Amazon VPC Lattice Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/9e543f60-e409-43d4-b37f-78ff3e1a07f5/en-US)
+4. [AWS Gateway API Controller for VPC Lattice](https://github.com/aws/aws-application-networking-k8s)

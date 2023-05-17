@@ -5,6 +5,7 @@
 
 - [1. Sharding](#1-sharding)
 - [2. Core concepts](#2-core-concepts)
+- [Curate](#curate)
 
 <!-- /TOC -->
 
@@ -19,3 +20,7 @@
 3. [Exploring the Depths of Kinesis Data Streams - Part 3: Advanced Features](https://www.trek10.com/blog/exploring-the-depths-of-kinesis-data-streams-part-3-advanced-features)
 4. [Mastering AWS Kinesis Data Streams, Part 1](https://dev.solita.fi/2020/05/28/kinesis-streams-part-1.html)
 5. [Mastering AWS Kinesis Data Streams, Part 2](https://dev.solita.fi/2020/12/21/kinesis-streams-part-2.html)
+
+# Curate
+
+1. [Scale Kinesis Data Streams for high throughput and low latency | Amazon Web Services](https://www.youtube.com/watch?v=oAliBHw_08M)
