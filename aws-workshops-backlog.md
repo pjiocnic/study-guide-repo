@@ -8,8 +8,12 @@
 - [5. Athena](#5-athena)
 - [6. Lambda](#6-lambda)
   - [6.1. Using Java](#61-using-java)
-- [7. Serverless](#7-serverless)
-- [Curate](#curate)
+- [7. Kinesis](#7-kinesis)
+- [8. Serverless](#8-serverless)
+  - [8.1. Performance tuning](#81-performance-tuning)
+- [Microservices](#microservices)
+- [9. Curate](#9-curate)
+- [10. Cloudwatch](#10-cloudwatch)
 
 <!-- /TOC -->
 
@@ -52,16 +56,51 @@
 
 1. [Java on AWS Lambda](https://catalog.workshops.aws/java-on-aws-lambda/en-US)
 
-# 7. Serverless
+# 7. Kinesis
+
+1. [Real Time Streaming with Amazon Kinesis](https://catalog.us-east-1.prod.workshops.aws/workshops/2300137e-f2ac-4eb9-a4ac-3d25026b235f/en-US)
+
+# 8. Serverless
 
 1. [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
     - [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage by Chris Munns](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)
 2. [Welcome to the Serverlesspresso workshop! ](https://workshop.serverlesscoffee.com/)
-4. [Welcome to Innovator Island! ](https://www.eventbox.dev/published/lesson/innovator-island/)
+3. [Welcome to Innovator Island! ](https://www.eventbox.dev/published/lesson/innovator-island/)
+4. [Wild Rydes workshop](https://webapp.serverlessworkshops.io/)
+5. [Serverless Data Processing on AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/76d4b4eb-bff7-40c6-a925-7f101ad3bd43/en-US)
+- Real-time Streaming Data
+- Stream Processing
+- Streaming Aggregation
+- Data Lake
+6. [AWS Serverless Observability Workshop ](https://serverless-observability.workshop.aws/en/010_introduction.html)
+- Metrics and Dashboards
+- Synthetic Canaries
+- Centralized Logging
+- Distributed Tracing
+- Performance Bottlenecks
 
-# Curate
+## 8.1. Performance tuning
+
+1. [Startup optimization: Tuning application performance for maximum efficiency](https://catalog.workshops.aws/performance-tuning/en-US)
+- Module 1: Serverless Performance Tuning
+- Module 2: Container Performance Tuning
+- Module 3: AIOps for Relational Databases
+
+# Microservices
+
+1. [Decoupled Microservices with Wild Rydes service](https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US)
+- Lab 1 - Fan-out & message filtering
+- Lab 2 - Topic-queue chaining & load balancing
+- Lab 3 - Scatter-gather
+- Lab 4 - Orchestration and coordination
+
+# 9. Curate
 
 1. [Enterprise Cloud Native Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/0466c70e-4216-4352-98d9-5a8af59c86b2/en-)
 2. [Designing Cloud Native Microservices on AWS (via DDD/EventStormingWorkshop)](https://github.com/aws-samples/designing-cloud-native-microservices-on-aws)
 3. [Amazon VPC Lattice Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/9e543f60-e409-43d4-b37f-78ff3e1a07f5/en-US)
 4. [AWS Gateway API Controller for VPC Lattice](https://github.com/aws/aws-application-networking-k8s)
+
+# 10. Cloudwatch
+
+1. [AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
