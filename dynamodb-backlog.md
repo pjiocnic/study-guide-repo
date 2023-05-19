@@ -126,7 +126,8 @@
 
 ## 7.2. Vertical Partitioning - to go beyond 400 KB Item size limit
 
-3. [Use vertical partitioning to scale data efficiently in Amazon DynamoDB by Mike MacKay and Samaneh Utter |](https://aws.amazon.com/blogs/database/use-vertical-partitioning-to-scale-data-efficiently-in-amazon-dynamodb/)
+1. [Use vertical partitioning to scale data efficiently in Amazon DynamoDB by Mike MacKay and Samaneh Utter |](https://aws.amazon.com/blogs/database/use-vertical-partitioning-to-scale-data-efficiently-in-amazon-dynamodb/)
+2. [Implement vertical partitioning in Amazon DynamoDB using AWS Glue by Juhi Patil and Mohammedfahim Pathan ](https://aws.amazon.com/blogs/database/implement-vertical-partitioning-in-amazon-dynamodb-using-aws-glue/)
 
 # 8. Querying
 
