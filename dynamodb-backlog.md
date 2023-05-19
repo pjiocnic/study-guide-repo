@@ -11,6 +11,8 @@
 - [6. Partition Key](#6-partition-key)
 - [7. Partitions](#7-partitions)
 - [8. Querying](#8-querying)
+  - [8.1. Pagination](#81-pagination)
+  - [8.2. Parallel queries](#82-parallel-queries)
 - [9. Sharding](#9-sharding)
 - [10. Data Modeling](#10-data-modeling)
   - [10.1. Sample Models](#101-sample-models)
@@ -51,6 +53,7 @@
 - [25. Blogs](#25-blogs)
 - [26. SQL Style Interface](#26-sql-style-interface)
 - [27. IAM](#27-iam)
+- [28. Archiving](#28-archiving)
 
 <!-- /TOC -->
 
@@ -116,8 +119,13 @@
 
 # 8. Querying
 
+## 8.1. Pagination
+
 1. [Querying and Pagination with DynamoDB by Parth Modi](https://www.cloudbees.com/blog/querying-and-pagination-with-dynamodb)
-2. [[MY NEXT] Use parallelism to optimize querying large amounts of data in Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/use-parallelism-to-optimize-querying-large-amounts-of-data-in-amazon-dynamodb/)
+
+## 8.2. Parallel queries
+
+1. [[MY NEXT] Use parallelism to optimize querying large amounts of data in Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/use-parallelism-to-optimize-querying-large-amounts-of-data-in-amazon-dynamodb/)
 
 # 9. Sharding
 
@@ -338,3 +346,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 2. [Getting Started with Fine-Grained Access Control for DynamoDB](https://www.youtube.com/watch?v=uAUYphLWL5w)
 2. [DynamoDB Item and Column Level Access Controls | Part 1 of 2](https://www.youtube.com/watch?v=gHjrj_Efk20)
 3. [Setup DynamoDB Column and Row Level Permissions | Part 2 of 2](https://www.youtube.com/watch?v=vluovhSOzxA&t=19s)
+
+# 28. Archiving
+
+1. [Archive data from Amazon DynamoDB to Amazon S3 using TTL and Amazon Kinesis integration by Bhupesh Sharma and Veerendra Nayak ](https://aws.amazon.com/blogs/database/archive-data-from-amazon-dynamodb-to-amazon-s3-using-ttl-and-amazon-kinesis-integration/)
