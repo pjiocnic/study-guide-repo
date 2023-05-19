@@ -7,9 +7,11 @@
 - [4. Indexes](#4-indexes)
   - [4.1. GSI](#41-gsi)
   - [4.2. LSI](#42-lsi)
-- [5. Throttling](#5-throttling)
-- [6. Partition Key](#6-partition-key)
+- [5. Why Throttling happens?](#5-why-throttling-happens)
+- [6. How to design a Partition Key](#6-how-to-design-a-partition-key)
 - [7. Partitions](#7-partitions)
+  - [7.1. How do partitions work?](#71-how-do-partitions-work)
+  - [7.2. Vertical Partitioning - to go beyond 400 KB Item size limit](#72-vertical-partitioning---to-go-beyond-400-kb-item-size-limit)
 - [8. Querying](#8-querying)
   - [8.1. Pagination](#81-pagination)
   - [8.2. Parallel queries](#82-parallel-queries)
@@ -101,15 +103,14 @@
 
 1. [Local Secondary Indexes for Amazon DynamoDB by Jeff Barr ](https://aws.amazon.com/blogs/aws/local-secondary-indexes-for-amazon-dynamodb/)
 
-# 5. Throttling
+# 5. Why Throttling happens?
 
 1. [Five Ways to Deal With AWS DynamoDB GSI Throttling](https://medium.com/shelf-io-engineering/five-ways-to-deal-with-aws-dynamodb-gsi-throttling-1a489803a981)
 2. [Why is my Amazon DynamoDB table being throttled?](https://repost.aws/knowledge-center/dynamodb-table-throttled)
 3. [A cookbook to deal with throttling issues in Amazon DynamoDB](https://levelup.gitconnected.com/a-cookbook-to-deal-with-throttling-issues-in-amazon-dynamodb-f953c4ea4785)
 4. [Tuning AWS Java SDK HTTP request settings for latency-aware Amazon DynamoDB applications by Joarder Kamal and Sean Shriver](https://aws.amazon.com/blogs/database/tuning-aws-java-sdk-http-request-settings-for-latency-aware-amazon-dynamodb-applications/)
 
-
-# 6. Partition Key
+# 6. How to design a Partition Key
 
 1. [[READ AGAIN] Choosing the Right DynamoDB Partition Key by Gowri Balasubramanian and Sean Shriver ](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
 2. [Using write sharding to distribute workloads evenly](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-sharding.html)
@@ -118,8 +119,13 @@
 
 # 7. Partitions
 
+## 7.1. How do partitions work?
+
 1. [Partitioning Behavior of DynamoDB by Parth Modi](https://www.cloudbees.com/blog/partitioning-behavior-of-dynamodb)
 2. [Everything you need to know about DynamoDB Partitions By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-partitions/)
+
+## 7.2. Vertical Partitioning - to go beyond 400 KB Item size limit
+
 3. [Use vertical partitioning to scale data efficiently in Amazon DynamoDB by Mike MacKay and Samaneh Utter |](https://aws.amazon.com/blogs/database/use-vertical-partitioning-to-scale-data-efficiently-in-amazon-dynamodb/)
 
 # 8. Querying
