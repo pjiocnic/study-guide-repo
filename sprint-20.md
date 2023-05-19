@@ -14,6 +14,12 @@
 - Conditional schemas
 5. Setting up compass for DocBD
 
+# In progress
+
+1. Hierarchical modeling by Alex Debrie
+2. 2017 Data modeling re-invent video by Rick
+3. Testing by Dan Fox
+
 # DynamoDB
 
 1. [[May 14] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)

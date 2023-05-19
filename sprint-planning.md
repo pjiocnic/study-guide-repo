@@ -38,20 +38,23 @@ https://www.epochconverter.com/weeks/2023
 3. AWS PowerTools
 4. Step fns
 5. elasticcache: Whitepaper; hiemdall proxy
-6. documentdb: scaling the read replicas, indexes
-7. centralized logging
-8. kinesis: using lambda as consumer
-9. eks workshop
-10. AWS Cookbook: Mornings?
-11. multi-service demos	"Need a way to record all example URLs
+6. elasticache workshop
+7. documentdb: scaling the read replicas, indexes
+8. centralized logging
+9. kinesis: using lambda as consumer
+10. eks workshop
+11. AWS Cookbook: Mornings?
+12. multi-service demos	"Need a way to record all example URLs
 - https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2"
-12. documentdb dev guide
-13. Event broker example by mohapathra
-14. Webhooks: From Lambda in action
-15. Hands-on with AWS S3 Safari course By Rick
-16. Review Lambda examples (Integration with other services) from
+13. documentdb dev guide
+14. Event broker example by mohapathra
+15. Webhooks: From Lambda in action
+16. Hands-on with AWS S3 Safari course By Rick
+17. Review Lambda examples (Integration with other services) from
 - https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html
 - https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html
+18. PostGresSQL workshop
+
 
 # 2. In Progress
 

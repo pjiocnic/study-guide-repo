@@ -10,6 +10,7 @@
 4. [Amazon S3 Client-Side Authenticated Encryption by Hanson Char](https://aws.amazon.com/blogs/developer/amazon-s3-client-side-authenticated-encryption/)
 5. [Taming client-side key rotation with the Amazon S3 encryption client by Hanson Char ](https://aws.amazon.com/blogs/developer/taming-client-side-key-rotation-with-the-amazon-s3-encryption-client/)
 6. [Amazon S3 Client-side Key Migration to AWS Key Management Service by Hanson Char](https://aws.amazon.com/blogs/developer/amazon-s3-client-side-key-migration-to-aws-key-management-service/)
+7. [Why am I getting an HTTP 403 Forbidden error when I try to upload files using the Amazon S3 console?](https://www.youtube.com/watch?v=rn4qLXhMesg)
 
 # 2. Pre-Signed URLs
 1. [Generating Amazon S3 Pre-signed URLs with SSE (Part 1) by Hanson Char ](https://aws.amazon.com/blogs/developer/generating-amazon-s3-pre-signed-urls-with-sse-part-1/)
