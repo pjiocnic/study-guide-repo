@@ -120,6 +120,7 @@
 
 1. [Partitioning Behavior of DynamoDB by Parth Modi](https://www.cloudbees.com/blog/partitioning-behavior-of-dynamodb)
 2. [Everything you need to know about DynamoDB Partitions By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-partitions/)
+3. [Use vertical partitioning to scale data efficiently in Amazon DynamoDB by Mike MacKay and Samaneh Utter |](https://aws.amazon.com/blogs/database/use-vertical-partitioning-to-scale-data-efficiently-in-amazon-dynamodb/)
 
 # 8. Querying
 
