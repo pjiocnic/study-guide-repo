@@ -8,7 +8,7 @@
 - [4. CI/CD](#4-cicd)
 - [5. Development](#5-development)
 - [6. SAM](#6-sam)
-- [7. Event Source Mapping](#7-event-source-mapping)
+- [7. Event Source Mapping / Filtering](#7-event-source-mapping--filtering)
 - [8. Invocation Models](#8-invocation-models)
 - [9. Error Handling](#9-error-handling)
 - [10. Comparison between REST and GraphQL API architectures](#10-comparison-between-rest-and-graphql-api-architectures)
@@ -53,9 +53,11 @@
 1. [[MY NEXT] Building serverless Java applications with the AWS SAM CLI by James Beswick](https://aws.amazon.com/blogs/compute/building-serverless-java-applications-with-the-aws-sam-cli/)
     - [Building Java apps with SAM | Serverless Office Hours](https://www.youtube.com/watch?v=c7_gGalsIyE)
 
-# 7. Event Source Mapping
+# 7. Event Source Mapping / Filtering
 
 1. [Understanding Amazon SQS and AWS Lambda Event Source Mapping for Efficient Message Processing by Tushar Sharma and Shaun Wang](https://aws.amazon.com/blogs/apn/understanding-amazon-sqs-and-aws-lambda-event-source-mapping-for-efficient-message-processing/)
+2. [Filtering event sources for AWS Lambda functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
+- Show how to filter messages before the invocation of a Lambda function
 
 # 8. Invocation Models
 
@@ -114,4 +116,6 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 # Curate
 
-1. [https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
+1. [Filtering event sources for AWS Lambda functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
+- Show how to filter messages before the invocation of a Lambda function
+2. [Building Scalable and Responsive Big Data Interfaces with AWS Lambda by FireEye](https://aws.amazon.com/blogs/big-data/building-scalable-and-responsive-big-data-interfaces-with-aws-lambda/)

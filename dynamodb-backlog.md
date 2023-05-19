@@ -15,9 +15,10 @@
   - [8.2. Parallel queries](#82-parallel-queries)
 - [9. Sharding](#9-sharding)
 - [10. Data Modeling](#10-data-modeling)
-  - [10.1. Sample Models](#101-sample-models)
-  - [10.2. Modeling Hierarchical Data Structures](#102-modeling-hierarchical-data-structures)
-  - [10.3. Single Table Vs Multi-Tables](#103-single-table-vs-multi-tables)
+  - [10.1. RDMS to DynamoDBModeling](#101-rdms-to-dynamodbmodeling)
+  - [10.2. Modeling Examples](#102-modeling-examples)
+  - [10.3. Modeling Hierarchical Data Structures](#103-modeling-hierarchical-data-structures)
+  - [10.4. Single Table Vs Multi-Tables](#104-single-table-vs-multi-tables)
 - [11. Workshop](#11-workshop)
 - [12. UseCases](#12-usecases)
   - [12.1. Usescases from AlexDebrie's Book](#121-usescases-from-alexdebries-book)
@@ -27,6 +28,8 @@
   - [12.5. Sequence Generator](#125-sequence-generator)
   - [12.6. URL Shortner](#126-url-shortner)
   - [12.7. Near-Real-Time Event Processing](#127-near-real-time-event-processing)
+  - [12.8. Handling Large Objects](#128-handling-large-objects)
+  - [12.9. Building Queryable index](#129-building-queryable-index)
 - [13. Streams](#13-streams)
 - [14. Transactions](#14-transactions)
 - [15. Patterns](#15-patterns)
@@ -53,7 +56,8 @@
 - [25. Blogs](#25-blogs)
 - [26. SQL Style Interface](#26-sql-style-interface)
 - [27. IAM](#27-iam)
-- [28. Archiving](#28-archiving)
+- [28. Backups](#28-backups)
+- [29. Importing data](#29-importing-data)
 
 <!-- /TOC -->
 
@@ -140,23 +144,28 @@
 2. [7 Common DynamoDB Patterns for Modeling and Building an App with Alex De Brie](https://www.youtube.com/watch?v=Q6-qWdsa8a4&t=186s)
 - Code: https://github.com/alexdebrie/dynamodb-instagram
 3. [Alex de Brie: DynamoDB Misconceptions | Serverless Office Hours](https://www.youtube.com/watch?v=F8TYmz9fj2Y&)
-4. [[MY NEXT] From relational DB to single DynamoDB table: a step-by-step exploration](https://www.trek10.com/blog/dynamodb-single-table-relational-modeling)
-5. [[Video] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
-6. [Fundamentals of Amazon DynamoDB Single Table Design with Rick Houlihan](https://www.youtube.com/watch?v=KYy8X8t4MB8)
-7. [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401) By Rick Houlihan](https://www.youtube.com/watch?v=HaEPXoXVf2k)
+4. [Fundamentals of Amazon DynamoDB Single Table Design with Rick Houlihan](https://www.youtube.com/watch?v=KYy8X8t4MB8)
+5. [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401) By Rick Houlihan](https://www.youtube.com/watch?v=HaEPXoXVf2k)
 -  https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
 
-## 10.1. Sample Models
+## 10.1. RDMS to DynamoDBModeling
+
+1. [[MY NEXT] From relational DB to single DynamoDB table: a step-by-step exploration](https://www.trek10.com/blog/dynamodb-single-table-relational-modeling)
+
+## 10.2. Modeling Examples
 
 1. [DynamoDB Single-Table Design Examples Library by dynobase](https://dynobase.dev/dynamodb-single-table-design-examples/)
 2. [[MY NEXT] Modelling a product catalog in DynamoDB by Maurice Borgmeier](https://www.tecracer.com/blog/2021/03/modelling-a-product-catalog-in-dynamodb.html)
+3. [Build with DynamoDB | Implementing an Inventory and Orders Management Data Model (Part 1)](https://www.twitch.tv/aws/video/470816184)
+4. [[Video] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
+5. [Modeling a movie database](https://www.youtube.com/watch?v=nhUtZ7suZWI)
 
-## 10.2. Modeling Hierarchical Data Structures
+## 10.3. Modeling Hierarchical Data Structures
 
 https://www.dynamodbguide.com/hierarchical-data/
 https://www.youtube.com/watch?v=jzeKPKpucS0&t=2165s
 
-## 10.3. Single Table Vs Multi-Tables
+## 10.4. Single Table Vs Multi-Tables
 
 1. [Single-table vs. multi-table design in Amazon DynamoDB by Alex DeBrie](https://aws.amazon.com/blogs/database/single-table-vs-multi-table-design-in-amazon-dynamodb/)
 2. [Creating a single-table design with Amazon DynamoDB by James Beswick](https://aws.amazon.com/blogs/compute/creating-a-single-table-design-with-amazon-dynamodb/)
@@ -195,6 +204,14 @@ See [workshops-backlog.md](./workshops-backlog.md)
 
 1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams/)
 
+## 12.8. Handling Large Objects
+
+1. [Large object storage strategies for Amazon DynamoDB by Josh Hart](https://aws.amazon.com/blogs/database/large-object-storage-strategies-for-amazon-dynamodb/)
+
+## 12.9. Building Queryable index
+
+1. [Building and Maintaining an Amazon S3 Metadata Index without Servers by Mike Deck](https://aws.amazon.com/blogs/big-data/building-and-maintaining-an-amazon-s3-metadata-index-without-servers/)
+
 # 13. Streams
 
 1. [DynamoDB Streams Use Cases and Design Patterns by Gowri Balasubramanian](https://aws.amazon.com/blogs/database/dynamodb-streams-use-cases-and-design-patterns/)
@@ -228,11 +245,14 @@ See [workshops-backlog.md](./workshops-backlog.md)
 
 ## 18.1. Vidoes with Rick Houlihan
 
-1. [AWS re:Invent 2017: [REPEAT] Advanced Design Patterns for Amazon DynamoDB (DAT403-R)](https://www.youtube.com/watch?v=jzeKPKpucS0)
+1. [[MY NEXT] AWS re:Invent 2017: [REPEAT] Advanced Design Patterns for Amazon DynamoDB (DAT403-R)](https://www.youtube.com/watch?v=jzeKPKpucS0)
 2. [[MAKE NOTES] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
 3. [[MAKE NOTES] AWS re:Invent 2019: [REPEAT 1] Amazon DynamoDB deep dive: Advanced design patterns (DAT403-R1)](https://www.youtube.com/watch?v=6yqfmXiZTlM)
 4. [[MAKE NOTES] Amazon DynamoDB deep dive: Advanced design patterns](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf)
 5. [AWS re:Invent 2021 - DynamoDB deep dive: Advanced design patterns BY RICK HOULIHAN](https://www.youtube.com/watch?v=xfxBhvGpoa0&t=1919s)
+6. [[MY NEXT] AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401) with Rick Houlihan](https://www.youtube.com/watch?v=HaEPXoXVf2k)
+- [Notes by kevinhakanson.com](https://kevinhakanson.com/2018-12-04-amazon-dynamodb-deep-dive-advanced-design-patterns-for-dynamodb-dat401/)
+7. [AWS re:Invent 2021 - DynamoDB deep dive: Advanced design Patterns](https://www.youtube.com/watch?v=xfxBhvGpoa0)
 
 ## 18.2. Vidoes with Alex Debrie
 
@@ -347,6 +367,10 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 2. [DynamoDB Item and Column Level Access Controls | Part 1 of 2](https://www.youtube.com/watch?v=gHjrj_Efk20)
 3. [Setup DynamoDB Column and Row Level Permissions | Part 2 of 2](https://www.youtube.com/watch?v=vluovhSOzxA&t=19s)
 
-# 28. Archiving
+# 28. Backups
 
 1. [Archive data from Amazon DynamoDB to Amazon S3 using TTL and Amazon Kinesis integration by Bhupesh Sharma and Veerendra Nayak ](https://aws.amazon.com/blogs/database/archive-data-from-amazon-dynamodb-to-amazon-s3-using-ttl-and-amazon-kinesis-integration/)
+
+# 29. Importing data
+
+1. [Amazon DynamoDB can now import Amazon S3 data into a new table by Robert McCauley and Aman Dhingra](https://aws.amazon.com/blogs/database/amazon-dynamodb-can-now-import-amazon-s3-data-into-a-new-table/)

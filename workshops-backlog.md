@@ -45,6 +45,7 @@
 - Lab 8: Configure caching using cfn
 - Lab 9:: Add a Content Delivery Network using cfn
 - Lab 10: Chaos testing with AWS Fault Injection Simulator
+2. [AWS CloudFormation Workshop](https://catalog.workshops.aws/cfn101/en-US)
 
 # 5. Athena
 

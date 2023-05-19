@@ -10,4 +10,8 @@ https://www.mongodb.com/docs/manual/core/schema-validation/
 
 https://www.baeldung.com/introduction-to-json-schema-in-java
 
+https://github.com/everit-org/json-schema
+https://json-schema.org/implementations.html
+https://github.com/victools/jsonschema-generator
+
 1. [JSON schema validation in Postman using external JSON files](https://medium.com/skillhive/json-schema-validation-in-postman-using-external-json-files-2f3f0741800f)
