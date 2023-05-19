@@ -15,7 +15,7 @@
   - [8.2. Parallel queries](#82-parallel-queries)
 - [9. Sharding](#9-sharding)
 - [10. Data Modeling](#10-data-modeling)
-  - [10.1. RDMS to DynamoDBModeling](#101-rdms-to-dynamodbmodeling)
+  - [10.1. RDMS to DynamoDB Modeling](#101-rdms-to-dynamodb-modeling)
   - [10.2. Modeling Examples](#102-modeling-examples)
   - [10.3. Modeling Hierarchical Data Structures](#103-modeling-hierarchical-data-structures)
   - [10.4. Single Table Vs Multi-Tables](#104-single-table-vs-multi-tables)
@@ -149,7 +149,7 @@
 5. [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401) By Rick Houlihan](https://www.youtube.com/watch?v=HaEPXoXVf2k)
 -  https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
 
-## 10.1. RDMS to DynamoDBModeling
+## 10.1. RDMS to DynamoDB Modeling
 
 1. [[MY NEXT] From relational DB to single DynamoDB table: a step-by-step exploration](https://www.trek10.com/blog/dynamodb-single-table-relational-modeling)
 
