@@ -2,90 +2,96 @@
 
 <!-- TOC -->
 
-- [1. Secrets Manager Integration](#1-secrets-manager-integration)
-- [2. S3 Integration](#2-s3-integration)
-- [3. Costs](#3-costs)
-- [4. CI/CD](#4-cicd)
-- [5. Development](#5-development)
-- [6. SAM](#6-sam)
-- [7. Event Source Mapping / Filtering](#7-event-source-mapping--filtering)
-- [8. Invocation Models](#8-invocation-models)
-- [9. Error Handling](#9-error-handling)
-- [10. Comparison between REST and GraphQL API architectures](#10-comparison-between-rest-and-graphql-api-architectures)
-- [11. RDSProxy](#11-rdsproxy)
-- [12. IAM](#12-iam)
-- [13. Autoscaling](#13-autoscaling)
-- [14. Curate](#14-curate)
-- [15. Examples](#15-examples)
-- [16. Testing](#16-testing)
-- [17. SQS Integration](#17-sqs-integration)
-- [18. Stream Event Sources](#18-stream-event-sources)
-- [Curate](#curate)
+- [1. Best Practices](#1-best-practices)
+- [2. Secrets Manager Integration](#2-secrets-manager-integration)
+- [3. S3 Integration](#3-s3-integration)
+- [4. Costs](#4-costs)
+- [5. CI/CD](#5-cicd)
+- [6. Development](#6-development)
+- [7. SAM](#7-sam)
+- [8. Event Source Mapping / Filtering](#8-event-source-mapping--filtering)
+- [9. Invocation Models](#9-invocation-models)
+- [10. Error Handling](#10-error-handling)
+- [11. Comparison between REST and GraphQL API architectures](#11-comparison-between-rest-and-graphql-api-architectures)
+- [12. RDSProxy](#12-rdsproxy)
+- [13. IAM](#13-iam)
+- [14. Autoscaling](#14-autoscaling)
+- [15. Curate](#15-curate)
+- [16. Examples](#16-examples)
+- [17. Testing](#17-testing)
+- [18. SQS Integration](#18-sqs-integration)
+- [19. Stream Event Sources](#19-stream-event-sources)
+- [20. Curate](#20-curate)
+- [21. Spring](#21-spring)
 
 <!-- /TOC -->
 
-# 1. Secrets Manager Integration
+# 1. Best Practices
+
+1. [[MY NEXT] AWS LAMBDA BEST PRACTICES](https://dev.to/aws-builders/aws-lambda-best-practices-4chn)
+
+# 2. Secrets Manager Integration
 
 1. [How to securely provide database credentials to Lambda functions by using AWS Secrets Manager by Ramesh Adabala, Anand Komandooru, and Noorul Hasan](https://aws.amazon.com/blogs/security/how-to-securely-provide-database-credentials-to-lambda-functions-by-using-aws-secrets-manager/)
 
-# 2. S3 Integration
+# 3. S3 Integration
 
 1. [S3-to-Lambda patterns: Avoiding recursive invocation](https://github.com/aws-samples/s3-to-lambda-invocation-patterns)
 
-# 3. Costs
+# 4. Costs
 
 1. [Understanding techniques to reduce AWS Lambda costs in serverless applications by James Beswick](https://aws.amazon.com/blogs/compute/understanding-techniques-to-reduce-aws-lambda-costs-in-serverless-applications/)
 2. [Serverless Automated Cost Controls, Part1 by Shankar Ramachandran ](https://aws.amazon.com/blogs/compute/serverless-automated-cost-controls-part1/)
 - Includes a CFN
 
-# 4. CI/CD
+# 5. CI/CD
 
 1. [Using AWS Lambda SnapStart with infrastructure as code and CI/CD pipelines by James Beswick](https://aws.amazon.com/blogs/compute/using-aws-lambda-snapstart-with-infrastructure-as-code-and-ci-cd-pipelines/)
 2. [Implementing cross-account CI/CD with AWS SAM for container-based Lambda functions by Eric Johnson ](https://aws.amazon.com/blogs/compute/implementing-cross-account-cicd-with-aws-sam-for-container-based-lambda/)
 
-# 5. Development
+# 6. Development
 
 1. [Developing evolutionary architecture with AWS Lambda by Luca Mezzalira](https://aws.amazon.com/blogs/compute/developing-evolutionary-architecture-with-aws-lambda/)
 2.  [Issues to Avoid When Implementing Serverless Architecture with AWS Lambda by Andrei Maksimov](https://aws.amazon.com/blogs/architecture/mistakes-to-avoid-when-implementing-serverless-architecture-with-lambda/)
 
-# 6. SAM
+# 7. SAM
 
 1. [[MY NEXT] Building serverless Java applications with the AWS SAM CLI by James Beswick](https://aws.amazon.com/blogs/compute/building-serverless-java-applications-with-the-aws-sam-cli/)
     - [Building Java apps with SAM | Serverless Office Hours](https://www.youtube.com/watch?v=c7_gGalsIyE)
 
-# 7. Event Source Mapping / Filtering
+# 8. Event Source Mapping / Filtering
 
 1. [Understanding Amazon SQS and AWS Lambda Event Source Mapping for Efficient Message Processing by Tushar Sharma and Shaun Wang](https://aws.amazon.com/blogs/apn/understanding-amazon-sqs-and-aws-lambda-event-source-mapping-for-efficient-message-processing/)
 2. [Filtering event sources for AWS Lambda functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
 - Show how to filter messages before the invocation of a Lambda function
 
-# 8. Invocation Models
+# 9. Invocation Models
 
 1. [How to Design Your Serverless Apps for Massive Scale by George Mao](https://aws.amazon.com/blogs/architecture/how-to-design-your-serverless-apps-for-massive-scale/)
 1. [[MY NEXT] Understanding the Different Ways to Invoke Lambda Functions by George Mao](https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions/)
 3. [Best Practices for Developing on AWS Lambda by George Mao](https://aws.amazon.com/blogs/architecture/best-practices-for-developing-on-aws-lambda/)
 
-# 9. Error Handling
+# 10. Error Handling
 
 1. [Implementing error handling for AWS Lambda asynchronous invocations By Poornima Chand](https://aws.amazon.com/blogs/compute/implementing-error-handling-for-aws-lambda-asynchronous-invocations/)
 
-# 10. Comparison between REST and GraphQL API architectures
+# 11. Comparison between REST and GraphQL API architectures
 
 1. [[MY NEXT] How to Architect APIs for Scale and Security by George Mao](https://aws.amazon.com/blogs/architecture/how-to-architect-apis-for-scale-and-security/)
 
-# 11. RDSProxy
+# 12. RDSProxy
 
 1. [Using Amazon RDS Proxy with AWS Lambda by George Mao](https://aws.amazon.com/blogs/compute/using-amazon-rds-proxy-with-aws-lambda/)
 
-# 12. IAM
+# 13. IAM
 
 1. [Operating Lambda: Building a solid security foundation – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-1/)
 
-# 13. Autoscaling
+# 14. Autoscaling
 
 See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
-# 14. Curate
+# 15. Curate
 
 1. [Operating Lambda: Design principles in event-driven architectures – Part 2 by James Beswick |](https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2/)
 2. [Operating Lambda: Anti-patterns in event-driven architectures – Part 3 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-anti-patterns-in-event-driven-architectures-part-3/)
@@ -95,27 +101,32 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 2. [Building well-architected serverless applications: Controlling serverless API access – part 2 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-2/)
 3. [Building well-architected serverless applications: Controlling serverless API access – part 3 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-3/)
 
-# 15. Examples
+# 16. Examples
 1. [aws/serverless-application-model](https://github.com/aws/serverless-application-model/tree/master/examples)
 - Found this link from https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/
 
-# 16. Testing
+# 17. Testing
 
 1. [Review of "Testing Serverless Architectures" by Yan Cui](https://www.trek10.com/blog/review-of-testing-serverless-architectures-by-yan-cui)
 2. [Testing Serverless Applications By Dan Fox](https://serverlessland.com/testing)
+3. [Testing Serverless Applications By Dan Fox | Serverless Office Hours](https://www.youtube.com/watch?v=8AxsqNmwAFw)
 
-# 17. SQS Integration
+# 18. SQS Integration
 
 1. [Handle SQS message failure in batch with partial batch response feature](https://medium.com/srcecde/handle-sqs-message-failure-in-batch-with-partial-batch-response-b858ad212573)
 2. [Lambda + SQS Users Should Know About This](https://www.youtube.com/watch?v=0707Py8Jyf0)
 3. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://repost.aws/knowledge-center/lambda-sqs-scaling)
 
-# 18. Stream Event Sources
+# 19. Stream Event Sources
 
 1. [SVS323-R – Mastering AWS Lambda streaming event sources](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Mastering_AWS_Lambda_streaming_event_sources_SVS323-R1.pdf)
 
-# Curate
+# 20. Curate
 
 1. [Filtering event sources for AWS Lambda functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
-- Show how to filter messages before the invocation of a Lambda function
+- Shows how to filter messages before the invocation of a Lambda function
 2. [Building Scalable and Responsive Big Data Interfaces with AWS Lambda by FireEye](https://aws.amazon.com/blogs/big-data/building-scalable-and-responsive-big-data-interfaces-with-aws-lambda/)
+
+# 21. Spring
+
+1. [Java 17 🤝 AWS Lambda: Creating Serverless Functions in Java & Spring with Java 17](https://www.youtube.com/watch?v=bxK4GscuVgs)

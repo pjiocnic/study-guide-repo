@@ -58,8 +58,10 @@
 - [25. Blogs](#25-blogs)
 - [26. SQL Style Interface](#26-sql-style-interface)
 - [27. IAM](#27-iam)
-- [28. Backups](#28-backups)
-- [29. Importing data](#29-importing-data)
+- [28. How to Backup DynamoDB Tables](#28-how-to-backup-dynamodb-tables)
+- [29. How to Bulk Import data into DynamoDB Tables](#29-how-to-bulk-import-data-into-dynamodb-tables)
+- [30. Under The Hood](#30-under-the-hood)
+- [31. Monitoring Using Cloud Metrics](#31-monitoring-using-cloud-metrics)
 
 <!-- /TOC -->
 
@@ -82,6 +84,9 @@
 10. [Using the NoSQL Workbench to build a purchase order application on DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=Xn12QSNa4RE)
 11. [AWS re:Invent 2021 - DynamoDB deep dive: Advanced design patterns with Rick Houlihan](https://www.youtube.com/watch?v=xfxBhvGpoa0)
 11. [DynamoDB Office Hours - Data Modeling with Dynobase](https://www.youtube.com/watch?v=h5wl6uEAVuc)
+12. [Scaling DynamoDB: How partitions, hot keys, and split for heat impact performance (Part 1: Loading)](https://aws.amazon.com/blogs/database/part-1-scaling-dynamodb-how-partitions-hot-keys-and-split-for-heat-impact-performance/)
+13. [Scaling DynamoDB: How partitions, hot keys, and split for heat impact performance (Part 2: Querying) by Jason Hunter and Vivek Natarajan ](https://aws.amazon.com/blogs/database/part-2-scaling-dynamodb-how-partitions-hot-keys-and-split-for-heat-impact-performance/)
+14. [Scaling DynamoDB: How partitions, hot keys, and split for heat impact performance (Part 3: Summary and best practices) by Jason Hunter and Vivek Natarajan |](https://aws.amazon.com/blogs/database/part-3-scaling-dynamodb-how-partitions-hot-keys-and-split-for-heat-impact-performance/)
 
 # 3. NoSQL Workbench
 
@@ -123,10 +128,14 @@
 
 1. [Partitioning Behavior of DynamoDB by Parth Modi](https://www.cloudbees.com/blog/partitioning-behavior-of-dynamodb)
 2. [Everything you need to know about DynamoDB Partitions By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-partitions/)
+3. [Scaling DynamoDB: How partitions, hot keys, and split for heat impact performance (Part 1: Loading)](https://aws.amazon.com/blogs/database/part-1-scaling-dynamodb-how-partitions-hot-keys-and-split-for-heat-impact-performance/)
+4. [Scaling DynamoDB: How partitions, hot keys, and split for heat impact performance (Part 2: Querying) by Jason Hunter and Vivek Natarajan ](https://aws.amazon.com/blogs/database/part-2-scaling-dynamodb-how-partitions-hot-keys-and-split-for-heat-impact-performance/)
+5. [[MY NEXT] Scaling DynamoDB: How partitions, hot keys, and split for heat impact performance (Part 3: Summary and best practices) by Jason Hunter and Vivek Natarajan |](https://aws.amazon.com/blogs/database/part-3-scaling-dynamodb-how-partitions-hot-keys-and-split-for-heat-impact-performance/)
 
 ## 7.2. Vertical Partitioning - to go beyond 400 KB Item size limit
 
 1. [Use vertical partitioning to scale data efficiently in Amazon DynamoDB by Mike MacKay and Samaneh Utter |](https://aws.amazon.com/blogs/database/use-vertical-partitioning-to-scale-data-efficiently-in-amazon-dynamodb/)
+- Uses NoSQL Workbench for modeling
 2. [Implement vertical partitioning in Amazon DynamoDB using AWS Glue by Juhi Patil and Mohammedfahim Pathan ](https://aws.amazon.com/blogs/database/implement-vertical-partitioning-in-amazon-dynamodb-using-aws-glue/)
 
 # 8. Querying
@@ -375,10 +384,21 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 2. [DynamoDB Item and Column Level Access Controls | Part 1 of 2](https://www.youtube.com/watch?v=gHjrj_Efk20)
 3. [Setup DynamoDB Column and Row Level Permissions | Part 2 of 2](https://www.youtube.com/watch?v=vluovhSOzxA&t=19s)
 
-# 28. Backups
+# 28. How to Backup DynamoDB Tables
 
 1. [Archive data from Amazon DynamoDB to Amazon S3 using TTL and Amazon Kinesis integration by Bhupesh Sharma and Veerendra Nayak ](https://aws.amazon.com/blogs/database/archive-data-from-amazon-dynamodb-to-amazon-s3-using-ttl-and-amazon-kinesis-integration/)
 
-# 29. Importing data
+# 29. How to Bulk Import data into DynamoDB Tables
 
 1. [Amazon DynamoDB can now import Amazon S3 data into a new table by Robert McCauley and Aman Dhingra](https://aws.amazon.com/blogs/database/amazon-dynamodb-can-now-import-amazon-s3-data-into-a-new-table/)
+
+# 30. Under The Hood
+
+1. [[MY NEXT] DynamoDB: Its purpose, main features, and key concepts | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=ummOosOW4lE)
+2. [[MY NEXT] DynamoDB: Under the hood, managing throughput, advanced design patterns | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=0iGR8GnIItQ)
+3. [DynamoDB under the hood - How does it works? What is the architecture of the database service?](https://www.youtube.com/watch?v=ZhXqNcbR4n0&list=PLGyRwGktEFqdpYgi2eSADjQyLAsOQ4a02&index=16&t=910s)
+
+
+# 31. Monitoring Using Cloud Metrics
+
+1. [How to use Amazon CloudWatch to monitor Amazon DynamoDB table size and item count metrics by Jason Hunter and Vivek Natarajan](https://aws.amazon.com/blogs/database/how-to-use-amazon-cloudwatch-to-monitor-amazon-dynamodb-table-size-and-item-count-metrics/)
