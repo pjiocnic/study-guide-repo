@@ -69,6 +69,7 @@ https://www.epochconverter.com/weeks/2023
 
 1. [Amazon Simple Storage Service User Guide](https://docs.aws.amazon.com/s3/index.html)
 2. [AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+3. [AWS DynamoDB Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/monitoring-cloudwatch.html)
 
 ## 3.2. DR
 

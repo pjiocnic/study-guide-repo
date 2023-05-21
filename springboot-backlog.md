@@ -3,6 +3,7 @@
 
 - [1. Testing](#1-testing)
 - [2. VSCode](#2-vscode)
+- [3. Loading JSON file](#3-loading-json-file)
 
 <!-- /TOC -->
 
@@ -15,3 +16,7 @@
 # 2. VSCode
 
 1. [VS Code — Setting it up as your Java Spring Boot Development Environment](https://medium.com/dev-genius/vs-code-setting-it-up-as-your-java-spring-boot-development-environment-6464d86dc3f0)
+
+# 3. Loading JSON file
+
+1. [Load Spring Boot Properties From a JSON File](https://www.baeldung.com/spring-boot-json-properties)

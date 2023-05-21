@@ -1,4 +1,5 @@
 
+
 1. SpringBoot XA Transaction Heuristics
 2. [AWS CloudFormation Workshop](https://catalog.workshops.aws/cfn101/en-US)
 - Nested/ Layer Stacks
@@ -38,3 +39,13 @@
 2. [[MY NEXT] DynamoDB: Under the hood, managing throughput, advanced design patterns | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=0iGR8GnIItQ)
 3. [[MY NEXT] Implementing priority queueing with Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/implementing-priority-queueing-with-amazon-dynamodb/)
 4. [[MY NEXT] Use parallelism to optimize querying large amounts of data in Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/use-parallelism-to-optimize-querying-large-amounts-of-data-in-amazon-dynamodb/)
+5. [Choosing the Right DynamoDB Partition Key by Gowri Balasubramanian and Sean Shriver ](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
+
+# 6. IAM
+
+1. [IAM policy evaluation workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/6dc3124a-6bd4-46eb-b5c4-be438a82ba3d/en-US)
+
+# 7. System Design
+
+1. Plan to read `/Volumes/Lexar/git-repos/aws-repo/books/system-design/System Design Interview An Insider’s Guide by Alex Xu (z-lib.org).pdf`
+2. `/Volumes/Lexar/git-repos/aws-repo/books/system-design/ByteByteGo_LinkedIn_PDF.pdf`

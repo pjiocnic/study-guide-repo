@@ -14,6 +14,7 @@
 - [Microservices](#microservices)
 - [9. Curate](#9-curate)
 - [10. Cloudwatch](#10-cloudwatch)
+- [11. IAM](#11-iam)
 
 <!-- /TOC -->
 
@@ -105,3 +106,10 @@
 # 10. Cloudwatch
 
 1. [AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
+
+# 11. IAM
+
+1. [IAM policy evaluation workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/6dc3124a-6bd4-46eb-b5c4-be438a82ba3d/en-US)
+2. [IAM Hands-On Lab](https://catalog.us-east-1.prod.workshops.aws/workshops/8efd4edb-2b91-49fd-b1b8-3e3b5e71aa03/en-US/iam)
+3. [Builder Sessions ](https://awssecworkshops.com/builder-sessions/)
+4. [Security Workshops](https://awssecworkshops.com/workshops/)

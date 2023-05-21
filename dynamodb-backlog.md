@@ -39,7 +39,7 @@
 - [17. Java](#17-java)
 - [18. DynamoDB Videos](#18-dynamodb-videos)
   - [18.1. Vidoes with Rick Houlihan](#181-vidoes-with-rick-houlihan)
-  - [18.2. Vidoes with Alex Debrie](#182-vidoes-with-alex-debrie)
+  - [18.2. Videos with Alex Debrie](#182-videos-with-alex-debrie)
 - [19. Development](#19-development)
   - [19.1. Storing Attributes in a JSON (Fastest way to query)](#191-storing-attributes-in-a-json-fastest-way-to-query)
   - [19.2. Using Document API](#192-using-document-api)
@@ -59,6 +59,7 @@
 - [26. SQL Style Interface](#26-sql-style-interface)
 - [27. IAM](#27-iam)
 - [28. How to Backup DynamoDB Tables](#28-how-to-backup-dynamodb-tables)
+  - [28.1. Backup using AWS Backup](#281-backup-using-aws-backup)
 - [29. How to Bulk Import data into DynamoDB Tables](#29-how-to-bulk-import-data-into-dynamodb-tables)
 - [30. Under The Hood](#30-under-the-hood)
 - [31. Monitoring Using Cloud Metrics](#31-monitoring-using-cloud-metrics)
@@ -176,6 +177,9 @@
 3. [Build with DynamoDB | Implementing an Inventory and Orders Management Data Model (Part 1)](https://www.twitch.tv/aws/video/470816184)
 4. [[Video] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
 5. [Modeling a movie database](https://www.youtube.com/watch?v=nhUtZ7suZWI)
+6. [Data Modeling with DynamoDB Workshop By Rob McCauley and Chad Tindel](https://www.youtube.com/watch?v=Uie7yip1yn8)
+- /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/dynamodb/dynamodb-modeling-workshop/my-readme.md
+- https://github.com/robm26/modeling
 
 ## 10.3. Modeling Hierarchical Data Structures
 
@@ -259,6 +263,7 @@ See [workshops-backlog.md](./workshops-backlog.md)
 1. [DynamoDB under the hood - How does it work? What is the architecture of the database service?](https://www.youtube.com/watch?v=ZhXqNcbR4n0&t=909s)
 2. [Designing a DyamoDB Table in 4 Steps: From Entities to Access Patterns](https://www.youtube.com/watch?v=JLZOI8patlw)
 3. [Deep Dive on Multi-Region Architectures with Amazon DynamoDB - AWS Online Tech Talks](https://www.youtube.com/watch?v=fqxL3WQ53GM&t=72s)
+https://www.youtube.com/watch?v=Mw8wCj0gkRc&list=PLJo-rJlep0EDNtcDeHDMqsXJcuKMcrC5F&index=1
 
 ## 18.1. Vidoes with Rick Houlihan
 
@@ -271,7 +276,7 @@ See [workshops-backlog.md](./workshops-backlog.md)
 - [Notes by kevinhakanson.com](https://kevinhakanson.com/2018-12-04-amazon-dynamodb-deep-dive-advanced-design-patterns-for-dynamodb-dat401/)
 7. [AWS re:Invent 2021 - DynamoDB deep dive: Advanced design Patterns](https://www.youtube.com/watch?v=xfxBhvGpoa0)
 
-## 18.2. Vidoes with Alex Debrie
+## 18.2. Videos with Alex Debrie
 
 1. [7 Common DynamoDB Patterns for Modeling and Building an App with Alex De Brie](https://www.youtube.com/watch?v=Q6-qWdsa8a4&t=200s)
 
@@ -388,6 +393,11 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Archive data from Amazon DynamoDB to Amazon S3 using TTL and Amazon Kinesis integration by Bhupesh Sharma and Veerendra Nayak ](https://aws.amazon.com/blogs/database/archive-data-from-amazon-dynamodb-to-amazon-s3-using-ttl-and-amazon-kinesis-integration/)
 
+## 28.1. Backup using AWS Backup
+
+1. [Set up scheduled backups for Amazon DynamoDB using AWS Backup by Dhiraj Thakur](https://aws.amazon.com/blogs/database/set-up-scheduled-backups-for-amazon-dynamodb-using-aws-backup/)
+- Provides a CFN
+
 # 29. How to Bulk Import data into DynamoDB Tables
 
 1. [Amazon DynamoDB can now import Amazon S3 data into a new table by Robert McCauley and Aman Dhingra](https://aws.amazon.com/blogs/database/amazon-dynamodb-can-now-import-amazon-s3-data-into-a-new-table/)
@@ -398,7 +408,9 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 2. [[MY NEXT] DynamoDB: Under the hood, managing throughput, advanced design patterns | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=0iGR8GnIItQ)
 3. [DynamoDB under the hood - How does it works? What is the architecture of the database service?](https://www.youtube.com/watch?v=ZhXqNcbR4n0&list=PLGyRwGktEFqdpYgi2eSADjQyLAsOQ4a02&index=16&t=910s)
 
-
 # 31. Monitoring Using Cloud Metrics
 
 1. [How to use Amazon CloudWatch to monitor Amazon DynamoDB table size and item count metrics by Jason Hunter and Vivek Natarajan](https://aws.amazon.com/blogs/database/how-to-use-amazon-cloudwatch-to-monitor-amazon-dynamodb-table-size-and-item-count-metrics/)
+2. [Top metrics to consider while monitoring DynamoDB performance](https://blogs.manageengine.com/application-performance-2/appmanager/2018/11/16/top-metrics-consider-monitoring-dynamodb-performance.html)
+3. [Monitoring AWS DynamoDB performance and latency](https://lumigo.io/blog/monitoring-aws-dynamodb-performance-and-latency/)
+4. [Monitor Your DynamoDB Access Patterns with AWS Contributor Insights By Be Better Dev](https://www.youtube.com/watch?v=yEkePcvI5nA)

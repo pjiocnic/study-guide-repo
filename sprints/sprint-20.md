@@ -45,7 +45,3 @@
 1. [Choose shard keys to optimize Amazon DocumentDB Elastic Clusters by Jason Dalba](https://aws.amazon.com/blogs/database/choose-shard-keys-to-optimize-amazon-documentdb-elastic-clusters/)
 2. [AWS Organizations Hands-on! (AWS Certified Solutions Architect - Professional) By Enlear Academy](https://www.youtube.com/watch?v=jtKqYM9GjNM)
 
-# Work
-1. List all access patterns
-2. Add RCRD_LCTR
-
