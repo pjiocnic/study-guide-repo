@@ -63,6 +63,7 @@
 - [29. How to Bulk Import data into DynamoDB Tables](#29-how-to-bulk-import-data-into-dynamodb-tables)
 - [30. Under The Hood](#30-under-the-hood)
 - [31. Monitoring Using Cloud Metrics](#31-monitoring-using-cloud-metrics)
+- [32. How to calculate Cost?](#32-how-to-calculate-cost)
 
 <!-- /TOC -->
 
@@ -414,3 +415,10 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 2. [Top metrics to consider while monitoring DynamoDB performance](https://blogs.manageengine.com/application-performance-2/appmanager/2018/11/16/top-metrics-consider-monitoring-dynamodb-performance.html)
 3. [Monitoring AWS DynamoDB performance and latency](https://lumigo.io/blog/monitoring-aws-dynamodb-performance-and-latency/)
 4. [Monitor Your DynamoDB Access Patterns with AWS Contributor Insights By Be Better Dev](https://www.youtube.com/watch?v=yEkePcvI5nA)
+
+# 32. How to calculate Cost?
+
+1. [How you should think about DynamoDB costs By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-costs/)
+2. [Dynamodb for DBAs – Calculating RCUs and WCUs](https://klouddb.io/dynamodb-for-dbas-calculating-rcus-and-wcus/)
+3. [Calculating the Required Read and Write Capacity Unit for your DynamoDB Table By Tutorial Dojo](https://tutorialsdojo.com/calculating-the-required-read-and-write-capacity-unit-for-your-dynamodb-table/)
+4. [Calculate Amazon DynamoDB reserved capacity recommendations to optimize costs by Sanjna Srivatsa and Sahil Thapar ](https://aws.amazon.com/blogs/database/calculate-amazon-dynamodb-reserved-capacity-recommendations-to-optimize-costs/)

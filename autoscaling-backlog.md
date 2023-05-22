@@ -11,7 +11,8 @@
   - [6.2. Using Prometheus metrics](#62-using-prometheus-metrics)
 - [7. Lambda](#7-lambda)
 - [8. Scaling DynamoDB](#8-scaling-dynamodb)
-- [ECS](#ecs)
+- [9. ECS](#9-ecs)
+- [10. Curate](#10-curate)
 
 <!-- /TOC -->
 
@@ -46,6 +47,8 @@
 2. [EC2 Auto Scaling from AWS General Immersion Day wokshop](https://catalog.us-east-1.prod.workshops.aws/workshops/f3a3e2bd-e1d5-49de-b8e6-dac361842e76/en-US/basic-modules/10-ec2/ec2-auto-scaling/ec2-auto-scaling)
 3. [Amazon EC2 Auto Scaling with EC2 Spot Instances](https://aws.amazon.com/getting-started/hands-on/ec2-auto-scaling-spot-instances/)
 4. [Scaling your applications faster with EC2 Auto Scaling Warm Pools by Chad Schmutzer](https://aws.amazon.com/blogs/compute/scaling-your-applications-faster-with-ec2-auto-scaling-warm-pools/)
+5. [AWS EC2 Auto Scaling By devops-training](https://tkssharma-devops.gitbook.io/devops-training/syllabus/untitled/aws-compute/aws-ec2-auto-scaling)
+6. [Amazon EC2 Auto Scaling with EC2 Spot Instances](https://aws.amazon.com/getting-started/hands-on/ec2-auto-scaling-spot-instances/)
 
 ## 6.2. Using Prometheus metrics
 
@@ -62,8 +65,15 @@
 3. [New – Auto Scaling for Amazon DynamoDB by Jeff Barr](https://aws.amazon.com/blogs/aws/new-auto-scaling-for-amazon-dynamodb/)
 4. [The problems with DynamoDB Auto Scaling and how it might be improved By Yan Cui](https://medium.com/hackernoon/the-problems-with-dynamodb-auto-scaling-and-how-it-might-be-improved-a92029c8c10b)
 
-
-# ECS
+# 9. ECS
 
 11. [Deep Dive on Amazon ECS Cluster Auto Scaling by Nick Coult](https://aws.amazon.com/blogs/containers/deep-dive-on-amazon-ecs-cluster-auto-scaling/)
+
+# 10. Curate
+
+1. [Deploy auto scaling web service](https://catalog.workshops.aws/general-immersionday/en-US/advanced-modules/compute/auto-scaling)
+https://github.com/tryolabs/aws-workshop/blob/master/workshop/elb-auto-scaling-group/02-auto-scaling-group.md
+https://awslabs.github.io/scale-out-computing-on-aws/workshops/reinvent19-MFG405/#lab-environment-at-a-glance
+https://ecsworkshop.com/capacity_providers/ec2/
+https://tech.smartling.com/aws-terraform-workshop-2-ec2-networking-autoscaling-groups-cloudwatch-12ee08c17
 
