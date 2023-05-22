@@ -191,6 +191,11 @@ https://www.youtube.com/watch?v=jzeKPKpucS0&t=2165s
 
 1. [Single-table vs. multi-table design in Amazon DynamoDB by Alex DeBrie](https://aws.amazon.com/blogs/database/single-table-vs-multi-table-design-in-amazon-dynamodb/)
 2. [Creating a single-table design with Amazon DynamoDB by James Beswick](https://aws.amazon.com/blogs/compute/creating-a-single-table-design-with-amazon-dynamodb/)
+3. [Single-table vs multi-table DynamoDB design patterns with GraphQL APIs and AWS AppSync by Ed Lima ](https://aws.amazon.com/blogs/mobile/single-table-vs-multi-table-dynamodb-appsync/)
+4. [How to design an Amazon DynamoDB data model for a GraphQL API](https://aws.amazon.com/graphql/graphql-dynamodb-data-modeling/)
+5. [The What, Why, and When of Single-Table Design with DynamoDB By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-single-table/)
+6. [How to use single-table DynamoDB design with GraphQL By Alex Debrie | Amazon Web Services](https://www.youtube.com/watch?v=rlypcHUlsao&t=3s)
+7. [How to use multiple DynamoDB tables with GraphQL By Alex Debrie | Amazon Web Services](https://www.youtube.com/watch?v=HSDKN43Vx7U&t=1s)
 
 # 11. Workshop
 
