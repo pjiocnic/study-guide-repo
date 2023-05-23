@@ -17,6 +17,8 @@
   - [8.2. Parallel queries](#82-parallel-queries)
 - [9. Sharding](#9-sharding)
 - [10. Data Modeling](#10-data-modeling)
+  - [One-to-Many](#one-to-many)
+  - [Many-to-Many](#many-to-many)
   - [10.1. RDMS to DynamoDB Modeling](#101-rdms-to-dynamodb-modeling)
   - [10.2. Modeling Examples](#102-modeling-examples)
   - [10.3. Modeling Hierarchical Data Structures](#103-modeling-hierarchical-data-structures)
@@ -166,6 +168,14 @@
 4. [Fundamentals of Amazon DynamoDB Single Table Design with Rick Houlihan](https://www.youtube.com/watch?v=KYy8X8t4MB8)
 5. [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401) By Rick Houlihan](https://www.youtube.com/watch?v=HaEPXoXVf2k)
 -  https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
+
+## One-to-Many
+
+1. [How to model one-to-many relationships in DynamoDB By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-one-to-many/)
+
+## Many-to-Many
+
+1. [Best practices for managing many-to-many relationships](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-adjacency-graphs.html)
 
 ## 10.1. RDMS to DynamoDB Modeling
 

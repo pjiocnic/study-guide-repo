@@ -15,3 +15,5 @@ https://json-schema.org/implementations.html
 https://github.com/victools/jsonschema-generator
 
 1. [JSON schema validation in Postman using external JSON files](https://medium.com/skillhive/json-schema-validation-in-postman-using-external-json-files-2f3f0741800f)
+
+https://github.com/PacktPublishing/MongoDB---The-Complete-Developer-s-Guide/tree/master
