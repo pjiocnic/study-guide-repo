@@ -1,4 +1,3 @@
 
 1. [How to Build Dynamic Dashboards Using Lambda and DynamoDB Streams: Part 1 by AWS Admin ](https://aws.amazon.com/blogs/startups/building-dynamic-dashboards-using-lambda-and-dynamodb-streams-part-1/)
-
 2. [How to Build Dynamic Dashboards Using AWS Lambda and Amazon DynamoDB Streams: Part II by AWS Editorial Team ](https://aws.amazon.com/blogs/startups/building-dynamic-dashboards-using-aws-lambda-and-amazon-dynamodb-streams-part-ii/)

@@ -361,15 +361,15 @@ https://www.youtube.com/watch?v=Mw8wCj0gkRc&list=PLJo-rJlep0EDNtcDeHDMqsXJcuKMcr
 
 1. [How to Create an AWS IAM Policy to Grant AWS Lambda Access to an Amazon DynamoDB Table by Andrew Robinson](https://aws.amazon.com/blogs/security/how-to-create-an-aws-iam-policy-to-grant-aws-lambda-access-to-an-amazon-dynamodb-table/)
 2. [Using AWS Lambda with Amazon DynamoDB](https://docs.aws.amazon.com/lambda/latest/dg/with-ddb.html)
-- Polling and batching streams
-- Simultaneous readers of a shard in DynamoDB Streams
-- Event source mapping APIs
-- Error handling
-- Time windows
-- Amazon CloudWatch metrics
-- Reporting batch item failures
-- AWS SAM template for a DynamoDB application
-- Example DDBEventProcessor.java
+    - Polling and batching streams
+    - Simultaneous readers of a shard in DynamoDB Streams
+    - Event source mapping APIs
+    - Error handling
+    - Time windows
+    - Amazon CloudWatch metrics
+    - Reporting batch item failures
+    - AWS SAM template for a DynamoDB application
+    - Example DDBEventProcessor.java
 3. [Building enterprise applications using Amazon DynamoDB, AWS Lambda, and Go by Geoffroy Rollat ](https://aws.amazon.com/blogs/database/building-enterprise-applications-using-amazon-dynamodb-aws-lambda-and-golang/)
 4. [Serverless Architectures with Java 8, AWS Lambda, and Amazon DynamoDB — Part 1](https://aws.amazon.com/blogs/startups/serverless-architectures-with-java-8-aws-lambda-and-amazon-dynamodb-part-1/)
 5. [Serverless Architectures with Java 8, AWS Lambda, and Amazon DynamoDB — Part 2 by Brent Rabowsky](https://aws.amazon.com/blogs/startups/serverless-architectures-with-java-8-aws-lambda-and-amazon-dynamodb-part-2/)
@@ -377,6 +377,8 @@ https://www.youtube.com/watch?v=Mw8wCj0gkRc&list=PLJo-rJlep0EDNtcDeHDMqsXJcuKMcr
 7. [Building a serverless developer authentication API in Java using AWS Lambda, Amazon DynamoDB, and Amazon Cognito – Part 2 by Dhruv Thukral](https://aws.amazon.com/blogs/developer/building-a-serverless-developer-authentication-api-in-java-using-aws-lambda-amazon-dynamodb-and-amazon-cognito-part-2/)
 8. [Building a serverless developer authentication API in Java using AWS Lambda, Amazon DynamoDB, and Amazon Cognito – Part 3 by Dhruv Thukral](https://aws.amazon.com/blogs/developer/building-a-serverless-developer-authentication-api-in-java-using-aws-lambda-amazon-dynamodb-and-amazon-cognito-part-3/)
 9. [Serverless architectures working with DynamoDB and Lambda - AWS Virtual Workshop](https://www.youtube.com/watch?v=SKmHrhUR9oY)
+10. [How to Build Dynamic Dashboards Using Lambda and DynamoDB Streams: Part 1 by AWS Admin ](https://aws.amazon.com/blogs/startups/building-dynamic-dashboards-using-lambda-and-dynamodb-streams-part-1/)
+11. [How to Build Dynamic Dashboards Using AWS Lambda and Amazon DynamoDB Streams: Part II by AWS Editorial Team ](https://aws.amazon.com/blogs/startups/building-dynamic-dashboards-using-aws-lambda-and-amazon-dynamodb-streams-part-ii/)
 
 # 22. Enterprise Grade Example
 

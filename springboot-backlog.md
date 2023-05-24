@@ -20,3 +20,4 @@
 # 3. Loading JSON file
 
 1. [Load Spring Boot Properties From a JSON File](https://www.baeldung.com/spring-boot-json-properties)
+2. [HOW TO READ JSON DATA IN SPRING BOOT AND WRITE TO A DATABASE](https://www.danvega.dev/blog/2017/07/05/read-json-data-spring-boot-write-database/)
