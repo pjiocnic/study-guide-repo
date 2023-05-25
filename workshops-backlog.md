@@ -26,6 +26,11 @@
 
 1. [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
 2. [Amazon DynamoDB Labs FastTrack](https://catalog.us-east-1.prod.workshops.aws/workshops/3319b690-3a41-4921-9af8-f31c7bef4cdb/en-US)
+3. [Amazon DynamoDB Labs](https://eventbox.dev/published/lesson/dynamodbs-security-101/)
+- DynamoDB Data Denormalization
+- DynamoDB Access Control
+- DynamoDB Processing Options
+
 3. [Build a Serverless Web Application with AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
 
 # 3. Account setup
@@ -67,6 +72,7 @@
 1. [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
     - [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage by Chris Munns](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)
 2. [Welcome to the Serverlesspresso workshop! ](https://workshop.serverlesscoffee.com/)
+3. [[MY NEXT] AWS re:Invent 2022 - Building Serverlesspresso: Creating event-driven architectures (SVS312) BY James Beswick](https://www.youtube.com/watch?v=qs0U0LdNkV0)
 3. [Welcome to Innovator Island! ](https://www.eventbox.dev/published/lesson/innovator-island/)
 4. [Wild Rydes workshop](https://webapp.serverlessworkshops.io/)
 5. [Serverless Data Processing on AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/76d4b4eb-bff7-40c6-a925-7f101ad3bd43/en-US)

@@ -88,7 +88,8 @@
 
 # 10. JDBC
 
-1. [Get started with the Amazon DocumentDB JDBC driver by Douglas Bonser](https://aws.amazon.com/blogs/database/get-started-with-the-amazon-documentdb-jdbc-driver/)
+1. [[MY NEXT] Get started with the Amazon DocumentDB JDBC driver by Douglas Bonser](https://aws.amazon.com/blogs/database/get-started-with-the-amazon-documentdb-jdbc-driver/)
+- https://github.com/aws/amazon-documentdb-jdbc-driver/tree/develop
 
 # 11. IAM
 

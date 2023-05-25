@@ -11,6 +11,7 @@
   - [6.2. Using Prometheus metrics](#62-using-prometheus-metrics)
 - [7. Lambda](#7-lambda)
 - [8. Scaling DynamoDB](#8-scaling-dynamodb)
+- [9. Scaling DocumentDB](#9-scaling-documentdb)
 - [9. ECS](#9-ecs)
 - [10. Curate](#10-curate)
 
@@ -64,6 +65,10 @@
 2. [Amazon DynamoDB auto scaling: Performance and cost optimization at any scale by Daniel Yoder and Sean Shriver](https://aws.amazon.com/blogs/database/amazon-dynamodb-auto-scaling-performance-and-cost-optimization-at-any-scale/)
 3. [New – Auto Scaling for Amazon DynamoDB by Jeff Barr](https://aws.amazon.com/blogs/aws/new-auto-scaling-for-amazon-dynamodb/)
 4. [The problems with DynamoDB Auto Scaling and how it might be improved By Yan Cui](https://medium.com/hackernoon/the-problems-with-dynamodb-auto-scaling-and-how-it-might-be-improved-a92029c8c10b)
+
+# 9. Scaling DocumentDB
+
+1. [[MY NEXT]Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
 
 # 9. ECS
 

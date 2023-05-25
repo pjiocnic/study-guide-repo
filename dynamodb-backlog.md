@@ -66,6 +66,7 @@
 - [30. Under The Hood](#30-under-the-hood)
 - [31. Monitoring Using Cloud Metrics](#31-monitoring-using-cloud-metrics)
 - [32. How to calculate Cost?](#32-how-to-calculate-cost)
+- [33. Curate](#33-curate)
 
 <!-- /TOC -->
 
@@ -439,3 +440,9 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 2. [Dynamodb for DBAs – Calculating RCUs and WCUs](https://klouddb.io/dynamodb-for-dbas-calculating-rcus-and-wcus/)
 3. [Calculating the Required Read and Write Capacity Unit for your DynamoDB Table By Tutorial Dojo](https://tutorialsdojo.com/calculating-the-required-read-and-write-capacity-unit-for-your-dynamodb-table/)
 4. [Calculate Amazon DynamoDB reserved capacity recommendations to optimize costs by Sanjna Srivatsa and Sahil Thapar ](https://aws.amazon.com/blogs/database/calculate-amazon-dynamodb-reserved-capacity-recommendations-to-optimize-costs/)
+5. [An Intro to Amazon DynamoDB Pricing: Challenges and Best Practices | Finout](https://www.finout.io/blog/an-intro-to-dynamodb-pricing-challenges-and-best-practices)
+
+# 33. Curate
+
+1. [What I’ve Learned From Using AWS DynamoDB in Production for More Than 3 Years](https://awstip.com/what-ive-learned-from-using-aws-dynamodb-in-production-for-more-than-3-years-49a077886b5c)
+- Has tips suitable for exam preparation
