@@ -17,12 +17,12 @@
   - [8.2. Parallel queries](#82-parallel-queries)
 - [9. Sharding](#9-sharding)
 - [10. Data Modeling](#10-data-modeling)
-  - [One-to-Many](#one-to-many)
-  - [Many-to-Many](#many-to-many)
-  - [10.1. RDMS to DynamoDB Modeling](#101-rdms-to-dynamodb-modeling)
-  - [10.2. Modeling Examples](#102-modeling-examples)
-  - [10.3. Modeling Hierarchical Data Structures](#103-modeling-hierarchical-data-structures)
-  - [10.4. Single Table Vs Multi-Tables](#104-single-table-vs-multi-tables)
+  - [10.1. One-to-Many](#101-one-to-many)
+  - [10.2. Many-to-Many](#102-many-to-many)
+  - [10.3. RDMS to DynamoDB Modeling](#103-rdms-to-dynamodb-modeling)
+  - [10.4. Modeling Examples](#104-modeling-examples)
+  - [10.5. Modeling Hierarchical Data Structures](#105-modeling-hierarchical-data-structures)
+  - [10.6. Single Table Vs Multi-Tables](#106-single-table-vs-multi-tables)
 - [11. Workshop](#11-workshop)
 - [12. UseCases](#12-usecases)
   - [12.1. Usescases from AlexDebrie's Book](#121-usescases-from-alexdebries-book)
@@ -66,7 +66,8 @@
 - [30. Under The Hood](#30-under-the-hood)
 - [31. Monitoring Using Cloud Metrics](#31-monitoring-using-cloud-metrics)
 - [32. How to calculate Cost?](#32-how-to-calculate-cost)
-- [33. Curate](#33-curate)
+- [33. CLI examples](#33-cli-examples)
+- [34. Dynamodb User Stories](#34-dynamodb-user-stories)
 
 <!-- /TOC -->
 
@@ -170,19 +171,19 @@
 5. [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401) By Rick Houlihan](https://www.youtube.com/watch?v=HaEPXoXVf2k)
 -  https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
 
-## One-to-Many
+## 10.1. One-to-Many
 
 1. [How to model one-to-many relationships in DynamoDB By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-one-to-many/)
 
-## Many-to-Many
+## 10.2. Many-to-Many
 
 1. [Best practices for managing many-to-many relationships](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-adjacency-graphs.html)
 
-## 10.1. RDMS to DynamoDB Modeling
+## 10.3. RDMS to DynamoDB Modeling
 
 1. [[MY NEXT] From relational DB to single DynamoDB table: a step-by-step exploration](https://www.trek10.com/blog/dynamodb-single-table-relational-modeling)
 
-## 10.2. Modeling Examples
+## 10.4. Modeling Examples
 
 1. [DynamoDB Single-Table Design Examples Library by dynobase](https://dynobase.dev/dynamodb-single-table-design-examples/)
 2. [[MY NEXT] Modelling a product catalog in DynamoDB by Maurice Borgmeier](https://www.tecracer.com/blog/2021/03/modelling-a-product-catalog-in-dynamodb.html)
@@ -193,12 +194,12 @@
 - /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/dynamodb/dynamodb-modeling-workshop/my-readme.md
 - https://github.com/robm26/modeling
 
-## 10.3. Modeling Hierarchical Data Structures
+## 10.5. Modeling Hierarchical Data Structures
 
 https://www.dynamodbguide.com/hierarchical-data/
 https://www.youtube.com/watch?v=jzeKPKpucS0&t=2165s
 
-## 10.4. Single Table Vs Multi-Tables
+## 10.6. Single Table Vs Multi-Tables
 
 1. [Single-table vs. multi-table design in Amazon DynamoDB by Alex DeBrie](https://aws.amazon.com/blogs/database/single-table-vs-multi-table-design-in-amazon-dynamodb/)
 2. [Creating a single-table design with Amazon DynamoDB by James Beswick](https://aws.amazon.com/blogs/compute/creating-a-single-table-design-with-amazon-dynamodb/)
@@ -300,6 +301,7 @@ https://www.youtube.com/watch?v=Mw8wCj0gkRc&list=PLJo-rJlep0EDNtcDeHDMqsXJcuKMcr
 # 19. Development
 
 1. [Amazon DynamoDB Update – JSON, Expanded Free Tier, Flexible Scaling, Larger Items by Jeff Barr ](https://aws.amazon.com/blogs/aws/dynamodb-update-json-and-more/)
+2. [AWS Samples](https://github.com/aws-samples/aws-dynamodb-examples/tree/master)
 
 ## 19.1. Storing Attributes in a JSON (Fastest way to query)
 
@@ -425,11 +427,11 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [[MY NEXT] DynamoDB: Its purpose, main features, and key concepts | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=ummOosOW4lE)
 2. [[MY NEXT] DynamoDB: Under the hood, managing throughput, advanced design patterns | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=0iGR8GnIItQ)
-3. [DynamoDB under the hood - How does it works? What is the architecture of the database service?](https://www.youtube.com/watch?v=ZhXqNcbR4n0&list=PLGyRwGktEFqdpYgi2eSADjQyLAsOQ4a02&index=16&t=910s)
+3. [DynamoDB under the hood - How does it works? What is the architecture of the database service? by FooBar](https://www.youtube.com/watch?v=ZhXqNcbR4n0&list=PLGyRwGktEFqdpYgi2eSADjQyLAsOQ4a02&index=16&t=910s)
 
 # 31. Monitoring Using Cloud Metrics
 
-1. [How to use Amazon CloudWatch to monitor Amazon DynamoDB table size and item count metrics by Jason Hunter and Vivek Natarajan](https://aws.amazon.com/blogs/database/how-to-use-amazon-cloudwatch-to-monitor-amazon-dynamodb-table-size-and-item-count-metrics/)
+1. [[MY NEXT] How to use Amazon CloudWatch to monitor Amazon DynamoDB table size and item count metrics by Jason Hunter and Vivek Natarajan](https://aws.amazon.com/blogs/database/how-to-use-amazon-cloudwatch-to-monitor-amazon-dynamodb-table-size-and-item-count-metrics/)
 2. [Top metrics to consider while monitoring DynamoDB performance](https://blogs.manageengine.com/application-performance-2/appmanager/2018/11/16/top-metrics-consider-monitoring-dynamodb-performance.html)
 3. [Monitoring AWS DynamoDB performance and latency](https://lumigo.io/blog/monitoring-aws-dynamodb-performance-and-latency/)
 4. [Monitor Your DynamoDB Access Patterns with AWS Contributor Insights By Be Better Dev](https://www.youtube.com/watch?v=yEkePcvI5nA)
@@ -442,7 +444,11 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 4. [Calculate Amazon DynamoDB reserved capacity recommendations to optimize costs by Sanjna Srivatsa and Sahil Thapar ](https://aws.amazon.com/blogs/database/calculate-amazon-dynamodb-reserved-capacity-recommendations-to-optimize-costs/)
 5. [An Intro to Amazon DynamoDB Pricing: Challenges and Best Practices | Finout](https://www.finout.io/blog/an-intro-to-dynamodb-pricing-challenges-and-best-practices)
 
-# 33. Curate
+# 33. CLI examples
+
+1. [DynamoDB CLI Commands & Query Examples Cheat Sheet](https://dynobase.dev/dynamodb-cli-query-examples)
+
+# 34. Dynamodb User Stories
 
 1. [What I’ve Learned From Using AWS DynamoDB in Production for More Than 3 Years](https://awstip.com/what-ive-learned-from-using-aws-dynamodb-in-production-for-more-than-3-years-49a077886b5c)
 - Has tips suitable for exam preparation

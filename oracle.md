@@ -1,0 +1,2 @@
+
+1. [How to convert UNIX epochs to datetime values in Oracle Database (and back again!)](https://blogs.oracle.com/sql/post/convert-unix-epochs-to-datetime-values-in-oracle-database-and-back#epoch-to-datetime)
