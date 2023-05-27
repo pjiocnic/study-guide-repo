@@ -6,6 +6,7 @@
 - [OpenSource Blogs](#opensource-blogs)
 - [Serverless](#serverless)
 - [DynamoDB](#dynamodb)
+- [Oracle](#oracle)
 
 <!-- /TOC -->
 
@@ -48,3 +49,7 @@
 2. [DynamoDB WhitePaper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 3. [The five most visited Amazon DynamoDB blog posts of 2022 by Darcy Jayne](https://aws.amazon.com/blogs/database/the-five-most-visited-amazon-dynamodb-blog-posts-of-2022/)
 4. [DynamoDB Blogs @ AWS](https://aws.amazon.com/blogs/database/tag/dynamodb/)
+
+# Oracle
+
+1. [All Things SQL](https://blogs.oracle.com/sql/)
