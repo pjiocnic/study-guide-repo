@@ -40,7 +40,7 @@
 - [16. Performance Tuning](#16-performance-tuning)
 - [17. Java](#17-java)
 - [18. DynamoDB Videos](#18-dynamodb-videos)
-  - [18.1. Vidoes with Rick Houlihan](#181-vidoes-with-rick-houlihan)
+  - [18.1. Videos with Rick Houlihan](#181-videos-with-rick-houlihan)
   - [18.2. Videos with Alex Debrie](#182-videos-with-alex-debrie)
 - [19. Development](#19-development)
   - [19.1. Storing Attributes in a JSON (Fastest way to query)](#191-storing-attributes-in-a-json-fastest-way-to-query)
@@ -65,10 +65,12 @@
 - [29. How to Bulk Import data into DynamoDB Tables](#29-how-to-bulk-import-data-into-dynamodb-tables)
 - [30. Under The Hood](#30-under-the-hood)
 - [31. Monitoring Using Cloud Watch Metrics](#31-monitoring-using-cloud-watch-metrics)
-- [33. TroubleShooting](#33-troubleshooting)
-- [32. How to calculate Cost?](#32-how-to-calculate-cost)
-- [33. CLI examples](#33-cli-examples)
-- [34. Dynamodb User Stories](#34-dynamodb-user-stories)
+- [32. TroubleShooting](#32-troubleshooting)
+- [33. How to calculate Cost?](#33-how-to-calculate-cost)
+- [34. CLI examples](#34-cli-examples)
+- [35. Dynamodb User Stories](#35-dynamodb-user-stories)
+- [36. Integrations](#36-integrations)
+  - [36.1. Athena](#361-athena)
 
 <!-- /TOC -->
 
@@ -192,8 +194,8 @@
 4. [[Video] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
 5. [Modeling a movie database](https://www.youtube.com/watch?v=nhUtZ7suZWI)
 6. [Data Modeling with DynamoDB Workshop By Rob McCauley and Chad Tindel](https://www.youtube.com/watch?v=Uie7yip1yn8)
-- /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/dynamodb/dynamodb-modeling-workshop/my-readme.md
-- https://github.com/robm26/modeling
+    - /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/dynamodb/dynamodb-modeling-workshop/my-readme.md
+    - https://github.com/robm26/modeling
 
 ## 10.5. Modeling Hierarchical Data Structures
 
@@ -284,7 +286,7 @@ See [workshops-backlog.md](./workshops-backlog.md)
 3. [Deep Dive on Multi-Region Architectures with Amazon DynamoDB - AWS Online Tech Talks](https://www.youtube.com/watch?v=fqxL3WQ53GM&t=72s)
 https://www.youtube.com/watch?v=Mw8wCj0gkRc&list=PLJo-rJlep0EDNtcDeHDMqsXJcuKMcrC5F&index=1
 
-## 18.1. Vidoes with Rick Houlihan
+## 18.1. Videos with Rick Houlihan
 
 1. [[MY NEXT] AWS re:Invent 2017: [REPEAT] Advanced Design Patterns for Amazon DynamoDB (DAT403-R)](https://www.youtube.com/watch?v=jzeKPKpucS0)
 2. [[MAKE NOTES] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
@@ -441,25 +443,35 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 7. [How Medium Detects Hotspots in DynamoDB using ElasticSearch, Logstash and Kibana](https://medium.engineering/how-medium-detects-hotspots-in-dynamodb-using-elasticsearch-logstash-and-kibana-aaa3d6632cfd)
 8. [A serverless solution to monitor the storage of your Amazon DynamoDB tables by Masudur Rahaman Sayem](https://aws.amazon.com/blogs/database/a-serverless-solution-to-monitor-the-storage-of-your-amazon-dynamodb-tables/)
 
-# 33. TroubleShooting
+# 32. TroubleShooting
 
 1. [[MY NEXT] Troubleshooting: Amazon DynamoDB](https://explore.skillbuilder.aws/learn/course/12617/play/49630/troubleshooting-amazon-dynamodb)
 2. [Amazon DynamoDB Capacity Sizing](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/7673/amazon-dynamodb-capacity-sizing)
 3. [Amazon DynamoDB - Monitoring](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1142/amazon-dynamodb-monitoring)
 
-# 32. How to calculate Cost?
+# 33. How to calculate Cost?
 
 1. [How you should think about DynamoDB costs By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-costs/)
 2. [Dynamodb for DBAs – Calculating RCUs and WCUs](https://klouddb.io/dynamodb-for-dbas-calculating-rcus-and-wcus/)
 3. [Calculating the Required Read and Write Capacity Unit for your DynamoDB Table By Tutorial Dojo](https://tutorialsdojo.com/calculating-the-required-read-and-write-capacity-unit-for-your-dynamodb-table/)
 4. [Calculate Amazon DynamoDB reserved capacity recommendations to optimize costs by Sanjna Srivatsa and Sahil Thapar ](https://aws.amazon.com/blogs/database/calculate-amazon-dynamodb-reserved-capacity-recommendations-to-optimize-costs/)
 5. [An Intro to Amazon DynamoDB Pricing: Challenges and Best Practices | Finout](https://www.finout.io/blog/an-intro-to-dynamodb-pricing-challenges-and-best-practices)
+6. [[MY NEXT][MUST SEE] A set of DynamoDB demo scripts and sample data that illustrate the read and write cost of various data access patterns.](https://github.com/robm26/efficiencydemos)
+7. [ddb viz-A webapp to visualize your DynamoDB tables and table data, with a focus on cost optimization](https://github.com/robm26/ddbviz)
+8. [Amazon DynamoDB Cost Modeling Workshop](https://github.com/robm26/cost)
 
-# 33. CLI examples
+# 34. CLI examples
 
 1. [DynamoDB CLI Commands & Query Examples Cheat Sheet](https://dynobase.dev/dynamodb-cli-query-examples)
 
-# 34. Dynamodb User Stories
+# 35. Dynamodb User Stories
 
 1. [What I’ve Learned From Using AWS DynamoDB in Production for More Than 3 Years](https://awstip.com/what-ive-learned-from-using-aws-dynamodb-in-production-for-more-than-3-years-49a077886b5c)
 - Has tips suitable for exam preparation
+
+# 36. Integrations
+
+## 36.1. Athena
+
+1. [How to perform advanced analytics and build visualizations of your Amazon DynamoDB data by using Amazon Athena by Roger Dahlstrom and Ilya Epshteyn](https://aws.amazon.com/blogs/database/how-to-perform-advanced-analytics-and-build-visualizations-of-your-amazon-dynamodb-data-by-using-amazon-athena/)
+
