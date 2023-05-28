@@ -5,6 +5,7 @@
 - [1. Samples](#1-samples)
   - [1.1. Content aggregation](#11-content-aggregation)
 - [2. Videos](#2-videos)
+- [3. Courses](#3-courses)
 
 <!-- /TOC -->
 
@@ -19,3 +20,8 @@
 # 2. Videos
 
 1. [AWS re:Invent 2022 - Advanced serverless workflow patterns and best practices (API309) By Ben Smith](https://www.youtube.com/watch?v=o6-7BAUWaqg)
+
+# 3. Courses
+
+1. [Design Patterns for AWS Step Functions](https://explore.skillbuilder.aws/learn/course/10471/play/37562/design-patterns-for-aws-step-functions)
+2. [Troubleshooting Serverless Applications](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1124/troubleshooting-serverless-applications)

@@ -37,7 +37,11 @@
 
 1. [[MY NEXT] Stream Amazon CloudWatch Logs to a Centralized Account for Audit and Analysis by David Bailey](https://aws.amazon.com/blogs/architecture/stream-amazon-cloudwatch-logs-to-a-centralized-account-for-audit-and-analysis/)
 
-# 6. DynamoDB
+# 6. Cloud Watch
+
+1. [[MY NEXT] AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
+
+# 7. DynamoDB
 
 1. [[MY NEXT] DynamoDB: Its purpose, main features, and key concepts | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=ummOosOW4lE)
 2. [[MY NEXT] DynamoDB: Under the hood, managing throughput, advanced design patterns | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=0iGR8GnIItQ)
@@ -45,19 +49,19 @@
 4. [[MY NEXT] Use parallelism to optimize querying large amounts of data in Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/use-parallelism-to-optimize-querying-large-amounts-of-data-in-amazon-dynamodb/)
 5. [Choosing the Right DynamoDB Partition Key by Gowri Balasubramanian and Sean Shriver ](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
 
-# 7. IAM
+# 8. IAM
 
 1. [IAM policy evaluation workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/6dc3124a-6bd4-46eb-b5c4-be438a82ba3d/en-US)
 
-# 8. System Design
+# 9. System Design
 
 1. Plan to read `/Volumes/Lexar/git-repos/aws-repo/books/system-design/System Design Interview An Insider’s Guide by Alex Xu (z-lib.org).pdf`
 2. `/Volumes/Lexar/git-repos/aws-repo/books/system-design/ByteByteGo_LinkedIn_PDF.pdf`
 
-# 9. Private Endpoints
+# 10. Private Endpoints
 
-1. [Tutorial: Sending a message to an Amazon SQS queue from Amazon Virtual Private Cloud](/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/networking/privatelink/[TODO]sqs-endpoint/my-readme.md)
+1. [Tutorial: Sending a message to an Amazon SQS queue from Amazon Virtual Private Cloud](/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/networking/privatelink/sqs-endpoint/my-readme.md)
 
-# 10. Organizations
+# 11. Organizations
 
-1. [Workshop AWS Account Setup](/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/iam/organizations/1-AWS Account Setup/my-readme.md)
+1. [Workshop AWS Account Setup](/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/iam/organizations/1-AWSAccountSetup/my-readme.md)

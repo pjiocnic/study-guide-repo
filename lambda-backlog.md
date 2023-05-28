@@ -23,6 +23,7 @@
 - [19. Stream Event Sources](#19-stream-event-sources)
 - [20. Curate](#20-curate)
 - [21. Spring](#21-spring)
+- [22. Troubleshooting](#22-troubleshooting)
 
 <!-- /TOC -->
 
@@ -130,3 +131,8 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 21. Spring
 
 1. [Java 17 🤝 AWS Lambda: Creating Serverless Functions in Java & Spring with Java 17](https://www.youtube.com/watch?v=bxK4GscuVgs)
+
+# 22. Troubleshooting
+
+1. [AWS Lambda - Troubleshooting](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10771/aws-lambda-troubleshooting)
+2. [How to Speed Up Your AWS Lambda Functions](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/14738/how-to-speed-up-your-aws-lambda-functions)

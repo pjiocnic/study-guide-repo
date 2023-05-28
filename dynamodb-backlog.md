@@ -64,7 +64,8 @@
   - [28.1. Backup using AWS Backup](#281-backup-using-aws-backup)
 - [29. How to Bulk Import data into DynamoDB Tables](#29-how-to-bulk-import-data-into-dynamodb-tables)
 - [30. Under The Hood](#30-under-the-hood)
-- [31. Monitoring Using Cloud Metrics](#31-monitoring-using-cloud-metrics)
+- [31. Monitoring Using Cloud Watch Metrics](#31-monitoring-using-cloud-watch-metrics)
+- [33. TroubleShooting](#33-troubleshooting)
 - [32. How to calculate Cost?](#32-how-to-calculate-cost)
 - [33. CLI examples](#33-cli-examples)
 - [34. Dynamodb User Stories](#34-dynamodb-user-stories)
@@ -429,12 +430,22 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 2. [[MY NEXT] DynamoDB: Under the hood, managing throughput, advanced design patterns | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=0iGR8GnIItQ)
 3. [DynamoDB under the hood - How does it works? What is the architecture of the database service? by FooBar](https://www.youtube.com/watch?v=ZhXqNcbR4n0&list=PLGyRwGktEFqdpYgi2eSADjQyLAsOQ4a02&index=16&t=910s)
 
-# 31. Monitoring Using Cloud Metrics
+# 31. Monitoring Using Cloud Watch Metrics
 
 1. [[MY NEXT] How to use Amazon CloudWatch to monitor Amazon DynamoDB table size and item count metrics by Jason Hunter and Vivek Natarajan](https://aws.amazon.com/blogs/database/how-to-use-amazon-cloudwatch-to-monitor-amazon-dynamodb-table-size-and-item-count-metrics/)
 2. [Top metrics to consider while monitoring DynamoDB performance](https://blogs.manageengine.com/application-performance-2/appmanager/2018/11/16/top-metrics-consider-monitoring-dynamodb-performance.html)
-3. [Monitoring AWS DynamoDB performance and latency](https://lumigo.io/blog/monitoring-aws-dynamodb-performance-and-latency/)
+3. [[MY NEXT] Monitoring AWS DynamoDB performance and latency](https://lumigo.io/blog/monitoring-aws-dynamodb-performance-and-latency/)
 4. [Monitor Your DynamoDB Access Patterns with AWS Contributor Insights By Be Better Dev](https://www.youtube.com/watch?v=yEkePcvI5nA)
+5. [Monitoring Amazon DynamoDB for operational awareness by Chad Tindel, Pratik Agarwal, Ankur Kasliwal, and Pete Naylor](https://aws.amazon.com/blogs/database/monitoring-amazon-dynamodb-for-operational-awareness/)
+6. [[MY NEXT] Top DynamoDB performance metrics](https://www.datadoghq.com/blog/top-dynamodb-performance-metrics/)
+7. [How Medium Detects Hotspots in DynamoDB using ElasticSearch, Logstash and Kibana](https://medium.engineering/how-medium-detects-hotspots-in-dynamodb-using-elasticsearch-logstash-and-kibana-aaa3d6632cfd)
+8. [A serverless solution to monitor the storage of your Amazon DynamoDB tables by Masudur Rahaman Sayem](https://aws.amazon.com/blogs/database/a-serverless-solution-to-monitor-the-storage-of-your-amazon-dynamodb-tables/)
+
+# 33. TroubleShooting
+
+1. [[MY NEXT] Troubleshooting: Amazon DynamoDB](https://explore.skillbuilder.aws/learn/course/12617/play/49630/troubleshooting-amazon-dynamodb)
+2. [Amazon DynamoDB Capacity Sizing](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/7673/amazon-dynamodb-capacity-sizing)
+3. [Amazon DynamoDB - Monitoring](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1142/amazon-dynamodb-monitoring)
 
 # 32. How to calculate Cost?
 
