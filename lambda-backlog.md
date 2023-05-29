@@ -130,7 +130,9 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 # 21. Spring
 
-1. [Java 17 🤝 AWS Lambda: Creating Serverless Functions in Java & Spring with Java 17](https://www.youtube.com/watch?v=bxK4GscuVgs)
+1. [AWS Lambda series by Dan Vega](https://www.youtube.com/watch?v=bxK4GscuVgs&list=PLZV0a2jwt22vS1QAp0XJsFACeLNL5oN1g)
+2. [SpringBoot on Lambda By James Eastham](https://github.com/jeastham1993/java-spring-on-lambda)
+- https://www.youtube.com/watch?v=eierYzOAyg8
 
 # 22. Troubleshooting
 
