@@ -14,7 +14,8 @@
 - [11. Rate Limiter](#11-rate-limiter)
 - [12. CQRS](#12-cqrs)
 - [13. Event Sourcing](#13-event-sourcing)
-- [14. Token Buckets](#14-token-buckets)
+- [14. Regulating Request Rates Using Token Buckets](#14-regulating-request-rates-using-token-buckets)
+- [Real Aggregation](#real-aggregation)
 
 <!-- /TOC -->
 
@@ -106,9 +107,15 @@
 1. [How does EventSourcing pattern work](https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-data-persistence/service-per-team.html)
 2. [Decompose monoliths into microservices by using CQRS and event sourcing](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/decompose-monoliths-into-microservices-by-using-cqrs-and-event-sourcing.html)
 
-# 14. Token Buckets
+# 14. Regulating Request Rates Using Token Buckets
 
 1. [Building well-architected serverless applications: Regulating inbound request rates – part 1 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-regulating-inbound-request-rates-part-1/)
 2. [Building well-architected serverless applications: Regulating inbound request rates – part 2 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-regulating-inbound-request-rates-part-2/)
 3. [Distributed API Rate Limiter](https://systemsdesign.cloud/SystemDesign/RateLimiter)
 4. [See System Design Interview: An Insider’s Guide @ CHAPTER 4: DESIGN A RATE LIMITER]
+
+# Real Aggregation
+
+1. [workshop - aggregating messages](https://amazon-dynamodb-labs.com/event-driven-architecture/ex1overview/step1.html)
+2. [Build a near real-time data aggregation pipeline using a serverless, event-driven architecture by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-near-real-time-data-aggregation-pipeline-using-a-serverless-event-driven-architecture/)
+1. [Build a fault-tolerant, serverless data aggregation pipeline with exactly-once processing by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-fault-tolerant-serverless-data-aggregation-pipeline-with-exactly-once-processing/)
