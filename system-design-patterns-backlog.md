@@ -74,6 +74,8 @@
 5. [Handling Twitter Webhooks with AWS Lambda and Step Functions](https://www.linkedin.com/pulse/handling-twitter-webhooks-aws-lambda-step-functions-frederik-willaert/)
 6.  [[MY NEXT] Generic webhook to EventBridge event bus](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:721177882564:applications~generic-webhook-to-eventbridge)
 -  https://github.com/vacationtracker/generic-webhook-to-eventbridge
+7. [Aggregating Webhooks with DynamoDB and SQS Delay Queues Dave North](https://rewind.com/blog/aggregating-webhooks-with-dynamodb-and-sqs-delay-queues/)
+8. [Handle Shopify Webhooks Without a Server Mike Potter](https://rewind.com/blog/handle-shopify-webhooks-without-a-server/)
 
 # 10. Scatter Gather
 

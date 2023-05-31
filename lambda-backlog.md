@@ -9,7 +9,9 @@
 - [5. CI/CD](#5-cicd)
 - [6. Development](#6-development)
 - [7. SAM](#7-sam)
-- [8. Event Source Mapping / Filtering](#8-event-source-mapping--filtering)
+- [8. Event Source Mapping](#8-event-source-mapping)
+  - [8.1. Filtering](#81-filtering)
+  - [8.2. Max Concurrency](#82-max-concurrency)
 - [9. Invocation Models](#9-invocation-models)
 - [10. Error Handling](#10-error-handling)
 - [11. Comparison between REST and GraphQL API architectures](#11-comparison-between-rest-and-graphql-api-architectures)
@@ -60,11 +62,17 @@
 1. [[MY NEXT] Building serverless Java applications with the AWS SAM CLI by James Beswick](https://aws.amazon.com/blogs/compute/building-serverless-java-applications-with-the-aws-sam-cli/)
     - [Building Java apps with SAM | Serverless Office Hours](https://www.youtube.com/watch?v=c7_gGalsIyE)
 
-# 8. Event Source Mapping / Filtering
+# 8. Event Source Mapping
+
+## 8.1. Filtering
 
 1. [Understanding Amazon SQS and AWS Lambda Event Source Mapping for Efficient Message Processing by Tushar Sharma and Shaun Wang](https://aws.amazon.com/blogs/apn/understanding-amazon-sqs-and-aws-lambda-event-source-mapping-for-efficient-message-processing/)
 2. [Filtering event sources for AWS Lambda functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
 - Show how to filter messages before the invocation of a Lambda function
+
+## 8.2. Max Concurrency
+
+1. [Does Maximum Concurrency Solve the Lambda+SQS Issue?](https://zaccharles.medium.com/does-maximum-concurrency-solve-the-lambda-sqs-issue-3c19701e6e75)
 
 # 9. Invocation Models
 

@@ -82,3 +82,4 @@ https://awslabs.github.io/scale-out-computing-on-aws/workshops/reinvent19-MFG405
 https://ecsworkshop.com/capacity_providers/ec2/
 https://tech.smartling.com/aws-terraform-workshop-2-ec2-networking-autoscaling-groups-cloudwatch-12ee08c17
 
+2. [Autoscaling AWS Elastic Beanstalk worker tier based on SQS queue length](https://blog.cbeer.info/2016/autoscaling-elasticbeanstalk-workers-sqs-length/)
