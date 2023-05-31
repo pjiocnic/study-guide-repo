@@ -12,6 +12,7 @@
 - [8. Event Source Mapping](#8-event-source-mapping)
   - [8.1. Filtering](#81-filtering)
   - [8.2. Max Concurrency](#82-max-concurrency)
+  - [8.3. FIFO SQS as Event Source](#83-fifo-sqs-as-event-source)
 - [9. Invocation Models](#9-invocation-models)
 - [10. Error Handling](#10-error-handling)
 - [11. Comparison between REST and GraphQL API architectures](#11-comparison-between-rest-and-graphql-api-architectures)
@@ -73,6 +74,10 @@
 ## 8.2. Max Concurrency
 
 1. [Does Maximum Concurrency Solve the Lambda+SQS Issue?](https://zaccharles.medium.com/does-maximum-concurrency-solve-the-lambda-sqs-issue-3c19701e6e75)
+
+## 8.3. FIFO SQS as Event Source
+
+1. [New for AWS Lambda – SQS FIFO as an event source by James Beswick ](https://aws.amazon.com/blogs/compute/new-for-aws-lambda-sqs-fifo-as-an-event-source/)
 
 # 9. Invocation Models
 
