@@ -1,0 +1,3 @@
+
+1. [Simplify Amazon DynamoDB data extraction and analysis by using AWS Glue and Amazon Athena by Laith Al-Saadoon and Ghiyath Alazzah](https://aws.amazon.com/blogs/database/simplify-amazon-dynamodb-data-extraction-and-analysis-by-using-aws-glue-and-amazon-athena/)
+2. [How to perform advanced analytics and build visualizations of your Amazon DynamoDB data by using Amazon Athena by Roger Dahlstrom and Ilya Epshteyn](https://aws.amazon.com/blogs/database/how-to-perform-advanced-analytics-and-build-visualizations-of-your-amazon-dynamodb-data-by-using-amazon-athena/)
