@@ -26,6 +26,7 @@
 - [19. Stream Event Sources](#19-stream-event-sources)
 - [20. Curate](#20-curate)
 - [21. Spring](#21-spring)
+- [22. Networking](#22-networking)
 - [22. Troubleshooting](#22-troubleshooting)
 
 <!-- /TOC -->
@@ -146,6 +147,10 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [AWS Lambda series by Dan Vega](https://www.youtube.com/watch?v=bxK4GscuVgs&list=PLZV0a2jwt22vS1QAp0XJsFACeLNL5oN1g)
 2. [SpringBoot on Lambda By James Eastham](https://github.com/jeastham1993/java-spring-on-lambda)
 - https://www.youtube.com/watch?v=eierYzOAyg8
+
+# 22. Networking
+
+1. [Building private serverless APIs with AWS Lambda and Amazon VPC Lattice by James Beswick ](https://aws.amazon.com/blogs/compute/building-private-serverless-apis-with-aws-lambda-and-amazon-vpc-lattice/)
 
 # 22. Troubleshooting
 

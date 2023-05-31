@@ -24,3 +24,4 @@
 # 3. VPC Lattice
 
 1. [Introducing VPC Lattice – Simplify Networking for Service-to-Service Communication (Preview) by Danilo Poccia ](https://aws.amazon.com/blogs/aws/introducing-vpc-lattice-simplify-networking-for-service-to-service-communication-preview/)
+2. [Amazon VPC Lattice Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/9e543f60-e409-43d4-b37f-78ff3e1a07f5/en-US)
