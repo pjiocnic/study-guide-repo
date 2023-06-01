@@ -36,7 +36,8 @@
   - [12.9. Building Queryable index](#129-building-queryable-index)
   - [12.10. Counters](#1210-counters)
 - [13. DynamoDB Streams](#13-dynamodb-streams)
-  - [13.1. Tutorials](#131-tutorials)
+  - [13.1. Deplayed processing](#131-deplayed-processing)
+  - [13.2. Tutorials](#132-tutorials)
 - [14. Transactions](#14-transactions)
 - [15. Patterns](#15-patterns)
 - [16. Performance Tuning](#16-performance-tuning)
@@ -270,8 +271,13 @@ See [workshops-backlog.md](./workshops-backlog.md)
 6. [Automatically Archive Items to S3 Using DynamoDB Time to Live (TTL) with AWS Lambda and Amazon Kinesis Firehose by Adam Wagner](https://aws.amazon.com/blogs/database/automatically-archive-items-to-s3-using-dynamodb-time-to-live-with-aws-lambda-and-amazon-kinesis-firehose/)
 7. [[MY NEXT] Delayed processing of DynamoDB stream with EventBridge Scheduler](https://serverlessland.com/patterns/apigw-dynamodb-lambda-scheduler-sqs-cdk)
 8. [How I solved Dynamic Task Scheduling using AWS DynamoDB TTL, Stream and Lambda Mohammad Anik Islam](https://medium.com/monstar-lab-bangladesh-engineering/how-i-solved-dynamic-task-scheduling-using-aws-dynamodb-ttl-stream-and-lambda-c0da5ebd6597)
+9. [What is a DynamoDB Stream? (And why you should be using it!) By Be Better Dev](https://www.youtube.com/watch?v=OjppS4RWWt8)
 
-## 13.1. Tutorials
+## 13.1. Deplayed processing
+
+1. [How I solved Dynamic Task Scheduling using AWS DynamoDB TTL, Stream and Lambda By Monstar Lab Bangladesh Engineering](https://medium.com/monstar-lab-bangladesh-engineering/how-i-solved-dynamic-task-scheduling-using-aws-dynamodb-ttl-stream-and-lambda-c0da5ebd6597)
+
+## 13.2. Tutorials
 
 1. [Tutorial #1: Using filters to process all events with Amazon DynamoDB and AWS Lambda using the AWS CLI](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.Tutorial.html)
 2. [Tutorial #2: Using filters to process some events with DynamoDB and Lambda](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.Tutorial2.html)

@@ -11,13 +11,15 @@
 - [7. SAM](#7-sam)
 - [8. Event Source Mapping](#8-event-source-mapping)
   - [8.1. Filtering](#81-filtering)
-  - [8.2. Max Concurrency](#82-max-concurrency)
+  - [8.2. Concurrency](#82-concurrency)
+    - [8.2.1. Concurrency Controls and Quotas](#821-concurrency-controls-and-quotas)
+    - [8.2.2. Max Concurrency](#822-max-concurrency)
   - [8.3. FIFO SQS as Event Source](#83-fifo-sqs-as-event-source)
 - [9. Invocation Models](#9-invocation-models)
 - [10. Error Handling](#10-error-handling)
 - [11. Comparison between REST and GraphQL API architectures](#11-comparison-between-rest-and-graphql-api-architectures)
 - [12. RDSProxy](#12-rdsproxy)
-- [13. IAM](#13-iam)
+- [13. Security](#13-security)
 - [14. Autoscaling](#14-autoscaling)
 - [15. Curate](#15-curate)
 - [16. Examples](#16-examples)
@@ -27,7 +29,8 @@
 - [20. Curate](#20-curate)
 - [21. Spring](#21-spring)
 - [22. Networking](#22-networking)
-- [22. Troubleshooting](#22-troubleshooting)
+- [23. Troubleshooting](#23-troubleshooting)
+- [24. Tracing](#24-tracing)
 
 <!-- /TOC -->
 
@@ -72,7 +75,13 @@
 2. [Filtering event sources for AWS Lambda functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
 - Show how to filter messages before the invocation of a Lambda function
 
-## 8.2. Max Concurrency
+## 8.2. Concurrency
+
+### 8.2.1. Concurrency Controls and Quotas
+
+1. [AWS Lambda Fundamentals - AWS Lambda concurrency controls and quotas](https://www.youtube.com/watch?v=5XRBZNPy6Ng)
+
+### 8.2.2. Max Concurrency
 
 1. [Does Maximum Concurrency Solve the Lambda+SQS Issue?](https://zaccharles.medium.com/does-maximum-concurrency-solve-the-lambda-sqs-issue-3c19701e6e75)
 
@@ -85,6 +94,7 @@
 1. [How to Design Your Serverless Apps for Massive Scale by George Mao](https://aws.amazon.com/blogs/architecture/how-to-design-your-serverless-apps-for-massive-scale/)
 1. [[MY NEXT] Understanding the Different Ways to Invoke Lambda Functions by George Mao](https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions/)
 3. [Best Practices for Developing on AWS Lambda by George Mao](https://aws.amazon.com/blogs/architecture/best-practices-for-developing-on-aws-lambda/)
+4. [AWS Lambda Fundamentals - AWS Lambda invocation models](https://www.youtube.com/watch?v=8K3_w3QyN6M)
 
 # 10. Error Handling
 
@@ -98,9 +108,10 @@
 
 1. [Using Amazon RDS Proxy with AWS Lambda by George Mao](https://aws.amazon.com/blogs/compute/using-amazon-rds-proxy-with-aws-lambda/)
 
-# 13. IAM
+# 13. Security
 
 1. [Operating Lambda: Building a solid security foundation – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-1/)
+2. [AWS Lambda Fundamentals - AWS Lambda function permissions](https://www.youtube.com/watch?v=6oG9O44U9x0)
 
 # 14. Autoscaling
 
@@ -151,8 +162,14 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 22. Networking
 
 1. [Building private serverless APIs with AWS Lambda and Amazon VPC Lattice by James Beswick ](https://aws.amazon.com/blogs/compute/building-private-serverless-apis-with-aws-lambda-and-amazon-vpc-lattice/)
+2. [AWS Lambda Fundamentals - AWS Lambda networking](https://www.youtube.com/watch?v=W1YZs1YEdKM)
 
-# 22. Troubleshooting
+# 23. Troubleshooting
 
 1. [AWS Lambda - Troubleshooting](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10771/aws-lambda-troubleshooting)
 2. [How to Speed Up Your AWS Lambda Functions](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/14738/how-to-speed-up-your-aws-lambda-functions)
+3. [AWS Lambda Fundamentals - AWS Lambda observability and troubleshooting](https://www.youtube.com/watch?v=K2aebIhjWj8)
+
+# 24. Tracing
+
+1. [AWS Lambda Fundamentals - AWS Lambda tracing](https://www.youtube.com/watch?v=FSE_ngsBbTE)
