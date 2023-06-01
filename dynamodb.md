@@ -34,8 +34,9 @@
   - [12.7. Near-Real-Time Event Processing](#127-near-real-time-event-processing)
   - [12.8. Handling Large Objects](#128-handling-large-objects)
   - [12.9. Building Queryable index](#129-building-queryable-index)
-  - [12.10 Counters](#1210-counters)
-- [13. Streams](#13-streams)
+  - [12.10. Counters](#1210-counters)
+- [13. DynamoDB Streams](#13-dynamodb-streams)
+  - [13.1. Tutorials](#131-tutorials)
 - [14. Transactions](#14-transactions)
 - [15. Patterns](#15-patterns)
 - [16. Performance Tuning](#16-performance-tuning)
@@ -255,13 +256,13 @@ See [workshops-backlog.md](./workshops-backlog.md)
 
 1. [Building and Maintaining an Amazon S3 Metadata Index without Servers by Mike Deck](https://aws.amazon.com/blogs/big-data/building-and-maintaining-an-amazon-s3-metadata-index-without-servers/)
 
-## 12.10 Counters
+## 12.10. Counters
 
 1. [Implementing accurate counters in DynamoDB using Python Written by Maurice Borgmeier](https://www.tecracer.com/blog/2022/04/implementing-accurate-counters-in-dynamodb-using-python.html1)
 
-# 13. Streams
+# 13. DynamoDB Streams
 
-1. [DynamoDB Streams Use Cases and Design Patterns by Gowri Balasubramanian](https://aws.amazon.com/blogs/database/dynamodb-streams-use-cases-and-design-patterns/)
+1. [[MY NEXT] DynamoDB Streams Use Cases and Design Patterns by Gowri Balasubramanian](https://aws.amazon.com/blogs/database/dynamodb-streams-use-cases-and-design-patterns/)
 2. [Use Amazon DynamoDB global tables in DynamoDB Shell by Amrith Kumar](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-global-tables-in-dynamodb-shell/)
 3. [SQL, NoSQL, and Scale: How DynamoDB scales where relational databases don't By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/)
 4. [[MY NEXT] Deep Dive into DynamoDB streams and the Lambda integration by Maurice Borgmeier](https://www.tecracer.com/blog/2022/03/deep-dive-into-dynamodb-streams-and-the-lambda-integration.html)
@@ -269,6 +270,13 @@ See [workshops-backlog.md](./workshops-backlog.md)
 6. [Automatically Archive Items to S3 Using DynamoDB Time to Live (TTL) with AWS Lambda and Amazon Kinesis Firehose by Adam Wagner](https://aws.amazon.com/blogs/database/automatically-archive-items-to-s3-using-dynamodb-time-to-live-with-aws-lambda-and-amazon-kinesis-firehose/)
 7. [[MY NEXT] Delayed processing of DynamoDB stream with EventBridge Scheduler](https://serverlessland.com/patterns/apigw-dynamodb-lambda-scheduler-sqs-cdk)
 8. [How I solved Dynamic Task Scheduling using AWS DynamoDB TTL, Stream and Lambda Mohammad Anik Islam](https://medium.com/monstar-lab-bangladesh-engineering/how-i-solved-dynamic-task-scheduling-using-aws-dynamodb-ttl-stream-and-lambda-c0da5ebd6597)
+
+## 13.1. Tutorials
+
+1. [Tutorial #1: Using filters to process all events with Amazon DynamoDB and AWS Lambda using the AWS CLI](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.Tutorial.html)
+2. [Tutorial #2: Using filters to process some events with DynamoDB and Lambda](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.Tutorial2.html)
+3. [DynamoDB Streams and Time to Live](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/time-to-live-ttl-streams.html)
+4. [Using the DynamoDB Streams Kinesis adapter to process stream records](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.KCLAdapter.html)
 
 # 14. Transactions
 
