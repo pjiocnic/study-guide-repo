@@ -10,6 +10,7 @@
 - [7. Lambda](#7-lambda)
   - [7.1. Using Java](#71-using-java)
 - [8. Kinesis](#8-kinesis)
+  - [8.1. Kinesis Firehose](#81-kinesis-firehose)
 - [9. Serverless](#9-serverless)
   - [9.1. Performance tuning](#91-performance-tuning)
 - [10. Microservices](#10-microservices)
@@ -71,6 +72,16 @@
 # 8. Kinesis
 
 1. [Real Time Streaming with Amazon Kinesis](https://catalog.us-east-1.prod.workshops.aws/workshops/2300137e-f2ac-4eb9-a4ac-3d25026b235f/en-US)
+- Produce data to Kinesis Data Streams
+- Write Data to a Kinesis Data Stream using Kinesis Data Analytics Studio Notebook
+- Lambda with Kinesis Data Firehose
+- Clean, Aggregate, and Enrich Events with Kinesis Data Analytics
+- Lambda Consumer for Kinesis Data Stream
+- Consuming with Amazon KCL
+
+## 8.1. Kinesis Firehose
+
+1. [Amazon Kinesis Data Firehose Immersion Day](https://catalog.us-east-1.prod.workshops.aws/workshops/32e6bc9a-5c03-416d-be7c-4d29f40e55c4/en-US)
 
 # 9. Serverless
 

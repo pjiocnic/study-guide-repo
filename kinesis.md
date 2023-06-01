@@ -7,6 +7,7 @@
 - [2. Core concepts](#2-core-concepts)
 - [3. Curate](#3-curate)
 - [4. Enhanced Fan-Out](#4-enhanced-fan-out)
+- [5. Tumbling Windows](#5-tumbling-windows)
 
 <!-- /TOC -->
 
@@ -32,3 +33,7 @@
 # 4. Enhanced Fan-Out
 
 1. [Amazon Kinesis Enhanced Fan-Out](https://medium.com/avmconsulting-blog/amazon-kinesis-enhanced-fan-out-4e500411a414)
+
+# 5. Tumbling Windows
+
+1. [[MY NEXT] Using AWS Lambda for streaming analytics by James Beswick ](https://aws.amazon.com/blogs/compute/using-aws-lambda-for-streaming-analytics/)
