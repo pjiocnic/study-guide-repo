@@ -55,6 +55,7 @@ https://www.epochconverter.com/weeks/2023
 - https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html
 18. PostGresSQL workshop
 19. RealPython course
+20. Read IAM book By Tamas
 
 
 # 2. In Progress

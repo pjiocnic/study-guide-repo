@@ -31,6 +31,13 @@
 - [22. Networking](#22-networking)
 - [23. Troubleshooting](#23-troubleshooting)
 - [24. Tracing](#24-tracing)
+- [25. Well Architected](#25-well-architected)
+  - [25.1. Series TOC](#251-series-toc)
+  - [25.2. Controlling serverless API access](#252-controlling-serverless-api-access)
+  - [25.3. Security](#253-security)
+  - [25.4. Service Quotas / Scaling / Concurrency](#254-service-quotas--scaling--concurrency)
+  - [25.5. Event Driven](#255-event-driven)
+  - [25.6. How to secure workloads with public endpoints](#256-how-to-secure-workloads-with-public-endpoints)
 
 <!-- /TOC -->
 
@@ -137,6 +144,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 2. [Testing Serverless Applications By Dan Fox](https://serverlessland.com/testing)
 3. [Testing Serverless Applications By Dan Fox | Serverless Office Hours](https://www.youtube.com/watch?v=8AxsqNmwAFw)
 
+
 # 18. SQS Integration
 
 1. [Handle SQS message failure in batch with partial batch response feature](https://medium.com/srcecde/handle-sqs-message-failure-in-batch-with-partial-batch-response-b858ad212573)
@@ -173,3 +181,37 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 24. Tracing
 
 1. [AWS Lambda Fundamentals - AWS Lambda tracing](https://www.youtube.com/watch?v=FSE_ngsBbTE)
+
+# 25. Well Architected
+
+## 25.1. Series TOC
+
+1. [Building well-architected serverless applications: Introduction by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-introduction/)
+
+## 25.2. Controlling serverless API access
+
+1. [Building well-architected serverless applications: Controlling serverless API access – part 1 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-1/)
+2. [Building well-architected serverless applications: Controlling serverless API access – part 2 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-2/)
+3. [Building well-architected serverless applications: Controlling serverless API access – part 3 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-3/)
+
+## 25.3. Security
+
+4. [Building well-architected serverless applications: Managing application security boundaries – part 1 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-managing-application-security-boundaries-part-1/)
+5. [Building well-architected serverless applications: Managing application security boundaries – part 2 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-managing-application-security-boundaries-part-2/)
+
+## 25.4. Service Quotas / Scaling / Concurrency
+
+1. [Operating Lambda: Application design and Service Quotas – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-and-service-quotas-part-1/)
+2. [Operating Lambda: Application design – Scaling and concurrency: Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-scaling-and-concurrency-part-2/)
+3. [Operating Lambda: Application design – Part 3 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-part-3/)
+
+## 25.5. Event Driven
+
+1. [Operating Lambda: Understanding event-driven architecture – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/)
+2. [Operating Lambda: Design principles in event-driven architectures – Part 2 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2/)
+3. [Operating Lambda: Anti-patterns in event-driven architectures – Part 3 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-anti-patterns-in-event-driven-architectures-part-3/)
+
+## 25.6. How to secure workloads with public endpoints
+
+1. [Operating Lambda: Building a solid security foundation – Part 1 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-1/)
+2. [Operating Lambda: Building a solid security foundation – Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-2/)
