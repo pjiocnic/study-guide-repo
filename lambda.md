@@ -21,13 +21,12 @@
 - [12. RDSProxy](#12-rdsproxy)
 - [13. Security](#13-security)
 - [14. Autoscaling](#14-autoscaling)
-- [15. Curate](#15-curate)
 - [16. Examples](#16-examples)
 - [17. Testing](#17-testing)
 - [18. SQS Integration](#18-sqs-integration)
 - [19. Stream Event Sources](#19-stream-event-sources)
-- [20. Curate](#20-curate)
-- [21. Spring](#21-spring)
+- [20. User Stories](#20-user-stories)
+- [21. How to use Spring with Lambda?](#21-how-to-use-spring-with-lambda)
 - [22. Networking](#22-networking)
 - [23. Troubleshooting](#23-troubleshooting)
 - [24. Tracing](#24-tracing)
@@ -38,6 +37,7 @@
   - [25.4. Service Quotas / Scaling / Concurrency](#254-service-quotas--scaling--concurrency)
   - [25.5. Event Driven](#255-event-driven)
   - [25.6. How to secure workloads with public endpoints](#256-how-to-secure-workloads-with-public-endpoints)
+  - [Serverless Lens](#serverless-lens)
 
 <!-- /TOC -->
 
@@ -124,16 +124,6 @@
 
 See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
-# 15. Curate
-
-1. [Operating Lambda: Design principles in event-driven architectures – Part 2 by James Beswick |](https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2/)
-2. [Operating Lambda: Anti-patterns in event-driven architectures – Part 3 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-anti-patterns-in-event-driven-architectures-part-3/)
-3. [Operating Lambda: Application design – Part 3 by James Beswick |](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-part-3/)
-3. https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf
-4. [Building well-architected serverless applications: Controlling serverless API access – part 1 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-1/)
-2. [Building well-architected serverless applications: Controlling serverless API access – part 2 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-2/)
-3. [Building well-architected serverless applications: Controlling serverless API access – part 3 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-3/)
-
 # 16. Examples
 1. [aws/serverless-application-model](https://github.com/aws/serverless-application-model/tree/master/examples)
 - Found this link from https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/
@@ -143,7 +133,6 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [Review of "Testing Serverless Architectures" by Yan Cui](https://www.trek10.com/blog/review-of-testing-serverless-architectures-by-yan-cui)
 2. [Testing Serverless Applications By Dan Fox](https://serverlessland.com/testing)
 3. [Testing Serverless Applications By Dan Fox | Serverless Office Hours](https://www.youtube.com/watch?v=8AxsqNmwAFw)
-
 
 # 18. SQS Integration
 
@@ -155,13 +144,11 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [SVS323-R – Mastering AWS Lambda streaming event sources](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Mastering_AWS_Lambda_streaming_event_sources_SVS323-R1.pdf)
 
-# 20. Curate
+# 20. User Stories
 
-1. [Filtering event sources for AWS Lambda functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
-- Shows how to filter messages before the invocation of a Lambda function
-2. [Building Scalable and Responsive Big Data Interfaces with AWS Lambda by FireEye](https://aws.amazon.com/blogs/big-data/building-scalable-and-responsive-big-data-interfaces-with-aws-lambda/)
+1. [Building Scalable and Responsive Big Data Interfaces with AWS Lambda by FireEye](https://aws.amazon.com/blogs/big-data/building-scalable-and-responsive-big-data-interfaces-with-aws-lambda/)
 
-# 21. Spring
+# 21. How to use Spring with Lambda?
 
 1. [AWS Lambda series by Dan Vega](https://www.youtube.com/watch?v=bxK4GscuVgs&list=PLZV0a2jwt22vS1QAp0XJsFACeLNL5oN1g)
 2. [SpringBoot on Lambda By James Eastham](https://github.com/jeastham1993/java-spring-on-lambda)
@@ -215,3 +202,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Operating Lambda: Building a solid security foundation – Part 1 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-1/)
 2. [Operating Lambda: Building a solid security foundation – Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-2/)
+
+## Serverless Lens
+
+1. https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf
