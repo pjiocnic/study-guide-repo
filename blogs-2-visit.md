@@ -3,10 +3,11 @@
 
 - [1. Various](#1-various)
 - [2. AWS Architecture](#2-aws-architecture)
-- [OpenSource Blogs](#opensource-blogs)
-- [Serverless](#serverless)
-- [DynamoDB](#dynamodb)
-- [Oracle](#oracle)
+- [3. OpenSource Blogs](#3-opensource-blogs)
+- [4. Serverless](#4-serverless)
+- [5. DynamoDB](#5-dynamodb)
+- [6. Oracle](#6-oracle)
+- [7. Architecture](#7-architecture)
 
 <!-- /TOC -->
 
@@ -31,25 +32,28 @@
 4. [Top 15 Architecture Blog Posts of 2020 by Jane Scolieri and Ellen Crowley ](https://aws.amazon.com/blogs/architecture/top-15-architecture-blog-posts-of-2020/)
 5. [Top 10 Architecture Blog Posts of 2019 by Annik Stahl](https://aws.amazon.com/blogs/architecture/top-10-architecture-blog-posts-of-2019/)
 
-
-# OpenSource Blogs
+# 3. OpenSource Blogs
 
 1. [Top Posts of 2018 by Deirdré Straughan](https://aws.amazon.com/blogs/opensource/top-posts-2018/)
 2. [Top ten AWS Open Source blog posts in 2019 by Deirdré Straughan ](https://aws.amazon.com/blogs/opensource/top-ten-aws-open-source-blog-posts-in-2019/)
     - [Running APIs Written in Java on AWS Lambda by Stefano Buliani ](https://aws.amazon.com/blogs/opensource/java-apis-aws-lambda/)
 
-# Serverless
+# 4. Serverless
 
 1. [Serverless at AWS re:Invent 2019 by George Mao](https://aws.amazon.com/blogs/architecture/serverless-at-aws-reinvent-2019/)
 2. [Top Resources for API Architects and Developers by George Mao](https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/)
 
-# DynamoDB
+# 5. DynamoDB
 
 1. [Awesome DynamoDB rerource list by Alex Debrie](https://github.com/alexdebrie/awesome-dynamodb/blob/master/README.md)
 2. [DynamoDB WhitePaper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 3. [The five most visited Amazon DynamoDB blog posts of 2022 by Darcy Jayne](https://aws.amazon.com/blogs/database/the-five-most-visited-amazon-dynamodb-blog-posts-of-2022/)
 4. [DynamoDB Blogs @ AWS](https://aws.amazon.com/blogs/database/tag/dynamodb/)
 
-# Oracle
+# 6. Oracle
 
 1. [All Things SQL](https://blogs.oracle.com/sql/)
+
+# 7. Architecture
+
+1. [Let’s Architect](https://aws.amazon.com/blogs/architecture/tag/lets-architect/)

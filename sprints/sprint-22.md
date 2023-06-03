@@ -3,6 +3,8 @@
 1. [Choosing the right number of shards for your large-scale Amazon DynamoDB table by Anuj Dewangan and Sean Shriver](https://aws.amazon.com/blogs/database/choosing-the-right-number-of-shards-for-your-large-scale-amazon-dynamodb-table)
 2. [Scaling DynamoDB: How partitions, hot keys, and split for heat impact performance (Part 1: Loading) by Jason Hunter and Vivek Natarajan](https://aws.amazon.com/blogs/database/part-1-scaling-dynamodb-how-partitions-hot-keys-and-split-for-heat-impact-performance/)
 3. [Build a near real-time data aggregation pipeline using a serverless, event-driven architecture by Lucas Rettenmeier and Kirill Bogdanov ](https://aws.amazon.com/blogs/database/build-a-near-real-time-data-aggregation-pipeline-using-a-serverless-event-driven-architecture/)
+4. [[MY NEXT] Amazon DynamoDB schema from the prism of SQL by Deep Dey](https://aws.amazon.com/blogs/database/amazon-dynamodb-schema-from-the-prism-of-sql)
+5. [[IN PROGRESS] Build a Serverless Event Driven Architecture with DynamoDB](https://amazon-dynamodb-labs.com/event-driven-architecture.html)
 
 # Lambda
 

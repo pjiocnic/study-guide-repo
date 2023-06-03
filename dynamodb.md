@@ -23,6 +23,7 @@
   - [10.4. Modeling Examples](#104-modeling-examples)
   - [10.5. Modeling Hierarchical Data Structures](#105-modeling-hierarchical-data-structures)
   - [10.6. Single Table Vs Multi-Tables](#106-single-table-vs-multi-tables)
+  - [10.7. DynamoDB schema design using SQL knowledge](#107-dynamodb-schema-design-using-sql-knowledge)
 - [11. Workshop](#11-workshop)
 - [12. UseCases](#12-usecases)
   - [12.1. Usecases from AlexDebrie's Book](#121-usecases-from-alexdebries-book)
@@ -38,6 +39,10 @@
 - [13. DynamoDB Streams](#13-dynamodb-streams)
   - [13.1. Deplayed processing](#131-deplayed-processing)
   - [13.2. Tutorials](#132-tutorials)
+  - [13.3. Replication](#133-replication)
+  - [13.4. Process DynamoDB streams using AWS Lambda](#134-process-dynamodb-streams-using-aws-lambda)
+  - [13.5. Patterns](#135-patterns)
+    - [13.5.1. How to create Fan-out Patterns](#1351-how-to-create-fan-out-patterns)
 - [14. Transactions](#14-transactions)
 - [15. Patterns](#15-patterns)
 - [16. Performance Tuning](#16-performance-tuning)
@@ -74,6 +79,7 @@
 - [35. Dynamodb User Stories](#35-dynamodb-user-stories)
 - [36. Integrations](#36-integrations)
   - [36.1. Athena](#361-athena)
+  - [36.2. Glue](#362-glue)
 
 <!-- /TOC -->
 
@@ -175,7 +181,10 @@
 3. [Alex de Brie: DynamoDB Misconceptions | Serverless Office Hours](https://www.youtube.com/watch?v=F8TYmz9fj2Y&)
 4. [Fundamentals of Amazon DynamoDB Single Table Design with Rick Houlihan](https://www.youtube.com/watch?v=KYy8X8t4MB8)
 5. [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401) By Rick Houlihan](https://www.youtube.com/watch?v=HaEPXoXVf2k)
--  https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
+    -  https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon_DynamoDB_deep_dive_Advanced_design_patterns_DAT403-R1.pdf
+6. [[MY NEXT][MUST SEE] A set of DynamoDB demo scripts and sample data that illustrate the read and write cost of various data access patterns By Rob McCauley](https://github.com/robm26/efficiencydemos)
+7. [Data Modeling with Amazon DynamoDB- AWS Database in 15 By Rob McCauley](https://www.youtube.com/watch?v=kQ-DSjtCb90)
+8. [DynamoDB Office Hours - Designing for Cost with Rob McCauley](https://www.youtube.com/watch?v=S02CRffcoX8)
 
 ## 10.1. One-to-Many
 
@@ -196,9 +205,10 @@
 3. [Build with DynamoDB | Implementing an Inventory and Orders Management Data Model (Part 1)](https://www.twitch.tv/aws/video/470816184)
 4. [[Video] Modeling a Wordpress data structures in Amazon DynamoDB with Rick Houlihan](https://www.youtube.com/watch?v=em860yYs7uw)
 5. [Modeling a movie database](https://www.youtube.com/watch?v=nhUtZ7suZWI)
-6. [Data Modeling with DynamoDB Workshop By Rob McCauley and Chad Tindel](https://www.youtube.com/watch?v=Uie7yip1yn8)
+6. [[START HERE] Data Modeling with DynamoDB Workshop By Rob McCauley and Chad Tindel](https://www.youtube.com/watch?v=Uie7yip1yn8)
     - /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/dynamodb/dynamodb-modeling-workshop/my-readme.md
     - https://github.com/robm26/modeling
+
 
 ## 10.5. Modeling Hierarchical Data Structures
 
@@ -214,6 +224,10 @@ https://www.youtube.com/watch?v=jzeKPKpucS0&t=2165s
 5. [The What, Why, and When of Single-Table Design with DynamoDB By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-single-table/)
 6. [How to use single-table DynamoDB design with GraphQL By Alex Debrie | Amazon Web Services](https://www.youtube.com/watch?v=rlypcHUlsao&t=3s)
 7. [How to use multiple DynamoDB tables with GraphQL By Alex Debrie | Amazon Web Services](https://www.youtube.com/watch?v=HSDKN43Vx7U&t=1s)
+
+## 10.7. DynamoDB schema design using SQL knowledge
+
+1. [[MY NEXT] Amazon DynamoDB schema from the prism of SQL by Deep Dey](https://aws.amazon.com/blogs/database/amazon-dynamodb-schema-from-the-prism-of-sql)
 
 # 11. Workshop
 
@@ -284,6 +298,20 @@ See [workshops-backlog.md](./workshops-backlog.md)
 3. [DynamoDB Streams and Time to Live](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/time-to-live-ttl-streams.html)
 4. [Using the DynamoDB Streams Kinesis adapter to process stream records](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.KCLAdapter.html)
 
+## 13.3. Replication
+
+1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams)
+
+## 13.4. Process DynamoDB streams using AWS Lambda
+
+1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams)
+
+## 13.5. Patterns
+
+### 13.5.1. How to create Fan-out Patterns
+
+1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams)
+
 # 14. Transactions
 
 1. [A framework for Amazon DynamoDB Transactions by Jeff Chen and Esteban Serna Parra ](https://aws.amazon.com/blogs/database/a-framework-for-amazon-dynamodb-transactions/)
@@ -299,6 +327,8 @@ See [workshops-backlog.md](./workshops-backlog.md)
 # 17. Java
 
 1. [Tuning the AWS SDK for Java to Improve Resiliency by Andrew Shore ](https://aws.amazon.com/cn/blogs/developer/tuning-the-aws-sdk-for-java-to-improve-resiliency/)
+2. [[SAMPLES] AWS Lambda Serverless CRUD API With Java](https://dev.to/aws-builders/aws-lambda-serverless-crud-api-with-java-189n)
+3. [[SAMPLES] Creating a Spring Boot application that queries Amazon DynamoDB data](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2/usecases/creating_dynamodb_web_app)
 
 # 18. DynamoDB Videos
 
@@ -496,3 +526,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [How to perform advanced analytics and build visualizations of your Amazon DynamoDB data by using Amazon Athena by Roger Dahlstrom and Ilya Epshteyn](https://aws.amazon.com/blogs/database/how-to-perform-advanced-analytics-and-build-visualizations-of-your-amazon-dynamodb-data-by-using-amazon-athena/)
 
+## 36.2. Glue
+
+1. [Simplify Amazon DynamoDB data extraction and analysis by using AWS Glue and Amazon Athena by Laith Al-Saadoon and Ghiyath Alazzah](https://aws.amazon.com/blogs/database/simplify-amazon-dynamodb-data-extraction-and-analysis-by-using-aws-glue-and-amazon-athena/)
+2. [Accelerate Amazon DynamoDB data access in AWS Glue jobs using the new AWS Glue DynamoDB Export connector by Noritaka Sekiyama, Andrew Kim, Neil Gupta, and Savio Dsouza](https://aws.amazon.com/blogs/big-data/accelerate-amazon-dynamodb-data-access-in-aws-glue-jobs-using-the-new-aws-glue-dynamodb-elt-connector/)

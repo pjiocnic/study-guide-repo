@@ -3,6 +3,7 @@
 
 - [1. Builder Pattern](#1-builder-pattern)
 - [2. Schema Validation](#2-schema-validation)
+- [3. TDD](#3-tdd)
 
 <!-- /TOC -->
 
@@ -13,3 +14,7 @@
 # 2. Schema Validation
 
 1. [JSON schema validation in Postman using external JSON files](https://medium.com/skillhive/json-schema-validation-in-postman-using-external-json-files-2f3f0741800f)
+
+# 3. TDD
+
+1. [Test-Driven Development with Java By Alan Mellor](https://learning.oreilly.com/library/view/test-driven-development-with/9781803236230/)

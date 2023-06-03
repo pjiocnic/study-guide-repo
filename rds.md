@@ -7,6 +7,7 @@
 - [3. Scaling](#3-scaling)
 - [4. Deployment - Single-AZ instance, Multi-AZ instance, or Multi-AZ](#4-deployment---single-az-instance-multi-az-instance-or-multi-az)
 - [5. Replication](#5-replication)
+- [6. CDC](#6-cdc)
 
 <!-- /TOC -->
 
@@ -28,3 +29,7 @@
 # 5. Replication
 
 1. [Best practices for Amazon RDS PostgreSQL replication by Vivek Singh ](https://aws.amazon.com/blogs/database/best-practices-for-amazon-rds-postgresql-replication/)
+
+# 6. CDC
+
+1. [[MAKE BITE-NOTES] Send Relational Database CDC Information to Kinesis Data Streams](https://www.youtube.com/watch?v=xfAJfKDwdIA)
