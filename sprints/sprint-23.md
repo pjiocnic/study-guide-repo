@@ -11,7 +11,7 @@
 
 1. [Implement serverless FIFO queues with filtering capabilities using Amazon DynamoDB transactions by Nikhil Penmetsa and Randy DeFauw](https://aws.amazon.com/blogs/database/serverless-fifo-queues-filtering-dynamodb-transactions/)
 
-# 2. Carry Overs (In Progress)
+# 2. Spring Carry Overs (In Progress)
 
 1. [Amazon DocumentDB (with MongoDB compatibility) Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/464d6c17-9faa-4fef-ac9f-dd49610174d3/en-US/prerequisites/cloud9)
 2. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
