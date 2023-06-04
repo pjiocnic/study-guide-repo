@@ -15,7 +15,8 @@
 - [12. CQRS](#12-cqrs)
 - [13. Event Sourcing](#13-event-sourcing)
 - [14. Regulating Request Rates Using Token Buckets](#14-regulating-request-rates-using-token-buckets)
-- [Real Aggregation](#real-aggregation)
+- [15. Event Aggregation in real-time](#15-event-aggregation-in-real-time)
+- [16. Task Scheduling](#16-task-scheduling)
 
 <!-- /TOC -->
 
@@ -116,8 +117,13 @@
 3. [Distributed API Rate Limiter](https://systemsdesign.cloud/SystemDesign/RateLimiter)
 4. [See System Design Interview: An Insider’s Guide @ CHAPTER 4: DESIGN A RATE LIMITER]
 
-# Real Aggregation
+# 15. Event Aggregation in real-time
 
 1. [workshop - aggregating messages](https://amazon-dynamodb-labs.com/event-driven-architecture/ex1overview/step1.html)
 2. [Build a near real-time data aggregation pipeline using a serverless, event-driven architecture by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-near-real-time-data-aggregation-pipeline-using-a-serverless-event-driven-architecture/)
-1. [Build a fault-tolerant, serverless data aggregation pipeline with exactly-once processing by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-fault-tolerant-serverless-data-aggregation-pipeline-with-exactly-once-processing/)
+3. [Build a fault-tolerant, serverless data aggregation pipeline with exactly-once processing by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-fault-tolerant-serverless-data-aggregation-pipeline-with-exactly-once-processing/)
+4. [Moving to event-driven architectures with serverless event aggregators by Semih Duru and Marco Sommella ](https://aws.amazon.com/blogs/mt/moving-to-event-driven-architectures-with-serverless-event-aggregators/)
+
+# 16. Task Scheduling
+
+1. [Serverless Scheduling with Amazon EventBridge, AWS Lambda, and Amazon DynamoDB by Peter Grman](https://aws.amazon.com/blogs/architecture/serverless-scheduling-with-amazon-eventbridge-aws-lambda-and-amazon-dynamodb/)

@@ -5,6 +5,11 @@
 - [1. Networking](#1-networking)
 - [2. Observability](#2-observability)
 - [3. Kubernetes on AWS](#3-kubernetes-on-aws)
+- [4. EKS with Spinnaker](#4-eks-with-spinnaker)
+- [5. Kustomize with Spinnaker](#5-kustomize-with-spinnaker)
+- [6. CI/CD](#6-cicd)
+- [7. Terraform + EKS](#7-terraform--eks)
+- [8. SQS + EKS](#8-sqs--eks)
 
 <!-- /TOC -->
 
@@ -20,3 +25,20 @@
 # 3. Kubernetes on AWS
 
 1. [12 steps to setup Kubernetes Cluster on AWS EC2](https://www.golinuxcloud.com/setup-kubernetes-cluster-on-aws-ec2/)
+
+# 4. EKS with Spinnaker
+
+1. [Configure Continuous Deployment Using Kustomize Components and Spinnaker Operator in Amazon EKS by Praseeda Sathaye, Fernando Freire, and Puneet Singh](https://aws.amazon.com/blogs/opensource/configure-continuous-deployment-using-kustomize-components-and-spinnaker-operator-in-amazon-eks/)
+
+# 5. Kustomize with Spinnaker
+
+1. [Configure Continuous Deployment Using Kustomize Components and Spinnaker Operator in Amazon EKS by Praseeda Sathaye, Fernando Freire, and Puneet Singh](https://aws.amazon.com/blogs/opensource/configure-continuous-deployment-using-kustomize-components-and-spinnaker-operator-in-amazon-eks/)
+
+# 6. CI/CD
+
+1. [Configure Continuous Deployment Using Kustomize Components and Spinnaker Operator in Amazon EKS by Praseeda Sathaye, Fernando Freire, and Puneet Singh](https://aws.amazon.com/blogs/opensource/configure-continuous-deployment-using-kustomize-components-and-spinnaker-operator-in-amazon-eks/)
+
+# 7. Terraform + EKS
+
+1. [Amazon EKS Blueprints for Terraform](https://aws-ia.github.io/terraform-aws-eks-blueprints/v4.1.0/)
+

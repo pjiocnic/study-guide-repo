@@ -7,3 +7,9 @@
 # cloudwatch
 
 1. [The Serverless Guide to AWS CloudWatch Logs Insights](https://baselime.io/blog/cloudwatch-insights-guide)
+
+011919916054940
+
+Is this a relapse?
+How can I get a scan image?
+How quickly this needs to be done?

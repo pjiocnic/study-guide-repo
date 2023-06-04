@@ -56,7 +56,8 @@ https://www.epochconverter.com/weeks/2023
 18. PostGresSQL workshop
 19. RealPython course
 20. Read IAM book By Tamas
-
+21. Troubleshooting Lambda using cloudwatch metrics (see Skillbuilder courses)
+22. Troubleshooting DynamoDB using cloudwatch metrics (see Skillbuilder courses)
 
 # 2. In Progress
 
