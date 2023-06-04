@@ -4,6 +4,8 @@
 - [1. Testing](#1-testing)
 - [2. VSCode](#2-vscode)
 - [3. Loading JSON file](#3-loading-json-file)
+- [Design Patterns](#design-patterns)
+- [Interview](#interview)
 
 <!-- /TOC -->
 
@@ -21,3 +23,11 @@
 
 1. [Load Spring Boot Properties From a JSON File](https://www.baeldung.com/spring-boot-json-properties)
 2. [HOW TO READ JSON DATA IN SPRING BOOT AND WRITE TO A DATABASE](https://www.danvega.dev/blog/2017/07/05/read-json-data-spring-boot-write-database/)
+
+# Design Patterns
+
+1. [Overview and Need for DelegatingFilterProxy in Spring](https://www.baeldung.com/spring-delegating-filter-proxy)
+
+# Interview
+
+1. [Top 20 Spring Framework and Spring Boot Scenario based Questions for Java Developers](https://medium.com/javarevisited/top-20-spring-framework-and-spring-boot-scenario-based-questions-for-java-developers-d84c440864bf)
