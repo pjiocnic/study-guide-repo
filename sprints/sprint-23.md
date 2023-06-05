@@ -2,7 +2,6 @@
 
 1. Document the cloudformation used in `/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/event-bridge/scheduling/resources/scheduler-eb-dbb-template.yaml`.  Document in folder `/Volumes/Lexar/git-repos/aws-repo/my-aws-cookbook/cloudformation/templates/`
 
-
 # Parked
 
 1. [Developing evolutionary architecture with AWS Lambda by James Beswick](https://aws.amazon.com/blogs/compute/developing-evolutionary-architecture-with-aws-lambda/)
@@ -23,3 +22,7 @@
 2. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
 3. [AWS re:Invent 2022 - Building Serverlesspresso: Creating event-driven architectures (SVS312)](https://www.youtube.com/watch?v=qs0U0LdNkV0&list=PLJo-rJlep0ECijHdz01OZXo3bqhbW_Hb2&index=3&t=67s)
 4. [AWS re:Invent 2022 - Advanced serverless workflow patterns and best practices (API309)](https://www.youtube.com/watch?v=o6-7BAUWaqg)
+
+# EventBridge Pipes
+
+1. [New — Create Point-to-Point Integrations Between Event Producers and Consumers with Amazon EventBridge Pipes by Donnie Prakoso](https://aws.amazon.com/blogs/aws/new-create-point-to-point-integrations-between-event-producers-and-consumers-with-amazon-eventbridge-pipes/)
