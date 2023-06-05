@@ -4,6 +4,7 @@
 - [1. Schema validation](#1-schema-validation)
 - [2. Scheduling](#2-scheduling)
 - [3. EventBridge Pipes](#3-eventbridge-pipes)
+- [4. Integration](#4-integration)
 
 <!-- /TOC -->
 
@@ -25,3 +26,7 @@
 
 1. [New — Create Point-to-Point Integrations Between Event Producers and Consumers with Amazon EventBridge Pipes by Donnie Prakoso](https://aws.amazon.com/blogs/aws/new-create-point-to-point-integrations-between-event-producers-and-consumers-with-amazon-eventbridge-pipes/)
 2. [Implementing architectural patterns with Amazon EventBridge Pipes by David Boyne](https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/)
+
+# 4. Integration
+
+1. [Build a serverless event-driven workflow with AWS Glue and Amazon EventBridge by Noritaka Sekiyama, Keerthi Chadalavada, and Karan Vishwanathan](https://aws.amazon.com/blogs/big-data/build-a-serverless-event-driven-workflow-with-aws-glue-and-amazon-eventbridge/)
