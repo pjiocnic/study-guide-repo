@@ -5,6 +5,7 @@
 - [2. Scheduling](#2-scheduling)
 - [3. EventBridge Pipes](#3-eventbridge-pipes)
 - [4. Integration](#4-integration)
+  - [4.1. Glue](#41-glue)
 
 <!-- /TOC -->
 
@@ -28,5 +29,7 @@
 2. [Implementing architectural patterns with Amazon EventBridge Pipes by David Boyne](https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/)
 
 # 4. Integration
+
+## 4.1. Glue
 
 1. [Build a serverless event-driven workflow with AWS Glue and Amazon EventBridge by Noritaka Sekiyama, Keerthi Chadalavada, and Karan Vishwanathan](https://aws.amazon.com/blogs/big-data/build-a-serverless-event-driven-workflow-with-aws-glue-and-amazon-eventbridge/)
