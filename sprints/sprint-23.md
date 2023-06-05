@@ -1,6 +1,7 @@
 <h1>Sprint 23 - Jun 5, 2023 - Jun 11, 2023: DynamoDB Focus</h1>
 
 1. Document the cloudformation used in `/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/event-bridge/scheduling/resources/scheduler-eb-dbb-template.yaml`.  Document in folder `/Volumes/Lexar/git-repos/aws-repo/my-aws-cookbook/cloudformation/templates/`
+2. Do a bit-sized notes for /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/event-bridge/scheduling
 
 # Parked
 
