@@ -92,7 +92,7 @@
   - [40.3. FireHose](#403-firehose)
   - [40.4. S3](#404-s3)
   - [40.5. OpenSearch](#405-opensearch)
-- [CLI](#cli)
+- [41. CLI](#41-cli)
 
 <!-- /TOC -->
 
@@ -610,6 +610,6 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Indexing Amazon DynamoDB Content with Amazon Elasticsearch Service Using AWS Lambda by Bryan Liston ](https://aws.amazon.com/blogs/compute/indexing-amazon-dynamodb-content-with-amazon-elasticsearch-service-using-aws-lambda/)
 
-# CLI
+# 41. CLI
 
 1. [DynamoDB CLI Commands & Query Examples Cheat Sheet By Dynobase](https://dynobase.dev/dynamodb-cli-query-examples/)

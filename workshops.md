@@ -18,6 +18,7 @@
 - [12. Curate](#12-curate)
 - [13. Cloudwatch](#13-cloudwatch)
 - [14. IAM](#14-iam)
+- [15. Well Architected](#15-well-architected)
 
 <!-- /TOC -->
 
@@ -142,3 +143,7 @@
 2. [IAM Hands-On Lab](https://catalog.us-east-1.prod.workshops.aws/workshops/8efd4edb-2b91-49fd-b1b8-3e3b5e71aa03/en-US/iam)
 3. [Builder Sessions ](https://awssecworkshops.com/builder-sessions/)
 4. [Security Workshops](https://awssecworkshops.com/workshops/)
+
+# 15. Well Architected
+
+1. [AWS Well-Architected Labs](https://www.wellarchitectedlabs.com/)
