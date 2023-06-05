@@ -8,39 +8,40 @@
 - [4. Costs](#4-costs)
 - [5. CI/CD](#5-cicd)
 - [6. Development](#6-development)
-- [7. SAM](#7-sam)
-- [8. Event Source Mapping](#8-event-source-mapping)
-  - [8.1. Filtering](#81-filtering)
-  - [8.2. Concurrency](#82-concurrency)
-    - [8.2.1. Concurrency Controls and Quotas](#821-concurrency-controls-and-quotas)
-    - [8.2.2. Max Concurrency](#822-max-concurrency)
-  - [8.3. FIFO SQS as Event Source](#83-fifo-sqs-as-event-source)
-- [9. Invocation Models](#9-invocation-models)
-- [10. Error Handling](#10-error-handling)
-- [11. Comparison between REST and GraphQL API architectures](#11-comparison-between-rest-and-graphql-api-architectures)
-- [12. RDSProxy](#12-rdsproxy)
-- [13. Security](#13-security)
-  - [13.1. Securiy Lambda Using Resource Policy / ExecutionRole](#131-securiy-lambda-using-resource-policy--executionrole)
-  - [13.2. Lambda Authorizers](#132-lambda-authorizers)
-  - [13.3. Using Cognito to secure Lambda's function URL](#133-using-cognito-to-secure-lambdas-function-url)
-- [14. Autoscaling](#14-autoscaling)
-- [15. Examples](#15-examples)
-- [16. Testing](#16-testing)
-- [17. SQS Integration](#17-sqs-integration)
-- [18. Stream Event Sources](#18-stream-event-sources)
-- [19. User Stories](#19-user-stories)
-- [20. How to use Spring with Lambda?](#20-how-to-use-spring-with-lambda)
-- [21. Networking](#21-networking)
-- [22. Troubleshooting](#22-troubleshooting)
-- [23. Tracing](#23-tracing)
-- [24. Well Architected](#24-well-architected)
-  - [24.1. Series TOC](#241-series-toc)
-  - [24.2. Controlling serverless API access](#242-controlling-serverless-api-access)
-  - [24.3. Security](#243-security)
-  - [24.4. Service Quotas / Scaling / Concurrency](#244-service-quotas--scaling--concurrency)
-  - [24.5. Event Driven](#245-event-driven)
-  - [24.6. How to secure workloads with public endpoints](#246-how-to-secure-workloads-with-public-endpoints)
-  - [24.7. Serverless Lens](#247-serverless-lens)
+  - [6.1. Java](#61-java)
+  - [6.2. SAM](#62-sam)
+- [7. Event Source Mapping](#7-event-source-mapping)
+  - [7.1. Filtering](#71-filtering)
+  - [7.2. Concurrency](#72-concurrency)
+    - [7.2.1. Concurrency Controls and Quotas](#721-concurrency-controls-and-quotas)
+    - [7.2.2. Max Concurrency](#722-max-concurrency)
+  - [7.3. FIFO SQS as Event Source](#73-fifo-sqs-as-event-source)
+- [8. Invocation Models](#8-invocation-models)
+- [9. Error Handling](#9-error-handling)
+- [10. Comparison between REST and GraphQL API architectures](#10-comparison-between-rest-and-graphql-api-architectures)
+- [11. RDSProxy](#11-rdsproxy)
+- [12. Security](#12-security)
+  - [12.1. Securiy Lambda Using Resource Policy / ExecutionRole](#121-securiy-lambda-using-resource-policy--executionrole)
+  - [12.2. Lambda Authorizers](#122-lambda-authorizers)
+  - [12.3. Using Cognito to secure Lambda's function URL](#123-using-cognito-to-secure-lambdas-function-url)
+- [13. Autoscaling](#13-autoscaling)
+- [14. Examples](#14-examples)
+- [15. Testing](#15-testing)
+- [16. SQS Integration](#16-sqs-integration)
+- [17. Stream Event Sources](#17-stream-event-sources)
+- [18. User Stories](#18-user-stories)
+- [19. How to use Spring with Lambda?](#19-how-to-use-spring-with-lambda)
+- [20. Networking](#20-networking)
+- [21. Troubleshooting](#21-troubleshooting)
+- [22. Tracing](#22-tracing)
+- [23. Well Architected](#23-well-architected)
+  - [23.1. Series TOC](#231-series-toc)
+  - [23.2. Controlling serverless API access](#232-controlling-serverless-api-access)
+  - [23.3. Security](#233-security)
+  - [23.4. Service Quotas / Scaling / Concurrency](#234-service-quotas--scaling--concurrency)
+  - [23.5. Event Driven](#235-event-driven)
+  - [23.6. How to secure workloads with public endpoints](#236-how-to-secure-workloads-with-public-endpoints)
+  - [23.7. Serverless Lens](#237-serverless-lens)
 
 <!-- /TOC -->
 
@@ -72,151 +73,156 @@
 1. [Developing evolutionary architecture with AWS Lambda by Luca Mezzalira](https://aws.amazon.com/blogs/compute/developing-evolutionary-architecture-with-aws-lambda/)
 2.  [Issues to Avoid When Implementing Serverless Architecture with AWS Lambda by Andrei Maksimov](https://aws.amazon.com/blogs/architecture/mistakes-to-avoid-when-implementing-serverless-architecture-with-lambda/)
 
-# 7. SAM
+## 6.1. Java
+
+1. [Bootstrapping a Java Lambda application with minimal AWS Java SDK startup time using Maven by Zoe Wang ](https://aws.amazon.com/blogs/developer/bootstrapping-a-java-lambda-application-with-minimal-aws-java-sdk-startup-time-using-maven/)
+- shows how to create maven archetypes
+
+## 6.2. SAM
 
 1. [[MY NEXT] Building serverless Java applications with the AWS SAM CLI by James Beswick](https://aws.amazon.com/blogs/compute/building-serverless-java-applications-with-the-aws-sam-cli/)
     - [Building Java apps with SAM | Serverless Office Hours](https://www.youtube.com/watch?v=c7_gGalsIyE)
 
-# 8. Event Source Mapping
+# 7. Event Source Mapping
 
-## 8.1. Filtering
+## 7.1. Filtering
 
 1. [Understanding Amazon SQS and AWS Lambda Event Source Mapping for Efficient Message Processing by Tushar Sharma and Shaun Wang](https://aws.amazon.com/blogs/apn/understanding-amazon-sqs-and-aws-lambda-event-source-mapping-for-efficient-message-processing/)
 2. [Filtering event sources for AWS Lambda functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
 - Show how to filter messages before the invocation of a Lambda function
 
-## 8.2. Concurrency
+## 7.2. Concurrency
 
-### 8.2.1. Concurrency Controls and Quotas
+### 7.2.1. Concurrency Controls and Quotas
 
 1. [AWS Lambda Fundamentals - AWS Lambda concurrency controls and quotas](https://www.youtube.com/watch?v=5XRBZNPy6Ng)
 
-### 8.2.2. Max Concurrency
+### 7.2.2. Max Concurrency
 
 1. [Does Maximum Concurrency Solve the Lambda+SQS Issue?](https://zaccharles.medium.com/does-maximum-concurrency-solve-the-lambda-sqs-issue-3c19701e6e75)
 
-## 8.3. FIFO SQS as Event Source
+## 7.3. FIFO SQS as Event Source
 
 1. [New for AWS Lambda – SQS FIFO as an event source by James Beswick ](https://aws.amazon.com/blogs/compute/new-for-aws-lambda-sqs-fifo-as-an-event-source/)
 
-# 9. Invocation Models
+# 8. Invocation Models
 
 1. [How to Design Your Serverless Apps for Massive Scale by George Mao](https://aws.amazon.com/blogs/architecture/how-to-design-your-serverless-apps-for-massive-scale/)
 1. [[MY NEXT] Understanding the Different Ways to Invoke Lambda Functions by George Mao](https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions/)
 3. [Best Practices for Developing on AWS Lambda by George Mao](https://aws.amazon.com/blogs/architecture/best-practices-for-developing-on-aws-lambda/)
 4. [AWS Lambda Fundamentals - AWS Lambda invocation models](https://www.youtube.com/watch?v=8K3_w3QyN6M)
 
-# 10. Error Handling
+# 9. Error Handling
 
 1. [Implementing error handling for AWS Lambda asynchronous invocations By Poornima Chand](https://aws.amazon.com/blogs/compute/implementing-error-handling-for-aws-lambda-asynchronous-invocations/)
 
-# 11. Comparison between REST and GraphQL API architectures
+# 10. Comparison between REST and GraphQL API architectures
 
 1. [[MY NEXT] How to Architect APIs for Scale and Security by George Mao](https://aws.amazon.com/blogs/architecture/how-to-architect-apis-for-scale-and-security/)
 
-# 12. RDSProxy
+# 11. RDSProxy
 
 1. [Using Amazon RDS Proxy with AWS Lambda by George Mao](https://aws.amazon.com/blogs/compute/using-amazon-rds-proxy-with-aws-lambda/)
 
-# 13. Security
+# 12. Security
 
-## 13.1. Securiy Lambda Using Resource Policy / ExecutionRole
+## 12.1. Securiy Lambda Using Resource Policy / ExecutionRole
 
 1. [Operating Lambda: Building a solid security foundation – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-1/)
 2. [AWS Lambda Fundamentals - AWS Lambda function permissions](https://www.youtube.com/watch?v=6oG9O44U9x0)
 
-## 13.2. Lambda Authorizers
+## 12.2. Lambda Authorizers
 
 1. [Use AWS Lambda authorizers with a third-party identity provider to secure Amazon API Gateway REST APIs by Bryant Bost ](https://aws.amazon.com/blogs/security/use-aws-lambda-authorizers-with-a-third-party-identity-provider-to-secure-amazon-api-gateway-rest-apis/)
 2. [How to secure API Gateway HTTP endpoints with JWT authorizer by Siva Rajamani, Rajat Mathur, and Sudhanshu Malhotra](https://aws.amazon.com/blogs/security/how-to-secure-api-gateway-http-endpoints-with-jwt-authorizer/)
 
-## 13.3. Using Cognito to secure Lambda's function URL
+## 12.3. Using Cognito to secure Lambda's function URL
 
 1. [Securing Lambda Function URLs using Amazon Cognito, Amazon CloudFront and AWS WAF by Marcia Villalba](https://aws.amazon.com/blogs/compute/securing-lambda-function-urls-using-amazon-cognito-amazon-cloudfront-and-aws-waf/)
 
-# 14. Autoscaling
+# 13. Autoscaling
 
 See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
-# 15. Examples
+# 14. Examples
 1. [aws/serverless-application-model](https://github.com/aws/serverless-application-model/tree/master/examples)
 - Found this link from https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/
 
-# 16. Testing
+# 15. Testing
 
 1. [Review of "Testing Serverless Architectures" by Yan Cui](https://www.trek10.com/blog/review-of-testing-serverless-architectures-by-yan-cui)
 2. [Testing Serverless Applications By Dan Fox](https://serverlessland.com/testing)
 3. [Testing Serverless Applications By Dan Fox | Serverless Office Hours](https://www.youtube.com/watch?v=8AxsqNmwAFw)
 
-# 17. SQS Integration
+# 16. SQS Integration
 
 1. [Handle SQS message failure in batch with partial batch response feature](https://medium.com/srcecde/handle-sqs-message-failure-in-batch-with-partial-batch-response-b858ad212573)
 2. [Lambda + SQS Users Should Know About This](https://www.youtube.com/watch?v=0707Py8Jyf0)
 3. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://repost.aws/knowledge-center/lambda-sqs-scaling)
 
-# 18. Stream Event Sources
+# 17. Stream Event Sources
 
 1. [SVS323-R – Mastering AWS Lambda streaming event sources](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Mastering_AWS_Lambda_streaming_event_sources_SVS323-R1.pdf)
 
-# 19. User Stories
+# 18. User Stories
 
 1. [Building Scalable and Responsive Big Data Interfaces with AWS Lambda by FireEye](https://aws.amazon.com/blogs/big-data/building-scalable-and-responsive-big-data-interfaces-with-aws-lambda/)
 
-# 20. How to use Spring with Lambda?
+# 19. How to use Spring with Lambda?
 
 1. [AWS Lambda series by Dan Vega](https://www.youtube.com/watch?v=bxK4GscuVgs&list=PLZV0a2jwt22vS1QAp0XJsFACeLNL5oN1g)
 2. [SpringBoot on Lambda By James Eastham](https://github.com/jeastham1993/java-spring-on-lambda)
 - https://www.youtube.com/watch?v=eierYzOAyg8
 
-# 21. Networking
+# 20. Networking
 
 1. [Building private serverless APIs with AWS Lambda and Amazon VPC Lattice by James Beswick ](https://aws.amazon.com/blogs/compute/building-private-serverless-apis-with-aws-lambda-and-amazon-vpc-lattice/)
 2. [AWS Lambda Fundamentals - AWS Lambda networking](https://www.youtube.com/watch?v=W1YZs1YEdKM)
 
-# 22. Troubleshooting
+# 21. Troubleshooting
 
 1. [AWS Lambda - Troubleshooting](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10771/aws-lambda-troubleshooting)
 2. [How to Speed Up Your AWS Lambda Functions](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/14738/how-to-speed-up-your-aws-lambda-functions)
 3. [AWS Lambda Fundamentals - AWS Lambda observability and troubleshooting](https://www.youtube.com/watch?v=K2aebIhjWj8)
 
-# 23. Tracing
+# 22. Tracing
 
 1. [AWS Lambda Fundamentals - AWS Lambda tracing](https://www.youtube.com/watch?v=FSE_ngsBbTE)
 
-# 24. Well Architected
+# 23. Well Architected
 
-## 24.1. Series TOC
+## 23.1. Series TOC
 
 1. [Building well-architected serverless applications: Introduction by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-introduction/)
 
-## 24.2. Controlling serverless API access
+## 23.2. Controlling serverless API access
 
 1. [Building well-architected serverless applications: Controlling serverless API access – part 1 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-1/)
 2. [Building well-architected serverless applications: Controlling serverless API access – part 2 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-2/)
 3. [Building well-architected serverless applications: Controlling serverless API access – part 3 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-3/)
 
-## 24.3. Security
+## 23.3. Security
 
 4. [Building well-architected serverless applications: Managing application security boundaries – part 1 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-managing-application-security-boundaries-part-1/)
 5. [Building well-architected serverless applications: Managing application security boundaries – part 2 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-managing-application-security-boundaries-part-2/)
 
-## 24.4. Service Quotas / Scaling / Concurrency
+## 23.4. Service Quotas / Scaling / Concurrency
 
 1. [Operating Lambda: Application design and Service Quotas – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-and-service-quotas-part-1/)
 2. [Operating Lambda: Application design – Scaling and concurrency: Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-scaling-and-concurrency-part-2/)
 3. [Operating Lambda: Application design – Part 3 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-part-3/)
 
-## 24.5. Event Driven
+## 23.5. Event Driven
 
 1. [Operating Lambda: Understanding event-driven architecture – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/)
 2. [Operating Lambda: Design principles in event-driven architectures – Part 2 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2/)
 3. [Operating Lambda: Anti-patterns in event-driven architectures – Part 3 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-anti-patterns-in-event-driven-architectures-part-3/)
 
-## 24.6. How to secure workloads with public endpoints
+## 23.6. How to secure workloads with public endpoints
 
 1. [Operating Lambda: Building a solid security foundation – Part 1 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-1/)
 2. [Operating Lambda: Building a solid security foundation – Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-2/)
 
-## 24.7. Serverless Lens
+## 23.7. Serverless Lens
 
 1. https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf

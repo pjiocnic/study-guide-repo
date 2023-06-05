@@ -46,9 +46,10 @@
   - [17.2. Tutorials](#172-tutorials)
   - [17.3. Replication](#173-replication)
   - [17.4. Process DynamoDB streams using AWS Lambda](#174-process-dynamodb-streams-using-aws-lambda)
-  - [17.5. Patterns](#175-patterns)
-    - [17.5.1. How to create Fan-out Patterns](#1751-how-to-create-fan-out-patterns)
-  - [17.6. Event Aggregation](#176-event-aggregation)
+  - [17.5. Triggers](#175-triggers)
+  - [17.6. Patterns](#176-patterns)
+    - [17.6.1. How to create Fan-out Patterns](#1761-how-to-create-fan-out-patterns)
+  - [17.7. Event Aggregation](#177-event-aggregation)
 - [18. Transactions](#18-transactions)
 - [19. Patterns](#19-patterns)
 - [20. Performance Tuning](#20-performance-tuning)
@@ -76,7 +77,9 @@
 - [31. IAM](#31-iam)
 - [32. How to Backup DynamoDB Tables](#32-how-to-backup-dynamodb-tables)
   - [32.1. Backup using AWS Backup](#321-backup-using-aws-backup)
-- [33. How to Bulk Import data into DynamoDB Tables](#33-how-to-bulk-import-data-into-dynamodb-tables)
+- [33. Bulk work on DynamoDB Tables](#33-bulk-work-on-dynamodb-tables)
+  - [33.1. How to do Bulk Import data into DynamoDB Tables](#331-how-to-do-bulk-import-data-into-dynamodb-tables)
+  - [33.2. How to do Bulk updates on DynamoDB Tables](#332-how-to-do-bulk-updates-on-dynamodb-tables)
 - [34. Under The Hood](#34-under-the-hood)
 - [35. Monitoring Using Cloud Watch Metrics](#35-monitoring-using-cloud-watch-metrics)
 - [36. TroubleShooting](#36-troubleshooting)
@@ -88,6 +91,7 @@
   - [40.2. Glue](#402-glue)
   - [40.3. FireHose](#403-firehose)
   - [40.4. S3](#404-s3)
+  - [40.5. OpenSearch](#405-opensearch)
 
 <!-- /TOC -->
 
@@ -353,13 +357,17 @@ See [workshops-backlog.md](./workshops-backlog.md)
 2. [[MY NEXT] Deep Dive into DynamoDB streams and the Lambda integration by Maurice Borgmeier](https://www.tecracer.com/blog/2022/03/deep-dive-into-dynamodb-streams-and-the-lambda-integration.html)
 3. [Automatically Archive Items to S3 Using DynamoDB Time to Live (TTL) with AWS Lambda and Amazon Kinesis Firehose by Adam Wagner](https://aws.amazon.com/blogs/database/automatically-archive-items-to-s3-using-dynamodb-time-to-live-with-aws-lambda-and-amazon-kinesis-firehose/)
 
-## 17.5. Patterns
+## 17.5. Triggers
 
-### 17.5.1. How to create Fan-out Patterns
+1. [Building NoSQL Database Triggers with Amazon DynamoDB and AWS Lambda by Tim Wagner](https://aws.amazon.com/blogs/compute/619/)
+
+## 17.6. Patterns
+
+### 17.6.1. How to create Fan-out Patterns
 
 1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams)
 
-## 17.6. Event Aggregation
+## 17.7. Event Aggregation
 
 1. [Moving to event-driven architectures with serverless event aggregators by Semih Duru and Marco Sommella](https://aws.amazon.com/blogs/mt/moving-to-event-driven-architectures-with-serverless-event-aggregators/)
 
@@ -380,6 +388,7 @@ See [workshops-backlog.md](./workshops-backlog.md)
 1. [Tuning the AWS SDK for Java to Improve Resiliency by Andrew Shore ](https://aws.amazon.com/cn/blogs/developer/tuning-the-aws-sdk-for-java-to-improve-resiliency/)
 2. [[SAMPLES] AWS Lambda Serverless CRUD API With Java](https://dev.to/aws-builders/aws-lambda-serverless-crud-api-with-java-189n)
 3. [[SAMPLES] Creating a Spring Boot application that queries Amazon DynamoDB data](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2/usecases/creating_dynamodb_web_app)
+4. [Using atomic counters in the Enhanced DynamoDB AWS SDK for Java 2.x client by Anna-Karin Salander](https://aws.amazon.com/blogs/developer/using-atomic-counters-in-the-enhanced-dynamodb-aws-sdk-for-java-2-x-client/)
 
 # 22. DynamoDB Videos
 
@@ -524,9 +533,15 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [Set up scheduled backups for Amazon DynamoDB using AWS Backup by Dhiraj Thakur](https://aws.amazon.com/blogs/database/set-up-scheduled-backups-for-amazon-dynamodb-using-aws-backup/)
 - Provides a CFN
 
-# 33. How to Bulk Import data into DynamoDB Tables
+# 33. Bulk work on DynamoDB Tables
+
+## 33.1. How to do Bulk Import data into DynamoDB Tables
 
 1. [Amazon DynamoDB can now import Amazon S3 data into a new table by Robert McCauley and Aman Dhingra](https://aws.amazon.com/blogs/database/amazon-dynamodb-can-now-import-amazon-s3-data-into-a-new-table/)
+
+## 33.2. How to do Bulk updates on DynamoDB Tables
+
+2. [Cost-effective bulk processing with Amazon DynamoDB by Jason Hunter](https://aws.amazon.com/blogs/database/cost-effective-bulk-processing-with-amazon-dynamodb)
 
 # 34. Under The Hood
 
@@ -589,3 +604,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 ## 40.4. S3
 
 1. [Automatically Archive Items to S3 Using DynamoDB Time to Live (TTL) with AWS Lambda and Amazon Kinesis Firehose by Adam Wagner](https://aws.amazon.com/blogs/database/automatically-archive-items-to-s3-using-dynamodb-time-to-live-with-aws-lambda-and-amazon-kinesis-firehose/)
+
+## 40.5. OpenSearch
+
+1. [Indexing Amazon DynamoDB Content with Amazon Elasticsearch Service Using AWS Lambda by Bryan Liston ](https://aws.amazon.com/blogs/compute/indexing-amazon-dynamodb-content-with-amazon-elasticsearch-service-using-aws-lambda/)

@@ -1,0 +1,2 @@
+1. [The Serverless Guide to AWS CloudWatch Logs Insights](https://baselime.io/blog/cloudwatch-insights-guide)
+2. [Writing Custom Metrics to Amazon CloudWatch Using the AWS SDK for Java by Sascha Moellering](https://aws.amazon.com/blogs/developer/writing-custom-metrics-to-amazon-cloudwatch-using-the-aws-sdk-for-java/)
