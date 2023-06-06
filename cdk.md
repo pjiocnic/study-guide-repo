@@ -12,3 +12,7 @@
 # 3. Java
 
 1. [The Java Workshop for CDK](https://cdkworkshop.com/50-java.html)
+
+# Curate
+
+1. [AWS CDK Workshop - From Zero to Hero Part I By Cloudvisor](https://www.youtube.com/watch?v=ubhnzRI_FMs)
