@@ -586,6 +586,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [What I’ve Learned From Using AWS DynamoDB in Production for More Than 3 Years](https://awstip.com/what-ive-learned-from-using-aws-dynamodb-in-production-for-more-than-3-years-49a077886b5c)
 - Has tips suitable for exam preparation
+2. [How Twilio modernized its Messaging Postflight service data store with Amazon DynamoDB by ND Ngoka, Vijay Bhat, Greg Krumm, and Nikolai Kolesnikov](https://aws.amazon.com/blogs/database/how-twilio-modernized-its-messaging-postflight-service-data-store-with-amazon-dynamodb/)
 
 # 40. Integrations
 
