@@ -93,6 +93,7 @@
   - [40.4. S3](#404-s3)
   - [40.5. OpenSearch](#405-opensearch)
 - [41. CLI](#41-cli)
+- [42. Make Notes](#42-make-notes)
 
 <!-- /TOC -->
 
@@ -614,3 +615,10 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 41. CLI
 
 1. [DynamoDB CLI Commands & Query Examples Cheat Sheet By Dynobase](https://dynobase.dev/dynamodb-cli-query-examples/)
+
+# 42. Make Notes
+
+1. [DynamoDB: Its purpose, main features, and key concepts | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=ummOosOW4lE)
+ - DynamoDB: Under the hood, managing throughput, advanced design patterns | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=0iGR8GnIItQ)
+1. [[Tuning] Scaling DynamoDB: How partitions, hot keys, and split for heat impact performance (Part 3: Summary and best practices) by Jason Hunter and Vivek Natarajan |](https://aws.amazon.com/blogs/database/part-3-scaling-dynamodb-how-partitions-hot-keys-and-split-for-heat-impact-performance/)
+- Deciding ideal RCU/WCUs?

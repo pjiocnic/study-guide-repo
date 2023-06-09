@@ -3,11 +3,13 @@
 1. Document the cloudformation used in `/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/event-bridge/scheduling/resources/scheduler-eb-dbb-template.yaml`.  Document in folder `/Volumes/Lexar/git-repos/aws-repo/my-aws-cookbook/cloudformation/templates/`
 2. Do a bit-sized notes for /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/event-bridge/scheduling
 
+
 # Parked
 
 1. [Developing evolutionary architecture with AWS Lambda by James Beswick](https://aws.amazon.com/blogs/compute/developing-evolutionary-architecture-with-aws-lambda/)
 - Make notes here /Volumes/Lexar/git-repos/aws-repo/my-aws-cookbook/lambda/my-lambda-notes.md
 2. [AWS re:Invent 2022 - Application networking foundations (NET204)](https://www.youtube.com/watch?v=WcZwWuq6FTk&t=10s)
+3. [AWS CDK Advanced Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/d93fec4c-fb0f-4813-ac90-758cb5527f2f/en-US)
 
 # Priority Queues
 
