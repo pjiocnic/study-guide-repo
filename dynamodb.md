@@ -92,6 +92,7 @@
   - [40.3. FireHose](#403-firehose)
   - [40.4. S3](#404-s3)
   - [40.5. OpenSearch](#405-opensearch)
+  - [40.6. Kinesis](#406-kinesis)
 - [41. CLI](#41-cli)
 - [42. Make Notes](#42-make-notes)
 
@@ -337,6 +338,7 @@ See [workshops-backlog.md](./workshops-backlog.md)
 5. [[MY NEXT] Delayed processing of DynamoDB stream with EventBridge Scheduler](https://serverlessland.com/patterns/apigw-dynamodb-lambda-scheduler-sqs-cdk)
 6. [How I solved Dynamic Task Scheduling using AWS DynamoDB TTL, Stream and Lambda Mohammad Anik Islam](https://medium.com/monstar-lab-bangladesh-engineering/how-i-solved-dynamic-task-scheduling-using-aws-dynamodb-ttl-stream-and-lambda-c0da5ebd6597)
 7. [What is a DynamoDB Stream? (And why you should be using it!) By Be Better Dev](https://www.youtube.com/watch?v=OjppS4RWWt8)
+8. [Processing Amazon DynamoDB Streams Using the Amazon Kinesis Client Library by Mital Awachat ](https://aws.amazon.com/blogs/big-data/processing-amazon-dynamodb-streams-using-the-amazon-kinesis-client-library/)
 
 ## 17.1. Deplayed processing
 
@@ -603,6 +605,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 ## 40.3. FireHose
 
 1. [Automatically Archive Items to S3 Using DynamoDB Time to Live (TTL) with AWS Lambda and Amazon Kinesis Firehose by Adam Wagner](https://aws.amazon.com/blogs/database/automatically-archive-items-to-s3-using-dynamodb-time-to-live-with-aws-lambda-and-amazon-kinesis-firehose/)
+2. [Build seamless data streaming pipelines with Amazon Kinesis Data Streams and Amazon Kinesis Data Firehose for Amazon DynamoDB tables by Ashutosh Pateriya, Elie Gharios, and Saurabh Shrivastava](https://aws.amazon.com/blogs/big-data/build-seamless-data-streaming-pipelines-with-amazon-kinesis-data-streams-and-amazon-kinesis-data-firehose-for-amazon-dynamodb-tables/)
 
 ## 40.4. S3
 
@@ -611,6 +614,10 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 ## 40.5. OpenSearch
 
 1. [Indexing Amazon DynamoDB Content with Amazon Elasticsearch Service Using AWS Lambda by Bryan Liston ](https://aws.amazon.com/blogs/compute/indexing-amazon-dynamodb-content-with-amazon-elasticsearch-service-using-aws-lambda/)
+
+## 40.6. Kinesis
+
+1. [Store and stream sports data feeds using Amazon DynamoDB and Amazon Kinesis Data Streams by Nihilson Gnanadason and Pallavi Jain](https://aws.amazon.com/blogs/database/store-and-stream-sports-data-feeds-using-amazon-dynamodb-and-amazon-kinesis-data-streams/)
 
 # 41. CLI
 

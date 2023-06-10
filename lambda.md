@@ -8,8 +8,9 @@
 - [4. Costs](#4-costs)
 - [5. CI/CD](#5-cicd)
 - [6. Development](#6-development)
-  - [6.1. Java](#61-java)
-  - [6.2. SAM](#62-sam)
+  - [6.1. Designing](#61-designing)
+  - [6.2. Java](#62-java)
+  - [6.3. SAM](#63-sam)
 - [7. Event Source Mapping](#7-event-source-mapping)
   - [7.1. Filtering](#71-filtering)
   - [7.2. Concurrency](#72-concurrency)
@@ -70,15 +71,18 @@
 
 # 6. Development
 
-1. [Developing evolutionary architecture with AWS Lambda by Luca Mezzalira](https://aws.amazon.com/blogs/compute/developing-evolutionary-architecture-with-aws-lambda/)
-2.  [Issues to Avoid When Implementing Serverless Architecture with AWS Lambda by Andrei Maksimov](https://aws.amazon.com/blogs/architecture/mistakes-to-avoid-when-implementing-serverless-architecture-with-lambda/)
+## 6.1. Designing
 
-## 6.1. Java
+1. [Developing portable AWS Lambda functions by Pascal Vogel](https://aws.amazon.com/blogs/compute/developing-portable-aws-lambda-functions/)
+2. [Developing evolutionary architecture with AWS Lambda by Luca Mezzalira](https://aws.amazon.com/blogs/compute/developing-evolutionary-architecture-with-aws-lambda/)
+3.  [Issues to Avoid When Implementing Serverless Architecture with AWS Lambda by Andrei Maksimov](https://aws.amazon.com/blogs/architecture/mistakes-to-avoid-when-implementing-serverless-architecture-with-lambda/)
+
+## 6.2. Java
 
 1. [Bootstrapping a Java Lambda application with minimal AWS Java SDK startup time using Maven by Zoe Wang ](https://aws.amazon.com/blogs/developer/bootstrapping-a-java-lambda-application-with-minimal-aws-java-sdk-startup-time-using-maven/)
 - shows how to create maven archetypes
 
-## 6.2. SAM
+## 6.3. SAM
 
 1. [[MY NEXT] Building serverless Java applications with the AWS SAM CLI by James Beswick](https://aws.amazon.com/blogs/compute/building-serverless-java-applications-with-the-aws-sam-cli/)
     - [Building Java apps with SAM | Serverless Office Hours](https://www.youtube.com/watch?v=c7_gGalsIyE)

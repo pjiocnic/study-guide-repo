@@ -5,11 +5,12 @@
 
 - [1. Sharding](#1-sharding)
 - [2. Core concepts](#2-core-concepts)
-- [Scaling](#scaling)
-- [Using With RDS](#using-with-rds)
-- [3. Curate](#3-curate)
-- [4. Enhanced Fan-Out](#4-enhanced-fan-out)
-- [5. Tumbling Windows](#5-tumbling-windows)
+- [3. Scaling](#3-scaling)
+- [4. Using With RDS](#4-using-with-rds)
+- [5. Curate](#5-curate)
+- [6. Enhanced Fan-Out](#6-enhanced-fan-out)
+- [7. Tumbling Windows](#7-tumbling-windows)
+- [8. Architectures](#8-architectures)
 
 <!-- /TOC -->
 
@@ -25,23 +26,35 @@
 4. [Mastering AWS Kinesis Data Streams, Part 1](https://dev.solita.fi/2020/05/28/kinesis-streams-part-1.html)
 5. [Mastering AWS Kinesis Data Streams, Part 2](https://dev.solita.fi/2020/12/21/kinesis-streams-part-2.html)
 
-# Scaling
+# 3. Scaling
 
 1. [Scale Kinesis Data Streams for high throughput and low latency | Amazon Web Services](https://www.youtube.com/watch?v=oAliBHw_08M)
 
-# Using With RDS
+# 4. Using With RDS
 
 1. [[MAKE BITE-NOTES] Send Relational Database CDC Information to Kinesis Data Streams](https://www.youtube.com/watch?v=xfAJfKDwdIA)
 
-# 3. Curate
+# 5. Curate
 
 1. [Simplify Amazon DynamoDB data extraction and analysis by using AWS Glue and Amazon Athena by Laith Al-Saadoon and Ghiyath Alazzah](https://aws.amazon.com/blogs/database/simplify-amazon-dynamodb-data-extraction-and-analysis-by-using-aws-glue-and-amazon-athena/)
 2. [Accelerate Amazon DynamoDB data access in AWS Glue jobs using the new AWS Glue DynamoDB Export connector by Noritaka Sekiyama, Andrew Kim, Neil Gupta, and Savio Dsouza](https://aws.amazon.com/blogs/big-data/accelerate-amazon-dynamodb-data-access-in-aws-glue-jobs-using-the-new-aws-glue-dynamodb-elt-connector/)
 
-# 4. Enhanced Fan-Out
+# 6. Enhanced Fan-Out
 
 1. [Amazon Kinesis Enhanced Fan-Out](https://medium.com/avmconsulting-blog/amazon-kinesis-enhanced-fan-out-4e500411a414)
 
-# 5. Tumbling Windows
+# 7. Tumbling Windows
 
 1. [[MY NEXT] Using AWS Lambda for streaming analytics by James Beswick ](https://aws.amazon.com/blogs/compute/using-aws-lambda-for-streaming-analytics/)
+
+# 8. Architectures
+
+1. [[MY NEXT] Build highly available streams with Amazon Kinesis Data Streams by Jeremy Ber and Pratik Patel](https://aws.amazon.com/blogs/big-data/build-highly-available-streams-with-amazon-kinesis-data-streams/)
+- Warm standby pattern
+- Cold standby pattern
+- CFN
+2. [Building a real-time notification system with Amazon Kinesis Data Streams for Amazon DynamoDB and Amazon Kinesis Data Analytics for Apache Flink by Saurabh Shrivastava, Sameer Goel, and Pratik Patel ](https://aws.amazon.com/blogs/big-data/building-a-real-time-notification-system-with-amazon-kinesis-data-streams-for-amazon-dynamodb-and-amazon-kinesis-data-analytics-for-apache-flink/)
+- CFN
+- Java
+3. [Streaming Amazon DynamoDB data into a centralized data lake by Praveen Krishnamoorthy Ravikumar, Abhishek Gupta, and Ashok Yoganand Sridharan](https://aws.amazon.com/blogs/big-data/streaming-amazon-dynamodb-data-into-a-centralized-data-lake/)
+- CFN
