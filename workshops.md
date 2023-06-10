@@ -21,6 +21,8 @@
 - [15. Cloudwatch](#15-cloudwatch)
 - [16. IAM](#16-iam)
 - [17. Well Architected](#17-well-architected)
+- [18. Multi-service Workshops](#18-multi-service-workshops)
+- [Developer workshops](#developer-workshops)
 
 <!-- /TOC -->
 
@@ -157,3 +159,26 @@
 # 17. Well Architected
 
 1. [AWS Well-Architected Labs](https://www.wellarchitectedlabs.com/)
+
+# 18. Multi-service Workshops
+
+1. [Enterprise Cloud Native Workshop ](http://cloudnative-immersion-day.s3-website-ap-northeast-1.amazonaws.com/)
+- Event Storming Workshop
+- Containerize Java Application
+- Java Monolithic into Microservices
+- Serverless Microservices
+- Microservices Observability
+- Automated CI/CD Pipeline
+- Mobile Application Development
+- https://github.com/aws-samples/cdk-microservices-labs
+
+# Developer workshops
+
+1. [Improving Development Ergonomics](https://catalog.us-east-1.prod.workshops.aws/workshops/794fbedd-0fd9-4c70-92c1-9e82fbdcc383/en-US)
+- https://github.com/aws-samples/stock-trader-app (Python app)
+- Code the stock-trader application using Powertools
+- Use CDK
+- Build & Test
+- Deploy
+- Debug & Trace
+- Analyze & Optimize

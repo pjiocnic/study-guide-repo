@@ -256,7 +256,6 @@
     - /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/dynamodb/dynamodb-modeling-workshop/my-readme.md
     - https://github.com/robm26/modeling
 
-
 ## 12.5. Modeling Hierarchical Data Structures
 
 https://www.dynamodbguide.com/hierarchical-data/
@@ -618,6 +617,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 ## 40.6. Kinesis
 
 1. [Store and stream sports data feeds using Amazon DynamoDB and Amazon Kinesis Data Streams by Nihilson Gnanadason and Pallavi Jain](https://aws.amazon.com/blogs/database/store-and-stream-sports-data-feeds-using-amazon-dynamodb-and-amazon-kinesis-data-streams/)
+2. [Deliver DynamoDB records to Amazon S3 using Kinesis Data Streams and Kinesis Data Firehose with AWS CDK](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deliver-dynamodb-records-to-amazon-s3-using-kinesis-data-streams-and-kinesis-data-firehose-with-aws-cdk.html)
 
 # 41. CLI
 
