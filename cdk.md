@@ -223,6 +223,7 @@
 
 1. [[START HERE] CDK Resources](https://cdk.dev/resources)
 2. [CDK Patterns](https://cdkpatterns.com/)
+- https://github.com/cdk-patterns/serverless
 3. [GitHub - CDK Patterns](https://github.com/cdk-patterns/serverless/tree/main)
 4. [Deconstructing AWS CDK Patterns](https://www.youtube.com/channel/UCuR3jnWEnxx1G2axUMVaogg)
 5. [Construct Hub](https://constructs.dev/)
@@ -235,6 +236,8 @@
 - Training Materials and Sample Code
 - Blog Posts & Talks
 12. [[MUST SEE] CDK Samples from AWS-SAMPLES](https://github.com/orgs/aws-samples/repositories?language=&page=5&q=cdk&sort=&type=all)
+13. [AWS-CDK-Examples By GreenChapel](https://github.com/johngreen-dev/AWS-CDK-Examples)
+14. [Hey CDK, how can I migrate my existing CloudFormation templates? by Philipp Garbe](https://garbe.io/blog/2019/09/11/hey-cdk-how-to-migrate/)
 
 # 12. Workshops
 

@@ -36,6 +36,7 @@ https://www.epochconverter.com/weeks/2023
 21. Troubleshooting Lambda using cloudwatch metrics (see Skillbuilder courses)
 22. Troubleshooting DynamoDB using cloudwatch metrics (see Skillbuilder courses)
 23. https://github.com/aws-samples/serverless-patterns/tree/main/sns-sqs-lambda-cdk
+24. S3 Security
 
 # 2. In Progress
 

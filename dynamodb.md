@@ -18,6 +18,7 @@
 - [10. Querying](#10-querying)
   - [10.1. Pagination](#101-pagination)
   - [10.2. Parallel queries](#102-parallel-queries)
+  - [10.3. Multiple attributes](#103-multiple-attributes)
 - [11. Sharding](#11-sharding)
 - [12. Data Modeling](#12-data-modeling)
   - [12.1. One-to-Many](#121-one-to-many)
@@ -213,6 +214,10 @@
 
 1. [[MY NEXT] Use parallelism to optimize querying large amounts of data in Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/use-parallelism-to-optimize-querying-large-amounts-of-data-in-amazon-dynamodb/)
 
+## 10.3. Multiple attributes
+
+1. [Querying on Multiple Attributes in Amazon DynamoDB by Scott Todd](https://aws.amazon.com/blogs/database/querying-on-multiple-attributes-in-amazon-dynamodb/)
+
 # 11. Sharding
 
 1. [Choosing the right number of shards for your large-scale Amazon DynamoDB table by Anuj Dewangan and Sean Shriver](https://aws.amazon.com/blogs/database/choosing-the-right-number-of-shards-for-your-large-scale-amazon-dynamodb-table)
@@ -232,6 +237,7 @@
 6. [[MY NEXT][MUST SEE] A set of DynamoDB demo scripts and sample data that illustrate the read and write cost of various data access patterns By Rob McCauley](https://github.com/robm26/efficiencydemos)
 7. [Data Modeling with Amazon DynamoDB- AWS Database in 15 By Rob McCauley](https://www.youtube.com/watch?v=kQ-DSjtCb90)
 8. [DynamoDB Office Hours - Designing for Cost with Rob McCauley](https://www.youtube.com/watch?v=S02CRffcoX8)
+9. [How to Model Any Relational Data in DynamoDB to Maximize Performance](https://edward-huang.com/best-practice/database/2021/04/13/how-to-model-any-relational-data-in-dynamodb-to-maximize-performance/)
 
 ## 12.1. One-to-Many
 
@@ -392,6 +398,7 @@ See [workshops-backlog.md](./workshops-backlog.md)
 2. [[SAMPLES] AWS Lambda Serverless CRUD API With Java](https://dev.to/aws-builders/aws-lambda-serverless-crud-api-with-java-189n)
 3. [[SAMPLES] Creating a Spring Boot application that queries Amazon DynamoDB data](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2/usecases/creating_dynamodb_web_app)
 4. [Using atomic counters in the Enhanced DynamoDB AWS SDK for Java 2.x client by Anna-Karin Salander](https://aws.amazon.com/blogs/developer/using-atomic-counters-in-the-enhanced-dynamodb-aws-sdk-for-java-2-x-client/)
+5. [Querying on Multiple Attributes in Amazon DynamoDB by Scott Todd](https://aws.amazon.com/blogs/database/querying-on-multiple-attributes-in-amazon-dynamodb/)
 
 # 22. DynamoDB Videos
 

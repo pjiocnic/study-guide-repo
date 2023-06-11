@@ -12,7 +12,6 @@ If I have > 64 TB then dynamodb maybe a better choice
 DocumentDB - smaller instances 1100 connections and larger instances support 4500 connections
 
 
-
 https://docs.aws.amazon.com/documentdb/latest/developerguide/limits.html
 https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html
 

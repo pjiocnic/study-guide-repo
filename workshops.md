@@ -139,13 +139,13 @@
     - Distributed Tracing
     - Performance Bottlenecks
 7. [AWS Serverless Developer Experience workshop reference architecture (Java)](https://github.com/aws-samples/aws-serverless-developer-experience-workshop-java)
-    <img src="./images/architecture-1.png" title="architecture-1.png" width="900"/>
+    <img src="./images/workshop-1.png" title="architecture-1.png" width="900"/>
     - /Volumes/Lexar/git-repos/aws-repo/aws-samples/serverless/aws-serverless-developer-experience-workshop-java/my-readme.md
 8. [[MY NEXT] AWS Bookstore Demo App](https://github.com/aws-samples/aws-bookstore-demo-app)
-    <img src="./images/architecture-2.png" title="architecture-2.png" width="900"/>
+    <img src="./images/workshop-2.png" title="architecture-2.png" width="900"/>
     - [AWS re:Invent 2018: [REPEAT 1] Databases on AWS: The Right Tool for the Right Job (DAT205-R1)](https://www.youtube.com/watch?v=-pb-DkD6cWg)
 9. [[MY NEXT] AWS DevOps End-to-End Workshop](https://github.com/aws-samples/aws-devops-end-to-end-workshop)
-    <img src="./images/architecture-3.png" title="architecture-3.png" width="900"/>
+    <img src="./images/workshop-3.png" title="architecture-3.png" width="900"/>
     - [AWS re:Invent 2018: [REPEAT 1] Databases on AWS: The Right Tool for the Right Job (DAT205-R1)](https://www.youtube.com/watch?v=-pb-DkD6cWg)
     - See this in conjuction with AWS Bookstore Demo App (link above)
 
@@ -226,3 +226,5 @@
 # 20. S3
 
 1. [S3 Object Lambda custom authorization Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a02f594e-0618-4e6f-ba55-9355a12e0378/en-US/)
+
+    <img src="./images/workshop-4.png" title="architecture-3.png" width="900"/>
