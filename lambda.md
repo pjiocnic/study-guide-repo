@@ -49,6 +49,9 @@
   - [22.6. How to secure workloads with public endpoints](#226-how-to-secure-workloads-with-public-endpoints)
   - [22.7. Serverless Lens](#227-serverless-lens)
 - [23. Cross-account access](#23-cross-account-access)
+- [24. Powertools](#24-powertools)
+  - [24.1. Java](#241-java)
+  - [24.2. Typescript](#242-typescript)
 
 <!-- /TOC -->
 
@@ -263,3 +266,15 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Introducing cross-account Amazon ECR access for AWS Lambda by Brian Zambrano](https://aws.amazon.com/blogs/compute/introducing-cross-account-amazon-ecr-access-for-aws-lambda/)
 - Shows how to centralize docker images to a single account. This way Lambda function can reside in a different AWS account (in Account A) from ECR repository (in Account B) that owned the container image
+
+# 24. Powertools
+
+## 24.1. Java
+
+1. [Powertools for AWS Lambda (Java)](https://awslabs.github.io/aws-lambda-powertools-java/)
+2. [Simplifying serverless best practices with AWS Lambda Powertools Java by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/)
+3. [[MY NEXT] SVS 307 Workshop - Easily Add Observability with AWS Lambda Powertools for Java](https://catalog.us-east-1.prod.workshops.aws/workshops/a7011c82-e4af-4a52-80fa-fcd61f1dacd9/en-US/introduction)
+
+## 24.2. Typescript
+
+1. [AWS Lambda Powertools for TypeScript Workshop](https://github.com/aws-samples/aws-lambda-powertools-typescript-workshop)

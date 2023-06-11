@@ -8,10 +8,11 @@
 - [5. Projen](#5-projen)
 - [6. CDK Tutorials](#6-cdk-tutorials)
 - [7. Projects](#7-projects)
+  - [Microservices](#microservices)
 - [8. CDK + AWS Services](#8-cdk--aws-services)
   - [8.1. RDS](#81-rds)
     - [8.1.1. Cloudwatch Alarms for RDS](#811-cloudwatch-alarms-for-rds)
-  - [8.2. Private endpoints](#82-private-endpoints)
+  - [8.2. AWS PrivateLink](#82-aws-privatelink)
   - [8.3. Cloudwatch Dashboard](#83-cloudwatch-dashboard)
   - [8.4. Hub and Spoke](#84-hub-and-spoke)
   - [8.5. ECS](#85-ecs)
@@ -61,7 +62,6 @@
 7. [[START HERE] What are Constructs in AWS CDK - Complete Guide By Borislav Hadzhiev](https://bobbyhadz.com/blog/cdk-constructs-tutorial)
 8. [Getting Started with AWS Solutions Constructs](https://docs.aws.amazon.com/solutions/latest/constructs/getting-started-with-aws-solutions-constructs.html)
 
-
 # 4. Construct Libraries
 
 1. [How to use cdk-dynamo-table-viewer typescript library](https://cdkworkshop.com/20-typescript/50-table-viewer.html)
@@ -87,6 +87,10 @@
 1. [How to use Multiple load balancer Target Group Support for Amazon ECS to access internal and external service endpoint using the same DNS name by Vijay Menon](https://aws.amazon.com/blogs/containers/how-to-use-multiple-load-balancer-target-group-support-for-amazon-ecs-to-access-internal-and-external-service-endpoint-using-the-same-dns-name/)
  - Code [serverless-container-constructs](https://github.com/aws-samples/serverless-container-constructs)
 
+## Microservices
+
+
+
 # 8. CDK + AWS Services
 
 ## 8.1. RDS
@@ -101,10 +105,11 @@
 1. [Understanding AWS RDS CPU Utilization via CloudWatch Alarms with CDK](https://thecodinginterface.com/blog/aws-aurora-rds-cloudwatch-alarms-and-cdk/)
 2. [[MUST SEE] Aurora PostgreSQL Slow Query Logging and CloudWatch Alarms via AWS CDK](https://thecodinginterface.com/blog/aurora-postgresql-slow-query-logging/)
 
-## 8.2. Private endpoints
+## 8.2. AWS PrivateLink
 
 1. [Exploring AWS VPC Endpoints by Examples with AWS CDK](https://thecodinginterface.com/blog/aws-vpc-endpoints-with-cdk/)
 2. [Cross-account RDS access using AWS Privatelink demo](https://github.com/aws-samples/amazon-rds-over-privatelink-cdk-demo)
+3. [Private cross-account APIs with Amazon API Gateway and AWS PrivateLink [Python]](https://github.com/aws-samples/apigateway-vpcendpoints)
 
 ## 8.3. Cloudwatch Dashboard
 
@@ -122,6 +127,7 @@
 1. [Getting started with the AWS Cloud Development Kit for Amazon ECS by Nathan Peck ](https://aws.amazon.com/blogs/compute/getting-started-with-the-aws-cloud-development-kit-for-amazon-ecs/)
 2. [Developing microservices using container image support for AWS Lambda and AWS CDK](https://aws.amazon.com/blogs/opensource/developing-microservices-using-container-image-support-for-aws-lambda-and-aws-cdk/)
 3. [Deploying a Spring boot app to Fargate with the AWS CDK](https://www.profit4cloud.nl/blog/deploying-a-spring-boot-app-to-fargate-with-the-aws-cdk/)
+4. [Getting Started with ECS](https://github.com/aws-samples/aws-cdk-microservices-workshop)
 
 ### 8.5.1. Spring + ECS
 
@@ -182,6 +188,8 @@
 2. [Udemty Course - AWS & Typescript Masterclass - CDK V2, Serverless, React](https://www.udemy.com/course/aws-typescript-cdk-serverless-react/)
 3. [The TypeScript Workshop for CDK](https://cdkworkshop.com/20-typescript.html)
 4. [TYPESCRIPT PROJECT TEMPLATE](https://github.com/aws-samples/configurable-dynamic-cdk-resource-provisioning-typescript)
+5. [Using strong typing practices to declare a large number of resources with AWS CDK by Ishan Bhanuka ](https://aws.amazon.com/blogs/opensource/using-strong-typing-practices-to-declare-a-large-number-of-resources-with-aws-cdk/)
+- https://github.com/aws-samples/strong-typing-practices-with-cdk
 
 ## 9.2. Python
 
@@ -262,3 +270,5 @@
 # 17. Building Extensions
 
 1. [Extending CloudFormation and CDK with Third-Party Extensions by Lucas Chen, Anuj Sharma, and Rahul Sharma ](https://aws.amazon.com/blogs/devops/extending-cloudformation-and-cdk-with-third-party-extensions/)
+
+
