@@ -8,7 +8,7 @@
 - [5. Projen](#5-projen)
 - [6. CDK Tutorials](#6-cdk-tutorials)
 - [7. Projects](#7-projects)
-  - [Microservices](#microservices)
+  - [7.1. Microservices](#71-microservices)
 - [8. CDK + AWS Services](#8-cdk--aws-services)
   - [8.1. RDS](#81-rds)
     - [8.1.1. Cloudwatch Alarms for RDS](#811-cloudwatch-alarms-for-rds)
@@ -26,6 +26,7 @@
   - [8.11. Kinesis](#811-kinesis)
   - [8.12. Firehose](#812-firehose)
   - [8.13. Elasticache](#813-elasticache)
+  - [8.14. MongoDB](#814-mongodb)
 - [9. By Language](#9-by-language)
   - [9.1. Typescript](#91-typescript)
   - [9.2. Python](#92-python)
@@ -87,7 +88,7 @@
 1. [How to use Multiple load balancer Target Group Support for Amazon ECS to access internal and external service endpoint using the same DNS name by Vijay Menon](https://aws.amazon.com/blogs/containers/how-to-use-multiple-load-balancer-target-group-support-for-amazon-ecs-to-access-internal-and-external-service-endpoint-using-the-same-dns-name/)
  - Code [serverless-container-constructs](https://github.com/aws-samples/serverless-container-constructs)
 
-## Microservices
+## 7.1. Microservices
 
 
 
@@ -179,6 +180,10 @@
 ## 8.13. Elasticache
 
 1. [Deploy Amazon ElastiCache for Redis using AWS CDK](https://github.com/aws-samples/amazon-elasticache-demo-using-aws-cdk)
+
+## 8.14. MongoDB
+
+1. [How to Deploy MongoDB Atlas with AWS CDK in TypeScript](https://www.youtube.com/watch?v=p7Fru0fbmxY)
 
 # 9. By Language
 

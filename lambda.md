@@ -52,6 +52,8 @@
 - [24. Powertools](#24-powertools)
   - [24.1. Java](#241-java)
   - [24.2. Typescript](#242-typescript)
+- [25. Batch Processing](#25-batch-processing)
+  - [25.1. Checkpointing](#251-checkpointing)
 
 <!-- /TOC -->
 
@@ -278,3 +280,9 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 ## 24.2. Typescript
 
 1. [AWS Lambda Powertools for TypeScript Workshop](https://github.com/aws-samples/aws-lambda-powertools-typescript-workshop)
+
+# 25. Batch Processing
+
+## 25.1. Checkpointing
+
+1. [Optimizing batch processing with custom checkpoints in AWS Lambda by James Beswick |](https://aws.amazon.com/blogs/compute/optimizing-batch-processing-with-custom-checkpoints-in-aws-lambda/)
