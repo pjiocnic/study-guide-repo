@@ -5,6 +5,7 @@ https://www.epochconverter.com/weeks/2023
 - [1. Topics to visit](#1-topics-to-visit)
 - [2. In Progress](#2-in-progress)
 - [Planning my next big topic](#planning-my-next-big-topic)
+- [Weekend](#weekend)
 
 <!-- /TOC -->
 
@@ -51,3 +52,7 @@ https://www.epochconverter.com/weeks/2023
 2. AWS CookBook
 3. Well Architected Framework
 4. Disaster Recovery
+
+# Weekend
+1. AWS Certified Security - Specialty (SCS-C02) Crash Course [O’Reilly Live Event] By chad Smith
+2. [Complete Python Mastery By Mosh](https://codewithmosh.teachable.com/courses/417695/lectures/6781574)

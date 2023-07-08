@@ -32,6 +32,7 @@
 - [24. Integrations](#24-integrations)
   - [24.1. Opensearch Integration using Change Streams](#241-opensearch-integration-using-change-streams)
   - [24.2. MSK Integration using Change Streams](#242-msk-integration-using-change-streams)
+  - [24.3. S3](#243-s3)
 - [25. Java](#25-java)
 
 <!-- /TOC -->
@@ -74,6 +75,8 @@
 
 1. [Capture changes from Amazon DocumentDB via AWS Lambda and publish them to Amazon MSK by Murat Balkan](https://aws.amazon.com/blogs/database/capture-changes-from-amazon-documentdb-via-aws-lambda-and-publish-them-to-amazon-msk/)
 2. [Archiving Data with Amazon DocumentDB Change Streams](https://catalog.us-east-1.prod.workshops.aws/workshops/464d6c17-9faa-4fef-ac9f-dd49610174d3/en-US/change-streams)
+3. [Stream data from Amazon DocumentDB to Amazon Kinesis Data Firehose using AWS Lambda by Anshu Vajpayee and Sourav Biswas](https://aws.amazon.com/blogs/database/stream-data-from-amazon-documentdb-to-amazon-kinesis-data-firehose-using-aws-lambda/)
+4. [DocumentDB Insider Hour | Episode 27 | Lambda Event Source Mapping](https://www.youtube.com/watch?v=U8z0To80crY)
 
 # 8. Indexing
 
@@ -182,6 +185,10 @@
 1. [Capture changes from Amazon DocumentDB via AWS Lambda and publish them to Amazon MSK by Murat Balkan](https://aws.amazon.com/blogs/database/capture-changes-from-amazon-documentdb-via-aws-lambda-and-publish-them-to-amazon-msk/)
 - Includes CFN
 2. [Building Dynamic Data Pipes Using AWS DocumentDB, MSK and Lambda](https://medium.com/cisco-fpie/taming-of-the-queue-f320f855a09)
+
+## 24.3. S3
+
+1. [Stream data from Amazon DocumentDB to Amazon Kinesis Data Firehose using AWS Lambda by Anshu Vajpayee and Sourav Biswas](https://aws.amazon.com/blogs/database/stream-data-from-amazon-documentdb-to-amazon-kinesis-data-firehose-using-aws-lambda/)
 
 # 25. Java
 
