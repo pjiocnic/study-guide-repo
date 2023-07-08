@@ -6,6 +6,7 @@
 - [3. Using Proxy](#3-using-proxy)
 - [4. CDK](#4-cdk)
 - [5. RDS](#5-rds)
+- [Staging](#staging)
 
 <!-- /TOC -->
 
@@ -29,3 +30,7 @@
 # 5. RDS
 
 1. [Automated query caching into Amazon ElastiCache for Amazon RDS, Amazon Aurora and Amazon Redshift by Darin Briskman](https://aws.amazon.com/blogs/database/automating-sql-caching-for-amazon-elasticache-and-amazon-rds)
+
+# Staging
+
+1. [A Crash Course in Caching - Final Part By byteByteGo](https://blog.bytebytego.com/p/a-crash-course-in-caching-final-part)
