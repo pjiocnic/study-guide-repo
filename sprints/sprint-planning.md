@@ -6,6 +6,7 @@ https://www.epochconverter.com/weeks/2023
 - [2. In Progress](#2-in-progress)
 - [Planning my next big topic](#planning-my-next-big-topic)
 - [Weekend](#weekend)
+- [Weekly - planning](#weekly---planning)
 
 <!-- /TOC -->
 
@@ -52,7 +53,12 @@ https://www.epochconverter.com/weeks/2023
 2. AWS CookBook
 3. Well Architected Framework
 4. Disaster Recovery
+5. Networking course by Cantril
 
 # Weekend
 1. AWS Certified Security - Specialty (SCS-C02) Crash Course [O’Reilly Live Event] By chad Smith
 2. [Complete Python Mastery By Mosh](https://codewithmosh.teachable.com/courses/417695/lectures/6781574)
+
+# Weekly - planning
+
+1.  Read `https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/` blog posts
