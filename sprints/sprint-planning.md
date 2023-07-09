@@ -62,3 +62,10 @@ https://www.epochconverter.com/weeks/2023
 # Weekly - planning
 
 1.  Read `https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/` blog posts
+2. [Modernize with AWS Lambda](https://aws.amazon.com/lambda/modernize-with-aws-lambda/)
+3. [JAVA REPLATFORMING](https://serverlessland.com/content/service/lambda/paved-path/java-replatforming/introduction)
+4. [From Serverful to Serverless Java with AWS Lambda](https://catalog.workshops.aws/java-on-aws-lambda/en-US/01-migration)
+5. [[MUST SEE] Serverless ICYMI Q2 2023](https://aws.amazon.com/blogs/compute/serverless-icymi-q2-2023/)
+    - Review all the serverless blogs
+6. [Lambda Fundamentals - a 23-part video series](https://serverlessland.com/content/service/lambda/guides/aws-lambda-fundamentals/what-is-aws-lambda)
+7. [AWS Lambda resources](https://aws.amazon.com/lambda/resources/?aws-lambda-resources-blog.sort-by=item.additionalFields.createdDate&aws-lambda-resources-blog.sort-order=desc)

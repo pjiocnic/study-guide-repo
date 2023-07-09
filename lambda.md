@@ -55,6 +55,7 @@
   - [24.2. Typescript](#242-typescript)
 - [25. Batch Processing](#25-batch-processing)
   - [25.1. Checkpointing](#251-checkpointing)
+- [Staging](#staging)
 
 <!-- /TOC -->
 
@@ -295,3 +296,10 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 ## 25.1. Checkpointing
 
 1. [Optimizing batch processing with custom checkpoints in AWS Lambda by James Beswick |](https://aws.amazon.com/blogs/compute/optimizing-batch-processing-with-custom-checkpoints-in-aws-lambda/)
+
+# Staging
+
+1. [Extract time series from satellite weather data with AWS Lambda by Lior Perez](https://aws.amazon.com/blogs/big-data/extract-time-series-from-satellite-weather-data-with-aws-lambda/)
+2. [Enrich VPC Flow Logs with resource tags and deliver data to Amazon S3 using Amazon Kinesis Data Firehose by Chaitanya Shah and Vaibhav Katkade](https://aws.amazon.com/blogs/big-data/enrich-vpc-flow-logs-with-resource-tags-and-deliver-data-to-amazon-s3-using-amazon-kinesis-data-firehose/)
+3. [AWS Lambda resources](https://aws.amazon.com/lambda/resources/?aws-lambda-resources-blog.sort-by=item.additionalFields.createdDate&aws-lambda-resources-blog.sort-order=desc)
+
