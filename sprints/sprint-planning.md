@@ -7,6 +7,7 @@ https://www.epochconverter.com/weeks/2023
 - [Planning my next big topic](#planning-my-next-big-topic)
 - [Weekend](#weekend)
 - [Weekly - planning](#weekly---planning)
+- [Topics to explore](#topics-to-explore)
 
 <!-- /TOC -->
 
@@ -69,3 +70,9 @@ https://www.epochconverter.com/weeks/2023
     - Review all the serverless blogs
 6. [Lambda Fundamentals - a 23-part video series](https://serverlessland.com/content/service/lambda/guides/aws-lambda-fundamentals/what-is-aws-lambda)
 7. [AWS Lambda resources](https://aws.amazon.com/lambda/resources/?aws-lambda-resources-blog.sort-by=item.additionalFields.createdDate&aws-lambda-resources-blog.sort-order=desc)
+8. [SQS Developer Documentstion](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-basic-architecture.html)
+
+# Topics to explore
+1. [Unlike MQ, why SQS does not have a message broker](https://neiljbrown.com/2017/08/26/evaluating-message-brokers-amazon-sqs/)
+2. [Message Broker or Bus – what’s the difference?](https://neiljbrown.com/2017/05/13/message-broker-or-bus-whats-the-difference/)
+3. [Differences between Amazon SQS, Amazon MQ, and Amazon SNS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-difference-from-amazon-mq-sns.html)

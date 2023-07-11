@@ -72,6 +72,7 @@
 ## 2.2. Error Handling
 
 1. [Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
+    - [Github code](https://github.com/aws-samples/aws-lambda-error-handling-pattern)
 2. [Implementing error handling for AWS Lambda asynchronous invocations By Poornima Chand](https://aws.amazon.com/blogs/compute/implementing-error-handling-for-aws-lambda-asynchronous-invocations/)
 
 # 3. Integration
