@@ -4,10 +4,11 @@ https://www.epochconverter.com/weeks/2023
 
 - [1. Topics to visit](#1-topics-to-visit)
 - [2. In Progress](#2-in-progress)
-- [Planning my next big topic](#planning-my-next-big-topic)
-- [Weekend](#weekend)
-- [Weekly - planning](#weekly---planning)
-- [Topics to explore](#topics-to-explore)
+- [3. Planning my next big topic](#3-planning-my-next-big-topic)
+- [4. Weekend](#4-weekend)
+- [5. Weekly - planning](#5-weekly---planning)
+- [6. Topics to explore](#6-topics-to-explore)
+- [Planning](#planning)
 
 <!-- /TOC -->
 
@@ -48,19 +49,20 @@ https://www.epochconverter.com/weeks/2023
 3. [AWS re:Invent 2022 - Building Serverlesspresso: Creating event-driven architectures (SVS312)](https://www.youtube.com/watch?v=qs0U0LdNkV0&list=PLJo-rJlep0ECijHdz01OZXo3bqhbW_Hb2&index=3&t=67s)
 4. [AWS re:Invent 2022 - Advanced serverless workflow patterns and best practices (API309)](https://www.youtube.com/watch?v=o6-7BAUWaqg)
 
-# Planning my next big topic
+# 3. Planning my next big topic
 
 1. AWS WebServices In Action
 2. AWS CookBook
 3. Well Architected Framework
 4. Disaster Recovery
 5. Networking course by Cantril
+6. Cloudformation workshop
 
-# Weekend
+# 4. Weekend
 1. AWS Certified Security - Specialty (SCS-C02) Crash Course [O’Reilly Live Event] By chad Smith
 2. [Complete Python Mastery By Mosh](https://codewithmosh.teachable.com/courses/417695/lectures/6781574)
 
-# Weekly - planning
+# 5. Weekly - planning
 
 1.  Read `https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/` blog posts
 2. [Modernize with AWS Lambda](https://aws.amazon.com/lambda/modernize-with-aws-lambda/)
@@ -72,7 +74,17 @@ https://www.epochconverter.com/weeks/2023
 7. [AWS Lambda resources](https://aws.amazon.com/lambda/resources/?aws-lambda-resources-blog.sort-by=item.additionalFields.createdDate&aws-lambda-resources-blog.sort-order=desc)
 8. [SQS Developer Documentstion](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-basic-architecture.html)
 
-# Topics to explore
+# 6. Topics to explore
+
 1. [Unlike MQ, why SQS does not have a message broker](https://neiljbrown.com/2017/08/26/evaluating-message-brokers-amazon-sqs/)
 2. [Message Broker or Bus – what’s the difference?](https://neiljbrown.com/2017/05/13/message-broker-or-bus-whats-the-difference/)
 3. [Differences between Amazon SQS, Amazon MQ, and Amazon SNS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-difference-from-amazon-mq-sns.html)
+4. [How to setup DLQ for SNS Topics](https://faun.pub/aws-sns-dead-letter-queue-dlq-pattern-local-setup-272a206da3f)
+
+# Planning
+
+1. Cloudformation workshop
+2. DocumentDB workshop
+3. Stepfunctions workshop
+4. loan processor
+5. EDA patterns - https://serverlessland.com/event-driven-architecture/visuals

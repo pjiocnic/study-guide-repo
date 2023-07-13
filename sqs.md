@@ -13,6 +13,7 @@
 
 1. [Using Python and Amazon SQS FIFO Queues to Preserve Message Sequencing by Tara Van Unen ](https://aws.amazon.com/blogs/developer/using-python-and-amazon-sqs-fifo-queues-to-preserve-message-sequencing/)
 2. [Solving Complex Ordering Challenges with Amazon SQS FIFO Queues by Christie Gifrin and Shea Lutton |](https://aws.amazon.com/blogs/compute/solving-complex-ordering-challenges-with-amazon-sqs-fifo-queues/)
+3. [Building event-driven architectures with Amazon SNS FIFO By Christian Mueller](https://aws.amazon.com/blogs/compute/building-event-driven-architectures-with-amazon-sns-fifo/)
 
 # 4. Well Architected
 
