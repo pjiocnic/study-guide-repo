@@ -25,6 +25,6 @@ https://mailchi.mp/f8af15e36f48/sns-to-lambda-or-sns-to-sqs-to-lambda-what-are-t
 
 # In progress
 
-SQS well architected Part 2 and Part 3
-SNS videos by Be Better dev
-[Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
+* SQS well architected Part 2 and Part 3
+* SNS videos by Be Better dev
+* [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)

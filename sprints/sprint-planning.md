@@ -8,7 +8,8 @@ https://www.epochconverter.com/weeks/2023
 - [4. Weekend](#4-weekend)
 - [5. Weekly - planning](#5-weekly---planning)
 - [6. Topics to explore](#6-topics-to-explore)
-- [Planning](#planning)
+- [Topics to explore](#topics-to-explore)
+- [Blogs to explore](#blogs-to-explore)
 
 <!-- /TOC -->
 
@@ -81,15 +82,31 @@ https://www.epochconverter.com/weeks/2023
 3. [Differences between Amazon SQS, Amazon MQ, and Amazon SNS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-difference-from-amazon-mq-sns.html)
 4. [How to setup DLQ for SNS Topics](https://faun.pub/aws-sns-dead-letter-queue-dlq-pattern-local-setup-272a206da3f)
 
-# Planning
+# Topics to explore
 
 1. Cloudformation workshop
 2. DocumentDB workshop
 3. Stepfunctions workshop
 4. loan processor
 5. EDA patterns - https://serverlessland.com/event-driven-architecture/visuals
-6. Cloudwatchworkshop
+6. Cloudwatch workshop
 7. Powertools
 8. RyanTheBuilder
 9. [Typescript: The Complete Developer's Guide By Stephen Grider](https://www.udemy.com/course/typescript-the-complete-developers-guide/)
 10. [Complete Python Mastery By Mosh](https://codewithmosh.com/courses/enrolled/417695)
+11. Complete Dynamodb book
+12. Complete Dynamodb workshop
+13. Athena workshop
+14. https://ec2spotworkshops.com/
+15. https://ecsworkshop.com/
+16. https://www.eksworkshop.com/
+17. Serverless patterns aws workshop
+18. AWS Well-Architected Labs
+19. CDK workshops
+
+# Blogs to explore
+
+1. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
+2. [Event storming](https://medium.com/serverless-transformation/eventbridge-storming-how-to-build-state-of-the-art-event-driven-serverless-architectures-e07270d4dee)
+3. https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/
+4. https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html
