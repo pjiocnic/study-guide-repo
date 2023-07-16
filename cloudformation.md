@@ -6,7 +6,8 @@
 - [2. CFN Lint](#2-cfn-lint)
 - [3. Workshop](#3-workshop)
 - [4. Templates](#4-templates)
-- [WhitePaper](#whitepaper)
+- [5. WhitePaper](#5-whitepaper)
+- [6. Testing](#6-testing)
 
 <!-- /TOC -->
 
@@ -26,6 +27,11 @@
 
 1. [Cloud Foundations on AWS - Templates](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main)
 
-# WhitePaper
+# 5. WhitePaper
 
 1. [Establishing Your Cloud Foundation on AWS](https://docs.aws.amazon.com/whitepapers/latest/establishing-your-cloud-foundation-on-aws/welcome.html)
+
+# 6. Testing
+
+1. [Automated CloudFormation Testing Pipeline with TaskCat and CodePipeline by Raleigh Hansen and Dan Le](https://aws.amazon.com/blogs/devops/automated-cloudformation-testing-pipeline-with-taskcat-and-codepipeline/)
+- Includes code for running `TaskCat` and scripts to test solution functionality

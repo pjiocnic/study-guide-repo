@@ -88,3 +88,6 @@ https://www.epochconverter.com/weeks/2023
 3. Stepfunctions workshop
 4. loan processor
 5. EDA patterns - https://serverlessland.com/event-driven-architecture/visuals
+6. Cloudwatchworkshop
+7. Powertools
+8. RyanTheBuilder

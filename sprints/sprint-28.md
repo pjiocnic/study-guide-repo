@@ -19,3 +19,12 @@ https://mailchi.mp/f8af15e36f48/sns-to-lambda-or-sns-to-sqs-to-lambda-what-are-t
 11. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
 12. [Building event-driven architectures with Amazon SNS FIFO By Christian Mueller](https://aws.amazon.com/blogs/compute/building-event-driven-architectures-with-amazon-sns-fifo/)
 13. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 1 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-1/)
+
+14. [Application integration patterns for microservices: Fan-out strategies By Dirk Fröhner](https://aws.amazon.com/blogs/compute/application-integration-patterns-for-microservices-fan-out-strategies/)
+15. [Application Integration Using Queues and Messages by Mithun Mallick](https://aws.amazon.com/blogs/architecture/application-integration-using-queues-and-messages/)
+
+# In progress
+
+SQS well architected Part 2 and Part 3
+SNS videos by Be Better dev
+[Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
