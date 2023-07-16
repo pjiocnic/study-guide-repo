@@ -91,3 +91,5 @@ https://www.epochconverter.com/weeks/2023
 6. Cloudwatchworkshop
 7. Powertools
 8. RyanTheBuilder
+9. [Typescript: The Complete Developer's Guide By Stephen Grider](https://www.udemy.com/course/typescript-the-complete-developers-guide/)
+10. [Complete Python Mastery By Mosh](https://codewithmosh.com/courses/enrolled/417695)
