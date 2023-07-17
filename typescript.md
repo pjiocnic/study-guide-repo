@@ -6,3 +6,11 @@
 # Course
 
 1. [Typescript: The Complete Developer's Guide By Stephen Grider](https://www.udemy.com/course/typescript-the-complete-developers-guide/)
+
+# VSCode
+
+1. [THIS is EASY TypeScript Setup in VSCode By Alex Ziskind](https://www.youtube.com/watch?v=4zdBk6wisxc)
+
+# Workshop
+
+1. [Learn TypeScript on AWS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/56ef6f79-74e2-4710-aefb-10b9807057a9/en-US)

@@ -8,8 +8,9 @@
 - [5. Courses](#5-courses)
 - [6. Development](#6-development)
   - [6.1. How to setup a virtual env?](#61-how-to-setup-a-virtual-env)
-- [7. AWS Python](#7-aws-python)
+- [7. Workshop](#7-workshop)
 - [8. OOO](#8-ooo)
+- [9. Real World examples](#9-real-world-examples)
 
 <!-- /TOC -->
 
@@ -44,12 +45,15 @@
 1. [How to Set Up a Virtual Environment in Python](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
 2. [[START HERE] Python Virtual Environments: A Primer by Martin Breuss](https://realpython.com/python-virtual-environments-a-primer/)
 
-# 7. AWS Python
+# 7. Workshop
 
 1. [Learn Python On AWS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3d705026-9edc-40e8-b353-bdabb116c89c/en-US)
-1. [[MY NEXT] Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
-- Has some scripts around python
 
 # 8. OOO
 
 1. [Python Classes: The Power of Object-Oriented Programming](https://realpython.com/python-classes/)
+
+# 9. Real World examples
+
+1. [[MY NEXT] Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
+- Has some scripts around python

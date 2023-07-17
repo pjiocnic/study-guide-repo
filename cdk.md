@@ -39,6 +39,7 @@
 - [15. Testing](#15-testing)
 - [16. SAM + CDK](#16-sam--cdk)
 - [17. Building Extensions](#17-building-extensions)
+- [Curate](#curate)
 
 <!-- /TOC -->
 
@@ -278,5 +279,11 @@
 # 17. Building Extensions
 
 1. [Extending CloudFormation and CDK with Third-Party Extensions by Lucas Chen, Anuj Sharma, and Rahul Sharma ](https://aws.amazon.com/blogs/devops/extending-cloudformation-and-cdk-with-third-party-extensions/)
+
+# Curate
+
+1. [Rapid and flexible Infrastructure as Code using the AWS CDK with AWS Solutions Constructs by Biff Gaut ](https://aws.amazon.com/blogs/devops/rapid-flexible-infrastructure-with-solutions-constructs-cdk/)
+2. [AWS re:Invent 2022 - How to reuse patterns when developing infrastructure as code (DOP302)](https://www.youtube.com/watch?v=ndd9XwQZbyM)
+3. [The AWS CDK - The Bad Parts By Matthew Bonig](https://www.youtube.com/watch?v=AVMkjtJ21Co)
 
 
