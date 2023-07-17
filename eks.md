@@ -9,7 +9,7 @@
 - [5. Kustomize with Spinnaker](#5-kustomize-with-spinnaker)
 - [6. CI/CD](#6-cicd)
 - [7. Terraform + EKS](#7-terraform--eks)
-- [8. SQS + EKS](#8-sqs--eks)
+- [8. Workshop](#8-workshop)
 
 <!-- /TOC -->
 
@@ -41,4 +41,8 @@
 # 7. Terraform + EKS
 
 1. [Amazon EKS Blueprints for Terraform](https://aws-ia.github.io/terraform-aws-eks-blueprints/v4.1.0/)
+
+# 8. Workshop
+
+1. [EKS Blueprints for CDK Workshop](https://catalog.workshops.aws/eks-blueprints-for-cdk/en-US)
 

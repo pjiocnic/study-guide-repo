@@ -4,6 +4,7 @@
 - [1. Hub and Spoke](#1-hub-and-spoke)
 - [2. PrivateLinks](#2-privatelinks)
   - [2.1. SQS](#21-sqs)
+  - [2.2. S3](#22-s3)
 - [3. VPC Lattice](#3-vpc-lattice)
 
 <!-- /TOC -->
@@ -20,6 +21,8 @@
 1. [/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/networking/privatelink/[TODO] sqs-endpoint/SQS-VPCE-Tutorial-CloudFormation.yaml](/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/networking/privatelink/[TODO] sqs-endpoint/SQS-VPCE-Tutorial-CloudFormation.yaml)
 - https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-sending-messages-from-vpc.html
 
+## 2.2. S3
+2. [Amazon S3 Multi-Region Access Points](https://catalog.workshops.aws/s3multiregionaccesspoints/en-US)
 
 # 3. VPC Lattice
 

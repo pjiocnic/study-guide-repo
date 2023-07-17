@@ -8,6 +8,7 @@
 - [4. Deployment - Single-AZ instance, Multi-AZ instance, or Multi-AZ](#4-deployment---single-az-instance-multi-az-instance-or-multi-az)
 - [5. Replication](#5-replication)
 - [6. CDC](#6-cdc)
+- [Workshop](#workshop)
 
 <!-- /TOC -->
 
@@ -33,3 +34,7 @@
 # 6. CDC
 
 1. [[MAKE BITE-NOTES] Send Relational Database CDC Information to Kinesis Data Streams](https://www.youtube.com/watch?v=xfAJfKDwdIA)
+
+# Workshop
+
+1. [Module 3: AIOps for Relational Databases](https://catalog.workshops.aws/performance-tuning/en-US/60-database)

@@ -27,3 +27,8 @@
 20. [ICYMI: Serverless Q4 2022](https://aws.amazon.com/blogs/compute/serverless-icymi-q4-2022/)
 21. [ICYMI: Serverless Q1 2023](https://aws.amazon.com/blogs/compute/serverless-icymi-q1-2023/)
 22. [ICYMI: Serverless Q3 2023](https://aws.amazon.com/blogs/compute/serverless-icymi-q2-2023/)
+
+# Workshop
+
+1. [Module 1: Serverless Performance Tuning](https://catalog.workshops.aws/performance-tuning/en-US/40-serverless)
+2. [Serverless Patterns](https://catalog.workshops.aws/serverless-patterns/en-US)

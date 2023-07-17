@@ -6,3 +6,7 @@
 - CFN available
 5. [Query any data source with Amazon Athena’s new federated query by Janak Agarwal](https://aws.amazon.com/blogs/big-data/query-any-data-source-with-amazon-athenas-new-federated-query/)
 6. [Optimize Federated Query Performance using EXPLAIN and EXPLAIN ANALYZE in Amazon Athena by Nishchai JM and Varad Ram ](https://aws.amazon.com/blogs/big-data/optimize-federated-query-performance-using-explain-and-explain-analyze-in-amazon-athena/)
+
+# Workshop
+
+1. [Amazon Athena Workshop :: Hands on Labs](https://catalog.us-east-1.prod.workshops.aws/workshops/9981f1a1-abdc-49b5-8387-cb01d238bb78/en-US)

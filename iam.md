@@ -5,7 +5,8 @@
   - [1.1. Examples](#11-examples)
 - [2. Policies](#2-policies)
 - [3. Workshops](#3-workshops)
-- [4. Online courses](#4-online-courses)
+- [4. Tutorials](#4-tutorials)
+- [5. Online courses](#5-online-courses)
 
 <!-- /TOC -->
 
@@ -27,7 +28,12 @@
 
 1. [How and when to use different IAM policy types](https://catalog.workshops.aws/iam-policy-types/en-US)
 2. [IAM policy evaluation workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/6dc3124a-6bd4-46eb-b5c4-be438a82ba3d/en-US)
+3. [Refining IAM Permissions Like A Pro](https://catalog.workshops.aws/refining-iam-permissions-like-a-pro/en-US)
 
-# 4. Online courses
+# 4. Tutorials
+
+1. [IAM tutorials](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorials.html)
+
+# 5. Online courses
 
 1. [Effective IAM for Amazon Web Services](https://www.effectiveiam.com/)
