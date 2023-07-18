@@ -10,6 +10,7 @@
 # VSCode
 
 1. [THIS is EASY TypeScript Setup in VSCode By Alex Ziskind](https://www.youtube.com/watch?v=4zdBk6wisxc)
+2. [Typescript tips by Code 2020](https://www.youtube.com/@Code2020/search?query=typescript)
 
 # Workshop
 

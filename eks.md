@@ -45,4 +45,6 @@
 # 8. Workshop
 
 1. [EKS Blueprints for CDK Workshop](https://catalog.workshops.aws/eks-blueprints-for-cdk/en-US)
-
+2. [Running batch workloads on Amazon EKS with AWS Batch](https://catalog.workshops.aws/running-batch-on-eks/en-US)
+3. [EKS Immersion Workshop](https://catalog.workshops.aws/eks-immersionday/en-US)
+4. [EKS Workshop - Practical exercises to learn about Amazon Elastic Kubernetes Service](https://www.eksworkshop.com/)
