@@ -110,3 +110,4 @@ https://www.epochconverter.com/weeks/2023
 2. [Event storming](https://medium.com/serverless-transformation/eventbridge-storming-how-to-build-state-of-the-art-event-driven-serverless-architectures-e07270d4dee)
 3. https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/
 4. https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html
+5. [Powering Secondary DNS in a VPC using AWS Lambda and Amazon Route 53 Private Hosted Zones by Bryan Liston](https://aws.amazon.com/blogs/compute/powering-secondary-dns-in-a-vpc-using-aws-lambda-and-amazon-route-53-private-hosted-zones/)

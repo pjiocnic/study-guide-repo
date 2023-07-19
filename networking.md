@@ -6,6 +6,7 @@
   - [2.1. SQS](#21-sqs)
   - [2.2. S3](#22-s3)
 - [3. VPC Lattice](#3-vpc-lattice)
+- [4. DNS](#4-dns)
 
 <!-- /TOC -->
 
@@ -31,3 +32,8 @@
 
 1. [Introducing VPC Lattice – Simplify Networking for Service-to-Service Communication (Preview) by Danilo Poccia ](https://aws.amazon.com/blogs/aws/introducing-vpc-lattice-simplify-networking-for-service-to-service-communication-preview/)
 2. [Amazon VPC Lattice Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/9e543f60-e409-43d4-b37f-78ff3e1a07f5/en-US)
+
+# 4. DNS
+
+1. [Powering Secondary DNS in a VPC using AWS Lambda and Amazon Route 53 Private Hosted Zones by Bryan Liston](https://aws.amazon.com/blogs/compute/powering-secondary-dns-in-a-vpc-using-aws-lambda-and-amazon-route-53-private-hosted-zones/)
+2. [Building a Dynamic DNS for Route 53 using CloudWatch Events and Lambda by Bryan Liston ](https://aws.amazon.com/blogs/compute/building-a-dynamic-dns-for-route-53-using-cloudwatch-events-and-lambda/)

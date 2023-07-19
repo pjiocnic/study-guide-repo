@@ -8,7 +8,9 @@
 - [4. Deployment - Single-AZ instance, Multi-AZ instance, or Multi-AZ](#4-deployment---single-az-instance-multi-az-instance-or-multi-az)
 - [5. Replication](#5-replication)
 - [6. CDC](#6-cdc)
-- [Workshop](#workshop)
+- [7. Workshop](#7-workshop)
+- [8. PostGreSQL Architecture](#8-postgresql-architecture)
+- [9. Documentation](#9-documentation)
 
 <!-- /TOC -->
 
@@ -35,6 +37,14 @@
 
 1. [[MAKE BITE-NOTES] Send Relational Database CDC Information to Kinesis Data Streams](https://www.youtube.com/watch?v=xfAJfKDwdIA)
 
-# Workshop
+# 7. Workshop
 
 1. [Module 3: AIOps for Relational Databases](https://catalog.workshops.aws/performance-tuning/en-US/60-database)
+
+# 8. PostGreSQL Architecture
+
+1. [PostgreSQL architecture considerations for application developers: Part 1 by Peter Celentano and Tracy Jenkins](https://aws.amazon.com/blogs/database/postgresql-architecture-considerations-for-application-developers-part-1/)
+
+# 9. Documentation
+
+1. [PostgreSQL 15.3 Documentation](https://www.postgresql.org/docs/current/index.html)
