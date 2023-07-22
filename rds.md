@@ -11,6 +11,7 @@
 - [7. Workshop](#7-workshop)
 - [8. PostGreSQL Architecture](#8-postgresql-architecture)
 - [9. Documentation](#9-documentation)
+- [10. Audit](#10-audit)
 
 <!-- /TOC -->
 
@@ -48,3 +49,7 @@
 # 9. Documentation
 
 1. [PostgreSQL 15.3 Documentation](https://www.postgresql.org/docs/current/index.html)
+
+# 10. Audit
+
+1. [Create an audit trail for an Amazon Aurora PostgreSQL table by Rana Dutt](https://aws.amazon.com/blogs/database/create-an-audit-trail-for-an-amazon-aurora-postgresql-table/)

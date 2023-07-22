@@ -40,6 +40,7 @@
   - [14.8. Handling Large Objects](#148-handling-large-objects)
   - [14.9. Building Queryable index](#149-building-queryable-index)
   - [14.10. Counters](#1410-counters)
+  - [14.11. Event filtering](#1411-event-filtering)
 - [15. Global Tables](#15-global-tables)
 - [16. DynamoDB Shell](#16-dynamodb-shell)
 - [17. DynamoDB Streams](#17-dynamodb-streams)
@@ -326,6 +327,10 @@ See [workshops-backlog.md](./workshops-backlog.md)
 ## 14.10. Counters
 
 1. [Implementing accurate counters in DynamoDB using Python Written by Maurice Borgmeier](https://www.tecracer.com/blog/2022/04/implementing-accurate-counters-in-dynamodb-using-python.html1)
+
+## 14.11. Event filtering
+
+1. [Friend microservices using Amazon DynamoDB and event filtering by Takahiro Ishi](https://aws.amazon.com/blogs/database/friend-microservices-using-amazon-dynamodb-and-event-filtering/)
 
 # 15. Global Tables
 

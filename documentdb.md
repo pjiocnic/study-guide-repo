@@ -33,6 +33,7 @@
   - [24.1. Opensearch Integration using Change Streams](#241-opensearch-integration-using-change-streams)
   - [24.2. MSK Integration using Change Streams](#242-msk-integration-using-change-streams)
   - [24.3. S3](#243-s3)
+  - [24.4. ECS](#244-ecs)
 - [25. Java](#25-java)
 
 <!-- /TOC -->
@@ -190,6 +191,10 @@
 ## 24.3. S3
 
 1. [Stream data from Amazon DocumentDB to Amazon Kinesis Data Firehose using AWS Lambda by Anshu Vajpayee and Sourav Biswas](https://aws.amazon.com/blogs/database/stream-data-from-amazon-documentdb-to-amazon-kinesis-data-firehose-using-aws-lambda/)
+
+## 24.4. ECS
+
+1. [Deploy a containerized application with Amazon ECS and connect to Amazon DocumentDB (with MongoDB compatibility) securely by Hidenori Koizumi)](https://aws.amazon.com/blogs/database/deploy-a-containerized-application-with-amazon-ecs-and-connect-to-amazon-documentdb-securely/)
 
 # 25. Java
 

@@ -43,6 +43,12 @@
 - [19. Curate](#19-curate)
 - [20. Courses](#20-courses)
 - [21. Examples](#21-examples)
+- [22. RDS](#22-rds)
+- [23. SSM](#23-ssm)
+- [24. Centralized Logging](#24-centralized-logging)
+- [25. ElasticCache](#25-elasticcache)
+- [26. Videos to watch](#26-videos-to-watch)
+- [Blogs](#blogs)
 
 <!-- /TOC -->
 
@@ -97,8 +103,6 @@
  - Code [serverless-container-constructs](https://github.com/aws-samples/serverless-container-constructs)
 
 ## 8.1. Microservices
-
-
 
 # 9. CDK + AWS Services
 
@@ -302,3 +306,31 @@
 # 21. Examples
 
 1. [aws-cdk-changelogs-demo](https://github.com/aws-samples/aws-cdk-changelogs-demo)
+2. [AWS Solutions Constructs - Restaurant Management System Example](https://github.com/awslabs/aws-solutions-constructs/tree/main/source/use_cases/aws-restaurant-management-demo)
+2. [This use case implements an example using the Kinesis Data Streams Glue Job construct.](https://github.com/awslabs/aws-solutions-constructs/tree/main/source/use_cases/aws-custom-glue-etl)
+3. [Creating an AWS Fargate service using the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/ecs_example.html)
+4. [Creating a serverless application using the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/serverless_example.html)
+
+# 22. RDS
+
+1. [Run an Active-Passive, multi region API using Aurora RDS Global Cluster by Siva Ramani and Subramanian Thangavelu ](https://aws.amazon.com/blogs/developer/10322-2/)
+
+# 23. SSM
+
+1. [Using SSM Parameters in AWS CDK - Complete Guide](https://bobbyhadz.com/blog/aws-cdk-ssm-parameters)
+
+# 24. Centralized Logging
+
+1. [Centralize Amazon CloudWatch Logs using AWS CDK by Naveen Balaraman](https://aws.amazon.com/blogs/developer/build-infrastructure-for-centralized-logging-using-aws-cdk/)
+
+# 25. ElasticCache
+
+1. [Deploy Amazon ElastiCache for Redis using AWS CDK by Hantzley Tauckoor and Calvin Ngo](https://aws.amazon.com/blogs/database/deploy-amazon-elasticache-for-redis-using-aws-cdk/)
+
+# 26. Videos to watch
+
+1. [AWS re:Invent 2022 - How to reuse patterns when developing infrastructure as code (DOP302)](https://www.youtube.com/watch?v=ndd9XwQZbyM)
+
+# Blogs
+
+1. [CDK Articles by Borislav Hadzhiev](https://bobbyhadz.com/)
