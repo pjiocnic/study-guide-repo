@@ -49,6 +49,10 @@
 # 5. Static Websites
 
 1. [Hosting Internal HTTPS Static Websites with ALB, S3, and PrivateLink by Schuyler Jager](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/)
+2. [AWS project - Module 1. Host a Static Website on AWS S3 via CloudFormation By Samira Yusifova](https://dev.to/tiamatt/aws-project-module-1-host-a-static-website-on-aws-s3-via-cloudformation-2pa2)
+3. [AWS project - Module 2. Automate the build of a Static Website Hosted on AWS S3 via CodeBuild and CloudFormation](https://dev.to/tiamatt/aws-project-module-2-automate-the-build-of-a-static-website-on-aws-s3-via-codebuild-and-cloudformation-nc2)
+4. [AWS project - Module 3. Use Your Custom Domain for Static Website Hosted on AWS S3 via Route 53 and CloudFormation](https://dev.to/tiamatt/aws-project-module-3-use-your-custom-domain-for-static-website-on-aws-s3-via-route-53-and-cloudformation-34cn)
+5. [AWS project - Module 4. Use CloudFront distribution to serve a Static Website Hosted on AWS S3 via CloudFormation](https://dev.to/tiamatt/aws-project-module-4-use-cloudfront-distribution-to-serve-a-static-website-hosted-on-aws-s3-via-cloudformation-226m)
 
 # 6. Reporting
 

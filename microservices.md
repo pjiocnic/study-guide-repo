@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [Workshops](#workshops)
+- [Messaging](#messaging)
 
 <!-- /TOC -->
 
@@ -16,3 +17,7 @@
 - Lab 2 - Topic-queue chaining & load balancing
 - Lab 3 - Scatter-gather
 - Lab 4 - Orchestration and coordination
+
+# Messaging
+
+1. [Understanding asynchronous messaging for microservices by Rachel Richardson ](https://aws.amazon.com/blogs/compute/understanding-asynchronous-messaging-for-microservices/)
