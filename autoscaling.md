@@ -12,9 +12,10 @@
 - [7. Lambda](#7-lambda)
 - [8. Scaling DynamoDB](#8-scaling-dynamodb)
 - [9. Scaling DocumentDB](#9-scaling-documentdb)
-- [9. ECS](#9-ecs)
-- [10. Curate](#10-curate)
-- [Concepts](#concepts)
+- [10. ECS](#10-ecs)
+- [11. SNS](#11-sns)
+- [12. Curate](#12-curate)
+- [13. Concepts](#13-concepts)
 
 <!-- /TOC -->
 
@@ -73,11 +74,16 @@
 
 1. [[MY NEXT]Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
 
-# 9. ECS
+# 10. ECS
 
-11. [Deep Dive on Amazon ECS Cluster Auto Scaling by Nick Coult](https://aws.amazon.com/blogs/containers/deep-dive-on-amazon-ecs-cluster-auto-scaling/)
+1. [Deep Dive on Amazon ECS Cluster Auto Scaling by Nick Coult](https://aws.amazon.com/blogs/containers/deep-dive-on-amazon-ecs-cluster-auto-scaling/)
+2. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
 
-# 10. Curate
+# 11. SNS
+
+1. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
+
+# 12. Curate
 
 1. [Deploy auto scaling web service](https://catalog.workshops.aws/general-immersionday/en-US/advanced-modules/compute/auto-scaling)
 1. https://github.com/tryolabs/aws-workshop/blob/master/workshop/elb-auto-scaling-group/02-auto-scaling-group.md
@@ -87,7 +93,7 @@
 
 5. [Autoscaling AWS Elastic Beanstalk worker tier based on SQS queue length](https://blog.cbeer.info/2016/autoscaling-elasticbeanstalk-workers-sqs-length/)
 
-# Concepts
+# 13. Concepts
 
 1. [How is "Target Groups" different from "Auto-Scaling Groups" in AWS?](https://stackoverflow.com/questions/48529074/how-is-target-groups-different-from-auto-scaling-groups-in-aws)
 2. [[White Paper] Blue/Green Deployments on AWS](https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/introduction.html)
