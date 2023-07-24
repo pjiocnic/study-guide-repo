@@ -14,6 +14,7 @@
 - [9. Scaling DocumentDB](#9-scaling-documentdb)
 - [9. ECS](#9-ecs)
 - [10. Curate](#10-curate)
+- [Concepts](#concepts)
 
 <!-- /TOC -->
 
@@ -49,7 +50,7 @@
 3. [Amazon EC2 Auto Scaling with EC2 Spot Instances](https://aws.amazon.com/getting-started/hands-on/ec2-auto-scaling-spot-instances/)
 4. [Scaling your applications faster with EC2 Auto Scaling Warm Pools by Chad Schmutzer](https://aws.amazon.com/blogs/compute/scaling-your-applications-faster-with-ec2-auto-scaling-warm-pools/)
 5. [AWS EC2 Auto Scaling By devops-training](https://tkssharma-devops.gitbook.io/devops-training/syllabus/untitled/aws-compute/aws-ec2-auto-scaling)
-6. [Amazon EC2 Auto Scaling with EC2 Spot Instances](https://aws.amazon.com/getting-started/hands-on/ec2-auto-scaling-spot-instances/)
+6. [[TUTORIAL] Amazon EC2 Auto Scaling with EC2 Spot Instances](https://aws.amazon.com/getting-started/hands-on/ec2-auto-scaling-spot-instances/)
 
 ## 6.2. Using Prometheus metrics
 
@@ -58,6 +59,8 @@
 # 7. Lambda
 
 1. [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage By Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)
+2. [Use AWS Lambda to adjust scaling steps and thresholds for Amazon AppStream 2.0 by Kellie Cottingame and Marques Oliveira](https://aws.amazon.com/blogs/desktop-and-application-streaming/use-aws-lambda-to-adjust-scaling-steps-and-thresholds-for-amazon-appstream-2-0/)
+- Fleet Auto Scaling
 
 # 8. Scaling DynamoDB
 
@@ -77,9 +80,14 @@
 # 10. Curate
 
 1. [Deploy auto scaling web service](https://catalog.workshops.aws/general-immersionday/en-US/advanced-modules/compute/auto-scaling)
-https://github.com/tryolabs/aws-workshop/blob/master/workshop/elb-auto-scaling-group/02-auto-scaling-group.md
-https://awslabs.github.io/scale-out-computing-on-aws/workshops/reinvent19-MFG405/#lab-environment-at-a-glance
-https://ecsworkshop.com/capacity_providers/ec2/
-https://tech.smartling.com/aws-terraform-workshop-2-ec2-networking-autoscaling-groups-cloudwatch-12ee08c17
+1. https://github.com/tryolabs/aws-workshop/blob/master/workshop/elb-auto-scaling-group/02-auto-scaling-group.md
+2. https://awslabs.github.io/scale-out-computing-on-aws/workshops/reinvent19-MFG405/#lab-environment-at-a-glance
+3. https://ecsworkshop.com/capacity_providers/ec2/
+4. https://tech.smartling.com/aws-terraform-workshop-2-ec2-networking-autoscaling-groups-cloudwatch-12ee08c17
 
-2. [Autoscaling AWS Elastic Beanstalk worker tier based on SQS queue length](https://blog.cbeer.info/2016/autoscaling-elasticbeanstalk-workers-sqs-length/)
+5. [Autoscaling AWS Elastic Beanstalk worker tier based on SQS queue length](https://blog.cbeer.info/2016/autoscaling-elasticbeanstalk-workers-sqs-length/)
+
+# Concepts
+
+1. [How is "Target Groups" different from "Auto-Scaling Groups" in AWS?](https://stackoverflow.com/questions/48529074/how-is-target-groups-different-from-auto-scaling-groups-in-aws)
+2. [[White Paper] Blue/Green Deployments on AWS](https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/introduction.html)

@@ -48,7 +48,7 @@
 - [24. Centralized Logging](#24-centralized-logging)
 - [25. ElasticCache](#25-elasticcache)
 - [26. Videos to watch](#26-videos-to-watch)
-- [Blogs](#blogs)
+- [27. Blogs](#27-blogs)
 
 <!-- /TOC -->
 
@@ -264,6 +264,7 @@
 3. [Build Your Infrastructure with AWS CloudFormation and the AWS CDK ](https://build-infra-cfn-cdk.workshop.aws/en/)
 4. [Extended CDK Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/071bbc60-6c1f-47b6-8c66-e84f5dc96b3f/en-US)
 - [Extended CDK Workshop - Coffee Listing App](https://github.com/aws-samples/extended-cdk-workshop-coffee-listing-app)
+5. [Workshop - Deploying Containers with AWS CDK v2 and React with AWS Amplify](https://containers-cdk-react-amplify.ws.kabits.com/)
 
 # 14. Patterns
 
@@ -283,6 +284,7 @@
 # 16. Testing
 
 1. [Automated, shared testing pipeline for AWS Lambda codefiles and AWS CDK constructs](https://github.com/aws-samples/aws-cdk-lambda-automated-testing)
+2. [How to write and execute integration tests for AWS CDK applications by Svenja Raether, Ahmed Bakry, Iris Kraja, and Philip Chen ](https://aws.amazon.com/blogs/devops/how-to-write-and-execute-integration-tests-for-aws-cdk-applications/)
 
 # 17. SAM + CDK
 
@@ -331,6 +333,6 @@
 
 1. [AWS re:Invent 2022 - How to reuse patterns when developing infrastructure as code (DOP302)](https://www.youtube.com/watch?v=ndd9XwQZbyM)
 
-# Blogs
+# 27. Blogs
 
 1. [CDK Articles by Borislav Hadzhiev](https://bobbyhadz.com/)

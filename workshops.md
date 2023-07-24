@@ -29,6 +29,7 @@
   - [18.1. Lattice](#181-lattice)
 - [19. Security](#19-security)
 - [20. S3](#20-s3)
+- [21. Event Driven](#21-event-driven)
 
 <!-- /TOC -->
 
@@ -148,6 +149,13 @@
     <img src="./images/workshop-3.png" title="architecture-3.png" width="900"/>
     - [AWS re:Invent 2018: [REPEAT 1] Databases on AWS: The Right Tool for the Right Job (DAT205-R1)](https://www.youtube.com/watch?v=-pb-DkD6cWg)
     - See this in conjuction with AWS Bookstore Demo App (link above)
+10. [Decoupled Microservices](https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US)
+- Lab 1 - Fan-out & message filtering
+- Lab 2 - Topic-queue chaining & load balancing
+- Lab 3 - Scatter-gather
+- Lab 4 - Orchestration and coordination
+11. [Module 1: Serverless Performance Tuning](https://catalog.workshops.aws/performance-tuning/en-US/40-serverless)
+12. [Serverless Patterns](https://catalog.workshops.aws/serverless-patterns/en-US)
 
 ## 11.1. Performance tuning
 
@@ -228,3 +236,7 @@
 1. [S3 Object Lambda custom authorization Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a02f594e-0618-4e6f-ba55-9355a12e0378/en-US/)
 
     <img src="./images/workshop-4.png" title="architecture-3.png" width="900"/>
+
+# 21. Event Driven
+
+1. [Asynchronous Messaging Workshop](https://github.com/aws-samples/asynchronous-messaging-workshop)
