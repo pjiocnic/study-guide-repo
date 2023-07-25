@@ -36,6 +36,7 @@
 - [12. Resources](#12-resources)
 - [13. Workshops](#13-workshops)
 - [14. Patterns](#14-patterns)
+  - [Webhooks](#webhooks)
 - [15. CI/CD](#15-cicd)
 - [16. Testing](#16-testing)
 - [17. SAM + CDK](#17-sam--cdk)
@@ -287,6 +288,10 @@
 1. [CDK Patterns at 20 By Matt Coulter](https://dev.to/nideveloper/cdk-patterns-at-20-let-s-walk-through-all-20-serverless-patterns-for-aws-d1n)
 2. [Developing enterprise application patterns with the AWS CDK by Krishnakumar Rengarajan and Usman Umar ](https://aws.amazon.com/blogs/devops/developing-application-patterns-cdk/)
 - https://github.com/aws-samples/aws-cdk-developing-application-patterns-blog
+
+## Webhooks
+
+1. [https://www.jeremydaly.com/the-scalable-webhook/](https://dev.to/nideveloper/cdk-patterns-at-20-let-s-walk-through-all-20-serverless-patterns-for-aws-d1n)
 
 # 15. CI/CD
 
