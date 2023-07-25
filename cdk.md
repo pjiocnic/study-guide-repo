@@ -41,21 +41,21 @@
 - [17. SAM + CDK](#17-sam--cdk)
 - [18. Building Extensions](#18-building-extensions)
 - [19. Curate](#19-curate)
-- [React](#react)
-- [Networking](#networking)
-- [EKS](#eks)
-- [20. Courses](#20-courses)
-- [21. Examples](#21-examples)
-- [22. RDS](#22-rds)
-- [23. SSM](#23-ssm)
-- [24. Centralized Logging](#24-centralized-logging)
-- [25. ElasticCache](#25-elasticcache)
-- [26. Videos to watch](#26-videos-to-watch)
-- [27. Blogs](#27-blogs)
-- [28. Documentation](#28-documentation)
-- [CloudFormation](#cloudformation)
-- [Event Driven Architecture + Lambda](#event-driven-architecture--lambda)
-- [kafka](#kafka)
+- [20. React](#20-react)
+- [21. Networking](#21-networking)
+- [22. EKS](#22-eks)
+- [23. Courses](#23-courses)
+- [24. Examples](#24-examples)
+- [25. RDS](#25-rds)
+- [26. SSM](#26-ssm)
+- [27. Centralized Logging](#27-centralized-logging)
+- [28. ElasticCache](#28-elasticcache)
+- [29. Videos to watch](#29-videos-to-watch)
+- [30. Blogs](#30-blogs)
+- [31. Documentation](#31-documentation)
+- [32. CloudFormation](#32-cloudformation)
+- [33. Event Driven Architecture + Lambda](#33-event-driven-architecture--lambda)
+- [34. kafka](#34-kafka)
 
 <!-- /TOC -->
 
@@ -318,13 +318,13 @@
 3. [The AWS CDK - The Bad Parts By Matthew Bonig](https://www.youtube.com/watch?v=AVMkjtJ21Co)
 4. [Working with the AWS Cloud Development Kit and AWS Construct Library by Lee Packham](https://aws.amazon.com/blogs/developer/working-with-the-aws-cloud-development-kit-and-aws-construct-library/)
 
-# React
+# 20. React
 
 1. [Building server-side rendering for React in AWS Lambda by James Beswick ](https://aws.amazon.com/blogs/compute/building-server-side-rendering-for-react-in-aws-lambda/)
 2. [Deploying Sample UI Forms using React, Formik, and AWS CDK by Kevin Rivera, Mark Carlson, Shruti Arora, and Britney Tong](https://aws.amazon.com/blogs/architecture/deploying-sample-ui-forms-using-react-formik-and-aws-cdk/)
 3. [Deploy a NextJS 13 application to Amplify with the AWS CDK by Michael Liendo ](https://aws.amazon.com/blogs/mobile/deploy-a-nextjs-13-application-to-amplify-with-the-aws-cdk/)
 
-# Networking
+# 21. Networking
 
 1. [Deploy an SPA with personalized subdomains using AWS CDK by Paul Kukiel](https://aws.amazon.com/blogs/infrastructure-and-automation/deploy-spa-with-personalized-subdomains-using-aws-cdk/)
 2. [Building an egress VPC with AWS Transit Gateway and the AWS CDK by Ivan Zaytsev ](https://aws.amazon.com/blogs/networking-and-content-delivery/building-an-egress-vpc-with-aws-transit-gateway-and-the-aws-cdk/)
@@ -334,16 +334,16 @@
 6. [Improve web application availability with CloudFront and Route53 hybrid origin failover by Chakib Sahraoui and Abhinav Bannerjee](https://aws.amazon.com/blogs/networking-and-content-delivery/improve-web-application-availability-with-cloudfront-and-route53-hybrid-origin-failover/)
 7. [Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal ](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
 
-# EKS
+# 22. EKS
 
 1. [Continuous Delivery of Amazon EKS Clusters Using AWS CDK and CDK Pipelines by Jairo da Silva Junior and Davi Garcia](https://aws.amazon.com/blogs/containers/continuous-delivery-of-amazon-eks-clusters-using-aws-cdk-and-cdk-pipelines/)
 
-# 20. Courses
+# 23. Courses
 
 1. [AWS & Typescript Masterclass - CDK V2, Serverless, React](https://www.udemy.com/course/aws-typescript-cdk-serverless-react/)
 2. [Get Started with AWS CDK](https://aws.amazon.com/getting-started/guides/setup-cdk/)
 
-# 21. Examples
+# 24. Examples
 
 1. [aws-cdk-changelogs-demo](https://github.com/aws-samples/aws-cdk-changelogs-demo)
 2. [AWS Solutions Constructs - Restaurant Management System Example](https://github.com/awslabs/aws-solutions-constructs/tree/main/source/use_cases/aws-restaurant-management-demo)
@@ -351,46 +351,46 @@
 3. [Creating an AWS Fargate service using the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/ecs_example.html)
 4. [Creating a serverless application using the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/serverless_example.html)
 
-# 22. RDS
+# 25. RDS
 
 1. [Run an Active-Passive, multi region API using Aurora RDS Global Cluster by Siva Ramani and Subramanian Thangavelu ](https://aws.amazon.com/blogs/developer/10322-2/)
 
-# 23. SSM
+# 26. SSM
 
 1. [Using SSM Parameters in AWS CDK - Complete Guide](https://bobbyhadz.com/blog/aws-cdk-ssm-parameters)
 
-# 24. Centralized Logging
+# 27. Centralized Logging
 
 1. [Centralize Amazon CloudWatch Logs using AWS CDK by Naveen Balaraman](https://aws.amazon.com/blogs/developer/build-infrastructure-for-centralized-logging-using-aws-cdk/)
 
-# 25. ElasticCache
+# 28. ElasticCache
 
 1. [Deploy Amazon ElastiCache for Redis using AWS CDK by Hantzley Tauckoor and Calvin Ngo](https://aws.amazon.com/blogs/database/deploy-amazon-elasticache-for-redis-using-aws-cdk/)
 
-# 26. Videos to watch
+# 29. Videos to watch
 
 1. [AWS re:Invent 2022 - How to reuse patterns when developing infrastructure as code (DOP302)](https://www.youtube.com/watch?v=ndd9XwQZbyM)
 
-# 27. Blogs
+# 30. Blogs
 
 1. [CDK Articles by Borislav Hadzhiev](https://bobbyhadz.com/)
 
-# 28. Documentation
+# 31. Documentation
 
 1. [class Vpc (construct)](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ec2.Vpc.html)
 2. [[AWS Prescriptive Guidance] Best practices for using the AWS CDK in TypeScript to create IaC projects](https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-cdk-typescript-iac/introduction.html)
 
 
-# CloudFormation
+# 32. CloudFormation
 
 1. [Read parameters across AWS Regions with AWS CloudFormation custom resources by Jagdeep Singh Soni and Michael Fraedrich](https://aws.amazon.com/blogs/infrastructure-and-automation/read-parameters-across-aws-regions-with-aws-cloudformation-custom-resources/)
 2. [[cdk-nag] Check AWS CDK applications or CloudFormation templates for best practices by using cdk-nag rule packs](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/check-aws-cdk-applications-or-cloudformation-templates-for-best-practices-by-using-cdk-nag-rule-packs.html)
 3. [[MULTI-STACK APP] Deploy multiple-stack applications using AWS CDK with TypeScript](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-multiple-stack-applications-using-aws-cdk-with-typescript.html)
 
-# Event Driven Architecture + Lambda
+# 33. Event Driven Architecture + Lambda
 
 1. [Extending a serverless, event-driven architecture to existing container workloads by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
 
-# kafka
+# 34. kafka
 
 1. [Building an Apache Kafka data processing Java application using the AWS CDK by Piotr Chotkowski](https://aws.amazon.com/blogs/developer/building-an-apache-kafka-data-processing-java-application-using-the-aws-cdk/)
