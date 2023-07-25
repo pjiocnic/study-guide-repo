@@ -35,6 +35,9 @@
 2. AWS Lambda in Action Danilo Poccia
     - Chapter 16. Calling external services
     - Chapter 17. Receiving events from other services
+3. [Manage webhooks at scale with AWS Serverless](https://dev.to/aws-builders/manage-webhooks-at-scale-with-aws-serverless-fof)
+4. [REFERENCE DEPLOYMENT - Git Webhooks on AWS](https://aws.amazon.com/solutions/implementations/git-to-s3-using-webhooks/)
+- HTTPS endpoint and code for linking your Git repository to AWS
 
 # 4. Websockets
 
