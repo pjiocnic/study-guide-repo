@@ -15,3 +15,8 @@
 # Workshop
 
 1. [Learn TypeScript on AWS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/56ef6f79-74e2-4710-aefb-10b9807057a9/en-US)
+
+# CDK
+
+1. [Best practices for using the AWS CDK in TypeScript to create IaC projects](https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-cdk-typescript-iac/introduction.html)
+2. [Deploy multiple-stack applications using AWS CDK with TypeScript](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-multiple-stack-applications-using-aws-cdk-with-typescript.html)

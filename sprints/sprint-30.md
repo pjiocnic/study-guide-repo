@@ -1,5 +1,9 @@
 <h1>Sprint 30 - Jul 24, 2023 - Jul 30, 2023</h1>
 
+Complete CFN workshop
+Work on DocumentDB workshop
+Read Serverless Lens
+
 # Topics
 
 1. [When to choose between RDS and Aurora](https://learning.oreilly.com/library/view/aws-for-solutions/9781803238951/Text/Chapter_07.xhtml#_idParaDest-272)
@@ -11,3 +15,8 @@
 # Seminars
 
 1. [Modernize with AWS Lambda](https://aws.amazon.com/lambda/modernize-with-aws-lambda/)
+
+# Plan for this week
+
+1. [complete section 16 of Udemy course](https://www.udemy.com/course/aws-typescript-cdk-serverless-react/learn/lecture/37719618#overview)
+2. []()

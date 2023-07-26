@@ -104,6 +104,7 @@ https://www.epochconverter.com/weeks/2023
 17. Serverless patterns aws workshop
 18. AWS Well-Architected Labs
 19. CDK workshops
+20. [Prescriptive Guides](https://aws.amazon.com/prescriptive-guidance/?apg-all-cards.sort-by=item.additionalFields.sortDate&apg-all-cards.sort-order=desc&awsf.apg-new-filter=*all&awsf.apg-content-type-filter=*all&awsf.apg-code-filter=*all&awsf.apg-category-filter=*all&awsf.apg-rtype-filter=*all&awsf.apg-isv-filter=*all&awsf.apg-product-filter=*all&awsf.apg-env-filter=*all)
 
 # Blogs to explore
 
