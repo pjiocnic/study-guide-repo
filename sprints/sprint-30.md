@@ -19,4 +19,4 @@ Read Serverless Lens
 # Plan for this week
 
 1. [complete section 16 of Udemy course](https://www.udemy.com/course/aws-typescript-cdk-serverless-react/learn/lecture/37719618#overview)
-2. []()
+2. [Serverless Applications Lens - AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html)
