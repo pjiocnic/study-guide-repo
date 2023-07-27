@@ -1,4 +1,32 @@
 
+<!-- TOC -->
+
+- [1. Start Here](#1-start-here)
+- [2. CDK Examples](#2-cdk-examples)
+- [3. S3 Encryption](#3-s3-encryption)
+- [4. Step Functions](#4-step-functions)
+- [5. DocumentDB](#5-documentdb)
+  - [5.1. Networking](#51-networking)
+  - [5.2. Hub and Spoke](#52-hub-and-spoke)
+  - [5.3. Networking sessions](#53-networking-sessions)
+- [6. Centralized Logging](#6-centralized-logging)
+- [7. Cloud Watch](#7-cloud-watch)
+- [8. DynamoDB](#8-dynamodb)
+- [9. IAM](#9-iam)
+- [10. System Design](#10-system-design)
+- [11. Private Endpoints](#11-private-endpoints)
+- [12. Organizations](#12-organizations)
+- [13. Lambda](#13-lambda)
+  - [13.1. Powertools](#131-powertools)
+- [14. Books](#14-books)
+- [15. Event Driven](#15-event-driven)
+- [16. Patterns](#16-patterns)
+- [17. Fargate](#17-fargate)
+- [18. Java SDK examples](#18-java-sdk-examples)
+- [ECS](#ecs)
+
+<!-- /TOC -->
+
 # 1. Start Here
 
 1. [[BOOK] SpringBoot XA Transaction Heuristics]
@@ -21,6 +49,7 @@
 # 5. DocumentDB
 
 1. [[MY NEXT]Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
+- Study thePY scripts
 
 ## 5.1. Networking
 
@@ -105,3 +134,8 @@
 # 18. Java SDK examples
 
 1. [[MY NEXT] AWS SDK for Java (v2) code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2))
+
+# ECS
+
+1. [Deploying Java Microservices on Amazon Elastic Container Service by Nathan Taber](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
+- Study the CFN template and PY script
