@@ -18,6 +18,7 @@
   - [9.4. Hub and Spoke](#94-hub-and-spoke)
   - [9.5. ECS](#95-ecs)
     - [9.5.1. Spring + ECS](#951-spring--ecs)
+    - [9.5.2. Fargate](#952-fargate)
   - [9.6. Lambda](#96-lambda)
     - [9.6.1. Using docker + Lamba](#961-using-docker--lamba)
   - [9.7. SQS](#97-sqs)
@@ -36,7 +37,7 @@
 - [12. Resources](#12-resources)
 - [13. Workshops](#13-workshops)
 - [14. Patterns](#14-patterns)
-  - [Webhooks](#webhooks)
+  - [14.1. Webhooks](#141-webhooks)
 - [15. CI/CD](#15-cicd)
 - [16. Testing](#16-testing)
 - [17. SAM + CDK](#17-sam--cdk)
@@ -44,6 +45,10 @@
 - [19. Curate](#19-curate)
 - [20. React](#20-react)
 - [21. Networking](#21-networking)
+  - [VPC Endpoints](#vpc-endpoints)
+  - [VPC](#vpc)
+  - [VPC Peering](#vpc-peering)
+  - [VPN](#vpn)
 - [22. EKS](#22-eks)
 - [23. Courses](#23-courses)
 - [24. Examples](#24-examples)
@@ -163,6 +168,10 @@
 6. [How to build microsservices with Spring Boot and AWS with Fargate and DOCKER - Part 5](https://dev.to/pedrospiet/how-to-build-microsservices-with-spring-boot-and-aws-with-fargate-and-docker-part-5-dln)
 7. [How to build microsservices with Spring Boot and AWS with Fargate and DOCKER - Part 6](https://dev.to/pedrospiet/how-to-build-microsservices-with-spring-boot-and-aws-with-fargate-and-docker-part-6-4c42)
 8. [How to build microsservices with Spring Boot and AWS with Fargate and DOCKER - Part 7](https://dev.to/pedrospiet/how-to-build-microsservices-with-spring-boot-and-aws-with-fargate-and-docker-part-7-1m07)
+
+### 9.5.2. Fargate
+
+1. [Scheduled Fargate Task example in AWS CDK Danny Steenman](https://towardsthecloud.com/aws-cdk-scheduled-fargate-task)
 
 ## 9.6. Lambda
 
@@ -290,7 +299,7 @@
 2. [Developing enterprise application patterns with the AWS CDK by Krishnakumar Rengarajan and Usman Umar ](https://aws.amazon.com/blogs/devops/developing-application-patterns-cdk/)
 - https://github.com/aws-samples/aws-cdk-developing-application-patterns-blog
 
-## Webhooks
+## 14.1. Webhooks
 
 1. [https://www.jeremydaly.com/the-scalable-webhook/](https://dev.to/nideveloper/cdk-patterns-at-20-let-s-walk-through-all-20-serverless-patterns-for-aws-d1n)
 
@@ -337,9 +346,27 @@
 2. [Building an egress VPC with AWS Transit Gateway and the AWS CDK by Ivan Zaytsev ](https://aws.amazon.com/blogs/networking-and-content-delivery/building-an-egress-vpc-with-aws-transit-gateway-and-the-aws-cdk/)
 3. [Using the AWS CDK and AWS Transit Gateway Inter-Region peering to build a global network by Joel Desaulniers and Maish Saidel-Keesing](https://aws.amazon.com/blogs/networking-and-content-delivery/using-the-aws-cdk-and-aws-transit-gateway-inter-region-peering-to-build-a-global-network/)
 4. [Deploy bastion hosts into private subnets with AWS CDK by Ramy Nasreldin, Rolando Santamaria Maso, and Prasanna Tuladhar](https://aws.amazon.com/blogs/infrastructure-and-automation/deploy-bastion-hosts-into-private-subnets-with-aws-cdk/)
-5. [Introducing AWS Site-to-Site VPN Private IP VPNs by Pablo Sánchez Carmona and Andy Taylor](https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-site-to-site-vpn-private-ip-vpns/)
-6. [Improve web application availability with CloudFront and Route53 hybrid origin failover by Chakib Sahraoui and Abhinav Bannerjee](https://aws.amazon.com/blogs/networking-and-content-delivery/improve-web-application-availability-with-cloudfront-and-route53-hybrid-origin-failover/)
-7. [Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal ](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
+5. [Improve web application availability with CloudFront and Route53 hybrid origin failover by Chakib Sahraoui and Abhinav Bannerjee](https://aws.amazon.com/blogs/networking-and-content-delivery/improve-web-application-availability-with-cloudfront-and-route53-hybrid-origin-failover/)
+6. [Provisioning a Virtual Private Cloud at Scale with AWS CDK by Francois Rouxel ](https://aws.amazon.com/blogs/apn/provisioning-a-virtual-private-cloud-at-scale-with-aws-cdk/)
+
+## VPC Endpoints
+
+1. [A Journey with AWS CDK and VPC Endpoints By Claudio Morgia](https://aws.plainenglish.io/a-journey-with-aws-cdk-and-vpc-endpoints-f804e382e35d)
+2. [[VPC Endpoints] Exploring AWS VPC Endpoints by Examples with AWS CDK](https://thecodinginterface.com/blog/aws-vpc-endpoints-with-cdk/)
+3. [Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal ](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
+
+## VPC
+
+1. [VPC Example in AWS CDK - Complete Guide By Borislav Hadzhiev](https://bobbyhadz.com/blog/aws-cdk-vpc-example)
+2. [[Custom VPC] Creating a Custom VPC with AWS CDK](https://levelup.gitconnected.com/creating-a-custom-vpc-with-aws-cdk-52f8788cb2d5)
+
+## VPC Peering
+
+1. [[VPC Peering] Cross-account VPC Peering with AWS CDK](https://blog.purple-technology.com/cross-account-vpc-peering-with-aws-cdk/)
+
+## VPN
+
+1. [Introducing AWS Site-to-Site VPN Private IP VPNs by Pablo Sánchez Carmona and Andy Taylor](https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-site-to-site-vpn-private-ip-vpns/)
 
 # 22. EKS
 
