@@ -13,20 +13,20 @@
 - [9. CDK + AWS Services](#9-cdk--aws-services)
   - [9.1. RDS](#91-rds)
     - [9.1.1. Cloudwatch Alarms for RDS](#911-cloudwatch-alarms-for-rds)
-  - [9.3. Cloudwatch Dashboard](#93-cloudwatch-dashboard)
-  - [9.4. ECS](#94-ecs)
-    - [9.4.1. Spring + ECS](#941-spring--ecs)
-    - [9.4.2. Fargate](#942-fargate)
-  - [9.5. Lambda](#95-lambda)
-    - [9.5.1. Using docker + Lamba](#951-using-docker--lamba)
-  - [9.6. SQS](#96-sqs)
-  - [9.7. Grafana](#97-grafana)
-  - [9.8. DynamoDB](#98-dynamodb)
-  - [9.9. S3](#99-s3)
-  - [9.10. Kinesis](#910-kinesis)
-  - [9.11. Firehose](#911-firehose)
-  - [9.12. Elasticache](#912-elasticache)
-  - [9.13. MongoDB](#913-mongodb)
+  - [9.2. Cloudwatch Dashboard](#92-cloudwatch-dashboard)
+  - [9.3. ECS](#93-ecs)
+    - [9.3.1. Spring + ECS](#931-spring--ecs)
+    - [9.3.2. Fargate](#932-fargate)
+  - [9.4. Lambda](#94-lambda)
+    - [9.4.1. Using docker + Lamba](#941-using-docker--lamba)
+  - [9.5. SQS](#95-sqs)
+  - [9.6. Grafana](#96-grafana)
+  - [9.7. DynamoDB](#97-dynamodb)
+  - [9.8. S3](#98-s3)
+  - [9.9. Kinesis](#99-kinesis)
+  - [9.10. Firehose](#910-firehose)
+  - [9.11. Elasticache](#911-elasticache)
+  - [9.12. MongoDB](#912-mongodb)
 - [10. By Language](#10-by-language)
   - [10.1. Typescript](#101-typescript)
   - [10.2. Python](#102-python)
@@ -64,6 +64,7 @@
 - [32. CloudFormation](#32-cloudformation)
 - [33. Event Driven Architecture + Lambda](#33-event-driven-architecture--lambda)
 - [34. Kafka](#34-kafka)
+- [35. Frequent CKD Sites](#35-frequent-ckd-sites)
 
 <!-- /TOC -->
 
@@ -137,20 +138,20 @@
 1. [Understanding AWS RDS CPU Utilization via CloudWatch Alarms with CDK](https://thecodinginterface.com/blog/aws-aurora-rds-cloudwatch-alarms-and-cdk/)
 2. [[MUST SEE] Aurora PostgreSQL Slow Query Logging and CloudWatch Alarms via AWS CDK](https://thecodinginterface.com/blog/aurora-postgresql-slow-query-logging/)
 
-## 9.3. Cloudwatch Dashboard
+## 9.2. Cloudwatch Dashboard
 
 1. [CloudWatch Dashboards as Code (the Right Way) Using AWS CDK by Simon-Pierre Gingras](https://medium.com/poka-techblog/cloudwatch-dashboards-as-code-the-right-way-using-aws-cdk-1453309c5481)
 2. [The CloudWatch Dashboard using CDK](https://github.com/cdk-patterns/serverless/blob/main/the-cloudwatch-dashboard/)
 3. [CloudWatch Lambda Dashboards using CDK @ aws-samples](https://github.com/aws-samples/aws-cdk-lambda-cloudwatch-dashboard)
 
-## 9.4. ECS
+## 9.3. ECS
 
 1. [Getting started with the AWS Cloud Development Kit for Amazon ECS by Nathan Peck ](https://aws.amazon.com/blogs/compute/getting-started-with-the-aws-cloud-development-kit-for-amazon-ecs/)
 2. [Developing microservices using container image support for AWS Lambda and AWS CDK](https://aws.amazon.com/blogs/opensource/developing-microservices-using-container-image-support-for-aws-lambda-and-aws-cdk/)
 3. [Deploying a Spring boot app to Fargate with the AWS CDK](https://www.profit4cloud.nl/blog/deploying-a-spring-boot-app-to-fargate-with-the-aws-cdk/)
 4. [Getting Started with ECS](https://github.com/aws-samples/aws-cdk-microservices-workshop)
 
-### 9.4.1. Spring + ECS
+### 9.3.1. Spring + ECS
 
 1. [Deploying a Spring boot app to Fargate with the AWS CDK](https://www.profit4cloud.nl/blog/deploying-a-spring-boot-app-to-fargate-with-the-aws-cdk/)
 2. [How to build microsservices with Spring Boot and AWS with Fargate and DOCKER - Part 1](https://dev.to/pedrospiet/how-to-build-microsservices-with-spring-boot-and-aws-with-fargate-and-docker-part-1-4chc)
@@ -161,52 +162,52 @@
 7. [How to build microsservices with Spring Boot and AWS with Fargate and DOCKER - Part 6](https://dev.to/pedrospiet/how-to-build-microsservices-with-spring-boot-and-aws-with-fargate-and-docker-part-6-4c42)
 8. [How to build microsservices with Spring Boot and AWS with Fargate and DOCKER - Part 7](https://dev.to/pedrospiet/how-to-build-microsservices-with-spring-boot-and-aws-with-fargate-and-docker-part-7-1m07)
 
-### 9.4.2. Fargate
+### 9.3.2. Fargate
 
 1. [Scheduled Fargate Task example in AWS CDK Danny Steenman](https://towardsthecloud.com/aws-cdk-scheduled-fargate-task)
 
-## 9.5. Lambda
+## 9.4. Lambda
 
 1. [Deploy a Java Lambda Function and API Gateway with AWS CDK](https://blog.tericcabrel.com/aws-lambda-java-cdk/)
 2. [How to package multiple Java Lambdas](https://github.com/aws-samples/cdk-lambda-packaging-java)
 3. [Implementing, bundling and deploying multi-language serverless applications using AWS CDK](https://github.com/aws-samples/cdk-lambda-bundling)
 
-### 9.5.1. Using docker + Lamba
+### 9.4.1. Using docker + Lamba
 
 1. [How to deploy multiple Java AWS Lambdas with Docker and CDK?](https://stackoverflow.com/questions/70030472/how-to-deploy-aws-lambdas-with-docker-and-cdk)
 2. [Package and deploy a Lambda function as a Docker container with AWS CDK	](https://itnext.io/package-and-deploy-a-lambda-function-as-a-docker-container-with-aws-cdk-fd0df5e37de7)
 
-## 9.6. SQS
+## 9.5. SQS
 
 1. [Implementing Well-Architected Best Practices for Amazon SQS with CDK](https://github.com/aws-samples/amazon-sqs-best-practices-cdk)
 
-## 9.7. Grafana
+## 9.6. Grafana
 
 1. [CDK Grafana](https://github.com/aws-samples/aws-cdk-grafana)
 
-## 9.8. DynamoDB
+## 9.7. DynamoDB
 
 1. [Beginner's Guide to DynamoDB with AWS CDK: Step-by-Step Tutorial for provisioning NoSQL Databases](https://www.youtube.com/watch?v=4o1KzB2AAk4)
 
-## 9.9. S3
+## 9.8. S3
 
 1. [S3 Content Distribution via CloudFront Signed Urls Provisioned with AWS CDK](https://thecodinginterface.com/blog/signed-urls-cloudfront-s3/)
 2. [Manage Amazon S3 Event Notifications using a Lambda function by Philip Chen](https://aws.amazon.com/blogs/infrastructure-and-automation/manage-amazon-s3-event-notifications-using-lambda-function/)
 
-## 9.10. Kinesis
+## 9.9. Kinesis
 
 1. [Deliver DynamoDB records to Amazon S3 using Kinesis Data Streams and Kinesis Data Firehose with AWS CDK](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deliver-dynamodb-records-to-amazon-s3-using-kinesis-data-streams-and-kinesis-data-firehose-with-aws-cdk.html)
 
-## 9.11. Firehose
+## 9.10. Firehose
 
 1. [aws-cdk-centralize-logs-typescript](https://github.com/aws-samples/aws-cdk-centralize-logs-typescript)
 - This is a CDK project that set up centralized logging to an S3 bucket via a Kinesis Firehose.
 
-## 9.12. Elasticache
+## 9.11. Elasticache
 
 1. [Deploy Amazon ElastiCache for Redis using AWS CDK](https://github.com/aws-samples/amazon-elasticache-demo-using-aws-cdk)
 
-## 9.13. MongoDB
+## 9.12. MongoDB
 
 1. [How to Deploy MongoDB Atlas with AWS CDK in TypeScript](https://www.youtube.com/watch?v=p7Fru0fbmxY)
 
@@ -434,3 +435,7 @@
 # 34. Kafka
 
 1. [Building an Apache Kafka data processing Java application using the AWS CDK by Piotr Chotkowski](https://aws.amazon.com/blogs/developer/building-an-apache-kafka-data-processing-java-application-using-the-aws-cdk/)
+
+# 35. Frequent CKD Sites
+
+1. [bobbyhadz blog](https://bobbyhadz.com/)
