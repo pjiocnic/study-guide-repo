@@ -38,6 +38,7 @@
 3. [Manage webhooks at scale with AWS Serverless](https://dev.to/aws-builders/manage-webhooks-at-scale-with-aws-serverless-fof)
 4. [REFERENCE DEPLOYMENT - Git Webhooks on AWS](https://aws.amazon.com/solutions/implementations/git-to-s3-using-webhooks/)
 - HTTPS endpoint and code for linking your Git repository to AWS
+5. [Amazon Aurora & Amazon EventBridge Webhooks Sample](https://github.com/aws-samples/amazon-aurora-eventbridge-webhooks)
 
 # 4. Websockets
 

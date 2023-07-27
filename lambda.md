@@ -34,7 +34,7 @@
   - [11.2. Lambda Authorizers](#112-lambda-authorizers)
   - [11.3. Using Cognito to secure Lambda's function URL](#113-using-cognito-to-secure-lambdas-function-url)
 - [12. Autoscaling](#12-autoscaling)
-- [13. Examples](#13-examples)
+- [13. Cookbooks](#13-cookbooks)
 - [14. Testing](#14-testing)
 - [15. Stream Event Sources](#15-stream-event-sources)
 - [16. User Stories](#16-user-stories)
@@ -208,9 +208,11 @@
 
 See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
-# 13. Examples
+# 13. Cookbooks
+
 1. [aws/serverless-application-model](https://github.com/aws/serverless-application-model/tree/master/examples)
 - Found this link from https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/
+2. [AWS Lambda Handler Cookbook - A Serverless Service Template By Ran the builder](https://ran-isenberg.github.io/aws-lambda-handler-cookbook/)
 
 # 14. Testing
 

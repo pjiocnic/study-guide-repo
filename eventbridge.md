@@ -6,6 +6,7 @@
 - [3. EventBridge Pipes](#3-eventbridge-pipes)
 - [4. Integration](#4-integration)
   - [4.1. Glue](#41-glue)
+- [5. Patterns](#5-patterns)
 
 <!-- /TOC -->
 
@@ -36,3 +37,7 @@
 1. [Build a serverless event-driven workflow with AWS Glue and Amazon EventBridge by Noritaka Sekiyama, Keerthi Chadalavada, and Karan Vishwanathan](https://aws.amazon.com/blogs/big-data/build-a-serverless-event-driven-workflow-with-aws-glue-and-amazon-eventbridge/)
 - /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/eventbridge/event-driven-workflow-tutorial
 - CFN provided
+
+# 5. Patterns
+
+1. [Amazon Aurora & Amazon EventBridge Webhooks Sample](https://github.com/aws-samples/amazon-aurora-eventbridge-webhooks)
