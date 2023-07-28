@@ -2,6 +2,8 @@
 1. [Exploring Advanced TypeScript Concepts - Utility Functions and Guards By Kelsey Leftwich/Headway](https://www.youtube.com/watch?v=ddGI2PCvkZo&list=WL&index=310)
 2. [TypeScript Generics Explained - Creating Reusable Components with TS Generics Examples](https://www.youtube.com/watch?v=VR4qgEZ-YkQ)
 3. [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/getting-started)
+4. [TypeScript Generics Explained - Creating Reusable Components](https://www.headway.io/blog/typescript-generics-explained-creating-reusable-components)
+5. [Exploring Advanced TypeScript Concepts - Guards, Utility Functions, and More By Kelsey Leftwich](https://www.youtube.com/watch?v=eJ6R1knfsoc)
 
 # Course
 
@@ -15,6 +17,10 @@
 # Workshop
 
 1. [Learn TypeScript on AWS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/56ef6f79-74e2-4710-aefb-10b9807057a9/en-US)
+
+# Book
+
+1. [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 
 # CDK
 

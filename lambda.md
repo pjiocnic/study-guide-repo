@@ -213,6 +213,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [aws/serverless-application-model](https://github.com/aws/serverless-application-model/tree/master/examples)
 - Found this link from https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/
 2. [AWS Lambda Handler Cookbook - A Serverless Service Template By Ran the builder](https://ran-isenberg.github.io/aws-lambda-handler-cookbook/)
+- [Lambda cookbook with Python](https://www.youtube.com/watch?v=yoLAuHaIRs8)
 
 # 14. Testing
 
