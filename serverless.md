@@ -41,3 +41,7 @@
 # Observability
 
 1. [Mastering Serverless Application Observability By Julian Wood](https://www.youtube.com/playlist?list=PLJo-rJlep0EDiN3pPjBDUfq34BqMAI_o-)
+
+# Patterns
+
+1. [Serverless Optimization Workshop (Performance and Cost) > Traffic Throttling> Rate Limiting](https://catalog.us-east-1.prod.workshops.aws/workshops/2d960419-7d15-44e7-b540-fd3ebeb7ce2e/en-US/traffic-throttling/3-throttling)

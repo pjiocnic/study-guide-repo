@@ -15,7 +15,12 @@
 
 # 2. This week's backlog
 
-## 2.1. Loan Broker
+## 2.1. Ran Isenberg
+
+1. [AWS Lambda Handler Cookbook - A Serverless Service Template](https://ran-isenberg.github.io/aws-lambda-handler-cookbook/#serverless-service-the-order-service)
+
+## 2.2. Loan Broker
+
 1. [Loan Broker with AWS CDK](https://github.com/aws-samples/aws-cdk-loan-broker)
 2. [Loan Broker Implementation with AWS Step Functions - Part 1](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions.html)
 3. [Loan Broker with Recipient List  - Part 2](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions_recipient_list.html)
@@ -23,6 +28,19 @@
 5. [Automation - Part 4](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_automation.html)
 6. [Integration Patterns with CDK - Part 6](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_cdk.html)
 
-## 2.2. ECS + Java
+## 2.3. ECS + Java
 
-7. [Java Microservices Deployed on EC2 Container Service](https://github.com/aws-samples/amazon-ecs-java-microservices/blob/master/README.MD)
+1. [Java Microservices Deployed on EC2 Container Service](https://github.com/aws-samples/amazon-ecs-java-microservices/blob/master/README.MD)
+
+## 2.4. CDK
+
+1. [AWS CDK - Best Practices From The Trenches By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-cdk-best-practices-from-the-trenches)
+
+## 2.5. Cookie Cutter
+
+1. [How to create a Spring Boot Microservice using Cookiecutter](https://www.cortex.io/post/how-to-create-a-spring-boot-microservice-using-cookiecutter)
+2. [Creating Project Templates with Cookiecutter](https://maciejwalkowiak.com/blog/creating-project-templates-with-cookiecutter/)
+3. [Learn the Basics of Cookiecutter by Creating a Cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.0/first_steps.html)
+4. [A CookieCutter template for a fresh CDK package](https://github.com/rix0rrr/cookiecutter-cdk-package)
+5. [Production-Ready CDK – Project Structure By Kemal Gülşen](https://www.luminis.eu/blog/cloud-en/production-ready-cdk-project-structure/)
+6. [[START HERE] Python Cookiecutter: Streamline Template Projects for Enhanced Developer Experience](https://www.ranthebuilder.cloud/post/python-cookiecutter-streamline-template-projects-for-enhanced-developer-efficiency)

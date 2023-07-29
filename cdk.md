@@ -73,6 +73,7 @@
 - [36. Frequent CDK Sites](#36-frequent-cdk-sites)
 - [37. Auto scaling](#37-auto-scaling)
   - [37.1. EC2 Spot Instances](#371-ec2-spot-instances)
+- [CookieCutter](#cookiecutter)
 
 <!-- /TOC -->
 
@@ -203,6 +204,7 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 ## 10.6. SQS
 
 1. [Implementing Well-Architected Best Practices for Amazon SQS with CDK](https://github.com/aws-samples/amazon-sqs-best-practices-cdk)
+2. [Effective Amazon SQS Batch Handling with AWS Lambda Powertools](https://www.ranthebuilder.cloud/post/effective-amazon-sqs-batch-handling-with-aws-lambda-powertools)
 
 ## 10.7. Grafana
 
@@ -259,6 +261,7 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 - https://github.com/aws-samples/strong-typing-practices-with-cdk
 6. [[AWS Prescriptive Guidance] Best practices for using the AWS CDK in TypeScript to create IaC projects](https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-cdk-typescript-iac/introduction.html)
 7. [Deploy multiple-stack applications using AWS CDK with TypeScript](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-multiple-stack-applications-using-aws-cdk-with-typescript.html)
+8. [AWS CDK - Best Practices From The Trenches By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-cdk-best-practices-from-the-trenches)
 
 ## 11.2. Python
 
@@ -486,3 +489,7 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 ## 37.1. EC2 Spot Instances
 
 1. [Autoscaling using Spot Instances with AWS CDK + TS](https://dev.to/aws-builders/autoscaling-using-spot-instances-with-aws-cdk-ts-4hgh)
+
+# CookieCutter
+
+1. [Python Cookiecutter: Streamline Template Projects for Enhanced Developer Experience](https://www.ranthebuilder.cloud/post/python-cookiecutter-streamline-template-projects-for-enhanced-developer-efficiency)
