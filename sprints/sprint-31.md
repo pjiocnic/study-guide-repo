@@ -55,3 +55,20 @@
 4. [A CookieCutter template for a fresh CDK package](https://github.com/rix0rrr/cookiecutter-cdk-package)
 5. [Production-Ready CDK – Project Structure By Kemal Gülşen](https://www.luminis.eu/blog/cloud-en/production-ready-cdk-project-structure/)
 6. [[START HERE] Python Cookiecutter: Streamline Template Projects for Enhanced Developer Experience](https://www.ranthebuilder.cloud/post/python-cookiecutter-streamline-template-projects-for-enhanced-developer-efficiency)
+
+# Cloudformation
+
+1. [AWS CloudFormation Workshop > Layered stacks](https://catalog.workshops.aws/cfn101/en-US/intermediate/templates/layered-stacks)
+2. [AWS CloudFormation Workshop > Package and deploy](https://catalog.workshops.aws/cfn101/en-US/intermediate/templates/package-and-deploy)
+3. [AWS CloudFormation Workshop > Language extensions](https://catalog.workshops.aws/cfn101/en-US/intermediate/templates/language-extensions)
+4. [AWS CloudFormation Workshop > Architecting your templates](https://catalog.workshops.aws/cfn101/en-US/intermediate/templates/architecting-templates)
+5. [AWS CloudFormation Workshop > Policy-as-code with Guard](https://catalog.workshops.aws/cfn101/en-US/intermediate/templates/policy-as-code-with-guard)
+6. [AWS CloudFormation Workshop > Update behaviors of stack resources](https://catalog.workshops.aws/cfn101/en-US/intermediate/operations/update-behaviors-of-stack-resources)
+7. [AWS CloudFormation Workshop > Understanding change sets](https://catalog.workshops.aws/cfn101/en-US/intermediate/operations/understanding-changesets)
+8. [AWS CloudFormation Workshop > Stack policy and prevention controls](https://catalog.workshops.aws/cfn101/en-US/intermediate/operations/stack-policy-and-prevention-controls)
+9. [AWS CloudFormation Workshop > Stack policy and prevention controls](https://catalog.workshops.aws/cfn101/en-US/intermediate/operations/stack-policy-and-prevention-controls)
+10. [AWS CloudFormation Workshop > Resource Importing](https://catalog.workshops.aws/cfn101/en-US/intermediate/operations/resource-importing)
+11. [AWS CloudFormation Workshop > Drift Detection](https://catalog.workshops.aws/cfn101/en-US/intermediate/operations/drift-detection)
+12. [AWS CloudFormation Workshop > Orchestrating with StackSets](https://catalog.workshops.aws/cfn101/en-US/intermediate/operations/stacksets)
+13. [AWS CloudFormation Workshop > Advanced > Modules](https://catalog.workshops.aws/cfn101/en-US/advanced/modules)
+14. [AWS CloudFormation Workshop > Advanced > Resource Types](https://catalog.workshops.aws/cfn101/en-US/advanced/resource-types)
