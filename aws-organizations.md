@@ -26,3 +26,10 @@
 
 1. [Deploy AWS Organizations resources by using CloudFormation by Matt Luttrell and Swara Gandhi](https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/)
 2. [Foundational Organizational Unit Structure and Accounts](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main/organizations/foundational-organizational-unit-structure)
+
+# Workshops
+
+1. [Workshop: Getting started with Centralized Operations Management on AWS](https://catalog.workshops.aws/getting-started-with-com/en-US)
+2. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
+    - [Shared Services account](https://docs.aws.amazon.com/managedservices/latest/userguide/shared-services-account.html)
+3. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)

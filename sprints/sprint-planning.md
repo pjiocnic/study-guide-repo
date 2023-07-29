@@ -11,6 +11,7 @@ https://www.epochconverter.com/weeks/2023
 - [Topics to explore](#topics-to-explore)
 - [Blogs to explore](#blogs-to-explore)
 - [Weekend Planning](#weekend-planning)
+- [Parked](#parked)
 
 <!-- /TOC -->
 
@@ -129,3 +130,9 @@ https://www.epochconverter.com/weeks/2023
     - Lab 10: Chaos testing with AWS Fault Injection Simulator
 3. EC2 spot instances
 4. PostGresSQL workshop
+
+# Parked
+
+1. [Automation in AWS with CloudFormation, CLI, and SDKs By Richard A. Jones](https://learning.oreilly.com/videos/automation-in-aws/9780134818313/)
+- Good place to brush up
+2. [[READ THIS BOOK] AWS System Administration Mike Ryan, Federico Lucifredi](https://learning.oreilly.com/library/view/aws-system-administration/9781449342562/foreword01.html)

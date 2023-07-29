@@ -264,6 +264,7 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 
 1. [The Python Workshop for CDK](https://cdkworkshop.com/15-prerequisites/600-python.html)
 2. [[PYTHON PROJECT TEMPLATE] Recommended AWS CDK project structure for Python applications by Alex Pulver](https://aws.amazon.com/blogs/developer/recommended-aws-cdk-project-structure-for-python-applications/)
+3. [The AWS CDK and Pulumi By Bradley Campbell](https://learning.oreilly.com/library/view/the-definitive-guide/9781484253984/html/482606_1_En_6_Chapter.xhtml)
 
 ## 11.3. Java
 

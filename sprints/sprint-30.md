@@ -19,7 +19,6 @@ Read Serverless Lens
 # Plan for this week
 
 1. [complete section 16 of Udemy course](https://www.udemy.com/course/aws-typescript-cdk-serverless-react/learn/lecture/37719618#overview)
-2. [Serverless Applications Lens - AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html)
 3. [[AWS Prescriptive Guidance] Deploy Java microservices on Amazon ECS using Amazon ECR and load balancing](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-java-microservices-on-amazon-ecs-using-amazon-ecr-and-load-balancing.html)
 4. [How to poll for SQS by Fargate by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
     - See https://github.com/aws-samples/serverless-eda-insurance-claims-processing/blob/main/lib/services/settlement/app/src/main/java/com/amazon/settlement/services/SubscriberService.java
@@ -29,3 +28,19 @@ Read Serverless Lens
 # Weekend ideas
 
 1. [[MY NEXT] SVS 307 Workshop - Easily Add Observability with AWS Lambda Powertools for Java](https://catalog.us-east-1.prod.workshops.aws/workshops/a7011c82-e4af-4a52-80fa-fcd61f1dacd9/en-US/introduction)
+2. [[MUST SEE][Spring Pet Clinic]Deploying Java Microservices on Amazon Elastic Container Service by Nathan Taber](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
+- https://github.com/aws-samples/amazon-ecs-java-microservices/tree/master/2_ECS_Java_Spring_PetClinic_Microservices
+
+# In-progress
+
+1. Nested/Layer stacks @ CFN workshop
+2. SNS Topics by Be Bette Dev
+3. MongoDB modeling by
+https://www.youtube.com/watch?v=41ZIyAKNtdk
+https://www.youtube.com/watch?v=sq2Eo3qclaY
+4. Typescript
+5. CDK workshop
+6. Powertools workshop
+7. PostGresSQL workshop
+8. DocumentDB workshop
+9. Vadhra's CDK Java project organization

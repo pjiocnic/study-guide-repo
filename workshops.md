@@ -10,7 +10,7 @@
 - [5. DynamoDB](#5-dynamodb)
   - [5.1. Security](#51-security)
   - [5.2. Lambda](#52-lambda)
-- [6. Account setup](#6-account-setup)
+- [6. Account management using AWS Organizations](#6-account-management-using-aws-organizations)
 - [7. Cloudformation](#7-cloudformation)
 - [8. Athena](#8-athena)
 - [9. Lambda](#9-lambda)
@@ -30,6 +30,12 @@
 - [19. Security](#19-security)
 - [20. S3](#20-s3)
 - [21. Event Driven](#21-event-driven)
+- [22. Observability](#22-observability)
+- [23. Administration](#23-administration)
+- [24. AWS Systems Manager](#24-aws-systems-manager)
+- [25. AWS Config](#25-aws-config)
+- [26. AWS Service Catalog](#26-aws-service-catalog)
+- [27. AWS CloudTrail](#27-aws-cloudtrail)
 
 <!-- /TOC -->
 
@@ -74,10 +80,11 @@
 
 1. [Build a Serverless Web Application with AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
 
-# 6. Account setup
+# 6. Account management using AWS Organizations
 
 1. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
     - [Shared Services account](https://docs.aws.amazon.com/managedservices/latest/userguide/shared-services-account.html)
+2. [Workshop: Getting started with Centralized Operations Management on AWS](https://catalog.workshops.aws/getting-started-with-com/en-US)
 
 # 7. Cloudformation
 
@@ -94,6 +101,7 @@
     - Lab 10: Chaos testing with AWS Fault Injection Simulator
 
 2. [AWS CloudFormation Workshop](https://catalog.workshops.aws/cfn101/en-US)
+3. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)
 
 # 8. Athena
 
@@ -133,7 +141,7 @@
     - Stream Processing
     - Streaming Aggregation
     - Data Lake
-6. [AWS Serverless Observability Workshop ](https://serverless-observability.workshop.aws/en/010_introduction.html)
+6. [AWS Serverless Observability Workshop](https://serverless-observability.workshop.aws/en/010_introduction.html)
     - Metrics and Dashboards
     - Synthetic Canaries
     - Centralized Logging
@@ -176,6 +184,7 @@
 # 13. Cloudwatch
 
 1. [[MY NEXT] AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
+2. [AWS Management and Governance Tools Workshop > Amazon CloudWatch](https://mng.workshop.aws/cloudwatch.html)
 
 # 14. IAM
 
@@ -241,3 +250,32 @@
 # 21. Event Driven
 
 1. [Asynchronous Messaging Workshop](https://github.com/aws-samples/asynchronous-messaging-workshop)
+
+# 22. Observability
+
+1. [One Observability Workshop](https://catalog.workshops.aws/observability/en-US)
+- https://aws-observability.github.io/observability-best-practices/
+2. [COP304: Automate your incident response with AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/9e2b74fc-069c-462f-bec8-06ce753229cb/en-US)
+3. [Workshop: Getting started with Centralized Operations Management on AWS](https://catalog.workshops.aws/getting-started-with-com/en-US)
+
+# 23. Administration
+
+1. [Workshop: Getting started with Centralized Operations Management on AWS](https://catalog.workshops.aws/getting-started-with-com/en-US)
+
+# 24. AWS Systems Manager
+
+1. [[Skill Builder] Getting Started with AWS Systems Manager](https://explore.skillbuilder.aws/learn/course/13045/Getting%2520Started%2520with%2520AWS%2520Systems%2520Manager)
+2. [AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
+3. [AWS Management and Governance Tools Workshop > AWS Systems Manager](https://mng.workshop.aws/ssm.html)
+
+# 25. AWS Config
+
+1. [AWS Management and Governance Tools Workshop > AWS Config](https://mng.workshop.aws/config.html)
+
+# 26. AWS Service Catalog
+
+1. [AWS Management and Governance Tools Workshop > AWS Service Catalog](https://mng.workshop.aws/servicecatalog.html)
+
+# 27. AWS CloudTrail
+
+1. [AWS Management and Governance Tools Workshop > AWS CloudTrail](https://mng.workshop.aws/cloudtrail.html)

@@ -3,11 +3,11 @@
 1. [The Serverless Guide to AWS CloudWatch Logs Insights](https://baselime.io/blog/cloudwatch-insights-guide)
 2. [Writing Custom Metrics to Amazon CloudWatch Using the AWS SDK for Java by Sascha Moellering](https://aws.amazon.com/blogs/developer/writing-custom-metrics-to-amazon-cloudwatch-using-the-aws-sdk-for-java/)
 
-# How to create dashboard
+# 1. How to create dashboard
 
 1. [The CloudWatch Dashboard using CDK](https://github.com/cdk-patterns/serverless/blob/main/the-cloudwatch-dashboard/)
 
-# Curate
+# 2. Curate
 
 1. [Mastering AWS CloudWatch: A Step-by-Step Tutorial for Beginners](https://cto.ai/blog/aws-cloudwatch/)
 2. [Deploying an automated Amazon CloudWatch dashboard for AWS Outposts using AWS CDK by Sheila Busser ](https://aws.amazon.com/blogs/compute/deploying-an-automated-amazon-cloudwatch-dashboard-for-aws-outposts-using-aws-cdk/)
@@ -18,3 +18,8 @@
 7. [Dashboard automation for DocumentDB](https://catalog.us-east-1.prod.workshops.aws/workshops/464d6c17-9faa-4fef-ac9f-dd49610174d3/en-US/monitoring/deploy)
 8. [Building Amazon CloudWatch dashboards with AWS CDK By FooBar](https://www.youtube.com/watch?v=0VNKHIcQ5wk)
 - https://github.com/mavi888/cdk-migrated-app-infra
+
+# 3. Workshop
+
+1. [AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
+2. [AWS Management and Governance Tools Workshop > Amazon CloudWatch](https://mng.workshop.aws/cloudwatch.html)

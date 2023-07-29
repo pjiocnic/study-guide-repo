@@ -12,6 +12,8 @@
 - [8. Testing](#8-testing)
 - [9. Blog series](#9-blog-series)
 - [Intrinsic Functions](#intrinsic-functions)
+- [Courses](#courses)
+- [Stack Sets](#stack-sets)
 
 <!-- /TOC -->
 
@@ -52,6 +54,7 @@
     - Lab 8: Configure caching using cfn
     - Lab 9:: Add a Content Delivery Network using cfn
     - Lab 10: Chaos testing with AWS Fault Injection Simulator
+3. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)
 
 # 6. Templates
 
@@ -77,3 +80,12 @@
 # Intrinsic Functions
 
 1. [AWS CloudFormation Intrinsic Functions By: Jeff Loughridge](https://konekti.us/post/aws-cloudformation-intrinsic-functions/)
+
+# Courses
+
+1. [Automation in AWS with CloudFormation, CLI, and SDKs By Richard A. Jones](https://learning.oreilly.com/videos/automation-in-aws/9780134818313/)
+- Good place to brush up
+
+# Stack Sets
+
+1. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)

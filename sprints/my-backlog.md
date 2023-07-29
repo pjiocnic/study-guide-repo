@@ -33,6 +33,9 @@
 1. [[BOOK] SpringBoot XA Transaction Heuristics]
 2. [[WORKSHOP] - AWS CloudFormation Workshop](https://catalog.workshops.aws/cfn101/en-US)
 - Nested/ Layer Stacks
+3. [Automation in AWS with CloudFormation, CLI, and SDKs By Richard A. Jones](https://learning.oreilly.com/videos/automation-in-aws/9780134818313/)
+- Good place to brush up
+4. [[READ THIS BOOK] AWS System Administration Mike Ryan, Federico Lucifredi](https://learning.oreilly.com/library/view/aws-system-administration/9781449342562/foreword01.html)
 
 # 2. CDK Examples
 
