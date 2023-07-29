@@ -36,9 +36,6 @@ https://www.youtube.com/watch?v=zvWKqUiovAM
 6. [System Design Interview: A Step-By-Step Guide By ByteByteGo](https://www.youtube.com/watch?v=i7twT3x5yv8)
 7. [Top 6 Most Popular API Architecture Styles  By ByteByteGo](https://www.youtube.com/watch?v=4vLxWqE94l4   )
 
-124
-233
-
 # 3. WebHook
 
 1. [Mastering AWS Lambda Yohan Wadia, Udita Gupta#Invoking Lambda using an external application](https://learning.oreilly.com/library/view/mastering-aws-lambda/9781786467690/25d22e80-8526-4310-994d-9b7863f938c5.xhtml)
