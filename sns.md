@@ -5,6 +5,7 @@
 - [1. Monitoring](#1-monitoring)
 - [2. FIFO](#2-fifo)
 - [3. Scaling](#3-scaling)
+- [4. DLQs](#4-dlqs)
 
 <!-- /TOC -->
 
@@ -19,3 +20,7 @@
 # 3. Scaling
 
 1. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
+
+# 4. DLQs
+
+1. [Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)

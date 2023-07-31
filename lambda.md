@@ -59,6 +59,7 @@
 - [25. VPC-Enabled Lambda](#25-vpc-enabled-lambda)
 - [26. Cookbooks](#26-cookbooks)
   - [26.1. Cookbook by Ran Isenberg](#261-cookbook-by-ran-isenberg)
+- [27. DLQs](#27-dlqs)
 
 <!-- /TOC -->
 
@@ -337,3 +338,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 6. [AWS Lambda Cookbook  - Part 6 -  Configuration & Feature Flags Best Practices By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-part-6-feature-flags-configuration-best-practices)
 7. [Start Your AWS Serverless Service With Two Clicks By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-part-7-how-to-use-the-aws-lambda-cookbook-github-template-project)
 8. [AWS CDK - Best Practices From The Trenches By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-cdk-best-practices-from-the-trenches)
+
+# 27. DLQs
+
+1. [Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
