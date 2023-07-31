@@ -23,6 +23,7 @@
     - [10.5.1. Log Retentions](#1051-log-retentions)
     - [10.5.2. Using docker + Lamba](#1052-using-docker--lamba)
   - [10.6. SQS](#106-sqs)
+    - [10.6.1. Well Architected with SQS](#1061-well-architected-with-sqs)
   - [10.7. Grafana](#107-grafana)
   - [10.8. DynamoDB](#108-dynamodb)
   - [10.9. S3](#109-s3)
@@ -73,7 +74,7 @@
 - [36. Frequent CDK Sites](#36-frequent-cdk-sites)
 - [37. Auto scaling](#37-auto-scaling)
   - [37.1. EC2 Spot Instances](#371-ec2-spot-instances)
-- [CookieCutter](#cookiecutter)
+- [38. CookieCutter](#38-cookiecutter)
 
 <!-- /TOC -->
 
@@ -203,8 +204,15 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 
 ## 10.6. SQS
 
-1. [Implementing Well-Architected Best Practices for Amazon SQS with CDK](https://github.com/aws-samples/amazon-sqs-best-practices-cdk)
-2. [Effective Amazon SQS Batch Handling with AWS Lambda Powertools](https://www.ranthebuilder.cloud/post/effective-amazon-sqs-batch-handling-with-aws-lambda-powertools)
+1. [Effective Amazon SQS Batch Handling with AWS Lambda Powertools](https://www.ranthebuilder.cloud/post/effective-amazon-sqs-batch-handling-with-aws-lambda-powertools)
+2. [AWS CDK - Best Practices From The Trenches By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-cdk-best-practices-from-the-trenches)
+
+### 10.6.1. Well Architected with SQS
+
+1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 1 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-1/)
+2. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 2 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-2/)
+3. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 3 by Pascal Vogel](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-3/)
+4. [Implementing Well-Architected Best Practices for Amazon SQS with CDK](https://github.com/aws-samples/amazon-sqs-best-practices-cdk)
 
 ## 10.7. Grafana
 
@@ -416,7 +424,7 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 ## 22.8. Hub and Spoke
 
 1. [[MY NEXT] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
-2. [AWS Hub and Spoke Architecture with an Inspection VPC @ aws-samples](https://github.com/aws-samples/hub-and-spoke-with-inspection-vpc-cdk)
+2. [[ADVANCED] AWS Hub and Spoke Architecture with an Inspection VPC @ aws-samples](https://github.com/aws-samples/hub-and-spoke-with-inspection-vpc-cdk)
 
 # 23. EKS
 
@@ -490,6 +498,6 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 
 1. [Autoscaling using Spot Instances with AWS CDK + TS](https://dev.to/aws-builders/autoscaling-using-spot-instances-with-aws-cdk-ts-4hgh)
 
-# CookieCutter
+# 38. CookieCutter
 
 1. [Python Cookiecutter: Streamline Template Projects for Enhanced Developer Experience](https://www.ranthebuilder.cloud/post/python-cookiecutter-streamline-template-projects-for-enhanced-developer-efficiency)

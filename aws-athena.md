@@ -10,3 +10,7 @@
 # Workshop
 
 1. [Amazon Athena Workshop :: Hands on Labs](https://catalog.us-east-1.prod.workshops.aws/workshops/9981f1a1-abdc-49b5-8387-cb01d238bb78/en-US)
+
+# Courses
+
+1. [Getting Started with AWS Athena by Aaron Medacco](https://app.pluralsight.com/library/courses/aws-athena-get-started/table-of-contents?aid=7010a000001xAKZAA2)

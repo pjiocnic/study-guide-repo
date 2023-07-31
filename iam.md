@@ -7,6 +7,8 @@
 - [3. Workshops](#3-workshops)
 - [4. Tutorials](#4-tutorials)
 - [5. Online courses](#5-online-courses)
+- [6. Service linked Roles](#6-service-linked-roles)
+- [7. Roles](#7-roles)
 
 <!-- /TOC -->
 
@@ -37,3 +39,11 @@
 # 5. Online courses
 
 1. [Effective IAM for Amazon Web Services](https://www.effectiveiam.com/)
+
+# 6. Service linked Roles
+
+1. [Viewing permission issues with service-linked roles by Rich McDonough ](https://aws.amazon.com/blogs/mt/viewing-permission-issues-with-service-linked-roles/)
+
+# 7. Roles
+
+1. [Get to Grips with AWS IAM Roles: Terms, Concepts, and Examples](https://blog.awsfundamentals.com/aws-iam-roles-terms-concepts-and-examples)

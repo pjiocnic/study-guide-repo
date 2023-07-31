@@ -88,7 +88,7 @@
 
 # 7. Cloudformation
 
-1. [[My NEXT] Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
+1. [[My NEXT] Highly Available Web Application Workshop Using CFNs](https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US)
     - Lab 1: Configure the network
     - Lab 2: Set up your RDS database using cfn
     - Lab 3: Set up Elasticache for Memcached using cfn
@@ -99,6 +99,17 @@
     - Lab 8: Configure caching using cfn
     - Lab 9:: Add a Content Delivery Network using cfn
     - Lab 10: Chaos testing with AWS Fault Injection Simulator
+
+2. [[My NEXT] Highly Available Web Application Workshop Using Console](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
+    - Lab 1: Configure the network
+    - Lab 2: Set up your RDS database
+    - Lab 3: Set up Elasticache for Memcached
+    - Lab 4: Create the shared filesystem
+    - Lab 5: Create the load balancer
+    - Lab 6: Create a launch configuration
+    - Lab 7: Create the app server
+    - Lab 8: Configure caching
+
 
 2. [AWS CloudFormation Workshop](https://catalog.workshops.aws/cfn101/en-US)
 3. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)
