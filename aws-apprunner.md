@@ -5,3 +5,7 @@
 # Workshop
 
 1. [AWS App Runner Workshop ](https://www.apprunnerworkshop.com/)
+
+# Tutorials
+
+1. [AWS App Runner VPC connection with AWS Copilot](https://aws.github.io/copilot-cli/blogs/apprunner-vpc/)
