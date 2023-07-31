@@ -30,6 +30,7 @@
 
 1. [Chapter 6. Containers @ AWS Cookbook](https://learning.oreilly.com/library/view/aws-cookbook/9781492092599/ch06.html#introduction-id00000102)
 2. [Java Microservices Deployed on EC2 Container Service](https://github.com/aws-samples/amazon-ecs-java-microservices/blob/master/README.MD)
+3. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads by Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
 
 # 4. Lambda Cookbook
 
@@ -58,3 +59,11 @@
 2. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 2 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-2/)
 3. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 3 by Pascal Vogel](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-3/)
 4. [Implementing Well-Architected Best Practices for Amazon SQS with CDK](https://github.com/aws-samples/amazon-sqs-best-practices-cdk)
+
+# AWS Organizations
+
+1. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
+    - [Shared Services account](https://docs.aws.amazon.com/managedservices/latest/userguide/shared-services-account.html)
+2. [Deploy AWS Organizations resources by using CloudFormation by Matt Luttrell and Swara Gandhi](https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/)
+3. [Foundational Organizational Unit Structure and Accounts](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main/organizations/foundational-organizational-unit-structure)
+4. [AWS Control Tower Guide](https://catalog.workshops.aws/control-tower/en-US)
