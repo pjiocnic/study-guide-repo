@@ -287,6 +287,7 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 6. [[CDK] Increasing performance of Java AWS Lambda functions using tiered compilation By Mark Sailes](https://aws.amazon.com/blogs/compute/increasing-performance-of-java-aws-lambda-functions-using-tiered-compilation/)
 - https://github.com/aws-samples/aws-lambda-java-tiered-compilation-example/tree/main
 7. [Packaging sample by Ajay Wadhara](https://github.com/ajaywadhara/LambdaCDKExample)
+8. [CDK Examples for Java](https://github.com/aws-samples/aws-cdk-examples/tree/master/java)
 
 # 12. Curate
 
