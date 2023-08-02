@@ -6,6 +6,7 @@
 - [3. TDD](#3-tdd)
 - [4. JSONPath](#4-jsonpath)
 - [5. Books](#5-books)
+- [Maven](#maven)
 
 <!-- /TOC -->
 
@@ -28,3 +29,7 @@
 # 5. Books
 
 1. [Domain-Driven Design with Java - A Practitioner's Guide By Premanand Chandrasekaran, Karthik Krishnan, Neal Ford, Brandon Byars, Allard Buijze](https://learning.oreilly.com/library/view/domain-driven-design-with/9781800560734/)
+
+# Maven
+
+1. [Guide to Maven Archetype](https://www.baeldung.com/maven-archetype)

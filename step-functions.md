@@ -6,6 +6,8 @@
   - [1.1. Content aggregation](#11-content-aggregation)
 - [2. Videos](#2-videos)
 - [3. Courses](#3-courses)
+- [Distributed Map](#distributed-map)
+- [Parallelisms](#parallelisms)
 
 <!-- /TOC -->
 
@@ -26,3 +28,11 @@
 
 1. [Design Patterns for AWS Step Functions](https://explore.skillbuilder.aws/learn/course/10471/play/37562/design-patterns-for-aws-step-functions)
 2. [Troubleshooting Serverless Applications](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1124/troubleshooting-serverless-applications)
+
+# Distributed Map
+
+introduction to distributed map for serverless data processing uma ramadoss
+
+# Parallelisms
+
+1. [AWS re:Invent 2022 - [NEW] Accelerate workloads using parallelism w/Step Functions & Lambda (API205)](https://www.youtube.com/watch?v=SG6_oy72hh4)

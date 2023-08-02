@@ -1,5 +1,19 @@
 <h1>my-tracks</h1>
 
+<!-- TOC -->
+
+- [1. Cloudformation](#1-cloudformation)
+- [2. Loan Broker](#2-loan-broker)
+- [3. ECS + Java](#3-ecs--java)
+- [4. Lambda Cookbook](#4-lambda-cookbook)
+- [5. Cookie Cutter](#5-cookie-cutter)
+- [6. SQS Best Practices](#6-sqs-best-practices)
+- [7. AWS Organizations](#7-aws-organizations)
+- [Lambda + SQS](#lambda--sqs)
+- [Lambda Troubleshooting](#lambda-troubleshooting)
+
+<!-- /TOC -->
+
 # 1. Cloudformation
 
 1. [AWS CloudFormation Workshop > Layered stacks](https://catalog.workshops.aws/cfn101/en-US/intermediate/templates/layered-stacks)
@@ -60,10 +74,32 @@
 3. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 3 by Pascal Vogel](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-3/)
 4. [Implementing Well-Architected Best Practices for Amazon SQS with CDK](https://github.com/aws-samples/amazon-sqs-best-practices-cdk)
 
-# AWS Organizations
+# 7. AWS Organizations
 
 1. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
     - [Shared Services account](https://docs.aws.amazon.com/managedservices/latest/userguide/shared-services-account.html)
 2. [Deploy AWS Organizations resources by using CloudFormation by Matt Luttrell and Swara Gandhi](https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/)
 3. [Foundational Organizational Unit Structure and Accounts](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main/organizations/foundational-organizational-unit-structure)
 4. [AWS Control Tower Guide](https://catalog.workshops.aws/control-tower/en-US)
+
+# Lambda + SQS
+
+1. [Lambda Concurrency Limits and SQS Triggers Don’t Mix Well (Sometimes)](https://zaccharles.medium.com/lambda-concurrency-limits-and-sqs-triggers-dont-mix-well-sometimes-eb23d90122e0)
+2. [AWS re:Invent 2022 - A closer look at AWS Lambda (SVS404-R) By Julian Wood](https://www.youtube.com/watch?v=0_jfH6qijVY)
+3. [Understanding AWS Lambda’s invoke throttling limits](https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/)
+4. [Implementing error handling for AWS Lambda asynchronous invocations By Poornima Chand,](https://aws.amazon.com/blogs/compute/implementing-error-handling-for-aws-lambda-asynchronous-invocations/)
+5. [Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
+    - [Github code](https://github.com/aws-samples/aws-lambda-error-handling-pattern)
+6. [Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda by Rachel Richardson and Otavio Ferreira](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
+- https://d1.awsstatic.com/events/reinvent/2019/Durable_serverless_architecture_Working_with_dead-letter_queues_API309.pdf
+7. [Introducing new asynchronous invocation metrics for AWS Lambda](https://aws.amazon.com/blogs/compute/introducing-new-asynchronous-invocation-metrics-for-aws-lambda/)
+8. [Asynchronous invocation](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)
+
+# Lambda Troubleshooting
+
+1. [AWS Lambda - Troubleshooting](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10771/aws-lambda-troubleshooting)
+2. [How to Speed Up Your AWS Lambda Functions](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/14738/how-to-speed-up-your-aws-lambda-functions)
+3. [AWS Lambda Fundamentals - AWS Lambda observability and troubleshooting](https://www.youtube.com/watch?v=K2aebIhjWj8)
+4. [Introducing new asynchronous invocation metrics for AWS Lambda By Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/introducing-new-asynchronous-invocation-metrics-for-aws-lambda/)
+
+
