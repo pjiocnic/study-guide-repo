@@ -11,8 +11,8 @@
 - [7. AWS Organizations](#7-aws-organizations)
 - [8. Lambda + SQS](#8-lambda--sqs)
 - [9. Lambda Troubleshooting](#9-lambda-troubleshooting)
-- [Well Architected](#well-architected)
-- [CDK Deployment using Java](#cdk-deployment-using-java)
+- [10. Well Architected](#10-well-architected)
+- [11. CDK Deployment using Java](#11-cdk-deployment-using-java)
 
 <!-- /TOC -->
 
@@ -108,7 +108,7 @@
 3. [AWS Lambda Fundamentals - AWS Lambda observability and troubleshooting](https://www.youtube.com/watch?v=K2aebIhjWj8)
 4. [Introducing new asynchronous invocation metrics for AWS Lambda By Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/introducing-new-asynchronous-invocation-metrics-for-aws-lambda/)
 
-# Well Architected
+# 10. Well Architected
 
 1. [AWS Well-Architected Labs](https://github.com/awslabs/aws-well-architected-labs)
 4. [Operational Excellence Pillar AWS Well-Architected Framework. AGPIAL Audiobook](https://www.youtube.com/watch?v=Vhk6a5MUhE8)
@@ -117,6 +117,13 @@
 5. [Cost Optimization Pillar AWS Well-Architected Framework AGPIAL Audiobook](https://www.youtube.com/watch?v=zeLyoWund1I)
 
 
-# CDK Deployment using Java
+# 11. CDK Deployment using Java
 
 1. [Packaging and deploying AWS Lambda functions written in Java with AWS Cloud Development Kit by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/packaging-and-deploying-aws-lambda-functions-written-in-java-with-aws-cloud-development-kit/)
+2. [Writing your CDK in Java By Melina Schweizer](https://medium.com/i-love-my-local-farmer-engineering-blog/writing-your-cdk-in-java-685a380d8e4e)
+3. [Packaging and deploying AWS Lambda functions written in Java with AWS Cloud Development Kit	By Pankaj Agarwal](https://aws.amazon.com/blogs/opensource/packaging-and-deploying-aws-lambda-functions-written-in-java-with-aws-cloud-development-kit/)
+4. [Building, bundling, and deploying applications with the AWS CDK by Cory Hall](https://aws.amazon.com/blogs/devops/building-apps-with-aws-cdk/)
+5. [cdk-lambda-packaging-java @ aws-samples](https://github.com/aws-samples/cdk-lambda-packaging-java/tree/main)
+6. [AWS CDK constructs for Java @ aws-sample](https://github.com/aws-samples/aws-cdk-constructs-for-java)
+7. [Packaging sample by Ajay Wadhara](https://github.com/ajaywadhara/LambdaCDKExample)
+
