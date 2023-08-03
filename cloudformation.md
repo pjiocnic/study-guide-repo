@@ -7,13 +7,13 @@
 - [3. Lambda](#3-lambda)
 - [4. CFN Lint](#4-cfn-lint)
 - [5. Workshop](#5-workshop)
-- [6. Templates](#6-templates)
+- [6. Sample Templates](#6-sample-templates)
 - [7. WhitePaper](#7-whitepaper)
 - [8. Testing](#8-testing)
 - [9. Blog series](#9-blog-series)
-- [Intrinsic Functions](#intrinsic-functions)
-- [Courses](#courses)
-- [Stack Sets](#stack-sets)
+- [10. Intrinsic Functions](#10-intrinsic-functions)
+- [11. Courses](#11-courses)
+- [12. Stack Sets](#12-stack-sets)
 
 <!-- /TOC -->
 
@@ -56,9 +56,10 @@
     - Lab 10: Chaos testing with AWS Fault Injection Simulator
 3. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)
 
-# 6. Templates
+# 6. Sample Templates
 
 1. [Cloud Foundations on AWS - Templates](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main)
+2. [AWS CloudFormation Sample Templates](https://github.com/awslabs/aws-cloudformation-templates)
 
 # 7. WhitePaper
 
@@ -77,15 +78,15 @@
 4. [Hands-on AWS CloudFormation - Part 4. Create VPC with private and public subnets By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-4-create-vpc-with-private-and-public-subnets-85d)
 5. [Hands-on AWS CloudFormation - Part 5. IAM users, groups and roles By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-5-iam-users-groups-and-roles-5d9f)
 
-# Intrinsic Functions
+# 10. Intrinsic Functions
 
 1. [AWS CloudFormation Intrinsic Functions By: Jeff Loughridge](https://konekti.us/post/aws-cloudformation-intrinsic-functions/)
 
-# Courses
+# 11. Courses
 
 1. [Automation in AWS with CloudFormation, CLI, and SDKs By Richard A. Jones](https://learning.oreilly.com/videos/automation-in-aws/9780134818313/)
 - Good place to brush up
 
-# Stack Sets
+# 12. Stack Sets
 
 1. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)

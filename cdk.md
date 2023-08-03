@@ -282,12 +282,13 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 1. [The Java Workshop for CDK](https://cdkworkshop.com/50-java.html)
 2. [Writing your CDK in Java By Melina Schweizer](https://medium.com/i-love-my-local-farmer-engineering-blog/writing-your-cdk-in-java-685a380d8e4e)
 3. [Packaging and deploying AWS Lambda functions written in Java with AWS Cloud Development Kit	By Pankaj Agarwal](https://aws.amazon.com/blogs/opensource/packaging-and-deploying-aws-lambda-functions-written-in-java-with-aws-cloud-development-kit/)
-4. [cdk-lambda-packaging-java @ aws-samples](https://github.com/aws-samples/cdk-lambda-packaging-java/tree/main)
-5. [AWS CDK constructs for Java @ aws-sample](https://github.com/aws-samples/aws-cdk-constructs-for-java)
-6. [[CDK] Increasing performance of Java AWS Lambda functions using tiered compilation By Mark Sailes](https://aws.amazon.com/blogs/compute/increasing-performance-of-java-aws-lambda-functions-using-tiered-compilation/)
+4. [Building, bundling, and deploying applications with the AWS CDK by Cory Hall](https://aws.amazon.com/blogs/devops/building-apps-with-aws-cdk/)
+5. [cdk-lambda-packaging-java @ aws-samples](https://github.com/aws-samples/cdk-lambda-packaging-java/tree/main)
+6. [AWS CDK constructs for Java @ aws-sample](https://github.com/aws-samples/aws-cdk-constructs-for-java)
+7. [[CDK] Increasing performance of Java AWS Lambda functions using tiered compilation By Mark Sailes](https://aws.amazon.com/blogs/compute/increasing-performance-of-java-aws-lambda-functions-using-tiered-compilation/)
 - https://github.com/aws-samples/aws-lambda-java-tiered-compilation-example/tree/main
-7. [Packaging sample by Ajay Wadhara](https://github.com/ajaywadhara/LambdaCDKExample)
-8. [CDK Examples for Java](https://github.com/aws-samples/aws-cdk-examples/tree/master/java)
+8. [Packaging sample by Ajay Wadhara](https://github.com/ajaywadhara/LambdaCDKExample)
+9. [CDK Examples for Java](https://github.com/aws-samples/aws-cdk-examples/tree/master/java)
 
 # 12. Curate
 
@@ -372,10 +373,17 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 
 # 20. Curate
 
-2. [AWS re:Invent 2022 - How to reuse patterns when developing infrastructure as code (DOP302)](https://www.youtube.com/watch?v=ndd9XwQZbyM)
-3. [The AWS CDK - The Bad Parts By Matthew Bonig](https://www.youtube.com/watch?v=AVMkjtJ21Co)
-4. [Working with the AWS Cloud Development Kit and AWS Construct Library by Lee Packham](https://aws.amazon.com/blogs/developer/working-with-the-aws-cloud-development-kit-and-aws-construct-library/)
-5. [My journey to master AWS CDK By Tebogo Moloi](https://towardsaws.com/my-journey-to-master-aws-cdk-part-2-be05c869f1ae)
+1. [AWS re:Invent 2022 - How to reuse patterns when developing infrastructure as code (DOP302)](https://www.youtube.com/watch?v=ndd9XwQZbyM)
+2. [The AWS CDK - The Bad Parts By Matthew Bonig](https://www.youtube.com/watch?v=AVMkjtJ21Co)
+3. [Working with the AWS Cloud Development Kit and AWS Construct Library by Lee Packham](https://aws.amazon.com/blogs/developer/working-with-the-aws-cloud-development-kit-and-aws-construct-library/)
+4. [My journey to master AWS CDK By Tebogo Moloi](https://towardsaws.com/my-journey-to-master-aws-cdk-part-2-be05c869f1ae)
+5. [Running AWS CDK from a Lambda function By Maciej Raszplewicz](https://dev.to/mraszplewicz/running-aws-cdk-from-a-lambda-function-3502)
+6. [AWS Lambda Provisioned Concurrency AutoScaling configuration with AWS CDK](https://dev.to/jreijn/aws-lambda-provisioned-concurrency-autoscaling-configuration-with-aws-cdk-1334)
+7. [Filter Lambda Events from DynamoDB Stream (with CDK)](https://dev.to/dvddpl/filter-lambda-events-from-dynamodb-stream-with-cdk-1gnm)
+8. [AWS Serverless and the DynamoDB Single Table Design - Hands-on with CDK v2](https://dev.to/adrianosastre/aws-serverless-and-the-dynamodb-single-table-design-hands-on-with-cdk-v2-38d0)
+9. [[MUST SEE] Building a Robust Serverless Messaging Service with Amazon EventBridge Pipes and CDK](https://dev.to/aws-builders/building-a-robust-serverless-messaging-service-with-amazon-eventbridge-pipes-and-cdk-2i9a)
+10. [[MUST SEE] How to integrate Datadog with AWS ECS using AWS CDK](https://dev.to/pmca/how-to-integrate-datadog-with-aws-ecs-using-aws-cdk-96l)
+11. [How to create a website using S3 + Certificate Manager + Cloud Front with CDK ?](https://dev.to/skaznowiecki/how-to-create-a-website-using-s3-certificate-manager-cloud-front-using-cdk-3cen)
 
 # 21. React
 

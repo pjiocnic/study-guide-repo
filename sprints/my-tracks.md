@@ -9,8 +9,10 @@
 - [5. Cookie Cutter](#5-cookie-cutter)
 - [6. SQS Best Practices](#6-sqs-best-practices)
 - [7. AWS Organizations](#7-aws-organizations)
-- [Lambda + SQS](#lambda--sqs)
-- [Lambda Troubleshooting](#lambda-troubleshooting)
+- [8. Lambda + SQS](#8-lambda--sqs)
+- [9. Lambda Troubleshooting](#9-lambda-troubleshooting)
+- [Well Architected](#well-architected)
+- [CDK Deployment using Java](#cdk-deployment-using-java)
 
 <!-- /TOC -->
 
@@ -30,6 +32,10 @@
 12. [AWS CloudFormation Workshop > Orchestrating with StackSets](https://catalog.workshops.aws/cfn101/en-US/intermediate/operations/stacksets)
 13. [AWS CloudFormation Workshop > Advanced > Modules](https://catalog.workshops.aws/cfn101/en-US/advanced/modules)
 14. [AWS CloudFormation Workshop > Advanced > Resource Types](https://catalog.workshops.aws/cfn101/en-US/advanced/resource-types)
+
+15. [Hands-on AWS CloudFormation - Part 1. It All Starts Here By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-1-it-all-starts-here-5153)
+15. [AWS CloudFormation best practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
+16. [AWS CloudFormation Sample Templates](https://github.com/awslabs/aws-cloudformation-templates)
 
 # 2. Loan Broker
 
@@ -82,7 +88,7 @@
 3. [Foundational Organizational Unit Structure and Accounts](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main/organizations/foundational-organizational-unit-structure)
 4. [AWS Control Tower Guide](https://catalog.workshops.aws/control-tower/en-US)
 
-# Lambda + SQS
+# 8. Lambda + SQS
 
 1. [Lambda Concurrency Limits and SQS Triggers Don’t Mix Well (Sometimes)](https://zaccharles.medium.com/lambda-concurrency-limits-and-sqs-triggers-dont-mix-well-sometimes-eb23d90122e0)
 2. [AWS re:Invent 2022 - A closer look at AWS Lambda (SVS404-R) By Julian Wood](https://www.youtube.com/watch?v=0_jfH6qijVY)
@@ -95,11 +101,22 @@
 7. [Introducing new asynchronous invocation metrics for AWS Lambda](https://aws.amazon.com/blogs/compute/introducing-new-asynchronous-invocation-metrics-for-aws-lambda/)
 8. [Asynchronous invocation](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)
 
-# Lambda Troubleshooting
+# 9. Lambda Troubleshooting
 
 1. [AWS Lambda - Troubleshooting](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10771/aws-lambda-troubleshooting)
 2. [How to Speed Up Your AWS Lambda Functions](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/14738/how-to-speed-up-your-aws-lambda-functions)
 3. [AWS Lambda Fundamentals - AWS Lambda observability and troubleshooting](https://www.youtube.com/watch?v=K2aebIhjWj8)
 4. [Introducing new asynchronous invocation metrics for AWS Lambda By Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/introducing-new-asynchronous-invocation-metrics-for-aws-lambda/)
 
+# Well Architected
 
+1. [AWS Well-Architected Labs](https://github.com/awslabs/aws-well-architected-labs)
+4. [Operational Excellence Pillar AWS Well-Architected Framework. AGPIAL Audiobook](https://www.youtube.com/watch?v=Vhk6a5MUhE8)
+2. [Reliability Pillar AWS Well-Architected Framework. AGPIAL Audiobook](https://www.youtube.com/watch?v=avp7Hb-JybU)
+3. [Performance Eﬃciency Pillar AWS Well-Architected Framework. AGPIAL Audiobook](https://www.youtube.com/watch?v=jze2oaojNSI)
+5. [Cost Optimization Pillar AWS Well-Architected Framework AGPIAL Audiobook](https://www.youtube.com/watch?v=zeLyoWund1I)
+
+
+# CDK Deployment using Java
+
+1. [Packaging and deploying AWS Lambda functions written in Java with AWS Cloud Development Kit by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/packaging-and-deploying-aws-lambda-functions-written-in-java-with-aws-cloud-development-kit/)
