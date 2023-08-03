@@ -1,5 +1,11 @@
 <h1>Sprint 31 - Jul 31, 2023 - Aug 6, 2023</h1>
 
+1. Cloudformation workshop
+2. Highly Available Web App workshop - https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US/application/lab5
+3. Stratospheric book
+
+
+
 # 1. Daily
 
 1. [Serverless Applications Lens - AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html)
