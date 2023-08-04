@@ -9,11 +9,12 @@
 - [5. Cookie Cutter](#5-cookie-cutter)
 - [6. SQS Best Practices](#6-sqs-best-practices)
 - [7. AWS Organizations](#7-aws-organizations)
-- [8. Lambda + SQS](#8-lambda--sqs)
-- [9. Lambda Troubleshooting](#9-lambda-troubleshooting)
-- [10. Well Architected](#10-well-architected)
-- [11. CDK Deployment using Java](#11-cdk-deployment-using-java)
-- [DLQs](#dlqs)
+- [8. Lambda architecture](#8-lambda-architecture)
+- [9. Lambda + SQS](#9-lambda--sqs)
+- [10. Lambda Troubleshooting](#10-lambda-troubleshooting)
+- [11. Well Architected](#11-well-architected)
+- [12. CDK Deployment using Java](#12-cdk-deployment-using-java)
+- [13. DLQs](#13-dlqs)
 
 <!-- /TOC -->
 
@@ -89,7 +90,13 @@
 3. [Foundational Organizational Unit Structure and Accounts](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main/organizations/foundational-organizational-unit-structure)
 4. [AWS Control Tower Guide](https://catalog.workshops.aws/control-tower/en-US)
 
-# 8. Lambda + SQS
+# 8. Lambda architecture
+
+1. [AWS re:Invent 2022 - A closer look at AWS Lambda (SVS404-R) By Julian Wood](https://www.youtube.com/watch?v=0_jfH6qijVY&t=1308s)
+2. [AWS re:Invent 2022 - Architecting secure serverless applications (SVS302-R) By Josh Kahn](https://www.youtube.com/watch?v=A8iHQjHv8nY)
+3. [AWS re:Invent 2020: Scalable serverless event-driven architectures with SNS, SQS & Lambda By Justin Pirtle](https://www.youtube.com/watch?v=8zysQqxgj0I)
+
+# 9. Lambda + SQS
 
 1. [Lambda Concurrency Limits and SQS Triggers Don’t Mix Well (Sometimes)](https://zaccharles.medium.com/lambda-concurrency-limits-and-sqs-triggers-dont-mix-well-sometimes-eb23d90122e0)
 2. [AWS re:Invent 2022 - A closer look at AWS Lambda (SVS404-R) By Julian Wood](https://www.youtube.com/watch?v=0_jfH6qijVY)
@@ -102,14 +109,14 @@
 7. [Introducing new asynchronous invocation metrics for AWS Lambda](https://aws.amazon.com/blogs/compute/introducing-new-asynchronous-invocation-metrics-for-aws-lambda/)
 8. [Asynchronous invocation](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)
 
-# 9. Lambda Troubleshooting
+# 10. Lambda Troubleshooting
 
 1. [AWS Lambda - Troubleshooting](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10771/aws-lambda-troubleshooting)
 2. [How to Speed Up Your AWS Lambda Functions](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/14738/how-to-speed-up-your-aws-lambda-functions)
 3. [AWS Lambda Fundamentals - AWS Lambda observability and troubleshooting](https://www.youtube.com/watch?v=K2aebIhjWj8)
 4. [Introducing new asynchronous invocation metrics for AWS Lambda By Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/introducing-new-asynchronous-invocation-metrics-for-aws-lambda/)
 
-# 10. Well Architected
+# 11. Well Architected
 
 1. [AWS Well-Architected Labs](https://github.com/awslabs/aws-well-architected-labs)
 4. [Operational Excellence Pillar AWS Well-Architected Framework. AGPIAL Audiobook](https://www.youtube.com/watch?v=Vhk6a5MUhE8)
@@ -118,7 +125,7 @@
 5. [Cost Optimization Pillar AWS Well-Architected Framework AGPIAL Audiobook](https://www.youtube.com/watch?v=zeLyoWund1I)
 
 
-# 11. CDK Deployment using Java
+# 12. CDK Deployment using Java
 
 1. [Packaging and deploying AWS Lambda functions written in Java with AWS Cloud Development Kit by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/packaging-and-deploying-aws-lambda-functions-written-in-java-with-aws-cloud-development-kit/)
 2. [Writing your CDK in Java By Melina Schweizer](https://medium.com/i-love-my-local-farmer-engineering-blog/writing-your-cdk-in-java-685a380d8e4e)
@@ -128,10 +135,12 @@
 6. [AWS CDK constructs for Java @ aws-sample](https://github.com/aws-samples/aws-cdk-constructs-for-java)
 7. [Packaging sample by Ajay Wadhara](https://github.com/ajaywadhara/LambdaCDKExample)
 
-# DLQs
+# 13. DLQs
 
 1. [Durable Serverless Architectures: Working with Dead-Letter Queues API309 By Otavio Ferreira](https://d1.awsstatic.com/events/reinvent/2019/Durable_serverless_architecture_Working_with_dead-letter_queues_API309.pdf)
 2. [Asynchronous invocation](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)
 3. [Configuring an Amazon SNS dead-letter queue for a subscription](https://docs.aws.amazon.com/sns/latest/dg/sns-configure-dead-letter-queue.html)
 4. [Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda By Otavio Ferreira](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
 5. [Introducing payload-based message filtering for Amazon SNS](https://aws.amazon.com/blogs/compute/introducing-payload-based-message-filtering-for-amazon-sns/)
+6. [[START HERE] Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns)
+
