@@ -61,6 +61,7 @@
 - [27. Cookbooks](#27-cookbooks)
   - [27.1. Cookbook by Ran Isenberg](#271-cookbook-by-ran-isenberg)
 - [28. DLQs](#28-dlqs)
+- [Monitoring](#monitoring)
 
 <!-- /TOC -->
 
@@ -352,3 +353,8 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 3. [Configuring an Amazon SNS dead-letter queue for a subscription](https://docs.aws.amazon.com/sns/latest/dg/sns-configure-dead-letter-queue.html)
 4. [Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda By Otavio Ferreira](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
 5. [Introducing payload-based message filtering for Amazon SNS](https://aws.amazon.com/blogs/compute/introducing-payload-based-message-filtering-for-amazon-sns/)
+6. [[START HERE] Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
+
+# Monitoring
+
+1. [Lambda Monitoring Overview](https://www.youtube.com/watch?v=idkluLIwous)

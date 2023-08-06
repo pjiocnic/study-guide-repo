@@ -24,6 +24,19 @@
 1. [Module 2: Container Performance Tuning](https://catalog.workshops.aws/performance-tuning/en-US/50-container/51-architecture)
 2. [Modernize with AWS App2Container Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/2c1e5f50-0ebe-4c02-a957-8a71ba1e8c89/en-US)
 3. [Building your first DevOps Blue/Green pipeline with Amazon ECS](https://catalog.us-east-1.prod.workshops.aws/workshops/4b59b9fb-48b6-461c-9377-907b2e33c9df/en-US/introduction)
+- Create and Use Aurora MySQL DB
+- Create Application Load Balancer
+- Create ECS Cluster with Autoscaling
+- DevOps Pipeline with Blue/Green Deployment
+
+4. [CI/CD workshop for Amazon ECS](https://catalog.us-east-1.prod.workshops.aws/workshops/869f7eee-d3a2-490b-bf9a-ac90a8fb2d36/en-US)
+- Lab 0: CodeCommit
+- Lab 1 : Rolling update
+- Lab 2 : Blue green deployment
+- Lab 3 : Exploring CodeDeploy
+- Lab 4: Git-based Service Configuration
+- Lab 5: Canary Deployment
+- Misc: Git-based Service Configuration with Terraform
 
 # 4. BluePrints
 
