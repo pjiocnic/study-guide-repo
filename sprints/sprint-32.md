@@ -75,9 +75,11 @@
 
 # 5. Monitoring
 
-1. [Lambda Monitoring Overview](https://www.youtube.com/watch?v=idkluLIwous)
+1. [[START HERE] Lambda Monitoring Overview](https://www.youtube.com/watch?v=idkluLIwous)
 
 # 6. DLQs
 
 1. [Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
 - /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/lambda/dlq/aws-lambda-error-handling-pattern
+2. Document the retry mechanism for each data source
+- https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions/
