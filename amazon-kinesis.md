@@ -12,7 +12,7 @@
 - [7. Tumbling Windows](#7-tumbling-windows)
 - [8. Architectures](#8-architectures)
 - [9. Vidoes](#9-vidoes)
-- [Workshops](#workshops)
+- [10. Workshops](#10-workshops)
 
 <!-- /TOC -->
 
@@ -65,7 +65,7 @@
 
 1. [Amazon Kinesis Introduction and Overview (with SNS, SQS, Eventbridge Comparisons! By BeBetterdev)](https://www.youtube.com/watch?v=_bRTlb9b59Y)
 
-# Workshops
+# 10. Workshops
 
 1. [Real Time Streaming with Amazon Kinesis](https://catalog.us-east-1.prod.workshops.aws/workshops/2300137e-f2ac-4eb9-a4ac-3d25026b235f/en-US)
     - Produce data to Kinesis Data Streams
