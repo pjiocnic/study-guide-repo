@@ -356,6 +356,7 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 4. [How to build a serverless web application with multiple pipelines](https://github.com/aws-samples/multi-pipeline-serverless-web-application-with-cdk)
 5. [CICD on Serverless Applications using AWS CodeArtifact by Anand Krishna ](https://aws.amazon.com/blogs/devops/cicd-on-serverless-applications-using-aws-codeartifact/)
 - a simple DevOps pipeline for a sample JAVA application (JAR file) to be built with Maven.
+6. [Create a CI/CD pipeline for Amazon ECS with GitHub Actions and AWS CodeBuild Tests by Bryant Bost ](https://aws.amazon.com/blogs/containers/create-a-ci-cd-pipeline-for-amazon-ecs-with-github-actions-and-aws-codebuild-tests/)
 
 # 17. Testing
 

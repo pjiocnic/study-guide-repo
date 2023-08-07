@@ -1,5 +1,5 @@
 
-<H1>Kinesis</h1>
+<H1>Amazon Kinesis</h1>
 
 <!-- TOC -->
 
@@ -11,6 +11,8 @@
 - [6. Enhanced Fan-Out](#6-enhanced-fan-out)
 - [7. Tumbling Windows](#7-tumbling-windows)
 - [8. Architectures](#8-architectures)
+- [9. Vidoes](#9-vidoes)
+- [Workshops](#workshops)
 
 <!-- /TOC -->
 
@@ -58,3 +60,18 @@
 - Java
 3. [Streaming Amazon DynamoDB data into a centralized data lake by Praveen Krishnamoorthy Ravikumar, Abhishek Gupta, and Ashok Yoganand Sridharan](https://aws.amazon.com/blogs/big-data/streaming-amazon-dynamodb-data-into-a-centralized-data-lake/)
 - CFN
+
+# 9. Vidoes
+
+1. [Amazon Kinesis Introduction and Overview (with SNS, SQS, Eventbridge Comparisons! By BeBetterdev)](https://www.youtube.com/watch?v=_bRTlb9b59Y)
+
+# Workshops
+
+1. [Real Time Streaming with Amazon Kinesis](https://catalog.us-east-1.prod.workshops.aws/workshops/2300137e-f2ac-4eb9-a4ac-3d25026b235f/en-US)
+    - Produce data to Kinesis Data Streams
+    - Write Data to a Kinesis Data Stream using Kinesis Data Analytics Studio Notebook
+    - Lambda with Kinesis Data Firehose
+    - Clean, Aggregate, and Enrich Events with Kinesis Data Analytics
+    - Lambda Consumer for Kinesis Data Stream
+    - Consuming with Amazon KCL
+2. [aws-lambda-kinesis-aggregated-event-filtering](https://github.com/aws-samples/aws-lambda-kinesis-aggregated-event-filtering)

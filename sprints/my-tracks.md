@@ -15,6 +15,7 @@
 - [11. Well Architected](#11-well-architected)
 - [12. CDK Deployment using Java](#12-cdk-deployment-using-java)
 - [13. DLQs](#13-dlqs)
+- [Rate limiting with ECS](#rate-limiting-with-ecs)
 
 <!-- /TOC -->
 
@@ -145,3 +146,9 @@
 5. [Introducing payload-based message filtering for Amazon SNS](https://aws.amazon.com/blogs/compute/introducing-payload-based-message-filtering-for-amazon-sns/)
 6. [[START HERE] Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns)
 
+
+# Rate limiting with ECS
+
+1. [Rate Limiting Strategies for Serverless Applications by Sharon Li, Akhil Aendapally, and Ashish Lagwankar](https://aws.amazon.com/blogs/architecture/rate-limiting-strategies-for-serverless-applications/)
+2. [Serverless Optimization Workshop (Performance and Cost) > Traffic Throttling > Rate Limiting](https://catalog.workshops.aws/serverless-optimization/en-US/traffic-throttling/3-throttling)
+3. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/ecs/5-Rate Limit ECS Fargate based on SQS.md

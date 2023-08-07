@@ -61,7 +61,7 @@
 - [27. Cookbooks](#27-cookbooks)
   - [27.1. Cookbook by Ran Isenberg](#271-cookbook-by-ran-isenberg)
 - [28. DLQs](#28-dlqs)
-- [Monitoring](#monitoring)
+- [29. Monitoring](#29-monitoring)
 
 <!-- /TOC -->
 
@@ -355,6 +355,8 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 5. [Introducing payload-based message filtering for Amazon SNS](https://aws.amazon.com/blogs/compute/introducing-payload-based-message-filtering-for-amazon-sns/)
 6. [[START HERE] Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
 
-# Monitoring
+# 29. Monitoring
 
 1. [Lambda Monitoring Overview](https://www.youtube.com/watch?v=idkluLIwous)
+
+

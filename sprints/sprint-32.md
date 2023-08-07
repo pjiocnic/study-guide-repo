@@ -22,6 +22,10 @@
 3. Stratospheric book
 4. Typescript chapter from Udemy course
 5. Lambda architecture - [AWS re:Invent 2022 - A closer look at AWS Lambda (SVS404-R)](https://www.youtube.com/watch?v=0_jfH6qijVY&t=1308s)
+step function workshop
+loan processor
+documentdb
+
 
 # 2. Daily
 
