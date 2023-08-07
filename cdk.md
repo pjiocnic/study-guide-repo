@@ -171,6 +171,7 @@
 3. [Deploying a Spring boot app to Fargate with the AWS CDK](https://www.profit4cloud.nl/blog/deploying-a-spring-boot-app-to-fargate-with-the-aws-cdk/)
 4. [Getting Started with ECS](https://github.com/aws-samples/aws-cdk-microservices-workshop)
 5. [CDK Construct library for higher-level ECS Constructs](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecs_patterns-readme.html)
+6. [[Developer Guide] Getting started with Amazon ECS using the AWS CDK](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/tutorial-ecs-web-server-cdk.html)
 
 ### 10.4.1. Spring + ECS
 
