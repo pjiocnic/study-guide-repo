@@ -11,8 +11,9 @@
 - [5. Java](#5-java)
 - [6. Debugging](#6-debugging)
 - [7. Tutorials](#7-tutorials)
-- [How build and deploy docker containers on ECS?](#how-build-and-deploy-docker-containers-on-ecs)
-- [CDK](#cdk)
+- [8. How build and deploy docker containers on ECS?](#8-how-build-and-deploy-docker-containers-on-ecs)
+- [9. CDK](#9-cdk)
+- [10. Autoscaling](#10-autoscaling)
 
 <!-- /TOC -->
 
@@ -80,12 +81,16 @@
 
     <img src="./images/aws-ecs-1.png" title="aws-ecs-1.png" width="900"/>
 
-# How build and deploy docker containers on ECS?
+# 8. How build and deploy docker containers on ECS?
 
 1. [Building container images on Amazon ECS on AWS Fargate by Re Alvarez-Parmar and Olly Pomeroy](https://aws.amazon.com/blogs/containers/building-container-images-on-amazon-ecs-on-aws-fargate/)
 2. [Deploy Docker Containers on Amazon ECS](https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers/)
 3. [Creating a container image for use on Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/userguide/create-container-image.html)
 
-# CDK
+# 9. CDK
 
 1. [CDK Construct library for higher-level ECS Constructs](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecs_patterns-readme.html)
+
+# 10. Autoscaling
+
+1. [Deep Dive on Amazon ECS Cluster Auto Scaling by Nick Coult](https://aws.amazon.com/blogs/containers/deep-dive-on-amazon-ecs-cluster-auto-scaling/)

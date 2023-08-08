@@ -31,7 +31,8 @@
 
 # Distributed Map
 
-introduction to distributed map for serverless data processing uma ramadoss
+1. Missing Paper - introduction to distributed map for serverless data processing uma ramadoss
+2. [AWS Step functions Map State & Parallel State](https://towardsaws.com/aws-step-functions-map-state-parallel-state-3d1be5be8fc5)
 
 # Parallelisms
 

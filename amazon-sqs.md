@@ -5,7 +5,7 @@
 - [1. All about SQS](#1-all-about-sqs)
 - [2. Deduplication](#2-deduplication)
 - [3. SQS FIFO](#3-sqs-fifo)
-- [4. Well Architected](#4-well-architected)
+- [4. BestPractices](#4-bestpractices)
 - [5. Scaling](#5-scaling)
 - [6. DLQs](#6-dlqs)
 - [7. Temporary Queues](#7-temporary-queues)
@@ -30,11 +30,13 @@
 2. [Solving Complex Ordering Challenges with Amazon SQS FIFO Queues by Christie Gifrin and Shea Lutton |](https://aws.amazon.com/blogs/compute/solving-complex-ordering-challenges-with-amazon-sqs-fifo-queues/)
 3. [Building event-driven architectures with Amazon SNS FIFO By Christian Mueller](https://aws.amazon.com/blogs/compute/building-event-driven-architectures-with-amazon-sns-fifo/)
 
-# 4. Well Architected
+# 4. BestPractices
 
 1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 1 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-1/)
 2. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 2 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-2/)
 3. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 3 by Pascal Vogel](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-3/)
+4. [Mastering Retries: Best Practices for Amazon SQS By Ran Isenberg](https://www.ranthebuilder.cloud/post/mastering-retries-best-practices-for-amazon-sqs)
+5. [Effective Amazon SQS Batch Handling with AWS Lambda Powertools By Ran Isenberg](https://www.ranthebuilder.cloud/post/effective-amazon-sqs-batch-handling-with-aws-lambda-powertools)
 
 # 5. Scaling
 
@@ -46,6 +48,7 @@
 
 1. [Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
 2. [Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
+3. [How do dead-letter queues work](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html)
 
 # 7. Temporary Queues
 
@@ -61,3 +64,4 @@
 1. [Introducing Amazon Simple Queue Service dead-letter queue redrive to source queues by Mark Richman,](https://aws.amazon.com/blogs/compute/introducing-amazon-simple-queue-service-dead-letter-queue-redrive-to-source-queues/)
 2. [SQS Redrive Policy](https://awslabs.github.io/serverless-rules/rules/sqs/redrive_policy/)
 3. [A New Set of APIs for Amazon SQS Dead-Letter Queue Redrive by Sébastien Stormacq](https://aws.amazon.com/blogs/aws/a-new-set-of-apis-for-amazon-sqs-dead-letter-queue-redrive/)
+
