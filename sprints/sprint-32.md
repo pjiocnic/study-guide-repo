@@ -18,14 +18,16 @@
 
 <!-- /TOC -->
 # 1. Incomplete Tasks
+
 1. Cloudformation workshop
 2. Highly Available Web App workshop - https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US/application/lab5
 3. Stratospheric book
 4. Typescript chapter from Udemy course
 5. Lambda architecture - [AWS re:Invent 2022 - A closer look at AWS Lambda (SVS404-R)](https://www.youtube.com/watch?v=0_jfH6qijVY&t=1308s)
-step function workshop
-loan processor
-documentdb
+6. step function workshop
+7. loan processor
+8. documentdb
+9. AWS Cookbook for Containers
 
 
 # 2. Daily
