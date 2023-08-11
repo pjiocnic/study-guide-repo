@@ -14,6 +14,7 @@
 - [4. CDK Constructs](#4-cdk-constructs)
 - [5. Monitoring](#5-monitoring)
 - [6. DLQs](#6-dlqs)
+- [7. Best practices for Lambda](#7-best-practices-for-lambda)
 
 <!-- /TOC -->
 # 1. Incomplete Tasks
@@ -70,7 +71,7 @@ documentdb
 ## 3.5. CDK packaging
 
 1. [Packaging and deploying AWS Lambda functions written in Java with AWS Cloud Development Kit	By Pankaj Agarwal](https://aws.amazon.com/blogs/opensource/packaging-and-deploying-aws-lambda-functions-written-in-java-with-aws-cloud-development-kit/)
-2. [cdk-lambda-packaging-java @ aws-samples](https://github.com/aws-samples/
+2. [cdk-lambda-packaging-java @ aws-samples](https://github.com/aws-samples/)
 
 # 4. CDK Constructs
 
@@ -87,3 +88,7 @@ documentdb
 - /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/lambda/dlq/aws-lambda-error-handling-pattern
 2. Document the retry mechanism for each data source
 - https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions/
+
+# 7. Best practices for Lambda
+
+1. [4-best-practices-lambda.md](my-github/study-guide-repo/prepare-notes/4-best-practices-lambda.md)

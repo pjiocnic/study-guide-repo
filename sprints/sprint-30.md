@@ -28,13 +28,13 @@ Read Serverless Lens
 # Weekend ideas
 
 1. [[MY NEXT] SVS 307 Workshop - Easily Add Observability with AWS Lambda Powertools for Java](https://catalog.us-east-1.prod.workshops.aws/workshops/a7011c82-e4af-4a52-80fa-fcd61f1dacd9/en-US/introduction)
-2. [[MUST SEE][Spring Pet Clinic]Deploying Java Microservices on Amazon Elastic Container Service by Nathan Taber](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
+2. [[MUST SEE][Spring Pet Clinic] Deploying Java Microservices on Amazon Elastic Container Service by Nathan Taber](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
 - https://github.com/aws-samples/amazon-ecs-java-microservices/tree/master/2_ECS_Java_Spring_PetClinic_Microservices
 
 # In-progress
 
 1. Nested/Layer stacks @ CFN workshop
-2. SNS Topics by Be Bette Dev
+2. SNS Topics by Be Better Dev
 3. MongoDB modeling by
 https://www.youtube.com/watch?v=41ZIyAKNtdk
 https://www.youtube.com/watch?v=sq2Eo3qclaY

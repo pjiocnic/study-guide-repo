@@ -3,7 +3,7 @@
 <!-- TOC -->
 
 - [1. Cloudformation](#1-cloudformation)
-- [2. Loan Broker](#2-loan-broker)
+- [2. Scatter Gather Pattern By Gregor Hohpe](#2-scatter-gather-pattern-by-gregor-hohpe)
 - [3. ECS + Java](#3-ecs--java)
 - [4. Lambda Cookbook](#4-lambda-cookbook)
 - [5. Cookie Cutter](#5-cookie-cutter)
@@ -15,7 +15,13 @@
 - [11. Well Architected](#11-well-architected)
 - [12. CDK Deployment using Java](#12-cdk-deployment-using-java)
 - [13. DLQs](#13-dlqs)
-- [Rate limiting with ECS](#rate-limiting-with-ecs)
+- [14. Rate limiting with ECS](#14-rate-limiting-with-ecs)
+- [15. Target Groups](#15-target-groups)
+- [16. NLB fronting ALBs](#16-nlb-fronting-albs)
+- [17. Auto Scaling](#17-auto-scaling)
+- [18. Reference architecture to practice - CURATE](#18-reference-architecture-to-practice---curate)
+- [19. Samples to practice - CURATE](#19-samples-to-practice---curate)
+- [20. Devops](#20-devops)
 
 <!-- /TOC -->
 
@@ -40,7 +46,7 @@
 15. [AWS CloudFormation best practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
 16. [AWS CloudFormation Sample Templates](https://github.com/awslabs/aws-cloudformation-templates)
 
-# 2. Loan Broker
+# 2. Scatter Gather Pattern By Gregor Hohpe
 
 1. [Loan Broker with AWS CDK](https://github.com/aws-samples/aws-cdk-loan-broker)
 2. [Loan Broker Implementation with AWS Step Functions - Part 1](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions.html)
@@ -126,7 +132,6 @@
 5. [Performance Eﬃciency Pillar AWS Well-Architected Framework. AGPIAL Audiobook](https://www.youtube.com/watch?v=jze2oaojNSI)
 6. [Cost Optimization Pillar AWS Well-Architected Framework AGPIAL Audiobook](https://www.youtube.com/watch?v=zeLyoWund1I)
 
-
 # 12. CDK Deployment using Java
 
 1. [Packaging and deploying AWS Lambda functions written in Java with AWS Cloud Development Kit by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/packaging-and-deploying-aws-lambda-functions-written-in-java-with-aws-cloud-development-kit/)
@@ -147,8 +152,56 @@
 6. [[START HERE] Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns)
 
 
-# Rate limiting with ECS
+# 14. Rate limiting with ECS
 
 1. [Rate Limiting Strategies for Serverless Applications by Sharon Li, Akhil Aendapally, and Ashish Lagwankar](https://aws.amazon.com/blogs/architecture/rate-limiting-strategies-for-serverless-applications/)
 2. [Serverless Optimization Workshop (Performance and Cost) > Traffic Throttling > Rate Limiting](https://catalog.workshops.aws/serverless-optimization/en-US/traffic-throttling/3-throttling)
 3. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/ecs/5-Rate Limit ECS Fargate based on SQS.md
+
+# 15. Target Groups
+
+1. [Using load balancer target group health thresholds to improve availability by Luis Felipe Silveira da Silva](https://aws.amazon.com/blogs/networking-and-content-delivery/using-load-balancer-target-group-health-thresholds-to-improve-availability/)
+2. [Application Load Balancer-type Target Group for Network Load Balancer by Rohit Aswani and Eugene Wiehahn](https://aws.amazon.com/blogs/networking-and-content-delivery/application-load-balancer-type-target-group-for-network-load-balancer/)
+3. [[MUST SEE] Application Load Balancer Target Group Load Shedding](https://github.com/aws-samples/aws-alb-target-group-load-shedding/blob/main/README.md)
+ <img src="./images/tg-1.png" title="tg-1.png" width="900"/>
+
+# 16. NLB fronting ALBs
+
+1. [Using AWS Lambda to enable static IP addresses for Application Load Balancers by Long Ren ](https://aws.amazon.com/blogs/networking-and-content-delivery/using-aws-lambda-to-enable-static-ip-addresses-for-application-load-balancers/)
+2. [How to configure the Application Load Balancer-type Target Group for Network Load Balancer By Somesh Srivastava](https://someshsrivastava1983.medium.com/how-to-configure-the-application-load-balancer-type-target-group-for-network-load-balancer-9b0c39106699)
+
+# 17. Auto Scaling
+
+1. [AWS Auto Scaling Deep Dive By Digital Cloud Training](https://www.youtube.com/watch?v=xQeGrgQJJDc)
+2. [AWS AutoScaling Groups - Termination Policies #10](https://www.youtube.com/watch?v=ns8246QJORM)
+3. [What is AWS DynamoDB Autoscaling? By Be A Better Dev](https://www.youtube.com/watch?v=-um_HJWcHtA)
+4. [Autoscaling using Spot Instances with AWS CDK + TS](https://dev.to/aws-builders/autoscaling-using-spot-instances-with-aws-cdk-ts-4hgh)
+
+# 18. Reference architecture to practice - CURATE
+
+1. [Hosting Moodle on AWS](https://github.com/aws-samples/aws-refarch-moodle)
+2. [Deploying Microservices with Amazon ECS, AWS CloudFormation, and an Application Load Balancer](https://github.com/aws-samples/ecs-refarch-cloudformation)
+3. [Hosting WordPress on AWS](https://github.com/aws-samples/aws-refarch-wordpress)
+4. [Amazon ECS Reference Architecture: Batch Processing](https://github.com/aws-samples/ecs-refarch-batch-processing)
+5. [Serverless Reference Architecture: Web Application](https://github.com/aws-samples/lambda-refarch-webapp)
+
+# 19. Samples to practice - CURATE
+
+1. [AWS Serverless Developer Experience workshop reference architecture (Typescript)](https://github.com/aws-samples/aws-serverless-developer-experience-workshop-typescript)
+2. [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US)
+3. [AWS Serverless Developer Experience workshop reference architecture (Java)](https://github.com/aws-samples/aws-serverless-developer-experience-workshop-java)
+4. [Java Microservices Deployed on EC2 Container Service](https://github.com/aws-samples/amazon-ecs-java-microservices)
+5. [Serverless Reference Architecture: Real-time Stream Processing](https://github.com/aws-samples/lambda-refarch-streamprocessing)
+6. [Serverless Reference Architecture: Real-time File Processing](https://github.com/aws-samples/lambda-refarch-fileprocessing)
+7. [Serverless Samples](https://github.com/aws-samples/serverless-samples)
+8. [Refactoring to Serverless](https://github.com/aws-samples/aws-refactoring-to-serverless)
+
+9. [AWS Lambda Powertools for TypeScript Workshop](https://github.com/aws-samples/aws-lambda-powertools-typescript-workshop)
+
+# 20. Devops
+
+1. [Keeping up with your dependencies: building a feedback loop for shared libraries by Joerg Woehrle ](https://aws.amazon.com/blogs/devops/keeping-up-with-your-dependencies-building-a-feedback-loop-for-shared-libraries/)
+2. [Building Modular AWS Lambda Deployment Pipelines with Github Actions Fernando Nieuwveldt](https://towardsaws.com/building-modular-aws-lambda-deployment-pipelines-with-github-actions-9264fa59d7ba)
+3. [Operating serverless at scale: Implementing governance – Part 1 by Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-implementing-governance-part-1/)
+4. [Operating serverless at scale: Improving consistency – Part 2 by Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-improving-consistency-part-2/)
+4. [Operating serverless at scale: Keeping control of resources – Part 3 by Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-keeping-control-of-resources-part-3/)

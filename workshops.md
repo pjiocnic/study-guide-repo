@@ -36,6 +36,11 @@
 - [25. AWS Config](#25-aws-config)
 - [26. AWS Service Catalog](#26-aws-service-catalog)
 - [27. AWS CloudTrail](#27-aws-cloudtrail)
+- [Curate these workshops](#curate-these-workshops)
+  - [Disect this workshop](#disect-this-workshop)
+- [ASG Workshops to curate](#asg-workshops-to-curate)
+- [Multi-service workshop to curate](#multi-service-workshop-to-curate)
+- [Powertools](#powertools)
 
 <!-- /TOC -->
 
@@ -290,3 +295,38 @@
 # 27. AWS CloudTrail
 
 1. [AWS Management and Governance Tools Workshop > AWS CloudTrail](https://mng.workshop.aws/cloudtrail.html)
+
+# Curate these workshops
+
+1. [AWS Management and Governance Tools Workshop > AWS Config](https://mng.workshop.aws/config.html)
+2. [Risk & Compliance Workshop > Detective Controls with Config > Enable AWS Config](https://catalog.us-east-1.prod.workshops.aws/workshops/dd2bea89-dc7a-4bda-966a-70b4ff6e90e0/en-US/3-detective-controls-config/1-config-setup)
+3. [Multi-Account Security Governance Workshop > Service and guardrails setu > Set up central AWS Config](https://catalog.us-east-1.prod.workshops.aws/workshops/d3f60827-89f2-46a8-9be7-6e7185bd7665/en-US/2-service-guardrails/config)
+4. [Workshop: Getting started with Centralized Operations Management on AWS](https://catalog.workshops.aws/getting-started-with-com/en-US)
+5. [Scaling cost effective architectures > Services Tips > Management & Governance > AWS Config](https://catalog.us-east-1.prod.workshops.aws/workshops/f238037c-8f0b-446e-9c15-ebcc4908901a/en-US/002-services/004-management-governance/003-config)
+6. [Workshop: Cloud Operations on AWS > Compliance Management > Set up AWS Config and explore the dashboard](https://catalog.us-east-1.prod.workshops.aws/workshops/79a61310-00d6-4abd-9c96-b5f856659507/en-US/scenario2/set-up-aws-config)
+7. [AWS Cloud Security Virtual Event > Workshops > Lab 4: AWS Secrets Manager with Amazon RDS and AWS Fargate](https://awscloudsecvirtualevent.com/workshops/module4/)
+8. [AWS Cloud Security Virtual Event > Workshops > Lab 1: Eliminate Bastion Hosts with Systems Manager](https://awscloudsecvirtualevent.com/workshops/module1/)
+9. [Scaling cost effective architectures](https://catalog.us-east-1.prod.workshops.aws/workshops/f238037c-8f0b-446e-9c15-ebcc4908901a/en-US)
+
+## Disect this workshop
+9. [ Amazon ECS Workshop > Capacity Providers > Deploy ECS Cluster Auto Scaling](https://ecsworkshop.com/capacity_providers/ec2/)
+10. [Workshop - AWS Core Services](https://aws-core-services.ws.kabits.com/)
+11. [Workshop - Deploying Containers with AWS CDK v2 and React with AWS Amplify ](https://containers-cdk-react-amplify.ws.kabits.com/)
+
+# ASG Workshops to curate
+
+1. manual scaling, scheduled scaling, dynamic scaling, and predictive scaling
+2. [AWS Modernization Workshop with Gremlin > Experiment #1: Validate Autoscaling > 6.5 Create Action Items > 6.5.1 CREATE AUTO SCALING RULES](https://gremlin.awsworkshop.io/36_first_experiment/40_action_items/01_autoscaling.html)
+3. [ Amazon ECS Workshop > Capacity Providers > Deploy ECS Cluster Auto Scaling](https://ecsworkshop.com/capacity_providers/ec2/)
+4. [ Amazon EC2 Spot Workshops > Running EC2 Workloads at Scale with EC2 Auto Scaling > Using Scheduled Scaling in ASG](https://ec2spotworkshops.com/running-amazon-ec2-workloads-at-scale/scale_scheduled.html)
+5. [ Amazon EC2 Spot Workshops > Running Efficient and Resilient Workloads with Amazon EC2 Auto Scaling > Configure Dynamic scaling](https://ec2spotworkshops.com/efficient-and-resilient-ec2-auto-scaling/lab1/50-dynamic-scaling.html)
+6. [ Amazon EC2 Spot Workshops > Running Efficient and Resilient Workloads with Amazon EC2 Auto Scaling > Predictive Scaling](https://ec2spotworkshops.com/efficient-and-resilient-ec2-auto-scaling/lab1/10-predictive-scaling.html)
+7. [AWS General Immersion Day > Advanced Modules - Web Application > Compute – Amazon EC2 > Deploy auto scaling web service](https://catalog.workshops.aws/general-immersionday/en-US/advanced-modules/compute/auto-scaling)
+
+# Multi-service workshop to curate
+
+1. [AWS General Immersion Day](https://catalog.workshops.aws/general-immersionday/en-US)
+
+# Powertools
+
+1. [SVS 307 Workshop - Easily Add Observability with AWS Lambda Powertools for Java](https://catalog.us-east-1.prod.workshops.aws/workshops/a7011c82-e4af-4a52-80fa-fcd61f1dacd9/en-US/introduction)

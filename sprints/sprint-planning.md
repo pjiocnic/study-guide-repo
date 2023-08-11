@@ -8,10 +8,10 @@ https://www.epochconverter.com/weeks/2023
 - [4. Weekend](#4-weekend)
 - [5. Weekly - planning](#5-weekly---planning)
 - [6. Topics to explore](#6-topics-to-explore)
-- [Topics to explore](#topics-to-explore)
-- [Blogs to explore](#blogs-to-explore)
-- [Weekend Planning](#weekend-planning)
-- [Parked](#parked)
+- [7. Topics to explore](#7-topics-to-explore)
+- [8. Blogs to explore](#8-blogs-to-explore)
+- [9. Weekend Planning](#9-weekend-planning)
+- [10. Parked](#10-parked)
 
 <!-- /TOC -->
 
@@ -84,7 +84,7 @@ https://www.epochconverter.com/weeks/2023
 3. [Differences between Amazon SQS, Amazon MQ, and Amazon SNS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-difference-from-amazon-mq-sns.html)
 4. [How to setup DLQ for SNS Topics](https://faun.pub/aws-sns-dead-letter-queue-dlq-pattern-local-setup-272a206da3f)
 
-# Topics to explore
+# 7. Topics to explore
 
 1. Cloudformation workshop
 2. DocumentDB workshop
@@ -107,7 +107,7 @@ https://www.epochconverter.com/weeks/2023
 19. CDK workshops
 20. [Prescriptive Guides](https://aws.amazon.com/prescriptive-guidance/?apg-all-cards.sort-by=item.additionalFields.sortDate&apg-all-cards.sort-order=desc&awsf.apg-new-filter=*all&awsf.apg-content-type-filter=*all&awsf.apg-code-filter=*all&awsf.apg-category-filter=*all&awsf.apg-rtype-filter=*all&awsf.apg-isv-filter=*all&awsf.apg-product-filter=*all&awsf.apg-env-filter=*all)
 
-# Blogs to explore
+# 8. Blogs to explore
 
 1. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
 2. [Event storming](https://medium.com/serverless-transformation/eventbridge-storming-how-to-build-state-of-the-art-event-driven-serverless-architectures-e07270d4dee)
@@ -115,7 +115,7 @@ https://www.epochconverter.com/weeks/2023
 4. https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html
 5. [Powering Secondary DNS in a VPC using AWS Lambda and Amazon Route 53 Private Hosted Zones by Bryan Liston](https://aws.amazon.com/blogs/compute/powering-secondary-dns-in-a-vpc-using-aws-lambda-and-amazon-route-53-private-hosted-zones/)
 
-# Weekend Planning
+# 9. Weekend Planning
 1. DocumentDB
 2.  [[My NEXT] Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
     - Lab 1: Configure the network
@@ -131,7 +131,7 @@ https://www.epochconverter.com/weeks/2023
 3. EC2 spot instances
 4. PostGresSQL workshop
 
-# Parked
+# 10. Parked
 
 1. [Automation in AWS with CloudFormation, CLI, and SDKs By Richard A. Jones](https://learning.oreilly.com/videos/automation-in-aws/9780134818313/)
 - Good place to brush up
