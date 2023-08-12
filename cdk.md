@@ -10,6 +10,7 @@
 - [6. Constructs](#6-constructs)
 - [7. Construct Libraries](#7-construct-libraries)
 - [8. Projen](#8-projen)
+- [Project Structures](#project-structures)
 - [9. CDK Tutorials](#9-cdk-tutorials)
 - [10. Projects](#10-projects)
   - [10.1. Microservices](#101-microservices)
@@ -133,6 +134,10 @@
 1. [A Beginner's Guide to Create AWS CDK Construct Library with projen](https://dev.to/aws-builders/a-beginner-s-guide-to-create-aws-cdk-construct-library-with-projen-5eh4)
 2. [Production-Ready CDK - Project Structure](https://medium.com/@cagingulsen/production-ready-cdk-project-structure-fefeb7590ca8)
 3. [CDK Day 2020 - Projen... a CDK for Project Generation/Configuration](https://www.youtube.com/watch?v=SOWMPzXtTCw)
+
+# Project Structures
+
+1. [Production-Ready CDK - Project Structure](https://medium.com/@cagingulsen/production-ready-cdk-project-structure-fefeb7590ca8)
 
 # 9. CDK Tutorials
 

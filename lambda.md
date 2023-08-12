@@ -62,6 +62,8 @@
   - [27.1. Cookbook by Ran Isenberg](#271-cookbook-by-ran-isenberg)
 - [28. DLQs](#28-dlqs)
 - [29. Monitoring](#29-monitoring)
+- [30. Workshops](#30-workshops)
+- [31. Videos](#31-videos)
 
 <!-- /TOC -->
 
@@ -94,7 +96,6 @@
 
 1. [S3-to-Lambda patterns: Avoiding recursive invocation](https://github.com/aws-samples/s3-to-lambda-invocation-patterns)
 2. [Manage Amazon S3 Event Notifications using a Lambda function by Philip Chen](https://aws.amazon.com/blogs/infrastructure-and-automation/manage-amazon-s3-event-notifications-using-lambda-function/)
-
 
 ## 4.2. Secrets-Manager
 
@@ -359,4 +360,17 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Lambda Monitoring Overview](https://www.youtube.com/watch?v=idkluLIwous)
 
+# 30. Workshops
 
+1. [Java on AWS Lambda](https://catalog.workshops.aws/java-on-aws-lambda/en-US)
+  - From Serverful to Serverless Java with AWS Lambda
+  <img src="./images/unicorn-store-overview.png" title="Using Java" width="900"/>
+  - Accelerate Serverless Java with GraalVM
+  <img src="./images/unicorn-location-api-overview.png" title="GraalVM" width="900"/>
+  - Starting up faster with AWS Lambda SnapStart
+  <img src="./images/unicorn-location-api-overview.png" title="SnapStart" width="900"/>
+2. [Build a Serverless Web Application with AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
+
+# 31. Videos
+
+1. [AWS re:Invent 2022 - Serverless Compute](https://www.youtube.com/watch?v=SbL3a9YOW7s&list=PL2yQDdvlhXf8Erryfslfo3E42QtcX-aiD)

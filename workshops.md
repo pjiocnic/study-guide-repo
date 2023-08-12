@@ -13,8 +13,6 @@
 - [6. Account management using AWS Organizations](#6-account-management-using-aws-organizations)
 - [7. Cloudformation](#7-cloudformation)
 - [8. Athena](#8-athena)
-- [9. Lambda](#9-lambda)
-  - [9.1. Using Java](#91-using-java)
 - [10. Kinesis](#10-kinesis)
   - [10.1. Kinesis Firehose](#101-kinesis-firehose)
 - [11. Serverless](#11-serverless)
@@ -83,7 +81,7 @@
 
 ## 5.2. Lambda
 
-1. [Build a Serverless Web Application with AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
+[See lambda.md#30-workshops](my-github/study-guide-repo/lambda.md#30-workshops)
 
 # 6. Account management using AWS Organizations
 
@@ -122,12 +120,6 @@
 # 8. Athena
 
 1. [[My NEXT] Amazon Athena Workshop :: Hands on Labs](https://catalog.us-east-1.prod.workshops.aws/workshops/9981f1a1-abdc-49b5-8387-cb01d238bb78/en-US)
-
-# 9. Lambda
-
-## 9.1. Using Java
-
-1. [Java on AWS Lambda](https://catalog.workshops.aws/java-on-aws-lambda/en-US)
 
 # 10. Kinesis
 
@@ -286,7 +278,7 @@
 
 # 25. AWS Config
 
-1. [AWS Management and Governance Tools Workshop > AWS Config](https://mng.workshop.aws/config.html)
+[See aws-config.md#1-workshops](./aws-config.md#1-workshops)
 
 # 26. AWS Service Catalog
 

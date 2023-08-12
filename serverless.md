@@ -1,9 +1,21 @@
+<h1> Serverless - Lambda, ECS</h1>
+
+<!-- TOC -->
+
+- [1. websockets](#1-websockets)
+- [2. ICYMI: Serverless](#2-icymi-serverless)
+- [3. Workshops](#3-workshops)
+- [4. Observability](#4-observability)
+- [5. Patterns](#5-patterns)
+- [6. Videos](#6-videos)
+
+<!-- /TOC -->
 
 # 1. websockets
 
 1. [Building serverless multi-Region WebSocket APIs](https://aws.amazon.com/blogs/compute/building-serverless-multi-region-websocket-apis/)
 
-# ICYMI: Serverless
+# 2. ICYMI: Serverless
 
 1. [ICYMI: Serverless Q1 2018](https://aws.amazon.com/blogs/compute/icymi-serverless-q1-2018/)
 2. [ICYMI: Serverless Q2 2018](https://aws.amazon.com/blogs/compute/icymi-serverless-q2-2018/)
@@ -28,7 +40,7 @@
 21. [ICYMI: Serverless Q1 2023](https://aws.amazon.com/blogs/compute/serverless-icymi-q1-2023/)
 22. [ICYMI: Serverless Q3 2023](https://aws.amazon.com/blogs/compute/serverless-icymi-q2-2023/)
 
-# Workshop
+# 3. Workshops
 
 1. [Module 1: Serverless Performance Tuning](https://catalog.workshops.aws/performance-tuning/en-US/40-serverless)
 2. [Serverless Patterns](https://catalog.workshops.aws/serverless-patterns/en-US)
@@ -38,10 +50,14 @@
 - Lab 3 - Scatter-gather
 - Lab 4 - Orchestration and coordination
 
-# Observability
+# 4. Observability
 
 1. [Mastering Serverless Application Observability By Julian Wood](https://www.youtube.com/playlist?list=PLJo-rJlep0EDiN3pPjBDUfq34BqMAI_o-)
 
-# Patterns
+# 5. Patterns
 
 1. [Serverless Optimization Workshop (Performance and Cost) > Traffic Throttling> Rate Limiting](https://catalog.us-east-1.prod.workshops.aws/workshops/2d960419-7d15-44e7-b540-fd3ebeb7ce2e/en-US/traffic-throttling/3-throttling)
+
+# 6. Videos
+
+1. [AWS re:Invent 2022 - Serverless Compute](https://www.youtube.com/watch?v=SbL3a9YOW7s&list=PL2yQDdvlhXf8Erryfslfo3E42QtcX-aiD)
