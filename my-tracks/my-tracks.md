@@ -74,13 +74,7 @@
 
 # 5. Cookie Cutter
 
-1. [How to create a Spring Boot Microservice using Cookiecutter](https://www.cortex.io/post/how-to-create-a-spring-boot-microservice-using-cookiecutter)
-2. [Creating Project Templates with Cookiecutter](https://maciejwalkowiak.com/blog/creating-project-templates-with-cookiecutter/)
-3. [Learn the Basics of Cookiecutter by Creating a Cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.0/first_steps.html)
-4. [A CookieCutter template for a fresh CDK package](https://github.com/rix0rrr/cookiecutter-cdk-package)
-5. [Production-Ready CDK – Project Structure By Kemal Gülşen](https://www.luminis.eu/blog/cloud-en/production-ready-cdk-project-structure/)
-6. [[START HERE] Python Cookiecutter: Streamline Template Projects for Enhanced Developer Experience](https://www.ranthebuilder.cloud/post/python-cookiecutter-streamline-template-projects-for-enhanced-developer-efficiency)
-7. [Operating serverless at scale: Improving consistency – Part 2 By Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-improving-consistency-part-2/)
+
 
 # 6. SQS Best Practices
 
@@ -144,38 +138,23 @@
 
 # 13. DLQs
 
-1. [Durable Serverless Architectures: Working with Dead-Letter Queues API309 By Otavio Ferreira](https://d1.awsstatic.com/events/reinvent/2019/Durable_serverless_architecture_Working_with_dead-letter_queues_API309.pdf)
-2. [Asynchronous invocation](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)
-3. [Configuring an Amazon SNS dead-letter queue for a subscription](https://docs.aws.amazon.com/sns/latest/dg/sns-configure-dead-letter-queue.html)
-4. [Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda By Otavio Ferreira](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
-5. [Introducing payload-based message filtering for Amazon SNS](https://aws.amazon.com/blogs/compute/introducing-payload-based-message-filtering-for-amazon-sns/)
-6. [[START HERE] Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns)
-
+[See DLQ](./dlq.md)
 
 # 14. Rate limiting with ECS
 
-1. [Rate Limiting Strategies for Serverless Applications by Sharon Li, Akhil Aendapally, and Ashish Lagwankar](https://aws.amazon.com/blogs/architecture/rate-limiting-strategies-for-serverless-applications/)
-2. [Serverless Optimization Workshop (Performance and Cost) > Traffic Throttling > Rate Limiting](https://catalog.workshops.aws/serverless-optimization/en-US/traffic-throttling/3-throttling)
-3. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/ecs/5-Rate Limit ECS Fargate based on SQS.md
+[See Rate Limiting](./rate-limiting.md)
 
 # 15. Target Groups
 
-1. [Using load balancer target group health thresholds to improve availability by Luis Felipe Silveira da Silva](https://aws.amazon.com/blogs/networking-and-content-delivery/using-load-balancer-target-group-health-thresholds-to-improve-availability/)
-2. [Application Load Balancer-type Target Group for Network Load Balancer by Rohit Aswani and Eugene Wiehahn](https://aws.amazon.com/blogs/networking-and-content-delivery/application-load-balancer-type-target-group-for-network-load-balancer/)
-3. [[MUST SEE] Application Load Balancer Target Group Load Shedding](https://github.com/aws-samples/aws-alb-target-group-load-shedding/blob/main/README.md)
- <img src="./images/tg-1.png" title="tg-1.png" width="900"/>
+[See Target Group](./target-groups.md)
 
 # 16. NLB fronting ALBs
 
-1. [Using AWS Lambda to enable static IP addresses for Application Load Balancers by Long Ren ](https://aws.amazon.com/blogs/networking-and-content-delivery/using-aws-lambda-to-enable-static-ip-addresses-for-application-load-balancers/)
-2. [How to configure the Application Load Balancer-type Target Group for Network Load Balancer By Somesh Srivastava](https://someshsrivastava1983.medium.com/how-to-configure-the-application-load-balancer-type-target-group-for-network-load-balancer-9b0c39106699)
+[See NLB fronting ALBs](./nlb-fronting-alb.md)
 
 # 17. Auto Scaling
 
-1. [AWS Auto Scaling Deep Dive By Digital Cloud Training](https://www.youtube.com/watch?v=xQeGrgQJJDc)
-2. [AWS AutoScaling Groups - Termination Policies #10](https://www.youtube.com/watch?v=ns8246QJORM)
-3. [What is AWS DynamoDB Autoscaling? By Be A Better Dev](https://www.youtube.com/watch?v=-um_HJWcHtA)
-4. [Autoscaling using Spot Instances with AWS CDK + TS](https://dev.to/aws-builders/autoscaling-using-spot-instances-with-aws-cdk-ts-4hgh)
+[See Auto Scaling](./auto-scaling.md)
 
 # 18. Reference architecture to practice - CURATE
 
@@ -195,7 +174,6 @@
 6. [Serverless Reference Architecture: Real-time File Processing](https://github.com/aws-samples/lambda-refarch-fileprocessing)
 7. [Serverless Samples](https://github.com/aws-samples/serverless-samples)
 8. [Refactoring to Serverless](https://github.com/aws-samples/aws-refactoring-to-serverless)
-
 9. [AWS Lambda Powertools for TypeScript Workshop](https://github.com/aws-samples/aws-lambda-powertools-typescript-workshop)
 
 # 20. Devops

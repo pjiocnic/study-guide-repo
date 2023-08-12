@@ -17,7 +17,6 @@
 - [12. Private Endpoints](#12-private-endpoints)
 - [13. Organizations](#13-organizations)
 - [14. Lambda](#14-lambda)
-  - [14.1. Powertools](#141-powertools)
 - [15. Books](#15-books)
 - [16. Event Driven](#16-event-driven)
 - [17. Patterns](#17-patterns)
@@ -111,10 +110,6 @@
 1. [SpringBoot on Lambda By James Eastham](https://github.com/jeastham1993/java-spring-on-lambda)
 - https://www.youtube.com/watch?v=eierYzOAyg8
 2. [AWS Lambda series by Dan Vega](https://www.youtube.com/watch?v=bxK4GscuVgs&list=PLZV0a2jwt22vS1QAp0XJsFACeLNL5oN1g)
-
-## 14.1. Powertools
-
-1. [ SVS 307 Workshop - Easily Add Observability with AWS Lambda Powertools for Java](https://catalog.us-east-1.prod.workshops.aws/workshops/a7011c82-e4af-4a52-80fa-fcd61f1dacd9/en-US/introduction)
 
 # 15. Books
 
