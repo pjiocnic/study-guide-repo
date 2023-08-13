@@ -13,7 +13,7 @@
 9. AWS Cookbook for Containers
 10. ECS microservices
 
-# My Queue fo this week
+# My Queue for this week
 
 1. Complete Porting domain to my new account?
 2. [MORNINGS] Complete containers chapter from AWS cookbook
