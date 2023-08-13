@@ -11,6 +11,7 @@
 - [8. EC2 Auto Scaling](#8-ec2-auto-scaling)
   - [8.1. Introduction](#81-introduction)
   - [8.2. Using Prometheus metrics](#82-using-prometheus-metrics)
+  - [8.3. Using Kinesis](#83-using-kinesis)
 - [9. Lambda](#9-lambda)
 - [10. Scaling DynamoDB](#10-scaling-dynamodb)
 - [11. Scaling DocumentDB](#11-scaling-documentdb)
@@ -66,6 +67,15 @@
 
 1. [Auto-scaling Amazon EC2 using Amazon Managed Service for Prometheus and alert manager](https://aws.amazon.com/blogs/mt/auto-scaling-amazon-ec2-using-amazon-managed-service-for-prometheus-and-alert-manager/)
 
+## 8.3. Using Kinesis
+
+1. [Building a scalable streaming data processor with Amazon Kinesis Data Streams on AWS Fargate](https://github.com/aws-samples/amazon-kinesis-data-processor-aws-fargate)
+<img src="./images/kinesis-fargate.png" title="kinesis-fargate.png" width="900"/>
+- CFN Template provided
+- KPL and KCL used
+- ECS Fargate
+- Target Tarcking policy for scaling
+
 # 9. Lambda
 
 1. [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage By Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)
@@ -87,6 +97,8 @@
 
 1. [Deep Dive on Amazon ECS Cluster Auto Scaling by Nick Coult](https://aws.amazon.com/blogs/containers/deep-dive-on-amazon-ecs-cluster-auto-scaling/)
 2. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
+3. [How to auto-scale AWS ECS containers based on SQS queue metrics](https://allaboutaws.com/how-to-auto-scale-aws-ecs-containers-sqs-queue-metrics)
+4. [Deploy low cost ECS tasks based on SQS queue size with AWS CDK](https://www.nbtl.blog/aws/%F0%9F%92%B8-deploy-low-cost-ecs-tasks-based-on-sqs-queue-size-with-aws-cdk/)
 
 # 13. SNS
 
@@ -99,6 +111,7 @@
 2. https://awslabs.github.io/scale-out-computing-on-aws/workshops/reinvent19-MFG405/#lab-environment-at-a-glance
 3. https://ecsworkshop.com/capacity_providers/ec2/
 4. https://tech.smartling.com/aws-terraform-workshop-2-ec2-networking-autoscaling-groups-cloudwatch-12ee08c17
+
 
 
 

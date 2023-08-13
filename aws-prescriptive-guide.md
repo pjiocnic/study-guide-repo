@@ -1,5 +1,33 @@
 <h1>AWS Prescriptive Guide</h1>
 
+<!-- TOC -->
+
+- [1. Developer Guides](#1-developer-guides)
+- [2. DR](#2-dr)
+- [3. EKS](#3-eks)
+- [4. Fargate](#4-fargate)
+- [5. Lambda](#5-lambda)
+- [6. Networking](#6-networking)
+  - [6.1. Hub and Spoke](#61-hub-and-spoke)
+- [7. Patterns](#7-patterns)
+- [8. SAM](#8-sam)
+- [9. Step Functions](#9-step-functions)
+- [10. S3](#10-s3)
+- [11. OU](#11-ou)
+- [12. Examples to work on](#12-examples-to-work-on)
+- [13. Custom Autoscaling](#13-custom-autoscaling)
+- [14. Scaling provisioned Concurrency](#14-scaling-provisioned-concurrency)
+- [15. Centralized Logging](#15-centralized-logging)
+- [16. IAM Authentication for RDS](#16-iam-authentication-for-rds)
+- [17. Hub and Spoke](#17-hub-and-spoke)
+- [18. Serverless](#18-serverless)
+- [19. Review SDK Examples](#19-review-sdk-examples)
+- [20. Priority Queues](#20-priority-queues)
+- [21. FIFO Queues](#21-fifo-queues)
+- [22. Near-Real-Time Event Processing](#22-near-real-time-event-processing)
+
+<!-- /TOC -->
+
 # 1. Developer Guides
 
 1. [Amazon Simple Storage Service User Guide](https://docs.aws.amazon.com/s3/index.html)

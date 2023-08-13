@@ -32,7 +32,6 @@
 
 1. [AWS Lambda Handler Cookbook - A Serverless Service Template](https://ran-isenberg.github.io/aws-lambda-handler-cookbook/#serverless-service-the-order-service)
 
-
 ## 2.3. CDK
 
 1. [AWS CDK - Best Practices From The Trenches By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-cdk-best-practices-from-the-trenches)

@@ -49,6 +49,7 @@
 - Lab 2 - Topic-queue chaining & load balancing
 - Lab 3 - Scatter-gather
 - Lab 4 - Orchestration and coordination
+4. [AWS Serverless Developer Experience Developing Unicorn Contracts](https://catalog.workshops.aws/serverless-developer-experience/en-US/unicorn-contracts/init)
 
 # 4. Observability
 

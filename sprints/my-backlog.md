@@ -9,21 +9,20 @@
 - [6. Networking](#6-networking)
   - [6.1. Hub and Spoke](#61-hub-and-spoke)
   - [6.2. Networking sessions](#62-networking-sessions)
-- [7. Centralized Logging](#7-centralized-logging)
-- [8. Cloud Watch](#8-cloud-watch)
-- [9. DynamoDB](#9-dynamodb)
-- [10. IAM](#10-iam)
-- [11. System Design](#11-system-design)
-- [12. Private Endpoints](#12-private-endpoints)
-- [13. Organizations](#13-organizations)
-- [14. Lambda](#14-lambda)
-- [15. Books](#15-books)
-- [16. Event Driven](#16-event-driven)
-- [17. Patterns](#17-patterns)
-- [18. Fargate](#18-fargate)
-- [19. Java SDK examples](#19-java-sdk-examples)
-- [20. ECS](#20-ecs)
-- [21. RDS Proxy](#21-rds-proxy)
+- [7. Cloud Watch](#7-cloud-watch)
+- [8. DynamoDB](#8-dynamodb)
+- [9. IAM](#9-iam)
+- [10. System Design](#10-system-design)
+- [11. Private Endpoints](#11-private-endpoints)
+- [12. Organizations](#12-organizations)
+- [13. Lambda](#13-lambda)
+- [14. Books](#14-books)
+- [15. Event Driven](#15-event-driven)
+- [16. Patterns](#16-patterns)
+- [17. Fargate](#17-fargate)
+- [18. Java SDK examples](#18-java-sdk-examples)
+- [19. ECS](#19-ecs)
+- [20. RDS Proxy](#20-rds-proxy)
 
 <!-- /TOC -->
 
@@ -66,15 +65,11 @@
 
 1. [AWS re:Invent 2022 - Application networking foundations (NET204)](https://www.youtube.com/watch?v=WcZwWuq6FTk&t=10s)
 
-# 7. Centralized Logging
-
-1. [[MY NEXT] Stream Amazon CloudWatch Logs to a Centralized Account for Audit and Analysis by David Bailey](https://aws.amazon.com/blogs/architecture/stream-amazon-cloudwatch-logs-to-a-centralized-account-for-audit-and-analysis/)
-
-# 8. Cloud Watch
+# 7. Cloud Watch
 
 1. [[MY NEXT] AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
 
-# 9. DynamoDB
+# 8. DynamoDB
 
 1. [DynamoDB Book](DynamoDB Book By Alex)
 2. [ Amazon DynamoDB Labs ](https://amazon-dynamodb-labs.com/hands-on-labs.html)
@@ -88,58 +83,58 @@
 - [DynamoDB Office Hours - Designing for Cost with Rob McCauley](https://www.youtube.com/watch?v=S02CRffcoX8)
 - [[START HERE] Data Modeling with DynamoDB Workshop - AWS Virtual Workshop with Rob McCauley and Chad Tindel](https://www.youtube.com/watch?v=p8phVh6HRkQ)
 
-# 10. IAM
+# 9. IAM
 
 1. [IAM policy evaluation workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/6dc3124a-6bd4-46eb-b5c4-be438a82ba3d/en-US)
 
-# 11. System Design
+# 10. System Design
 
 1. Plan to read `/Volumes/Lexar/git-repos/aws-repo/books/system-design/System Design Interview An Insider’s Guide by Alex Xu (z-lib.org).pdf`
 2. `/Volumes/Lexar/git-repos/aws-repo/books/system-design/ByteByteGo_LinkedIn_PDF.pdf`
 
-# 12. Private Endpoints
+# 11. Private Endpoints
 
 1. [Tutorial: Sending a message to an Amazon SQS queue from Amazon Virtual Private Cloud](/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/networking/privatelink/sqs-endpoint/my-readme.md)
 
-# 13. Organizations
+# 12. Organizations
 
 1. [Workshop AWS Account Setup](/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/iam/organizations/1-AWSAccountSetup/my-readme.md)
 
-# 14. Lambda
+# 13. Lambda
 
 1. [SpringBoot on Lambda By James Eastham](https://github.com/jeastham1993/java-spring-on-lambda)
 - https://www.youtube.com/watch?v=eierYzOAyg8
 2. [AWS Lambda series by Dan Vega](https://www.youtube.com/watch?v=bxK4GscuVgs&list=PLZV0a2jwt22vS1QAp0XJsFACeLNL5oN1g)
 
-# 15. Books
+# 14. Books
 
 1. [Stratospheric - From Zero to Production with Spring Boot and AWS](file:////Volumes/Lexar/books/aws/stratospheric/stratospheric-2023-04-21.pdf)
 
-# 16. Event Driven
+# 15. Event Driven
 
 1. [Building a modern, event-driven application for insurance claims processing – Part 1 by Emily Shea and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-1/)
 2. [Extending a serverless, event-driven architecture to existing container workloads by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
 
-# 17. Patterns
+# 16. Patterns
 
 2. [Build a near real-time data aggregation pipeline using a serverless, event-driven architecture by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-near-real-time-data-aggregation-pipeline-using-a-serverless-event-driven-architecture/)
 1. [Build a fault-tolerant, serverless data aggregation pipeline with exactly-once processing by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-fault-tolerant-serverless-data-aggregation-pipeline-with-exactly-once-processing/)
 
-# 18. Fargate
+# 17. Fargate
 
 1. [[MUST SEE] Run message-driven workloads at scale by using AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-message-driven-workloads-at-scale-by-using-aws-fargate.html)
 2. [[MUST SEE] Run event-driven and scheduled workloads at scale with AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-event-driven-and-scheduled-workloads-at-scale-with-aws-fargate.html)
 
-# 19. Java SDK examples
+# 18. Java SDK examples
 
 1. [[MY NEXT] AWS SDK for Java (v2) code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2))
 
-# 20. ECS
+# 19. ECS
 
 1. [[TRY EXAMPLE] Deploying Java Microservices on Amazon Elastic Container Service by Nathan Taber](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
 - Study the CFN template and PY script
 
-# 21. RDS Proxy
+# 20. RDS Proxy
 
 1. [[MUST SEE] Amazon API Gateway HTTP API to AWS Lambda to RDS Proxy By Pankaj Agarwal](https://serverlessland.com/patterns/apigw-http-api-lambda-rds-proxy)
 -  https://github.com/aws-samples/serverless-patterns/tree/main/apigw-http-api-lambda-rds-proxy

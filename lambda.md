@@ -64,6 +64,7 @@
 - [29. Monitoring](#29-monitoring)
 - [30. Workshops](#30-workshops)
 - [31. Videos](#31-videos)
+- [32. Code Signing](#32-code-signing)
 
 <!-- /TOC -->
 
@@ -374,3 +375,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 31. Videos
 
 1. [AWS re:Invent 2022 - Serverless Compute](https://www.youtube.com/watch?v=SbL3a9YOW7s&list=PL2yQDdvlhXf8Erryfslfo3E42QtcX-aiD)
+
+# 32. Code Signing
+
+1. [Best practices and advanced patterns for Lambda code signing by Cassia Martin](https://aws.amazon.com/blogs/security/best-practices-and-advanced-patterns-for-lambda-code-signing/)

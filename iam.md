@@ -4,11 +4,13 @@
 - [1. Organizations](#1-organizations)
   - [1.1. Examples](#11-examples)
 - [2. Policies](#2-policies)
+- [Permission Boundaries](#permission-boundaries)
 - [3. Workshops](#3-workshops)
 - [4. Tutorials](#4-tutorials)
 - [5. Online courses](#5-online-courses)
 - [6. Service linked Roles](#6-service-linked-roles)
 - [7. Roles](#7-roles)
+- [Workshops](#workshops)
 
 <!-- /TOC -->
 
@@ -25,6 +27,13 @@
 # 2. Policies
 
 1. [Example IAM identity-based policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)
+
+# Permission Boundaries
+
+1. [[START HERE] Apply AWS IAM Permissions Boundary | Hands-on By Digital Cloud Training](https://www.youtube.com/watch?v=D-1u0dBM-q8&t=54s)
+1. [When and where to use IAM permissions boundaries by Umair Rehmat](https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries/)
+2. [Secure CDK deployments with IAM permission boundaries by Brian Farnhill and David Turnbull](https://aws.amazon.com/blogs/devops/secure-cdk-deployments-with-iam-permission-boundaries/)
+3. [AWS IAM Permissions Boundary By Digital Cloud Training](https://www.youtube.com/watch?v=t8P8ffqWrsY)
 
 # 3. Workshops
 
@@ -47,3 +56,9 @@
 # 7. Roles
 
 1. [Get to Grips with AWS IAM Roles: Terms, Concepts, and Examples](https://blog.awsfundamentals.com/aws-iam-roles-terms-concepts-and-examples)
+
+# Workshops
+
+1. [Identity Round Robin](https://identity-round-robin.awssecworkshops.com/)
+2. [AWS Identity and Access Management (IAM) Immersion Day](https://catalog.us-east-1.prod.workshops.aws/workshops/18b3622c-5d4c-45c9-9834-6a7091109072/en-US)
+2. [AWS Identity and Access Management (IAM) Immersion Day > Advanced Modules > Permission Boundaries as Guardrails](https://catalog.us-east-1.prod.workshops.aws/workshops/18b3622c-5d4c-45c9-9834-6a7091109072/en-US/advanced-modules/60-permission-boundary/6-1)

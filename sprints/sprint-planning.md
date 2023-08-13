@@ -19,7 +19,7 @@ https://www.epochconverter.com/weeks/2023
 
 1. FIFO queue
 2. Priority Queues
-3. AWS PowerTools
+3. AWS PowerTools ... see Track
 4. Step fns
 5. elasticcache: Whitepaper; hiemdall proxy
 6. elasticache workshop
