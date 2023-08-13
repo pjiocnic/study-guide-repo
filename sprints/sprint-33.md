@@ -13,19 +13,26 @@
 9. AWS Cookbook for Containers
 10. ECS microservices
 
-# 2. Blogs
+# My Queue fo this week
+
+1. Complete Porting domain to my new account?
+2. [MORNINGS] Complete containers chapter from AWS cookbook
+3. Continue stratosphere book
+4. [[EVENINGS] AWS Serverless Developer Experience Developing Unicorn Contracts](https://catalog.workshops.aws/serverless-developer-experience/en-US/unicorn-contracts/init)
+5. [[WEEKEND] SVS 307 Workshop - Easily Add Observability with AWS Lambda Powertools for Java](https://catalog.us-east-1.prod.workshops.aws/workshops/a7011c82-e4af-4a52-80fa-fcd61f1dacd9/en-US/introduction)
+6. [[WORK] Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
+7. [[WORK] Operating serverless at scale: Keeping control of resources – Part 3](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-keeping-control-of-resources-part-3/)
+8. [[WORK] Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda by Rachel Richardson and Otavio Ferreira](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
+9. [[WORK] Building event-driven architectures with Amazon SNS FIFO by Christian Mueller,](https://aws.amazon.com/blogs/compute/building-event-driven-architectures-with-amazon-sns-fifo/)
+10. [[WORK] Sending mobile push notifications and managing device tokens with serverless applications by Rafa Xu](https://aws.amazon.com/blogs/compute/sending-mobile-push-notifications-and-managing-device-tokens-with-serverless-application/)
+
+# My queue for next week
+
+1. Do [[MUST SEE][Spring Pet Clinic] Deploying Java Microservices on Amazon Elastic Container Service by Nathan Taber](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
+2. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
+
+# 2. Parked
 
 1. [Cloud design patterns, architectures, and implementations](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html)
-2. [AWS Serverless Developer Experience Developing Unicorn Contracts](https://catalog.workshops.aws/serverless-developer-experience/en-US/unicorn-contracts/init)
-3. [[MY NEXT] SVS 307 Workshop - Easily Add Observability with AWS Lambda Powertools for Java](https://catalog.us-east-1.prod.workshops.aws/workshops/a7011c82-e4af-4a52-80fa-fcd61f1dacd9/en-US/introduction)
-4. [[MUST SEE][Spring Pet Clinic] Deploying Java Microservices on Amazon Elastic Container Service by Nathan Taber](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
-5. - https://github.com/aws-samples/amazon-ecs-java-microservices/tree/master/2_ECS_Java_Spring_PetClinic_Microservices
-6. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
 
-7. [Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda by Rachel Richardson and Otavio Ferreira](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
-8. [Building event-driven architectures with Amazon SNS FIFO by Christian Mueller,](https://aws.amazon.com/blogs/compute/building-event-driven-architectures-with-amazon-sns-fifo/)
-9. [Sending mobile push notifications and managing device tokens with serverless applications by Rafa Xu](https://aws.amazon.com/blogs/compute/sending-mobile-push-notifications-and-managing-device-tokens-with-serverless-application/)
-10. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads by Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
-11. [Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
 
-12. [Operating serverless at scale: Keeping control of resources – Part 3](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-keeping-control-of-resources-part-3/)

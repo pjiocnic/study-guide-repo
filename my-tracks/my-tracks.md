@@ -6,7 +6,6 @@
 - [2. Scatter Gather Pattern By Gregor Hohpe](#2-scatter-gather-pattern-by-gregor-hohpe)
 - [3. ECS + Java](#3-ecs--java)
 - [4. Lambda Cookbook](#4-lambda-cookbook)
-- [5. Cookie Cutter](#5-cookie-cutter)
 - [6. SQS Best Practices](#6-sqs-best-practices)
 - [7. AWS Organizations](#7-aws-organizations)
 - [8. Lambda architecture](#8-lambda-architecture)
@@ -71,9 +70,6 @@
 6. [AWS Lambda Cookbook  - Part 6 -  Configuration & Feature Flags Best Practices By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-part-6-feature-flags-configuration-best-practices)
 7. [Start Your AWS Serverless Service With Two Clicks By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-part-7-how-to-use-the-aws-lambda-cookbook-github-template-project)
 8. [AWS CDK - Best Practices From The Trenches By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-cdk-best-practices-from-the-trenches)
-
-# 5. Cookie Cutter
-
 
 
 # 6. SQS Best Practices

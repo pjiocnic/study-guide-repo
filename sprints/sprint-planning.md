@@ -3,6 +3,7 @@ https://www.epochconverter.com/weeks/2023
 <!-- TOC -->
 
 - [1. Topics to visit](#1-topics-to-visit)
+- [Documentation to visit](#documentation-to-visit)
 - [2. In Progress](#2-in-progress)
 - [3. Planning my next big topic](#3-planning-my-next-big-topic)
 - [4. Weekend](#4-weekend)
@@ -44,6 +45,11 @@ https://www.epochconverter.com/weeks/2023
 22. Troubleshooting DynamoDB using cloudwatch metrics (see Skillbuilder courses)
 23. https://github.com/aws-samples/serverless-patterns/tree/main/sns-sqs-lambda-cdk
 24. S3 Security
+
+# Documentation to visit
+
+1. [Configuring a dead-letter queue redrive](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-configure-dead-letter-queue-redrive.html)
+2. [Lambda Operator guide](https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html)
 
 # 2. In Progress
 

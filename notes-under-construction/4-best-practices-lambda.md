@@ -1,8 +1,5 @@
 
 
-
-
-
 # 1. Governance Best Practices
 
 [Operating serverless at scale: Implementing governance – Part 1 by Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-implementing-governance-part-1/)

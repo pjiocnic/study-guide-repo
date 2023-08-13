@@ -65,6 +65,7 @@
 - [30. Workshops](#30-workshops)
 - [31. Videos](#31-videos)
 - [32. Code Signing](#32-code-signing)
+- [33. Devops](#33-devops)
 
 <!-- /TOC -->
 
@@ -379,3 +380,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 32. Code Signing
 
 1. [Best practices and advanced patterns for Lambda code signing by Cassia Martin](https://aws.amazon.com/blogs/security/best-practices-and-advanced-patterns-for-lambda-code-signing/)
+
+# 33. Devops
+
+1. [Automatically Detect Operational Issues in Lambda Functions with Amazon DevOps Guru for Serverless by Marcia Villalba](https://aws.amazon.com/blogs/aws/automatically-detect-operational-issues-in-lambda-functions-with-amazon-devops-guru-for-serverless/)
