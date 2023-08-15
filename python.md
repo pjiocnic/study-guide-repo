@@ -11,6 +11,8 @@
 - [7. Workshop](#7-workshop)
 - [8. OOO](#8-ooo)
 - [9. Real World examples](#9-real-world-examples)
+- [10. Python concepts](#10-python-concepts)
+  - [10.1. How does __name__ == "__main__" work?](#101-how-does-__name__--__main__-work)
 
 <!-- /TOC -->
 
@@ -57,3 +59,9 @@
 
 1. [[MY NEXT] Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
 - Has some scripts around python
+
+# 10. Python concepts
+
+## 10.1. How does __name__ == "__main__" work?
+
+1. [What Does if __name__ == "__main__" Do in Python?](https://realpython.com/if-name-main-python/)
