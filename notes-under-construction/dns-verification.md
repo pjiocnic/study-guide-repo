@@ -41,3 +41,41 @@ The domain ownership verification process in AWS ACM typically involves the foll
 **Certificate Issuance:** Once the domain ownership is verified, AWS ACM issues the SSL/TLS certificate for your domain. This certificate can then be used to secure your AWS resources, such as load balancers, CloudFront distributions, or APIs.
 
 It's important to note that AWS ACM is designed to simplify the process of managing certificates within the AWS ecosystem. If you need a certificate for use outside of AWS, you would typically use a traditional certificate authority (CA) and go through a similar domain ownership verification process. However, AWS ACM streamlines this process for use within the AWS environment by providing seamless integration and automation.
+
+3. How does ACM use CNAME record to verify ownership?
+
+https://stackoverflow.com/questions/68127500/how-does-acm-check-domain-ownership-with-cname-records
+
+**DNS Validation with ACM:**
+
+When you request a certificate through ACM, you're given the option to validate your domain ownership using DNS records. Here's how the process generally works:
+
+**Request Certificate:** You initiate the certificate request process through the AWS Management Console, CLI, or API.
+
+**Choose DNS Validation:** During the request, you select the DNS validation method.
+
+**Unique CNAME Record:** ACM provides you with a unique CNAME (Canonical Name) record that you need to add to your domain's DNS configuration.
+
+**CNAME Setup:** You need to add the CNAME record to your DNS zone, typically provided by your domain registrar or DNS hosting provider. The CNAME points to a domain controlled by ACM.
+
+**Validation Check:** Once you add the CNAME record, ACM periodically checks your DNS records to ensure that the CNAME record is properly configured.
+
+**Validation Completion:** Once ACM detects the correct CNAME record pointing to its domain, it considers the domain ownership verification process complete.
+
+Using a CNAME record for DNS validation offers a simple way to verify domain ownership. By pointing a CNAME to a domain controlled by ACM, you demonstrate your control over the DNS settings of the domain. This method is especially useful when you're using ACM to issue certificates for AWS services like CloudFront distributions or Elastic Load Balancers, as ACM can automatically configure the necessary resources once the verification is successful.
+
+Remember that these processes might have evolved since my last update, so I recommend checking the official AWS ACM documentation or resources for the most up-to-date information on domain validation methods and practices.
+
+4. what happens if I provide an incorrect domain name to ACM. Won't I still be able to add the CNAME created by ACM into my DNS?
+
+If you provide an incorrect domain name to AWS Certificate Manager (ACM) during the certificate request process and then proceed to add the CNAME record created by ACM to your DNS, the domain ownership verification process will likely fail. Here's why:
+
+**Incorrect Domain Name:** If you provide an incorrect domain name during the certificate request process, ACM will generate a CNAME record that is specifically associated with the domain you provided.
+
+**Adding Incorrect CNAME Record:** If you then add the CNAME record to the DNS configuration of a different domain or subdomain, it won't match the domain for which the certificate was requested.
+
+**Verification Failure:** During the domain ownership verification process, ACM checks the DNS records to ensure that the CNAME record points to the correct domain. Since you've added the CNAME record to a different domain, ACM will not be able to find the expected record, and the verification process will fail.
+
+In this scenario, the verification process will not be successful, and ACM will not be able to issue the certificate for the incorrect domain. It's important to ensure that you provide accurate domain information when requesting a certificate through ACM to avoid issues during the verification process.
+
+Additionally, when using ACM, it's worth noting that the domain verification process is automated and designed to ensure the security and authenticity of the certificate issuance. If you're unsure about the domain name or if you encounter any issues during the process, it's recommended to review the documentation, double-check your inputs, and reach out to AWS support if needed.
