@@ -7,20 +7,20 @@ In this case, the statement is talking about creating a DNS TXT (text) record fo
 
 The process outlined in the statement works like this:
 
-Unique Value Generation: The service that requires domain ownership verification generates a unique value, often in the form of a long alphanumeric code or token.
+**Unique Value Generation: **The service that requires domain ownership verification generates a unique value, often in the form of a long alphanumeric code or token.
 
-DNS TXT Record Creation: To prove ownership, you're instructed to create a DNS TXT record for your domain with the unique value provided by the service. This involves adding the unique value as the content of the TXT record.
+**DNS TXT Record Creation:** To prove ownership, you're instructed to create a DNS TXT record for your domain with the unique value provided by the service. This involves adding the unique value as the content of the TXT record.
 
-DNS Configuration: You log in to your domain's DNS management interface (usually provided by your domain registrar or hosting provider) and add the TXT record with the unique value. This demonstrates that you have control over the DNS settings for the domain.
+**DNS Configuration:** You log in to your domain's DNS management interface (usually provided by your domain registrar or hosting provider) and add the TXT record with the unique value. This demonstrates that you have control over the DNS settings for the domain.
 
-Verification: The service that requested the DNS TXT record checks the DNS records for your domain and looks for the specific TXT record with the correct unique value. If they find the record with the matching value, it confirms that you have control over the domain's DNS settings and, therefore, ownership of the domain.
+**Verification:** The service that requested the DNS TXT record checks the DNS records for your domain and looks for the specific TXT record with the correct unique value. If they find the record with the matching value, it confirms that you have control over the domain's DNS settings and, therefore, ownership of the domain.
 
 This process helps prevent unauthorized individuals from using a domain they don't own for various purposes. It's a common security measure to ensure that only authorized users can make changes to DNS settings and utilize domain-related services.
 
 In summary, the statement is explaining that by successfully creating a DNS TXT record with a unique value provided by a service, you demonstrate that you have control over the DNS settings of your domain and can prove ownership of that domain.
 
 # References
-1. https://aws.amazon.com/blogs/security/easier-certificate-validation-using-dns-with-aws-certificate-manager/
+- https://aws.amazon.com/blogs/security/easier-certificate-validation-using-dns-with-aws-certificate-manager/
 
 2. how does aws certificate manager verify you own the domain?
 
