@@ -79,3 +79,5 @@ If you provide an incorrect domain name to AWS Certificate Manager (ACM) during 
 In this scenario, the verification process will not be successful, and ACM will not be able to issue the certificate for the incorrect domain. It's important to ensure that you provide accurate domain information when requesting a certificate through ACM to avoid issues during the verification process.
 
 Additionally, when using ACM, it's worth noting that the domain verification process is automated and designed to ensure the security and authenticity of the certificate issuance. If you're unsure about the domain name or if you encounter any issues during the process, it's recommended to review the documentation, double-check your inputs, and reach out to AWS support if needed.
+
+5. Also see [DNS validation from AWS Certificate Manager (ACM) > User Guide](https://docs.aws.amazon.com/acm/latest/userguide/dns-validation.html)
