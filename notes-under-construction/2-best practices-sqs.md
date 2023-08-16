@@ -409,6 +409,9 @@ Note: You can use `MaxNumberOfMessagesPerSecond` to control the flow
 1. **Billing**: Redriving the messages from the dead-letter queue to the source queue or a custom destination queue generates additional API calls billed based on existing pricing (starting at $0.40 per million API calls, after the first million, which is free every month).
 2. **Moved in batches**: Amazon SQS batches the messages while redriving them from one queue to another. This makes moving messages from one queue to another a simple and low-cost option.
 
-## Retry
+## 6.2. Retry
 
 [Understanding SQS retries](https://docs.aws.amazon.com/lambda/latest/operatorguide/sqs-retries.html)
+
+## 6.3. Additional Material
+

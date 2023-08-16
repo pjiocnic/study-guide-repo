@@ -1,5 +1,5 @@
 
-1. By showing that we’re able to create a DNS TXT record for our domain with that unique value, we can prove that we have control over the DNS settings for that domain
+1. [CHATGPT] By showing that we’re able to create a DNS TXT record for our domain with that unique value, we can prove that we have control over the DNS settings for that domain
 
 This statement is referring to a process used for domain ownership verification. When you want to use a domain name in a specific service or context, such as setting up an SSL certificate or verifying your ownership for certain online services, you often need to prove that you have control over the domain's DNS settings. This is typically done by adding a specific DNS record to your domain's DNS configuration.
 
@@ -7,7 +7,7 @@ In this case, the statement is talking about creating a DNS TXT (text) record fo
 
 The process outlined in the statement works like this:
 
-**Unique Value Generation: **The service that requires domain ownership verification generates a unique value, often in the form of a long alphanumeric code or token.
+**Unique Value Generation:** The service that requires domain ownership verification generates a unique value, often in the form of a long alphanumeric code or token.
 
 **DNS TXT Record Creation:** To prove ownership, you're instructed to create a DNS TXT record for your domain with the unique value provided by the service. This involves adding the unique value as the content of the TXT record.
 
@@ -19,10 +19,10 @@ This process helps prevent unauthorized individuals from using a domain they don
 
 In summary, the statement is explaining that by successfully creating a DNS TXT record with a unique value provided by a service, you demonstrate that you have control over the DNS settings of your domain and can prove ownership of that domain.
 
-# References
+# 1. References
 - https://aws.amazon.com/blogs/security/easier-certificate-validation-using-dns-with-aws-certificate-manager/
 
-2. how does aws certificate manager verify you own the domain?
+2. [CHATGPT] how does aws certificate manager verify you own the domain?
 
 Amazon Web Services (AWS) Certificate Manager (ACM) offers a simplified way to provision, manage, and deploy SSL/TLS certificates for use with AWS services and resources. When you request a certificate through AWS ACM, the service needs to verify that you have ownership or control over the domain for which you are requesting the certificate. This is to ensure the security and legitimacy of the certificate issuance process.
 
@@ -42,7 +42,7 @@ The domain ownership verification process in AWS ACM typically involves the foll
 
 It's important to note that AWS ACM is designed to simplify the process of managing certificates within the AWS ecosystem. If you need a certificate for use outside of AWS, you would typically use a traditional certificate authority (CA) and go through a similar domain ownership verification process. However, AWS ACM streamlines this process for use within the AWS environment by providing seamless integration and automation.
 
-3. How does ACM use CNAME record to verify ownership?
+3. [CHATGPT] How does ACM use CNAME record to verify ownership?
 
 https://stackoverflow.com/questions/68127500/how-does-acm-check-domain-ownership-with-cname-records
 
@@ -82,6 +82,14 @@ Additionally, when using ACM, it's worth noting that the domain verification pro
 
 5. Also see [DNS validation from AWS Certificate Manager (ACM) > User Guide](https://docs.aws.amazon.com/acm/latest/userguide/dns-validation.html)
 
-# Additional References
+# 2. Additional References
 
 1. [Easier Certificate Validation Using DNS with AWS Certificate Manager by Todd Cignetti](https://aws.amazon.com/blogs/security/easier-certificate-validation-using-dns-with-aws-certificate-manager/)
+
+# 3. From stratosphere book
+
+You can now use AWS Certificate Manager (ACM) Domain Name System (DNS) validation to
+establish that you control a domain name when requesting SSL/TLS certificates with ACM.
+
+Previously ACM supported only email validation, which required the domain owner to receive
+an email for each certificate request and validate the information in the request before approving it.

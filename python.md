@@ -13,6 +13,7 @@
 - [9. Real World examples](#9-real-world-examples)
 - [10. Python concepts](#10-python-concepts)
   - [10.1. How does __name__ == "__main__" work?](#101-how-does-__name__--__main__-work)
+  - [Multiple inheritance](#multiple-inheritance)
 
 <!-- /TOC -->
 
@@ -65,3 +66,7 @@
 ## 10.1. How does __name__ == "__main__" work?
 
 1. [What Does if __name__ == "__main__" Do in Python?](https://realpython.com/if-name-main-python/)
+
+## Multiple inheritance
+
+1. [Classes & Subclasses in Python](https://medium.com/swlh/classes-subclasses-in-python-12b6013d9f3)
