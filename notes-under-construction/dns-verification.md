@@ -81,3 +81,7 @@ In this scenario, the verification process will not be successful, and ACM will 
 Additionally, when using ACM, it's worth noting that the domain verification process is automated and designed to ensure the security and authenticity of the certificate issuance. If you're unsure about the domain name or if you encounter any issues during the process, it's recommended to review the documentation, double-check your inputs, and reach out to AWS support if needed.
 
 5. Also see [DNS validation from AWS Certificate Manager (ACM) > User Guide](https://docs.aws.amazon.com/acm/latest/userguide/dns-validation.html)
+
+# Additional References
+
+1. [Easier Certificate Validation Using DNS with AWS Certificate Manager by Todd Cignetti](https://aws.amazon.com/blogs/security/easier-certificate-validation-using-dns-with-aws-certificate-manager/)
