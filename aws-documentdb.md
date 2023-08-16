@@ -35,6 +35,7 @@
   - [24.3. S3](#243-s3)
   - [24.4. ECS](#244-ecs)
 - [25. Java](#25-java)
+- [Videos](#videos)
 
 <!-- /TOC -->
 
@@ -199,3 +200,7 @@
 # 25. Java
 
 1. [Samples to show amazon-documentdb-jdbc-driver usage](https://github.com/aws/amazon-documentdb-jdbc-driver/blob/develop/src/main/java/software/amazon/documentdb/jdbc/persist/DocumentDbSchemaReader.Java)
+
+# Videos
+
+1. [The Big Dev Theory S3 | Ep. 3| Why it Matters? Modeling Documents with Mongo DB](https://www.twitch.tv/videos/1899430446)

@@ -6,7 +6,8 @@
 - [3. Using Proxy](#3-using-proxy)
 - [4. CDK](#4-cdk)
 - [5. RDS](#5-rds)
-- [Staging](#staging)
+- [6. Staging](#6-staging)
+- [7. Videos](#7-videos)
 
 <!-- /TOC -->
 
@@ -31,6 +32,10 @@
 
 1. [Automated query caching into Amazon ElastiCache for Amazon RDS, Amazon Aurora and Amazon Redshift by Darin Briskman](https://aws.amazon.com/blogs/database/automating-sql-caching-for-amazon-elasticache-and-amazon-rds)
 
-# Staging
+# 6. Staging
 
 1. [A Crash Course in Caching - Final Part By byteByteGo](https://blog.bytebytego.com/p/a-crash-course-in-caching-final-part)
+
+# 7. Videos
+
+1. [AWS with Trek10: Elasticache Better Together with RDS](https://www.twitch.tv/aws/video/1785584122)
