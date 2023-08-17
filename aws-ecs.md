@@ -190,22 +190,22 @@
 1. [[MUST TRY] Background worker that gets jobs from an SQS queue](https://containersonaws.com/pattern/background-worker-sqs-queue-container-copilot)
 - Poll SQS queue for messages?
 
-<img src="./images/aws-ecs-3.png" title="aws-ecs-2.png" width="900"/>
+    <img src="./images/aws-ecs-3.png" title="aws-ecs-2.png" width="900"/>
 
 2. [[MUST TRY] aws-lambda-amazon-ecs-run-task](https://github.com/awslabs/aws-lambda-ecs-run-task)
 - nice scripts to adopt
 - how to integrate ecs task with SQS using Lambda
 - Demos exception handling with retries
 
-<img src="./images/aws-ecs-4.png" title="aws-ecs-2.png" width="900"/>
+    <img src="./images/aws-ecs-4.png" title="aws-ecs-2.png" width="900"/>
 
 # 16. Step functions
 
 1. [[MUST SEE] Amazon ECS and AWS Step Functions Design Patterns Starter kit](https://github.com/aws-samples/amazon-ecs-and-aws-step-functions-design-patterns-starter-kit)
 
-<img src="./images/Amazon_ECS_Java_Starter_Kit-Architecture_Pattern_1.png" title="Running ECS tasks using AWS Lambda" width="900"/>
+    <img src="./images/Amazon_ECS_Java_Starter_Kit-Architecture_Pattern_1.png" title="Running ECS tasks using AWS Lambda" width="900"/>
 
-<img src="./images/Amazon_ECS_Java_Starter_Kit-Architecture_Pattern_2.png" title="Running ECS tasks using Step Functions native integration" width="900"/>
+    <img src="./images/Amazon_ECS_Java_Starter_Kit-Architecture_Pattern_2.png" title="Running ECS tasks using Step Functions native integration" width="900"/>
 
 # 17. Videos
 
