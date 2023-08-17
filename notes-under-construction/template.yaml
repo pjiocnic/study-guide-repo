@@ -1,0 +1,33 @@
+   "Resources": {
+      "mySubscription": {
+         "Type" : "AWS::SNS::Subscription",
+         "Properties" : {
+            "Protocol": "sqs",
+            "Endpoint": "arn:aws:sqs:us-east-1:123456789012:Rental-Fulfilment",
+            "TopicArn": "arn:aws:sns:us-east-1:123456789012:Rental-Orders",
+            "RedrivePolicy": {
+               "deadLetterTargetArn":
+                  "arn:aws:sqs:us-east-1:123456789012:Rental-Fulfilment-Fanout-DLQ"
+            },
+            "FilterPolicy": {
+               "order-status": [ "confirmed", "canceled" ]
+            }
+         }
+      }
+   }
+}
+
+
+Resources:
+  mySubscription:
+    Type: AWS::SNS::Subscription
+    Properties:
+      Protocol: sqs
+      Endpoint: arn:aws:sqs:us-east-1:123456789012:Rental-Fulfilment
+      TopicArn: arn:aws:sns:us-east-1:123456789012:Rental-Orders
+      RedrivePolicy:
+        deadLetterTargetArn: arn:aws:sqs:us-east-1:123456789012:Rental-Fulfilment-Fanout-DLQ
+      FilterPolicy:
+        order-status:
+          - confirmed
+          - canceled

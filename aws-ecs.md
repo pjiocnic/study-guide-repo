@@ -112,6 +112,13 @@
 
 2. [Spinning up an AWS Fargate service based on messages on a queue - using aws-cdk](https://dev.to/seanyboi/how-to-create-a-queue-processing-fargate-service-using-aws-cdk-2b3n)
 
+3. [[MUST TRY] Queue Integration with Third-party Services on AWS by Rostislav Markov, Justin Kuskowski, Ravindra Agrawal, Saswata Dash, and Michael Steward](https://aws.amazon.com/blogs/architecture/queue-integration-with-third-party-services-on-aws/)
+
+4. [[MUST TRY] aws-lambda-amazon-ecs-run-task](https://github.com/awslabs/aws-lambda-ecs-run-task)
+- nice scripts to adopt
+- how to integrate ecs task with SQS using Lambda
+- Demos exception handling with retries
+
 # 11. Java
 
 1. [Field Notes: Optimize your Java application for Amazon ECS with Quarkus by Sascha Moellering](https://aws.amazon.com/blogs/architecture/field-notes-optimize-your-java-application-for-amazon-ecs-with-quarkus/)
@@ -180,7 +187,17 @@
 
 ## 15.3. SQS
 
-1. [Background worker that gets jobs from an SQS queue](https://containersonaws.com/pattern/background-worker-sqs-queue-container-copilot)
+1. [[MUST TRY] Background worker that gets jobs from an SQS queue](https://containersonaws.com/pattern/background-worker-sqs-queue-container-copilot)
+- Poll SQS queue for messages?
+
+<img src="./images/aws-ecs-3.png" title="aws-ecs-2.png" width="900"/>
+
+2. [[MUST TRY] aws-lambda-amazon-ecs-run-task](https://github.com/awslabs/aws-lambda-ecs-run-task)
+- nice scripts to adopt
+- how to integrate ecs task with SQS using Lambda
+- Demos exception handling with retries
+
+<img src="./images/aws-ecs-4.png" title="aws-ecs-2.png" width="900"/>
 
 # 16. Step functions
 

@@ -1,4 +1,6 @@
 
+src: https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-1/
+
 # 1. Operational Excellence Pillar
 
 ## 1.1. Create a Queue using CDK
@@ -415,3 +417,7 @@ Note: You can use `MaxNumberOfMessagesPerSecond` to control the flow
 
 ## 6.3. Additional Material
 
+git clone https://github.com/aws-samples/serverless-patterns/
+cd serverless-patterns/s3-sns-sqs-lambda-sam-java
+https://github.com/aws-samples/amazon-sqs-best-practices-cdk
+https://github.com/aws-samples/aws-lambda-error-handling-pattern
