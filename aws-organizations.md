@@ -33,7 +33,7 @@
 
 # 5. Multiple accounts
 
-1. [Operating Lambda: Application design and Service Quotas – Part 1 by James Beswick |](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-and-service-quotas-part-1/)
+1. [How to use multiple AWS accounts for managing quotas by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-and-service-quotas-part-1/)
 2. [[Whitepaper] Organizing Your AWS Environment Using Multiple Accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html)
 
 # 6. Workshops
