@@ -15,7 +15,8 @@
 - [11. Best practices for Lamba](#11-best-practices-for-lamba)
 - [12. Scaling](#12-scaling)
 - [13. Permissions](#13-permissions)
-- [14. Other Material for Notes](#14-other-material-for-notes)
+- [14. Lambda design principles](#14-lambda-design-principles)
+- [15. Other Material for Notes](#15-other-material-for-notes)
 
 <!-- /TOC -->
 
@@ -75,6 +76,12 @@
 
 1. /Volumes/Lexar/git-repos/aws-repo/my-aws-cookbook/lambda/security/lambda-security.md
 
-# 14. Other Material for Notes
+# 14. Lambda design principles
+
+1. [Operating Lambda: Understanding event-driven architecture – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/)
+2. [Operating Lambda: Design principles in event-driven architectures – Part 2 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2/)
+3. [Operating Lambda: Anti-patterns in event-driven architectures – Part 3 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-anti-patterns-in-event-driven-architectures-part-3/)
+
+# 15. Other Material for Notes
 
 1. [AWS Lambda Fundamentals - Justin Wood](https://www.youtube.com/watch?v=jaJIpTg81iA&list=PLJo-rJlep0ECLtDhRKYWZsJRFBf9STccV)

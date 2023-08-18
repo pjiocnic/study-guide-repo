@@ -12,6 +12,7 @@
 8. documentdb
 9. AWS Cookbook for Containers - mornings
 10. ECS microservices
+11. Lambda security notes - /Volumes/Lexar/git-repos/aws-repo/my-aws-cookbook/lambda/security/lambda-security.md
 
 # 2. My Queue for this week
 

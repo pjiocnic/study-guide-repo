@@ -7,14 +7,14 @@
   - [2.2. S3](#22-s3)
 - [3. VPC Lattice](#3-vpc-lattice)
 - [4. DNS](#4-dns)
-- [Twitch Shows](#twitch-shows)
+- [5. Twitch Shows](#5-twitch-shows)
 
 <!-- /TOC -->
 
 # 1. Hub and Spoke
 
 1. [How to centralize DNS management in a multi-account environment by Mahmoud Matouk ](https://aws.amazon.com/blogs/security/how-to-centralize-dns-management-in-a-multi-account-environment/)
-2. [[MY NEXT] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
+2. [[**MUST TRY**] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
 
 # 2. PrivateLinks
 
@@ -26,6 +26,7 @@
 - https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-sending-messages-from-vpc.html
 
 ## 2.2. S3
+
 1. [Amazon S3 Multi-Region Access Points](https://catalog.workshops.aws/s3multiregionaccesspoints/en-US)
 2. [[WORKSHOP - MUST TRY] Secure Hybrid Access to S3 using VPC Endpoints](https://catalog.us-east-1.prod.workshops.aws/workshops/3a8d4ddf-66c5-4d26-ae6f-6292a517f46c/en-US)
 
@@ -39,7 +40,7 @@
 1. [Powering Secondary DNS in a VPC using AWS Lambda and Amazon Route 53 Private Hosted Zones by Bryan Liston](https://aws.amazon.com/blogs/compute/powering-secondary-dns-in-a-vpc-using-aws-lambda-and-amazon-route-53-private-hosted-zones/)
 2. [Building a Dynamic DNS for Route 53 using CloudWatch Events and Lambda by Bryan Liston ](https://aws.amazon.com/blogs/compute/building-a-dynamic-dns-for-route-53-using-cloudwatch-events-and-lambda/)
 
-# Twitch Shows
+# 5. Twitch Shows
 
 1. [The Routing Loop](https://www.theroutingloop.net/)
 
