@@ -50,6 +50,7 @@ https://www.epochconverter.com/weeks/2023
 
 1. [Configuring a dead-letter queue redrive](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-configure-dead-letter-queue-redrive.html)
 2. [Lambda Operator guide](https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html)
+3. [Amazon Simple Notification Service](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
 
 # 2. In Progress
 

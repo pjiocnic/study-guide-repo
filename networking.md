@@ -7,6 +7,7 @@
   - [2.2. S3](#22-s3)
 - [3. VPC Lattice](#3-vpc-lattice)
 - [4. DNS](#4-dns)
+- [Twitch Shows](#twitch-shows)
 
 <!-- /TOC -->
 
@@ -37,3 +38,9 @@
 
 1. [Powering Secondary DNS in a VPC using AWS Lambda and Amazon Route 53 Private Hosted Zones by Bryan Liston](https://aws.amazon.com/blogs/compute/powering-secondary-dns-in-a-vpc-using-aws-lambda-and-amazon-route-53-private-hosted-zones/)
 2. [Building a Dynamic DNS for Route 53 using CloudWatch Events and Lambda by Bryan Liston ](https://aws.amazon.com/blogs/compute/building-a-dynamic-dns-for-route-53-using-cloudwatch-events-and-lambda/)
+
+# Twitch Shows
+
+1. [The Routing Loop](https://www.theroutingloop.net/)
+
+ if NLB is deployed to multiple AZs, then how should we deploy Lambdas? particularly when Lambda is deployed to VPC should we somehow tell it to deploy into same AZs as the NLBs?
