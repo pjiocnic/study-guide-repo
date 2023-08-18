@@ -31,7 +31,7 @@
 - [10. Comparison between REST and GraphQL API architectures](#10-comparison-between-rest-and-graphql-api-architectures)
 - [11. RDSProxy](#11-rdsproxy)
 - [12. Security](#12-security)
-  - [12.1. Securiy Lambda Using Resource Policy / ExecutionRole](#121-securiy-lambda-using-resource-policy--executionrole)
+  - [12.1. Lambda Security Using Resource Policy / ExecutionRole](#121-lambda-security-using-resource-policy--executionrole)
   - [12.2. Lambda Authorizers](#122-lambda-authorizers)
   - [12.3. Using Cognito to secure Lambda's function URL](#123-using-cognito-to-secure-lambdas-function-url)
 - [13. Autoscaling](#13-autoscaling)
@@ -203,7 +203,7 @@
 
 # 12. Security
 
-## 12.1. Securiy Lambda Using Resource Policy / ExecutionRole
+## 12.1. Lambda Security Using Resource Policy / ExecutionRole
 
 1. [Building AWS Lambda governance and guardrails by Julian Wood](https://aws.amazon.com/blogs/compute/building-aws-lambda-governance-and-guardrails/)
 2. [AWS Lambda Fundamentals - AWS Lambda function permissions](https://www.youtube.com/watch?v=6oG9O44U9x0)
