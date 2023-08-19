@@ -18,13 +18,13 @@
 
 1. Complete Porting domain to my new account? - done
 
-# 3. Blogs to cull
 
-## 3.1. Mornings
+
+# 3. Mornings
 
 2. [MORNINGS] Complete containers chapter from AWS cookbook
 
-## 3.2. Day
+# 4. Day
 
 1. [[WORK] Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
 2. [[WORK] Operating serverless at scale: Keeping control of resources – Part 3](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-keeping-control-of-resources-part-3/)
@@ -32,22 +32,22 @@
 4. [[WORK] Building event-driven architectures with Amazon SNS FIFO by Christian Mueller,](https://aws.amazon.com/blogs/compute/building-event-driven-architectures-with-amazon-sns-fifo/)
 5. [[WORK] Sending mobile push notifications and managing device tokens with serverless applications by Rafa Xu](https://aws.amazon.com/blogs/compute/sending-mobile-push-notifications-and-managing-device-tokens-with-serverless-application/)
 
-## 3.3. Evenings
+# 5. Evenings
 
 1. Continue stratosphere book
 2. [[POTENTIAL] AWS Serverless Developer Experience Developing Unicorn Contracts](https://catalog.workshops.aws/serverless-developer-experience/en-US/unicorn-contracts/init)
 
-## 3.4. Weekend
+# 6. Weekend
 
 1. Cloudformation workshop - Plan for weekend
 
-# 4. Planning for next week
+# 7. Planning for next week
 
 1. Do [[MUST SEE][Spring Pet Clinic] Deploying Java Microservices on Amazon Elastic Container Service by Nathan Taber](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
 2. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
 3. [[WEEKEND] SVS 307 Workshop - Easily Add Observability with AWS Lambda Powertools for Java](https://catalog.us-east-1.prod.workshops.aws/workshops/a7011c82-e4af-4a52-80fa-fcd61f1dacd9/en-US/introduction)
 
-# 5. Parked
+# 8. Parked
 
 1. [Cloud design patterns, architectures, and implementations](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html)
 
