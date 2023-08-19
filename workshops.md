@@ -81,7 +81,7 @@
 
 ## 5.2. Lambda
 
-[See lambda.md#30-workshops](my-github/study-guide-repo/lambda.md#30-workshops)
+[See aws-lambda.md#30-workshops](./aws-lambda.md#30-workshops)
 
 # 6. Account management using AWS Organizations
 

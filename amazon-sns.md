@@ -23,4 +23,4 @@
 
 # 4. DLQs
 
-1. [Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
+[See aws-lambda.md#29-dlqs](./aws-lambda.md#29-dlqs)
