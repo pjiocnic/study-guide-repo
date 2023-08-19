@@ -411,6 +411,7 @@ See [workshops-backlog.md](./workshops-backlog.md)
 2. [Designing a DyamoDB Table in 4 Steps: From Entities to Access Patterns](https://www.youtube.com/watch?v=JLZOI8patlw)
 3. [Deep Dive on Multi-Region Architectures with Amazon DynamoDB - AWS Online Tech Talks](https://www.youtube.com/watch?v=fqxL3WQ53GM&t=72s)
 https://www.youtube.com/watch?v=Mw8wCj0gkRc&list=PLJo-rJlep0EDNtcDeHDMqsXJcuKMcrC5F&index=1
+4. [[MUST SEE] Getting started with Amazon DynamoDB](https://serverlessland.com/content/service/dynamodb/guides/knowledge-portal/getting-started)
 
 ## 22.1. Videos with Rick Houlihan
 
