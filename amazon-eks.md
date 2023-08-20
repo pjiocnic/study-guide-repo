@@ -56,7 +56,7 @@
 
 # 5. Lambda
 
-1. [Deploying AWS Lambda functions using AWS Controllers for Kubernetes (ACK)](https://aws.amazon.com/blogs/compute/deploying-aws-lambda-functions-using-aws-controllers-for-kubernetes-ack/)
+1. [Deploying AWS Lambda functions using AWS Controllers for Kubernetes (ACK) By rajdeep saha](https://aws.amazon.com/blogs/compute/deploying-aws-lambda-functions-using-aws-controllers-for-kubernetes-ack/)
 
 # 6. Networking
 
