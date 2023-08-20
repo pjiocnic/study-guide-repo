@@ -64,6 +64,9 @@
 # 3. BluePrints
 
 1. [Accelerate Amazon ECS-based workloads with ECS Blueprints by Jooyoung Kim and Arvind Soni ](https://aws.amazon.com/blogs/containers/accelerate-amazon-ecs-based-workloads-with-ecs-blueprints/)
+2. [ECS Blueprints workshop](https://catalog.workshops.aws/ecs-solution-blueprints/en-US)
+3. [Amazon ECS Solution Blueprints with Terraform](https://www.youtube.com/watch?v=ERIvaZ3UCJk)
+4. [Elastic Container Service (ECS) Blueprints for Terraform By Nathan Peck](https://containersonaws.com/pattern/ecs-blueprint-terraform)
 
 # 4. Books
 
@@ -235,3 +238,6 @@
     - Misc: Git-based Service Configuration with Terraform
 
 6. [AWS Modernization with Docker](https://docker.awsworkshop.io/0_introduction.html)
+
+7. [ECS Blueprints workshop](https://catalog.workshops.aws/ecs-solution-blueprints/en-US)
+- https://github.com/aws-ia/ecs-blueprints
