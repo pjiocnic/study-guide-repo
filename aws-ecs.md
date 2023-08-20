@@ -8,32 +8,33 @@
 - [3. BluePrints](#3-blueprints)
 - [4. Books](#4-books)
 - [5. CDK](#5-cdk)
-- [6. Debugging](#6-debugging)
-- [7. Docker containers on ECS](#7-docker-containers-on-ecs)
-- [8. ECS Console v2](#8-ecs-console-v2)
-- [9. Hands-on](#9-hands-on)
-- [10. Integrations](#10-integrations)
-  - [10.1. Event Bridge](#101-event-bridge)
-  - [10.2. Parameter Store](#102-parameter-store)
-  - [10.3. SQS](#103-sqs)
-- [11. Java](#11-java)
-- [12. LaunchTypes - EC2 vs Fargate](#12-launchtypes---ec2-vs-fargate)
-- [13. Tasks](#13-tasks)
-  - [13.1. Task with Multi-Containers](#131-task-with-multi-containers)
-- [14. Networking](#14-networking)
-  - [14.1. Differences between different Networking modes](#141-differences-between-different-networking-modes)
-  - [14.2. AWS VPC mode](#142-aws-vpc-mode)
-  - [14.3. Bridge Mode](#143-bridge-mode)
-  - [14.4. Host Mode](#144-host-mode)
-  - [14.5. NAT Mode](#145-nat-mode)
-  - [14.6. NONE Mode](#146-none-mode)
-- [15. Samples](#15-samples)
-  - [15.1. API Gateway](#151-api-gateway)
-  - [15.2. ALB](#152-alb)
-  - [15.3. SQS](#153-sqs)
-- [16. Step functions](#16-step-functions)
-- [17. Videos](#17-videos)
-- [18. Workshops](#18-workshops)
+- [6. CI/CD](#6-cicd)
+- [7. Debugging](#7-debugging)
+- [8. Docker containers on ECS](#8-docker-containers-on-ecs)
+- [9. ECS Console v2](#9-ecs-console-v2)
+- [10. Hands-on](#10-hands-on)
+- [11. Integrations](#11-integrations)
+  - [11.1. Event Bridge](#111-event-bridge)
+  - [11.2. Parameter Store](#112-parameter-store)
+  - [11.3. SQS](#113-sqs)
+- [12. Java](#12-java)
+- [13. LaunchTypes - EC2 vs Fargate](#13-launchtypes---ec2-vs-fargate)
+- [14. Tasks](#14-tasks)
+  - [14.1. Task with Multi-Containers](#141-task-with-multi-containers)
+- [15. Networking](#15-networking)
+  - [15.1. Differences between different Networking modes](#151-differences-between-different-networking-modes)
+  - [15.2. AWS VPC mode](#152-aws-vpc-mode)
+  - [15.3. Bridge Mode](#153-bridge-mode)
+  - [15.4. Host Mode](#154-host-mode)
+  - [15.5. NAT Mode](#155-nat-mode)
+  - [15.6. NONE Mode](#156-none-mode)
+- [16. Samples](#16-samples)
+  - [16.1. API Gateway](#161-api-gateway)
+  - [16.2. ALB](#162-alb)
+  - [16.3. SQS](#163-sqs)
+- [17. Step functions](#17-step-functions)
+- [18. Videos](#18-videos)
+- [19. Workshops](#19-workshops)
 
 <!-- /TOC -->
 
@@ -77,39 +78,43 @@
 1. [CDK Construct library for higher-level ECS Constructs](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecs_patterns-readme.html)
 2. [Deploying a containerized web application with AWS Cloud Development Kit](https://pages.awscloud.com/rs/112-TZM-766/images/2019_0911-CON_Slide-Deck.pdf)
 
-# 6. Debugging
+# 6. CI/CD
+
+1. [Sharing automated blueprints for Amazon ECS continuous delivery using AWS Service Catalog](https://aws.amazon.com/blogs/compute/sharing-automated-blueprints-for-amazon-ecs-continuous-delivery-using-aws-service-catalog/)
+
+# 7. Debugging
 
 1. [Debugging into AWS ECS Task Containers: What You Need to Know](https://towardsaws.com/debugging-into-aws-ecs-task-containers-what-you-need-to-know-95d153376fc5)
 
-# 7. Docker containers on ECS
+# 8. Docker containers on ECS
 
 1. [Building container images on Amazon ECS on AWS Fargate by Re Alvarez-Parmar and Olly Pomeroy](https://aws.amazon.com/blogs/containers/building-container-images-on-amazon-ecs-on-aws-fargate/)
 2. [Deploy Docker Containers on Amazon ECS](https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers/)
 3. [Creating a container image for use on Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/userguide/create-container-image.html)
 
-# 8. ECS Console v2
+# 9. ECS Console v2
 
 1. [Amazon ECS Console v2 updates](https://www.youtube.com/watch?v=aTlTH61GKKA)
 
-# 9. Hands-on
+# 10. Hands-on
 
 1. [[OUTDATED] Deploy Docker Containers on Amazon ECS fargate](https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers/)
 2. [Deploy a Container Web App on Amazon ECS Using Amazon CodeCatalyst](https://community.aws/tutorials/deploy-webapp-ecs-codecatalyst)
 3. [Deploy a Web App Using AWS Copilot](https://aws.amazon.com/getting-started/guides/deploy-webapp-copilot)
 4. [AWS ECS Tutorial using ECS Console v2](https://earthly.dev/blog/aws-ecs-tutorial/)
 
-# 10. Integrations
+# 11. Integrations
 
-## 10.1. Event Bridge
+## 11.1. Event Bridge
 
 1. [[**MUST TRY**] Integrating Amazon EventBridge and Amazon ECS By Jakub Narloch](https://aws.amazon.com/blogs/compute/integrating-amazon-eventbridge-and-amazon-ecs/)
 
-## 10.2. Parameter Store
+## 11.2. Parameter Store
 
 1. [Managing Secrets for Amazon ECS Applications Using Parameter Store and IAM Roles for Tasks by Chris Barclay](https://aws.amazon.com/blogs/compute/managing-secrets-for-amazon-ecs-applications-using-parameter-store-and-iam-roles-for-tasks/)
 2. [How to Manage Secrets for Amazon EC2 Container Service–Based Applications by Using Amazon S3 and Docker by Matthew McClean](https://aws.amazon.com/blogs/security/how-to-manage-secrets-for-amazon-ec2-container-service-based-applications-by-using-amazon-s3-and-docker/)
 
-## 10.3. SQS
+## 11.3. SQS
 
 1. [How to poll for SQS by Fargate by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
     - See https://github.com/aws-samples/serverless-eda-insurance-claims-processing/blob/main/lib/services/settlement/app/src/main/java/com/amazon/settlement/services/SubscriberService.java
@@ -124,7 +129,7 @@
 - how to integrate ecs task with SQS using Lambda
 - Demos exception handling with retries
 
-# 11. Java
+# 12. Java
 
 1. [Field Notes: Optimize your Java application for Amazon ECS with Quarkus by Sascha Moellering](https://aws.amazon.com/blogs/architecture/field-notes-optimize-your-java-application-for-amazon-ecs-with-quarkus/)
 2. [[AWS Prescriptive Guidance] Deploy Java microservices on Amazon ECS using AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-java-microservices-on-amazon-ecs-using-aws-fargate.html)
@@ -134,24 +139,24 @@
     - Architecture: SNS -> SQS -> ECS (Java Polls SQS) -> EventBridge -> Lambda/Dynamodb
 6. [[**MUST TRY**] Spring Pet Clinic - Deploying Java Microservices on Amazon Elastic Container Service by Huy Huynh and Magnus Bjorkman](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
 
-# 12. LaunchTypes - EC2 vs Fargate
+# 13. LaunchTypes - EC2 vs Fargate
 
 1. [[**MUST SEE**] ECS on Fargate by AWSfundamentals.com](https://blog.awsfundamentals.com/ecs-on-fargate)
 2. [[**MUST SEE**] Comparing Amazon ECS launch types: EC2 vs. Fargate By Lumigo](https://lumigo.io/blog/comparing-amazon-ecs-launch-types-ec2-vs-fargate/)
 
-# 13. Tasks
+# 14. Tasks
 
-## 13.1. Task with Multi-Containers
+## 14.1. Task with Multi-Containers
 
 1. [Create a multi-container app with multiple tasks using ECS- Elastic Container Service. AWS Tutorials](https://www.youtube.com/watch?v=mbtU-5fXXiw)
 
-# 14. Networking
+# 15. Networking
 
-## 14.1. Differences between different Networking modes
+## 15.1. Differences between different Networking modes
 
 1. [Multi-Containers App on AWS Fargate](https://yosi-pramajaya.medium.com/multi-containers-app-on-aws-fargate-e86d9dc6e207)
 
-## 14.2. AWS VPC mode
+## 15.2. AWS VPC mode
 
 1. [[**MY NEXT**] Introducing Cloud Native Networking for Amazon ECS Containers By Anirudh Aithal](https://aws.amazon.com/blogs/compute/introducing-cloud-native-networking-for-ecs-containers/)
 2. [[**MY NEXT**] Under the Hood: Task Networking for Amazon ECS By Anirudh Aithal](https://aws.amazon.com/blogs/compute/under-the-hood-task-networking-for-amazon-ecs/)
@@ -159,38 +164,38 @@
 4. [Task Networking in AWS Fargate by Nathan Peck](https://aws.amazon.com/blogs/compute/task-networking-in-aws-fargate/)
 5. [Amazon ECS Workshop > ECS Networking > AWSVPC mode](https://ecsworkshop.com/ecs_networking/awsvpc/)
 
-## 14.3. Bridge Mode
+## 15.3. Bridge Mode
 
 1. [Amazon ECS Workshop > ECS Networking > Bridge mode](https://ecsworkshop.com/ecs_networking/bridge/)
 
-## 14.4. Host Mode
+## 15.4. Host Mode
 
 1. [Amazon ECS Workshop > ECS Networking > Host mode](https://ecsworkshop.com/ecs_networking/host/)
 
-## 14.5. NAT Mode
+## 15.5. NAT Mode
 
 1. [Amazon ECS Workshop > ECS Networking > NAT mode (Windows)](https://ecsworkshop.com/ecs_networking/nat/)
 
-## 14.6. NONE Mode
+## 15.6. NONE Mode
 
 1. [ Amazon ECS Workshop > ECS Networking > None mode](https://ecsworkshop.com/ecs_networking/none/)
 
-# 15. Samples
+# 16. Samples
 
-## 15.1. API Gateway
+## 16.1. API Gateway
 
 1. [[**CFN Included]** Serverless Container-based APIs with Amazon ECS and Amazon API Gateway by Simone Pomata ](https://aws.amazon.com/blogs/architecture/field-notes-serverless-container-based-apis-with-amazon-ecs-and-amazon-api-gateway/)
 
     <img src="./images/aws-ecs-1.png" title="aws-ecs-1.png" width="900"/>
 
-## 15.2. ALB
+## 16.2. ALB
 
 2. [Deploying Microservices with Amazon ECS, AWS CloudFormation, and an Application Load Balancer](https://github.com/aws-samples/ecs-refarch-cloudformation)
 - Has Nested Cloudformation templates
 
     <img src="./images/aws-ecs-2.png" title="aws-ecs-2.png" width="900"/>
 
-## 15.3. SQS
+## 16.3. SQS
 
 1. [[**MUST TRY**] Background worker that gets jobs from an SQS queue](https://containersonaws.com/pattern/background-worker-sqs-queue-container-copilot)
 - Poll SQS queue for messages?
@@ -204,7 +209,7 @@
 
     <img src="./images/aws-ecs-4.png" title="aws-ecs-2.png" width="900"/>
 
-# 16. Step functions
+# 17. Step functions
 
 1. [[**MUST TRY**] Amazon ECS and AWS Step Functions Design Patterns Starter kit](https://github.com/aws-samples/amazon-ecs-and-aws-step-functions-design-patterns-starter-kit)
 
@@ -212,12 +217,12 @@
 
     <img src="./images/Amazon_ECS_Java_Starter_Kit-Architecture_Pattern_2.png" title="Running ECS tasks using Step Functions native integration" width="900"/>
 
-# 17. Videos
+# 18. Videos
 
 1. [Lightning talk on Amazon ECS and AWS Fargate](https://www.youtube.com/playlist?list=PLhr1KZpdzukeNrcZo5aAgVPkm4UnugRX3)
 2. [Amazon ECS Console v2 updates](https://www.youtube.com/watch?v=aTlTH61GKKA)
 
-# 18. Workshops
+# 19. Workshops
 
 1. [Amazon ECS Workshop](https://ecsworkshop.com/)
 2. [Module 2: Container Performance Tuning](https://catalog.workshops.aws/performance-tuning/en-US/50-container/51-architecture)

@@ -9,9 +9,10 @@
   - [2.3. Kustomize with Spinnaker](#23-kustomize-with-spinnaker)
 - [3. Crossplane](#3-crossplane)
 - [4. Integrations](#4-integrations)
-- [5. Networking](#5-networking)
-- [6. Observability](#6-observability)
-- [7. Kubernetes on AWS](#7-kubernetes-on-aws)
+- [5. Lambda](#5-lambda)
+- [6. Networking](#6-networking)
+- [7. Observability](#7-observability)
+- [8. Kubernetes on AWS](#8-kubernetes-on-aws)
 - [9. Samples](#9-samples)
 - [10. Terraform](#10-terraform)
 - [11. Videos](#11-videos)
@@ -47,26 +48,26 @@
 
 # 3. Crossplane
 
-1. [Kubernetes as a platform vs. Kubernetes as an API by Massimo Re Ferr](https://aws.amazon.com/blogs/containers/kubernetes-as-a-platform-vs-kubernetes-as-an-api-2/)
-3. [Crossplane on Amazon EKS](https://www.youtube.com/watch?v=aWRWKnniqeM)
-5. [Crossplane first look: What most people get wrong (and how to get it right)](https://blog.upbound.io/crossplane-first-look)
-6. [Part 1: Multi-Cluster GitOps using Amazon EKS, Flux, and Crossplane by Islam Mahgoub, Mike Rizzo, Nicholas Thomson, and Sheetal Joshi](https://aws.amazon.com/blogs/containers/part-1-build-multi-cluster-gitops-using-amazon-eks-flux-cd-and-crossplane/)
-7. [GitOps model for provisioning and bootstrapping Amazon EKS clusters using Crossplane and Flux by Viji Sarathy](https://aws.amazon.com/blogs/containers/gitops-model-for-provisioning-and-bootstrapping-amazon-eks-clusters-using-crossplane-and-flux/)
+[see amazon-eks-crossplane.md](./amazon-eks-crossplane.md)
 
 # 4. Integrations
 
 1. [Integrating an EKS Cluster with Other AWS Services by Rushabh Doshi](https://app.pluralsight.com/library/courses/eks-cluster-aws-services-integrating/table-of-contents)
 
-# 5. Networking
+# 5. Lambda
+
+1. [Deploying AWS Lambda functions using AWS Controllers for Kubernetes (ACK)](https://aws.amazon.com/blogs/compute/deploying-aws-lambda-functions-using-aws-controllers-for-kubernetes-ack/)
+
+# 6. Networking
 
 1. [EKS Application Networking with Amazon VPC Lattice](https://www.youtube.com/watch?v=AdO0bx3N3fs)
 2. [Application Networking with Amazon VPC Lattice and Amazon EKS by Viji Sarathy and Sheetal Joshi ](https://aws.amazon.com/blogs/containers/application-networking-with-amazon-vpc-lattice-and-amazon-eks/)
 
-# 6. Observability
+# 7. Observability
 
 1. [Hands on with EKS Observability (2023) | Amazon EKS Workshop](https://www.youtube.com/watch?v=ajPe7HVypxg)
 
-# 7. Kubernetes on AWS
+# 8. Kubernetes on AWS
 
 1. [12 steps to setup Kubernetes Cluster on AWS EC2](https://www.golinuxcloud.com/setup-kubernetes-cluster-on-aws-ec2/)
 
