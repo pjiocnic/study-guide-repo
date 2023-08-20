@@ -5,7 +5,7 @@
 - [2. Tags](#2-tags)
 - [3. Secrets Manager](#3-secrets-manager)
 - [4. Workshops](#4-workshops)
-- [Courses](#courses)
+- [5. Courses](#5-courses)
 
 <!-- /TOC -->
 
@@ -30,7 +30,7 @@
 - https://github.com/aws-samples/aws-serverless-security-workshop
 2. [AWS Security Workshops](https://awssecworkshops.com/)
 
-# Courses
+# 5. Courses
 
 1. [Architecting for Security on AWS by Ben Piper](https://app.pluralsight.com/library/courses/architecting-security-aws/table-of-contents?aid=7010a000001xAKZAA2)
 2. [Managing AWS Security and Identity by John Hales and Brian Eiler](https://app.pluralsight.com/library/courses/managing-aws-security-identity/table-of-contents?aid=7010a000001xAKZAA2)
