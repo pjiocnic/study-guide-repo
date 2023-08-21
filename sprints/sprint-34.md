@@ -2,12 +2,21 @@
 
 <!-- TOC -->
 
+- [Incomplete](#incomplete)
 - [1. Cull](#1-cull)
 - [2. SNS](#2-sns)
 - [3. SQS](#3-sqs)
 - [4. Lambda](#4-lambda)
 
 <!-- /TOC -->
+
+# Incomplete
+
+1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 3 by Pascal Vogel](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-3/)
+2. [Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
+3. Make Notes - https://www.youtube.com/watch?v=xQeGrgQJJDc
+4. Make Notes - https://medium.com/event-driven-utopia/aws-sqs-visibility-timeout-explained-c13d8a728ab5
+5. Complete - ./notes-under-construction/4-best-practices-lambda.md that has blogs from Jerome Van Der Linden
 
 # 1. Cull
 https://serverlessland.com/search?search=sqs+to+lambda
