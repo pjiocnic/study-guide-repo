@@ -26,6 +26,7 @@
 - [8. Event Source Mapping](#8-event-source-mapping)
   - [8.1. Filtering](#81-filtering)
   - [8.2. FIFO SQS as Event Source](#82-fifo-sqs-as-event-source)
+  - [8.3. Kinesis](#83-kinesis)
 - [9. Scaling and concurrency in Lambda](#9-scaling-and-concurrency-in-lambda)
   - [9.1. Core Concepts](#91-core-concepts)
   - [9.2. Provisioned Concurrency](#92-provisioned-concurrency)
@@ -193,6 +194,10 @@
 ## 8.2. FIFO SQS as Event Source
 
 1. [New for AWS Lambda – SQS FIFO as an event source by James Beswick ](https://aws.amazon.com/blogs/compute/new-for-aws-lambda-sqs-fifo-as-an-event-source/)
+
+## 8.3. Kinesis
+
+1. [Filtering event sources for AWS Lambda functions](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
 
 # 9. Scaling and concurrency in Lambda
 

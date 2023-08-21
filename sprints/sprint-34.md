@@ -17,6 +17,10 @@
 3. Make Notes - https://www.youtube.com/watch?v=xQeGrgQJJDc
 4. Make Notes - https://medium.com/event-driven-utopia/aws-sqs-visibility-timeout-explained-c13d8a728ab5
 5. Complete - ./notes-under-construction/4-best-practices-lambda.md that has blogs from Jerome Van Der Linden
+6. Draw a diagram on how STS works
+
+8. When would you need a role to assume itself? - https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html
+
 
 # 1. Cull
 https://serverlessland.com/search?search=sqs+to+lambda

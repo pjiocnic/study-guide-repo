@@ -17,6 +17,7 @@
 - [13. Permissions](#13-permissions)
 - [14. Lambda design principles](#14-lambda-design-principles)
 - [15. Other Material for Notes](#15-other-material-for-notes)
+- [DLQ](#dlq)
 
 <!-- /TOC -->
 
@@ -74,7 +75,32 @@
 
 # 13. Permissions
 
-1. /Volumes/Lexar/git-repos/aws-repo/my-aws-cookbook/lambda/security/lambda-security.md
+1. `/Volumes/Lexar/git-repos/aws-repo/my-aws-cookbook/lambda/security/lambda-security.md`
+
+QQ: "When you invoke your function, Lambda automatically provides your function with temporary credentials by assuming this role. You don't have to call sts:AssumeRole in your function code" from https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html - Whose credentials are provided here to the function
+
+How to create a Role withTrust policy?
+
+aws iam create-role --role-name lambda-ex --assume-role-policy-document file://trust-policy.json
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "lambda.amazonaws.com"
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
+}
+```
+
+> QQ: When do you need to create a role to assume itself? Mentioned here https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html
+
+> Find demo: "Lambda assumes the execution role associated with your function to fetch temporary security credentials which are then available as environment variables during a function's invocation. If you use these temporary credentials outside of Lambda, such as to create a presigned Amazon S3 URL, you can't control the session duration. The IAM maximum session duration setting doesn't apply to sessions that are assumed by AWS services such as Lambda. Use the sts:AssumeRole action if you need control over session duration"
 
 # 14. Lambda design principles
 
@@ -85,3 +111,7 @@
 # 15. Other Material for Notes
 
 1. [AWS Lambda Fundamentals - Justin Wood](https://www.youtube.com/watch?v=jaJIpTg81iA&list=PLJo-rJlep0ECLtDhRKYWZsJRFBf9STccV)
+
+# DLQ
+
+1. Should this be in notes for SQS?
