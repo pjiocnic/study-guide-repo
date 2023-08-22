@@ -24,9 +24,10 @@
   - [7.5. Snapstart](#75-snapstart)
   - [7.6. Code organization](#76-code-organization)
 - [8. Event Source Mapping](#8-event-source-mapping)
-  - [8.1. Filtering](#81-filtering)
-  - [8.2. FIFO SQS as Event Source](#82-fifo-sqs-as-event-source)
-  - [8.3. Kinesis](#83-kinesis)
+  - [8.1. Core](#81-core)
+  - [8.2. Filtering](#82-filtering)
+  - [8.3. FIFO SQS as Event Source](#83-fifo-sqs-as-event-source)
+  - [8.4. Kinesis](#84-kinesis)
 - [9. Scaling and concurrency in Lambda](#9-scaling-and-concurrency-in-lambda)
   - [9.1. Core Concepts](#91-core-concepts)
   - [9.2. Provisioned Concurrency](#92-provisioned-concurrency)
@@ -185,17 +186,22 @@
 
 # 8. Event Source Mapping
 
-## 8.1. Filtering
+## 8.1. Core
+
+1. [AWS Lambda Permissions: Execution Role and Resource-based Policies By Mehmet Ozkaya](https://medium.com/aws-lambda-serverless-developer-guide-with-hands/aws-lambda-permissions-execution-role-and-resource-based-policies-be2e325998fc)
+
+## 8.2. Filtering
 
 1. [Understanding Amazon SQS and AWS Lambda Event Source Mapping for Efficient Message Processing by Tushar Sharma and Shaun Wang](https://aws.amazon.com/blogs/apn/understanding-amazon-sqs-and-aws-lambda-event-source-mapping-for-efficient-message-processing/)
 2. [Filtering event sources for AWS Lambda functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
     - Show how to filter messages before the invocation of a Lambda function
+3. [[Workshop] Serverless Optimization Workshop (Performance and Cost) > Event Filtering](https://catalog.us-east-1.prod.workshops.aws/workshops/2d960419-7d15-44e7-b540-fd3ebeb7ce2e/en-US/event-filtering)
 
-## 8.2. FIFO SQS as Event Source
+## 8.3. FIFO SQS as Event Source
 
 1. [New for AWS Lambda – SQS FIFO as an event source by James Beswick ](https://aws.amazon.com/blogs/compute/new-for-aws-lambda-sqs-fifo-as-an-event-source/)
 
-## 8.3. Kinesis
+## 8.4. Kinesis
 
 1. [Filtering event sources for AWS Lambda functions](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
 
