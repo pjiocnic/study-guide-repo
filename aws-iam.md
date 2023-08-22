@@ -10,8 +10,9 @@
 - [6. Roles](#6-roles)
 - [7. Service linked Roles](#7-service-linked-roles)
 - [8. Service Control Policies](#8-service-control-policies)
-- [9. Tutorials](#9-tutorials)
-- [10. Workshops](#10-workshops)
+- [9. SkillBuilder Courses](#9-skillbuilder-courses)
+- [10. Tutorials](#10-tutorials)
+- [11. Workshops](#11-workshops)
 
 <!-- /TOC -->
 
@@ -55,11 +56,15 @@
 
 1. [How to Use Service Control Policies in AWS Organizations by Frank Phillis](https://aws.amazon.com/blogs/security/how-to-use-service-control-policies-in-aws-organizations/)
 
-# 9. Tutorials
+# 9. SkillBuilder Courses
+
+1. [Troubleshooting: AWS Identity and Access Management](https://explore.skillbuilder.aws/learn/course/15564/play/76564/troubleshooting-aws-identity-and-access-management)
+
+# 10. Tutorials
 
 1. [IAM tutorials](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorials.html)
 
-# 10. Workshops
+# 11. Workshops
 
 1. [Identity Round Robin](https://identity-round-robin.awssecworkshops.com/)
 2. [AWS Identity and Access Management (IAM) Immersion Day](https://catalog.us-east-1.prod.workshops.aws/workshops/18b3622c-5d4c-45c9-9834-6a7091109072/en-US)

@@ -97,6 +97,7 @@
   - [40.6. Kinesis](#406-kinesis)
 - [41. CLI](#41-cli)
 - [42. Make Notes](#42-make-notes)
+- [43. Skillbuilder courses](#43-skillbuilder-courses)
 
 <!-- /TOC -->
 
@@ -642,3 +643,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
  - DynamoDB: Under the hood, managing throughput, advanced design patterns | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=0iGR8GnIItQ)
 1. [[Tuning] Scaling DynamoDB: How partitions, hot keys, and split for heat impact performance (Part 3: Summary and best practices) by Jason Hunter and Vivek Natarajan |](https://aws.amazon.com/blogs/database/part-3-scaling-dynamodb-how-partitions-hot-keys-and-split-for-heat-impact-performance/)
 - Deciding ideal RCU/WCUs?
+
+# 43. Skillbuilder courses
+
+1. [Amazon DynamoDB - Troubleshooting](https://explore.skillbuilder.aws/learn/course/12617/amazon-dynamodb-troubleshooting)

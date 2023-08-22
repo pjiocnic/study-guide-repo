@@ -8,12 +8,13 @@
 - [4. CFN Lint](#4-cfn-lint)
 - [5. Workshop](#5-workshop)
 - [6. Sample Templates](#6-sample-templates)
-- [7. WhitePaper](#7-whitepaper)
-- [8. Testing](#8-testing)
-- [9. Blog series](#9-blog-series)
-- [10. Intrinsic Functions](#10-intrinsic-functions)
-- [11. Courses](#11-courses)
-- [12. Stack Sets](#12-stack-sets)
+- [7. Skillbuilder courses](#7-skillbuilder-courses)
+- [8. WhitePaper](#8-whitepaper)
+- [9. Testing](#9-testing)
+- [10. Blog series](#10-blog-series)
+- [11. Intrinsic Functions](#11-intrinsic-functions)
+- [12. Courses](#12-courses)
+- [13. Stack Sets](#13-stack-sets)
 
 <!-- /TOC -->
 
@@ -61,16 +62,20 @@
 1. [Cloud Foundations on AWS - Templates](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main)
 2. [AWS CloudFormation Sample Templates](https://github.com/awslabs/aws-cloudformation-templates)
 
-# 7. WhitePaper
+# 7. Skillbuilder courses
+
+1. [Advanced CloudFormation: Macros](https://explore.skillbuilder.aws/learn/course/113/advanced-cloudformation-macros)
+
+# 8. WhitePaper
 
 1. [Establishing Your Cloud Foundation on AWS](https://docs.aws.amazon.com/whitepapers/latest/establishing-your-cloud-foundation-on-aws/welcome.html)
 
-# 8. Testing
+# 9. Testing
 
 1. [Automated CloudFormation Testing Pipeline with TaskCat and CodePipeline by Raleigh Hansen and Dan Le](https://aws.amazon.com/blogs/devops/automated-cloudformation-testing-pipeline-with-taskcat-and-codepipeline/)
 - Includes code for running `TaskCat` and scripts to test solution functionality
 
-# 9. Blog series
+# 10. Blog series
 
 1. [Hands-on AWS CloudFormation - Part 1. It All Starts Here By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-1-it-all-starts-here-5153)
 2. [Hands-on AWS CloudFormation - Part 2. Into to Intrinsic functions By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-2-into-to-intrinsic-functions-4kj2)
@@ -78,15 +83,15 @@
 4. [Hands-on AWS CloudFormation - Part 4. Create VPC with private and public subnets By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-4-create-vpc-with-private-and-public-subnets-85d)
 5. [Hands-on AWS CloudFormation - Part 5. IAM users, groups and roles By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-5-iam-users-groups-and-roles-5d9f)
 
-# 10. Intrinsic Functions
+# 11. Intrinsic Functions
 
 1. [AWS CloudFormation Intrinsic Functions By: Jeff Loughridge](https://konekti.us/post/aws-cloudformation-intrinsic-functions/)
 
-# 11. Courses
+# 12. Courses
 
 1. [Automation in AWS with CloudFormation, CLI, and SDKs By Richard A. Jones](https://learning.oreilly.com/videos/automation-in-aws/9780134818313/)
 - Good place to brush up
 
-# 12. Stack Sets
+# 13. Stack Sets
 
 1. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)

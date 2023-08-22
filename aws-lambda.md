@@ -3,7 +3,8 @@
 <!-- TOC -->
 
 - [1. Best Practices](#1-best-practices)
-- [2. Lambda architecture](#2-lambda-architecture)
+- [2. Architecture](#2-architecture)
+- [Skillbuilder Courses](#skillbuilder-courses)
 - [3. Core Topics](#3-core-topics)
   - [3.1. Throttling](#31-throttling)
   - [3.2. Error Handling](#32-error-handling)
@@ -84,9 +85,13 @@
 3. [aws api gateway & lambda: multiple endpoint/functions vs single endpoint](https://stackoverflow.com/questions/41425511/aws-api-gateway-lambda-multiple-endpoint-functions-vs-single-endpoint)
 4. [Best Practices for Integrating Amazon SQS with AWS Lambda](https://levelup.gitconnected.com/best-practices-for-integrating-amazon-sqs-with-aws-lambda-443db4b959e0)
 
-# 2. Lambda architecture
+# 2. Architecture
 
 1. [AWS re:Invent 2022 - A closer look at AWS Lambda (SVS404-R)](https://www.youtube.com/watch?v=0_jfH6qijVY&t=1308s)
+
+# Skillbuilder Courses
+
+1. [Troubleshooting: AWS Lambda](https://explore.skillbuilder.aws/learn/course/10771/play/41089/troubleshooting-aws-lambda)
 
 # 3. Core Topics
 
