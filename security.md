@@ -6,6 +6,7 @@
 - [3. Secrets Manager](#3-secrets-manager)
 - [4. Workshops](#4-workshops)
 - [5. Courses](#5-courses)
+- [6. SkillBuilder courses](#6-skillbuilder-courses)
 
 <!-- /TOC -->
 
@@ -35,3 +36,7 @@
 1. [Architecting for Security on AWS by Ben Piper](https://app.pluralsight.com/library/courses/architecting-security-aws/table-of-contents?aid=7010a000001xAKZAA2)
 2. [Managing AWS Security and Identity by John Hales and Brian Eiler](https://app.pluralsight.com/library/courses/managing-aws-security-identity/table-of-contents?aid=7010a000001xAKZAA2)
 3. [Introduction to Security and Architecture on AWS by David Tucker](https://app.pluralsight.com/library/courses/introduction-security-architecture-aws/table-of-contents?aid=7010a000001xAKZAA2)
+
+# 6. SkillBuilder courses
+
+1. [Security Learning Plan](https://explore.skillbuilder.aws/learn/lp/91/Security%2520Learning%2520Plan)

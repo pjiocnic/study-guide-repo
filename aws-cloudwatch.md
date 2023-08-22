@@ -8,7 +8,7 @@
 - [4. Custom Dashboard using CDK](#4-custom-dashboard-using-cdk)
 - [5. DocumentDB](#5-documentdb)
 - [6. Tutorials](#6-tutorials)
-- [7. Workshop](#7-workshop)
+- [7. Workshops](#7-workshops)
 
 <!-- /TOC -->
 
@@ -41,7 +41,7 @@
 
 1. [Mastering AWS CloudWatch: A Step-by-Step Tutorial for Beginners](https://cto.ai/blog/aws-cloudwatch/)
 
-# 7. Workshop
+# 7. Workshops
 
 1. [AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
 2. [AWS Management and Governance Tools Workshop > Amazon CloudWatch](https://mng.workshop.aws/cloudwatch.html)

@@ -1,9 +1,23 @@
+<h1>AWS AppConfig</h1>
+
+<!-- TOC -->
+
+- [1. Lambda Extensions](#1-lambda-extensions)
+- [2. Feature Flags](#2-feature-flags)
+- [3. Workshop](#3-workshop)
+
+<!-- /TOC -->
+
+# 1. Lambda Extensions
 
 1. [Deploying application configuration to serverless: Introducing the AWS AppConfig Lambda extension by Steve Rice, Jonathan (JT) Thompson, and Tim Yao ](https://aws.amazon.com/blogs/mt/introducing-aws-appconfig-lambda-extension-deploying-application-configuration-serverless/)
 
+# 2. Feature Flags
+
+1. [[AWS-SAMPLES] AWS AppConfig Feature Flags example](https://github.com/aws-samples/aws-appconfig-feature-flags)
 2. [AWS Lambda Cookbook  - Part 6 -  Configuration & Feature Flags Best Practices](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-part-6-feature-flags-configuration-best-practices)
 
-# Workshop
+# 3. Workshop
 
 1. [Learn to Use AWS AppConfig Feature Flags](https://catalog.us-east-1.prod.workshops.aws/workshops/2ee2fc71-0618-479c-86dd-1d5fb168eb20/en-US/02-getting-started/01-aws-event)
 
