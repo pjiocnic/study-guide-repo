@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [1. Alarms](#1-alarms)
+- [Customize Alarms](#customize-alarms)
 - [2. Insights](#2-insights)
 - [3. Custom Metrics](#3-custom-metrics)
 - [4. Custom Dashboard using CDK](#4-custom-dashboard-using-cdk)
@@ -15,6 +16,13 @@
 # 1. Alarms
 
 1. [Alarms, incident management, and remediation in the cloud with Amazon CloudWatch by Eric Scholz ](https://aws.amazon.com/blogs/mt/alarms-incident-management-and-remediation-in-the-cloud-with-amazon-cloudwatch/)
+
+# Customize Alarms
+
+1. [Customize Amazon CloudWatch alarm notifications to your local time zone – Part 1 by Ahmed Magdy Wahdan](https://aws.amazon.com/blogs/mt/customize-amazon-cloudwatch-alarm-notifications-to-your-local-time-zone-part-1/)
+- [Customize-CloudWatch-alarm-Eventrule.yaml](./templates/Customize-CloudWatch-alarm-Eventrule.yaml)
+2. [Customize Amazon CloudWatch alarm notifications to your local time zone – Part 2 by Ahmed Magdy Wahdan](https://aws.amazon.com/blogs/mt/customize-amazon-cloudwatch-alarm-notifications-to-your-local-time-zone-part-2/)
+- [Customize-CloudWatch-alarm-SNSSubscription.yaml](./templates/Customize-CloudWatch-alarm-SNSSubscription.yaml)
 
 # 2. Insights
 

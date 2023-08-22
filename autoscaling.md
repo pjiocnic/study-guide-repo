@@ -43,7 +43,7 @@
 # 5. Scaling Policy based on Memory
 
 1. [How to create an Amazon EC2 Auto Scaling policy based on a memory utilization metric (Linux) by Ahmed Magdy Wahdan](https://aws.amazon.com/blogs/mt/create-amazon-ec2-auto-scaling-policy-memory-utilization-metric-linux/)
-- Includes a CFN
+- [LinuxTTPOnMemoryUtilization.yml](./templates/LinuxTTPOnMemoryUtilization.yml)]
 
 # 6. Scaling Policy based on CPU
 
