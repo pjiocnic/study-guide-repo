@@ -25,6 +25,7 @@
 # 3. Cloudformation
 
 1. [Deploy AWS Organizations resources by using CloudFormation by Matt Luttrell and Swara Gandhi](https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/)
+- [[CFN] CloudFormationForAWSOrganizations.yaml](./templates/CloudFormationForAWSOrganizations.yaml)
 2. [Foundational Organizational Unit Structure and Accounts](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main/organizations/foundational-organizational-unit-structure)
 
 # 4. Examples

@@ -27,12 +27,12 @@
 1. [[MY NEXT] Build highly available streams with Amazon Kinesis Data Streams by Jeremy Ber and Pratik Patel](https://aws.amazon.com/blogs/big-data/build-highly-available-streams-with-amazon-kinesis-data-streams/)
 - Warm standby pattern
 - Cold standby pattern
-- CFN
+- [kds-ha.yml](./templates/kds-ha.yml)
 2. [Building a real-time notification system with Amazon Kinesis Data Streams for Amazon DynamoDB and Amazon Kinesis Data Analytics for Apache Flink by Saurabh Shrivastava, Sameer Goel, and Pratik Patel ](https://aws.amazon.com/blogs/big-data/building-a-real-time-notification-system-with-amazon-kinesis-data-streams-for-amazon-dynamodb-and-amazon-kinesis-data-analytics-for-apache-flink/)
-- CFN
+- [dynamodb-streaming-1.yml](./templates/dynamodb-streaming-1.yml)
 - Java
 3. [Streaming Amazon DynamoDB data into a centralized data lake by Praveen Krishnamoorthy Ravikumar, Abhishek Gupta, and Ashok Yoganand Sridharan](https://aws.amazon.com/blogs/big-data/streaming-amazon-dynamodb-data-into-a-centralized-data-lake/)
-- CFN
+- [ddb-lake-single-account.yaml](./templates/ddb-lake-single-account.yaml)
 
 # 3. Core concepts
 1. [Exploring the Depths of Kinesis Data Streams - Part 1: Partitioning](https://www.trek10.com/blog/exploring-the-depths-of-kinesis-data-streams---part-1-partitioning)

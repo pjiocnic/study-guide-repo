@@ -1,0 +1,1 @@
+https://aws.amazon.com/blogs/big-data/build-a-real-time-streaming-analytics-pipeline-with-the-aws-cdk/

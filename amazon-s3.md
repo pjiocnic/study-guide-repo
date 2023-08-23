@@ -1,5 +1,21 @@
 <h1>S3 Backlog</H1>
 
+<!-- TOC -->
+
+- [1. Encryption](#1-encryption)
+- [2. Workshops](#2-workshops)
+- [3. Pre-Signed URLs](#3-pre-signed-urls)
+- [4. Uploading](#4-uploading)
+- [5. Access Control](#5-access-control)
+- [6. Replication](#6-replication)
+- [7. Cross Account Access](#7-cross-account-access)
+- [8. Java examples](#8-java-examples)
+- [9. Access tiers](#9-access-tiers)
+- [S3 endpoints](#s3-endpoints)
+- [11. Workshops](#11-workshops)
+
+<!-- /TOC -->
+
 1. [S3 URI Parsing is now available in AWS SDK for Java 2.x by David Ho](https://aws.amazon.com/blogs/devops/s3-uri-parsing-is-now-available-in-aws-sdk-for-java-2-x/)
 
 # 1. Encryption
@@ -41,6 +57,35 @@
 
 1. [Amazon S3 Developer Guide](https://github.com/alexdebrie/amazon-s3-developer-guide/tree/master/code_examples/java_examples/S3Examples)
 
-# Access tiers
+# 9. Access tiers
 
 1. [Amazon S3 Intelligent Tiering](https://blog.awsfundamentals.com/amazon-s3-intelligent-tiering)
+
+# S3 endpoints
+
+1. [[MY NEXT] Best practices for using Amazon S3 endpoints with AWS CloudFormation by Tony Bulding](https://aws.amazon.com/blogs/infrastructure-and-automation/best-practices-for-using-amazon-s3-endpoints-in-aws-cloudformation-templates/)
+- difference between path-style and virtual-hosted-style endpoints
+- code: /Volumes/Lexar/git-repos/aws-repo/aws-samples/s3/s3-endpoints-and-cfn
+
+<img src="./images/s3-endpoints-1.png" title="s3-endpoints-1.png" width="900"/>
+
+# 11. Workshops
+
+"Encryption On AWS - Tutorial for S3
+- Server-side encryption - SSE-S3
+- Server-side encryption  - SSE-KMS
+- Server-side encryption - SSE-C
+- Client-side encryption"
+https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3
+
+Amazon S3: Data Encryption Options (use this video along with s3 encryption workshop)	https://www.youtube.com/watch?v=U1USUvvhuCY
+
+Amazon S3 Multi-Region Access Points	https://catalog.workshops.aws/s3multiregionaccesspoints/en-US
+
+Applying Attribute Based Access Control in AWS - Workshop	https://catalog.workshops.aws/applying-abac/en-US
+
+Amazon S3 Select - Querying data without servers or databases	https://catalog.us-east-1.prod.workshops.aws/workshops/c85a4d91-2b80-4155-948d-bbdc200567a6/en-US
+
+Secure Hybrid Access to S3 using VPC Endpoints	https://catalog.us-east-1.prod.workshops.aws/workshops/3a8d4ddf-66c5-4d26-ae6f-6292a517f46c/en-US
+
+Getting started using the Amazon S3 Glacier storage classes	https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-glacier-storage-classes/?trk=gs_card

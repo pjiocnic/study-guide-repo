@@ -42,7 +42,7 @@
 
 1. [Build a serverless event-driven workflow with AWS Glue and Amazon EventBridge by Noritaka Sekiyama, Keerthi Chadalavada, and Karan Vishwanathan](https://aws.amazon.com/blogs/big-data/build-a-serverless-event-driven-workflow-with-aws-glue-and-amazon-eventbridge/)
 - /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/eventbridge/event-driven-workflow-tutorial
-- CFN provided
+- [event_driven_workflow_tutorial.yaml](./templates/event_driven_workflow_tutorial.yaml)]
 
 # 5. Patterns
 

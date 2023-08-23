@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: "Foundation components for API Gateway access logs enrichment"
+
+Resources:
+  ApiGatewayAccessLogsEnrichmentFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: s3://computeblog-us-east-1/apigateway-visualize-usageplans/api-gateway-access-logs-visualization-enrichment-function.zip
+      Handler: app.lambda_handler
+      Runtime: python3.8
+      MemorySize: 512
+      Timeout: 300 # 5 minutes
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Action:
+                - apigateway:GET
+              Resource:
+                - 'arn:aws:apigateway:*::/usageplans'
+                - 'arn:aws:apigateway:*::/usageplans/*/*'
+
+
+  AccessLogsBucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain
+
+Outputs:
+  AccessLogsEnrichmentFunction:
+    Description: "API Gateway Access Logs Enrichment Function"
+    Value: !GetAtt ApiGatewayAccessLogsEnrichmentFunction.Arn
+  AccessLogsBucket:
+    Description: "S3 bucket destination for API Gateway Access Logs"
+    Value: !GetAtt AccessLogsBucket.Arn

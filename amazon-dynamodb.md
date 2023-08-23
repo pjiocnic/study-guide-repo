@@ -548,7 +548,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 ## 32.1. Backup using AWS Backup
 
 1. [Set up scheduled backups for Amazon DynamoDB using AWS Backup by Dhiraj Thakur](https://aws.amazon.com/blogs/database/set-up-scheduled-backups-for-amazon-dynamodb-using-aws-backup/)
-- Provides a CFN
+- [DDB.yaml](my-github/study-guide-repo/templates/DDB.yaml)
 
 # 33. Bulk work on DynamoDB Tables
 
