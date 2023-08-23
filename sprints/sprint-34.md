@@ -19,6 +19,9 @@
 5. Complete - ./notes-under-construction/4-best-practices-lambda.md that has blogs from Jerome Van Der Linden
 6. Draw a diagram on how STS works
 7. When would you need a role to assume itself? - https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html
+8. Make notes on ECS - https://www.youtube.com/watch?v=5uJUmGWjRZY&list=PLhr1KZpdzukeNrcZo5aAgVPkm4UnugRX3&index=3
+9. Crossplane - https://www.youtube.com/watch?v=8CdyxX7eGkA
+- https://github.com/awslabs/crossplane-on-eks/tree/main/examples
 
 # 2. Cull
 1. https://serverlessland.com/search?search=sqs+to+lambda
@@ -37,3 +40,4 @@ Check out tutorials listed in [lambda-tutorials.md](../my-tracks/lambda-tutorial
 # 5. Lambda
 
 1. [Lambda resource access permissions](https://docs.aws.amazon.com/en_us/lambda/latest/dg/lambda-permissions.html)
+2. [Using Amazon SQS dead-letter queues to replay messages By Alexandre Pinhel](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages)
