@@ -18,6 +18,7 @@
 - [14. Lambda design principles](#14-lambda-design-principles)
 - [15. Other Material for Notes](#15-other-material-for-notes)
 - [DLQ](#dlq)
+- [How to setup exponential backoff](#how-to-setup-exponential-backoff)
 
 <!-- /TOC -->
 
@@ -115,3 +116,9 @@ aws iam create-role --role-name lambda-ex --assume-role-policy-document file://t
 # DLQ
 
 1. Should this be in notes for SQS?
+
+# How to setup exponential backoff
+
+1. [Using Amazon SQS dead-letter queues to replay messages](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages/)
+
+<img src="./images/sqs-newarch.png" title="sqs-newarch.png" width="900"/>
