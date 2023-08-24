@@ -30,3 +30,13 @@ WHERE parent_id IN (
     WHERE status = 'desired_status'
 );
 ```
+
+# Describe table
+
+```sql
+SELECT column_name, data_type, data_length, data_precision, data_scale, nullable, data_default, column_id, comments
+FROM user_tab_columns
+WHERE table_name = 'YOUR_TABLE_NAME';
+
+SELECT table_name FROM user_tables WHERE table_name = 'YOUR_TABLE_NAME';
+```
