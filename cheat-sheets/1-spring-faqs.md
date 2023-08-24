@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [1. How to load multiple configs in spring](#1-how-to-load-multiple-configs-in-spring)
+- [Fat jar using spring](#fat-jar-using-spring)
 
 <!-- /TOC -->
 
@@ -54,5 +55,36 @@ public class MyJsonProperties {
         return jsonData.get(key);
     }
 }
+
+```
+
+# Fat jar using spring
+
+```xml
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>3.2.4</version> <!-- Use the latest version -->
+            <executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>shade</goal>
+                    </goals>
+                    <configuration>
+                        <transformers>
+                            <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <mainClass>your.package.YourMainClass</mainClass>
+                            </transformer>
+                        </transformers>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
+
 
 ```
