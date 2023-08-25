@@ -3,8 +3,8 @@
 <!-- TOC -->
 
 - [1. APIGateway](#1-apigateway)
-- [2. EP -> NLB -> ALB](#2-ep---nlb---alb)
 - [3. ALB -> NLB](#3-alb---nlb)
+- [2. NLB -> ALB](#2-nlb---alb)
 - [4. EventBridge](#4-eventbridge)
 - [5. RDS](#5-rds)
 - [6. Route53](#6-route53)
@@ -15,7 +15,7 @@
 - [11. Videos](#11-videos)
 - [12. Web Proxy](#12-web-proxy)
 - [13. Whitepaper](#13-whitepaper)
-- [Curate](#curate)
+- [14. Curate](#14-curate)
 
 <!-- /TOC -->
 
@@ -23,7 +23,13 @@
 
 1. [Introducing Amazon API Gateway Private Endpoints by Chris Munns](https://aws.amazon.com/blogs/compute/introducing-amazon-api-gateway-private-endpoints/)
 
-# 2. EP -> NLB -> ALB
+# 3. ALB -> NLB
+
+1. [How to securely publish Internet applications at scale using Application Load Balancer and AWS PrivateLink by Tom Adamski](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-securely-publish-internet-applications-at-scale-using-application-load-balancer-and-aws-privatelink/)
+
+<img src="./images/alb-nlb-blue-green.png" title="alb-nlb-blue-green.png" width="900"/>
+
+# 2. NLB -> ALB
 
 1. [How to configure the Application Load Balancer-type Target Group for Network Load Balancer By Somesh Srivastava](https://someshsrivastava1983.medium.com/how-to-configure-the-application-load-balancer-type-target-group-for-network-load-balancer-9b0c39106699)
 
@@ -32,12 +38,6 @@
 - Detailed
 
 <img src="./images/ALB-as-a-target-of-NLB-detailed-architecture-diagram.png" title="ALB-as-a-target-of-NLB-detailed-architecture-diagram.png" width="900"/>
-
-# 3. ALB -> NLB
-
-1. [How to securely publish Internet applications at scale using Application Load Balancer and AWS PrivateLink by Tom Adamski](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-securely-publish-internet-applications-at-scale-using-application-load-balancer-and-aws-privatelink/)
-
-<img src="./images/alb-nlb-blue-green.png" title="alb-nlb-blue-green.png" width="900"/>
 
 # 4. EventBridge
 
@@ -99,7 +99,7 @@
 
 
 
-# Curate
+# 14. Curate
 
 [Building Secure Private Connectivity with AWS PrivateLink for TiDB Cloud by Ayan Ray, Arun Vijayraghavan, Savi Venkatachalapathy, and Yunqing Zhou](https://aws.amazon.com/blogs/apn/building-secure-private-connectivity-with-aws-privatelink-for-tidb-cloud/)
 
