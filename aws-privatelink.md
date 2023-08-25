@@ -29,6 +29,10 @@
 
 <img src="./images/privatelink-nlb-alb.png" title="privatelink-nlb-alb.png" width="900"/>
 
+- Detailed
+
+<img src="./images/ALB-as-a-target-of-NLB-detailed-architecture-diagram.png" title="ALB-as-a-target-of-NLB-detailed-architecture-diagram.png" width="900"/>
+
 # 3. ALB -> NLB
 
 1. [How to securely publish Internet applications at scale using Application Load Balancer and AWS PrivateLink by Tom Adamski](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-securely-publish-internet-applications-at-scale-using-application-load-balancer-and-aws-privatelink/)
