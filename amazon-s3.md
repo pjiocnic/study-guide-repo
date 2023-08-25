@@ -10,9 +10,10 @@
 - [6. Replication](#6-replication)
 - [7. Java examples](#7-java-examples)
 - [8. S3 endpoints](#8-s3-endpoints)
-- [9. Uploading](#9-uploading)
-- [10. Workshops](#10-workshops)
-- [11. Curate Workshops](#11-curate-workshops)
+- [9. Static WebSites](#9-static-websites)
+- [10. Uploading](#10-uploading)
+- [11. Workshops](#11-workshops)
+- [12. Curate Workshops](#12-curate-workshops)
 
 <!-- /TOC -->
 
@@ -55,15 +56,21 @@
 
 [See aws-privatelink.md](./aws-privatelink.md)
 
-# 9. Uploading
+# 9. Static WebSites
+
+1. [Hosting Internal HTTPS Static Websites with ALB, S3, and PrivateLink by Schuyler Jager](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/)
+
+<img src="./images/Networking_NetCDNBlog-430-v2.jpg" title="Networking_NetCDNBlog-430-v2.jpg" width="900"/>
+
+# 10. Uploading
 
 1. [Patterns for building an API to upload files to Amazon S3 by Thomas Moore,](https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/)
 
-# 10. Workshops
+# 11. Workshops
 
 1. [START HERE](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3)
 
-# 11. Curate Workshops
+# 12. Curate Workshops
 
 3. https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating/6001_s3_bucket.html
 
