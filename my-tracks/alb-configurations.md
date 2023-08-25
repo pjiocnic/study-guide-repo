@@ -2,7 +2,7 @@
 
 <!-- TOC -->
 
-- [1. ALB -> NLB](#1-alb---nlb)
+- [1. NLB -> ALB](#1-nlb---alb)
 - [2. ALB -> IP Address](#2-alb---ip-address)
 - [3. ALB -> Lambda](#3-alb---lambda)
 - [4. R53 -> ALB -> Fargate](#4-r53---alb---fargate)
@@ -11,9 +11,11 @@
 
 <!-- /TOC -->
 
-# 1. ALB -> NLB
+# 1. NLB -> ALB
 
-1. [How to configure the Application Load Balancer-type Target Group for Network Load Balancer](https://someshsrivastava1983.medium.com/how-to-configure-the-application-load-balancer-type-target-group-for-network-load-balancer-9b0c39106699)
+1. [How to configure the Application Load Balancer-type Target Group for Network Load Balancer By Somesh Srivastava](https://someshsrivastava1983.medium.com/how-to-configure-the-application-load-balancer-type-target-group-for-network-load-balancer-9b0c39106699)
+
+<img src="./images/privatelink-nlb-alb.png" title="privatelink-nlb-alb.png" width="900"/>
 
 # 2. ALB -> IP Address
 

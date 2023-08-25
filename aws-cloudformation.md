@@ -5,9 +5,9 @@
 - [1. BestPractices](#1-bestpractices)
 - [2. Blog series](#2-blog-series)
 - [3. Courses](#3-courses)
-- [4. Custom Resources](#4-custom-resources)
-- [5. Lambda](#5-lambda)
-- [6. CFN Lint](#6-cfn-lint)
+- [4. CFN Lint](#4-cfn-lint)
+- [5. Custom Resources](#5-custom-resources)
+- [6. Lambda](#6-lambda)
 - [7. Intrinsic Functions](#7-intrinsic-functions)
 - [8. Sample Templates](#8-sample-templates)
 - [9. Skillbuilder courses](#9-skillbuilder-courses)
@@ -36,19 +36,22 @@
 1. [Automation in AWS with CloudFormation, CLI, and SDKs By Richard A. Jones](https://learning.oreilly.com/videos/automation-in-aws/9780134818313/)
 - Good place to brush up
 
-# 4. Custom Resources
+# 4. CFN Lint
+
+1. [AWS CloudFormation Linter](https://github.com/aws-cloudformation/cfn-lint)
+
+# 5. Custom Resources
 
 1. [Implementing long running deployments with AWS CloudFormation Custom Resources using AWS Step Functions by DAMODAR SHENVI WAGLE](https://aws.amazon.com/blogs/devops/implementing-long-running-deployments-with-aws-cloudformation-custom-resources-using-aws-step-functions/)
 2. [Coordinating complex resource dependencies across CloudFormation stacks by Rafael Liu and Tony Suarez](https://aws.amazon.com/blogs/mt/coordinating-complex-resource-dependencies-across-cloudformation-stacks/)
 - How to coordinate across multiple stacks by using Custom Resources along with WaitCondition resources, based on custom events within the same account and region.
+3. [Introducing TypeScript support for building AWS CloudFormation resource types by Craig Lefkowitz](https://aws.amazon.com/blogs/mt/introducing-typescript-support-for-building-aws-cloudformation-resource-types/)
+4. [Managing resources using AWS CloudFormation Resource Types by Craig Lefkowitz](https://aws.amazon.com/blogs/mt/managing-resources-using-aws-cloudformation-resource-types/)
+5. [Lambda to S3 via a custom resource](https://serverlessland.com/patterns/lambda-s3-cfn)
 
-# 5. Lambda
+# 6. Lambda
 
 1. [Faster Auto Scaling in AWS CloudFormation Stacks with Lambda-backed Custom Resources by Tom Maddox ](https://aws.amazon.com/blogs/devops/faster-auto-scaling-in-aws-cloudformation-stacks-with-lambda-backed-custom-resources/)
-
-# 6. CFN Lint
-
-1. [AWS CloudFormation Linter](https://github.com/aws-cloudformation/cfn-lint)
 
 # 7. Intrinsic Functions
 

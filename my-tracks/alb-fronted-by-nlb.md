@@ -2,3 +2,5 @@
 
 1. [Using AWS Lambda to enable static IP addresses for Application Load Balancers by Long Ren ](https://aws.amazon.com/blogs/networking-and-content-delivery/using-aws-lambda-to-enable-static-ip-addresses-for-application-load-balancers/)
 2. [How to configure the Application Load Balancer-type Target Group for Network Load Balancer By Somesh Srivastava](https://someshsrivastava1983.medium.com/how-to-configure-the-application-load-balancer-type-target-group-for-network-load-balancer-9b0c39106699)
+
+<img src="./images/privatelink-nlb-alb.png" title="privatelink-nlb-alb.png" width="900"/>

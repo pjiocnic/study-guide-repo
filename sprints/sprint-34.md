@@ -7,8 +7,9 @@
 - [3. SNS](#3-sns)
 - [4. SQS](#4-sqs)
 - [5. Lambda](#5-lambda)
-- [Curate](#curate)
-- [Questions](#questions)
+- [6. Curate](#6-curate)
+- [7. Route53 Resolver](#7-route53-resolver)
+- [8. Questions](#8-questions)
 
 <!-- /TOC -->
 
@@ -45,11 +46,15 @@ Check out tutorials listed in [lambda-tutorials.md](../my-tracks/lambda-tutorial
 1. [Lambda resource access permissions](https://docs.aws.amazon.com/en_us/lambda/latest/dg/lambda-permissions.html)
 2. [[TRY] Using Amazon SQS dead-letter queues to replay messages By Alexandre Pinhel](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages)
 
-# Curate
+# 6. Curate
 
 1. [Integration & Automation](https://aws.amazon.com/blogs/infrastructure-and-automation/)
 
-# Questions
+# 7. Route53 Resolver
+
+1. [Automating DNS infrastructure using Route 53 Resolver endpoints by Shiva Vaidyanathan and Akhil Nayabu](https://aws.amazon.com/blogs/networking-and-content-delivery/automating-dns-infrastructure-using-route-53-resolver-endpoints/)
+
+# 8. Questions
 
 1. How do you use connection pooling inside a Lambda?
 2. Any cloudformation templates to create MongoDB in AWS
