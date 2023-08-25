@@ -15,6 +15,7 @@
 - [11. Videos](#11-videos)
 - [12. Web Proxy](#12-web-proxy)
 - [13. Whitepaper](#13-whitepaper)
+- [Curate](#curate)
 
 <!-- /TOC -->
 
@@ -93,5 +94,11 @@
 1. [Securely Access Services Over AWS PrivateLink](https://docs.aws.amazon.com/whitepapers/latest/aws-privatelink/aws-privatelink.html)
 
 
+
+# Curate
+
+[Building Secure Private Connectivity with AWS PrivateLink for TiDB Cloud by Ayan Ray, Arun Vijayraghavan, Savi Venkatachalapathy, and Yunqing Zhou](https://aws.amazon.com/blogs/apn/building-secure-private-connectivity-with-aws-privatelink-for-tidb-cloud/)
+
+<img src="./images/PingCAP-PrivateLink-TiDB-1.png" title="PingCAP-PrivateLink-TiDB-1.png" width="900"/>
 
 
