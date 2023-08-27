@@ -1,0 +1,26 @@
+
+1. How to extract contiguous digits from a sentence?
+
+```java
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class ExtractDigitsFromSentence {
+    public static void main(String[] args) {
+        // Input sentence
+        String sentence = "The price is $25.99 and the discount is 10%.";
+
+        // Define the regular expression pattern
+        Pattern pattern = Pattern.compile("\\d+"); // This matches one or more digits
+
+        // Create a Matcher object
+        Matcher matcher = pattern.matcher(sentence);
+
+        // Iterate through the matches and extract the digits
+        while (matcher.find()) {
+            String digits = matcher.group(); // Get the matched digits as a string
+            System.out.println("Found digits: " + digits);
+        }
+    }
+}
+```
