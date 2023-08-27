@@ -1,4 +1,4 @@
-<h1>Sprint 33 - Aug 14, 2023- Aug 21, 2023</h1>
+<h1>Sprint 33 - Aug 14, 2023- Aug 20, 2023</h1>
 
 # 1. Incomplete Tasks
 

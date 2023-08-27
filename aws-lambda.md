@@ -78,6 +78,8 @@
 - [35. Workshops](#35-workshops)
 - [36. Videos](#36-videos)
 - [37. Function URLs](#37-function-urls)
+- [38. Use cases](#38-use-cases)
+  - [38.1. Aggregating Data](#381-aggregating-data)
 
 <!-- /TOC -->
 
@@ -466,3 +468,9 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 37. Function URLs
 
 1. [Announcing AWS Lambda Function URLs: Built-in HTTPS Endpoints for Single-Function Microservices by Alex Casalboni ](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/)
+
+# 38. Use cases
+
+## 38.1. Aggregating Data
+
+1. [Build a fault-tolerant, serverless data aggregation pipeline with exactly-once processing by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-fault-tolerant-serverless-data-aggregation-pipeline-with-exactly-once-processing/)

@@ -1,4 +1,4 @@
-<h1>Sprint 34 - Aug 22, 2023- Aug 29, 2023</h1>
+<h1>Sprint 34 - Aug 21, 2023- Aug 27, 2023</h1>
 
 <!-- TOC -->
 

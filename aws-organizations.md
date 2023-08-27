@@ -20,7 +20,7 @@
 
 # 2. Best Practices
 
-2. [Best Practices for Organizational Units with AWS Organizations by Andrew Blackham and Sam Elmalak ](https://aws.amazon.com/blogs/mt/best-practices-for-organizational-units-with-aws-organizations/)
+2. [[MY NEXT] Best Practices for Organizational Units with AWS Organizations by Andrew Blackham and Sam Elmalak ](https://aws.amazon.com/blogs/mt/best-practices-for-organizational-units-with-aws-organizations/)
 
 # 3. Cloudformation
 
@@ -42,6 +42,7 @@
 
 1. [How to use multiple AWS accounts for managing quotas by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-and-service-quotas-part-1/)
 2. [[Whitepaper] Organizing Your AWS Environment Using Multiple Accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html)
+3. [Multi-account strategy for small and medium businesses by Alex Torres and Siddhesh Jog](https://aws.amazon.com/blogs/mt/multi-account-strategy-for-small-and-medium-businesses/)
 
 
 # 7. Route 53
