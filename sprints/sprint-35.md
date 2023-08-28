@@ -41,6 +41,33 @@ Check out tutorials listed in [lambda-tutorials.md](../my-tracks/lambda-tutorial
 3. [Build a fault-tolerant, serverless data aggregation pipeline with exactly-once processing by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-fault-tolerant-serverless-data-aggregation-pipeline-with-exactly-once-processing/)
 - Categorize this.  Under samples to try?
 
+# Operating Lambda series
+
+1. [Operating Lambda: Building a solid security foundation – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-1/)
+1. [Operating Lambda: Building a solid security foundation – Part 2 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-2/)
+
+1. [Operating Lambda: Understanding event-driven architecture – Part 1 by James Beswick |](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/)
+1. [Operating Lambda: Design principles in event-driven architectures – Part 2 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2/)
+1. [Operating Lambda: Anti-patterns in event-driven architectures – Part 3 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-anti-patterns-in-event-driven-architectures-part-3/)
+
+1. [Operating serverless at scale: Implementing governance – Part 1 by Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-implementing-governance-part-1/)
+1. [Operating serverless at scale: Improving consistency – Part 2 by Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-improving-consistency-part-2/)
+1. [Operating serverless at scale: Keeping control of resources – Part 3 by Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-keeping-control-of-resources-part-3/)
+
+1. [Operating Lambda: Application design and Service Quotas – Part 1 by James Beswick |](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-and-service-quotas-part-1/)
+1. [Operating Lambda: Application design – Scaling and concurrency: Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-scaling-and-concurrency-part-2/)
+
+# Lambda Operator Guide
+
+1. [The AWS Lambda Operator's Guide | Serverless Office Hours](https://www.youtube.com/watch?v=Xofyyqq_Dvs)
+1. [AWS Lambda Operator Guide](https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/intro)
+1. [AWS Lambda Operator Guide](https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html)
+1. [Operating and troubleshooting Lambda-based applications](https://github.com/aws-samples/aws-lambda-operators-guide)
+
+# Testing Lambda
+
+1. [Testing and debugging](https://serverlessland.com/event-driven-architecture/testing-and-debugging)
+
 # 6. Curate
 
 1. [Integration & Automation](https://aws.amazon.com/blogs/infrastructure-and-automation/)
