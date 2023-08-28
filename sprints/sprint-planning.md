@@ -125,8 +125,9 @@ https://www.epochconverter.com/weeks/2023
 5. [Powering Secondary DNS in a VPC using AWS Lambda and Amazon Route 53 Private Hosted Zones by Bryan Liston](https://aws.amazon.com/blogs/compute/powering-secondary-dns-in-a-vpc-using-aws-lambda-and-amazon-route-53-private-hosted-zones/)
 
 # 10. Workshops planning
+1. [AWS CloudTrail Log Monitoring](https://catalog.us-east-1.prod.workshops.aws/workshops/2e48b9fc-f721-4417-b811-962b7f31b61c/en-US)
 1. DocumentDB
-2.  [[My NEXT] Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
+1.  [[My NEXT] Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
     - Lab 1: Configure the network
     - Lab 2: Set up your RDS database using cfn
     - Lab 3: Set up Elasticache for Memcached using cfn
@@ -137,8 +138,8 @@ https://www.epochconverter.com/weeks/2023
     - Lab 8: Configure caching using cfn
     - Lab 9:: Add a Content Delivery Network using cfn
     - Lab 10: Chaos testing with AWS Fault Injection Simulator
-3. EC2 spot instances
-4. PostGresSQL workshop
+1. EC2 spot instances
+1. PostGresSQL workshop
 
 # 11. AWS Samples to try
 

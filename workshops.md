@@ -217,6 +217,8 @@
     - Mobile Application Development
     - https://github.com/aws-samples/cdk-microservices-labs
 
+2. [AWS for Linux Workloads Immersion Day](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
+
 # 17. Developer workshops
 
 1. [Improving Development Ergonomics](https://catalog.us-east-1.prod.workshops.aws/workshops/794fbedd-0fd9-4c70-92c1-9e82fbdcc383/en-US)

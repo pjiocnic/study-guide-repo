@@ -17,6 +17,7 @@
 1. What are permission boundaries. Look for a demo. See Tamas Salli's IAM book.
 1. https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html
 1. Review and Close notes - AssumeRole notes
+1. Is this about role chaining? https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html
 1. Complete Notes on DLQ handling
 1. Complete notes on how to write Jitter/exponential backoff code
 1. [You need this FREE IAM Management Tool By Be A Better Dev](https://www.youtube.com/watch?v=ryEseI_-12o)
