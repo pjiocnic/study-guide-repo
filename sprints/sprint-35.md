@@ -2,7 +2,7 @@
 
 # 1. Incomplete
 
-1. Resolve notes - `/Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/faqs/my-faqs-for-sqs.md` and find a permanent home
+1. Review and Close notes - `/Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/faqs/my-faqs-for-sqs.md` and find a permanent home
 1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 3 by Pascal Vogel](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-3/)
 1. [Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
 1. Make Notes - https://www.youtube.com/watch?v=xQeGrgQJJDc
@@ -16,9 +16,10 @@
 1. [Data Modeling with MongoDB (Webinar)](https://www.youtube.com/watch?v=zjDkBgyGdwQ)
 1. What are permission boundaries. Look for a demo. See Tamas Salli's IAM book.
 1. https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html
-1. Resolve notes - AssumeRole notes
+1. Review and Close notes - AssumeRole notes
 1. Complete Notes on DLQ handling
 1. Complete notes on how to write Jitter/exponential backoff code
+1. [You need this FREE IAM Management Tool By Be A Better Dev](https://www.youtube.com/watch?v=ryEseI_-12o)
 
 # 2. Cull
 1. https://serverlessland.com/search?search=sqs+to+lambda
