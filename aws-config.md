@@ -12,7 +12,7 @@
 
 1. [[AWS-SAMPLES] How to use AWS Config and CloudTrail to find who made changes to a resource by Mohamed Attalla, Man Man Chau, Eduardo Ortiz Pineda, and Dan Urbano](https://aws.amazon.com/blogs/mt/how-to-use-aws-config-and-cloudtrail-to-find-who-made-changes-to-a-resource/)
 
-![Alt text](images/config-1.png)
+<img src="./images/config-1.png" title="config-1.png" width="900"/>
 
 # 1. Workshops
 
