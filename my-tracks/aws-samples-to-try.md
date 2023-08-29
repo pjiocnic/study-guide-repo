@@ -4,6 +4,7 @@
 
 - [1. Autoscaling,EC2](#1-autoscalingec2)
 - [2. Autoscaling,ECS](#2-autoscalingecs)
+- [5. Config](#5-config)
 - [3. EC2-Spot-Instances-Labs](#3-ec2-spot-instances-labs)
 - [4. Eventbridge,Orchestrator](#4-eventbridgeorchestrator)
 - [5. ECS,Spring](#5-ecsspring)
@@ -24,6 +25,12 @@
 # 2. Autoscaling,ECS
 
 1. [[**MUST TRY**] Autoscale ECS using cloudwatch metrics for SQS](https://containersonaws.com/pattern/background-worker-sqs-queue-container-copilot)
+
+# 5. Config
+
+1. [[AWS-SAMPLES] How to use AWS Config and CloudTrail to find who made changes to a resource by Mohamed Attalla, Man Man Chau, Eduardo Ortiz Pineda, and Dan Urbano](https://aws.amazon.com/blogs/mt/how-to-use-aws-config-and-cloudtrail-to-find-who-made-changes-to-a-resource/)
+
+<img src="./images/config-1.png" title="config-1.png" width="900"/>
 
 # 3. EC2-Spot-Instances-Labs
 
