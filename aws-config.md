@@ -2,10 +2,17 @@
 
 <!-- TOC -->
 
+- [CloudTrail](#cloudtrail)
 - [1. Workshops](#1-workshops)
 - [2. Videos](#2-videos)
 
 <!-- /TOC -->
+
+# CloudTrail
+
+1. [[AWS-SAMPLES] How to use AWS Config and CloudTrail to find who made changes to a resource by Mohamed Attalla, Man Man Chau, Eduardo Ortiz Pineda, and Dan Urbano](https://aws.amazon.com/blogs/mt/how-to-use-aws-config-and-cloudtrail-to-find-who-made-changes-to-a-resource/)
+
+![Alt text](images/config-1.png)
 
 # 1. Workshops
 

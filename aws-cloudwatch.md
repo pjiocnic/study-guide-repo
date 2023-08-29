@@ -63,3 +63,7 @@
 <img src="./images/enniop-architecture-diagram.jpg" title="enniop-architecture-diagram.jpg" width="900"/>
 
 2. [CloudWatch Lambda Subscription Filter (CDK-Demo) by Duleendra Shashimal](https://towardsaws.com/cloudwatch-lamba-subscription-filter-cdk-demo-f0eb571547c6)
+
+3. [[WORKSHOP] AWS CloudTrail Log Monitoring > Subscriptions Filter](https://catalog.us-east-1.prod.workshops.aws/workshops/2e48b9fc-f721-4417-b811-962b7f31b61c/en-US/subscriptionsfilter/creating-filter)
+
+
