@@ -35,6 +35,7 @@
   - [13.5. SNS](#135-sns)
   - [13.6. SQS](#136-sqs)
 - [14. Invocation Models](#14-invocation-models)
+- [Kinesis](#kinesis)
 - [15. Layers](#15-layers)
 - [16. Skillbuilder Courses](#16-skillbuilder-courses)
 - [17. Scaling and concurrency in Lambda](#17-scaling-and-concurrency-in-lambda)
@@ -245,6 +246,15 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 2. [[MY NEXT] Understanding the Different Ways to Invoke Lambda Functions by George Mao](https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions/)
 3. [Best Practices for Developing on AWS Lambda by George Mao](https://aws.amazon.com/blogs/architecture/best-practices-for-developing-on-aws-lambda/)
 4. [AWS Lambda Fundamentals - AWS Lambda invocation models](https://www.youtube.com/watch?v=8K3_w3QyN6M)
+
+# Kinesis
+
+1. [Building serverless applications with streaming data: Part 1 by James Beswick ](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-streaming-data-part-1/)
+2. [Building serverless applications with streaming data: Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-streaming-data-part-2/)
+3. [Building serverless applications with streaming data: Part 3 by James Beswick ](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-streaming-data-part-3/)
+4. [Building leaderboard functionality with serverless data analytics by James Beswick](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-streaming-data-part-4/)
+5. [Monitoring and troubleshooting serverless data analytics applications by James Beswick](https://aws.amazon.com/blogs/compute/monitoring-and-troubleshooting-serverless-data-analytics-applications/)
+6. [Alleycat - Building serverless applications with streaming data](https://github.com/aws-samples/serverless-streaming-data-application)
 
 # 15. Layers
 

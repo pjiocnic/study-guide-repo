@@ -7,6 +7,7 @@
 - [2. Architectures](#2-architectures)
 - [3. Core concepts](#3-core-concepts)
 - [4. Enhanced Fan-Out](#4-enhanced-fan-out)
+- [Lambda](#lambda)
 - [5. Using With RDS](#5-using-with-rds)
 - [6. Curate](#6-curate)
 - [7. Sharding](#7-sharding)
@@ -44,6 +45,15 @@
 # 4. Enhanced Fan-Out
 
 1. [Amazon Kinesis Enhanced Fan-Out](https://medium.com/avmconsulting-blog/amazon-kinesis-enhanced-fan-out-4e500411a414)
+
+# Lambda
+
+1. [Building serverless applications with streaming data: Part 1 by James Beswick ](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-streaming-data-part-1/)
+2. [Building serverless applications with streaming data: Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-streaming-data-part-2/)
+3. [Building serverless applications with streaming data: Part 3 by James Beswick ](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-streaming-data-part-3/)
+4. [Building leaderboard functionality with serverless data analytics by James Beswick](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-streaming-data-part-4/)
+5. [Monitoring and troubleshooting serverless data analytics applications by James Beswick](https://aws.amazon.com/blogs/compute/monitoring-and-troubleshooting-serverless-data-analytics-applications/)
+6. [Alleycat - Building serverless applications with streaming data](https://github.com/aws-samples/serverless-streaming-data-application)
 
 # 5. Using With RDS
 

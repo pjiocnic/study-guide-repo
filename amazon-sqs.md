@@ -9,8 +9,9 @@
 - [5. Scaling](#5-scaling)
 - [6. DLQs](#6-dlqs)
 - [7. Temporary Queues](#7-temporary-queues)
-- [8. ABAC](#8-abac)
-- [9. Redrive](#9-redrive)
+- [8. Throttling](#8-throttling)
+- [9. ABAC](#9-abac)
+- [10. Redrive](#10-redrive)
 
 <!-- /TOC -->
 
@@ -52,12 +53,16 @@
 
 1. [Simple Two-way Messaging using the Amazon SQS Temporary Queue Client by Rachel Richardson](https://aws.amazon.com/blogs/compute/simple-two-way-messaging-using-the-amazon-sqs-temporary-queue-client/)
 
-# 8. ABAC
+# 8. Throttling
+
+1. [How To: Use SNS and SQS to Distribute and Throttle Events](https://www.jeremydaly.com/how-to-use-sns-and-sqs-to-distribute-and-throttle-events/)
+
+# 9. ABAC
 
 1. [Introducing attribute-based access controls (ABAC) for Amazon SQS by Vikas Panghal and Hardik Vasa ](https://aws.amazon.com/blogs/compute/introducing-attribute-based-access-controls-abac-for-amazon-sqs/)
 - Update /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/prepare-notes/best practices - sqs.md
 
-# 9. Redrive
+# 10. Redrive
 
 1. [Introducing Amazon Simple Queue Service dead-letter queue redrive to source queues by Mark Richman,](https://aws.amazon.com/blogs/compute/introducing-amazon-simple-queue-service-dead-letter-queue-redrive-to-source-queues/)
 2. [SQS Redrive Policy](https://awslabs.github.io/serverless-rules/rules/sqs/redrive_policy/)
