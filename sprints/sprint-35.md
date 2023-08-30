@@ -21,6 +21,21 @@
 1. Complete Notes on DLQ handling
 1. Complete notes on how to write Jitter/exponential backoff code
 1. [You need this FREE IAM Management Tool By Be A Better Dev](https://www.youtube.com/watch?v=ryEseI_-12o)
+1. Complete notes on AWS Config Workshop/Config Rule With Lambda
+1. Complete notes on AWS Config Workshop/Config Rule With remediation
+1. For AWS Config Workshop/Config Rule With Lambda, Update diagram for ConfigSSmLab.yml - cloudwatch triggering lambda
+1. HA Web Workshop (https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US)
+1. Different types of account workshop (https://workshop-aws-account-setup.fstehle.com/)
+
+# Work in Progress
+
+1. [Resource Details And Cloudwatch](https://mng.workshop.aws/config/resource-details-and-cloudwatch.html)
+
+# What Next?
+1. CloudTrail workshop
+1. Complete AWS Service Catalog Workshop
+1. AWS Control Tower workshop
+1. Prep for certification
 
 # 2. Cull
 1. https://serverlessland.com/search?search=sqs+to+lambda
