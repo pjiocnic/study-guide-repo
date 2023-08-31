@@ -57,6 +57,8 @@ Check out tutorials listed in [lambda-tutorials.md](../my-tracks/lambda-tutorial
 
 <img src="./images/config-1.png" title="config-1.png" width="900"/>
 
+[see aws-config-and-cloudtrail.yaml](../templates/config/aws-config-and-cloudtrail.yaml)
+
 # 6. Lambda
 
 1. [Lambda resource access permissions](https://docs.aws.amazon.com/en_us/lambda/latest/dg/lambda-permissions.html)

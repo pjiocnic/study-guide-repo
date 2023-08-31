@@ -14,6 +14,8 @@
 
 <img src="./images/config-1.png" title="config-1.png" width="900"/>
 
+[see aws-config-and-cloudtrail.yaml](./templates/config/aws-config-and-cloudtrail.yaml)
+
 # 2. Workshops
 
 1. [AWS Management and Governance Tools Workshop > AWS Config](https://mng.workshop.aws/config.html)

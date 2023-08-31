@@ -35,6 +35,8 @@
 
 <img src="./images/config-1.png" title="config-1.png" width="900"/>
 
+[see aws-config-and-cloudtrail.yaml](../templates/config/aws-config-and-cloudtrail.yaml)
+
 # 4. EC2-Spot-Instances-Labs
 
 1. [ec2-spot-labs](https://github.com/awslabs/ec2-spot-labs)

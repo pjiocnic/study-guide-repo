@@ -1,7 +1,9 @@
+# src: https://github.com/aws-samples/amazon-rds-crossaccount-access/tree/main
+
 #Copyright 2022 Amazon.com and its affiliates; all rights reserved. This file is AWS Content and may not be duplicated or distributed without permission.
 # https://aws.amazon.com/agreement
 # SPDX-License-Identifier: MIT-0
-# src: https://github.com/aws-samples/amazon-rds-crossaccount-access/tree/main
+
 
 AWSTemplateFormatVersion: '2010-09-09'
 Description: 'This CloudFormation Template (CFT) will create all the required AWS components to establish database connectivity across AWS Accounts or VPCs,
