@@ -1,10 +1,12 @@
+# src: https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/
+
 AWSTemplateFormatVersion: '2010-09-09'
 Description: "AWS Organizations using Cloudformation - Creates OU, nested OU, account and organizations policies"
 
 Parameters:
   OrganizationRoot:
     Description: 'Organization ID'
-    Type: String 
+    Type: String
 
 Resources:
   InfrastructureOU:
@@ -20,7 +22,7 @@ Resources:
           ParentId: !Ref OrganizationRoot
 
   ProductionOU:
-      Type: AWS::Organizations::OrganizationalUnit 
+      Type: AWS::Organizations::OrganizationalUnit
       Properties:
           Name: Production
           ParentId: { "Ref" : "InfrastructureOU" }
@@ -31,7 +33,7 @@ Resources:
       Properties:
           AccountName: AccountA
           Email: johndoe@example.com
-          ParentIds: [{"Ref": "ProductionOU"}]            
+          ParentIds: [{"Ref": "ProductionOU"}]
 
   PreventLeavingOrganizationSCP:
       Type: AWS::Organizations::Policy
@@ -73,8 +75,8 @@ Resources:
                   "Action": [
                     "cloudtrail:DeleteTrail",
                     "cloudtrail:PutEventSelectors",
-                    "cloudtrail:StopLogging", 
-                    "cloudtrail:UpdateTrail" 
+                    "cloudtrail:StopLogging",
+                    "cloudtrail:UpdateTrail"
 
                   ],
                   "Resource": "*"

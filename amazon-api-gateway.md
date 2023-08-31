@@ -46,7 +46,7 @@
 
 1. [Creating Usage Plans in console](https://aws.amazon.com/blogs/aws/new-usage-plans-for-amazon-api-gateway/)
 2. [Visualizing Amazon API Gateway usage plans using Amazon QuickSight by Roberto Iturralde](https://aws.amazon.com/blogs/compute/visualizing-amazon-api-gateway-usage-plans-using-amazon-quicksight/)
-- [./templates/api-gateway-access-logs-visualization-core.templateapi-gateway-access-logs-visualization-core.template](api-gateway-access-logs-visualization-core.template)
+- [./templates/api-gateway-access-logs-visualization-core.yaml](api-gateway-access-logs-visualization-core.template)
 
 # 8. Use Cases
 

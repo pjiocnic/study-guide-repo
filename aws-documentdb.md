@@ -186,7 +186,7 @@
 ## 24.2. MSK Integration using Change Streams
 
 1. [Capture changes from Amazon DocumentDB via AWS Lambda and publish them to Amazon MSK by Murat Balkan](https://aws.amazon.com/blogs/database/capture-changes-from-amazon-documentdb-via-aws-lambda-and-publish-them-to-amazon-msk/)
-- [amazon-documentdb-streams-msk.yaml](./templates/amazon-documentdb-streams-msk.yaml)
+- [amazon-documentdb-streams-msk.yaml](./templates/documentdb/amazon-documentdb-streams-msk.yaml)
 2. [Building Dynamic Data Pipes Using AWS DocumentDB, MSK and Lambda](https://medium.com/cisco-fpie/taming-of-the-queue-f320f855a09)
 
 ## 24.3. S3

@@ -1,6 +1,8 @@
+# src: https://aws.amazon.com/blogs/big-data/extracting-and-joining-data-from-multiple-data-sources-with-athena-federated-query/
+
 AWSTemplateFormatVersion: 2010-09-09
 Transform: 'AWS::Serverless-2016-10-31'
-Description: Athena Federation Workshop - Deploy EMR Cluster with Hbase, Elasticache RedisDB, Aurora Mysql, DynamoDB, Cloud9 IDE, Sagemaker Notebook instance, Glue Database, Athena Named Queries 
+Description: Athena Federation Workshop - Deploy EMR Cluster with Hbase, Elasticache RedisDB, Aurora Mysql, DynamoDB, Cloud9 IDE, Sagemaker Notebook instance, Glue Database, Athena Named Queries
 
 Mappings:
   Map:
@@ -8,7 +10,7 @@ Mappings:
       DatabaseName: 'sales'
       DatabaseInstanceType: 'db.r5.large'
       DatabasePassword: 'S3cretPwd99'
-      DatabaseUsername: 'master'     
+      DatabaseUsername: 'master'
     Cloud9Map:
       EC2InstanceType: 't2.micro'
       AutoHibernateTimeout: '30'
@@ -33,17 +35,17 @@ Resources:
 
   V2EngineWorkGroup:
     Type: AWS::Athena::WorkGroup
-    Properties:       
+    Properties:
       Name: V2EngineWorkGroup
       RecursiveDeleteOption: true
       WorkGroupConfiguration:
         EnforceWorkGroupConfiguration: true
         EngineVersion:
-         SelectedEngineVersion: Athena engine version 2				
+         SelectedEngineVersion: Athena engine version 2
         PublishCloudWatchMetricsEnabled: true
         ResultConfiguration:
           OutputLocation: !Join [ "", ["s3://" , Ref: S3Bucket, "/"]]
-  
+
   TextAnalyticsUDFHandlerApplication:
     Type: AWS::Serverless::Application
     Properties:
@@ -58,33 +60,33 @@ Resources:
       Description: "Step 1 - create amazon reviews table"
       Name: "Create Amazon Reviews Table"
       QueryString: |
-                    CREATE EXTERNAL TABLE if not exists default.amazon_reviews_parquet(  
-                      `marketplace` string, 
-                      `customer_id` string, 
-                      `review_id` string, 
-                      `product_id` string, 
-                      `product_parent` string, 
-                      `product_title` string, 
-                      `star_rating` int, 
-                      `helpful_votes` int, 
-                      `total_votes` int, 
-                      `vine` string, 
-                      `verified_purchase` string, 
-                      `review_headline` string, 
-                      `review_body` string, 
-                      `review_date` bigint, 
+                    CREATE EXTERNAL TABLE if not exists default.amazon_reviews_parquet(
+                      `marketplace` string,
+                      `customer_id` string,
+                      `review_id` string,
+                      `product_id` string,
+                      `product_parent` string,
+                      `product_title` string,
+                      `star_rating` int,
+                      `helpful_votes` int,
+                      `total_votes` int,
+                      `vine` string,
+                      `verified_purchase` string,
+                      `review_headline` string,
+                      `review_body` string,
+                      `review_date` bigint,
                       `year` int)
-                    PARTITIONED BY ( 
+                    PARTITIONED BY (
                       `product_category` string)
-                    ROW FORMAT SERDE 
-                      'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe' 
-                    STORED AS INPUTFORMAT 
-                      'org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat' 
-                    OUTPUTFORMAT 
+                    ROW FORMAT SERDE
+                      'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe'
+                    STORED AS INPUTFORMAT
+                      'org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat'
+                    OUTPUTFORMAT
                       'org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat'
                     LOCATION
-                      's3://amazon-reviews-pds/parquet'; 
-                       
+                      's3://amazon-reviews-pds/parquet';
+
                     msck repair table default.amazon_reviews_parquet;
       WorkGroup: !Join [ "", [Ref: V2EngineWorkGroup, ""]]
 
@@ -95,7 +97,7 @@ Resources:
       Description: "Step 2 - create table to Detect Language"
       Name: "Create TBL for Language Detection"
       QueryString: |
-                    CREATE TABLE default.amazon_reviews_with_language 
+                    CREATE TABLE default.amazon_reviews_with_language
                     WITH (format='parquet') AS
                     USING EXTERNAL FUNCTION detect_dominant_language(col1 VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf'
                     SELECT *, detect_dominant_language(review_body) AS language
@@ -111,7 +113,7 @@ Resources:
       Description: "Step 3 - create table to Detect Sentiments"
       Name: "Create TBL for Sentiment Detection"
       QueryString: |
-                    CREATE TABLE default.amazon_reviews_with_text_analysis 
+                    CREATE TABLE default.amazon_reviews_with_text_analysis
                     WITH (format='parquet') AS
                     USING
                     	EXTERNAL FUNCTION detect_sentiment_all(col1 VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf',
@@ -131,8 +133,8 @@ Resources:
       Name: "Create TBL for Sentiment Preparation"
       QueryString: |
                     CREATE TABLE default.sentiment_results_final WITH (format='parquet') AS
-                    SELECT 
-                    	review_date, year, product_title, star_rating, language, 
+                    SELECT
+                    	review_date, year, product_title, star_rating, language,
                     	CAST(JSON_EXTRACT(sentiment,'$.sentiment') AS VARCHAR) AS sentiment,
                     	CAST(JSON_EXTRACT(sentiment,'$.sentimentScore.positive') AS DOUBLE ) AS positive_score,
                     	CAST(JSON_EXTRACT(sentiment,'$.sentimentScore.negative') AS DOUBLE ) AS negative_score,
@@ -150,8 +152,8 @@ Resources:
       Name: "Create TBL for Entity Preparation"
       QueryString: |
                     CREATE TABLE default.entities_results_final WITH (format='parquet') AS
-                    SELECT 
-                    	review_date, year, product_title, star_rating, language, 
+                    SELECT
+                    	review_date, year, product_title, star_rating, language,
                     	CAST(JSON_EXTRACT(entity_element, '$.text') AS VARCHAR ) AS entity,
                     	CAST(JSON_EXTRACT(entity_element, '$.type') AS VARCHAR ) AS category,
                     	CAST(JSON_EXTRACT(entity_element, '$.score') AS DOUBLE ) AS score,
@@ -160,7 +162,7 @@ Resources:
                     	review_headline, review_body
                     FROM
                     (
-                    	SELECT * 
+                    	SELECT *
                     	FROM
                     		(
                     		SELECT *,
@@ -179,11 +181,11 @@ Resources:
       Name: "Sources"
       QueryString: |
                     select * from "lambda:hbase".default.lineitem limit 10;
-                     					
+
                     select * from "lambda:mysql".sales.supplier limit 10;
-                     					
+
                     select * from "lambda:dynamo".default.part limit 10;
-                     					
+
                     select * from "lambda:redis".redis.active_orders limit 5;
       WorkGroup: !Join [ "", [Ref: V2EngineWorkGroup, ""]]
 
@@ -230,9 +232,9 @@ Resources:
                              transaction.id
                              FROM "lambda:example".schema1.table1
                     WHERE year=2017 AND month=11;
-                             
+
                     show tables in `lambda:example`.schema1;
-                      
+
                     describe `lambda:example`.schema1.table1;
       WorkGroup: !Join [ "", [Ref: V2EngineWorkGroup, ""]]
 
@@ -272,7 +274,7 @@ Resources:
                                                 avg(cast("line:l_extendedprice" AS double)) AS avg_price,
                                                 avg(cast("line:l_discount" AS double)) AS avg_disc,
                                                 count(*) AS count_order
-                                                FROM "lambda:hbase".default.lineitem 
+                                                FROM "lambda:hbase".default.lineitem
                                                 GROUP BY  "line:l_returnflag", "line:l_linestats"
                                                 ORDER BY  "line:l_returnflag", "line:l_linestats";
       WorkGroup: !Join [ "", [Ref: V2EngineWorkGroup, ""]]
@@ -310,7 +312,7 @@ Resources:
                     SELECT nation,
                                                 o_year,
                                                 sum(amount) AS sum_profit
-                         FROM 
+                         FROM
                              (SELECT n_name AS nation,
                                  year(cast(o_orderdate AS date)) AS o_year,
                                  "line:l_extendedprice" * (1 - "line:l_discount") - cast(ps_supplycost AS double) * "line:l_quantity" AS amount
@@ -333,7 +335,7 @@ Resources:
       Description: " "
       Name: "DetectAnamolyInOrdersData"
       QueryString: |
-                    USING EXTERNAL FUNCTION detect_anomaly(b INT) RETURNS DOUBLE 
+                    USING EXTERNAL FUNCTION detect_anomaly(b INT) RETURNS DOUBLE
                                  SAGEMAKER
                                  'PLEASE ENTER YOUR SAGEMAKER ENDPOINT NAME HERE'
                                  SELECT o_orderdate,
@@ -379,8 +381,8 @@ Resources:
       ProvisionedThroughput:
         ReadCapacityUnits: '50'
         WriteCapacityUnits: '200'
-      TableName: part      
-  
+      TableName: part
+
   DDBPartSuppTable:
     Type: AWS::DynamoDB::Table
     Properties:
@@ -397,7 +399,7 @@ Resources:
       ProvisionedThroughput:
         ReadCapacityUnits: '50'
         WriteCapacityUnits: '200'
-      TableName: partsupp    
+      TableName: partsupp
 
   DatabaseSubnetGroup:
     Type: AWS::RDS::DBSubnetGroup
@@ -406,7 +408,7 @@ Resources:
       SubnetIds:
         - !GetAtt VPCStack.Outputs.PublicSubnet1Id
         - !GetAtt VPCStack.Outputs.PublicSubnet2Id
-        - !GetAtt VPCStack.Outputs.PublicSubnet3Id                  
+        - !GetAtt VPCStack.Outputs.PublicSubnet3Id
 
   CacheSubnetGroup:
     Type: AWS::ElastiCache::SubnetGroup
@@ -415,7 +417,7 @@ Resources:
       SubnetIds:
         - !GetAtt VPCStack.Outputs.PublicSubnet1Id
         - !GetAtt VPCStack.Outputs.PublicSubnet2Id
-        - !GetAtt VPCStack.Outputs.PublicSubnet3Id  
+        - !GetAtt VPCStack.Outputs.PublicSubnet3Id
 
   IDE:
     Type: AWS::Cloud9::EnvironmentEC2
@@ -440,13 +442,13 @@ Resources:
       NumCacheNodes: '1'
       CacheSubnetGroupName: !Ref CacheSubnetGroup
       VpcSecurityGroupIds:
-        - !GetAtt VPCStack.Outputs.WorkshopSecurityGroup  
+        - !GetAtt VPCStack.Outputs.WorkshopSecurityGroup
 
   GlueDatabaseRedis:
     Type: AWS::Glue::Database
     Properties:
       # The database is created in the Data Catalog for your account
-      CatalogId: !Ref AWS::AccountId   
+      CatalogId: !Ref AWS::AccountId
       DatabaseInput:
         # The name of the database is defined in the Parameters section above
         Name: redis
@@ -464,22 +466,22 @@ Resources:
         Description: Define the first few columns of the flights table
         TableType: EXTERNAL_TABLE
         Parameters: {
-          "redis-db-flag": "redis-db-flag", 
-          "redis-endpoint": !Join [ '', [!GetAtt ElasticacheCluster.RedisEndpoint.Address, ':', !GetAtt ElasticacheCluster.RedisEndpoint.Port]] , 
-          "redis-key-prefix": "order-*", 
-          "redis-value-type": "literal" 
-        } 
+          "redis-db-flag": "redis-db-flag",
+          "redis-endpoint": !Join [ '', [!GetAtt ElasticacheCluster.RedisEndpoint.Address, ':', !GetAtt ElasticacheCluster.RedisEndpoint.Port]] ,
+          "redis-key-prefix": "order-*",
+          "redis-value-type": "literal"
+        }
         PartitionKeys:
           - {Name: orderkey, Type: string}
         StorageDescriptor:
           Columns:
             - Type: int
               Name: orderkey
-          Location: s3://fake-bucket/ 
-    
+          Location: s3://fake-bucket/
+
   GlueTableNation:
     Type: AWS::Glue::Table
-    DependsOn: 
+    DependsOn:
       - ElasticacheCluster
       - EMRClusterDataIngestion
     Properties:
@@ -490,18 +492,18 @@ Resources:
         Description: Define the first few columns of the flights table
         TableType: EXTERNAL_TABLE
         Parameters: {
-          "redis-db-flag": "redis-db-flag", 
-          "redis-endpoint": !Join [ '', [!GetAtt ElasticacheCluster.RedisEndpoint.Address, ':', !GetAtt ElasticacheCluster.RedisEndpoint.Port]] , 
-          "redis-key-prefix": "nation-*", 
-          "redis-value-type": "literal" 
-          } 
+          "redis-db-flag": "redis-db-flag",
+          "redis-endpoint": !Join [ '', [!GetAtt ElasticacheCluster.RedisEndpoint.Address, ':', !GetAtt ElasticacheCluster.RedisEndpoint.Port]] ,
+          "redis-key-prefix": "nation-*",
+          "redis-value-type": "literal"
+          }
         PartitionKeys:
-          - {Name: n_name, Type: string} 
+          - {Name: n_name, Type: string}
         StorageDescriptor:
           Columns:
             - Type: string
               Name: n_name
-          Location: s3://fake-bucket/                
+          Location: s3://fake-bucket/
 
   AuroraDBParameterGroup:
     Type: AWS::RDS::DBParameterGroup
@@ -549,7 +551,7 @@ Resources:
       DBInstanceIdentifier: !FindInMap [Map, DatabaseMap, DatabaseName]
       Tags:
         - Key: 'Name'
-          Value: !Ref AWS::StackName  
+          Value: !Ref AWS::StackName
 
   EMRCluster:
     DependsOn:
@@ -563,7 +565,7 @@ Resources:
         - Name: Hbase
         - Name: Livy
         - Name: Hive
-        - Name: Tez      
+        - Name: Tez
       Instances:
         Ec2SubnetIds:
           - !GetAtt VPCStack.Outputs.PublicSubnet1Id
@@ -589,7 +591,7 @@ Resources:
               WeightedCapacity: 4
             - BidPriceAsPercentageOfOnDemandPrice: 100
               InstanceType: r5.xlarge
-              WeightedCapacity: 4              
+              WeightedCapacity: 4
           TargetOnDemandCapacity: 2
           TargetSpotCapacity: 2
         TerminationProtected: false
@@ -651,7 +653,7 @@ Resources:
     Metadata:
       'AWS::CloudFormation::Designer':
         id: 6b57c761-da69-4eed-a697-1c8f86db53bd
-        
+
   EMRClusterDataIngestion:
     Type: AWS::EMR::Step
     DependsOn:
@@ -679,7 +681,7 @@ Resources:
       SubnetId: !GetAtt VPCStack.Outputs.PublicSubnet1Id
       NotebookInstanceName: workshop-notebook
       InstanceType: ml.t2.medium
-      RoleArn: !GetAtt 
+      RoleArn: !GetAtt
         - SagemakerRoleWS
         - Arn
       SecurityGroupIds:
@@ -719,22 +721,22 @@ Outputs:
   HbaseConnectionString:
     Description: Hbase Instance address for Athena Connector
     Value: !Join [ '', [!GetAtt EMRCluster.MasterPublicDNS , ':16010:2181']]
-    
+
   RDSInstanceAddress:
     Description: RDS Instance endpoint
     Value: !Join [ ':', [!GetAtt AuroraCluster.Endpoint.Address , !GetAtt AuroraCluster.Endpoint.Port]]
 
   RDSConnectionString:
     Description: RDS Instance endpoint
-    Value: !Join [ '', ['mysql://jdbc:mysql://',!GetAtt AuroraCluster.Endpoint.Address , ':', !GetAtt AuroraCluster.Endpoint.Port, '/', !FindInMap [Map, DatabaseMap, DatabaseName], '?user=', !FindInMap [Map, DatabaseMap, DatabaseUsername], '&password=', !FindInMap [Map, DatabaseMap, DatabasePassword] ]]    
+    Value: !Join [ '', ['mysql://jdbc:mysql://',!GetAtt AuroraCluster.Endpoint.Address , ':', !GetAtt AuroraCluster.Endpoint.Port, '/', !FindInMap [Map, DatabaseMap, DatabaseName], '?user=', !FindInMap [Map, DatabaseMap, DatabaseUsername], '&password=', !FindInMap [Map, DatabaseMap, DatabasePassword] ]]
 
   ElastiCacheAddress:
     Description: ElastiCache endpoint address
-    Value: !GetAtt ElasticacheCluster.RedisEndpoint.Address    
+    Value: !GetAtt ElasticacheCluster.RedisEndpoint.Address
 
   ElastiCachePort:
     Description: ElastiCache port
-    Value: 6379 
+    Value: 6379
 
   S3Bucket:
     Description: S3 bucket
@@ -742,7 +744,7 @@ Outputs:
 
   Subnets:
     Description: Subnets for workshop
-    Value: !Join [',', [!GetAtt VPCStack.Outputs.PublicSubnet1Id,!GetAtt VPCStack.Outputs.PublicSubnet2Id,!GetAtt VPCStack.Outputs.PublicSubnet3Id]]  
+    Value: !Join [',', [!GetAtt VPCStack.Outputs.PublicSubnet1Id,!GetAtt VPCStack.Outputs.PublicSubnet2Id,!GetAtt VPCStack.Outputs.PublicSubnet3Id]]
 
   WorkshopSecurityGroup:
     Description: 'Security Group'
@@ -750,6 +752,6 @@ Outputs:
 
   EMRSecurityGroup:
     Description: 'Security Group'
-    Value: !GetAtt VPCStack.Outputs.EMRSecurityGroup 
+    Value: !GetAtt VPCStack.Outputs.EMRSecurityGroup
 
 

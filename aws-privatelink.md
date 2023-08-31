@@ -90,7 +90,7 @@
 
 <img src="./images/rsz_privatelink-blog-diagram.jpg" title="rsz_privatelink-blog-diagram.jpg" width="900"/>
 
-[cfn-privatelink.yaml](./templates/cfn-privatelink.yaml)
+[cfn-privatelink.yaml](./templates/privatelink/cfn-privatelink.yaml)
 
 
 # 13. Whitepaper
