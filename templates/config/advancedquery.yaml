@@ -1,0 +1,187 @@
+# src: https://mng.workshop.aws/config/advanced/advancedquery.html
+
+---
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Sets up resources for the Avanced Query lab
+Parameters:
+  AmznLinux2LatestAmiId:
+    Type: AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
+    Default: /aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2
+Resources:
+  RedVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.200.0.0/16
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      InstanceTenancy: default
+      Tags:
+        - Key: Name
+          Value: Red team
+
+  RedInternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+        - Key: Name
+          Value: Red team
+
+  RedVPCGatewayAttachment:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId: !Ref RedVPC
+      InternetGatewayId: !Ref RedInternetGateway
+
+  RedPublic1A:
+    Type: AWS::EC2::Subnet
+    Properties:
+      AvailabilityZone: !Sub "${AWS::Region}a"
+      VpcId: !Ref RedVPC
+      CidrBlock: 10.200.0.0/24
+      MapPublicIpOnLaunch: false
+      Tags:
+        - Key: Name
+          Value: Red team public1a
+
+  RedPrivate1A:
+    Type: AWS::EC2::Subnet
+    Properties:
+      AvailabilityZone: !Sub "${AWS::Region}a"
+      VpcId: !Ref RedVPC
+      CidrBlock: 10.200.10.0/24
+      MapPublicIpOnLaunch: false
+      Tags:
+        - Key: Name
+          Value: Red team private1a
+
+  RedPublicRouteTable1A:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref RedVPC
+      Tags:
+        - Key: Name
+          Value: Red team route table
+
+  RedPrivateRouteTable1A:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref RedVPC
+      Tags:
+        - Key: Name
+          Value: Red team route table
+
+  RedEIP1A:
+    Type: AWS::EC2::EIP
+    Properties:
+      Domain: vpc
+
+  RedNAT1A:
+    DependsOn: RedVPCGatewayAttachment
+    Type: AWS::EC2::NatGateway
+    Properties:
+      AllocationId:
+        Fn::GetAtt:
+          - RedEIP1A
+          - AllocationId
+      SubnetId:
+        Ref: RedPublic1A
+      Tags:
+        - Key: Name
+          Value: Red team NAT Gateway
+
+  RedInternetRoute:
+    Type: AWS::EC2::Route
+    DependsOn: RedVPCGatewayAttachment
+    Properties:
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref RedInternetGateway
+      RouteTableId: !Ref RedPublicRouteTable1A
+
+  RedNATRoute1A:
+    Type: AWS::EC2::Route
+    DependsOn: RedVPCGatewayAttachment
+    Properties:
+      DestinationCidrBlock: 0.0.0.0/0
+      NatGatewayId: !Ref RedNAT1A
+      RouteTableId: !Ref RedPrivateRouteTable1A
+
+  RedPublic1ARouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref RedPublicRouteTable1A
+      SubnetId: !Ref RedPublic1A
+
+  Private1ARouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref RedPrivateRouteTable1A
+      SubnetId: !Ref RedPrivate1A
+
+  RedSG:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: Red servers
+      GroupDescription: Red servers
+      VpcId: !Ref RedVPC
+      SecurityGroupEgress:
+        - IpProtocol: '-1'
+          CidrIp: 0.0.0.0/0
+      Tags:
+        - Key: Name
+          Value: Red servers
+
+  RedServerRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - ec2.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      Path: "/"
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
+      Policies:
+        - PolicyName: root
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - elasticloadbalancing:DescribeLoadBalancers
+                Resource: '*'
+
+  RedServerInstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      InstanceProfileName: RedServerInstanceProfile
+      Roles:
+        - !Ref RedServerRole
+
+  RedServer:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      ImageId: !Ref AmznLinux2LatestAmiId
+      InstanceType: t3.small
+      IamInstanceProfile: !Ref RedServerInstanceProfile
+      NetworkInterfaces:
+        - AssociatePublicIpAddress: true
+          DeviceIndex: "0"
+          GroupSet:
+            - Ref: RedSG
+          SubnetId:
+            Ref: RedPublic1A
+      Tags:
+        - Key: Name
+          Value: Red server
+
+  UnusedEBSVolume:
+    Type: AWS::EC2::Volume
+    Properties:
+      Size: 10
+      VolumeType: gp3
+      AvailabilityZone: !GetAtt RedServer.AvailabilityZone

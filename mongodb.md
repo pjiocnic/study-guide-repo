@@ -27,6 +27,8 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 - [21. Docker](#21-docker)
 - [22. Schema Validation](#22-schema-validation)
 - [23. Staging](#23-staging)
+- [24. MongoDB Shows](#24-mongodb-shows)
+  - [24.1.[Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore](#241migrating-stored-procedures-to-mongodbhttpswwwyoutubecomwatchvbog0aighg0a-by-vittal-pai-blore)
 
 <!-- /TOC -->
 
@@ -181,5 +183,13 @@ https://github.com/PacktPublishing/MongoDB---The-Complete-Developer-s-Guide/tree
 # 23. Staging
 
 1. [Relational to NoSQL at Enterprise Scale: Lessons from Amazon By Rick Houlihan](https://www.mongodb.com/blog/post/relational-nosql-enterprise-scale-lessons-amazon)
+
+# 24. MongoDB Shows
+
+## 24.1.[Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore
+
+1. [Technical Guide: Migrating Stored Procedures to MongoDB](https://www.mongodb.com/collateral/technical-guide-migrating-stored-procedures-to-mongodb)
+1. https://github.com/vittalpai/Stored-Procedure-Migration
+1. https://landing.mdb.link/migrating-stored-procedures-mongodb
 
 
