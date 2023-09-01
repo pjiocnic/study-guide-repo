@@ -17,6 +17,7 @@
 
 1. [Operating Lambda: Using CloudWatch Logs Insights by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-using-cloudwatch-logs-insights/)
 1. [Operating Lambda: Logging and custom metrics by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-logging-and-custom-metrics/)
+1. [Operating Lambda: Isolating and resolving issues by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-isolating-and-resolving-issues/)
 
 # 2. Issue management
 

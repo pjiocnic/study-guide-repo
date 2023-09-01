@@ -30,6 +30,7 @@
 1. [The Serverless Guide to AWS CloudWatch Logs Insights](https://baselime.io/blog/cloudwatch-insights-guide)
 1. [Operating Lambda: Using CloudWatch Logs Insights by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-using-cloudwatch-logs-insights/)
 1. [Operating Lambda: Logging and custom metrics by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-logging-and-custom-metrics/)
+1. [New – Amazon CloudWatch Logs Insights – Fast, Interactive Log Analytics   by Jeff Barr](https://aws.amazon.com/blogs/aws/new-amazon-cloudwatch-logs-insights-fast-interactive-log-analytics/)
 
 # 4. Custom Metrics
 
@@ -40,7 +41,7 @@
 1. [The CloudWatch Dashboard using CDK](https://github.com/cdk-patterns/serverless/blob/main/the-cloudwatch-dashboard/)
 2. [Deploying an automated Amazon CloudWatch dashboard for AWS Outposts using AWS CDK by Sheila Busser ](https://aws.amazon.com/blogs/compute/deploying-an-automated-amazon-cloudwatch-dashboard-for-aws-outposts-using-aws-cdk/)
 3. [AWS Dashboards with AWS CDK in TypeScript](https://levelup.gitconnected.com/aws-dashboards-with-aws-cdk-in-typescript-12d97bf0958)
-4. [Building Amazon CloudWatch dashboards with AWS CDK By FooBar](https://www.youtube.com/watch?v=0VNKHIcQ5wk)
+4. [[MY-NEXT] Building Amazon CloudWatch dashboards with AWS CDK By FooBar](https://www.youtube.com/watch?v=0VNKHIcQ5wk)
 - https://github.com/mavi888/cdk-migrated-app-infra
 3. [[cdk-patterns/serverless] The CloudWatch Dashboard](https://github.com/cdk-patterns/serverless/blob/main/the-cloudwatch-dashboard/README.md)
 

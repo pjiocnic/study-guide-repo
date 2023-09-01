@@ -26,9 +26,12 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 - [20. Courses](#20-courses)
 - [21. Docker](#21-docker)
 - [22. Schema Validation](#22-schema-validation)
+  - [22.1. Validation using Java](#221-validation-using-java)
+  - [22.2. Schema validation for polymorphic schemas](#222-schema-validation-for-polymorphic-schemas)
+  - [22.3. Curate](#223-curate)
 - [23. Staging](#23-staging)
 - [24. MongoDB Shows](#24-mongodb-shows)
-  - [24.1.[Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore](#241migrating-stored-procedures-to-mongodbhttpswwwyoutubecomwatchvbog0aighg0a-by-vittal-pai-blore)
+  - [24.1. [Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore](#241-migrating-stored-procedures-to-mongodbhttpswwwyoutubecomwatchvbog0aighg0a-by-vittal-pai-blore)
 
 <!-- /TOC -->
 
@@ -164,21 +167,26 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 
 # 22. Schema Validation
 
-https://www.percona.com/blog/mongodb-how-to-use-json-schema-validator/
-https://hackolade.com/help/Addachoiceconditionalorpatternfi.html
-/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/mongodb/mongodb-staging.md
-https://json-schema.org/understanding-json-schema/reference/conditionals.html
-https://www.mongodb.com/docs/manual/core/schema-validation/
+## 22.1. Validation using Java
 
-https://www.baeldung.com/introduction-to-json-schema-in-java
-
-https://github.com/everit-org/json-schema
-https://json-schema.org/implementations.html
-https://github.com/victools/jsonschema-generator
-
+1. [Introduction to JSON Schema in Java](https://www.baeldung.com/introduction-to-json-schema-in-java)
 1. [JSON schema validation in Postman using external JSON files](https://medium.com/skillhive/json-schema-validation-in-postman-using-external-json-files-2f3f0741800f)
 
-https://github.com/PacktPublishing/MongoDB---The-Complete-Developer-s-Guide/tree/master
+## 22.2. Schema validation for polymorphic schemas
+
+2. [Document Validation for Polymorphic Collections By Andrew Morgan](https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/)
+
+## 22.3. Curate
+
+1. https://www.percona.com/blog/mongodb-how-to-use-json-schema-validator/
+1. https://hackolade.com/help/Addachoiceconditionalorpatternfi.html
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/mongodb/mongodb-staging.md
+1. https://json-schema.org/understanding-json-schema/reference/conditionals.html
+1. https://www.mongodb.com/docs/manual/core/schema-validation/
+1. https://github.com/everit-org/json-schema
+1. https://json-schema.org/implementations.html
+1. https://github.com/victools/jsonschema-generator
+1. https://github.com/PacktPublishing/MongoDB---The-Complete-Developer-s-Guide/tree/master
 
 # 23. Staging
 
@@ -186,7 +194,7 @@ https://github.com/PacktPublishing/MongoDB---The-Complete-Developer-s-Guide/tree
 
 # 24. MongoDB Shows
 
-## 24.1.[Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore
+## 24.1. [Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore
 
 1. [Technical Guide: Migrating Stored Procedures to MongoDB](https://www.mongodb.com/collateral/technical-guide-migrating-stored-procedures-to-mongodb)
 1. https://github.com/vittalpai/Stored-Procedure-Migration
