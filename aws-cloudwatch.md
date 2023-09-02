@@ -41,7 +41,7 @@
 1. [The CloudWatch Dashboard using CDK](https://github.com/cdk-patterns/serverless/blob/main/the-cloudwatch-dashboard/)
 2. [Deploying an automated Amazon CloudWatch dashboard for AWS Outposts using AWS CDK by Sheila Busser ](https://aws.amazon.com/blogs/compute/deploying-an-automated-amazon-cloudwatch-dashboard-for-aws-outposts-using-aws-cdk/)
 3. [AWS Dashboards with AWS CDK in TypeScript](https://levelup.gitconnected.com/aws-dashboards-with-aws-cdk-in-typescript-12d97bf0958)
-4. [[MY-NEXT] Building Amazon CloudWatch dashboards with AWS CDK By FooBar](https://www.youtube.com/watch?v=0VNKHIcQ5wk)
+> 4. [[**MY-NEXT**] Building Amazon CloudWatch dashboards with AWS CDK By FooBar](https://www.youtube.com/watch?v=0VNKHIcQ5wk)
 - https://github.com/mavi888/cdk-migrated-app-infra
 3. [[cdk-patterns/serverless] The CloudWatch Dashboard](https://github.com/cdk-patterns/serverless/blob/main/the-cloudwatch-dashboard/README.md)
 
@@ -61,7 +61,7 @@
 
 # 9. Subscription filters
 
-1. [[**MY-NEXT**] How to automatically subscribe to Amazon CloudWatch Logs groups by Rohit Kumar Singh and Ennio Pastore](https://aws.amazon.com/blogs/infrastructure-and-automation/how-to-automatically-subscribe-to-amazon-cloudwatch-logs-groups/)
+> 1. [[**MY-NEXT**] How to automatically subscribe to Amazon CloudWatch Logs groups by Rohit Kumar Singh and Ennio Pastore](https://aws.amazon.com/blogs/infrastructure-and-automation/how-to-automatically-subscribe-to-amazon-cloudwatch-logs-groups/)
   <img src="./images/enniop-architecture-diagram.jpg" title="enniop-architecture-diagram.jpg" width="900"/>
 1. [CloudWatch Lambda Subscription Filter (CDK-Demo) by Duleendra Shashimal](https://towardsaws.com/cloudwatch-lamba-subscription-filter-cdk-demo-f0eb571547c6)
 
@@ -71,7 +71,7 @@
 1. [Example 2: Subscription filters with AWS Lambda](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#LambdaFunctionExample)
 1. [Example 3: Subscription filters with Amazon Kinesis Data Firehose](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#FirehoseExample)
 
-1. [[**MY-NEXT**] How to get notified on specific Lambda function error patterns using CloudWatch by Sudhanshu Malhotra and Rajat Mathur](https://aws.amazon.com/blogs/mt/get-notified-specific-lambda-function-error-patterns-using-cloudwatch/)
+> 1. [[**MY-NEXT**] How to get notified on specific Lambda function error patterns using CloudWatch by Sudhanshu Malhotra and Rajat Mathur](https://aws.amazon.com/blogs/mt/get-notified-specific-lambda-function-error-patterns-using-cloudwatch/)
 
 1. [Analyzing AWS CloudTrail in Amazon CloudWatch by Avinash Gogineni and Imaya Kumar Jagannathan ](https://aws.amazon.com/blogs/mt/analyzing-cloudtrail-in-cloudwatch/)
 

@@ -31,14 +31,15 @@
 - [14. Integration with AWS Services](#14-integration-with-aws-services)
   - [14.1. ECS](#141-ecs)
   - [14.2. Kafka](#142-kafka)
-  - [14.3. S3](#143-s3)
-  - [14.4. Secrets-Manager](#144-secrets-manager)
-  - [14.5. SNS](#145-sns)
-  - [14.6. SQS](#146-sqs)
+  - [14.3. Parameter store](#143-parameter-store)
+  - [14.4. S3](#144-s3)
+  - [14.5. Secrets-Manager](#145-secrets-manager)
+  - [14.6. SNS](#146-sns)
+  - [14.7. SQS](#147-sqs)
 - [15. Invocation Models](#15-invocation-models)
 - [16. Kinesis](#16-kinesis)
 - [17. Layers](#17-layers)
-- [18. Pricing](#18-pricing)
+- [18. Plot pricing](#18-plot-pricing)
 - [19. Skillbuilder Courses](#19-skillbuilder-courses)
 - [20. Scaling and concurrency in Lambda](#20-scaling-and-concurrency-in-lambda)
   - [20.1. Core Concepts](#201-core-concepts)
@@ -218,28 +219,37 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Using Aws Lambda To Process Apache Kafka Streams](https://serverlessland.com/content/guides/lambda-kafka/introduction)
 
-## 14.3. S3
+## 14.3. Parameter store
+
+1. [Using the AWS Parameter and Secrets Lambda extension to cache parameters and secrets By Pal Patel and Saud ul Khalid](https://aws.amazon.com/blogs/compute/using-the-aws-parameter-and-secrets-lambda-extension-to-cache-parameters-and-secrets/)
+
+<img src="./images/secrets-1.png" title="secrets-1.png" width="900"/>
+
+## 14.4. S3
 
 1. [S3-to-Lambda patterns: Avoiding recursive invocation](https://github.com/aws-samples/s3-to-lambda-invocation-patterns)
 2. [Manage Amazon S3 Event Notifications using a Lambda function by Philip Chen](https://aws.amazon.com/blogs/infrastructure-and-automation/manage-amazon-s3-event-notifications-using-lambda-function/)
 3. [[MY NEXT] Manage Amazon S3 Event Notifications using a Lambda function by Philip Chen ](https://aws.amazon.com/blogs/infrastructure-and-automation/manage-amazon-s3-event-notifications-using-lambda-function/)
 <img src="./images/lambd-s3-notifications-2.jpg" title="lambd-s3-notifications-2.jpg" width="900"/>
 
-## 14.4. Secrets-Manager
+## 14.5. Secrets-Manager
 
 1. [Lambda function had to reside in the same AWS account as the ECR repository that owned the container image by Andy Hall](https://aws.amazon.com/blogs/compute/creating-aws-lambda-environmental-variables-from-aws-secrets-manager/)
-2. [Cache secrets using AWS Lambda extensions](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/cache-secrets-using-aws-lambda-extensions.html)
-3. [How to securely provide database credentials to Lambda functions by using AWS Secrets Manager by Ramesh Adabala, Anand Komandooru, and Noorul Hasan](https://aws.amazon.com/blogs/security/how-to-securely-provide-database-credentials-to-lambda-functions-by-using-aws-secrets-manager/)
-> 4. [Retrieving parameters and secrets with Powertools for AWS Lambda (TypeScript) by Pascal Vogel](https://aws.amazon.com/blogs/compute/retrieving-parameters-and-secrets-with-powertools-for-aws-lambda-typescript/)
-5. [Using the AWS Parameters and Secrets Lambda Extension with Python: A Practical Example](https://community.aws/posts/parameters-and-secrets-lambda-extension-with-python)
+1. [Cache secrets using AWS Lambda extensions](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/cache-secrets-using-aws-lambda-extensions.html)
+1. [How to securely provide database credentials to Lambda functions by using AWS Secrets Manager by Ramesh Adabala, Anand Komandooru, and Noorul Hasan](https://aws.amazon.com/blogs/security/how-to-securely-provide-database-credentials-to-lambda-functions-by-using-aws-secrets-manager/)
+> 1. [[**MY-NEXT**] Retrieving parameters and secrets with Powertools for AWS Lambda (TypeScript) by Pascal Vogel](https://aws.amazon.com/blogs/compute/retrieving-parameters-and-secrets-with-powertools-for-aws-lambda-typescript/)
+1. [Using the AWS Parameters and Secrets Lambda Extension with Python: A Practical Example](https://community.aws/posts/parameters-and-secrets-lambda-extension-with-python)
+1. [Using the AWS Parameter and Secrets Lambda extension to cache parameters and secrets By Pal Patel and Saud ul Khalid](https://aws.amazon.com/blogs/compute/using-the-aws-parameter-and-secrets-lambda-extension-to-cache-parameters-and-secrets/)
 
-## 14.5. SNS
+<img src="./images/secrets-1.png" title="secrets-1.png" width="900"/>
+
+## 14.6. SNS
 
 1. [Invoking AWS Lambda functions via Amazon SNS by Arjun Cholkar](https://aws.amazon.com/tw/blogs/mobile/invoking-aws-lambda-functions-via-amazon-sns/)
 2. [How do I subscribe a Lambda function to an Amazon SNS topic in the same account?](https://repost.aws/knowledge-center/lambda-subscribe-sns-topic-same-account)
 3. [Tutorial: Using AWS Lambda with Amazon Simple Notification Service](https://docs.aws.amazon.com/en_us/lambda/latest/dg/with-sns-example.html)
 
-## 14.6. SQS
+## 14.7. SQS
 
 1. [Handle SQS message failure in batch with partial batch response feature](https://medium.com/srcecde/handle-sqs-message-failure-in-batch-with-partial-batch-response-b858ad212573)
 2. [Lambda + SQS Users Should Know About This](https://www.youtube.com/watch?v=0707Py8Jyf0)
@@ -268,7 +278,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Using Lambda layers to simplify your development process by James Beswick](https://aws.amazon.com/blogs/compute/using-lambda-layers-to-simplify-your-development-process/)
 
-# 18. Pricing
+# 18. Plot pricing
 
 1. [Estimating cost for Amazon SQS message processing using AWS Lambda By Sabha Parameswaran](https://aws.amazon.com/blogs/compute/estimating-cost-for-amazon-sqs-message-processing-using-aws-lambda/)
 
@@ -372,7 +382,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [Steps to secure AWS Serverless — Lambda (Part 1)](https://medium.com/orchestrated/steps-to-secure-aws-serverless-lambda-part-1-a6e5d1b05f45)
 2. [Three ways to use AWS services from a Lambda in a VPC By Alex Debrie](https://www.alexdebrie.com/posts/aws-lambda-vpc/)
 3. [Things You Must Know When Configuring Lambda With VPC Resources Access By Aruna Silva](https://medium.com/@arunasilva86/how-to-use-vpc-networking-effectively-for-lambda-445abefdf8cf)
-4. [[MY-NEXT]AWS re:Invent 2020: AWS Lambda networking best practices By Uri Segev](https://www.youtube.com/watch?v=Ax6cnBEDnsM)
+> 4. [[**MY-NEXT**]AWS re:Invent 2020: AWS Lambda networking best practices By Uri Segev](https://www.youtube.com/watch?v=Ax6cnBEDnsM)
 5. [Why Use AWS Lambda in a Custom VPC? by Akash Jain](https://aws.amazon.com/blogs/apn/why-use-aws-lambda-in-a-custom-vpc/)
 
 # 29. Troubleshooting
