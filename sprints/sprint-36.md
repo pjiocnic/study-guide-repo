@@ -28,7 +28,11 @@
 1. Understand how service account is supposed work in workshop (https://workshop-aws-account-setup.fstehle.com/)
 Also See Enleanor academy's Sharing domain across accounts
 Also See Yan Cui's Sharing domains across accounts
-1. Continue working thru - https://workshop-aws-account-setup.fstehle.com/
+1. Continue working thru workshop here - https://workshop-aws-account-setup.fstehle.com/
+1. Continue doing workshop [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US/unicorn-contracts)
+1. [Learn Python On AWS Workshop > Inputs > Lab 5 - Inputs > Step 1 - User input from the console](https://catalog.us-east-1.prod.workshops.aws/workshops/3d705026-9edc-40e8-b353-bdabb116c89c/en-US/inputs/lab-5/step-1)
+1. [Extended CDK Workshop > JSII](https://catalog.us-east-1.prod.workshops.aws/workshops/071bbc60-6c1f-47b6-8c66-e84f5dc96b3f/en-US/40-jsii)
+
 
 # What Next?
 1. AWS Control Tower workshop
