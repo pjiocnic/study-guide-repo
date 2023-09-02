@@ -24,7 +24,7 @@
 1. Complete notes on AWS Config Workshop/Config Rule With Lambda
 1. Complete notes on AWS Config Workshop/Config Rule With remediation
 1. For AWS Config Workshop/Config Rule With Lambda, Update diagram for ConfigSSmLab.yml - cloudwatch triggering lambda
-1. HA Web Workshop (https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US)
+1. Lighting Workshop on building HA Web - (https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US)
 1. Different types of account workshop (https://workshop-aws-account-setup.fstehle.com/)
 
 # Work in Progress
