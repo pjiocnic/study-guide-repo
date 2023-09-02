@@ -4,6 +4,7 @@
 
 - [1. How to load multiple configs in spring](#1-how-to-load-multiple-configs-in-spring)
 - [Fat jar using spring](#fat-jar-using-spring)
+- [How to read a JSON file?](#how-to-read-a-json-file)
 
 <!-- /TOC -->
 
@@ -88,3 +89,8 @@ public class MyJsonProperties {
 
 
 ```
+
+# How to read a JSON file?
+
+1. [Spring Boot & JSON: A Practical Guide to reading JSON and Persisting it to a database By Dan Vega ](https://www.youtube.com/watch?v=EumLbf8WjnY)
+1. [Spring Boot & JsonNode: How to use it and when to turn to creating Custom Deserializers](https://www.youtube.com/watch?v=cw0TfpcUkao)
