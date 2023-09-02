@@ -13,6 +13,7 @@
 - [9. ECS,EventBridge](#9-ecseventbridge)
 - [10. DynamoDB,ECS,EventBridge,Lambda,SNS,SQS](#10-dynamodbecseventbridgelambdasnssqs)
 - [11. Lambda](#11-lambda)
+  - [11.1. Pricing](#111-pricing)
 - [12. Networking](#12-networking)
 - [13. SQS](#13-sqs)
 - [14. Step Functions](#14-step-functions)
@@ -73,6 +74,10 @@
 # 11. Lambda
 
 1. [S3-to-Lambda Patterns Series](https://github.com/aws-samples/s3-to-lambda-patterns/tree/master)
+
+## 11.1. Pricing
+
+1. [Estimating cost for Amazon SQS message processing using AWS Lambda By Sabha Parameswaran](https://aws.amazon.com/blogs/compute/estimating-cost-for-amazon-sqs-message-processing-using-aws-lambda/)
 
 # 12. Networking
 

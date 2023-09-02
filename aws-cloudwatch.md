@@ -61,17 +61,18 @@
 
 # 9. Subscription filters
 
-1. [How to automatically subscribe to Amazon CloudWatch Logs groups by Rohit Kumar Singh and Ennio Pastore](https://aws.amazon.com/blogs/infrastructure-and-automation/how-to-automatically-subscribe-to-amazon-cloudwatch-logs-groups/)
+1. [[**MY-NEXT**] How to automatically subscribe to Amazon CloudWatch Logs groups by Rohit Kumar Singh and Ennio Pastore](https://aws.amazon.com/blogs/infrastructure-and-automation/how-to-automatically-subscribe-to-amazon-cloudwatch-logs-groups/)
+  <img src="./images/enniop-architecture-diagram.jpg" title="enniop-architecture-diagram.jpg" width="900"/>
+1. [CloudWatch Lambda Subscription Filter (CDK-Demo) by Duleendra Shashimal](https://towardsaws.com/cloudwatch-lamba-subscription-filter-cdk-demo-f0eb571547c6)
 
-<img src="./images/enniop-architecture-diagram.jpg" title="enniop-architecture-diagram.jpg" width="900"/>
-
-2. [CloudWatch Lambda Subscription Filter (CDK-Demo) by Duleendra Shashimal](https://towardsaws.com/cloudwatch-lamba-subscription-filter-cdk-demo-f0eb571547c6)
-
-3. [[WORKSHOP] AWS CloudTrail Log Monitoring > Subscriptions Filter](https://catalog.us-east-1.prod.workshops.aws/workshops/2e48b9fc-f721-4417-b811-962b7f31b61c/en-US/subscriptionsfilter/creating-filter)
+1. [[WORKSHOP] AWS CloudTrail Log Monitoring > Subscriptions Filter](https://catalog.us-east-1.prod.workshops.aws/workshops/2e48b9fc-f721-4417-b811-962b7f31b61c/en-US/subscriptionsfilter/creating-filter)
 
 1. [Example 1: Subscription filters with Kinesis Data Streams](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#DestinationKinesisExample)
-2. [Example 2: Subscription filters with AWS Lambda](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#LambdaFunctionExample)
-3. [Example 3: Subscription filters with Amazon Kinesis Data Firehose](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#FirehoseExample)
+1. [Example 2: Subscription filters with AWS Lambda](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#LambdaFunctionExample)
+1. [Example 3: Subscription filters with Amazon Kinesis Data Firehose](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#FirehoseExample)
 
+1. [[**MY-NEXT**] How to get notified on specific Lambda function error patterns using CloudWatch by Sudhanshu Malhotra and Rajat Mathur](https://aws.amazon.com/blogs/mt/get-notified-specific-lambda-function-error-patterns-using-cloudwatch/)
+
+1. [Analyzing AWS CloudTrail in Amazon CloudWatch by Avinash Gogineni and Imaya Kumar Jagannathan ](https://aws.amazon.com/blogs/mt/analyzing-cloudtrail-in-cloudwatch/)
 
 
