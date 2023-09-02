@@ -69,4 +69,9 @@
 
 3. [[WORKSHOP] AWS CloudTrail Log Monitoring > Subscriptions Filter](https://catalog.us-east-1.prod.workshops.aws/workshops/2e48b9fc-f721-4417-b811-962b7f31b61c/en-US/subscriptionsfilter/creating-filter)
 
+1. [Example 1: Subscription filters with Kinesis Data Streams](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#DestinationKinesisExample)
+2. [Example 2: Subscription filters with AWS Lambda](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#LambdaFunctionExample)
+3. [Example 3: Subscription filters with Amazon Kinesis Data Firehose](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#FirehoseExample)
+
+
 

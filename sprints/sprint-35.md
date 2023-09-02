@@ -96,3 +96,5 @@ Check out tutorials listed in [lambda-tutorials.md](../my-tracks/lambda-tutorial
 3. Cloudformation for organizations
 4. ECS microservices
 5. Centralized Logging
+
+aws-cloudtrail-log-monitoring
