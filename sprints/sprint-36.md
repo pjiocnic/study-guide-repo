@@ -22,3 +22,8 @@
 1. Day - https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/intro
 1. Evenings - Look to complete incomplete work
 1. https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-sending-messages-from-vpc.html
+
+# Mongodb
+
+1. https://www.mongodb.com/blog/post/generating-globally-unique-identifiers-for-use-with-mongodb
+1. https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/
