@@ -23,9 +23,6 @@
 1. Complete notes on AWS Config Workshop/Config Rule With remediation
 1. For AWS Config Workshop/Config Rule With Lambda, Update diagram for ConfigSSmLab.yml ie cloudwatch triggering lambda
 1. Complete HA Web Workshop (https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US)
-1. Understand how service account is supposed work in workshop (https://workshop-aws-account-setup.fstehle.com/)
-Also See Enleanor academy's Sharing domain across accounts
-Also See Yan Cui's Sharing domains across accounts
 1. Continue working thru workshop here - https://workshop-aws-account-setup.fstehle.com/
 1. Continue doing workshop [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US/unicorn-contracts)
 1. [Learn Python On AWS Workshop > Inputs > Lab 5 - Inputs > Step 1 - User input from the console](https://catalog.us-east-1.prod.workshops.aws/workshops/3d705026-9edc-40e8-b353-bdabb116c89c/en-US/inputs/lab-5/step-1)
@@ -38,3 +35,4 @@ Also See Yan Cui's Sharing domains across accounts
 1. [Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
 1. https://aws.amazon.com/blogs/database/how-to-use-amazon-cloudwatch-to-monitor-amazon-dynamodb-table-size-and-item-count-metrics/
 1. Workshop - [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
+

@@ -6,10 +6,9 @@
 - [2. Private Hosted Zones](#2-private-hosted-zones)
 - [3. Routing Policies](#3-routing-policies)
 - [4. Validating domain using certificates](#4-validating-domain-using-certificates)
-- [5. Sharing domains between accounts](#5-sharing-domains-between-accounts)
-- [Videos](#videos)
+- [5. Videos](#5-videos)
 - [6. Zone delegation](#6-zone-delegation)
-- [Zone Apex](#zone-apex)
+- [7. Zone Apex](#7-zone-apex)
 
 <!-- /TOC -->
 
@@ -31,21 +30,19 @@
 
 1. [Easier Certificate Validation Using DNS with AWS Certificate Manager by Todd Cignetti](https://aws.amazon.com/blogs/security/easier-certificate-validation-using-dns-with-aws-certificate-manager/)
 
-# 5. Sharing domains between accounts
+# 5. Videos
 
-1. [How to manage Route53 hosted zones in a multi-account environment](https://theburningmonk.com/2021/05/how-to-manage-route53-hosted-zones-in-a-multi-account-environment/)
-1. [How to Share a Domain among AWS Accounts? By Enlear Academy](https://www.youtube.com/watch?v=MSIxbWz3qdo)
-
-# Videos
-
-1. [[MAKE-NOTES] DNS Design Using Amazon Route 53 - AWS Online Tech Talks By James Devine](https://www.youtube.com/watch?v=2y_RBjDkRgY)
+> 1. [[**MAKE-NOTES**] DNS Design Using Amazon Route 53 - AWS Online Tech Talks By James Devine](https://www.youtube.com/watch?v=2y_RBjDkRgY)
 
 # 6. Zone delegation
 
+1. [How to Share a Domain among AWS Accounts? By Enlear Academy](https://www.youtube.com/watch?v=MSIxbWz3qdo)
 1. [How to manage Route53 hosted zones in a multi-account environment](https://theburningmonk.com/2021/05/how-to-manage-route53-hosted-zones-in-a-multi-account-environment/)
-2. [Workshop AWS Account Setup > Shared Services Account > Setting up a DNS zone in Route53](https://workshop-aws-account-setup.fstehle.com/shared-services-account/route53/)
-https://repost.aws/knowledge-center/route53-private-hosted-zone
+1. [Workshop AWS Account Setup > Shared Services Account > Setting up a DNS zone in Route53](https://workshop-aws-account-setup.fstehle.com/shared-services-account/route53/)
+1. https://repost.aws/knowledge-center/route53-private-hosted-zone
+1. [Using Route 53 Private Hosted Zones for Cross-account Multi-region Architectures by Anandprasanna Gaitonde and John Bickle](https://aws.amazon.com/blogs/architecture/using-route-53-private-hosted-zones-for-cross-account-multi-region-architectures/)
+<img src="./images/DNS_Blog_Diagv2.jpg" title="DNS_Blog_Diagv2.jpg" width="900"/>
 
-# Zone Apex
+# 7. Zone Apex
 
 1. [Solving DNS zone apex challenges with third-party DNS providers using AWS by Chris Carter and Sohaib Tahir](https://aws.amazon.com/blogs/networking-and-content-delivery/solving-dns-zone-apex-challenges-with-third-party-dns-providers-using-aws)
