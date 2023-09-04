@@ -107,3 +107,19 @@ db.documents.insert({
 # More Material
 
 1. [Document Validation for Polymorphic Collections By Andrew Morgan](https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/)
+
+# Data Types
+
+1. `ISODate("2021-11-17T03:19:56.186Z")`
+
+```bash
+var createdDt = new Date()
+db.posts.insertOne({ title: "Working with dates", created: createdDt })
+db.posts.findOne()
+// returns
+{
+        "_id" : ObjectId("619474dd9043453a52147dd7"),
+        "title" : "Working with dates",
+        "created" : ISODate("2021-11-17T03:19:56.186Z")
+}
+```
