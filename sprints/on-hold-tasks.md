@@ -36,3 +36,7 @@
 1. [How to monitor Amazon DynamoDB](https://aws.amazon.com/blogs/database/how-to-use-amazon-cloudwatch-to-monitor-amazon-dynamodb-table-size-and-item-count-metrics/)
 1. Workshop - [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
 
+# JSON Handling
+
+1. [Spring Boot & JsonNode: How to use it and when to turn to creating Custom Deserializers](https://www.youtube.com/watch?v=cw0TfpcUkao)
+1. [Spring Boot & JSON: A Practical Guide to reading JSON and Persisting it to a database](https://www.youtube.com/watch?v=EumLbf8WjnY)
