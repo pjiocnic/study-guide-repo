@@ -3,6 +3,7 @@
 # In Progress
 
 1. Workshop - [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US/introduction/project-init)
+1. Learning Apache Maven By Kevin Bowersox
 
 # 1. On-Hold
 
