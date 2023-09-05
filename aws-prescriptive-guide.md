@@ -2,6 +2,7 @@
 
 <!-- TOC -->
 
+- [CI/CD](#cicd)
 - [1. Developer Guides](#1-developer-guides)
 - [2. DR](#2-dr)
 - [3. EKS](#3-eks)
@@ -27,6 +28,10 @@
 - [22. Near-Real-Time Event Processing](#22-near-real-time-event-processing)
 
 <!-- /TOC -->
+
+# CI/CD
+
+1. [Automatically detect changes and initiate different CodePipeline pipelines for a monorepo in CodeCommit](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/automatically-detect-changes-and-initiate-different-codepipeline-pipelines-for-a-monorepo-in-codecommit.html)
 
 # 1. Developer Guides
 
