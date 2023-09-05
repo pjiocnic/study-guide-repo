@@ -5,3 +5,4 @@
 1. [ServerlessLand Office Hours](https://serverlessland.com/video)
 1. [Learn AWS](https://www.learnaws.org/)
 1. [Enlear Academy](https://www.youtube.com/c/EnlearAcademy)
+1. [Dan Vega's videos](https://www.youtube.com/@DanVega/videos)

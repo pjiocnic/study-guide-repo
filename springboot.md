@@ -7,6 +7,7 @@
 - [4. Loading JSON file](#4-loading-json-file)
 - [5. Testing](#5-testing)
 - [6. VSCode](#6-vscode)
+- [Dan Vega's](#dan-vegas)
 
 <!-- /TOC -->
 
@@ -39,5 +40,8 @@
 
 1. [VS Code — Setting it up as your Java Spring Boot Development Environment](https://medium.com/dev-genius/vs-code-setting-it-up-as-your-java-spring-boot-development-environment-6464d86dc3f0)
 
+# Dan Vega's
 
-
+1. [How to read in YAML data with Jackson in Spring Boot Applications](https://www.youtube.com/watch?v=zy8slvenGxc)
+2. [Spring Boot & JSON: A Practical Guide to reading JSON and Persisting it to a database](https://www.youtube.com/watch?v=EumLbf8WjnY)
+3. [Spring Boot & JsonNode: How to use it and when to turn to creating Custom Deserializers](https://www.youtube.com/watch?v=cw0TfpcUkao)
