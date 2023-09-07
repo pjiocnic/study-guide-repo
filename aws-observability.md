@@ -33,3 +33,7 @@ See cloudwatch.md
 # Serverless observability
 
 1. [Mastering Serverless Application Observability By Julian Wood](https://www.youtube.com/playlist?list=PLJo-rJlep0EDiN3pPjBDUfq34BqMAI_o-)
+
+# Lambda
+
+1. [AWS Lambda based Serverless Observability](https://aws-observability.github.io/observability-best-practices/guides/serverless/aws-native/lambda-based-observability/)

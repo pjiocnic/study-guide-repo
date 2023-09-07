@@ -39,53 +39,54 @@
 - [15. Invocation Models](#15-invocation-models)
 - [16. Kinesis](#16-kinesis)
 - [17. Layers](#17-layers)
-- [18. Plot pricing](#18-plot-pricing)
-- [19. Skillbuilder Courses](#19-skillbuilder-courses)
-- [20. Scaling and concurrency in Lambda](#20-scaling-and-concurrency-in-lambda)
-  - [20.1. Core Concepts](#201-core-concepts)
-  - [20.2. Provisioned Concurrency](#202-provisioned-concurrency)
-  - [20.3. Devops](#203-devops)
-  - [20.4. Concurrency Controls and Quotas](#204-concurrency-controls-and-quotas)
-  - [20.5. Max Concurrency](#205-max-concurrency)
-  - [20.6. Throttling](#206-throttling)
-- [21. Comparison between REST and GraphQL API architectures](#21-comparison-between-rest-and-graphql-api-architectures)
-- [22. RDSProxy](#22-rdsproxy)
-- [23. Security](#23-security)
-  - [23.1. Lambda Security Using Resource Policy / ExecutionRole](#231-lambda-security-using-resource-policy--executionrole)
-  - [23.2. Lambda Authorizers](#232-lambda-authorizers)
-  - [23.3. Using Cognito to secure Lambda's function URL](#233-using-cognito-to-secure-lambdas-function-url)
-- [24. Testing](#24-testing)
-- [25. Stream Event Sources](#25-stream-event-sources)
-- [26. User Stories](#26-user-stories)
-- [27. How to use Spring with Lambda?](#27-how-to-use-spring-with-lambda)
-- [28. Networking](#28-networking)
-  - [28.1. VPC-Enabled Lambda](#281-vpc-enabled-lambda)
-- [29. Troubleshooting](#29-troubleshooting)
-- [30. Tracing](#30-tracing)
-- [31. Well Architected](#31-well-architected)
-  - [31.1. Series TOC](#311-series-toc)
-  - [31.2. Controlling serverless API access](#312-controlling-serverless-api-access)
-  - [31.3. Security](#313-security)
-  - [31.4. Service Quotas / Scaling / Concurrency](#314-service-quotas--scaling--concurrency)
-  - [31.5. Event Driven](#315-event-driven)
-  - [31.6. How to secure workloads with public endpoints](#316-how-to-secure-workloads-with-public-endpoints)
-  - [31.7. Serverless Lens](#317-serverless-lens)
-- [32. Cross-account access](#32-cross-account-access)
-- [33. Powertools](#33-powertools)
-  - [33.1. Java](#331-java)
-  - [33.2. Typescript](#332-typescript)
-- [34. Batch Processing](#34-batch-processing)
-  - [34.1. Checkpointing](#341-checkpointing)
-- [35. Staging](#35-staging)
-- [36. Cookbooks](#36-cookbooks)
-  - [36.1. Cookbook by Ran Isenberg](#361-cookbook-by-ran-isenberg)
-- [37. DLQs](#37-dlqs)
-- [38. Monitoring](#38-monitoring)
-- [39. Workshops](#39-workshops)
-- [40. Videos](#40-videos)
-- [41. Function URLs](#41-function-urls)
-- [42. Use cases](#42-use-cases)
-  - [42.1. Aggregating Data](#421-aggregating-data)
+- [18. Observability](#18-observability)
+- [19. Plot pricing](#19-plot-pricing)
+- [20. Skillbuilder Courses](#20-skillbuilder-courses)
+- [21. Scaling and concurrency in Lambda](#21-scaling-and-concurrency-in-lambda)
+  - [21.1. Core Concepts](#211-core-concepts)
+  - [21.2. Provisioned Concurrency](#212-provisioned-concurrency)
+  - [21.3. Devops](#213-devops)
+  - [21.4. Concurrency Controls and Quotas](#214-concurrency-controls-and-quotas)
+  - [21.5. Max Concurrency](#215-max-concurrency)
+  - [21.6. Throttling](#216-throttling)
+- [22. Comparison between REST and GraphQL API architectures](#22-comparison-between-rest-and-graphql-api-architectures)
+- [23. RDSProxy](#23-rdsproxy)
+- [24. Security](#24-security)
+  - [24.1. Lambda Security Using Resource Policy / ExecutionRole](#241-lambda-security-using-resource-policy--executionrole)
+  - [24.2. Lambda Authorizers](#242-lambda-authorizers)
+  - [24.3. Using Cognito to secure Lambda's function URL](#243-using-cognito-to-secure-lambdas-function-url)
+- [25. Testing](#25-testing)
+- [26. Stream Event Sources](#26-stream-event-sources)
+- [27. User Stories](#27-user-stories)
+- [28. How to use Spring with Lambda?](#28-how-to-use-spring-with-lambda)
+- [29. Networking](#29-networking)
+  - [29.1. VPC-Enabled Lambda](#291-vpc-enabled-lambda)
+- [30. Troubleshooting](#30-troubleshooting)
+- [31. Tracing](#31-tracing)
+- [32. Well Architected](#32-well-architected)
+  - [32.1. Series TOC](#321-series-toc)
+  - [32.2. Controlling serverless API access](#322-controlling-serverless-api-access)
+  - [32.3. Security](#323-security)
+  - [32.4. Service Quotas / Scaling / Concurrency](#324-service-quotas--scaling--concurrency)
+  - [32.5. Event Driven](#325-event-driven)
+  - [32.6. How to secure workloads with public endpoints](#326-how-to-secure-workloads-with-public-endpoints)
+  - [32.7. Serverless Lens](#327-serverless-lens)
+- [33. Cross-account access](#33-cross-account-access)
+- [34. Powertools](#34-powertools)
+  - [34.1. Java](#341-java)
+  - [34.2. Typescript](#342-typescript)
+- [35. Batch Processing](#35-batch-processing)
+  - [35.1. Checkpointing](#351-checkpointing)
+- [36. Staging](#36-staging)
+- [37. Cookbooks](#37-cookbooks)
+  - [37.1. Cookbook by Ran Isenberg](#371-cookbook-by-ran-isenberg)
+- [38. DLQs](#38-dlqs)
+- [39. Monitoring](#39-monitoring)
+- [40. Workshops](#40-workshops)
+- [41. Videos](#41-videos)
+- [42. Function URLs](#42-function-urls)
+- [43. Use cases](#43-use-cases)
+  - [43.1. Aggregating Data](#431-aggregating-data)
 
 <!-- /TOC -->
 
@@ -278,17 +279,21 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Using Lambda layers to simplify your development process by James Beswick](https://aws.amazon.com/blogs/compute/using-lambda-layers-to-simplify-your-development-process/)
 
-# 18. Plot pricing
+# 18. Observability
+
+1. [AWS Lambda based Serverless Observability](https://aws-observability.github.io/observability-best-practices/guides/serverless/aws-native/lambda-based-observability/)
+
+# 19. Plot pricing
 
 1. [Estimating cost for Amazon SQS message processing using AWS Lambda By Sabha Parameswaran](https://aws.amazon.com/blogs/compute/estimating-cost-for-amazon-sqs-message-processing-using-aws-lambda/)
 
-# 19. Skillbuilder Courses
+# 20. Skillbuilder Courses
 
 1. [Troubleshooting: AWS Lambda](https://explore.skillbuilder.aws/learn/course/10771/play/41089/troubleshooting-aws-lambda)
 
-# 20. Scaling and concurrency in Lambda
+# 21. Scaling and concurrency in Lambda
 
-## 20.1. Core Concepts
+## 21.1. Core Concepts
 
 1. [Scaling and concurrency in Lambda](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-scaling-and-concurrency-part-2/)
 - On-demand scaling example
@@ -297,39 +302,39 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 2. [Managing AWS Lambda Function Concurrency by Chris Munns](https://aws.amazon.com/blogs/compute/managing-aws-lambda-function-concurrency/)
 3. [[MY NEXT] Understanding AWS Lambda scaling and throughput by Julian Wood](https://aws.amazon.com/blogs/compute/understanding-aws-lambda-scaling-and-throughput/)
 
-## 20.2. Provisioned Concurrency
+## 21.2. Provisioned Concurrency
 
 1. [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage by Chris Munns](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)
 
-## 20.3. Devops
+## 21.3. Devops
 
 1. [Investigating spikes in AWS Lambda function concurrency by Chris Munns](https://aws.amazon.com/blogs/compute/investigating-spikes-in-aws-lambda-function-concurrency/)
 
-## 20.4. Concurrency Controls and Quotas
+## 21.4. Concurrency Controls and Quotas
 
 1. [AWS Lambda Fundamentals - AWS Lambda concurrency controls and quotas](https://www.youtube.com/watch?v=5XRBZNPy6Ng)
 
-## 20.5. Max Concurrency
+## 21.5. Max Concurrency
 
 1. [Does Maximum Concurrency Solve the Lambda+SQS Issue?](https://zaccharles.medium.com/does-maximum-concurrency-solve-the-lambda-sqs-issue-3c19701e6e75)
 2. [Introducing maximum concurrency of AWS Lambda functions when using Amazon SQS as an event source by Julian Wood](https://aws.amazon.com/blogs/compute/introducing-maximum-concurrency-of-aws-lambda-functions-when-using-amazon-sqs-as-an-event-source/)
 
-## 20.6. Throttling
+## 21.6. Throttling
 
 1. [Understanding AWS Lambda’s invoke throttling limits by Archana Srikanta](https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/)
 
-# 21. Comparison between REST and GraphQL API architectures
+# 22. Comparison between REST and GraphQL API architectures
 
 1. [[MY NEXT] How to Architect APIs for Scale and Security by George Mao](https://aws.amazon.com/blogs/architecture/how-to-architect-apis-for-scale-and-security/)
 
-# 22. RDSProxy
+# 23. RDSProxy
 
 1. [Using Amazon RDS Proxy with AWS Lambda by George Mao](https://aws.amazon.com/blogs/compute/using-amazon-rds-proxy-with-aws-lambda/)
 1. [How To: Manage RDS Connections from AWS Lambda Serverless Functions By Jeremy Daly](https://www.jeremydaly.com/manage-rds-connections-aws-lambda/)
 
-# 23. Security
+# 24. Security
 
-## 23.1. Lambda Security Using Resource Policy / ExecutionRole
+## 24.1. Lambda Security Using Resource Policy / ExecutionRole
 
 1. [Building AWS Lambda governance and guardrails by Julian Wood](https://aws.amazon.com/blogs/compute/building-aws-lambda-governance-and-guardrails/)
 2. [AWS Lambda Fundamentals - AWS Lambda function permissions](https://www.youtube.com/watch?v=6oG9O44U9x0)
@@ -343,41 +348,41 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 9. [Building well-architected serverless applications: Controlling serverless API access – part 2 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-2/)
 10.[Building well-architected serverless applications: Controlling serverless API access – part 3 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-3/)
 
-## 23.2. Lambda Authorizers
+## 24.2. Lambda Authorizers
 
 1. [Use AWS Lambda authorizers with a third-party identity provider to secure Amazon API Gateway REST APIs by Bryant Bost ](https://aws.amazon.com/blogs/security/use-aws-lambda-authorizers-with-a-third-party-identity-provider-to-secure-amazon-api-gateway-rest-apis/)
 2. [How to secure API Gateway HTTP endpoints with JWT authorizer by Siva Rajamani, Rajat Mathur, and Sudhanshu Malhotra](https://aws.amazon.com/blogs/security/how-to-secure-api-gateway-http-endpoints-with-jwt-authorizer/)
 
-## 23.3. Using Cognito to secure Lambda's function URL
+## 24.3. Using Cognito to secure Lambda's function URL
 
 1. [Securing Lambda Function URLs using Amazon Cognito, Amazon CloudFront and AWS WAF by Marcia Villalba](https://aws.amazon.com/blogs/compute/securing-lambda-function-urls-using-amazon-cognito-amazon-cloudfront-and-aws-waf/)
 
-# 24. Testing
+# 25. Testing
 
 1. [Review of "Testing Serverless Architectures" by Yan Cui](https://www.trek10.com/blog/review-of-testing-serverless-architectures-by-yan-cui)
 2. [Testing Serverless Applications By Dan Fox](https://serverlessland.com/testing)
 3. [Testing Serverless Applications By Dan Fox | Serverless Office Hours](https://www.youtube.com/watch?v=8AxsqNmwAFw)
 
-# 25. Stream Event Sources
+# 26. Stream Event Sources
 
 1. [SVS323-R – Mastering AWS Lambda streaming event sources](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Mastering_AWS_Lambda_streaming_event_sources_SVS323-R1.pdf)
 
-# 26. User Stories
+# 27. User Stories
 
 1. [Building Scalable and Responsive Big Data Interfaces with AWS Lambda by FireEye](https://aws.amazon.com/blogs/big-data/building-scalable-and-responsive-big-data-interfaces-with-aws-lambda/)
 
-# 27. How to use Spring with Lambda?
+# 28. How to use Spring with Lambda?
 
 1. [AWS Lambda series by Dan Vega](https://www.youtube.com/watch?v=bxK4GscuVgs&list=PLZV0a2jwt22vS1QAp0XJsFACeLNL5oN1g)
 2. [SpringBoot on Lambda By James Eastham](https://github.com/jeastham1993/java-spring-on-lambda)
 - https://www.youtube.com/watch?v=eierYzOAyg8
 
-# 28. Networking
+# 29. Networking
 
 1. [Building private serverless APIs with AWS Lambda and Amazon VPC Lattice by James Beswick ](https://aws.amazon.com/blogs/compute/building-private-serverless-apis-with-aws-lambda-and-amazon-vpc-lattice/)
 2. [AWS Lambda Fundamentals - AWS Lambda networking](https://www.youtube.com/watch?v=W1YZs1YEdKM)
 
-## 28.1. VPC-Enabled Lambda
+## 29.1. VPC-Enabled Lambda
 
 1. [Steps to secure AWS Serverless — Lambda (Part 1)](https://medium.com/orchestrated/steps-to-secure-aws-serverless-lambda-part-1-a6e5d1b05f45)
 2. [Three ways to use AWS services from a Lambda in a VPC By Alex Debrie](https://www.alexdebrie.com/posts/aws-lambda-vpc/)
@@ -385,79 +390,79 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 > 4. [[**MY-NEXT**]AWS re:Invent 2020: AWS Lambda networking best practices By Uri Segev](https://www.youtube.com/watch?v=Ax6cnBEDnsM)
 5. [Why Use AWS Lambda in a Custom VPC? by Akash Jain](https://aws.amazon.com/blogs/apn/why-use-aws-lambda-in-a-custom-vpc/)
 
-# 29. Troubleshooting
+# 30. Troubleshooting
 
 1. [AWS Lambda - Troubleshooting](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10771/aws-lambda-troubleshooting)
 2. [How to Speed Up Your AWS Lambda Functions](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/14738/how-to-speed-up-your-aws-lambda-functions)
 3. [AWS Lambda Fundamentals - AWS Lambda observability and troubleshooting](https://www.youtube.com/watch?v=K2aebIhjWj8)
 4. [Introducing new asynchronous invocation metrics for AWS Lambda By Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/introducing-new-asynchronous-invocation-metrics-for-aws-lambda/)
 
-# 30. Tracing
+# 31. Tracing
 
 1. [AWS Lambda Fundamentals - AWS Lambda tracing](https://www.youtube.com/watch?v=FSE_ngsBbTE)
 
-# 31. Well Architected
+# 32. Well Architected
 
-## 31.1. Series TOC
+## 32.1. Series TOC
 
 1. [Building well-architected serverless applications: Introduction by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-introduction/)
 
-## 31.2. Controlling serverless API access
+## 32.2. Controlling serverless API access
 
 1. [Building well-architected serverless applications: Controlling serverless API access – part 1 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-1/)
 2. [Building well-architected serverless applications: Controlling serverless API access – part 2 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-2/)
 3. [Building well-architected serverless applications: Controlling serverless API access – part 3 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-3/)
 
-## 31.3. Security
+## 32.3. Security
 
 4. [Building well-architected serverless applications: Managing application security boundaries – part 1 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-managing-application-security-boundaries-part-1/)
 5. [Building well-architected serverless applications: Managing application security boundaries – part 2 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-managing-application-security-boundaries-part-2/)
 
-## 31.4. Service Quotas / Scaling / Concurrency
+## 32.4. Service Quotas / Scaling / Concurrency
 
 1. [Operating Lambda: Application design and Service Quotas – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-and-service-quotas-part-1/)
 2. [Operating Lambda: Application design – Scaling and concurrency: Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-scaling-and-concurrency-part-2/)
 3. [Operating Lambda: Application design – Part 3 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-part-3/)
 
-## 31.5. Event Driven
+## 32.5. Event Driven
 
 1. [Operating Lambda: Understanding event-driven architecture – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/)
 2. [Operating Lambda: Design principles in event-driven architectures – Part 2 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2/)
 3. [Operating Lambda: Anti-patterns in event-driven architectures – Part 3 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-anti-patterns-in-event-driven-architectures-part-3/)
 
-## 31.6. How to secure workloads with public endpoints
+## 32.6. How to secure workloads with public endpoints
 
 1. [Operating Lambda: Building a solid security foundation – Part 1 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-1/)
 2. [Operating Lambda: Building a solid security foundation – Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-2/)
 
-## 31.7. Serverless Lens
+## 32.7. Serverless Lens
 
 1. https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf
 
-# 32. Cross-account access
+# 33. Cross-account access
 
 1. [Introducing cross-account Amazon ECR access for AWS Lambda by Brian Zambrano](https://aws.amazon.com/blogs/compute/introducing-cross-account-amazon-ecr-access-for-aws-lambda/)
     - Shows how to centralize docker images to a single account. This way Lambda function can reside in a different AWS account (in Account A) from ECR repository (in Account B) that owned the container image
 
-# 33. Powertools
+# 34. Powertools
 
-## 33.1. Java
+## 34.1. Java
 
 1. [Powertools for AWS Lambda (Java)](https://awslabs.github.io/aws-lambda-powertools-java/)
 2. [Simplifying serverless best practices with AWS Lambda Powertools Java by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/)
 3. [[MY NEXT] SVS 307 Workshop - Easily Add Observability with AWS Lambda Powertools for Java](https://catalog.us-east-1.prod.workshops.aws/workshops/a7011c82-e4af-4a52-80fa-fcd61f1dacd9/en-US/introduction)
 
-## 33.2. Typescript
+## 34.2. Typescript
 
 1. [AWS Lambda Powertools for TypeScript Workshop](https://github.com/aws-samples/aws-lambda-powertools-typescript-workshop)
 
-# 34. Batch Processing
+# 35. Batch Processing
 
-## 34.1. Checkpointing
+## 35.1. Checkpointing
 
 1. [Optimizing batch processing with custom checkpoints in AWS Lambda by James Beswick |](https://aws.amazon.com/blogs/compute/optimizing-batch-processing-with-custom-checkpoints-in-aws-lambda/)
 
-# 35. Staging
+# 36. Staging
 
 1. [Extract time series from satellite weather data with AWS Lambda by Lior Perez](https://aws.amazon.com/blogs/big-data/extract-time-series-from-satellite-weather-data-with-aws-lambda/)
 2. [Enrich VPC Flow Logs with resource tags and deliver data to Amazon S3 using Amazon Kinesis Data Firehose by Chaitanya Shah and Vaibhav Katkade](https://aws.amazon.com/blogs/big-data/enrich-vpc-flow-logs-with-resource-tags-and-deliver-data-to-amazon-s3-using-amazon-kinesis-data-firehose/)
@@ -465,14 +470,14 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 
 
-# 36. Cookbooks
+# 37. Cookbooks
 
 1. [aws/serverless-application-model](https://github.com/aws/serverless-application-model/tree/master/examples)
 - Found this link from https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/
 2. [AWS Lambda Handler Cookbook - A Serverless Service Template By Ran the builder](https://ran-isenberg.github.io/aws-lambda-handler-cookbook/)
 - [Lambda cookbook with Python](https://www.youtube.com/watch?v=yoLAuHaIRs8)
 
-## 36.1. Cookbook by Ran Isenberg
+## 37.1. Cookbook by Ran Isenberg
 
 1. [AWS Lambda Cookbook — Part 1 — Logging Best Practices By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-elevate-your-handler-s-code-part-1-logging)
 2. [AWS Lambda Cookbook — Part 2 — Observability Best Practices By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-elevate-your-handler-s-code-part-2-observability)
@@ -483,7 +488,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 7. [Start Your AWS Serverless Service With Two Clicks By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-part-7-how-to-use-the-aws-lambda-cookbook-github-template-project)
 8. [AWS CDK - Best Practices From The Trenches By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-cdk-best-practices-from-the-trenches)
 
-# 37. DLQs
+# 38. DLQs
 
 1. [Durable Serverless Architectures: Working with Dead-Letter Queues API309 By Otavio Ferreira](https://d1.awsstatic.com/events/reinvent/2019/Durable_serverless_architecture_Working_with_dead-letter_queues_API309.pdf)
 2. [Asynchronous invocation](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)
@@ -494,11 +499,11 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 7. [**[MY NEXT]** Using Amazon SQS dead-letter queues to replay messages By Alexandre Pinhel](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages/?ref=serverlessland)
 8. [How do dead-letter queues work](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html)
 
-# 38. Monitoring
+# 39. Monitoring
 
 1. [Lambda Monitoring Overview](https://www.youtube.com/watch?v=idkluLIwous)
 
-# 39. Workshops
+# 40. Workshops
 
 1. [Java on AWS Lambda](https://catalog.workshops.aws/java-on-aws-lambda/en-US)
   - From Serverful to Serverless Java with AWS Lambda
@@ -509,16 +514,16 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
   <img src="./images/unicorn-location-api-overview.png" title="SnapStart" width="900"/>
 2. [Build a Serverless Web Application with AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
 
-# 40. Videos
+# 41. Videos
 
 1. [AWS re:Invent 2022 - Serverless Compute](https://www.youtube.com/watch?v=SbL3a9YOW7s&list=PL2yQDdvlhXf8Erryfslfo3E42QtcX-aiD)
 
-# 41. Function URLs
+# 42. Function URLs
 
 1. [Announcing AWS Lambda Function URLs: Built-in HTTPS Endpoints for Single-Function Microservices by Alex Casalboni ](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/)
 
-# 42. Use cases
+# 43. Use cases
 
-## 42.1. Aggregating Data
+## 43.1. Aggregating Data
 
 1. [Build a fault-tolerant, serverless data aggregation pipeline with exactly-once processing by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-fault-tolerant-serverless-data-aggregation-pipeline-with-exactly-once-processing/)
