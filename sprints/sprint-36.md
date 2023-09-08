@@ -20,7 +20,7 @@
 1. Prep for certification
 1. Serverless Patterns workshop?
 1. Ec2 spot instances workshop
-
+1. Read about [AWS Lambda Adaptor](../aws-lambda.md#2-aws-lambda-web-adapter)
 
 # My Plan for this week
 
@@ -28,6 +28,8 @@
 1. Day - https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/intro
 1. Evenings - Look to complete incomplete work
 1. https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-sending-messages-from-vpc.html
+1. [Simplifying serverless best practices with AWS Lambda Powertools Java by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/)
+1. [AWS Lambda based Serverless Observability](https://aws-observability.github.io/observability-best-practices/guides/serverless/aws-native/lambda-based-observability)
 
 # Mongodb
 

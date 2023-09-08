@@ -1,95 +1,81 @@
 
 <!-- TOC -->
 
-- [1. Workshop Lists](#1-workshop-lists)
-- [2. Full Stack](#2-full-stack)
-- [3. By Language](#3-by-language)
-  - [3.1. Python](#31-python)
-  - [3.2. Typescript](#32-typescript)
-- [4. Elastic Load Balancer](#4-elastic-load-balancer)
-- [5. DynamoDB](#5-dynamodb)
-  - [5.1. Security](#51-security)
-  - [5.2. Lambda](#52-lambda)
-- [6. Account management using AWS Organizations](#6-account-management-using-aws-organizations)
-- [7. Cloudformation](#7-cloudformation)
-- [8. Athena](#8-athena)
-- [10. Kinesis](#10-kinesis)
-  - [10.1. Kinesis Firehose](#101-kinesis-firehose)
-- [11. Serverless](#11-serverless)
-  - [11.1. Performance tuning](#111-performance-tuning)
-- [12. Microservices](#12-microservices)
-- [13. Cloudwatch](#13-cloudwatch)
-- [14. IAM](#14-iam)
-- [15. Well Architected](#15-well-architected)
-- [16. Multi-service Workshops](#16-multi-service-workshops)
-- [17. Developer workshops](#17-developer-workshops)
-- [18. Networking](#18-networking)
-  - [18.1. Lattice](#181-lattice)
-- [19. Security](#19-security)
-- [20. S3](#20-s3)
-- [21. Event Driven](#21-event-driven)
-- [22. Observability](#22-observability)
-- [23. Administration](#23-administration)
-- [24. AWS Systems Manager](#24-aws-systems-manager)
-- [25. AWS Config](#25-aws-config)
-- [26. AWS Service Catalog](#26-aws-service-catalog)
-- [27. AWS CloudTrail](#27-aws-cloudtrail)
-- [Curate these workshops](#curate-these-workshops)
-  - [Disect this workshop](#disect-this-workshop)
-- [ASG Workshops to curate](#asg-workshops-to-curate)
-- [Multi-service workshop to curate](#multi-service-workshop-to-curate)
-- [Powertools](#powertools)
+- [1. Account management using AWS Organizations](#1-account-management-using-aws-organizations)
+- [2. Administration](#2-administration)
+- [3. AWS Systems Manager](#3-aws-systems-manager)
+- [4. AWS Config](#4-aws-config)
+- [5. AWS Service Catalog](#5-aws-service-catalog)
+- [6. AWS CloudTrail](#6-aws-cloudtrail)
+- [7. Athena](#7-athena)
+- [8. Cloudformation](#8-cloudformation)
+- [9. Cloudwatch](#9-cloudwatch)
+- [10. Developer workshops](#10-developer-workshops)
+- [11. DynamoDB](#11-dynamodb)
+- [12. Elastic Load Balancer](#12-elastic-load-balancer)
+- [26. Event Driven](#26-event-driven)
+- [13. Kinesis](#13-kinesis)
+  - [13.1. Kinesis Firehose](#131-kinesis-firehose)
+- [14. Microservices](#14-microservices)
+- [15. Workshop Lists](#15-workshop-lists)
+- [16. Full Stack](#16-full-stack)
+- [17. Language Workshops](#17-language-workshops)
+  - [17.1. Python](#171-python)
+  - [17.2. Typescript](#172-typescript)
+  - [17.3. Security](#173-security)
+  - [17.4. Lambda](#174-lambda)
+- [18. Serverless](#18-serverless)
+  - [18.1. Performance tuning](#181-performance-tuning)
+- [19. Microservices](#19-microservices)
+- [20. IAM](#20-iam)
+- [21. Well Architected](#21-well-architected)
+- [22. Multi-service Workshops](#22-multi-service-workshops)
+- [23. Networking](#23-networking)
+  - [23.1. Lattice](#231-lattice)
+- [24. Security](#24-security)
+- [25. S3](#25-s3)
+- [27. Observability](#27-observability)
+- [28. Curate these workshops](#28-curate-these-workshops)
+  - [28.1. Disect this workshop](#281-disect-this-workshop)
+- [29. ASG Workshops to curate](#29-asg-workshops-to-curate)
+- [30. Multi-service workshop to curate](#30-multi-service-workshop-to-curate)
+- [31. Powertools](#31-powertools)
 
 <!-- /TOC -->
 
-# 1. Workshop Lists
-
-1. [100+ free online AWS workshops](https://dev.to/eriklz/100-free-online-aws-workshops-49lh)
-
-# 2. Full Stack
-
-1. [Build a Modern Application on AWS Using Java](https://github.com/aws-samples/aws-modern-application-workshop)
-2. [[My NEXT] Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
-
-# 3. By Language
-
-## 3.1. Python
-
-1. [Learn Python On AWS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3d705026-9edc-40e8-b353-bdabb116c89c/en-US)
-
-## 3.2. Typescript
-
-1. [Learn TypeScript on AWS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/56ef6f79-74e2-4710-aefb-10b9807057a9/en-US)
-
-# 4. Elastic Load Balancer
-
-1. [AWS Elastic Load Balancer Demos](https://exampleloadbalancer.com/)
-
-# 5. DynamoDB
-
-1. [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
-2. [Amazon DynamoDB Labs FastTrack](https://catalog.us-east-1.prod.workshops.aws/workshops/3319b690-3a41-4921-9af8-f31c7bef4cdb/en-US)
-3. [Amazon DynamoDB Labs](https://eventbox.dev/published/lesson/dynamodbs-security-101/)
-    - DynamoDB Data Denormalization
-    - DynamoDB Access Control
-    - DynamoDB Processing Options
-
-## 5.1. Security
-
-1. [DynamoDB Access Control](https://www.eventbox.dev/published/lesson/dynamodbs-security-101/security-labs.html)
-    - [Amazon DynamoDB Permissions Workshop Code](https://github.com/aws-samples/dynamodb-permissions-workshop)
-
-## 5.2. Lambda
-
-[See aws-lambda.md#30-workshops](./aws-lambda.md#30-workshops)
-
-# 6. Account management using AWS Organizations
+# 1. Account management using AWS Organizations
 
 1. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
     - [Shared Services account](https://docs.aws.amazon.com/managedservices/latest/userguide/shared-services-account.html)
 2. [Workshop: Getting started with Centralized Operations Management on AWS](https://catalog.workshops.aws/getting-started-with-com/en-US)
 
-# 7. Cloudformation
+# 2. Administration
+
+1. [Workshop: Getting started with Centralized Operations Management on AWS](https://catalog.workshops.aws/getting-started-with-com/en-US)
+
+# 3. AWS Systems Manager
+
+1. [[Skill Builder] Getting Started with AWS Systems Manager](https://explore.skillbuilder.aws/learn/course/13045/Getting%2520Started%2520with%2520AWS%2520Systems%2520Manager)
+2. [AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
+3. [AWS Management and Governance Tools Workshop > AWS Systems Manager](https://mng.workshop.aws/ssm.html)
+
+# 4. AWS Config
+
+[See aws-config.md#1-workshops](./aws-config.md#1-workshops)
+
+# 5. AWS Service Catalog
+
+1. [AWS Management and Governance Tools Workshop > AWS Service Catalog](https://mng.workshop.aws/servicecatalog.html)
+
+# 6. AWS CloudTrail
+
+1. [AWS Management and Governance Tools Workshop > AWS CloudTrail](https://mng.workshop.aws/cloudtrail.html)
+
+# 7. Athena
+
+1. [[My NEXT] Amazon Athena Workshop :: Hands on Labs](https://catalog.us-east-1.prod.workshops.aws/workshops/9981f1a1-abdc-49b5-8387-cb01d238bb78/en-US)
+
+# 8. Cloudformation
 
 1. [[My NEXT] Highly Available Web Application Workshop Using CFNs](https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US)
     - Lab 1: Configure the network
@@ -113,15 +99,51 @@
     - Lab 7: Create the app server
     - Lab 8: Configure caching
 
-
 2. [AWS CloudFormation Workshop](https://catalog.workshops.aws/cfn101/en-US)
 3. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)
 
-# 8. Athena
+# 9. Cloudwatch
 
-1. [[My NEXT] Amazon Athena Workshop :: Hands on Labs](https://catalog.us-east-1.prod.workshops.aws/workshops/9981f1a1-abdc-49b5-8387-cb01d238bb78/en-US)
+1. [[MY NEXT] AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
+2. [AWS Management and Governance Tools Workshop > Amazon CloudWatch](https://mng.workshop.aws/cloudwatch.html)
 
-# 10. Kinesis
+# 10. Developer workshops
+
+1. [Improving Development Ergonomics](https://catalog.us-east-1.prod.workshops.aws/workshops/794fbedd-0fd9-4c70-92c1-9e82fbdcc383/en-US)
+    - https://github.com/aws-samples/stock-trader-app (Python app)
+    - Code the stock-trader application using Powertools
+    - Use CDK
+    - Build & Test
+    - Deploy
+    - Debug & Trace
+    - Analyze & Optimize
+
+2. [Cross AWS SDK workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/5f605811-06e9-4970-bbab-f9725f8dae7f/en-US/)
+    - API error handling
+    - Paginators: How to handle paginations
+    - Higher level features: Amazon S3
+    - Higher level features: Amazon DynamoDB
+    - Presigned URLs
+    - Waiters
+
+# 11. DynamoDB
+
+1. [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
+2. [Amazon DynamoDB Labs FastTrack](https://catalog.us-east-1.prod.workshops.aws/workshops/3319b690-3a41-4921-9af8-f31c7bef4cdb/en-US)
+3. [Amazon DynamoDB Labs](https://eventbox.dev/published/lesson/dynamodbs-security-101/)
+    - DynamoDB Data Denormalization
+    - DynamoDB Access Control
+    - DynamoDB Processing Options
+
+# 12. Elastic Load Balancer
+
+1. [AWS Elastic Load Balancer Demos](https://exampleloadbalancer.com/)
+
+# 26. Event Driven
+
+1. [Asynchronous Messaging Workshop](https://github.com/aws-samples/asynchronous-messaging-workshop)
+
+# 13. Kinesis
 
 1. [Real Time Streaming with Amazon Kinesis](https://catalog.us-east-1.prod.workshops.aws/workshops/2300137e-f2ac-4eb9-a4ac-3d25026b235f/en-US)
     - Produce data to Kinesis Data Streams
@@ -132,11 +154,48 @@
     - Consuming with Amazon KCL
 2. [aws-lambda-kinesis-aggregated-event-filtering](https://github.com/aws-samples/aws-lambda-kinesis-aggregated-event-filtering)
 
-## 10.1. Kinesis Firehose
+## 13.1. Kinesis Firehose
 
 1. [Amazon Kinesis Data Firehose Immersion Day](https://catalog.us-east-1.prod.workshops.aws/workshops/32e6bc9a-5c03-416d-be7c-4d29f40e55c4/en-US)
 
-# 11. Serverless
+# 14. Microservices
+
+1. [Decoupled Microservices with Wild Rydes service](https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US)
+    - Lab 1 - Fan-out & message filtering
+    - Lab 2 - Topic-queue chaining & load balancing
+    - Lab 3 - Scatter-gather
+    - Lab 4 - Orchestration and coordination
+1. [Designing Cloud Native Microservices on AWS (via DDD/EventStormingWorkshop)](https://github.com/aws-samples/designing-cloud-native-microservices-on-aws)
+
+# 15. Workshop Lists
+
+1. [100+ free online AWS workshops](https://dev.to/eriklz/100-free-online-aws-workshops-49lh)
+
+# 16. Full Stack
+
+1. [Build a Modern Application on AWS Using Java](https://github.com/aws-samples/aws-modern-application-workshop)
+2. [[My NEXT] Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
+
+# 17. Language Workshops
+
+## 17.1. Python
+
+1. [Learn Python On AWS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3d705026-9edc-40e8-b353-bdabb116c89c/en-US)
+
+## 17.2. Typescript
+
+1. [Learn TypeScript on AWS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/56ef6f79-74e2-4710-aefb-10b9807057a9/en-US)
+
+## 17.3. Security
+
+1. [DynamoDB Access Control](https://www.eventbox.dev/published/lesson/dynamodbs-security-101/security-labs.html)
+    - [Amazon DynamoDB Permissions Workshop Code](https://github.com/aws-samples/dynamodb-permissions-workshop)
+
+## 17.4. Lambda
+
+[See aws-lambda.md#30-workshops](./aws-lambda.md#30-workshops)
+
+# 18. Serverless
 
 1. [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
     - [Scheduling AWS Lambda Provisioned Concurrency for recurring peak usage by Chris Munns](https://aws.amazon.com/blogs/compute/scheduling-aws-lambda-provisioned-concurrency-for-recurring-peak-usage/)
@@ -173,39 +232,34 @@
 11. [Module 1: Serverless Performance Tuning](https://catalog.workshops.aws/performance-tuning/en-US/40-serverless)
 12. [Serverless Patterns](https://catalog.workshops.aws/serverless-patterns/en-US)
 
-## 11.1. Performance tuning
+## 18.1. Performance tuning
 
 1. [Startup optimization: Tuning application performance for maximum efficiency](https://catalog.workshops.aws/performance-tuning/en-US)
     - Module 1: Serverless Performance Tuning
     - Module 2: Container Performance Tuning
     - Module 3: AIOps for Relational Databases
 
-# 12. Microservices
+# 19. Microservices
 
 1. [Decoupled Microservices with Wild Rydes service](https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US)
     - Lab 1 - Fan-out & message filtering
     - Lab 2 - Topic-queue chaining & load balancing
     - Lab 3 - Scatter-gather
     - Lab 4 - Orchestration and coordination
-2. [Designing Cloud Native Microservices on AWS (via DDD/EventStormingWorkshop)](https://github.com/aws-samples/designing-cloud-native-microservices-on-aws)
+1. [Designing Cloud Native Microservices on AWS (via DDD/EventStormingWorkshop)](https://github.com/aws-samples/designing-cloud-native-microservices-on-aws)
 
-# 13. Cloudwatch
-
-1. [[MY NEXT] AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
-2. [AWS Management and Governance Tools Workshop > Amazon CloudWatch](https://mng.workshop.aws/cloudwatch.html)
-
-# 14. IAM
+# 20. IAM
 
 1. [IAM policy evaluation workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/6dc3124a-6bd4-46eb-b5c4-be438a82ba3d/en-US)
 2. [IAM Hands-On Lab](https://catalog.us-east-1.prod.workshops.aws/workshops/8efd4edb-2b91-49fd-b1b8-3e3b5e71aa03/en-US/iam)
 3. [Builder Sessions ](https://awssecworkshops.com/builder-sessions/)
 4. [Security Workshops](https://awssecworkshops.com/workshops/)
 
-# 15. Well Architected
+# 21. Well Architected
 
 1. [AWS Well-Architected Labs](https://www.wellarchitectedlabs.com/)
 
-# 16. Multi-service Workshops
+# 22. Multi-service Workshops
 
 1. [Enterprise Cloud Native Workshop ](http://cloudnative-immersion-day.s3-website-ap-northeast-1.amazonaws.com/)
     - Event Storming Workshop
@@ -219,78 +273,30 @@
 
 2. [AWS for Linux Workloads Immersion Day](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
 
-# 17. Developer workshops
+# 23. Networking
 
-1. [Improving Development Ergonomics](https://catalog.us-east-1.prod.workshops.aws/workshops/794fbedd-0fd9-4c70-92c1-9e82fbdcc383/en-US)
-    - https://github.com/aws-samples/stock-trader-app (Python app)
-    - Code the stock-trader application using Powertools
-    - Use CDK
-    - Build & Test
-    - Deploy
-    - Debug & Trace
-    - Analyze & Optimize
-
-2. [Cross AWS SDK workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/5f605811-06e9-4970-bbab-f9725f8dae7f/en-US/)
-    - API error handling
-    - Paginators: How to handle paginations
-    - Higher level features: Amazon S3
-    - Higher level features: Amazon DynamoDB
-    - Presigned URLs
-    - Waiters
-
-# 18. Networking
-
-## 18.1. Lattice
+## 23.1. Lattice
 
 1. [Amazon VPC Lattice Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/9e543f60-e409-43d4-b37f-78ff3e1a07f5/en-US)
 2. [AWS Gateway API Controller for VPC Lattice](https://github.com/aws/aws-application-networking-k8s)
 
-# 19. Security
+# 24. Security
 
 1. [Serverless Security Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/026f84fd-f589-4a59-a4d1-81dc543fcd30/en-US)
 - https://github.com/aws-samples/aws-serverless-security-workshop
 2. [AWS Security Workshops](https://awssecworkshops.com/)
 
-# 20. S3
+# 25. S3
 
 1. [S3 Object Lambda custom authorization Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a02f594e-0618-4e6f-ba55-9355a12e0378/en-US/)
 
     <img src="./images/workshop-4.png" title="architecture-3.png" width="900"/>
 
-# 21. Event Driven
+# 27. Observability
 
-1. [Asynchronous Messaging Workshop](https://github.com/aws-samples/asynchronous-messaging-workshop)
+[see Workshop section in observability.md](./observability.md)
 
-# 22. Observability
-
-1. [One Observability Workshop](https://catalog.workshops.aws/observability/en-US)
-- https://aws-observability.github.io/observability-best-practices/
-2. [COP304: Automate your incident response with AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/9e2b74fc-069c-462f-bec8-06ce753229cb/en-US)
-3. [Workshop: Getting started with Centralized Operations Management on AWS](https://catalog.workshops.aws/getting-started-with-com/en-US)
-
-# 23. Administration
-
-1. [Workshop: Getting started with Centralized Operations Management on AWS](https://catalog.workshops.aws/getting-started-with-com/en-US)
-
-# 24. AWS Systems Manager
-
-1. [[Skill Builder] Getting Started with AWS Systems Manager](https://explore.skillbuilder.aws/learn/course/13045/Getting%2520Started%2520with%2520AWS%2520Systems%2520Manager)
-2. [AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
-3. [AWS Management and Governance Tools Workshop > AWS Systems Manager](https://mng.workshop.aws/ssm.html)
-
-# 25. AWS Config
-
-[See aws-config.md#1-workshops](./aws-config.md#1-workshops)
-
-# 26. AWS Service Catalog
-
-1. [AWS Management and Governance Tools Workshop > AWS Service Catalog](https://mng.workshop.aws/servicecatalog.html)
-
-# 27. AWS CloudTrail
-
-1. [AWS Management and Governance Tools Workshop > AWS CloudTrail](https://mng.workshop.aws/cloudtrail.html)
-
-# Curate these workshops
+# 28. Curate these workshops
 
 1. [AWS Management and Governance Tools Workshop > AWS Config](https://mng.workshop.aws/config.html)
 2. [Risk & Compliance Workshop > Detective Controls with Config > Enable AWS Config](https://catalog.us-east-1.prod.workshops.aws/workshops/dd2bea89-dc7a-4bda-966a-70b4ff6e90e0/en-US/3-detective-controls-config/1-config-setup)
@@ -302,12 +308,13 @@
 8. [AWS Cloud Security Virtual Event > Workshops > Lab 1: Eliminate Bastion Hosts with Systems Manager](https://awscloudsecvirtualevent.com/workshops/module1/)
 9. [Scaling cost effective architectures](https://catalog.us-east-1.prod.workshops.aws/workshops/f238037c-8f0b-446e-9c15-ebcc4908901a/en-US)
 
-## Disect this workshop
+## 28.1. Disect this workshop
+
 9. [ Amazon ECS Workshop > Capacity Providers > Deploy ECS Cluster Auto Scaling](https://ecsworkshop.com/capacity_providers/ec2/)
 10. [Workshop - AWS Core Services](https://aws-core-services.ws.kabits.com/)
 11. [Workshop - Deploying Containers with AWS CDK v2 and React with AWS Amplify ](https://containers-cdk-react-amplify.ws.kabits.com/)
 
-# ASG Workshops to curate
+# 29. ASG Workshops to curate
 
 1. manual scaling, scheduled scaling, dynamic scaling, and predictive scaling
 2. [AWS Modernization Workshop with Gremlin > Experiment #1: Validate Autoscaling > 6.5 Create Action Items > 6.5.1 CREATE AUTO SCALING RULES](https://gremlin.awsworkshop.io/36_first_experiment/40_action_items/01_autoscaling.html)
@@ -317,10 +324,11 @@
 6. [ Amazon EC2 Spot Workshops > Running Efficient and Resilient Workloads with Amazon EC2 Auto Scaling > Predictive Scaling](https://ec2spotworkshops.com/efficient-and-resilient-ec2-auto-scaling/lab1/10-predictive-scaling.html)
 7. [AWS General Immersion Day > Advanced Modules - Web Application > Compute – Amazon EC2 > Deploy auto scaling web service](https://catalog.workshops.aws/general-immersionday/en-US/advanced-modules/compute/auto-scaling)
 
-# Multi-service workshop to curate
+# 30. Multi-service workshop to curate
 
 1. [AWS General Immersion Day](https://catalog.workshops.aws/general-immersionday/en-US)
 
-# Powertools
+# 31. Powertools
 
 1. [SVS 307 Workshop - Easily Add Observability with AWS Lambda Powertools for Java](https://catalog.us-east-1.prod.workshops.aws/workshops/a7011c82-e4af-4a52-80fa-fcd61f1dacd9/en-US/introduction)
+1. https://github.com/aws-powertools
