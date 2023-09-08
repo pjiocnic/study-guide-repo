@@ -30,12 +30,13 @@
 - [13. Function URLs](#13-function-urls)
 - [14. Integration with AWS Services](#14-integration-with-aws-services)
   - [14.1. ECS](#141-ecs)
-  - [14.2. Kafka](#142-kafka)
-  - [14.3. Parameter store](#143-parameter-store)
-  - [14.4. S3](#144-s3)
-  - [14.5. Secrets-Manager](#145-secrets-manager)
-  - [14.6. SNS](#146-sns)
-  - [14.7. SQS](#147-sqs)
+  - [14.2. CloudFront](#142-cloudfront)
+  - [14.3. Kafka](#143-kafka)
+  - [14.4. Parameter store](#144-parameter-store)
+  - [14.5. S3](#145-s3)
+  - [14.6. Secrets-Manager](#146-secrets-manager)
+  - [14.7. SNS](#147-sns)
+  - [14.8. SQS](#148-sqs)
 - [15. Invocation Models](#15-invocation-models)
 - [16. Kinesis](#16-kinesis)
 - [17. Layers](#17-layers)
@@ -87,6 +88,7 @@
 - [42. Function URLs](#42-function-urls)
 - [43. Use cases](#43-use-cases)
   - [43.1. Aggregating Data](#431-aggregating-data)
+- [Curate](#curate)
 
 <!-- /TOC -->
 
@@ -208,6 +210,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 13. Function URLs
 
 1. [Announcing AWS Lambda Function URLs: Built-in HTTPS Endpoints for Single-Function Microservices by Alex Casalboni ](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/)
+1. [Protecting an AWS Lambda function URL with Amazon CloudFront and Lambda@Edge](https://aws.amazon.com/blogs/compute/protecting-an-aws-lambda-function-url-with-amazon-cloudfront-and-lambdaedge/)
 
 # 14. Integration with AWS Services
 
@@ -216,24 +219,28 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [[MUST SEE] Run message-driven workloads at scale by using AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-message-driven-workloads-at-scale-by-using-aws-fargate.html)
 2. [[MUST SEE] Run event-driven and scheduled workloads at scale with AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-event-driven-and-scheduled-workloads-at-scale-with-aws-fargate.html)
 
-## 14.2. Kafka
+## 14.2. CloudFront
+
+1. [Using Amazon CloudFront with AWS Lambda as origin to accelerate your web applications by Jaiganesh Girinathan and Samrat Karak](https://aws.amazon.com/blogs/networking-and-content-delivery/using-amazon-cloudfront-with-aws-lambda-as-origin-to-accelerate-your-web-applications/)
+
+## 14.3. Kafka
 
 1. [Using Aws Lambda To Process Apache Kafka Streams](https://serverlessland.com/content/guides/lambda-kafka/introduction)
 
-## 14.3. Parameter store
+## 14.4. Parameter store
 
 1. [Using the AWS Parameter and Secrets Lambda extension to cache parameters and secrets By Pal Patel and Saud ul Khalid](https://aws.amazon.com/blogs/compute/using-the-aws-parameter-and-secrets-lambda-extension-to-cache-parameters-and-secrets/)
 
 <img src="./images/secrets-1.png" title="secrets-1.png" width="900"/>
 
-## 14.4. S3
+## 14.5. S3
 
 1. [S3-to-Lambda patterns: Avoiding recursive invocation](https://github.com/aws-samples/s3-to-lambda-invocation-patterns)
 2. [Manage Amazon S3 Event Notifications using a Lambda function by Philip Chen](https://aws.amazon.com/blogs/infrastructure-and-automation/manage-amazon-s3-event-notifications-using-lambda-function/)
 3. [[MY NEXT] Manage Amazon S3 Event Notifications using a Lambda function by Philip Chen ](https://aws.amazon.com/blogs/infrastructure-and-automation/manage-amazon-s3-event-notifications-using-lambda-function/)
 <img src="./images/lambd-s3-notifications-2.jpg" title="lambd-s3-notifications-2.jpg" width="900"/>
 
-## 14.5. Secrets-Manager
+## 14.6. Secrets-Manager
 
 1. [Lambda function had to reside in the same AWS account as the ECR repository that owned the container image by Andy Hall](https://aws.amazon.com/blogs/compute/creating-aws-lambda-environmental-variables-from-aws-secrets-manager/)
 1. [Cache secrets using AWS Lambda extensions](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/cache-secrets-using-aws-lambda-extensions.html)
@@ -244,13 +251,13 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 <img src="./images/secrets-1.png" title="secrets-1.png" width="900"/>
 
-## 14.6. SNS
+## 14.7. SNS
 
 1. [Invoking AWS Lambda functions via Amazon SNS by Arjun Cholkar](https://aws.amazon.com/tw/blogs/mobile/invoking-aws-lambda-functions-via-amazon-sns/)
 2. [How do I subscribe a Lambda function to an Amazon SNS topic in the same account?](https://repost.aws/knowledge-center/lambda-subscribe-sns-topic-same-account)
 3. [Tutorial: Using AWS Lambda with Amazon Simple Notification Service](https://docs.aws.amazon.com/en_us/lambda/latest/dg/with-sns-example.html)
 
-## 14.7. SQS
+## 14.8. SQS
 
 1. [Handle SQS message failure in batch with partial batch response feature](https://medium.com/srcecde/handle-sqs-message-failure-in-batch-with-partial-batch-response-b858ad212573)
 2. [Lambda + SQS Users Should Know About This](https://www.youtube.com/watch?v=0707Py8Jyf0)
@@ -527,3 +534,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 ## 43.1. Aggregating Data
 
 1. [Build a fault-tolerant, serverless data aggregation pipeline with exactly-once processing by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-fault-tolerant-serverless-data-aggregation-pipeline-with-exactly-once-processing/)
+
+# Curate
+
+1. [AWS Lambda Web Adapter](https://github.com/awslabs/aws-lambda-web-adapter)

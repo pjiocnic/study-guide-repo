@@ -33,3 +33,5 @@
 
 1. https://www.mongodb.com/blog/post/generating-globally-unique-identifiers-for-use-with-mongodb
 1. https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/
+
+https://aws-observability.github.io/observability-best-practices/guides/serverless/aws-native/lambda-based-observability/#use-distributed-tracing-using-aws-x-ray
