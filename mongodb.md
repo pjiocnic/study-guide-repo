@@ -33,7 +33,8 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 - [24. MongoDB Shows](#24-mongodb-shows)
   - [24.1. [Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore](#241-migrating-stored-procedures-to-mongodbhttpswwwyoutubecomwatchvbog0aighg0a-by-vittal-pai-blore)
 - [25. Curate](#25-curate)
-- [Unique Ids](#unique-ids)
+- [26. Unique Ids](#26-unique-ids)
+- [27. Sequence Generation](#27-sequence-generation)
 
 <!-- /TOC -->
 
@@ -209,6 +210,11 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. https://www.mongodb.com/blog/post/generating-globally-unique-identifiers-for-use-with-mongodb
 1. https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/
 
-# Unique Ids
+# 26. Unique Ids
 
 1. [Generating Globally Unique Identifiers for Use with MongoDB](https://www.mongodb.com/blog/post/generating-globally-unique-identifiers-for-use-with-mongodb)
+
+# 27. Sequence Generation
+
+1.[Spring Boot and MongoDB Sequence ID Generator](https://examples.javacodegeeks.com/spring-boot-and-mongodb-sequence-id-generator/)
+1. https://www.baeldung.com/spring-boot-mongodb-auto-generated-field

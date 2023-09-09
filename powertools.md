@@ -10,3 +10,7 @@
 # GitHub
 
 1. [Powertools for AWS](https://github.com/aws-powertools)
+
+# Video
+
+1. [https://github.com/aws-powertools/powertools-lambda-python/pull/2129#issuecomment-1523082490](https://www.youtube.com/watch?v=wirLasM_wFM&t=332s)
