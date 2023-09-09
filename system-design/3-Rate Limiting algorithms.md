@@ -1,5 +1,5 @@
 
-https://www.youtube.com/watch?v=X5daFTDfy2g
+[[PAUSED] 12. Design Rate Limiter By Concept && Coding](https://youtu.be/X5daFTDfy2g?t=1444)
 
 # 1. Token Bucket
 

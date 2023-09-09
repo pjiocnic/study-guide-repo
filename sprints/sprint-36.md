@@ -1,6 +1,6 @@
 <h1>Sprint 36 - Sep 4, 2023- Sep 10, 2023</h1>
 
-# In Progress
+# 1. In Progress
 
 1. Workshop - [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US/introduction/project-init)
 1. https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/
@@ -10,11 +10,11 @@
 1. [Operating Lambda: Using CloudWatch Logs Insights by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-using-cloudwatch-logs-insights/)
 1. [Understanding AWS Lambda’s invoke throttling limits By Archana Srikanta](https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/)
 
-# 1. On-Hold
+# 2. On-Hold
 
 [My On Hold Tasks to visit](./on-hold-tasks.md)
 
-# What Next?
+# 3. What Next?
 
 1. Complete AWS Service Catalog Workshop (prep - learn how a role assumed another role before continuing with this workshop)
 1. Prep for certification
@@ -22,7 +22,7 @@
 1. Ec2 spot instances workshop
 1. Read about [AWS Lambda Adaptor](../aws-lambda.md#2-aws-lambda-web-adapter)
 
-# My Plan for this week
+# 4. My Plan for this week
 
 1. Mornings - ecs spring example, Do aws cookbook
 1. Day - https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/intro
@@ -31,7 +31,11 @@
 1. [Simplifying serverless best practices with AWS Lambda Powertools Java by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/)
 1. [AWS Lambda based Serverless Observability](https://aws-observability.github.io/observability-best-practices/guides/serverless/aws-native/lambda-based-observability)
 
-# Mongodb
+# 5. My Plan for this weekend
+
+1. [Spring Boot and MongoDB Sequence ID Generator](https://examples.javacodegeeks.com/spring-boot-and-mongodb-sequence-id-generator/)
+
+# 6. Mongodb
 
 1. https://www.mongodb.com/blog/post/generating-globally-unique-identifiers-for-use-with-mongodb
 1. https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/

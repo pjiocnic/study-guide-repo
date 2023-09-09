@@ -6,6 +6,7 @@
 - [2. Java](#2-java)
 - [3. CDK](#3-cdk)
   - [3.1. Typescript](#31-typescript)
+- [4. SAM](#4-sam)
 
 <!-- /TOC -->
 
@@ -27,3 +28,8 @@
 
 1. [Production-Ready CDK – Project Structure By Kemal Gülşen](https://www.luminis.eu/blog/cloud-en/production-ready-cdk-project-structure/)
 2. [A CookieCutter template for a fresh CDK package](https://github.com/rix0rrr/cookiecutter-cdk-package)
+
+# 4. SAM
+
+1. [Cookiecutter SAM for Lambda functions with AWS Lambda Powertools Java](https://github.com/aws-samples/cookiecutter-aws-sam-powertools-java)
+1. [Sharing AWS SAM templates](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-improving-consistency-part-2/)
