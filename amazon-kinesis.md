@@ -7,15 +7,15 @@
 - [2. Architectures](#2-architectures)
 - [3. Core concepts](#3-core-concepts)
 - [4. Enhanced Fan-Out](#4-enhanced-fan-out)
-- [Lambda](#lambda)
-- [5. Using With RDS](#5-using-with-rds)
-- [6. Curate](#6-curate)
-- [7. Sharding](#7-sharding)
-- [8. Scaling](#8-scaling)
-- [9. Tumbling Windows](#9-tumbling-windows)
-- [10. Theory](#10-theory)
-- [11. Vidoes](#11-vidoes)
-- [12. Workshops](#12-workshops)
+- [5. Lambda](#5-lambda)
+- [6. Using With RDS](#6-using-with-rds)
+- [7. Curate](#7-curate)
+- [8. Sharding](#8-sharding)
+- [9. Scaling](#9-scaling)
+- [10. Tumbling Windows](#10-tumbling-windows)
+- [11. Theory](#11-theory)
+- [12. Vidoes](#12-vidoes)
+- [13. Workshops](#13-workshops)
 
 <!-- /TOC -->
 
@@ -46,7 +46,7 @@
 
 1. [Amazon Kinesis Enhanced Fan-Out](https://medium.com/avmconsulting-blog/amazon-kinesis-enhanced-fan-out-4e500411a414)
 
-# Lambda
+# 5. Lambda
 
 1. [Building serverless applications with streaming data: Part 1 by James Beswick ](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-streaming-data-part-1/)
 2. [Building serverless applications with streaming data: Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-streaming-data-part-2/)
@@ -55,37 +55,37 @@
 5. [Monitoring and troubleshooting serverless data analytics applications by James Beswick](https://aws.amazon.com/blogs/compute/monitoring-and-troubleshooting-serverless-data-analytics-applications/)
 6. [Alleycat - Building serverless applications with streaming data](https://github.com/aws-samples/serverless-streaming-data-application)
 
-# 5. Using With RDS
+# 6. Using With RDS
 
 1. [[MAKE BITE-NOTES] Send Relational Database CDC Information to Kinesis Data Streams](https://www.youtube.com/watch?v=xfAJfKDwdIA)
 
-# 6. Curate
+# 7. Curate
 
 1. [Simplify Amazon DynamoDB data extraction and analysis by using AWS Glue and Amazon Athena by Laith Al-Saadoon and Ghiyath Alazzah](https://aws.amazon.com/blogs/database/simplify-amazon-dynamodb-data-extraction-and-analysis-by-using-aws-glue-and-amazon-athena/)
 2. [Accelerate Amazon DynamoDB data access in AWS Glue jobs using the new AWS Glue DynamoDB Export connector by Noritaka Sekiyama, Andrew Kim, Neil Gupta, and Savio Dsouza](https://aws.amazon.com/blogs/big-data/accelerate-amazon-dynamodb-data-access-in-aws-glue-jobs-using-the-new-aws-glue-dynamodb-elt-connector/)
 
-# 7. Sharding
+# 8. Sharding
 1. [Under the hood: Scaling your Kinesis data streams by Ahmed Gaafar](https://aws.amazon.com/blogs/big-data/under-the-hood-scaling-your-kinesis-data-streams/)
     - [amazon-kinesis-scaling-utils](https://github.com/awslabs/amazon-kinesis-scaling-utils)
 2. [Uniform Data Distribution Among Kinesis Data Stream Shards](https://medium.com/onebyte-llc/uniform-data-distribution-among-kinesis-data-stream-shards-7d350bca4a99)
 
-# 8. Scaling
+# 9. Scaling
 
 1. [Scale Kinesis Data Streams for high throughput and low latency | Amazon Web Services](https://www.youtube.com/watch?v=oAliBHw_08M)
 
-# 9. Tumbling Windows
+# 10. Tumbling Windows
 
 1. [[MY NEXT] Using AWS Lambda for streaming analytics by James Beswick ](https://aws.amazon.com/blogs/compute/using-aws-lambda-for-streaming-analytics/)
 
-# 10. Theory
+# 11. Theory
 
 1. [[MY NEXT] Serverless Stream-Based Processing for Real-Time Insights by Justin Pirtle](https://aws.amazon.com/blogs/architecture/serverless-stream-based-processing-for-real-time-insights/)
 
-# 11. Vidoes
+# 12. Vidoes
 
 1. [Amazon Kinesis Introduction and Overview (with SNS, SQS, Eventbridge Comparisons! By BeBetterdev)](https://www.youtube.com/watch?v=_bRTlb9b59Y)
 
-# 12. Workshops
+# 13. Workshops
 
 1. [Real Time Streaming with Amazon Kinesis](https://catalog.us-east-1.prod.workshops.aws/workshops/2300137e-f2ac-4eb9-a4ac-3d25026b235f/en-US)
     - Produce data to Kinesis Data Streams

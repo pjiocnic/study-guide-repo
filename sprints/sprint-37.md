@@ -14,8 +14,15 @@
 
 [My On Hold Tasks to visit](./on-hold-tasks.md)
 
-
 # My Plan for this week
 
+1. [AWS Lambda Operator Guide](https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html)
 1. [AWS Lambda Handler Cookbook (Python) By Ran The Builder](https://github.com/ran-isenberg/aws-lambda-handler-cookbook)
 1. [PowerTools](../my-tracks/powertools.md)
+1. [AWS Lambda based Serverless Observability](https://aws-observability.github.io/observability-best-practices/guides/serverless/aws-native/lambda-based-observability)
+- curate and place it in appropriate category
+1. https://www.youtube.com/watch?v=-PCwCBHOS08
+
+# Tracks to plan
+
+1. [CDK and Python](../my-tracks/cdk_python.md)

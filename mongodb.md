@@ -216,5 +216,8 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 
 # 27. Sequence Generation
 
-1.[Spring Boot and MongoDB Sequence ID Generator](https://examples.javacodegeeks.com/spring-boot-and-mongodb-sequence-id-generator/)
+1. [Spring Boot and MongoDB Sequence ID Generator](https://examples.javacodegeeks.com/spring-boot-and-mongodb-sequence-id-generator/)
 1. https://www.baeldung.com/spring-boot-mongodb-auto-generated-field
+1. https://www.slmanju.com/2021/07/design-unique-sequence-with-mongodb.html
+1. https://data-flair.training/blogs/mongodb-auto-increment-sequence/
+1. https://sujalmandal.medium.com/creating-sequence-id-in-with-mongo-spring-data-4fc3fd20d685

@@ -34,10 +34,10 @@
 # 5. My Plan for this weekend
 
 1. [Spring Boot and MongoDB Sequence ID Generator](https://examples.javacodegeeks.com/spring-boot-and-mongodb-sequence-id-generator/)
+1. [Lambda cookbook with Python | Serverless Office Hours](https://www.youtube.com/watch?v=yoLAuHaIRs8)
 
 # 6. Mongodb
 
 1. https://www.mongodb.com/blog/post/generating-globally-unique-identifiers-for-use-with-mongodb
 1. https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/
 
-https://aws-observability.github.io/observability-best-practices/guides/serverless/aws-native/lambda-based-observability/#use-distributed-tracing-using-aws-x-ray

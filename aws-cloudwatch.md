@@ -8,6 +8,7 @@
 - [4. Custom Metrics](#4-custom-metrics)
 - [5. Custom Dashboard using CDK](#5-custom-dashboard-using-cdk)
 - [6. DocumentDB](#6-documentdb)
+- [Videos](#videos)
 - [7. Tutorials](#7-tutorials)
 - [8. Workshops](#8-workshops)
 - [9. Subscription filters](#9-subscription-filters)
@@ -48,6 +49,14 @@
 # 6. DocumentDB
 
 7. [Dashboard automation for DocumentDB](https://catalog.us-east-1.prod.workshops.aws/workshops/464d6c17-9faa-4fef-ac9f-dd49610174d3/en-US/monitoring/deploy)
+
+# Videos
+
+1. [Monitor AWS Resources Using Amazon CloudWatch Dashboards](https://www.youtube.com/watch?v=I7EFLChc07M)
+1. [Monitoring Resources on AWS: CloudWatch Metrics and Dashboards](https://www.youtube.com/watch?v=9qKryBb7t6s)
+1. [How To Create a CloudWatch Dashboard | Step by Step Walkthrough By Be A Better Dev](https://www.youtube.com/watch?v=5QK3FB1EsV0)
+> 1. [[**MY-NEXT**] Building Amazon CloudWatch dashboards with AWS CDK By FooBar Serverless](https://www.youtube.com/watch?v=0VNKHIcQ5wk)
+> 1. [CloudWatch Embedded Metric Format by cloudonaut](https://www.youtube.com/watch?v=HdopVzW6pX0)
 
 # 7. Tutorials
 
