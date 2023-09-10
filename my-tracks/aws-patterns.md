@@ -15,11 +15,10 @@
 - [12. Scatter Gather](#12-scatter-gather)
 - [13. Sequence Generator](#13-sequence-generator)
 - [14. Storage-first patterns](#14-storage-first-patterns)
-- [15. System Design](#15-system-design)
-- [16. Task Scheduling](#16-task-scheduling)
-- [17. WebHook](#17-webhook)
-- [18. Websockets](#18-websockets)
-- [19. Webhooks](#19-webhooks)
+- [15. Task Scheduling](#15-task-scheduling)
+- [16. WebHook](#16-webhook)
+- [17. Websockets](#17-websockets)
+- [18. Webhooks](#18-webhooks)
 
 <!-- /TOC -->
 
@@ -118,22 +117,11 @@
 6. [Build Asynchronous API's using the Storage First Pattern & the AWS CDK By James Eastham](https://www.youtube.com/watch?v=E7M2WKM4O8Q&t=13s)
 - [Use ChaptGPT to convert to Java](https://github.com/jeastham1993/sustainable-architecture-patterns)
 
-# 15. System Design
-
-1. [10 System Design Algorithms, Protocols, and Distributed Data Structure to solve large-scales Problems](https://medium.com/javarevisited/10-system-design-algorithms-protocols-and-distributed-data-structure-to-solve-large-scales-40bd24d9a57f)
-2. [Top 7 Most-Used Distributed System Patterns By ByteByteGo](https://www.youtube.com/watch?v=nH4qjmP2KEE)
-https://www.youtube.com/watch?v=zvWKqUiovAM
-3. [Uncovering Stack Overflow's Shocking Architecture By ByteByteGo](https://www.youtube.com/watch?v=fKc050dvNIE)
-4. [How Discord Stores TRILLIONS of Messages By ByteByteGo](https://www.youtube.com/watch?v=O3PwuzCvAjI)
-5. [Cache Systems Every Developer Should Know By ByteByteGo](https://www.youtube.com/watch?v=dGAgxozNWFE)
-6. [System Design Interview: A Step-By-Step Guide By ByteByteGo](https://www.youtube.com/watch?v=i7twT3x5yv8)
-7. [Top 6 Most Popular API Architecture Styles  By ByteByteGo](https://www.youtube.com/watch?v=4vLxWqE94l4   )
-
-# 16. Task Scheduling
+# 15. Task Scheduling
 
 1. [Serverless Scheduling with Amazon EventBridge, AWS Lambda, and Amazon DynamoDB by Peter Grman](https://aws.amazon.com/blogs/architecture/serverless-scheduling-with-amazon-eventbridge-aws-lambda-and-amazon-dynamodb/)
 
-# 17. WebHook
+# 16. WebHook
 
 1. [Mastering AWS Lambda Yohan Wadia, Udita Gupta#Invoking Lambda using an external application](https://learning.oreilly.com/library/view/mastering-aws-lambda/9781786467690/25d22e80-8526-4310-994d-9b7863f938c5.xhtml)
 2. AWS Lambda in Action Danilo Poccia
@@ -144,11 +132,11 @@ https://www.youtube.com/watch?v=zvWKqUiovAM
 - HTTPS endpoint and code for linking your Git repository to AWS
 5. [Amazon Aurora & Amazon EventBridge Webhooks Sample](https://github.com/aws-samples/amazon-aurora-eventbridge-webhooks)
 
-# 18. Websockets
+# 17. Websockets
 
 1. [See APGW backlog.md#WebSockets][./apgw-backlog.md]
 
-# 19. Webhooks
+# 18. Webhooks
 
 1. [Building a Webhooks System By Derek Comartin](https://www.youtube.com/watch?v=NuHC5uwbFAc&list=PLThyvG1mlMzm2FyVpKDiU2c7VtrB2Zezg&index=33)
 2. [Building a Webhooks System with Event Driven Architecture](https://codeopinion.com/building-a-webhooks-system-with-event-driven-architecture/)
