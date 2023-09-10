@@ -15,6 +15,8 @@ https://www.epochconverter.com/weeks/2023
 - [11. AWS Samples to try](#11-aws-samples-to-try)
 - [12. Courses to try](#12-courses-to-try)
 - [13. Books to try](#13-books-to-try)
+- [09102023 - New planning](#09102023---new-planning)
+  - [Mornings](#mornings)
 
 <!-- /TOC -->
 
@@ -157,3 +159,10 @@ https://www.epochconverter.com/weeks/2023
 # 13. Books to try
 
 1. [[READ THIS BOOK] AWS System Administration Mike Ryan, Federico Lucifredi](https://learning.oreilly.com/library/view/aws-system-administration/9781449342562/foreword01.html)
+
+
+# 09102023 - New planning
+
+## Mornings
+1. Do ECS Tutorial, AWS Cookbook
+1. AWS Fundamentals

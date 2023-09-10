@@ -22,6 +22,8 @@
 1. [AWS Lambda based Serverless Observability](https://aws-observability.github.io/observability-best-practices/guides/serverless/aws-native/lambda-based-observability)
 - curate and place it in appropriate category
 1. https://www.youtube.com/watch?v=-PCwCBHOS08
+1. https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/
+1. [Read about Idempotency](../my-tracks/powertools.md#6-idempotency)
 
 # Tracks to plan
 
