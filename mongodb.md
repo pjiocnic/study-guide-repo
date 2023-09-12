@@ -35,6 +35,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 - [25. Curate](#25-curate)
 - [26. Unique Ids](#26-unique-ids)
 - [27. Sequence Generation](#27-sequence-generation)
+- [Sample Data Sets](#sample-data-sets)
 
 <!-- /TOC -->
 
@@ -221,3 +222,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. https://www.slmanju.com/2021/07/design-unique-sequence-with-mongodb.html
 1. https://data-flair.training/blogs/mongodb-auto-increment-sequence/
 1. https://sujalmandal.medium.com/creating-sequence-id-in-with-mongo-spring-data-4fc3fd20d685
+
+# Sample Data Sets
+
+1. https://github.com/neelabalan/mongodb-sample-dataset

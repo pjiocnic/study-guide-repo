@@ -8,7 +8,7 @@ https://www.epochconverter.com/weeks/2023
 - [4. Planning my next big topic](#4-planning-my-next-big-topic)
 - [5. Weekend](#5-weekend)
 - [6. Weekly - planning](#6-weekly---planning)
-- [7. Topics to explore](#7-topics-to-explore)
+- [7. Blogs to explore](#7-blogs-to-explore)
 - [8. Topics to explore](#8-topics-to-explore)
 - [9. Blogs to explore](#9-blogs-to-explore)
 - [10. Workshops planning](#10-workshops-planning)
@@ -88,7 +88,7 @@ https://www.epochconverter.com/weeks/2023
 7. [AWS Lambda resources](https://aws.amazon.com/lambda/resources/?aws-lambda-resources-blog.sort-by=item.additionalFields.createdDate&aws-lambda-resources-blog.sort-order=desc)
 8. [SQS Developer Documentstion](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-basic-architecture.html)
 
-# 7. Topics to explore
+# 7. Blogs to explore
 
 1. [Unlike MQ, why SQS does not have a message broker](https://neiljbrown.com/2017/08/26/evaluating-message-brokers-amazon-sqs/)
 2. [Message Broker or Bus – what’s the difference?](https://neiljbrown.com/2017/05/13/message-broker-or-bus-whats-the-difference/)
@@ -164,5 +164,7 @@ https://www.epochconverter.com/weeks/2023
 # 09102023 - New planning
 
 ## Mornings
+
 1. Do ECS Tutorial, AWS Cookbook
 1. AWS Fundamentals
+1. https://www.wellarchitectedlabs.com/

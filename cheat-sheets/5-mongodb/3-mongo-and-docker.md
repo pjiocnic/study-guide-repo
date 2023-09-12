@@ -9,8 +9,10 @@ docker run -d --name mongodb602 \
   -v $HOME/DOCKER/dockerMongoDB/datafiles602:/data/db \
   mongo:latest
 ```
+
 For windows
 
+```javascript {.line-numbers}
 docker volume create --name=mongodata
 docker run -d --name mongodb602 ^
   -p 27417:27017 ^
@@ -18,6 +20,9 @@ docker run -d --name mongodb602 ^
   -e MONGO_INITDB_ROOT_PASSWORD=rpassw1 ^
   -v mongodata:/data/db ^
   mongo:latest
+```
+
+Validate
 
 ```javascript {.line-numbers}
 docker ps -a

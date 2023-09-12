@@ -17,6 +17,7 @@
 # My Plan for this week
 
 1. [AWS Lambda Operator Guide](https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html)
+1. Serverless Lens
 1. [AWS Lambda Handler Cookbook (Python) By Ran The Builder](https://github.com/ran-isenberg/aws-lambda-handler-cookbook)
 1. [PowerTools](../my-tracks/powertools.md)
 1. [AWS Lambda based Serverless Observability](https://aws-observability.github.io/observability-best-practices/guides/serverless/aws-native/lambda-based-observability)
