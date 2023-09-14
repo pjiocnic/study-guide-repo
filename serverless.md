@@ -8,6 +8,7 @@
 - [4. Observability](#4-observability)
 - [5. Patterns](#5-patterns)
 - [6. Videos](#6-videos)
+- [Samples](#samples)
 
 <!-- /TOC -->
 
@@ -74,4 +75,8 @@
 # 6. Videos
 
 1. [AWS re:Invent 2022 - Serverless Compute](https://www.youtube.com/watch?v=SbL3a9YOW7s&list=PL2yQDdvlhXf8Erryfslfo3E42QtcX-aiD)
+
+# Samples
+
+1. [Serverless Samples](https://github.com/aws-samples/serverless-samples/tree/main)
 

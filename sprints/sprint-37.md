@@ -25,7 +25,11 @@
 1. https://www.youtube.com/watch?v=-PCwCBHOS08
 1. https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/
 1. [Read about Idempotency](../my-tracks/powertools.md#6-idempotency)
+1. [Best practices: Configuring AWS Lambda SQS batch size](https://medium.com/capital-one-tech/best-practices-configuring-aws-lambda-sqs-batch-size-27ebc8a5d5ce)
 
 # Tracks to plan
 
 1. [CDK and Python](../my-tracks/cdk_python.md)
+1. https://www.mongodb.com/blog/post/atlas-integrations-aws-cloud-formation-cdk-now-generally-available
+1. https://github.com/mongodb/awscdk-resources-mongodbatlas/tree/main/examples/mern-cdk-ci-cd
+1. https://www.mongodb.com/developer/products/atlas/serverless-development-lambda-atlas/

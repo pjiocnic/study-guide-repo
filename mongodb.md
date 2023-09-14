@@ -35,7 +35,9 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 - [25. Curate](#25-curate)
 - [26. Unique Ids](#26-unique-ids)
 - [27. Sequence Generation](#27-sequence-generation)
-- [Sample Data Sets](#sample-data-sets)
+- [28. Sample Data Sets](#28-sample-data-sets)
+- [29. Authorization](#29-authorization)
+- [30. Transactions](#30-transactions)
 
 <!-- /TOC -->
 
@@ -223,6 +225,14 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. https://data-flair.training/blogs/mongodb-auto-increment-sequence/
 1. https://sujalmandal.medium.com/creating-sequence-id-in-with-mongo-spring-data-4fc3fd20d685
 
-# Sample Data Sets
+# 28. Sample Data Sets
 
 1. https://github.com/neelabalan/mongodb-sample-dataset
+
+# 29. Authorization
+
+1. [Using AWS IAM Authentication with MongoDB 4.4 in Atlas to Build Modern Secure Applications](https://www.youtube.com/watch?v=99iV9lCctrU)
+
+# 30. Transactions
+
+1. []()
