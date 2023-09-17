@@ -9,6 +9,7 @@
 1. [Deploying Lambda with EKS and Crossplane | Serverless Office Hours](https://www.youtube.com/watch?v=8CdyxX7eGkA&t=2318s)
 1. [Operating Lambda: Using CloudWatch Logs Insights by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-using-cloudwatch-logs-insights/)
 1. [Understanding AWS Lambda’s invoke throttling limits By Archana Srikanta](https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/)
+1. [Get to Grips with AWS IAM Roles: Terms, Concepts, and Examples](https://blog.awsfundamentals.com/aws-iam-roles-terms-concepts-and-examples)
 
 # 2. On-Hold
 
@@ -33,3 +34,4 @@
 1. https://www.mongodb.com/blog/post/atlas-integrations-aws-cloud-formation-cdk-now-generally-available
 1. https://github.com/mongodb/awscdk-resources-mongodbatlas/tree/main/examples/mern-cdk-ci-cd
 1. https://www.mongodb.com/developer/products/atlas/serverless-development-lambda-atlas/
+

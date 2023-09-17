@@ -7,3 +7,4 @@
 1. [Enlear Academy](https://www.youtube.com/c/EnlearAcademy)
 1. [Dan Vega's videos](https://www.youtube.com/@DanVega/videos)
 1. [Ran the Builder](https://www.ranthebuilder.cloud/)
+1. [learn-cantrill-io-labs](https://github.com/acantril/learn-cantrill-io-labs/tree/master)

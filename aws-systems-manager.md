@@ -13,7 +13,13 @@
 
 <img src="./images/custom-resources-architecture-diagram.png" title="custom-resources-architecture-diagram.png" width="900"/>
 
-# 2. Workshop
+# 2. Videos
+
+1. [All Things Patch: AWS Systems Manager | AWS Events](https://www.youtube.com/watch?v=PhIiVsCEBu8)
+1. [Automating Operations with AWS Systems Manager | AWS Events](https://www.youtube.com/watch?v=qNi-CNpnfmY)
+1. [Mini Project - Learn how to use AWS Systems Manager By LearnCantrill](https://www.youtube.com/watch?v=B2MecqC5nJA)
+
+# 3. Workshop
 
 1. [AWS CloudWatch and Systems Manager Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US)
 2. [AWS for Linux Workloads Immersion Day > Systems Manager](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US/200-ssm)
@@ -22,3 +28,4 @@
 - Patch Management
 - Create AWS Config rule to detect when banned applications are installed
 - [com-workshop-resources.yaml](./templates/systems-manager/com-workshop-resources.yaml)
+4. [Workshop: Cloud Operations on AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/79a61310-00d6-4abd-9c96-b5f856659507/en-US)

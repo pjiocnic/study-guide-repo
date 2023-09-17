@@ -142,6 +142,10 @@ https://www.epochconverter.com/weeks/2023
     - Lab 10: Chaos testing with AWS Fault Injection Simulator
 1. EC2 spot instances
 1. PostGresSQL workshop
+1. [Finding And Remediating Misconfigurations](https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating.html)
+    - [How to detect a public bucket created without encryption](https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating/6001_s3_bucket.html)
+    - [How to detect a customer accidentally created an IAM role policy that is overly permissive](https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating/6002_aws_iam.html)
+    - [How to detect a customer accidentally created a SNS topic and SQS queue without encryption](https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating/6003_aws_sqs_and_sns.html)
 
 # 11. AWS Samples to try
 
@@ -168,3 +172,4 @@ https://www.epochconverter.com/weeks/2023
 1. Do ECS Tutorial, AWS Cookbook
 1. AWS Fundamentals
 1. https://www.wellarchitectedlabs.com/
+1. https://www.youtube.com/@LearnCantrill/videos
