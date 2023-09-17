@@ -53,3 +53,6 @@
 ## 8.1. URL Shortner
 
 1. [Building Serverless URL Shortener Service on AWS Using API Gateway and Dynamodb](https://dev.to/aws-builders/building-serverless-url-shortener-service-on-aws-1895)
+
+https://aws.amazon.com/blogs/compute/using-api-gateway-mapping-templates-to-handle-changes-in-your-back-end-apis/
+https://www.alexdebrie.com/posts/api-gateway-elements/
