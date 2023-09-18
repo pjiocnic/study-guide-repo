@@ -22,19 +22,12 @@
 1. Complete notes from workshop - [AWS Management and Governance Tools Workshop > AWS Config](https://mng.workshop.aws/config.html)
 1. Complete notes on AWS Config Workshop/Config Rule With Lambda
 1. Complete notes on AWS Config Workshop/Config Rule With remediation
-1. For AWS Config Workshop/Config Rule With Lambda, Update diagram for ConfigSSmLab.yml ie cloudwatch triggering lambda
-1. Complete HA Web Workshop (https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US)
-1. Continue working thru workshop here - https://workshop-aws-account-setup.fstehle.com/
-1. [Learn Python On AWS Workshop > Inputs > Lab 5 - Inputs > Step 1 - User input from the console](https://catalog.us-east-1.prod.workshops.aws/workshops/3d705026-9edc-40e8-b353-bdabb116c89c/en-US/inputs/lab-5/step-1)
-1. [Extended CDK Workshop > JSII](https://catalog.us-east-1.prod.workshops.aws/workshops/071bbc60-6c1f-47b6-8c66-e84f5dc96b3f/en-US/40-jsii)
-1. AWS Control Tower workshop: Will get back to this workshop after few months.  The cost to do this workshop = $50
-1. CloudTrail workshop (prep - understand the cdk code in oneobservability workshop before continuing with this workshop)
-1. Workshop - [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US/introduction/project-init)
+
 1. [Stream Amazon CloudWatch Logs to a Centralized Account for Audit and Analysis by David Bailey](https://aws.amazon.com/blogs/architecture/stream-amazon-cloudwatch-logs-to-a-centralized-account-for-audit-and-analysis/)
 1. Workshop - [Amazon DocumentDB (with MongoDB compatibility) Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/464d6c17-9faa-4fef-ac9f-dd49610174d3/en-US)
 1. [Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
 1. [How to monitor Amazon DynamoDB](https://aws.amazon.com/blogs/database/how-to-use-amazon-cloudwatch-to-monitor-amazon-dynamodb-table-size-and-item-count-metrics/)
-1. Workshop - [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
+
 1. Complete making notes on `/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/[TODO]svs-307-powertools`. Check out the TODO section in my-readme.md
 1. Complete /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/cdk/sample-app/my-readme.md
 
@@ -54,3 +47,15 @@
 5. [Performance Eﬃciency Pillar AWS Well-Architected Framework. AGPIAL Audiobook](https://www.youtube.com/watch?v=jze2oaojNSI)
 6. [Operational Excellence Pillar AWS Well-Architected Framework. AGPIAL Audiobook](https://www.youtube.com/watch?v=Vhk6a5MUhE8)
 7. [Cost Optimization Pillar AWS Well-Architected Framework AGPIAL Audiobook](https://www.youtube.com/watch?v=zeLyoWund1I)
+
+# Workshop
+
+1. CloudTrail workshop (prep - understand the cdk code in oneobservability workshop before continuing with this workshop)
+1. Workshop - [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US/introduction/project-init)
+1. AWS Control Tower workshop: Will get back to this workshop after few months.  The cost to do this workshop = $50
+1. [Learn Python On AWS Workshop > Inputs > Lab 5 - Inputs > Step 1 - User input from the console](https://catalog.us-east-1.prod.workshops.aws/workshops/3d705026-9edc-40e8-b353-bdabb116c89c/en-US/inputs/lab-5/step-1)
+1. [Extended CDK Workshop > JSII](https://catalog.us-east-1.prod.workshops.aws/workshops/071bbc60-6c1f-47b6-8c66-e84f5dc96b3f/en-US/40-jsii)
+1. For AWS Config Workshop/Config Rule With Lambda, Update diagram for ConfigSSmLab.yml ie cloudwatch triggering lambda
+1. Complete HA Web Workshop (https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US)
+1. Continue working thru workshop here - https://workshop-aws-account-setup.fstehle.com/
+1. Workshop - [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
