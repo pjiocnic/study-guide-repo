@@ -31,12 +31,23 @@
 1. Complete making notes on `/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/[TODO]svs-307-powertools`. Check out the TODO section in my-readme.md
 1. Complete /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/cdk/sample-app/my-readme.md
 
-# 1. JSON Handling
+
+# 1. ECS
+
+1. [[**MUST TRY**] Spring Pet Clinic - Deploying Java Microservices on Amazon Elastic Container Service by Huy Huynh and Magnus Bjorkman](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
+1. [[**MUST TRY**] Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
+    - Architecture: SNS -> SQS -> ECS (Java Polls SQS) -> EventBridge -> Lambda/Dynamodb
+
+# 2. EventBridge
+
+1. [{Orchestrator] Insurance Claims Processing using Serverless and Event-Driven Architecture](https://github.com/aws-samples/serverless-eda-insurance-claims-processing)
+
+# 3. JSON Handling
 
 1. [Spring Boot & JsonNode: How to use it and when to turn to creating Custom Deserializers](https://www.youtube.com/watch?v=cw0TfpcUkao)
 1. [Spring Boot & JSON: A Practical Guide to reading JSON and Persisting it to a database](https://www.youtube.com/watch?v=EumLbf8WjnY)
 
-# 2. WAF
+# 4. WAF
 
 1. [Serverless Applications Lens - AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html)
 2. [Serverless Applications Lens AWS Well-Architected Framework By AGPIAL](https://www.youtube.com/watch?v=g1WpzZHQ4Gc)
@@ -48,7 +59,7 @@
 6. [Operational Excellence Pillar AWS Well-Architected Framework. AGPIAL Audiobook](https://www.youtube.com/watch?v=Vhk6a5MUhE8)
 7. [Cost Optimization Pillar AWS Well-Architected Framework AGPIAL Audiobook](https://www.youtube.com/watch?v=zeLyoWund1I)
 
-# Workshop
+# 5. Workshop
 
 1. CloudTrail workshop (prep - understand the cdk code in oneobservability workshop before continuing with this workshop)
 1. Workshop - [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US/introduction/project-init)

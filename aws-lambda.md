@@ -201,6 +201,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 14. Destinations
 
 1. [Introducing AWS Lambda Destinations by Julian Wood](https://aws.amazon.com/blogs/compute/introducing-aws-lambda-destinations/)
+> 1. [[**MY-NEXT**] Lambda Destinations: What We Learned the Hard Way By Trek10](https://www.trek10.com/blog/lambda-destinations-what-we-learned-the-hard-way)
 
 # 15. Devops
 

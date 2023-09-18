@@ -17,6 +17,7 @@
 
 # My Plan for this week
 
+1. [[**MY-NEXT**] Lambda Destinations: What We Learned the Hard Way By Trek10](https://www.trek10.com/blog/lambda-destinations-what-we-learned-the-hard-way)
 1. [Implementing the transactional outbox pattern with Amazon EventBridge Pipes By Sayan Moitra](https://aws.amazon.com/blogs/compute/implementing-the-transactional-outbox-pattern-with-amazon-eventbridge-pipes/)
 1. [AWS Lambda Operator Guide](https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html)
 1. Serverless Lens
