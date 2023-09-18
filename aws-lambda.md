@@ -7,7 +7,8 @@
 - [3. Architecture](#3-architecture)
 - [4. Autoscaling](#4-autoscaling)
 - [5. Batch Processing](#5-batch-processing)
-  - [5.1. Checkpointing](#51-checkpointing)
+  - [5.1. Why is it cost effective?](#51-why-is-it-cost-effective)
+  - [5.2. Checkpointing](#52-checkpointing)
 - [6. Costs](#6-costs)
 - [7. Cookbooks](#7-cookbooks)
   - [7.1. Cookbook by Ran Isenberg](#71-cookbook-by-ran-isenberg)
@@ -120,7 +121,11 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 # 5. Batch Processing
 
-## 5.1. Checkpointing
+## 5.1. Why is it cost effective?
+
+1. [Why you should avoid setting batch size = 1 for the SQS/Lambda event pattern By Capital One Tech](https://medium.com/capital-one-tech/best-practices-configuring-aws-lambda-sqs-batch-size-27ebc8a5d5ce)
+
+## 5.2. Checkpointing
 
 1. [Optimizing batch processing with custom checkpoints in AWS Lambda by James Beswick |](https://aws.amazon.com/blogs/compute/optimizing-batch-processing-with-custom-checkpoints-in-aws-lambda/)
 
