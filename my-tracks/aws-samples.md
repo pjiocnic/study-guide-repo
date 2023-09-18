@@ -7,7 +7,9 @@
 - [3. Config](#3-config)
 - [4. CDK](#4-cdk)
 - [5. EC2-Spot-Instances-Labs](#5-ec2-spot-instances-labs)
-- [6. Eventbridge,Orchestrator](#6-eventbridgeorchestrator)
+- [6. Eventbridge](#6-eventbridge)
+  - [6.1. Orchestrator](#61-orchestrator)
+  - [6.2. Transaction Outbox Pattern](#62-transaction-outbox-pattern)
 - [7. ECS,Spring](#7-ecsspring)
 - [8. ECS,Lambda,SQS](#8-ecslambdasqs)
 - [9. ECS,EventBridge](#9-ecseventbridge)
@@ -48,9 +50,13 @@
 
 1. [ec2-spot-labs](https://github.com/awslabs/ec2-spot-labs)
 
-# 6. Eventbridge,Orchestrator
+# 6. Eventbridge
 
+## 6.1. Orchestrator
 1. [Insurance Claims Processing using Serverless and Event-Driven Architecture](https://github.com/aws-samples/serverless-eda-insurance-claims-processing)
+
+## 6.2. Transaction Outbox Pattern
+1. [Implementing the transactional outbox pattern with Amazon EventBridge Pipes By Sayan Moitra](https://aws.amazon.com/blogs/compute/implementing-the-transactional-outbox-pattern-with-amazon-eventbridge-pipes/)
 
 # 7. ECS,Spring
 
@@ -139,3 +145,10 @@
 8. https://github.com/aws-quickstart
 9. https://github.com/awslabs
 10. https://github.com/aws-samples
+
+
+1. [AWS serverless patterns](https://github.com/aws-samples/serverless-patterns/tree/main)
+2. [Powertools for AWS Lambda (Java)](https://github.com/awslabs/aws-lambda-powertools-java)
+
+3. [CDK Samples](https://github.com/orgs/aws-samples/repositories?language=&page=5&q=cdk&sort=&type=all)
+4. [Open Source at AWS](https://aws.github.io/)

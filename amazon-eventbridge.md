@@ -7,6 +7,7 @@
 - [4. Integration](#4-integration)
   - [4.1. ECS](#41-ecs)
   - [4.2. Glue](#42-glue)
+  - [4.3. DynamoDBStreams](#43-dynamodbstreams)
 - [5. Patterns](#5-patterns)
 - [6. Event Broker](#6-event-broker)
 - [7. SkillBuilder Course](#7-skillbuilder-course)
@@ -44,9 +45,14 @@
 - /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/eventbridge/event-driven-workflow-tutorial
 - [event_driven_workflow_tutorial.yaml](./templates/event_driven_workflow_tutorial.yaml)]
 
+## 4.3. DynamoDBStreams
+1. [Implementing the transactional outbox pattern with Amazon EventBridge Pipes By Sayan Moitra](https://aws.amazon.com/blogs/compute/implementing-the-transactional-outbox-pattern-with-amazon-eventbridge-pipes/)
+
 # 5. Patterns
 
-1. [Amazon Aurora & Amazon EventBridge Webhooks Sample](https://github.com/aws-samples/amazon-aurora-eventbridge-webhooks)
+1. [[WebHooks] Amazon Aurora & Amazon EventBridge Webhooks Sample](https://github.com/aws-samples/amazon-aurora-eventbridge-webhooks)
+1. [{Orchestrator] Insurance Claims Processing using Serverless and Event-Driven Architecture](https://github.com/aws-samples/serverless-eda-insurance-claims-processing)
+1. [[Transactional outbox pattern ] Implementing the transactional outbox pattern with Amazon EventBridge Pipes By Sayan Moitra](https://aws.amazon.com/blogs/compute/implementing-the-transactional-outbox-pattern-with-amazon-eventbridge-pipes/)
 
 # 6. Event Broker
 
