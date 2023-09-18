@@ -17,6 +17,7 @@
 
 # My Plan for this week
 
+1. [Implementing the transactional outbox pattern with Amazon EventBridge Pipes By Sayan Moitra](https://aws.amazon.com/blogs/compute/implementing-the-transactional-outbox-pattern-with-amazon-eventbridge-pipes/)
 1. [AWS Lambda Operator Guide](https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html)
 1. Serverless Lens
 1. [AWS Lambda Handler Cookbook (Python) By Ran The Builder](https://github.com/ran-isenberg/aws-lambda-handler-cookbook)
