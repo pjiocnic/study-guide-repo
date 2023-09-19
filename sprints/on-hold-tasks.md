@@ -47,6 +47,8 @@
 1. DLQs - why Lambda DLQs don't suport SQS? https://www.youtube.com/watch?v=hOetf6YN3zo&lc=Ugy1J5lsqtlB5mUBFVt4AaABAg.9unsQBRi0TN9unvMmRmQml
 1. Destinations - Why for SQS we dont have destinations?
 1. Read thru' AWS fundamentals
+1. [**[MY NEXT]** Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
+1. [**[MY NEXT]** Using Amazon SQS dead-letter queues to replay messages By Alexandre Pinhel](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages/)
 
 # 4. JSON Handling
 
