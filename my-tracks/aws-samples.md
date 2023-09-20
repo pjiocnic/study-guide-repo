@@ -18,6 +18,7 @@
   - [11.1. Pricing](#111-pricing)
   - [11.2. Powertools](#112-powertools)
 - [12. Kinesis](#12-kinesis)
+- [Multi-service](#multi-service)
 - [13. Networking](#13-networking)
 - [14. SQS](#14-sqs)
 - [15. Step Functions](#15-step-functions)
@@ -99,6 +100,14 @@
 # 12. Kinesis
 
 1. [See Alleycat and Leaderboard Examples](../amazon-kinesis.md#5-lambda)
+
+# Multi-service
+
+1. [[**MY-NEXT**] serverless-webapp-ci-cd-java By Pankaj Aggarwal](https://github.com/aws-samples/serverless-webapp-mono-repo-ci-cd-java/tree/master)
+
+<img src="./images/serverless-webapp-mono-repo-ci-cd-java.png" title="serverless-webapp-mono-repo-ci-cd-java.png" width="900"/>
+
+- Powertools (mentioned in https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/)
 
 # 13. Networking
 

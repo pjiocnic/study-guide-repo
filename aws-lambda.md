@@ -32,6 +32,7 @@
   - [16.4. SAM](#164-sam)
   - [16.5. Snapstart](#165-snapstart)
   - [16.6. Code organization](#166-code-organization)
+- [17. DLQs](#17-dlqs)
 - [18. Extensions](#18-extensions)
 - [19. Event Source Mapping](#19-event-source-mapping)
   - [19.1. Core](#191-core)
@@ -105,10 +106,10 @@
 
 # 2. AWS Lambda Web Adapter
 
-1. [Using response streaming with AWS Lambda Web Adapter to optimize performance by Harold Sun](https://aws.amazon.com/blogs/compute/using-response-streaming-with-aws-lambda-web-adapter-to-optimize-performance/)
-1. [A tool to run web applications on AWS Lambda](https://github.com/awslabs/aws-lambda-web-adapter)
-1. [Developing portable AWS Lambda functions By Uri Segev,]()
+1. [Developing portable AWS Lambda functions By Uri Segev](https://aws.amazon.com/blogs/compute/developing-portable-aws-lambda-functions/)
 1. [AWS Lambda Web Adapter](https://github.com/awslabs/aws-lambda-web-adapter)
+1. [Run any web app on Lambda | Serverless Office Hours By Harold Sun](https://www.youtube.com/watch?v=ArsTZ2y7u80)
+1. [Using response streaming with AWS Lambda Web Adapter to optimize performance by Harold Sun](https://aws.amazon.com/blogs/compute/using-response-streaming-with-aws-lambda-web-adapter-to-optimize-performance/)
 
 # 3. Architecture
 
@@ -243,7 +244,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Best practices for organizing larger serverless applications by James Beswick](https://aws.amazon.com/blogs/compute/best-practices-for-organizing-larger-serverless-applications/)
 
-   # 17. DLQs
+# 17. DLQs
 
 1. [Durable Serverless Architectures: Working with Dead-Letter Queues API309 By Otavio Ferreira](https://d1.awsstatic.com/events/reinvent/2019/Durable_serverless_architecture_Working_with_dead-letter_queues_API309.pdf)
 2. [Asynchronous invocation](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)

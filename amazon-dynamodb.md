@@ -350,6 +350,8 @@ See [workshops-backlog.md](./workshops-backlog.md)
 6. [How I solved Dynamic Task Scheduling using AWS DynamoDB TTL, Stream and Lambda Mohammad Anik Islam](https://medium.com/monstar-lab-bangladesh-engineering/how-i-solved-dynamic-task-scheduling-using-aws-dynamodb-ttl-stream-and-lambda-c0da5ebd6597)
 7. [What is a DynamoDB Stream? (And why you should be using it!) By Be Better Dev](https://www.youtube.com/watch?v=OjppS4RWWt8)
 8. [Processing Amazon DynamoDB Streams Using the Amazon Kinesis Client Library by Mital Awachat ](https://aws.amazon.com/blogs/big-data/processing-amazon-dynamodb-streams-using-the-amazon-kinesis-client-library/)
+9. [Analyze a Time Series in Real Time with AWS Lambda, Amazon Kinesis and Amazon DynamoDB Streams by JustGiving, Saurabh Shrivastava, and Dhiraj Thakur](https://aws.amazon.com/blogs/big-data/analyze-a-time-series-in-real-time-with-aws-lambda-amazon-kinesis-and-amazon-dynamodb-streams/)
+10. [Monitor Your Application for Processing DynamoDB Streams by Mital Awachat](https://aws.amazon.com/blogs/big-data/monitor-your-application-for-processing-dynamodb-streams/)
 
 ## 17.1. Deplayed processing
 
