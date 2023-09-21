@@ -103,7 +103,7 @@
 
 # Multi-service
 
-1. [[**MY-NEXT**] serverless-webapp-ci-cd-java By Pankaj Aggarwal](https://github.com/aws-samples/serverless-webapp-mono-repo-ci-cd-java/tree/master)
+1. [[**MY-NEXT**][**ADVANCED**] serverless-webapp-ci-cd-java By Pankaj Aggarwal](https://github.com/aws-samples/serverless-webapp-mono-repo-ci-cd-java/tree/master)
 
 <img src="./images/serverless-webapp-mono-repo-ci-cd-java.png" title="serverless-webapp-mono-repo-ci-cd-java.png" width="900"/>
 
