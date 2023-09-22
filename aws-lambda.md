@@ -282,6 +282,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 ## 19.4. Kinesis
 
 1. [Filtering event sources for AWS Lambda functions](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
+1. [Advanced Event Source Mapping configuration | AWS Lambda and Amazon Kinesis Data Streams](https://www.youtube.com/watch?v=fRy9BhxlszY)
 
 # 20. Function URLs
 
