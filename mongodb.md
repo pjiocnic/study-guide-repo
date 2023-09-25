@@ -145,6 +145,9 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 
 1. [Versioning using mongoose-vermongo](https://medium.com/versioning-in-database-mongodb-versioning-vermongo/database-versioning-7cf59a729bb3)
 1. [Implement Document Versioning Pattern with MongoDB Atlas](https://www.youtube.com/watch?v=BLILsO060gY)
+1. [[**MY-NEXT**] How to create document versioning in MongoDB using Spring Boot, REST API. #TechieTaught](https://www.youtube.com/watch?v=wSVsMFGkbOs)
+1. [[**MY-NEXT**] Versioning code](https://github.com/rabrath/techietaught/tree/master)
+
 
 # 12. Optimistic Locking
 

@@ -4,10 +4,15 @@
 
 1. Complete Eventbridge Transformations - https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/
 1. Complete [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US/introduction/project-init)
-1. Complete Config workshop notes
+1. Complete AWS Config workshop notes
 1. Get back to WAF workshop
 1. Restart SC003 prep
 1. Typescript quickstart guide for CDK (use examples from https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/)
+
+# Working on
+
+1. [[**MY-NEXT**] How to create document versioning in MongoDB using Spring Boot, REST API. #TechieTaught](https://www.youtube.com/watch?v=wSVsMFGkbOs)
+1. [[**MY-NEXT**] Versioning code](https://github.com/rabrath/techietaught/tree/master)
 
 # Videos to watch this week
 
