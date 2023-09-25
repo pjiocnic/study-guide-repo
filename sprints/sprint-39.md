@@ -14,6 +14,7 @@
 1. [[**MY-NEXT**] How to create document versioning in MongoDB using Spring Boot, REST API. #TechieTaught](https://www.youtube.com/watch?v=wSVsMFGkbOs)
 1. [[**MY-NEXT**] Versioning code](https://github.com/rabrath/techietaught/tree/master)
 
+
 # Videos to watch this week
 
 1. [AWS Lambda observability! ](https://www.youtube.com/watch?v=Gn9jKKbQrnc&list=PLJo-rJlep0EB-SNDHVyfes014G4h3p46q&index=39)
@@ -26,3 +27,4 @@
 1. [Amazon EventBridge to SNS to Lambda Function](https://serverlessland.com/patterns/eventbridge-sns-lambda)
 a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/documentdb/amazon-documentdb-workshop/resources/change-streams.yml` and understand how SNS is setup as a scheduler. b) Update the architecture diagram
 1. [Creating Amazon EventBridge rules that react to events](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-create-rule.html)
+1. [Lambda event source mappings](https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventsourcemapping.html)
