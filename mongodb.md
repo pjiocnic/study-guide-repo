@@ -11,9 +11,12 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 - [5. Change Data Streams](#5-change-data-streams)
 - [6. Connection Pooling](#6-connection-pooling)
 - [7. Lambda](#7-lambda)
-- [8. Spring Data](#8-spring-data)
-- [9. Spring boot and docker](#9-spring-boot-and-docker)
-- [Transactions](#transactions)
+- [8. Java](#8-java)
+  - [8.1. Docker](#81-docker)
+  - [8.2. Spring Data](#82-spring-data)
+  - [8.3. 3rd Party](#83-3rd-party)
+  - [8.4. Implementing Polymorphism](#84-implementing-polymorphism)
+- [9. Transactions](#9-transactions)
 - [10. JOINs and Aggregations](#10-joins-and-aggregations)
 - [11. Versioning](#11-versioning)
 - [12. Optimistic Locking](#12-optimistic-locking)
@@ -65,7 +68,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 - Polymorphism
 1. [All Schema Tutorials from MongoDB](https://www.mongodb.com/developer/products/mongodb/schema/tutorials/)
 1. [Building with Patterns: A Summary](https://www.mongodb.com/blog/post/building-with-patterns-a-summary)
-> 1. [[**START-HERE**]Document Validation for Polymorphic Collections By Andrew Morgan](https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/)
+> 1. [[**START-HERE**] Document Validation for Polymorphic Collections By Andrew Morgan](https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/)
 
 # 3. Anti-Patterns
 
@@ -76,18 +79,19 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 # 4. Data Modeling
 
 1. [Data Modeling with MongoDB](https://www.youtube.com/watch?v=3GHZd0zv170)
-2. [Advanced Data Modeling](https://www.youtube.com/watch?v=qGzJRsaOOO0)
-3. [NoSQL Data Modeling for the RDBMS Developer](https://www.youtube.com/watch?v=Y9WGjiSQkt8)
-4. [MongoDB Schema Design Best Practices](https://www.youtube.com/watch?v=QAqK-R9HUhc)
-5. [Sample DataModels using Hackolade](https://github.com/hackolade/sample-data-models/blob/main/MongoDB/Northwind%20Oracle%20normalized.hck.json)
-6. [Schema Patterns - MongoDB - Part 1](https://shanu95.medium.com/schema-patterns-mongodb-part-1-16564f1198dc)
-7. [Schema Patterns - MongoDB - Part 2](https://shanu95.medium.com/schema-patterns-mongodb-part-2-73bfabf86c9)
-8. [MongoDB schema design](https://medium.com/hackernoon/mongodb-schema-design-86327d8fae83)
-9. [DocumentDB Insider Hour | Episode 14 | Data Modeling By Karthik Vijayraghavan](https://www.twitch.tv/videos/1235477994)
-10. [DocumentDB Insider Hour | Episode 21 | Document Modeling](https://www.youtube.com/watch?v=Lqjq36GC8Os)
-11. [Document modeling with Amazon DocumentDB and Hackolade by Karthik Vijayraghavan and Pascal Desmarets ](https://aws.amazon.com/blogs/database/document-modeling-with-amazon-documentdb-and-hackolade/)
-12. [<span style="color:red">[MY NEXT]</span> A Complete Methodology of Data Modeling for MongoDB](https://www.youtube.com/watch?v=DUCvYbcgGsQ)
-13. [Data Modeling Introduction By MongoDB Docs](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/)
+1. [Advanced Data Modeling](https://www.youtube.com/watch?v=qGzJRsaOOO0)
+1. [NoSQL Data Modeling for the RDBMS Developer](https://www.youtube.com/watch?v=Y9WGjiSQkt8)
+1. [MongoDB Schema Design Best Practices](https://www.youtube.com/watch?v=QAqK-R9HUhc)
+1. [Sample DataModels using Hackolade](https://github.com/hackolade/sample-data-models/blob/main/MongoDB/Northwind%20Oracle%20normalized.hck.json)
+1. [Schema Patterns - MongoDB - Part 1](https://shanu95.medium.com/schema-patterns-mongodb-part-1-16564f1198dc)
+1. [Schema Patterns - MongoDB - Part 2](https://shanu95.medium.com/schema-patterns-mongodb-part-2-73bfabf86c9)
+1. [MongoDB schema design](https://medium.com/hackernoon/mongodb-schema-design-86327d8fae83)
+1. [DocumentDB Insider Hour | Episode 14 | Data Modeling By Karthik Vijayraghavan](https://www.twitch.tv/videos/1235477994)
+1. [DocumentDB Insider Hour | Episode 21 | Document Modeling](https://www.youtube.com/watch?v=Lqjq36GC8Os)
+1. [Document modeling with Amazon DocumentDB and Hackolade by Karthik Vijayraghavan and Pascal Desmarets ](https://aws.amazon.com/blogs/database/document-modeling-with-amazon-documentdb-and-hackolade/)
+1. [<span style="color:red">[MY NEXT]</span> A Complete Methodology of Data Modeling for MongoDB](https://www.youtube.com/watch?v=DUCvYbcgGsQ)
+1. [Data Modeling Introduction By MongoDB Docs](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/)
+> 1. [[**MY-NEXT**] Modeling Data for a Car Reservation System By Rick Houlihan](https://www.youtube.com/watch?v=41ZIyAKNtdk)
 
 # 5. Change Data Streams
 
@@ -106,17 +110,25 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 2. [Manage Connections with AWS Lambda](https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/)
 3. [AWS Lambda Import JSON messages to MongoDB](https://github.com/udoheld/aws-lambda-import-json-to-mongodb/tree/master)
 
-# 8. Spring Data
+# 8. Java
 
+## 8.1. Docker
+
+1. [Spring Boot Application with MongoDB in Docker Container](https://www.appsdeveloperblog.com/deploying-spring-boot-mongodb-application-with-docker/)
+
+## 8.2. Spring Data
+
+1. [Introduction to Spring Data MongoDB](https://www.baeldung.com/spring-data-mongodb-tutorial)
 1. [Chap 17 - Working with Spring Data MongoDB @ Java Persistence with Spring Data and Hibernate By Catalin Tudose](https://learning.oreilly.com/library/view/java-persistence-with/9781617299186/OEBPS/Text/17.htm#heading_id_3)
 
-# 9. Spring boot and docker
+## 8.3. 3rd Party
+1. [Using Javers](https://javers.org/documentation/spring-boot-integration/)
 
-1. [Spring Boot Application with MongoDB in Docker Containe](https://www.appsdeveloperblog.com/deploying-spring-boot-mongodb-application-with-docker/)
-1. [Introduction to Spring Data MongoDB](https://www.baeldung.com/spring-data-mongodb-tutorial)
-1. [](https://javers.org/documentation/spring-boot-integration/)
+## 8.4. Implementing Polymorphism
 
-# Transactions
+1. [MongoDB Java Driver for Polymorphism](https://zx77.medium.com/mongodb-java-driver-for-polymorphism-8d8a9e28ec24)
+
+# 9. Transactions
 
 1. [Spring Data MongoDB Transactions](https://www.baeldung.com/spring-data-mongodb-transactions)
 1. [Spring Data MongoDB - Transaction sample](https://github.com/spring-projects/spring-data-examples/blob/main/mongodb/transactions/README.md)
