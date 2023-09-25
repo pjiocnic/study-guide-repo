@@ -152,6 +152,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 # 12. Optimistic Locking
 
 1. [Optimistic locking in Mongo](https://medium.com/@andris.briedis/optimistic-locking-in-mongo-69fa693864ec)
+1. [Snapshot isolation](https://en.wikipedia.org/wiki/Snapshot_isolation)
 
 # 13. DocumentDB vs MongoDB
 
@@ -259,4 +260,4 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 
 # 30. Transactions
 
-1. []()
+1. [Transactions course from MongoDB Institute](https://learn.mongodb.com/learn/course/mongodb-transactions/lesson-3-using-transactions-in-mongodb/learn?page=2)
