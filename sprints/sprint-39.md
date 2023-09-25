@@ -9,7 +9,7 @@
 1. Restart SC003 prep
 1. Typescript quickstart guide for CDK (use examples from https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/)
 
-# Vidoes to watch this week
+# Videos to watch this week
 
 1. [AWS Lambda observability! ](https://www.youtube.com/watch?v=Gn9jKKbQrnc&list=PLJo-rJlep0EB-SNDHVyfes014G4h3p46q&index=39)
 1. [Advanced Event Source Mapping configuration](https://www.youtube.com/watch?v=fRy9BhxlszY&list=PLGyRwGktEFqeEFoYUNRpqMEGQ30fn3ZXY&index=8)
