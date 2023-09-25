@@ -1,5 +1,11 @@
 <h1>Sprint 38 - Sep 18, 2023- Sep 25, 2023</h1>
 
+1. Complete Eventbridge Trnasformations - https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/
+1. Complete Serverless Experience workshop
+1. Complete Config workshop notes
+1. Get back to WAF workshop
+1. Restart SC003 prep
+
 # 1. In Progress
 
 1. Workshop - [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US/introduction/project-init)

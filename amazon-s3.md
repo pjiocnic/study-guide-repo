@@ -13,6 +13,7 @@
 - [9. S3 endpoints](#9-s3-endpoints)
 - [10. Static WebSites](#10-static-websites)
 - [11. Storage Classes](#11-storage-classes)
+- [Tools](#tools)
 - [12. Uploading](#12-uploading)
 - [13. Workshops](#13-workshops)
 
@@ -71,6 +72,11 @@
 
 1. [Amazon S3 Storage Classes | AWS S3](https://www.youtube.com/watch?v=EqqtzKqewaA)
 1. [Getting started using the Amazon S3 Glacier storage classes](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-glacier-storage-classes/)
+
+# Tools
+
+1. [Amazon S3 Bundler](https://github.com/jstrunk/s3bundler)
+- "Before moving Amazon DocumentDB events to S3 Glacier, you should consider bundling several events into larger objects" by using above tool
 
 # 12. Uploading
 

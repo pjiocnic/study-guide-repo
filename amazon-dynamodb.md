@@ -50,7 +50,8 @@
   - [17.4. Process DynamoDB streams using AWS Lambda](#174-process-dynamodb-streams-using-aws-lambda)
   - [17.5. Triggers](#175-triggers)
   - [17.6. Patterns](#176-patterns)
-    - [17.6.1. How to create Fan-out Patterns](#1761-how-to-create-fan-out-patterns)
+    - [17.6.1. curate](#1761-curate)
+    - [17.6.2. How to create Fan-out Patterns](#1762-how-to-create-fan-out-patterns)
   - [17.7. Event Aggregation](#177-event-aggregation)
 - [18. Transactions](#18-transactions)
 - [19. Patterns](#19-patterns)
@@ -380,7 +381,11 @@ See [workshops-backlog.md](./workshops-backlog.md)
 
 ## 17.6. Patterns
 
-### 17.6.1. How to create Fan-out Patterns
+### 17.6.1. curate
+
+[Exploring serverless patterns for Amazon DynamoDB by Talia Nassi ](https://aws.amazon.com/blogs/compute/exploring-serverless-patterns-for-amazon-dynamodb/)
+
+### 17.6.2. How to create Fan-out Patterns
 
 1. [How to perform ordered data replication between applications by using Amazon DynamoDB Streams by Aravind Kodandaramaiah](https://aws.amazon.com/blogs/database/how-to-perform-ordered-data-replication-between-applications-by-using-amazon-dynamodb-streams)
 

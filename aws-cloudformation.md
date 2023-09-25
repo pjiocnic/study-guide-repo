@@ -9,7 +9,7 @@
 - [5. Custom Resources](#5-custom-resources)
 - [6. Lambda](#6-lambda)
 - [7. Intrinsic Functions](#7-intrinsic-functions)
-- [8. Sample Templates](#8-sample-templates)
+- [8. Samples](#8-samples)
 - [9. Skillbuilder courses](#9-skillbuilder-courses)
 - [10. Stack Sets](#10-stack-sets)
 - [11. Testing](#11-testing)
@@ -57,7 +57,7 @@
 
 1. [AWS CloudFormation Intrinsic Functions By: Jeff Loughridge](https://konekti.us/post/aws-cloudformation-intrinsic-functions/)
 
-# 8. Sample Templates
+# 8. Samples
 
 1. [Cloud Foundations on AWS - Templates](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main)
 2. [AWS CloudFormation Sample Templates](https://github.com/awslabs/aws-cloudformation-templates)

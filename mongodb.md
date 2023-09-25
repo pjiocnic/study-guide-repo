@@ -13,6 +13,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 - [7. Lambda](#7-lambda)
 - [8. Spring Data](#8-spring-data)
 - [9. Spring boot and docker](#9-spring-boot-and-docker)
+- [Transactions](#transactions)
 - [10. JOINs and Aggregations](#10-joins-and-aggregations)
 - [11. Versioning](#11-versioning)
 - [12. Optimistic Locking](#12-optimistic-locking)
@@ -112,6 +113,13 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 # 9. Spring boot and docker
 
 1. [Spring Boot Application with MongoDB in Docker Containe](https://www.appsdeveloperblog.com/deploying-spring-boot-mongodb-application-with-docker/)
+1. [Introduction to Spring Data MongoDB](https://www.baeldung.com/spring-data-mongodb-tutorial)
+1. [](https://javers.org/documentation/spring-boot-integration/)
+
+# Transactions
+
+1. [Spring Data MongoDB Transactions](https://www.baeldung.com/spring-data-mongodb-transactions)
+1. [Spring Data MongoDB - Transaction sample](https://github.com/spring-projects/spring-data-examples/blob/main/mongodb/transactions/README.md)
 
 # 10. JOINs and Aggregations
 
@@ -124,6 +132,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 # 11. Versioning
 
 1. [Versioning using mongoose-vermongo](https://medium.com/versioning-in-database-mongodb-versioning-vermongo/database-versioning-7cf59a729bb3)
+1. [Implement Document Versioning Pattern with MongoDB Atlas](https://www.youtube.com/watch?v=BLILsO060gY)
 
 # 12. Optimistic Locking
 

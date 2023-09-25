@@ -20,6 +20,7 @@
 - [12. Kinesis](#12-kinesis)
 - [Multi-service](#multi-service)
 - [13. Networking](#13-networking)
+- [Serverless](#serverless)
 - [14. SQS](#14-sqs)
 - [15. Step Functions](#15-step-functions)
 - [16. Use cases](#16-use-cases)
@@ -113,6 +114,10 @@
 
 1. [[**MUST-TRY**] Workshop-Secure Hybrid Access to S3 using VPC Endpoints](https://catalog.us-east-1.prod.workshops.aws/workshops/3a8d4ddf-66c5-4d26-ae6f-6292a517f46c/en-US)
 2. [[**MUST-TRY**] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
+
+# Serverless
+
+1. [Fresh Tracks By Ben Smith](https://github.com/aws-samples/fresh-tracks/tree/master)
 
 # 14. SQS
 

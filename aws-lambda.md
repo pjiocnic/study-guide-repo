@@ -39,6 +39,7 @@
   - [19.2. Filtering](#192-filtering)
   - [19.3. FIFO SQS as Event Source](#193-fifo-sqs-as-event-source)
   - [19.4. Kinesis](#194-kinesis)
+  - [19.5. Staging](#195-staging)
 - [20. Function URLs](#20-function-urls)
 - [21. Integration with AWS Services](#21-integration-with-aws-services)
   - [21.1. ECS](#211-ecs)
@@ -283,6 +284,11 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Filtering event sources for AWS Lambda functions](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
 1. [Advanced Event Source Mapping configuration | AWS Lambda and Amazon Kinesis Data Streams](https://www.youtube.com/watch?v=fRy9BhxlszY)
+1. [Optimizing your AWS Lambda costs – Part 2 by by Chris Williams # EventFiltering](https://aws.amazon.com/blogs/compute/optimizing-your-aws-lambda-costs-part-2/)
+
+## 19.5. Staging
+
+1. [Filtering event sources for AWS Lambda functions by Heeki Park](https://aws.amazon.com/blogs/compute/filtering-event-sources-for-aws-lambda-functions/)
 
 # 20. Function URLs
 

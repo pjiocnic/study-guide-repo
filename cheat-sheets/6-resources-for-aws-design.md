@@ -38,6 +38,7 @@ https://www.youtube.com/watch?v=yg3WcAjmR90
 
 1. [Mind maps](https://www.mindmapping.com/)
 1. [Mind Map Templates](https://creately.com/diagram-community/popular/t/mind-map)
+1. [The Coggle Gallery](https://coggle.it/gallery)
 
 # 6. Design Template By ChatGPT
 
