@@ -18,13 +18,15 @@
   - [11.1. Pricing](#111-pricing)
   - [11.2. Powertools](#112-powertools)
 - [12. Kinesis](#12-kinesis)
-- [Multi-service](#multi-service)
-- [13. Networking](#13-networking)
-- [Serverless](#serverless)
-- [14. SQS](#14-sqs)
-- [15. Step Functions](#15-step-functions)
-- [16. Use cases](#16-use-cases)
-- [17. Curate](#17-curate)
+- [13. Multi-service](#13-multi-service)
+- [14. Networking](#14-networking)
+- [15. Serverless](#15-serverless)
+- [16. SQS](#16-sqs)
+- [17. Step Functions](#17-step-functions)
+  - [17.1. ECS Integration](#171-ecs-integration)
+  - [17.2. Aggregation](#172-aggregation)
+- [18. Use cases](#18-use-cases)
+- [19. Curate](#19-curate)
 
 <!-- /TOC -->
 
@@ -102,7 +104,7 @@
 
 1. [See Alleycat and Leaderboard Examples](../amazon-kinesis.md#5-lambda)
 
-# Multi-service
+# 13. Multi-service
 
 1. [[**MY-NEXT**][**ADVANCED**] serverless-webapp-ci-cd-java By Pankaj Aggarwal](https://github.com/aws-samples/serverless-webapp-mono-repo-ci-cd-java/tree/master)
 
@@ -110,16 +112,16 @@
 
 - Powertools (mentioned in https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/)
 
-# 13. Networking
+# 14. Networking
 
 1. [[**MUST-TRY**] Workshop-Secure Hybrid Access to S3 using VPC Endpoints](https://catalog.us-east-1.prod.workshops.aws/workshops/3a8d4ddf-66c5-4d26-ae6f-6292a517f46c/en-US)
 2. [[**MUST-TRY**] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
 
-# Serverless
+# 15. Serverless
 
 1. [Fresh Tracks By Ben Smith](https://github.com/aws-samples/fresh-tracks/tree/master)
 
-# 14. SQS
+# 16. SQS
 
 1. [[**MUST-TRY**] Background worker that gets jobs from an SQS queue](https://containersonaws.com/pattern/background-worker-sqs-queue-container-copilot)
 - Poll SQS queue for messages?
@@ -133,7 +135,9 @@
 
     <img src="./images/aws-ecs-4.png" title="aws-ecs-2.png" width="900"/>
 
-# 15. Step Functions
+# 17. Step Functions
+
+## 17.1. ECS Integration
 
 1. [[**MUST-TRY**] Amazon ECS and AWS Step Functions Design Patterns Starter kit](https://github.com/aws-samples/amazon-ecs-and-aws-step-functions-design-patterns-starter-kit)
 
@@ -141,12 +145,16 @@
 
     <img src="./images/Amazon_ECS_Java_Starter_Kit-Architecture_Pattern_2.png" title="Running ECS tasks using Step Functions native integration" width="900"/>
 
-# 16. Use cases
+## 17.2. Aggregation
+
+1. [[**MUST-TRY**] Building Serverless Land: Part 1 – Automating content aggregation by Benjamin Smith ](https://aws.amazon.com/blogs/compute/building-serverless-land-part-1-automating-content-aggregation/)
+
+# 18. Use cases
 
 1. [Build a fault-tolerant, serverless data aggregation pipeline with exactly-once processing by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-fault-tolerant-serverless-data-aggregation-pipeline-with-exactly-once-processing/)
 1. [Insurance Claims Processing using Serverless and Event-Driven Architecture](https://github.com/aws-samples/serverless-eda-insurance-claims-processing)
 
-# 17. Curate
+# 19. Curate
 
 1. aws-samples/serverless-test-samples · README.md
 2. aws-samples/sessions-with-aws-sam · governance/README.MD
