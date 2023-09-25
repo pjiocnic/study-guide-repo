@@ -3,45 +3,44 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 <!-- TOC -->
 
 - [1. AWS](#1-aws)
-- [2. Patterns](#2-patterns)
-  - [2.1. Bucket Pattern](#21-bucket-pattern)
-  - [2.2. Polymorphism](#22-polymorphism)
-- [3. Anti-Patterns](#3-anti-patterns)
-- [4. Data Modeling](#4-data-modeling)
-- [5. Change Data Streams](#5-change-data-streams)
-- [6. Connection Pooling](#6-connection-pooling)
-- [7. Lambda](#7-lambda)
-- [8. Java](#8-java)
-  - [8.1. Docker](#81-docker)
-  - [8.2. Spring Data](#82-spring-data)
-  - [8.3. 3rd Party](#83-3rd-party)
-  - [8.4. Implementing Polymorphism](#84-implementing-polymorphism)
-- [9. Transactions](#9-transactions)
-- [10. JOINs and Aggregations](#10-joins-and-aggregations)
-- [11. Versioning](#11-versioning)
-- [12. Optimistic Locking](#12-optimistic-locking)
-- [13. DocumentDB vs MongoDB](#13-documentdb-vs-mongodb)
-- [14. Schema Validation](#14-schema-validation)
-- [15. Aggregations](#15-aggregations)
-- [16. Tools](#16-tools)
-- [17. VSCode](#17-vscode)
-- [18. Sample Data](#18-sample-data)
-- [19. Books](#19-books)
-- [20. Courses](#20-courses)
-- [21. Docker](#21-docker)
+- [2. Aggregations](#2-aggregations)
+- [3. Books](#3-books)
+- [4. Courses](#4-courses)
+- [5. Docker](#5-docker)
+- [6. Comparisons - DocumentDB vs MongoDB](#6-comparisons---documentdb-vs-mongodb)
+- [7. Patterns](#7-patterns)
+  - [7.1. Bucket Pattern](#71-bucket-pattern)
+  - [7.2. Polymorphism](#72-polymorphism)
+  - [7.3. Anti-Patterns](#73-anti-patterns)
+- [8. Connection Pooling](#8-connection-pooling)
+- [9. Change Data Streams](#9-change-data-streams)
+- [10. Data Modeling](#10-data-modeling)
+- [11. Java](#11-java)
+  - [11.1. Docker](#111-docker)
+  - [11.2. Spring Data](#112-spring-data)
+  - [11.3. 3rd Party](#113-3rd-party)
+  - [11.4. Implementing Polymorphism](#114-implementing-polymorphism)
+- [12. JOINs and Aggregations](#12-joins-and-aggregations)
+- [13. Lambda](#13-lambda)
+- [14. Optimistic Locking](#14-optimistic-locking)
+- [15. Transactions](#15-transactions)
+- [16. Versioning](#16-versioning)
+- [17. Schema Validation](#17-schema-validation)
+- [18. Sequence Generation](#18-sequence-generation)
+- [19. Sample Data](#19-sample-data)
+- [20. Tools](#20-tools)
+- [21. VSCode](#21-vscode)
 - [22. Schema Validation](#22-schema-validation)
   - [22.1. Validation using Java](#221-validation-using-java)
   - [22.2. Schema validation for polymorphic schemas](#222-schema-validation-for-polymorphic-schemas)
   - [22.3. Curate](#223-curate)
 - [23. Staging](#23-staging)
+- [30. Transactions](#30-transactions)
 - [24. MongoDB Shows](#24-mongodb-shows)
   - [24.1. [Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore](#241-migrating-stored-procedures-to-mongodbhttpswwwyoutubecomwatchvbog0aighg0a-by-vittal-pai-blore)
 - [25. Curate](#25-curate)
-- [26. Unique Ids](#26-unique-ids)
-- [27. Sequence Generation](#27-sequence-generation)
 - [28. Sample Data Sets](#28-sample-data-sets)
 - [29. Authorization](#29-authorization)
-- [30. Transactions](#30-transactions)
 
 <!-- /TOC -->
 
@@ -50,17 +49,40 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. [AWS Marketplace: Best Practices of Running MongoDB Atlas on AWS By cloudAdvisor](https://www.youtube.com/watch?v=Gi7yX2xh_e0)
 1. [Relational to NoSQL at Enterprise Scale: Lessons from Amazon](https://www.mongodb.com/blog/post/relational-nosql-enterprise-scale-lessons-amazon)
 
-# 2. Patterns
+# 2. Aggregations
+
+1. [Use a View to Join Two Collections](https://www.mongodb.com/docs/manual/core/views/join-collections-with-view/)
+
+# 3. Books
+
+1. [Practical MongoDB Aggregations Book](https://www.practical-mongodb-aggregations.com/front-cover.html)
+
+# 4. Courses
+
+1. [The MongoDB Aggregation Framework (M121)](https://university.mongodb.com/courses/M121/about)
+2. [M100: MongoDB for SQL Pros](https://learn.mongodb.com/courses/m100-mongodb-for-sql-pros)
+3. [MongoDB CRUD Operations in Java](https://learn.mongodb.com/learn/course/mongodb-crud-operations-in-java/lesson-1-working-with-mongodb-documents-in-java/learn?client=customer)
+4. [Using MongoDB with Java](https://learn.mongodb.com/learn/learning-path/using-mongodb-with-java)
+
+# 5. Docker
+
+1. [MongoDB in Docker](https://medium.com/@zzpzaf.se/mongodb-in-docker-bfa77346b389)
+
+# 6. Comparisons - DocumentDB vs MongoDB
+
+1. [Amazon DocumentDB Architectural Comparisons](https://www.mongodb.com/compare/documentdb-vs-mongodb/architecture)
+
+# 7. Patterns
 
 1. [Dive into 6 Common MongoDB Patterns With Example](https://medium.com/geekculture/dive-into-6-common-mongodb-patterns-with-examples-3fa7ece34b55)
 2. [Data Model Examples and Patterns](https://www.mongodb.com/docs/manual/applications/data-models/)
 3. [MongoDB Data Modeling Patterns](https://medium.com/@italoservio/mongodb-data-modeling-patterns-ae2e7a4ff155)
 
-## 2.1. Bucket Pattern
+## 7.1. Bucket Pattern
 
 1. [Building with Patterns: The Bucket Pattern](https://www.mongodb.com/blog/post/building-with-patterns-the-bucket-pattern)
 
-## 2.2. Polymorphism
+## 7.2. Polymorphism
 
 1. [Building with Patterns: The Polymorphic Pattern Ken W. Alger, Daniel Coupal](https://www.mongodb.com/developer/products/mongodb/polymorphic-pattern/)
 > 1. [[**START-HERE**] MongoDB Java Driver for Polymorphism](https://zx77.medium.com/mongodb-java-driver-for-polymorphism-8d8a9e28ec24)
@@ -70,13 +92,24 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. [Building with Patterns: A Summary](https://www.mongodb.com/blog/post/building-with-patterns-a-summary)
 > 1. [[**START-HERE**] Document Validation for Polymorphic Collections By Andrew Morgan](https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/)
 
-# 3. Anti-Patterns
+## 7.3. Anti-Patterns
 
 1. [Schema Design Anti-Patterns Series MongoDB](https://www.youtube.com/watch?v=8CZs-0it9r4)
 2. [Schema Design Anti-Patterns - Part 1](https://www.youtube.com/watch?v=8CZs-0it9r4)
 3. [Schema Design Anti-Patterns - Part 2](https://www.youtube.com/watch?v=mHeP5IbozDU)
 
-# 4. Data Modeling
+# 8. Connection Pooling
+
+1. [How to Use MongoDB Connection Pooling on AWS Lambda](https://scalegrid.io/blog/how-to-use-mongodb-connection-pooling-on-aws-lambda/)
+2. [Manage Connections with AWS Lambda](https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/)
+3. [Use MongoDB Connection Pool on AWS Lambda By Mohaiminul Islam](https://mithulix.medium.com/use-mongodb-connection-pooling-on-aws-lambda-be91038dda92)
+4. [How to Use MongoDB Connection Pooling on AWS Lambda](https://devpress.csdn.net/mongodb/62f2030ac6770329307f5cb7.html)
+
+# 9. Change Data Streams
+
+1. [Change Streams & Triggers with Node.js Tutorial](https://www.mongodb.com/developer/languages/javascript/nodejs-change-streams-triggers/)
+
+# 10. Data Modeling
 
 1. [Data Modeling with MongoDB](https://www.youtube.com/watch?v=3GHZd0zv170)
 1. [Advanced Data Modeling](https://www.youtube.com/watch?v=qGzJRsaOOO0)
@@ -93,47 +126,25 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. [Data Modeling Introduction By MongoDB Docs](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/)
 > 1. [[**MY-NEXT**] Modeling Data for a Car Reservation System By Rick Houlihan](https://www.youtube.com/watch?v=41ZIyAKNtdk)
 
-# 5. Change Data Streams
+# 11. Java
 
-1. [Change Streams & Triggers with Node.js Tutorial](https://www.mongodb.com/developer/languages/javascript/nodejs-change-streams-triggers/)
-
-# 6. Connection Pooling
-
-1. [How to Use MongoDB Connection Pooling on AWS Lambda](https://scalegrid.io/blog/how-to-use-mongodb-connection-pooling-on-aws-lambda/)
-2. [Manage Connections with AWS Lambda](https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/)
-3. [Use MongoDB Connection Pool on AWS Lambda By Mohaiminul Islam](https://mithulix.medium.com/use-mongodb-connection-pooling-on-aws-lambda-be91038dda92)
-4. [How to Use MongoDB Connection Pooling on AWS Lambda](https://devpress.csdn.net/mongodb/62f2030ac6770329307f5cb7.html)
-
-# 7. Lambda
-
-1. [How to Use MongoDB Connection Pooling on AWS Lambda](https://scalegrid.io/blog/how-to-use-mongodb-connection-pooling-on-aws-lambda/)
-2. [Manage Connections with AWS Lambda](https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/)
-3. [AWS Lambda Import JSON messages to MongoDB](https://github.com/udoheld/aws-lambda-import-json-to-mongodb/tree/master)
-
-# 8. Java
-
-## 8.1. Docker
+## 11.1. Docker
 
 1. [Spring Boot Application with MongoDB in Docker Container](https://www.appsdeveloperblog.com/deploying-spring-boot-mongodb-application-with-docker/)
 
-## 8.2. Spring Data
+## 11.2. Spring Data
 
 1. [Introduction to Spring Data MongoDB](https://www.baeldung.com/spring-data-mongodb-tutorial)
 1. [Chap 17 - Working with Spring Data MongoDB @ Java Persistence with Spring Data and Hibernate By Catalin Tudose](https://learning.oreilly.com/library/view/java-persistence-with/9781617299186/OEBPS/Text/17.htm#heading_id_3)
 
-## 8.3. 3rd Party
+## 11.3. 3rd Party
 1. [Using Javers](https://javers.org/documentation/spring-boot-integration/)
 
-## 8.4. Implementing Polymorphism
+## 11.4. Implementing Polymorphism
 
 1. [MongoDB Java Driver for Polymorphism](https://zx77.medium.com/mongodb-java-driver-for-polymorphism-8d8a9e28ec24)
 
-# 9. Transactions
-
-1. [Spring Data MongoDB Transactions](https://www.baeldung.com/spring-data-mongodb-transactions)
-1. [Spring Data MongoDB - Transaction sample](https://github.com/spring-projects/spring-data-examples/blob/main/mongodb/transactions/README.md)
-
-# 10. JOINs and Aggregations
+# 12. JOINs and Aggregations
 
 1. [JOINs and Aggregations Using Real-Time Indexing on MongoDB Atlas](https://www.youtube.com/watch?v=6be6aEOHk3w)
 2. [Joins and Other Aggregation Enhancements Coming in MongoDB 3.2 (Part 1 of 3) – Introduction](https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-1-of-3-introduction)
@@ -141,24 +152,30 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 4. [Joins and Other Aggregation Enhancements Coming in MongoDB 3.2 (Part 3 of 3) – Adding Some Code Glue and Geolocation](https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-3-of-3-adding-some-code-glue-and-geolocation)
 5. [JOINs and Aggregations Using Real-Time Indexing on MongoDB Atlas By Bhat](https://www.youtube.com/watch?v=6be6aEOHk3w)
 
-# 11. Versioning
+# 13. Lambda
+
+1. [How to Use MongoDB Connection Pooling on AWS Lambda](https://scalegrid.io/blog/how-to-use-mongodb-connection-pooling-on-aws-lambda/)
+2. [Manage Connections with AWS Lambda](https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/)
+3. [AWS Lambda Import JSON messages to MongoDB](https://github.com/udoheld/aws-lambda-import-json-to-mongodb/tree/master)
+
+# 14. Optimistic Locking
+
+1. [Optimistic locking in Mongo](https://medium.com/@andris.briedis/optimistic-locking-in-mongo-69fa693864ec)
+1. [Snapshot isolation](https://en.wikipedia.org/wiki/Snapshot_isolation)
+
+# 15. Transactions
+
+1. [Spring Data MongoDB Transactions](https://www.baeldung.com/spring-data-mongodb-transactions)
+1. [Spring Data MongoDB - Transaction sample](https://github.com/spring-projects/spring-data-examples/blob/main/mongodb/transactions/README.md)
+
+# 16. Versioning
 
 1. [Versioning using mongoose-vermongo](https://medium.com/versioning-in-database-mongodb-versioning-vermongo/database-versioning-7cf59a729bb3)
 1. [Implement Document Versioning Pattern with MongoDB Atlas](https://www.youtube.com/watch?v=BLILsO060gY)
 1. [[**MY-NEXT**] How to create document versioning in MongoDB using Spring Boot, REST API. #TechieTaught](https://www.youtube.com/watch?v=wSVsMFGkbOs)
 1. [[**MY-NEXT**] Versioning code](https://github.com/rabrath/techietaught/tree/master)
 
-
-# 12. Optimistic Locking
-
-1. [Optimistic locking in Mongo](https://medium.com/@andris.briedis/optimistic-locking-in-mongo-69fa693864ec)
-1. [Snapshot isolation](https://en.wikipedia.org/wiki/Snapshot_isolation)
-
-# 13. DocumentDB vs MongoDB
-
-1. [Amazon DocumentDB Architectural Comparisons](https://www.mongodb.com/compare/documentdb-vs-mongodb/architecture)
-
-# 14. Schema Validation
+# 17. Schema Validation
 
 1. [MongoDB Schema Validation Rules By Panos Zafeiropoulos](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b)
 2. [JSON Schema Validation - Locking down your model the smart way](https://www.mongodb.com/blog/post/json-schema-validation--locking-down-your-model-the-smart-way)
@@ -167,36 +184,27 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 5. [Schema validation from MongoDB docs](https://www.mongodb.com/docs/manual/core/schema-validation/)
 6. [Add a choice, conditional, or pattern field from hackolade docs](https://hackolade.com/help/Addachoiceconditionalorpatternfi.html)
 
-# 15. Aggregations
+# 18. Sequence Generation
 
-1. [Use a View to Join Two Collections](https://www.mongodb.com/docs/manual/core/views/join-collections-with-view/)
+1. [MongoDB Auto-Increment](https://www.mongodb.com/basics/mongodb-auto-increment)
+1. [Generating Globally Unique Identifiers for Use with MongoDB](https://www.mongodb.com/blog/post/generating-globally-unique-identifiers-for-use-with-mongodb)
+1. [Spring Boot and MongoDB Sequence ID Generator](https://examples.javacodegeeks.com/spring-boot-and-mongodb-sequence-id-generator/)
+1. https://www.baeldung.com/spring-boot-mongodb-auto-generated-field
+1. https://www.slmanju.com/2021/07/design-unique-sequence-with-mongodb.html
+1. https://data-flair.training/blogs/mongodb-auto-increment-sequence/
+1. https://sujalmandal.medium.com/creating-sequence-id-in-with-mongo-spring-data-4fc3fd20d685
 
-# 16. Tools
-
-1. [Generate JSON Schema from JSON](https://www.jsonschema.net/)
-
-# 17. VSCode
-
-1. [MongoDB for VS Code - MongoDB Developer Tools](https://www.youtube.com/watch?v=MLWlWrRAb4w)
-
-# 18. Sample Data
+# 19. Sample Data
 
 1. [Sample Data from MongoDB](https://www.mongodb.com/docs/atlas/sample-data/)
 
-# 19. Books
+# 20. Tools
 
-1. [Practical MongoDB Aggregations Book](https://www.practical-mongodb-aggregations.com/front-cover.html)
+1. [Generate JSON Schema from JSON](https://www.jsonschema.net/)
 
-# 20. Courses
+# 21. VSCode
 
-1. [The MongoDB Aggregation Framework (M121)](https://university.mongodb.com/courses/M121/about)
-2. [M100: MongoDB for SQL Pros](https://learn.mongodb.com/courses/m100-mongodb-for-sql-pros)
-3. [MongoDB CRUD Operations in Java](https://learn.mongodb.com/learn/course/mongodb-crud-operations-in-java/lesson-1-working-with-mongodb-documents-in-java/learn?client=customer)
-4. [Using MongoDB with Java](https://learn.mongodb.com/learn/learning-path/using-mongodb-with-java)
-
-# 21. Docker
-
-1. [MongoDB in Docker](https://medium.com/@zzpzaf.se/mongodb-in-docker-bfa77346b389)
+1. [MongoDB for VS Code - MongoDB Developer Tools](https://www.youtube.com/watch?v=MLWlWrRAb4w)
 
 # 22. Schema Validation
 
@@ -225,6 +233,10 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 
 1. [Relational to NoSQL at Enterprise Scale: Lessons from Amazon By Rick Houlihan](https://www.mongodb.com/blog/post/relational-nosql-enterprise-scale-lessons-amazon)
 
+# 30. Transactions
+
+1. [Transactions course from MongoDB Institute](https://learn.mongodb.com/learn/course/mongodb-transactions/lesson-3-using-transactions-in-mongodb/learn?page=2)
+
 # 24. MongoDB Shows
 
 ## 24.1. [Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore
@@ -238,18 +250,6 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. https://www.mongodb.com/blog/post/generating-globally-unique-identifiers-for-use-with-mongodb
 1. https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/
 
-# 26. Unique Ids
-
-1. [Generating Globally Unique Identifiers for Use with MongoDB](https://www.mongodb.com/blog/post/generating-globally-unique-identifiers-for-use-with-mongodb)
-
-# 27. Sequence Generation
-
-1. [Spring Boot and MongoDB Sequence ID Generator](https://examples.javacodegeeks.com/spring-boot-and-mongodb-sequence-id-generator/)
-1. https://www.baeldung.com/spring-boot-mongodb-auto-generated-field
-1. https://www.slmanju.com/2021/07/design-unique-sequence-with-mongodb.html
-1. https://data-flair.training/blogs/mongodb-auto-increment-sequence/
-1. https://sujalmandal.medium.com/creating-sequence-id-in-with-mongo-spring-data-4fc3fd20d685
-
 # 28. Sample Data Sets
 
 1. https://github.com/neelabalan/mongodb-sample-dataset
@@ -258,6 +258,3 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 
 1. [Using AWS IAM Authentication with MongoDB 4.4 in Atlas to Build Modern Secure Applications](https://www.youtube.com/watch?v=99iV9lCctrU)
 
-# 30. Transactions
-
-1. [Transactions course from MongoDB Institute](https://learn.mongodb.com/learn/course/mongodb-transactions/lesson-3-using-transactions-in-mongodb/learn?page=2)
