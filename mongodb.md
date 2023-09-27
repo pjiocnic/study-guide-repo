@@ -236,6 +236,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 # 30. Transactions
 
 1. [Transactions course from MongoDB Institute](https://learn.mongodb.com/learn/course/mongodb-transactions/lesson-3-using-transactions-in-mongodb/learn?page=2)
+1. [MongoDB 4 Update: Multi-Document ACID Transactions](https://www.mongodb.com/blog/post/mongodb-multi-document-acid-transactions-general-availability)
 
 # 24. MongoDB Shows
 
