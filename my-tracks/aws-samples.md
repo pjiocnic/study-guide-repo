@@ -49,6 +49,7 @@
 # 4. CDK
 
 1. [[**MUST-TRY**] See Observability workshop for advanced examples on ECS/EKS/Lambda](/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/observability/one-observability-workshop/1-workshop)
+1. [Implementing architectural patterns with Amazon EventBridge Pipes By David Boyne, Dominik Richter](https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/)
 
 # 5. EC2-Spot-Instances-Labs
 
