@@ -34,3 +34,6 @@
 1. [Amazon EventBridge to SNS to Lambda Function](https://serverlessland.com/patterns/eventbridge-sns-lambda)
 a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/documentdb/amazon-documentdb-workshop/resources/change-streams.yml` and understand how SNS is setup as a scheduler. b) Update the architecture diagram
 1. [Creating Amazon EventBridge rules that react to events](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-create-rule.html)
+
+
+https://docs.aws.amazon.com/eventbridge/latest/userguide/pipes-tutorial-create-dynamodb-sqs.html
