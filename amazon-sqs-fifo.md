@@ -8,8 +8,9 @@
 - [4. SQS FIFO](#4-sqs-fifo)
 - [5. Concepts](#5-concepts)
 - [6. DLQs for FIFO](#6-dlqs-for-fifo)
-- [7. Videos](#7-videos)
-- [8. Workshop](#8-workshop)
+- [7. Troubleshooting](#7-troubleshooting)
+- [8. Videos](#8-videos)
+- [9. Workshop](#9-workshop)
 
 <!-- /TOC -->
 
@@ -17,10 +18,11 @@
 
 1. [how you can trigger a lambda using a FIFO Queue By FooBar](https://www.youtube.com/watch?v=wD65sR5ENxA)
 1. [sam-fifo-queue-test](https://github.com/mavi888/sam-fifo-queue-test)
-> 1. [AWS Lambda Concurrency when SQS FIFO Queue as Trigger by Pubudu Jayawardana for AWS Community Builders](https://dev.to/aws-builders/aws-lambda-concurrency-when-sqs-fifo-queue-as-trigger-1nn6)
-> 1. [Using Python and Amazon SQS FIFO Queues to Preserve Message Sequencing by Tara Van Unen ](https://aws.amazon.com/blogs/developer/using-python-and-amazon-sqs-fifo-queues-to-preserve-message-sequencing/)
-> 2. [Solving Complex Ordering Challenges with Amazon SQS FIFO Queues by Christie Gifrin and Shea Lutton |](https://aws.amazon.com/blogs/compute/solving-complex-ordering-challenges-with-amazon-sqs-fifo-queues/)
-> 1. [How the Amazon SQS FIFO API Works by Leah Rivers, Jakub Wojciak, and Tim Bray](https://aws.amazon.com/blogs/developer/how-the-amazon-sqs-fifo-api-works/)
+1. [AWS Lambda Concurrency when SQS FIFO Queue as Trigger by Pubudu Jayawardana for AWS Community Builders](https://dev.to/aws-builders/aws-lambda-concurrency-when-sqs-fifo-queue-as-trigger-1nn6)
+1. [Using Python and Amazon SQS FIFO Queues to Preserve Message Sequencing by Tara Van Unen ](https://aws.amazon.com/blogs/developer/using-python-and-amazon-sqs-fifo-queues-to-preserve-message-sequencing/)
+1. [Solving Complex Ordering Challenges with Amazon SQS FIFO Queues by Christie Gifrin and Shea Lutton |](https://aws.amazon.com/blogs/compute/solving-complex-ordering-challenges-with-amazon-sqs-fifo-queues/)
+1. [How the Amazon SQS FIFO API Works by Leah Rivers, Jakub Wojciak, and Tim Bray](https://aws.amazon.com/blogs/developer/how-the-amazon-sqs-fifo-api-works/)
+1. [[**MUST-SEE**] Troubleshooting Slow SQS FIFO Queues By Marcelo Andrade](https://www.serverlessguru.com/blog/troubleshooting-slow-sqs-fifo-queues)
 
 # 2. Deduplication
 
@@ -38,7 +40,7 @@
 # 4. SQS FIFO
 
 > 1. [Using Python and Amazon SQS FIFO Queues to Preserve Message Sequencing by Tara Van Unen ](https://aws.amazon.com/blogs/developer/using-python-and-amazon-sqs-fifo-queues-to-preserve-message-sequencing/)
-> 2. [Solving Complex Ordering Challenges with Amazon SQS FIFO Queues by Christie Gifrin and Shea Lutton |](https://aws.amazon.com/blogs/compute/solving-complex-ordering-challenges-with-amazon-sqs-fifo-queues/)
+> 2. [Solving Complex Ordering Challenges with Amazon SQS FIFO Queues by Christie Gifrin and Shea Lutton](https://aws.amazon.com/blogs/compute/solving-complex-ordering-challenges-with-amazon-sqs-fifo-queues/)
 
 # 5. Concepts
 
@@ -52,11 +54,15 @@
 
 1. [Automating Redrive from DLQ for FIFO SQS Queue](https://dev.to/aws-builders/automating-redrive-from-dlq-for-fifo-sqs-queue-od8)
 
-# 7. Videos
+# 7. Troubleshooting
+
+1. [Troubleshooting Slow SQS FIFO Queues By Marcelo Andrade](https://www.serverlessguru.com/blog/troubleshooting-slow-sqs-fifo-queues)
+
+# 8. Videos
 
 > 1. [AWS SQS FIFO Queues Overview and Demonstration By Be A Better Dev](https://www.youtube.com/watch?v=cl_5dGGeTmY)
 1. [how you can trigger a lambda using a FIFO Queue By FooBar](https://www.youtube.com/watch?v=wD65sR5ENxA)
 
-# 8. Workshop
+# 9. Workshop
 
 1. [Sqs Publisher To Sqs Subscriber With Fifo Message Ordering](https://workshops.devax.academy/monoliths-to-microservices/module5/explore_messaging_options/sqs_publisher_sqs_subscriber_with_fifo.html)

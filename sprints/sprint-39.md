@@ -33,6 +33,7 @@
 1. [AWS LAMBDA OPERATOR GUIDE](https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/intro)
 1. [The AWS Lambda Operator's Guide | Serverless Office Hours](https://www.youtube.com/watch?v=Xofyyqq_Dvs&t=1464s)
 
+
 ## 4.2. Secondary
 
 1. [Amazon EventBridge to SNS to Lambda Function](https://serverlessland.com/patterns/eventbridge-sns-lambda)

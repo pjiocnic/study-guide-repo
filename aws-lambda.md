@@ -44,6 +44,7 @@
 - [21. Integration with AWS Services](#21-integration-with-aws-services)
   - [21.1. ECS](#211-ecs)
   - [21.2. CloudFront](#212-cloudfront)
+  - [DynamoDB](#dynamodb)
   - [21.3. Kafka](#213-kafka)
   - [21.4. Parameter store](#214-parameter-store)
   - [21.5. S3](#215-s3)
@@ -306,6 +307,10 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 ## 21.2. CloudFront
 
 1. [Using Amazon CloudFront with AWS Lambda as origin to accelerate your web applications by Jaiganesh Girinathan and Samrat Karak](https://aws.amazon.com/blogs/networking-and-content-delivery/using-amazon-cloudfront-with-aws-lambda-as-origin-to-accelerate-your-web-applications/)
+
+## DynamoDB
+
+1. [Creating a scalable serverless import process for Amazon DynamoDB by James Beswick ](https://aws.amazon.com/blogs/compute/creating-a-scalable-serverless-import-process-for-amazon-dynamodb/)
 
 ## 21.3. Kafka
 
