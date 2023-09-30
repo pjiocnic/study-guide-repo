@@ -1,6 +1,5 @@
 <h1>Amazon SNS FIFO</h1>
 
-
 1. [Building event-driven architectures with Amazon SNS FIFO by Christian Mueller](https://aws.amazon.com/blogs/compute/building-event-driven-architectures-with-amazon-sns-fifo/?ref=serverlessland)
 
 # 1. Samples
