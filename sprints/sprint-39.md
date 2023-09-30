@@ -20,6 +20,8 @@
 1. [Advanced Event Source Mapping configuration](https://www.youtube.com/watch?v=fRy9BhxlszY&list=PLGyRwGktEFqeEFoYUNRpqMEGQ30fn3ZXY&index=8)
 1. [Intro to ESM](https://www.youtube.com/watch?v=F-12aCoQKbk)
 1. [AWS re:Invent 2020: Observability, logging, and more with AWS Lambda extensions](https://www.youtube.com/watch?v=lBWdmXEYK_Q)
+1. [Data Streaming Patterns By FooBar](https://www.youtube.com/watch?v=1M3znGyXOIw)
+1. [how you can trigger a lambda using a FIFO Queue By FooBar](https://www.youtube.com/watch?v=wD65sR5ENxA)
 
 # 4. My plan for this week
 
@@ -37,6 +39,8 @@ a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-works
 
 # Must Visit Blogs
 
-
-
-[Tutorial: Create an EventBridge pipe that filters source events](https://docs.aws.amazon.com/eventbridge/latest/userguide/pipes-tutorial-create-dynamodb-sqs.html)
+1. [Stream data from Amazon DocumentDB to Amazon Kinesis Data Firehose using AWS Lambda by Anshu Vajpayee and Sourav Biswas](https://aws.amazon.com/blogs/database/stream-data-from-amazon-documentdb-to-amazon-kinesis-data-firehose-using-aws-lambda/)
+1. [DocumentDB Insider Hour | Episode 27 | Lambda Event Source Mapping By Sourav Biswas](https://www.youtube.com/watch?v=U8z0To80crY)
+1. [DocumentDB Insider Hour | Episode 30 | Using AWS Lambda with Amazon DocumentDB](https://www.twitch.tv/videos/1936506159)
+<img src="./images/docdb-lambda.png" title="Connect Lambda to DocumentDB" width="900"/>
+- https://github.com/aws-samples/amazon-documentdb-samples/tree/master/lambda-samples

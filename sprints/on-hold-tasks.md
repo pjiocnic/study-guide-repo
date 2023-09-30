@@ -16,6 +16,7 @@
 1. https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html
 1. Review and Close notes - AssumeRole notes
 1. Is this about role chaining? https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html
+QQQ - Why did I think of this.  Which workshop used this? WAF?
 1. Complete Notes on DLQ handling
 1. [Complete notes on how to write Jitter/exponential backoff code](../aws-lambda.md#721-exponential-backoff-and-jitter-algorithm)
 1. [You need this FREE IAM Management Tool By Be A Better Dev](https://www.youtube.com/watch?v=ryEseI_-12o)
@@ -31,30 +32,44 @@
 1. Complete making notes on `/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/[TODO]svs-307-powertools`. Check out the TODO section in my-readme.md
 1. Complete /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/cdk/sample-app/my-readme.md
 
-# 1. ECS
+# 1. DocumentDB
+
+1. [Amazon EventBridge to SNS to Lambda Function](https://serverlessland.com/patterns/eventbridge-sns-lambda)
+a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/documentdb/amazon-documentdb-workshop/resources/change-streams.yml` and understand how SNS is setup as a scheduler. b) Update the architecture diagram
+1. [Creating Amazon EventBridge rules that react to events](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-create-rule.html)
+1. [Stream data from Amazon DocumentDB to Amazon Kinesis Data Firehose using AWS Lambda by Anshu Vajpayee and Sourav Biswas](https://aws.amazon.com/blogs/database/stream-data-from-amazon-documentdb-to-amazon-kinesis-data-firehose-using-aws-lambda/)
+> 1. [DocumentDB Insider Hour | Episode 27 | Lambda Event Source Mapping By Sourav Biswas](https://www.youtube.com/watch?v=U8z0To80crY)
+1. [DocumentDB Insider Hour | Episode 30 | Using AWS Lambda with Amazon DocumentDB](https://www.twitch.tv/videos/1936506159)
+<img src="./images/docdb-lambda.png" title="Connect Lambda to DocumentDB" width="900"/>
+- https://github.com/aws-samples/amazon-documentdb-samples/tree/master/lambda-samples
+
+# 2. ECS
 
 1. [[**MUST TRY**] Spring Pet Clinic - Deploying Java Microservices on Amazon Elastic Container Service by Huy Huynh and Magnus Bjorkman](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
 1. [[**MUST TRY**] Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
     - Architecture: SNS -> SQS -> ECS (Java Polls SQS) -> EventBridge -> Lambda/Dynamodb
 
-# 2. EventBridge
+# 3. EventBridge
 
 1. [{Orchestrator] Insurance Claims Processing using Serverless and Event-Driven Architecture](https://github.com/aws-samples/serverless-eda-insurance-claims-processing)
 
-# 3. Lambda
+# 4. Lambda
 
 1. DLQs - why Lambda DLQs don't suport SQS? https://www.youtube.com/watch?v=hOetf6YN3zo&lc=Ugy1J5lsqtlB5mUBFVt4AaABAg.9unsQBRi0TN9unvMmRmQml
 1. Destinations - Why for SQS we dont have destinations?
 1. Read thru' AWS fundamentals
 1. [**[MY NEXT]** Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
 1. [**[MY NEXT]** Using Amazon SQS dead-letter queues to replay messages By Alexandre Pinhel](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages/)
+1. [Lambda event source mappings](https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventsourcemapping.html)
+1. [AWS LAMBDA OPERATOR GUIDE](https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/intro)
+1. [The AWS Lambda Operator's Guide | Serverless Office Hours](https://www.youtube.com/watch?v=Xofyyqq_Dvs&t=1464s)
 
-# 4. JSON Handling
+# 5. JSON Handling
 
 1. [Spring Boot & JsonNode: How to use it and when to turn to creating Custom Deserializers](https://www.youtube.com/watch?v=cw0TfpcUkao)
 1. [Spring Boot & JSON: A Practical Guide to reading JSON and Persisting it to a database](https://www.youtube.com/watch?v=EumLbf8WjnY)
 
-# 5. WAF
+# 6. WAF
 
 1. [Serverless Applications Lens - AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html)
 2. [Serverless Applications Lens AWS Well-Architected Framework By AGPIAL](https://www.youtube.com/watch?v=g1WpzZHQ4Gc)
@@ -66,7 +81,7 @@
 6. [Operational Excellence Pillar AWS Well-Architected Framework. AGPIAL Audiobook](https://www.youtube.com/watch?v=Vhk6a5MUhE8)
 7. [Cost Optimization Pillar AWS Well-Architected Framework AGPIAL Audiobook](https://www.youtube.com/watch?v=zeLyoWund1I)
 
-# 6. Workshop
+# 7. Workshop
 
 1. CloudTrail workshop (prep - understand the cdk code in oneobservability workshop before continuing with this workshop)
 1. Workshop - [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US/introduction/project-init)
@@ -78,7 +93,7 @@
 1. Continue working thru workshop here - https://workshop-aws-account-setup.fstehle.com/
 1. Workshop - [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
 
-# Parked on 09232023
+# 8. Parked on 09232023
 1. https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/
 1. [System Design Interview - Rate Limiting (local and distributed)](https://www.youtube.com/watch?v=FU4WlwfS3G0)
 1. [Run any web app on Lambda | Serverless Office Hours](https://www.youtube.com/watch?v=ArsTZ2y7u80)
@@ -86,3 +101,16 @@
 1. [Operating Lambda: Using CloudWatch Logs Insights by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-using-cloudwatch-logs-insights/)
 1. [Understanding AWS Lambda’s invoke throttling limits By Archana Srikanta](https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/)
 1. [Get to Grips with AWS IAM Roles: Terms, Concepts, and Examples](https://blog.awsfundamentals.com/aws-iam-roles-terms-concepts-and-examples)
+
+# 9. Topics put on hold
+
+1. Serverless experience workshop
+1. Powertools workshop
+1. Powertools Github page
+1. Kinesis Firehose By LearnCantril
+1. DocumentDB auditing
+1. FIFO Queue processing
+1. Atleast once, Exactly once
+1. Mongo AIM authentication
+1. AWS Lambda Operator Guide
+1. WAF workshop

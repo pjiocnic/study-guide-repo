@@ -3,15 +3,14 @@
 <!-- TOC -->
 
 - [1. All about SQS](#1-all-about-sqs)
-- [2. Deduplication](#2-deduplication)
-- [3. SQS FIFO](#3-sqs-fifo)
-- [4. BestPractices](#4-bestpractices)
-- [5. Scaling](#5-scaling)
+- [4. Best Practices](#4-best-practices)
 - [6. DLQs](#6-dlqs)
-- [7. Temporary Queues](#7-temporary-queues)
-- [8. Throttling](#8-throttling)
-- [9. ABAC](#9-abac)
-- [10. Redrive](#10-redrive)
+- [7. Lambda](#7-lambda)
+- [5. Scaling](#5-scaling)
+- [8. Temporary Queues](#8-temporary-queues)
+- [9. Throttling](#9-throttling)
+- [10. ABAC](#10-abac)
+- [11. Redrive](#11-redrive)
 
 <!-- /TOC -->
 
@@ -19,19 +18,7 @@
 
 1. [The Essential Guide to Amazon SQS](https://baselime.io/blog/sqs-guide)
 
-# 2. Deduplication
-
-1. [De-duplication in SQS](https://andrewtarry.com/posts/de-duplicate-sqs/)
-2. [Deduplicating Amazon SQS Messages](https://medium.com/avmconsulting-blog/deduplicating-amazon-sqs-messages-dc114d1e6545)
-- https://gitlab.com/rrhodes/sqs-message-deduplication/tree/master/src
-
-# 3. SQS FIFO
-
-1. [Using Python and Amazon SQS FIFO Queues to Preserve Message Sequencing by Tara Van Unen ](https://aws.amazon.com/blogs/developer/using-python-and-amazon-sqs-fifo-queues-to-preserve-message-sequencing/)
-2. [Solving Complex Ordering Challenges with Amazon SQS FIFO Queues by Christie Gifrin and Shea Lutton |](https://aws.amazon.com/blogs/compute/solving-complex-ordering-challenges-with-amazon-sqs-fifo-queues/)
-3. [Building event-driven architectures with Amazon SNS FIFO By Christian Mueller](https://aws.amazon.com/blogs/compute/building-event-driven-architectures-with-amazon-sns-fifo/)
-
-# 4. BestPractices
+# 4. Best Practices
 
 1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 1 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-1/)
 2. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 2 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-2/)
@@ -39,30 +26,41 @@
 4. [Mastering Retries: Best Practices for Amazon SQS By Ran Isenberg](https://www.ranthebuilder.cloud/post/mastering-retries-best-practices-for-amazon-sqs)
 5. [Effective Amazon SQS Batch Handling with AWS Lambda Powertools By Ran Isenberg](https://www.ranthebuilder.cloud/post/effective-amazon-sqs-batch-handling-with-aws-lambda-powertools)
 
+# 6. DLQs
+
+[See aws-lambda.md#29-dlqs](./aws-lambda.md#29-dlqs)
+
+# 7. Lambda
+
+1. [Using Lambda with Amazon SQS](https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html#events-sqs-scaling)
+1. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://repost.aws/knowledge-center/lambda-sqs-scaling)
+1. [Handle SQS message failure in batch with partial batch response feature](https://medium.com/srcecde/handle-sqs-message-failure-in-batch-with-partial-batch-response-b858ad212573)
+1. [Lambda + SQS Users Should Know About This](https://www.youtube.com/watch?v=0707Py8Jyf0)
+1. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://repost.aws/knowledge-center/lambda-sqs-scaling)
+> 1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 1 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-1/)
+> 1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 2 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-2/)
+> 1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 3 by Pascal Vogel](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-3/)
+
 # 5. Scaling
 
 1. [Understanding how AWS Lambda scales with Amazon SQS standard queues by James Beswick](https://aws.amazon.com/blogs/compute/understanding-how-aws-lambda-scales-when-subscribed-to-amazon-sqs-queues/)
 2. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://repost.aws/knowledge-center/lambda-sqs-scaling)
 3. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://www.youtube.com/watch?v=mIYWo0LS2-Q)
 
-# 6. DLQs
-
-[See aws-lambda.md#29-dlqs](./aws-lambda.md#29-dlqs)
-
-# 7. Temporary Queues
+# 8. Temporary Queues
 
 1. [Simple Two-way Messaging using the Amazon SQS Temporary Queue Client by Rachel Richardson](https://aws.amazon.com/blogs/compute/simple-two-way-messaging-using-the-amazon-sqs-temporary-queue-client/)
 
-# 8. Throttling
+# 9. Throttling
 
 1. [How To: Use SNS and SQS to Distribute and Throttle Events](https://www.jeremydaly.com/how-to-use-sns-and-sqs-to-distribute-and-throttle-events/)
 
-# 9. ABAC
+# 10. ABAC
 
 1. [Introducing attribute-based access controls (ABAC) for Amazon SQS by Vikas Panghal and Hardik Vasa ](https://aws.amazon.com/blogs/compute/introducing-attribute-based-access-controls-abac-for-amazon-sqs/)
 - Update /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/prepare-notes/best practices - sqs.md
 
-# 10. Redrive
+# 11. Redrive
 
 1. [Introducing Amazon Simple Queue Service dead-letter queue redrive to source queues by Mark Richman,](https://aws.amazon.com/blogs/compute/introducing-amazon-simple-queue-service-dead-letter-queue-redrive-to-source-queues/)
 2. [SQS Redrive Policy](https://awslabs.github.io/serverless-rules/rules/sqs/redrive_policy/)

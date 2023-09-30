@@ -138,3 +138,11 @@ Writing an AWS design document is a crucial step in planning and implementing yo
 * Provide space for signatures and comments from stakeholders who need to review and approve the design.
 
 Remember that an AWS design document should be a living document that evolves as the project progresses. Regularly update it to reflect changes and improvements in your architecture and implementation.
+
+# Documentation - How to write documents
+
+1. [Big things are coming for Lambda Powertools](https://www.youtube.com/watch?v=wirLasM_wFM&t=332s)
+1. [https://github.com/aws-powertools/powertools-lambda-python/pull/2129#issuecomment-1523082490](https://www.youtube.com/watch?v=wirLasM_wFM&t=332s)
+1. [The Document Culture of Amazon](https://justingarrison.com/blog/2021-03-15-the-document-culture-of-amazon/)
+1. [How to write AWS Style Technical Narratives?](https://www.reddit.com/r/aws/comments/14df2il/how_to_write_aws_style_technical_narratives/?rdt=64090)
+1. A skill that needs to be honed - See Oreilly courses By David Griffiths on Technical writing

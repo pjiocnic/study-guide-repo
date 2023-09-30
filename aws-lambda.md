@@ -183,6 +183,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 ## 11.1. Throttling
 
 1. [Understanding AWS Lambda’s invoke throttling limits](https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/)
+> 1. [[**MAKE-NOTES**] AWS Lambda: how to be a GOOD citizen and NOT BREAK downstream systems By Yan Chui](https://www.youtube.com/watch?v=op8j-IdTtGQ)
 
 ## 11.2. Error Handling
 
@@ -343,12 +344,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 ## 21.8. SQS
 
-1. [Handle SQS message failure in batch with partial batch response feature](https://medium.com/srcecde/handle-sqs-message-failure-in-batch-with-partial-batch-response-b858ad212573)
-2. [Lambda + SQS Users Should Know About This](https://www.youtube.com/watch?v=0707Py8Jyf0)
-3. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://repost.aws/knowledge-center/lambda-sqs-scaling)
-> 4. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 1 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-1/)
-> 5. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 2 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-2/)
-> 6. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 3 by Pascal Vogel](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-3/)
+[See amazon-sqs.md](./amazon-sqs.md#7-lambda)
 
 # 22. Invocation Models
 
