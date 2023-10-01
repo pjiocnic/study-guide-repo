@@ -1,7 +1,7 @@
 
 <!-- TOC -->
 
-- [1. My Next in DynamoDB](#1-my-next-in-dynamodb)
+- [1. Dashboard](#1-dashboard)
 - [2. Frequent GoTos](#2-frequent-gotos)
 - [3. Core Concepts](#3-core-concepts)
   - [3.1. Dynamodb TTL](#31-dynamodb-ttl)
@@ -103,29 +103,29 @@
 
 <!-- /TOC -->
 
-# 1. My Next in DynamoDB
+# 1. Dashboard
 
-> 1. [[**MY-NEXT**] Scaling DynamoDB: How partitions, hot keys, and split for heat impact performance (Part 3: Summary and best practices) by Jason Hunter and Vivek Natarajan |](https://aws.amazon.com/blogs/database/part-3-scaling-dynamodb-how-partitions-hot-keys-and-split-for-heat-impact-performance/)
-> 2. [[**MY-NEXT**][**MUST-SEE**] A set of DynamoDB demo scripts and sample data that illustrate the read and write cost of various data access patterns By Rob McCauley](https://github.com/robm26/efficiencydemos)
-> 3. [[**MY-NEXT**] From relational DB to single DynamoDB table: a step-by-step exploration](https://www.trek10.com/blog/dynamodb-single-table-relational-modeling)
-> 4. [[**MY-NEXT**][**MUST-SEE**] A set of DynamoDB demo scripts and sample data that illustrate the read and write cost of various data access patterns.](https://github.com/robm26/efficiencydemos)
-> 5. [[**MY-NEXT**] AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401) with Rick Houlihan](https://www.youtube.com/watch?v=HaEPXoXVf2k)
+1. Do separate projects for DynamoDbEnhancedClient vs DynamoDbAsyncClient
+1. [[**MY-NEXT**] Scaling DynamoDB: How partitions, hot keys, and split for heat impact performance (Part 3: Summary and best practices) by Jason Hunter and Vivek Natarajan |](https://aws.amazon.com/blogs/database/part-3-scaling-dynamodb-how-partitions-hot-keys-and-split-for-heat-impact-performance/)
+1. [[**MY-NEXT**][**MUST-SEE**] A set of DynamoDB demo scripts and sample data that illustrate the read and write cost of various data access patterns By Rob McCauley](https://github.com/robm26/efficiencydemos)
+1. [[**MY-NEXT**] From relational DB to single DynamoDB table: a step-by-step exploration](https://www.trek10.com/blog/dynamodb-single-table-relational-modeling)
+1. [[**MY-NEXT**][**MUST-SEE**] A set of DynamoDB demo scripts and sample data that illustrate the read and write cost of various data access patterns.](https://github.com/robm26/efficiencydemos)
+1. [[**MY-NEXT**] AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401) with Rick Houlihan](https://www.youtube.com/watch?v=HaEPXoXVf2k)
 - [Notes by kevinhakanson.com](https://kevinhakanson.com/2018-12-04-amazon-dynamodb-deep-dive-advanced-design-patterns-for-dynamodb-dat401/)
-> 6. [[**MY-NEXT**] Amazon DynamoDB single-table design using DynamoDBMapper and Spring Boot by Arjan Schaaf](https://aws.amazon.com/blogs/database/amazon-dynamodb-single-table-design-using-dynamodbmapper-and-spring-boot/)
-> 7. [[**MY-NEXT**] DynamoDB: Its purpose, main features, and key concepts | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=ummOosOW4lE)
-> [[**MY-NEXT**] DynamoDB: Under the hood, managing throughput, advanced design patterns | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=0iGR8GnIItQ)
-
-> 8. [[**MY-NEXT**] Delayed processing of DynamoDB stream with EventBridge Scheduler](https://serverlessland.com/patterns/apigw-dynamodb-lambda-scheduler-sqs-cdk)
-> 9. [[**MY-NEXT**] Deep Dive into DynamoDB streams and the Lambda integration by Maurice Borgmeier](https://www.tecracer.com/blog/2022/03/deep-dive-into-dynamodb-streams-and-the-lambda-integration.html)
-> 10. [[**MY-NEXT**] Modelling a product catalog in DynamoDB by Maurice Borgmeier](https://www.tecracer.com/blog/2021/03/modelling-a-product-catalog-in-dynamodb.html)
-> 11. [[START HERE] Data Modeling with DynamoDB Workshop By Rob McCauley and Chad Tindel](https://www.youtube.com/watch?v=Uie7yip1yn8)
+1. [[**MY-NEXT**] Amazon DynamoDB single-table design using DynamoDBMapper and Spring Boot by Arjan Schaaf](https://aws.amazon.com/blogs/database/amazon-dynamodb-single-table-design-using-dynamodbmapper-and-spring-boot/)
+1. [[**MY-NEXT**] DynamoDB: Its purpose, main features, and key concepts | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=ummOosOW4lE)
+1. [[**MY-NEXT**] DynamoDB: Under the hood, managing throughput, advanced design patterns | Jason Hunter | AWS Events](https://www.youtube.com/watch?v=0iGR8GnIItQ)
+1. [[**MY-NEXT**] Delayed processing of DynamoDB stream with EventBridge Scheduler](https://serverlessland.com/patterns/apigw-dynamodb-lambda-scheduler-sqs-cdk)
+1. [[**MY-NEXT**] Deep Dive into DynamoDB streams and the Lambda integration by Maurice Borgmeier](https://www.tecracer.com/blog/2022/03/deep-dive-into-dynamodb-streams-and-the-lambda-integration.html)
+1. [[**MY-NEXT**] Modelling a product catalog in DynamoDB by Maurice Borgmeier](https://www.tecracer.com/blog/2021/03/modelling-a-product-catalog-in-dynamodb.html)
+1. [[START HERE] Data Modeling with DynamoDB Workshop By Rob McCauley and Chad Tindel](https://www.youtube.com/watch?v=Uie7yip1yn8)
     - /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/dynamodb/dynamodb-modeling-workshop/my-readme.md
     - https://github.com/robm26/modeling
-> 12. [[**MY-NEXT**] Amazon DynamoDB schema from the prism of SQL by Deep Dey](https://aws.amazon.com/blogs/database/amazon-dynamodb-schema-from-the-prism-of-sql)
-> 13. [[**MY-NEXT**] Implementing priority queueing with Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/implementing-priority-queueing-with-amazon-dynamodb/)
-> 14. [[**MY-NEXT**] Implement serverless FIFO queues with filtering capabilities using Amazon DynamoDB transactions by Nikhil Penmetsa and Randy DeFauw](https://aws.amazon.com/blogs/database/serverless-fifo-queues-filtering-dynamodb-transactions/)
-> 15. [[**MY-NEXT**] How to use Amazon CloudWatch to monitor Amazon DynamoDB table size and item count metrics by Jason Hunter and Vivek Natarajan](https://aws.amazon.com/blogs/database/how-to-use-amazon-cloudwatch-to-monitor-amazon-dynamodb-table-size-and-item-count-metrics/)
-> 16. [[**MY-NEXT**] Monitoring AWS DynamoDB performance and latency](https://lumigo.io/blog/monitoring-aws-dynamodb-performance-and-latency/)
+1. [[**MY-NEXT**] Amazon DynamoDB schema from the prism of SQL by Deep Dey](https://aws.amazon.com/blogs/database/amazon-dynamodb-schema-from-the-prism-of-sql)
+1. [[**MY-NEXT**] Implementing priority queueing with Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/implementing-priority-queueing-with-amazon-dynamodb/)
+1. [[**MY-NEXT**] Implement serverless FIFO queues with filtering capabilities using Amazon DynamoDB transactions by Nikhil Penmetsa and Randy DeFauw](https://aws.amazon.com/blogs/database/serverless-fifo-queues-filtering-dynamodb-transactions/)
+1. [[**MY-NEXT**] How to use Amazon CloudWatch to monitor Amazon DynamoDB table size and item count metrics by Jason Hunter and Vivek Natarajan](https://aws.amazon.com/blogs/database/how-to-use-amazon-cloudwatch-to-monitor-amazon-dynamodb-table-size-and-item-count-metrics/)
+1. [[**MY-NEXT**] Monitoring AWS DynamoDB performance and latency](https://lumigo.io/blog/monitoring-aws-dynamodb-performance-and-latency/)
 
 # 2. Frequent GoTos
 
@@ -413,10 +413,14 @@ See [workshops-backlog.md](./workshops-backlog.md)
 # 21. Java
 
 1. [Tuning the AWS SDK for Java to Improve Resiliency by Andrew Shore ](https://aws.amazon.com/cn/blogs/developer/tuning-the-aws-sdk-for-java-to-improve-resiliency/)
-2. [[SAMPLES] AWS Lambda Serverless CRUD API With Java](https://dev.to/aws-builders/aws-lambda-serverless-crud-api-with-java-189n)
-3. [[SAMPLES] Creating a Spring Boot application that queries Amazon DynamoDB data](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2/usecases/creating_dynamodb_web_app)
-4. [Using atomic counters in the Enhanced DynamoDB AWS SDK for Java 2.x client by Anna-Karin Salander](https://aws.amazon.com/blogs/developer/using-atomic-counters-in-the-enhanced-dynamodb-aws-sdk-for-java-2-x-client/)
-5. [Querying on Multiple Attributes in Amazon DynamoDB by Scott Todd](https://aws.amazon.com/blogs/database/querying-on-multiple-attributes-in-amazon-dynamodb/)
+1. [[SAMPLES] AWS Lambda Serverless CRUD API With Java](https://dev.to/aws-builders/aws-lambda-serverless-crud-api-with-java-189n)
+1. [[SAMPLES] Creating a Spring Boot application that queries Amazon DynamoDB data](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2/usecases/creating_dynamodb_web_app)
+1. [Using atomic counters in the Enhanced DynamoDB AWS SDK for Java 2.x client by Anna-Karin Salander](https://aws.amazon.com/blogs/developer/using-atomic-counters-in-the-enhanced-dynamodb-aws-sdk-for-java-2-x-client/)
+1. [Querying on Multiple Attributes in Amazon DynamoDB by Scott Todd](https://aws.amazon.com/blogs/database/querying-on-multiple-attributes-in-amazon-dynamodb/)
+1. [Mid-level DynamoDB mapper/abstraction for Java using the v2 AWS SDK.](https://github.com/aws/aws-sdk-java-v2/tree/master/services-custom/dynamodb-enhanced)
+1. [[Advanced Java + DDB Example] Reference for Multi-Region Resiliency for Trade and Settlement Application](https://github.com/aws-samples/multi-region-resiliency-reference-implementation.git)
+1. [DynamoDB examples using SDK for Java 2.x](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/java_dynamodb_code_examples.html)
+
 
 # 22. DynamoDB Videos
 
