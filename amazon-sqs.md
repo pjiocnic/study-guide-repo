@@ -5,6 +5,7 @@
 - [1. All about SQS](#1-all-about-sqs)
 - [4. Best Practices](#4-best-practices)
 - [6. DLQs](#6-dlqs)
+- [Delay Queue](#delay-queue)
 - [7. Lambda](#7-lambda)
 - [5. Scaling](#5-scaling)
 - [8. Temporary Queues](#8-temporary-queues)
@@ -29,6 +30,10 @@
 # 6. DLQs
 
 [See aws-lambda.md#29-dlqs](./aws-lambda.md#29-dlqs)
+
+# Delay Queue
+
+1. [AWS SQS Delay Queue and Delay Message Example in Java](https://examples.javacodegeeks.com/aws-sqs-delay-queue-and-delay-message-example-in-java/)
 
 # 7. Lambda
 

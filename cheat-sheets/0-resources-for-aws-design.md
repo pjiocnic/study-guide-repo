@@ -1,21 +1,27 @@
-1. [Cloud Architect’s High-Level Design Template](https://isenberg-ran.medium.com/cloud-architects-high-level-design-template-b35ab940ce77)
-1. https://aws.amazon.com/blogs/architecture/sequence-diagrams-enrich-your-understanding-of-distributed-architectures/
+<h1>Writing my next Design Documentation</h1>
 
-# 1. Sequnce Diagrams
+<!-- TOC -->
+
+- [1. Network diagrams](#1-network-diagrams)
+- [2. Sequnce Diagrams](#2-sequnce-diagrams)
+  - [2.1. References](#21-references)
+- [3. Sample Diagrams](#3-sample-diagrams)
+- [4. Animations](#4-animations)
+- [5. Charts](#5-charts)
+- [6. Design Templates](#6-design-templates)
+  - [6.1. Sample from ChatGPT](#61-sample-from-chatgpt)
+- [7. Documentation - How to write documents](#7-documentation---how-to-write-documents)
+
+<!-- /TOC -->
+
+# 1. Network diagrams
+
+1. https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/TUT_WebAppWithRDS.html
+
+# 2. Sequnce Diagrams
 
 1. [Sequence Diagrams enrich your understanding of distributed architectures by Kevin Hakanson](https://aws.amazon.com/blogs/architecture/sequence-diagrams-enrich-your-understanding-of-distributed-architectures/)
 1. [Implementing a UML state machine using AWS Step Functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/implementing-a-uml-state-machine-using-aws-step-functions/)
-
-# 2. Writing a design document
-
-```
-<Title>
-
-# 1. Short Description
-# 2. Resolution
-# 3. Related Information
-```
-Example: https://repost.aws/knowledge-center/sqs-high-charges
 
 ## 2.1. References
 
@@ -40,7 +46,21 @@ https://www.youtube.com/watch?v=yg3WcAjmR90
 1. [Mind Map Templates](https://creately.com/diagram-community/popular/t/mind-map)
 1. [The Coggle Gallery](https://coggle.it/gallery)
 
-# 6. Design Template By ChatGPT
+# 6. Design Templates
+
+1. [Cloud Architect’s High-Level Design Template](https://isenberg-ran.medium.com/cloud-architects-high-level-design-template-b35ab940ce77)
+1. Writing a design document
+
+```bash
+<Title>
+
+# 1. Short Description
+# 2. Resolution
+# 3. Related Information
+```
+Example: https://repost.aws/knowledge-center/sqs-high-charges
+
+## 6.1. Sample from ChatGPT
 
 Writing an AWS design document is a crucial step in planning and implementing your cloud infrastructure on Amazon Web Services (AWS). A well-structured design document helps communicate your architecture and requirements to your team and stakeholders. Here's a step-by-step guide on how to write an AWS design document:
 
@@ -139,7 +159,7 @@ Writing an AWS design document is a crucial step in planning and implementing yo
 
 Remember that an AWS design document should be a living document that evolves as the project progresses. Regularly update it to reflect changes and improvements in your architecture and implementation.
 
-# Documentation - How to write documents
+# 7. Documentation - How to write documents
 
 1. [Big things are coming for Lambda Powertools](https://www.youtube.com/watch?v=wirLasM_wFM&t=332s)
 1. [https://github.com/aws-powertools/powertools-lambda-python/pull/2129#issuecomment-1523082490](https://www.youtube.com/watch?v=wirLasM_wFM&t=332s)
