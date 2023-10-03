@@ -216,8 +216,6 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. [[ MongoDB 8 ] Adding a shard to sharded cluster](https://www.youtube.com/watch?v=LGERGvEaPW0)
 1. [[ MongoDB 9 ] Sharding a MongoDB Collection](https://www.youtube.com/watch?v=Rwg26U0Zs1o)
 
-1. [](https://www.mydbops.com/blog/mongodb-7-release-whats-new-part-1/)
-
 # OpsManager
 
 1. [[ MongoDB 10 ] MongoDB OpsManager Installation](https://www.youtube.com/watch?v=AHBDcvcbQ9k)
