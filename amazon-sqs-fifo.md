@@ -5,6 +5,7 @@
 - [1. Dashboard (Material to start with)](#1-dashboard-material-to-start-with)
 - [2. Deduplication](#2-deduplication)
 - [3. Lambda](#3-lambda)
+  - [3.1. Concurrency Handling](#31-concurrency-handling)
 - [4. SQS FIFO](#4-sqs-fifo)
 - [5. Concepts](#5-concepts)
 - [6. DLQs for FIFO](#6-dlqs-for-fifo)
@@ -16,6 +17,8 @@
 
 # 1. Dashboard (Material to start with)
 
+1. [[**MUST-SEE**] Lessons learned from combining SQS and Lambda in a data project by solita.fi](https://data.solita.fi/lessons-learned-from-combining-sqs-and-lambda-in-a-data-project/)
+1. [How Lambdas are spun upto number of unique MessageGroupId's that You set](https://www.foxy.io/blog/we-love-aws-lambda-but-its-concurrency-handling-with-sqs-is-silly/)
 1. [how you can trigger a lambda using a FIFO Queue By FooBar](https://www.youtube.com/watch?v=wD65sR5ENxA)
 1. [sam-fifo-queue-test](https://github.com/mavi888/sam-fifo-queue-test)
 1. [AWS Lambda Concurrency when SQS FIFO Queue as Trigger by Pubudu Jayawardana for AWS Community Builders](https://dev.to/aws-builders/aws-lambda-concurrency-when-sqs-fifo-queue-as-trigger-1nn6)
@@ -32,15 +35,20 @@
 
 # 3. Lambda
 
-1. [New for AWS Lambda – SQS FIFO as an event source by James Beswick](https://aws.amazon.com/blogs/compute/new-for-aws-lambda-sqs-fifo-as-an-event-source/)
+> 1. [New for AWS Lambda – SQS FIFO as an event source by James Beswick](https://aws.amazon.com/blogs/compute/new-for-aws-lambda-sqs-fifo-as-an-event-source/)
 1. [how you can trigger a lambda using a FIFO Queue By FooBar](https://www.youtube.com/watch?v=wD65sR5ENxA)
 1. [sam-fifo-queue-test](https://github.com/mavi888/sam-fifo-queue-test)
+
+## 3.1. Concurrency Handling
 > 1. [AWS Lambda Concurrency when SQS FIFO Queue as Trigger by Pubudu Jayawardana for AWS Community Builders](https://dev.to/aws-builders/aws-lambda-concurrency-when-sqs-fifo-queue-as-trigger-1nn6)
+1. [How Lambdas are spun upto number of unique MessageGroupId's that You set](https://www.foxy.io/blog/we-love-aws-lambda-but-its-concurrency-handling-with-sqs-is-silly/)
+1. [[**MUST-SEE**] Lessons learned from combining SQS and Lambda in a data project by solita.fi](https://data.solita.fi/lessons-learned-from-combining-sqs-and-lambda-in-a-data-project/)
 
 # 4. SQS FIFO
 
 > 1. [Using Python and Amazon SQS FIFO Queues to Preserve Message Sequencing by Tara Van Unen ](https://aws.amazon.com/blogs/developer/using-python-and-amazon-sqs-fifo-queues-to-preserve-message-sequencing/)
 > 2. [Solving Complex Ordering Challenges with Amazon SQS FIFO Queues by Christie Gifrin and Shea Lutton](https://aws.amazon.com/blogs/compute/solving-complex-ordering-challenges-with-amazon-sqs-fifo-queues/)
+
 
 # 5. Concepts
 

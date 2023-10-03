@@ -29,6 +29,8 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 - [18. Schema Validation](#18-schema-validation)
 - [20. Sample Data](#20-sample-data)
 - [19. Sequence Generation](#19-sequence-generation)
+- [Sharding](#sharding)
+- [OpsManager](#opsmanager)
 - [SQS](#sqs)
 - [21. Streams](#21-streams)
 - [22. Tools](#22-tools)
@@ -205,6 +207,21 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. https://www.slmanju.com/2021/07/design-unique-sequence-with-mongodb.html
 1. https://data-flair.training/blogs/mongodb-auto-increment-sequence/
 1. https://sujalmandal.medium.com/creating-sequence-id-in-with-mongo-spring-data-4fc3fd20d685
+
+# Sharding
+
+1. [Sharding Introduction](https://www.mongodb.com/docs/v3.0/core/sharding-introduction/)
+1. [MongoDB Sharding: Concepts, Examples & Tutorials](https://www.bmc.com/blogs/mongodb-sharding-explained/)
+1. [[ MongoDB 7 ] Set up Sharding in MongoDB using Docker containers](https://www.youtube.com/watch?v=7Lp6R4CmuKE)
+1. [[ MongoDB 8 ] Adding a shard to sharded cluster](https://www.youtube.com/watch?v=LGERGvEaPW0)
+1. [[ MongoDB 9 ] Sharding a MongoDB Collection](https://www.youtube.com/watch?v=Rwg26U0Zs1o)
+
+1. [](https://www.mydbops.com/blog/mongodb-7-release-whats-new-part-1/)
+
+# OpsManager
+
+1. [[ MongoDB 10 ] MongoDB OpsManager Installation](https://www.youtube.com/watch?v=AHBDcvcbQ9k)
+1. [[ MongoDB 11 ] Deploying a Replicaset using OpsManager](https://www.youtube.com/watch?v=Zzbvnpk-OXQ)
 
 # SQS
 
