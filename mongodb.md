@@ -111,9 +111,12 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 # 9. Connection Pooling
 
 1. [How to Use MongoDB Connection Pooling on AWS Lambda](https://scalegrid.io/blog/how-to-use-mongodb-connection-pooling-on-aws-lambda/)
-2. [Manage Connections with AWS Lambda](https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/)
-3. [Use MongoDB Connection Pool on AWS Lambda By Mohaiminul Islam](https://mithulix.medium.com/use-mongodb-connection-pooling-on-aws-lambda-be91038dda92)
-4. [How to Use MongoDB Connection Pooling on AWS Lambda](https://devpress.csdn.net/mongodb/62f2030ac6770329307f5cb7.html)
+1. [Manage Connections with AWS Lambda](https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/)
+1. [Use MongoDB Connection Pool on AWS Lambda By Mohaiminul Islam](https://mithulix.medium.com/use-mongodb-connection-pooling-on-aws-lambda-be91038dda92)
+1. [How to Use MongoDB Connection Pooling on AWS Lambda](https://devpress.csdn.net/mongodb/62f2030ac6770329307f5cb7.html)
+1. [How many connections I can have with Atlas](https://www.mongodb.com/docs/atlas/reference/atlas-limits/)
+1. [Connection Limits in Atlas/Free Tier](https://www.mongodb.com/docs/atlas/reference/free-shared-limitations)
+1. [What are the connection limits](https://www.mongodb.com/community/forums/t/what-is-connection-limit-meant-for/119308/2)
 
 # 10. Change Data Streams
 
@@ -210,6 +213,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 
 # Sharding
 
+1. [Start here - Basics of Sharding by Albert Wong](https://youtu.be/8sk75-6W0ik?t=169)
 1. [Sharding Introduction](https://www.mongodb.com/docs/v3.0/core/sharding-introduction/)
 1. [MongoDB Sharding: Concepts, Examples & Tutorials](https://www.bmc.com/blogs/mongodb-sharding-explained/)
 1. [[ MongoDB 7 ] Set up Sharding in MongoDB using Docker containers](https://www.youtube.com/watch?v=7Lp6R4CmuKE)

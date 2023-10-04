@@ -536,7 +536,8 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
   <img src="./images/unicorn-location-api-overview.png" title="GraalVM" width="900"/>
   - Starting up faster with AWS Lambda SnapStart
   <img src="./images/unicorn-location-api-overview.png" title="SnapStart" width="900"/>
-2. [Build a Serverless Web Application with AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
+1. [Build a Serverless Web Application with AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
+1. [AWS Lambda workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/66943748-f648-4a43-8b44-da8cfcc53286/en-US)
 
 # 44. Well Architected
 

@@ -12,10 +12,11 @@
 
 1. FIFO queues
 2. Jitter setup
+3. Scatter Gather with Step Functions
 
 # Videos for this week
 
-1. https://www.youtube.com/watch?v=2SpmQKsgcOU&list=PLhr1KZpdzukf1ERxT2lJnkpsmTPyG0_cC&index=2
+1. [AWS Well-Architected Framework | Serverless Application Lens](https://www.youtube.com/watch?v=2SpmQKsgcOU&list=PLhr1KZpdzukf1ERxT2lJnkpsmTPyG0_cC&index=2)
 1. [AWS Lambda observability! ](https://www.youtube.com/watch?v=Gn9jKKbQrnc&list=PLJo-rJlep0EB-SNDHVyfes014G4h3p46q&index=39)
 1. [Advanced Event Source Mapping configuration](https://www.youtube.com/watch?v=fRy9BhxlszY&list=PLGyRwGktEFqeEFoYUNRpqMEGQ30fn3ZXY&index=8)
 1. [Intro to ESM](https://www.youtube.com/watch?v=F-12aCoQKbk)
