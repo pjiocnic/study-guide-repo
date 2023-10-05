@@ -11,6 +11,7 @@
 - [6. Design Templates](#6-design-templates)
   - [6.1. Sample from ChatGPT](#61-sample-from-chatgpt)
 - [7. Documentation - How to write documents](#7-documentation---how-to-write-documents)
+- [Creating animnations](#creating-animnations)
 
 <!-- /TOC -->
 
@@ -39,6 +40,7 @@ https://www.youtube.com/watch?v=b5wb9H0N-QE
 https://www.youtube.com/watch?v=yg3WcAjmR90
 1. [Animate your Technical Diagrams in PowerPoint](https://www.youtube.com/watch?v=-VjEMvA2R6I)
 1. [How to draw a Network traffic diagram animated](https://www.youtube.com/watch?v=x9gSsPEMaQM)
+1. [Spicing Up AWS Architecture Diagrams: A Step-by-Step Guide To Creating Animated AWS Architecture GIFs by Artur Schneider ](https://dev.to/aws-builders/spicing-up-aws-architecture-diagrams-a-step-by-step-guide-to-creating-animated-aws-architecture-gifs-jjb)
 
 # 5. Charts
 
@@ -166,3 +168,7 @@ Remember that an AWS design document should be a living document that evolves as
 1. [The Document Culture of Amazon](https://justingarrison.com/blog/2021-03-15-the-document-culture-of-amazon/)
 1. [How to write AWS Style Technical Narratives?](https://www.reddit.com/r/aws/comments/14df2il/how_to_write_aws_style_technical_narratives/?rdt=64090)
 1. A skill that needs to be honed - See Oreilly courses By David Griffiths on Technical writing
+
+# Creating animnations
+
+https://dev.to/aws-builders/spicing-up-aws-architecture-diagrams-a-step-by-step-guide-to-creating-animated-aws-architecture-gifs-jjb
