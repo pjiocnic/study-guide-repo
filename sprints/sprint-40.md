@@ -7,6 +7,7 @@
 # Day
 
 1. Lambda Powertools
+1. https://docs.aws.amazon.com/lambda/latest/dg/lambda-java.html
 
 # Staging
 
@@ -31,3 +32,4 @@
 1. https://bobcares.com/blog/aws-lambda-requesthandler-vs-requeststreamhandler/
 1. [Demystifying Java AWS Lambda handlers for API Gateway By George Mao](https://georgemao.medium.com/demystifying-java-aws-lambda-handlers-for-api-gateway-c1e77b7e6a8d)
 1. https://github.com/georgemao/JavaLambdaHandlerExamples/blob/master/src/main/java/com/amazonaws/lambda/demo/LambdaFunctionStreamHandler.java
+1. [Running APIs Written in Java on AWS Lambda by Stefano Buliani](https://aws.amazon.com/blogs/opensource/java-apis-aws-lambda/)
