@@ -3,11 +3,12 @@
 <!-- TOC -->
 
 - [1. All about SQS](#1-all-about-sqs)
-- [4. Best Practices](#4-best-practices)
-- [6. DLQs](#6-dlqs)
-- [Delay Queue](#delay-queue)
-- [7. Lambda](#7-lambda)
-- [5. Scaling](#5-scaling)
+- [2. Best Practices](#2-best-practices)
+- [3. Costs](#3-costs)
+- [4. DLQs](#4-dlqs)
+- [5. Delay Queue](#5-delay-queue)
+- [6. Lambda](#6-lambda)
+- [7. Scaling](#7-scaling)
 - [8. Temporary Queues](#8-temporary-queues)
 - [9. Throttling](#9-throttling)
 - [10. ABAC](#10-abac)
@@ -19,7 +20,7 @@
 
 1. [The Essential Guide to Amazon SQS](https://baselime.io/blog/sqs-guide)
 
-# 4. Best Practices
+# 2. Best Practices
 
 1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 1 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-1/)
 2. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 2 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-2/)
@@ -27,15 +28,19 @@
 4. [Mastering Retries: Best Practices for Amazon SQS By Ran Isenberg](https://www.ranthebuilder.cloud/post/mastering-retries-best-practices-for-amazon-sqs)
 5. [Effective Amazon SQS Batch Handling with AWS Lambda Powertools By Ran Isenberg](https://www.ranthebuilder.cloud/post/effective-amazon-sqs-batch-handling-with-aws-lambda-powertools)
 
-# 6. DLQs
+# 3. Costs
+
+1. [8 Lessons Learned with SQS: Improve Performance and Cutting Costs By Tarek](https://aws.plainenglish.io/sqs-lessons-learned-improve-performance-and-cutting-costs-86a9d8fb7b39)
+
+# 4. DLQs
 
 [See aws-lambda.md#29-dlqs](./aws-lambda.md#29-dlqs)
 
-# Delay Queue
+# 5. Delay Queue
 
 1. [AWS SQS Delay Queue and Delay Message Example in Java](https://examples.javacodegeeks.com/aws-sqs-delay-queue-and-delay-message-example-in-java/)
 
-# 7. Lambda
+# 6. Lambda
 
 1. [Using Lambda with Amazon SQS](https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html#events-sqs-scaling)
 1. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://repost.aws/knowledge-center/lambda-sqs-scaling)
@@ -46,7 +51,7 @@
 > 1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 2 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-2/)
 > 1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 3 by Pascal Vogel](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-3/)
 
-# 5. Scaling
+# 7. Scaling
 
 1. [Understanding how AWS Lambda scales with Amazon SQS standard queues by James Beswick](https://aws.amazon.com/blogs/compute/understanding-how-aws-lambda-scales-when-subscribed-to-amazon-sqs-queues/)
 2. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://repost.aws/knowledge-center/lambda-sqs-scaling)
