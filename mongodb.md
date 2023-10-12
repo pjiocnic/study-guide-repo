@@ -168,8 +168,10 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 # 15. Lambda
 
 1. [How to Use MongoDB Connection Pooling on AWS Lambda](https://scalegrid.io/blog/how-to-use-mongodb-connection-pooling-on-aws-lambda/)
-2. [Manage Connections with AWS Lambda](https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/)
-3. [AWS Lambda Import JSON messages to MongoDB](https://github.com/udoheld/aws-lambda-import-json-to-mongodb/tree/master)
+1. [Manage Connections with AWS Lambda](https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/)
+1. [AWS Lambda Import JSON messages to MongoDB](https://github.com/udoheld/aws-lambda-import-json-to-mongodb/tree/master)
+1. [Serverless Development with AWS Lambda and MongoDB Atlas Using Java by Nic Raboy](https://www.mongodb.com/developer/products/atlas/serverless-development-aws-lambda-mongodb-atlas-using-java)
+1. [[See This before written article] Build an AWS Lambda Serverless function with Java and MongoDB By Nic Raboy](https://www.youtube.com/watch?v=hMlUrnx9n84)
 
 # 16. Optimistic Locking
 

@@ -6,8 +6,9 @@
 - [3. Interview](#3-interview)
 - [4. Loading JSON file](#4-loading-json-file)
 - [5. Testing](#5-testing)
+  - [5.1. TestContainers](#51-testcontainers)
 - [6. VSCode](#6-vscode)
-- [Dan Vega's](#dan-vegas)
+- [7. Dan Vega's](#7-dan-vegas)
 
 <!-- /TOC -->
 
@@ -33,14 +34,19 @@
 # 5. Testing
 
 1. [Best Practices for How to Test Spring Boot Applications](https://tanzu.vmware.com/developer/guides/spring-boot-testing/)
-2. [Spring Boot Testing Best Practices By rieckpil](https://rieckpil.de/spring-boot-testing-best-practices/)
-3. [Testing with Spring Boot and @SpringBootTest](https://reflectoring.io/spring-boot-test/)
+1. [Spring Boot Testing Best Practices By rieckpil](https://rieckpil.de/spring-boot-testing-best-practices/)
+1. [Testing with Spring Boot and @SpringBootTest](https://reflectoring.io/spring-boot-test/)
+
+## 5.1. TestContainers
+
+1. [Spring Boot Testcontainers - Integration Testing made easy! By Dan Vega](https://www.youtube.com/watch?v=erp-7MCK5BU)
+1. [Improved Testcontainers Support in Spring Boot 3.1](https://spring.io/blog/2023/06/23/improved-testcontainers-support-in-spring-boot-3-1)
 
 # 6. VSCode
 
 1. [VS Code — Setting it up as your Java Spring Boot Development Environment](https://medium.com/dev-genius/vs-code-setting-it-up-as-your-java-spring-boot-development-environment-6464d86dc3f0)
 
-# Dan Vega's
+# 7. Dan Vega's
 
 1. [How to read in YAML data with Jackson in Spring Boot Applications](https://www.youtube.com/watch?v=zy8slvenGxc)
 2. [Spring Boot & JSON: A Practical Guide to reading JSON and Persisting it to a database](https://www.youtube.com/watch?v=EumLbf8WjnY)
