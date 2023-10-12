@@ -42,6 +42,7 @@
 
 # 6. Lambda
 
+> 1. [[**MUST-SEE**] Lessons learned from combining SQS and Lambda in a data project by solita.fi](https://data.solita.fi/lessons-learned-from-combining-sqs-and-lambda-in-a-data-project/))
 1. [Using Lambda with Amazon SQS](https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html#events-sqs-scaling)
 1. [Why isn't my Lambda function with an Amazon SQS event source scaling optimally?](https://repost.aws/knowledge-center/lambda-sqs-scaling)
 1. [Handle SQS message failure in batch with partial batch response feature](https://medium.com/srcecde/handle-sqs-message-failure-in-batch-with-partial-batch-response-b858ad212573)
