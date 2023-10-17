@@ -1,4 +1,4 @@
-<h1>Sprint 40 - Oct 2, 2023- Oct 9, 2023</h1>
+<h1>Sprint 40 - Oct 10, 2023- Oct 17, 2023</h1>
 
 # DynamoDB
 1. [Relational queries are unbounded By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/#relational-queries-are-unbounded)
@@ -18,3 +18,8 @@
 
 1. [Kinesis Data Streams and Lambda in productions | What to do when something fails? By Anahit](https://www.youtube.com/watch?v=zhI8-Xxc9rY&t=2005s)
 1. [Mastering AWS Kinesis Data Streams, Part 2  By Anahit](https://dev.solita.fi/2020/12/21/kinesis-streams-part-2.html)
+
+1. [Real Life AWS Serverless Architecture Example](https://www.youtube.com/watch?v=RBbuERSRU1k)
+
+# Work
+1. [Spring Gson custom date or long format](https://javadeveloperzone.com/spring-boot/spring-gson-custom-date-or-long-format/)

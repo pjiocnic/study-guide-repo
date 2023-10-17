@@ -322,6 +322,8 @@ https://www.youtube.com/watch?v=jzeKPKpucS0&t=2165s
 * Counting with an item collection
 * Counting with a set
 1. [Optimistic locking with version number](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBMapper.OptimisticLocking.html)
+1. [AWS re:Invent 2018: [NEW LAUNCH!] Building modern apps using Amazon DynamoDB transactions (DAT374) By Yossi Levanoni](https://www.youtube.com/watch?v=wGX4-UjaAos)
+1. [Building Modern Apps Using Amazon DynamoDB Transactions By Edin Zulich](https://www.youtube.com/watch?v=IgFvWaSQaeg)
 
 # 15. Versioning
 

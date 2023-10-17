@@ -32,6 +32,7 @@
   - [16.1. API Gateway](#161-api-gateway)
   - [16.2. ALB](#162-alb)
   - [16.3. SQS](#163-sqs)
+  - [16.4. Patterns](#164-patterns)
 - [17. Step functions](#17-step-functions)
 - [18. Videos](#18-videos)
 - [19. Workshops](#19-workshops)
@@ -207,6 +208,10 @@
 - Demos exception handling with retries
 
     <img src="./images/aws-ecs-4.png" title="aws-ecs-2.png" width="900"/>
+
+## 16.4. Patterns
+
+1. [Container Examples from ContainerOnAWS](https://github.com/aws-samples/container-patterns/tree/main/pattern)
 
 # 17. Step functions
 
