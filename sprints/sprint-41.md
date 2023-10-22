@@ -1,4 +1,4 @@
-<h1>Sprint 40 - Oct 2, 2023- Oct 9, 2023</h1>
+<h1>Sprint 40 - Oct 2, 2023- Oct 8, 2023</h1>
 
 # DynamoDB
 1. [Relational queries are unbounded By Alex Debrie](https://www.alexdebrie.com/posts/dynamodb-no-bad-queries/#relational-queries-are-unbounded)
