@@ -1,5 +1,8 @@
 <h1>Sprint 43 - Oct 23, 2023- Oct 29, 2023</h1>
 
+# Today
+1. https://www.youtube.com/watch?v=EvzPncoCr_M&t=278s
+1. https://www.youtube.com/watch?v=bciZYnEj7V0
 
 # Topics for this week
 
