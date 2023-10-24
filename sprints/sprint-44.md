@@ -3,6 +3,15 @@
 # Today
 1. https://www.youtube.com/watch?v=EvzPncoCr_M&t=278s
 1. https://www.youtube.com/watch?v=bciZYnEj7V0
+1. https://docs.aws.amazon.com/sns/latest/dg/message-delivery.html
+1. [Sending Amazon SNS messages to an Amazon SQS queue in a different account](https://docs.aws.amazon.com/sns/latest/dg/sns-send-message-to-sqs-cross-account.html)
+1. [https://aws.amazon.com/blogs/architecture/coordinating-large-messages-across-accounts-and-regions-with-amazon-sns-and-sqs/](https://aws.amazon.com/blogs/architecture/coordinating-large-messages-across-accounts-and-regions-with-amazon-sns-and-sqs/)
+1. [Cross-Account Integration with Amazon SNS by Christie Gifrin](https://aws.amazon.com/blogs/compute/cross-account-integration-with-amazon-sns/)
+1. [Using the Delivery Status feature of Amazon SNS by Arjun Cholkar](https://aws.amazon.com/blogs/mobile/using-the-delivery-status-feature-of-amazon-sns/)
+1. [How do I access Amazon SNS topic delivery logs for SMS messages?](https://repost.aws/knowledge-center/monitor-sns-texts-cloudwatch)
+
+# Curate
+1. [Build a multi-account access notification system with Amazon EventBridge by Jeff Bodey, Giuseppe Zappia, Jeff Stockamp, and Uyen Tran ](https://aws.amazon.com/blogs/mt/build-a-multi-account-access-notification-system-with-amazon-eventbridge/)
 
 # Topics for this week
 
