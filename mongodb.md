@@ -18,6 +18,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 - [11. Connection Pooling](#11-connection-pooling)
 - [12. Change Data Streams](#12-change-data-streams)
 - [13. Data Modeling](#13-data-modeling)
+- [In-Memory](#in-memory)
 - [14. Java](#14-java)
   - [14.1. Docker](#141-docker)
   - [14.2. Spring Data](#142-spring-data)
@@ -144,6 +145,10 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. [Data Modeling Introduction By MongoDB Docs](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/)
 > 1. [[**MY-NEXT**] Modeling Data for a Car Reservation System By Rick Houlihan](https://www.youtube.com/watch?v=41ZIyAKNtdk)
 
+# In-Memory
+
+1. [In-Memory Databases Explained](https://www.mongodb.com/databases/in-memory-database)
+
 # 14. Java
 
 ## 14.1. Docker
@@ -154,6 +159,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 
 1. [Introduction to Spring Data MongoDB](https://www.baeldung.com/spring-data-mongodb-tutorial)
 1. [Chap 17 - Working with Spring Data MongoDB @ Java Persistence with Spring Data and Hibernate By Catalin Tudose](https://learning.oreilly.com/library/view/java-persistence-with/9781617299186/OEBPS/Text/17.htm#heading_id_3)
+1. [Spring Boot and MongoDB @ mongodb.com](https://www.mongodb.com/compatibility/spring-boot)
 
 ## 14.3. 3rd Party
 1. [Using Javers](https://javers.org/documentation/spring-boot-integration/)
