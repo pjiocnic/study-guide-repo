@@ -257,7 +257,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. [Spring Data MongoDB Transactions](https://www.baeldung.com/spring-data-mongodb-transactions)
 1. [Spring Data MongoDB - Transaction sample](https://github.com/spring-projects/spring-data-examples/blob/main/mongodb/transactions/README.md)
 1. [Transactions course from MongoDB Institute](https://learn.mongodb.com/learn/course/mongodb-transactions/lesson-3-using-transactions-in-mongodb/learn?page=2)
-1. [MongoDB 4 Update: Multi-Document ACID Transactions](https://www.mongodb.com/blog/post/mongodb-multi-document-acid-transactions-general-availability)
+1. [[**START HERE**] MongoDB 4 Update: Multi-Document ACID Transactions](https://www.mongodb.com/blog/post/mongodb-multi-document-acid-transactions-general-availability)
 
 # 29. VSCode
 

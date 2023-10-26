@@ -1,4 +1,4 @@
-<h1>Sprint 43 - Oct 23, 2023- Oct 29, 2023</h1>
+<h1>Sprint 44 - Oct 23, 2023- Oct 29, 2023</h1>
 
 # Today
 1. https://www.youtube.com/watch?v=EvzPncoCr_M&t=278s
@@ -17,9 +17,9 @@
 
 1. Sharding in Mongodb
 1. Error handling in Lambda for 3 invocation modes (sync, aync and esm)
-1. [[START HERE] Spring Boot Testcontainers - Integration Testing made easy!](https://www.youtube.com/watch?v=erp-7MCK5BU)
+1. [[**START HERE**] Spring Boot Testcontainers - Integration Testing made easy!](https://www.youtube.com/watch?v=erp-7MCK5BU)
 - https://github.com/danson-placeholder-service/posts
-1. [[Make notes] Choosing between messaging services for serverless applications by James Beswick ](https://aws.amazon.com/blogs/compute/choosing-between-messaging-services-for-serverless-applications/)
+1. [[**Make notes**] Choosing between messaging services for serverless applications by James Beswick ](https://aws.amazon.com/blogs/compute/choosing-between-messaging-services-for-serverless-applications/)
 
 # Videos to watch
 
