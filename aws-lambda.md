@@ -196,10 +196,13 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
     - [Github code](https://github.com/aws-samples/aws-lambda-error-handling-pattern)
 2. [Implementing error handling for AWS Lambda asynchronous invocations By Poornima Chand](https://aws.amazon.com/blogs/compute/implementing-error-handling-for-aws-lambda-asynchronous-invocations/)
+3. [Implement custom retry logic with SQS & Lambda — Part II — using EventBridge Scheduler](https://medium.com/@pubudusj/implement-custom-retry-logic-with-sqs-lambda-part-ii-2568bb89dfb6)
+<img src="./images/aws-lambda-error-handling-1.png" title="aws-lambda-error-handling-1.png" width="900"/>
 
 ### 12.2.1. Exponential backoff and jitter algorithm
 
 1. [Using Amazon SQS dead-letter queues to replay messages By Alexandre Pinhel](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages)
+<img src="./images/aws-lambda-error-handling-2.png" title="aws-lambda-error-handling-2.png" width="900"/>
 
 # 13. Cloudwatch Insights
 
@@ -504,6 +507,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 - https://www.youtube.com/watch?v=eierYzOAyg8
 1. [Deploying a Rest Application as Lambda](https://catalog.workshops.aws/java-on-aws-lambda/en-US/01-migration/01-setup-and-deploy/java-container)
 1. [Running APIs Written in Java on AWS Lambda by Stefano Buliani](https://aws.amazon.com/blogs/opensource/java-apis-aws-lambda/)
+1. [[START HERE] Quick start Spring Boot3](https://github.com/awslabs/aws-serverless-java-container/wiki/Quick-start---Spring-Boot3)
 
 # 38. Tooling
 
