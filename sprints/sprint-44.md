@@ -1,6 +1,23 @@
 <h1>Sprint 44 - Oct 23, 2023- Oct 29, 2023</h1>
 
+# Topics Parked
+
+1. Mongo + Lambda + Spring
+1. SQS trigger Lambda using ESM
+1. Mongo Transactions
+1. Locking for dynamodb
+1. sam nested stacks - https://aws.amazon.com/blogs/compute/speeding-up-incremental-changes-with-aws-sam-accelerate-and-nested-stacks/
+
 # Today
+1. https://serverlessland.com/patterns/apigw-http-api-lambda-rds-proxy-java
+1. https://serverlessland.com/patterns/apigw-http-api-lambda-rds-proxy
+1. https://serverlessland.com/patterns/lambda-sns-sqs-lambda-sam-java
+1. https://www.youtube.com/watch?v=kWhIwlNkZm4
+1. https://github.com/mongodb-developer/mongodb-springboot/tree/main/mdb-spring-boot
+1. https://www.mongodb.com/compatibility/spring-boot
+1. https://serverlessland.com/patterns/lambda-esm-sqs-filters-sam?ref=search
+1. https://serverlessland.com/patterns/lambda-sqs-lambda-sam-java?ref=search
+
 1. https://www.youtube.com/watch?v=EvzPncoCr_M&t=278s
 1. https://www.youtube.com/watch?v=bciZYnEj7V0
 1. https://docs.aws.amazon.com/sns/latest/dg/message-delivery.html
@@ -9,6 +26,8 @@
 1. [Cross-Account Integration with Amazon SNS by Christie Gifrin](https://aws.amazon.com/blogs/compute/cross-account-integration-with-amazon-sns/)
 1. [Using the Delivery Status feature of Amazon SNS by Arjun Cholkar](https://aws.amazon.com/blogs/mobile/using-the-delivery-status-feature-of-amazon-sns/)
 1. [How do I access Amazon SNS topic delivery logs for SMS messages?](https://repost.aws/knowledge-center/monitor-sns-texts-cloudwatch)
+
+1. [](/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/databases/security/aws-secrets-manager-secure-database-credentials)
 
 # Curate
 1. [Build a multi-account access notification system with Amazon EventBridge by Jeff Bodey, Giuseppe Zappia, Jeff Stockamp, and Uyen Tran ](https://aws.amazon.com/blogs/mt/build-a-multi-account-access-notification-system-with-amazon-eventbridge/)

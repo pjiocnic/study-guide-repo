@@ -228,6 +228,10 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. [[ MongoDB 9 ] Sharding a MongoDB Collection](https://www.youtube.com/watch?v=Rwg26U0Zs1o)
 1. [Demystifying Sharding in MongoDB (MongoDB World 2022)](https://www.youtube.com/watch?v=EvzPncoCr_M&t=278s)
 1. [Shard Key Indexes](https://www.mongodb.com/docs/manual/core/sharding-shard-key/?_ga=2.235059713.185528633.1697906928-343722034.1695661818#sharding-shard-key-selection)
+1. [Scaling MongoDB Best Practices for Sharding, Indexing and Performance Isolation](https://www.youtube.com/watch?v=ZcAErl9Ir6Q)
+1. [Chalk Talk: How to Choose the Perfect Shard Key (MongoDB World 2022)](https://www.youtube.com/watch?v=NjvyFmuuRM4&t=931s)
+1. [Demystifying Sharding in MongoDB (MongoDB World 2022)](https://www.youtube.com/watch?v=EvzPncoCr_M&t=1134s)
+1. [Demystifying Sharding in MongoDB](https://www.youtube.com/watch?v=fs7SoPfXhqc)
 
 # 23. SQS
 

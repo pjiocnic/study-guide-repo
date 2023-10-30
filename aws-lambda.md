@@ -382,7 +382,9 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 # 26. Monitoring
 
-1. [Lambda Monitoring Overview](https://www.youtube.com/watch?v=idkluLIwous)
+1. [AWS Lambda Monitoring - Part 01 By Enlear Academy](https://www.youtube.com/watch?v=idkluLIwous)
+1. [AWS Lambda Monitoring - Part 02 By Enlear Academy](https://www.youtube.com/watch?v=Bf8PMkN938k)
+1. [AWS Lambda Monitoring - Part 03 By Enlear Academy](https://www.youtube.com/watch?v=IBo3E_ebbyY)
 
 # 27. Networking
 
