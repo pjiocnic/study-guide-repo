@@ -56,3 +56,85 @@ public class HttpClientExample {
 }
 
 ```
+
+# Deserialize to custom object
+
+1. pom.xml
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.13.0</version> <!-- Use the latest version -->
+    </dependency>
+</dependencies>
+```
+
+2. Define CustomObject
+
+```java
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class CustomObject {
+    @JsonProperty("field1")
+    private String field1;
+
+    @JsonProperty("field2")
+    private int field2;
+
+    // Getters and setters
+}
+```
+
+3. deserialize
+
+```java
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.util.List;
+
+public class HttpClientExample {
+    public static void main(String[] args) {
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        String url = "https://example.com";
+        HttpGet httpGet = new HttpGet(url;
+
+        try {
+            HttpResponse response = httpClient.execute(httpGet);
+            String responseBody = EntityUtils.toString(response.getEntity());
+
+            // Use Jackson ObjectMapper to deserialize the JSON response into a list of custom objects
+            ObjectMapper objectMapper = new ObjectMapper();
+            List<CustomObject> customObjects = objectMapper.readValue(responseBody, new TypeReference<List<CustomObject>>() {});
+
+            // Now, you have a list of custom objects
+            for (CustomObject customObject : customObjects) {
+                System.out.println(customObject.getField1());
+                System.out.println(customObject.getField2());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                httpClient.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+```
+
+# Other examples
+
+1. [Introduction to the Java HTTP Client](https://openjdk.org/groups/net/httpclient/recipes.html)
+1. [How to send HTTP request GET/POST in Java](https://mkyong.com/java/how-to-send-http-request-getpost-in-java/)
+1. [Apache HttpClient Example - CloseableHttpClient](https://www.digitalocean.com/community/tutorials/apache-httpclient-example-closeablehttpclient)
+1. [Comparison of Java HTTP Clients](https://reflectoring.io/comparison-of-java-http-clients/)
