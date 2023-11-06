@@ -43,14 +43,22 @@
 1. [Amazon S3 Select - Querying data without servers or databases](https://catalog.us-east-1.prod.workshops.aws/workshops/c85a4d91-2b80-4155-948d-bbdc200567a6/en-US)
 
 # 6. Pre-Signed URLs
+
+1. [Using presigned URLs to identify per-requester usage of Amazon S3 by John Lee, Chance Lee, and Justin Lim](https://fourtheorem.com/the-illustrated-guide-to-s3-pre-signed-urls/)
+1. [[1ST_EXAMPLE_START_HERE] Uploading to Amazon S3 directly from a web or mobile application
+by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-directly-from-a-web-or-mobile-application/)
+- https://github.com/aws-samples/amazon-s3-presigned-urls-aws-sam
+1. [[GOTCHAs] Handling Pre-signed URLs with S3 By Crishantha Nanayakkara](https://crishantha.medium.com/handling-pre-signed-urls-with-s3-7aab969bb40)
 1. [Generating Amazon S3 Pre-signed URLs with SSE (Part 1) by Hanson Char ](https://aws.amazon.com/blogs/developer/generating-amazon-s3-pre-signed-urls-with-sse-part-1/)
 1. [Generating Amazon S3 Pre-signed URLs with SSE-KMS (Part 2) by Hanson Char](https://aws.amazon.com/blogs/developer/generating-amazon-s3-pre-signed-urls-with-sse-kms-part-2/)
 1. [Generating Amazon S3 Pre-signed URLs with SSE-C (Part 4) by Hanson Char](https://aws.amazon.com/blogs/developer/generating-amazon-s3-pre-signed-urls-with-sse-c-part-4/)
 1. [Generating Amazon S3 Pre-signed URLs with SSE-S3 (Part 3) by Hanson Char ](https://aws.amazon.com/blogs/developer/generating-amazon-s3-pre-signed-urls-with-sse-s3-part-3/)
 1. [Generating Amazon S3 Pre-signed URLs with SSE-C (Part 5 Finale) by Hanson Char ](https://aws.amazon.com/blogs/developer/generating-amazon-s3-pre-signed-urls-with-sse-c-part-5-finale/)
 1. [S3 URI Parsing is now available in AWS SDK for Java 2.x by David Ho](https://aws.amazon.com/blogs/devops/s3-uri-parsing-is-now-available-in-aws-sdk-for-java-2-x/)
+1. [Using presigned URLs to identify per-requester usage of Amazon S3 by John Lee, Chance Lee, and Justin Lim](https://aws.amazon.com/blogs/storage/using-presigned-urls-to-identify-per-requester-usage-of-amazon-s3/)
 
 # 7. Replication
+
 1. [Configuring Amazon S3 Cross-Region Replication (CRR) and Same-Region Replication (SRR) By Neil Davis](https://www.youtube.com/watch?v=trmicgGpmd4&t=6s)
 
 # 8. Java examples

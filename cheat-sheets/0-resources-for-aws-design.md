@@ -8,6 +8,7 @@
 - [3. Sample Diagrams](#3-sample-diagrams)
 - [4. Animations](#4-animations)
 - [5. Charts](#5-charts)
+- [Flow charts](#flow-charts)
 - [6. Design Templates](#6-design-templates)
   - [6.1. Sample from ChatGPT](#61-sample-from-chatgpt)
 - [7. Documentation - How to write documents](#7-documentation---how-to-write-documents)
@@ -23,6 +24,7 @@
 
 1. [Sequence Diagrams enrich your understanding of distributed architectures by Kevin Hakanson](https://aws.amazon.com/blogs/architecture/sequence-diagrams-enrich-your-understanding-of-distributed-architectures/)
 1. [Implementing a UML state machine using AWS Step Functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/implementing-a-uml-state-machine-using-aws-step-functions/)
+1. [Building a modern, event-driven application for insurance claims processing – Part 1 by Emily Shea and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-1/)
 
 ## 2.1. References
 
@@ -47,6 +49,10 @@ https://www.youtube.com/watch?v=yg3WcAjmR90
 1. [Mind maps](https://www.mindmapping.com/)
 1. [Mind Map Templates](https://creately.com/diagram-community/popular/t/mind-map)
 1. [The Coggle Gallery](https://coggle.it/gallery)
+
+# Flow charts
+
+1. [Implementing patterns that exit early out of a parallel state in AWS Step Functions](https://serverlessland.com/blog/implementing-patterns-that-exit-early-out-of-a-parallel-state-in-aws-step-functions--aws-compute-blog)
 
 # 6. Design Templates
 

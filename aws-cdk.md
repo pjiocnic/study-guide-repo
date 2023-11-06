@@ -503,6 +503,7 @@ https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 1. [AWS re:Invent 2022 - How to reuse patterns when developing infrastructure as code (DOP302)](https://www.youtube.com/watch?v=ndd9XwQZbyM)
 1. [See **more resources** for list of videos](https://github.com/aws/aws-cdk)
 1. [CDK Day](https://www.youtube.com/c/CDKDay)
+1. [How to Build Application Patterns Using AWS Cloud Development Kit- AWS Online Tech Talks By AWS Developers](https://www.youtube.com/watch?v=NoAjLmOaev4&t=513s)
 
 ## 33.1. CDK Construction Zone
 

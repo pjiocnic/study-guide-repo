@@ -61,6 +61,8 @@
 
 1. [Cloud Foundations on AWS - Templates](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main)
 2. [AWS CloudFormation Sample Templates](https://github.com/awslabs/aws-cloudformation-templates)
+3. [Template snippets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/CHAP_TemplateQuickRef.html)
+4. [AWS CloudFormation Templates](https://aws.amazon.com/cloudformation/resources/templates/govcloud-us/)
 
 # 9. Skillbuilder courses
 

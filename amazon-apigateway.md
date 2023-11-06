@@ -3,20 +3,27 @@
 <!-- TOC -->
 
 - [1. Best Practices](#1-best-practices)
+- [Cognito Integration](#cognito-integration)
 - [2. Features](#2-features)
 - [3. Load Testing](#3-load-testing)
-- [4. Private Enpoints](#4-private-enpoints)
-- [5. Throttling](#5-throttling)
-- [6. Websockets](#6-websockets)
-- [7. Usage Plans](#7-usage-plans)
-- [8. Use Cases](#8-use-cases)
-  - [8.1. URL Shortner](#81-url-shortner)
+- [4. Open API](#4-open-api)
+- [5. Private Enpoints](#5-private-enpoints)
+- [6. Throttling](#6-throttling)
+- [7. Websockets](#7-websockets)
+- [8. Usage Plans](#8-usage-plans)
+- [9. Use Cases](#9-use-cases)
+  - [9.1. URL Shortner](#91-url-shortner)
 
 <!-- /TOC -->
 
 # 1. Best Practices
 
 1. [Things to Consider When You Build REST APIs with Amazon API Gateway by George Mao](https://aws.amazon.com/blogs/architecture/things-to-consider-when-you-build-rest-apis-with-amazon-api-gateway/)
+
+# Cognito Integration
+
+1. [ALB, Amazon Cognito and Lambda integration](https://serverlessland.com/patterns/alb-cognito-lambda)
+1. [Building fine-grained authorization using Amazon Cognito, API Gateway, and IAM by Artem Lovan](https://aws.amazon.com/blogs/security/building-fine-grained-authorization-using-amazon-cognito-api-gateway-and-iam/)
 
 # 2. Features
 
@@ -27,30 +34,35 @@
 1. [Using serverless to load test Amazon API Gateway with authorization by Ashish Mehra](https://aws.amazon.com/blogs/compute/using-serverless-to-load-test-amazon-api-gateway-with-authorization/)
 1. [Building well-architected serverless applications: Regulating inbound request rates – part 1 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-regulating-inbound-request-rates-part-1/)
 
-# 4. Private Enpoints
+# 4. Open API
+
+1. [Create RESTful APIs on AWS with OpenAPI Specification (With No Coding) by Samuel Baruffi, Radhika Gupta, and Anthony Watson](https://aws.amazon.com/blogs/opensource/create-restful-apis-on-aws-with-openapi-specification-with-no-coding/)
+1. [Create RESTful APIs on AWS with OpenAPI Specification (With No Coding) by Samuel Baruffi, Radhika Gupta, and Anthony Watson ](https://aws.amazon.com/blogs/opensource/create-restful-apis-on-aws-with-openapi-specification-with-no-coding/)
+
+# 5. Private Enpoints
 
 1. [Serverless Private APIs — Part 1 By Serverless Advocate](https://levelup.gitconnected.com/serverless-private-apis-60749934b161)
 
-# 5. Throttling
+# 6. Throttling
 
 1. [AWS re:Invent 2019: [REPEAT 2] I didn’t know Amazon API Gateway did that (SVS212-R2)](https://www.youtube.com/watch?v=yfJZc3sJZ8E)
 2. [How To: Use SNS and SQS to Distribute and Throttle Events](https://www.jeremydaly.com/how-to-use-sns-and-sqs-to-distribute-and-throttle-events/)
 
-# 6. Websockets
+# 7. Websockets
 
 1. [Announcing WebSocket APIs in Amazon API Gateway by Chris Munns](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/)
 4. [Building Real-Time Applications using WebSocket APIs Supported by Amazon API Gateway webinar](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/)
 3. [Building Real Time Applications using WebSocket APIs Supported by Amazon API Gateway By George Mao](https://pages.awscloud.com/Building-Real-Time-Applications-using-WebSocket-APIs-Supported-by-Amazon-API-Gateway_1211-SRV_OD.html)
 
-# 7. Usage Plans
+# 8. Usage Plans
 
 1. [Creating Usage Plans in console](https://aws.amazon.com/blogs/aws/new-usage-plans-for-amazon-api-gateway/)
 2. [Visualizing Amazon API Gateway usage plans using Amazon QuickSight by Roberto Iturralde](https://aws.amazon.com/blogs/compute/visualizing-amazon-api-gateway-usage-plans-using-amazon-quicksight/)
 - [./templates/api-gateway-access-logs-visualization-core.yaml](api-gateway-access-logs-visualization-core.template)
 
-# 8. Use Cases
+# 9. Use Cases
 
-## 8.1. URL Shortner
+## 9.1. URL Shortner
 
 1. [Building Serverless URL Shortener Service on AWS Using API Gateway and Dynamodb](https://dev.to/aws-builders/building-serverless-url-shortener-service-on-aws-1895)
 

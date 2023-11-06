@@ -15,8 +15,8 @@
 - [9. Serverless](#9-serverless)
 - [10. Auditing](#10-auditing)
 - [11. Patterns](#11-patterns)
-- [AutoScaling](#autoscaling)
-- [AWS CookBook](#aws-cookbook)
+- [12. AutoScaling](#12-autoscaling)
+- [13. AWS CookBook](#13-aws-cookbook)
 
 <!-- /TOC -->
 
@@ -92,10 +92,10 @@
 
 1. [Prevent API overload with rate limiting in AWS](https://dev.to/aws-builders/prevent-api-overload-with-rate-limiting-in-aws-1dgb)
 
-# AutoScaling
+# 12. AutoScaling
 
 1. [Amazon DocumentDB (with MongoDB compatibility) read autoscaling by Randy DeFauw](https://aws.amazon.com/blogs/database/amazon-documentdb-with-mongodb-compatibility-read-autoscaling/)
 
-# AWS CookBook
+# 13. AWS CookBook
 
 1. [AWS Cookbook](https://github1s.com/AWSCookbook/Databases)

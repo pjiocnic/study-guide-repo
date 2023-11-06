@@ -20,6 +20,7 @@
 # 2. Workshop
 
 1. [The Complete AWS SAM Workshop](https://catalog.workshops.aws/complete-aws-sam/en-US)
+1. [Sessions With SAM](https://github.com/aws-samples/sessions-with-aws-sam)
 
 # 3. Getting started
 

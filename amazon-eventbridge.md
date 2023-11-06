@@ -1,6 +1,7 @@
 
 <!-- TOC -->
 
+- [Design](#design)
 - [1. Eventbridge Rules](#1-eventbridge-rules)
 - [2. Event Broker](#2-event-broker)
 - [3. Integration](#3-integration)
@@ -8,11 +9,20 @@
   - [3.2. Glue](#32-glue)
   - [3.3. DynamoDBStreams](#33-dynamodbstreams)
 - [4. Patterns](#4-patterns)
+  - [4.1. Webhooks](#41-webhooks)
+  - [4.2. Orchestrator](#42-orchestrator)
+  - [4.3. Transactional outbox pattern](#43-transactional-outbox-pattern)
+  - [4.4. Content enrichment pattern](#44-content-enrichment-pattern)
+  - [4.5. Claim Check Pattern](#45-claim-check-pattern)
 - [5. SkillBuilder Course](#5-skillbuilder-course)
 - [6. Schema validation](#6-schema-validation)
 - [7. Scheduling](#7-scheduling)
 
 <!-- /TOC -->
+
+# Design
+
+1.[Icons for Eventbridge, Eventbridge event and Eventbridge Rule](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-2/)
 
 # 1. Eventbridge Rules
 
@@ -41,11 +51,27 @@
 
 # 4. Patterns
 
+## 4.1. Webhooks
+
 1. [[WebHooks] Amazon Aurora & Amazon EventBridge Webhooks Sample](https://github.com/aws-samples/amazon-aurora-eventbridge-webhooks)
+
+## 4.2. Orchestrator
+
 1. [{Orchestrator] Insurance Claims Processing using Serverless and Event-Driven Architecture](https://github.com/aws-samples/serverless-eda-insurance-claims-processing)
+
+## 4.3. Transactional outbox pattern
+
 1. [[Transactional outbox pattern ] Implementing the transactional outbox pattern with Amazon EventBridge Pipes By Sayan Moitra](https://aws.amazon.com/blogs/compute/implementing-the-transactional-outbox-pattern-with-amazon-eventbridge-pipes/)
 
+## 4.4. Content enrichment pattern
 
+1. [Enriching events with Amazon EventBridge and AWS Lambda](https://www.boyney.io/blog/2022-11-01-eventbridge-enrichment-with-lambda)
+
+## 4.5. Claim Check Pattern
+
+1. [S3 to EventBridge claim check with presigned urls](https://serverlessland.com/patterns/s3-to-eventbridge-claim-check-pattern)
+1. [How to publish large events with Amazon EventBridge using the claim check pattern](https://www.boyney.io/blog/2022-11-01-eventbridge-claim-check)
+1. [Claim Check Pattern by David Boyne](https://serverlessland.com/event-driven-architecture/visuals/claim-check-pattern)
 
 # 5. SkillBuilder Course
 

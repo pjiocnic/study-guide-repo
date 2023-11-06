@@ -25,3 +25,87 @@ Fronting an application load balancer with an API Gateway can offer several bene
 **Global Distribution and Content Delivery:** If your API needs to be accessed from various regions around the world, an API Gateway can work with content delivery networks (CDNs) to optimize response times and reduce latency.
 
 It's important to note that while using an API Gateway can bring these benefits, it also introduces an additional layer of complexity to your architecture. This can impact latency and increase points of failure. Therefore, the decision to use an API Gateway should be based on your specific requirements and trade-offs.
+
+# When should I consider using HTTP over REST API in API Gateway?
+
+1. When you don't need throttling, caching and just want it to proxying a Lambda
+https://youtu.be/yfJZc3sJZ8E?t=464
+
+# References
+
+1. [Building a serverless URL shortener app without AWS Lambda – part 1 by Eric Johnson ](https://aws.amazon.com/blogs/compute/building-a-serverless-url-shortener-app-without-lambda-part-1/)
+
+
+https://youtu.be/yfJZc3sJZ8E?t=1902
+https://youtu.be/yfJZc3sJZ8E?t=1965
+https://youtu.be/yfJZc3sJZ8E?t=2005
+https://youtu.be/yfJZc3sJZ8E?t=2192
+https://github.com/aws-samples/api-gateway-auth
+https://repost.aws/it/questions/QU4Pu8S9R6TZSpGBH8bxbe9w/what-is-the-correct-way-of-setting-up-authorization-for-api-gateway-using-aws-sam
+
+https://www.youtube.com/watch?v=klOScYEojzY
+https://github.com/aws-samples/sessions-with-aws-sam
+
+https://youtu.be/yfJZc3sJZ8E?t=2272
+
+https://youtu.be/yfJZc3sJZ8E?t=2434
+
+https://youtu.be/yfJZc3sJZ8E?t=2659
+
+https://youtu.be/yfJZc3sJZ8E?t=2773
+
+https://youtu.be/yfJZc3sJZ8E?t=3167
+
+https://youtu.be/yfJZc3sJZ8E?t=3184
+
+https://youtu.be/yfJZc3sJZ8E?t=3235
+
+# Custom domains
+https://aws.amazon.com/blogs/compute/implementing-custom-domain-names-for-amazon-api-gateway-private-endpoints-using-a-reverse-proxy/
+https://www.readysetcloud.io/blog/allen.helton/adding-a-custom-domain-to-aws-api-gateway/
+https://www.youtube.com/watch?v=Ro0rgeLDkO4
+https://www.youtube.com/watch?v=lOLRAipYiVg
+https://www.youtube.com/watch?v=ESei6XQ7dMg
+
+
+<img src="./images/apigtwy-1.png" title="apigtwy-1.png" width="900"/>
+
+<img src="./images/apigtwy-2.png" title="apigtwy-2.png" width="900"/>
+
+<img src="./images/apigtwy-3.png" title="apigtwy-3.png" width="900"/>
+
+<img src="./images/apigtwy-4.png" title="apigtwy-4.png" width="900"/>
+
+<img src="./images/apigtwy-5.png" title="apigtwy-5.png" width="900"/>
+
+<img src="./images/apigtwy-6.png" title="apigtwy-6.png" width="900"/>
+
+<img src="./images/apigtwy-7.png" title="apigtwy-7.png" width="900"/>
+
+<img src="./images/apigtwy-8.png" title="apigtwy-8.png" width="900"/>
+
+# How to restrict based on usage plan?
+https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-regulating-inbound-request-rates-part-2/
+
+# How to protecct non-scalable resources?
+https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-regulating-inbound-request-rates-part-2/#Best practice: Use mechanisms to protect non-scalable resources
+
+# Direct Integration
+
+Direct Integration possible with AWS Lambda, Event brdige, Kinesis, SQS, App Config, AWS Step Functions
+
+# Private Integrations
+
+1. https://aws.amazon.com/blogs/compute/architecting-for-scale-with-amazon-api-gateway-private-integrations/
+
+# Authorizations
+
+1. [Sessions With SAM (S1E1): Simple HTTP API with JWT Authorizer By Serverless Land](https://www.youtube.com/watch?v=klOScYEojzY&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=1&pp=iAQB)
+2. [Sessions With SAM (S1E2): Cognito and HTTP API By Serverless Land](https://www.youtube.com/watch?v=klOScYEojzY&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=1&pp=iAQB)
+https://www.youtube.com/watch?v=73R02KufLac&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=3&pp=iAQB
+3. [Introducing IAM and Lambda authorizers for Amazon API Gateway HTTP APIs by Julian Wood](https://aws.amazon.com/blogs/compute/introducing-iam-and-lambda-authorizers-for-amazon-api-gateway-http-apis/)
+
+
+# Videos
+
+1. [Sessions with SAM](https://www.youtube.com/playlist?list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd)
