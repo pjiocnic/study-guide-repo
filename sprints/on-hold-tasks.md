@@ -3,7 +3,29 @@
 # Topics
 
 1. Powertool - idempotency, handling large payloads
+1. Subscription filters using sam?
+1. Mongo + Lambda + Spring
+1. SQS trigger Lambda using ESM
+1. Mongo Transactions
+1. Locking for dynamodb
+1. complete notes on sam nested stacks - https://aws.amazon.com/blogs/compute/speeding-up-incremental-changes-with-aws-sam-accelerate-and-nested-stacks/
+1. Secrets - /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/databases/security/aws-secrets-manager-secure-database-credentials
+1. [Building a serverless URL shortener app without AWS Lambda – part 1 by Eric Johnson ](https://aws.amazon.com/blogs/compute/building-a-serverless-url-shortener-app-without-lambda-part-1/)
+1. cdk book
+1. DLQs
+1. Complete notes on "Insurance processing use case"
+1. Complete notes on API Gateway by Eric Johnson.
+1. Complete notes on https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-regulating-inbound-request-rates-part-2/ and part 1
+1. Sam Sessions
+1. AWS Fundamentals book by Tobias
+1. System Design books
 
+# Blogs in progress
+
+1. [Sending and receiving webhooks on AWS: Innovate with event notifications](https://aws.amazon.com/blogs/compute/sending-and-receiving-webhooks-on-aws-innovate-with-event-notifications/)
+1. [Sessions With SAM (S1E6): SAM templates for SQS, cross-account queue policies & Lambda event ](https://www.youtube.com/watch?v=q2rbHMyJBDY&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=6)
+1. [Make Notes](my-github/study-guide-repo/notes-under-construction/api-gateway.md)
+1. [Make Notes under Sessions with SAM](https://www.youtube.com/watch?v=IQfLHrtPW9o&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=26)
 
 # Tasks
 

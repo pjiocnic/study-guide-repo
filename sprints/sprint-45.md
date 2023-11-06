@@ -27,7 +27,7 @@
 
 # Weekend plan
 
-1. Do Lambda course by Heinz@Safari
+1. Do Java Lambda course by Heinz@Safari
 1. Do the eventbridge orchestrator example By Mahapatra
 1. [Building a modern, event-driven application for insurance claims processing – Part 1 by Emily Shea and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-1/)
 2. [Building a modern, event-driven application for insurance claims processing – Part 2 by Emily Shea, Vaibhav Jain, and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-2/)

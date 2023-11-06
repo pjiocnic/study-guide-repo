@@ -8,6 +8,7 @@
 - [3. Courses](#3-courses)
 - [4. Distributed Map](#4-distributed-map)
 - [5. Parallelisms](#5-parallelisms)
+- [Use cases](#use-cases)
 
 <!-- /TOC -->
 
@@ -39,3 +40,13 @@
 # 5. Parallelisms
 
 1. [AWS re:Invent 2022 - [NEW] Accelerate workloads using parallelism w/Step Functions & Lambda (API205)](https://www.youtube.com/watch?v=SG6_oy72hh4)
+
+# Use cases
+
+1. [Orchestrating dependent file uploads with AWS Step Functions](https://aws.amazon.com/blogs/compute/orchestrating-dependent-file-uploads-with-aws-step-functions/)
+
+<img src="./images/step-fns-1.png" title="step-fns-1.png" width="900"/>
+
+<img src="./images/step-fns-2.png" title="step-fns-2.png" width="900"/>
+
+Shows how to do data correlation when S3 files are uploaded
