@@ -4,11 +4,13 @@
 
 - [1. Samples](#1-samples)
   - [1.1. Content aggregation](#11-content-aggregation)
-- [2. Videos](#2-videos)
+- [2. CallBack](#2-callback)
 - [3. Courses](#3-courses)
 - [4. Distributed Map](#4-distributed-map)
 - [5. Parallelisms](#5-parallelisms)
-- [Use cases](#use-cases)
+- [6. Patterns](#6-patterns)
+  - [6.1. Aggregating Events](#61-aggregating-events)
+- [7. Videos](#7-videos)
 
 <!-- /TOC -->
 
@@ -20,11 +22,9 @@
 2. [Building Serverless Land: Part 2 – An auto-building static site by Benjamin Smith](https://aws.amazon.com/blogs/compute/building-serverless-land-part-2-an-auto-building-static-site/)
 3. [[MY NEXT] Building Serverless Land](https://github.com/aws-samples/content-aggregator-example)
 
-# 2. Videos
+# 2. CallBack
 
-1. [AWS re:Invent 2022 - Advanced serverless workflow patterns and best practices (API309) By Ben Smith](https://www.youtube.com/watch?v=o6-7BAUWaqg)
-1. [Big Data Processing Using Distributed Maps and AWS Step Functions (S3 + Lambda) By Be Better Dev](https://www.youtube.com/watch?v=0Zs5s5F_lFc)
-1. [Building distributed data processing workloads with AWS Step Functions By Uma Ramadoss](https://www.youtube.com/watch?v=b7zfFdKzttw)
+1. [Integrating AWS Step Functions callbacks and external systems by Zach Abrahamson,](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems)
 
 # 3. Courses
 
@@ -41,7 +41,9 @@
 
 1. [AWS re:Invent 2022 - [NEW] Accelerate workloads using parallelism w/Step Functions & Lambda (API205)](https://www.youtube.com/watch?v=SG6_oy72hh4)
 
-# Use cases
+# 6. Patterns
+
+## 6.1. Aggregating Events
 
 1. [Orchestrating dependent file uploads with AWS Step Functions](https://aws.amazon.com/blogs/compute/orchestrating-dependent-file-uploads-with-aws-step-functions/)
 
@@ -49,4 +51,8 @@
 
 <img src="./images/step-fns-2.png" title="step-fns-2.png" width="900"/>
 
-Shows how to do data correlation when S3 files are uploaded
+# 7. Videos
+
+1. [AWS re:Invent 2022 - Advanced serverless workflow patterns and best practices (API309) By Ben Smith](https://www.youtube.com/watch?v=o6-7BAUWaqg)
+1. [Big Data Processing Using Distributed Maps and AWS Step Functions (S3 + Lambda) By Be Better Dev](https://www.youtube.com/watch?v=0Zs5s5F_lFc)
+1. [Building distributed data processing workloads with AWS Step Functions By Uma Ramadoss](https://www.youtube.com/watch?v=b7zfFdKzttw)
