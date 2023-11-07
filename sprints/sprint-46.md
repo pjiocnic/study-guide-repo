@@ -1,5 +1,16 @@
 <h1>Sprint 46 - Nov 6, 2023- Nov 12, 2023</h1>
 
+# Topics To Cover
+
+1. [Create RESTful APIs on AWS with OpenAPI Specification (With No Coding) by Samuel Baruffi, Radhika Gupta, and Anthony Watson](https://aws.amazon.com/blogs/opensource/create-restful-apis-on-aws-with-openapi-specification-with-no-coding/)
+1. [Integrating AWS Step Functions callbacks and external systems](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems)
+1. PostGres Test containers BY Dan Vega
+
+# Make Notes
+
+1. [Orchestrating dependent file uploads with AWS Step Functions by Nelson Assis](https://aws.amazon.com/blogs/compute/orchestrating-dependent-file-uploads-with-aws-step-functions/)
+1. [Moving to event-driven architectures with serverless event aggregators by Semih Duru and Marco Sommella](https://aws.amazon.com/blogs/mt/moving-to-event-driven-architectures-with-serverless-event-aggregators/)
+
 # 1. Open API
 
 1. https://www.youtube.com/watch?v=0vqgWQIVfMI
@@ -46,7 +57,6 @@
 
 # 7. Lambdas and Streams
 
-
 # Curate
 
-1. [](https://aws.amazon.com/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/)
+1. [Building storage-first serverless applications with HTTP APIs service integrations by Eric Johnson ](https://aws.amazon.com/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/)
