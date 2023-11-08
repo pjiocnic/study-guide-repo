@@ -5,6 +5,8 @@
 1. [Create RESTful APIs on AWS with OpenAPI Specification (With No Coding) by Samuel Baruffi, Radhika Gupta, and Anthony Watson](https://aws.amazon.com/blogs/opensource/create-restful-apis-on-aws-with-openapi-specification-with-no-coding/)
 1. [Integrating AWS Step Functions callbacks and external systems](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems)
 1. PostGres Test containers BY Dan Vega
+1. [Mongodb Pessimistic Locking](https://www.mongodb.com/blog/post/mongodb-multi-document-acid-transactions-general-availability)
+
 
 # examples to work on
 
