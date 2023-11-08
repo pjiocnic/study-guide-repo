@@ -6,6 +6,12 @@
 1. [Integrating AWS Step Functions callbacks and external systems](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems)
 1. PostGres Test containers BY Dan Vega
 
+# Weekend
+
+1. SpringData + MongoTemplate
+1. Aggregations
+1. AWS Lambda + Mongodb
+
 # Make Notes
 
 1. [Orchestrating dependent file uploads with AWS Step Functions by Nelson Assis](https://aws.amazon.com/blogs/compute/orchestrating-dependent-file-uploads-with-aws-step-functions/)
