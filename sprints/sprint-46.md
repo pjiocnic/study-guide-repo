@@ -74,3 +74,4 @@
 # Curate
 
 1. [Building storage-first serverless applications with HTTP APIs service integrations by Eric Johnson ](https://aws.amazon.com/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/)
+1. [What’s the most serverless way to wait for a slow HTTP response? By Yan Cui](https://theburningmonk.com/2023/08/whats-the-most-serverless-way-to-wait-for-a-slow-http-response/)
