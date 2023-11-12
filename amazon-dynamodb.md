@@ -3,6 +3,7 @@
 
 - [1. Dashboard](#1-dashboard)
 - [2. Frequent GoTos](#2-frequent-gotos)
+- [Code Samples](#code-samples)
 - [3. Core Concepts](#3-core-concepts)
   - [3.1. Dynamodb TTL](#31-dynamodb-ttl)
 - [4. Curate Topics](#4-curate-topics)
@@ -137,6 +138,11 @@
 
 1. [Links currated by Alex Debrie](https://github.com/alexdebrie/awesome-dynamodb/blob/master/README.md)
 2. [Best practices for designing and architecting with DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html)
+
+# Code Samples
+
+1. [ten-examples-of-getting-data-from-dynamodb-with-python-and-boto3](https://www.fernandomc.com/posts/ten-examples-of-getting-data-from-dynamodb-with-python-and-boto3/)
+1. See https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_stepfunctions_pubsub.html for snippets
 
 # 3. Core Concepts
 

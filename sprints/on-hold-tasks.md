@@ -27,6 +27,19 @@
 1. [Make Notes](my-github/study-guide-repo/notes-under-construction/api-gateway.md)
 1. [Make Notes under Sessions with SAM](https://www.youtube.com/watch?v=IQfLHrtPW9o&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=26)
 
+# Notes in Progress
+
+1. /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/notes-under-construction/webhooks-architecture.md
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/step-functions/[NOTES] aws-step-functions-callback-example
+1. /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/notes-under-construction/12-api-gateway.md
+1. [1-[Use Case] Building Insurance Claims Processing]("/Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/notes-under-construction/1-[Use Case] Building Insurance Claims Processing.md")
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/[TODO] svs-307-powertools
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/dynamodb/amazon-dynamodb-labs/notes/4-Build a Serverless Event Driven Architecture with DynamoDB/4-Build a Serverless Event Driven Architecture with DynamoDB.md
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/documentdb/amazon-documentdb-integration-with-application-autoscaler
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/documentdb/quick-start/my-readme.md
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/cloudformation/ha-web-app
+1. [Implementing architectural patterns with Amazon EventBridge Pipes by David Boyne](https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/)
+
 # Tasks
 
 1. Review and Close notes - `/Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/faqs/my-faqs-for-sqs.md` and find a permanent home
@@ -121,6 +134,7 @@ a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-works
 1. Complete HA Web Workshop (https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US)
 1. Continue working thru workshop here - https://workshop-aws-account-setup.fstehle.com/
 1. Workshop - [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/[TODO] svs-307-powertools
 
 # 8. Parked on 09232023
 1. https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/

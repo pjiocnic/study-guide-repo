@@ -2,25 +2,30 @@
 
 <!-- TOC -->
 
+- [Architecture Diagrams](#architecture-diagrams)
 - [1. Network diagrams](#1-network-diagrams)
-- [2. Sequnce Diagrams](#2-sequnce-diagrams)
+- [2. Sequence Diagrams](#2-sequence-diagrams)
   - [2.1. References](#21-references)
 - [3. Sample Diagrams](#3-sample-diagrams)
 - [4. Animations](#4-animations)
 - [5. Charts](#5-charts)
-- [Flow charts](#flow-charts)
-- [6. Design Templates](#6-design-templates)
-  - [6.1. Sample from ChatGPT](#61-sample-from-chatgpt)
-- [7. Documentation - How to write documents](#7-documentation---how-to-write-documents)
-- [Creating animnations](#creating-animnations)
+- [6. Flow charts](#6-flow-charts)
+- [7. Design Templates](#7-design-templates)
+  - [7.1. Sample from ChatGPT](#71-sample-from-chatgpt)
+- [8. Documentation - How to write documents](#8-documentation---how-to-write-documents)
+- [9. Creating animnations](#9-creating-animnations)
 
 <!-- /TOC -->
+
+# Architecture Diagrams
+
+1. [Serverless Loan Broker @ AWS, Part 5: Integration Patterns with CDK](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_cdk.html)
 
 # 1. Network diagrams
 
 1. https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/TUT_WebAppWithRDS.html
 
-# 2. Sequnce Diagrams
+# 2. Sequence Diagrams
 
 1. [Sequence Diagrams enrich your understanding of distributed architectures by Kevin Hakanson](https://aws.amazon.com/blogs/architecture/sequence-diagrams-enrich-your-understanding-of-distributed-architectures/)
 1. [Implementing a UML state machine using AWS Step Functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/implementing-a-uml-state-machine-using-aws-step-functions/)
@@ -49,12 +54,13 @@ https://www.youtube.com/watch?v=yg3WcAjmR90
 1. [Mind maps](https://www.mindmapping.com/)
 1. [Mind Map Templates](https://creately.com/diagram-community/popular/t/mind-map)
 1. [The Coggle Gallery](https://coggle.it/gallery)
+1. [FreeMind tool for Mindmaps](https://freemind.sourceforge.io/wiki/index.php/Download)
 
-# Flow charts
+# 6. Flow charts
 
 1. [Implementing patterns that exit early out of a parallel state in AWS Step Functions](https://serverlessland.com/blog/implementing-patterns-that-exit-early-out-of-a-parallel-state-in-aws-step-functions--aws-compute-blog)
 
-# 6. Design Templates
+# 7. Design Templates
 
 1. [Cloud Architect’s High-Level Design Template](https://isenberg-ran.medium.com/cloud-architects-high-level-design-template-b35ab940ce77)
 1. Writing a design document
@@ -68,7 +74,7 @@ https://www.youtube.com/watch?v=yg3WcAjmR90
 ```
 Example: https://repost.aws/knowledge-center/sqs-high-charges
 
-## 6.1. Sample from ChatGPT
+## 7.1. Sample from ChatGPT
 
 Writing an AWS design document is a crucial step in planning and implementing your cloud infrastructure on Amazon Web Services (AWS). A well-structured design document helps communicate your architecture and requirements to your team and stakeholders. Here's a step-by-step guide on how to write an AWS design document:
 
@@ -167,7 +173,7 @@ Writing an AWS design document is a crucial step in planning and implementing yo
 
 Remember that an AWS design document should be a living document that evolves as the project progresses. Regularly update it to reflect changes and improvements in your architecture and implementation.
 
-# 7. Documentation - How to write documents
+# 8. Documentation - How to write documents
 
 1. [Big things are coming for Lambda Powertools](https://www.youtube.com/watch?v=wirLasM_wFM&t=332s)
 1. [https://github.com/aws-powertools/powertools-lambda-python/pull/2129#issuecomment-1523082490](https://www.youtube.com/watch?v=wirLasM_wFM&t=332s)
@@ -175,6 +181,6 @@ Remember that an AWS design document should be a living document that evolves as
 1. [How to write AWS Style Technical Narratives?](https://www.reddit.com/r/aws/comments/14df2il/how_to_write_aws_style_technical_narratives/?rdt=64090)
 1. A skill that needs to be honed - See Oreilly courses By David Griffiths on Technical writing
 
-# Creating animnations
+# 9. Creating animnations
 
 https://dev.to/aws-builders/spicing-up-aws-architecture-diagrams-a-step-by-step-guide-to-creating-animated-aws-architecture-gifs-jjb

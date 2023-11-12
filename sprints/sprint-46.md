@@ -6,6 +6,15 @@
 1. [Integrating AWS Step Functions callbacks and external systems](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems)
 1. PostGres Test containers BY Dan Vega
 1. [Mongodb Pessimistic Locking](https://www.mongodb.com/blog/post/mongodb-multi-document-acid-transactions-general-availability)
+1. https://medium.com/@iamarkadyt/3-valuable-lessons-learned-about-aws-lambda-destinations-bc1004c94329
+
+# Curate
+
+## Aggregations using DynamoDB
+
+1. [Build aggregations for Amazon DynamoDB tables using Amazon DynamoDB Streams by Rajesh Kantamani ](https://aws.amazon.com/blogs/database/build-aggregations-for-amazon-dynamodb-tables-using-amazon-dynamodb-streams/)
+1. https://deliveroo.engineering/2022/06/21/dynamodb-aggregation.html
+1. https://dev.to/aws-builders/select-count-from-dynamodb-group-by-pk1-sk1-with-streams-43dj
 
 
 # examples to work on

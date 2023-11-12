@@ -10,6 +10,7 @@
 - [5. Parallelisms](#5-parallelisms)
 - [6. Patterns](#6-patterns)
   - [6.1. Aggregating Events](#61-aggregating-events)
+  - [6.2. Invoking external systems](#62-invoking-external-systems)
 - [7. Videos](#7-videos)
 
 <!-- /TOC -->
@@ -25,6 +26,7 @@
 # 2. CallBack
 
 1. [Integrating AWS Step Functions callbacks and external systems by Zach Abrahamson,](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems)
+1. [Invoking asynchronous external APIs with AWS Step Functions by Jorge Fonseca, Hossam Ebrahim, and Shirisha Vivek](https://aws.amazon.com/blogs/architecture/invoking-asynchronous-external-apis-with-aws-step-functions/)
 
 # 3. Courses
 
@@ -50,6 +52,11 @@
 <img src="./images/step-fns-1.png" title="step-fns-1.png" width="900"/>
 
 <img src="./images/step-fns-2.png" title="step-fns-2.png" width="900"/>
+
+## 6.2. Invoking external systems
+
+1. [Integrating AWS Step Functions callbacks and external systems by Zach Abrahamson,](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems)
+1. [Invoking asynchronous external APIs with AWS Step Functions by Jorge Fonseca, Hossam Ebrahim, and Shirisha Vivek](https://aws.amazon.com/blogs/architecture/invoking-asynchronous-external-apis-with-aws-step-functions/)
 
 # 7. Videos
 

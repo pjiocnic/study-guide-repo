@@ -18,32 +18,35 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 - [11. Connection Pooling](#11-connection-pooling)
 - [12. Change Data Streams](#12-change-data-streams)
 - [13. Data Modeling](#13-data-modeling)
-- [In-Memory](#in-memory)
-- [14. Java](#14-java)
-  - [14.1. Docker](#141-docker)
-  - [14.2. Spring Data](#142-spring-data)
-  - [14.3. 3rd Party](#143-3rd-party)
-  - [14.4. Implementing Polymorphism](#144-implementing-polymorphism)
-- [15. JOINs and Aggregations](#15-joins-and-aggregations)
-- [16. Lambda](#16-lambda)
-- [17. Optimistic Locking](#17-optimistic-locking)
-- [18. OpsManager](#18-opsmanager)
-- [19. Schema Validation](#19-schema-validation)
-- [20. Sample Data](#20-sample-data)
-- [21. Sequence Generation](#21-sequence-generation)
-- [22. Sharding](#22-sharding)
-- [23. SQS](#23-sqs)
-- [24. Streams](#24-streams)
-- [25. Staging](#25-staging)
-- [26. TestContainers](#26-testcontainers)
-- [27. Tools](#27-tools)
-- [28. Transactions](#28-transactions)
-- [29. VSCode](#29-vscode)
-- [30. Versioning](#30-versioning)
-- [31. MongoDB Shows](#31-mongodb-shows)
-  - [31.1. [Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore](#311-migrating-stored-procedures-to-mongodbhttpswwwyoutubecomwatchvbog0aighg0a-by-vittal-pai-blore)
-- [32. Curate](#32-curate)
-- [33. Sample Data Sets](#33-sample-data-sets)
+- [14. In-Memory](#14-in-memory)
+- [15. Java](#15-java)
+  - [15.1. Docker](#151-docker)
+  - [15.2. Spring Data](#152-spring-data)
+  - [15.3. 3rd Party](#153-3rd-party)
+  - [15.4. Implementing Polymorphism](#154-implementing-polymorphism)
+- [16. JOINs and Aggregations](#16-joins-and-aggregations)
+- [17. Lambda](#17-lambda)
+- [18. Locking](#18-locking)
+  - [18.1. Optimistic Locking](#181-optimistic-locking)
+  - [18.2. Pessimistic Locking](#182-pessimistic-locking)
+- [19. OpsManager](#19-opsmanager)
+- [20. Schema Validation](#20-schema-validation)
+- [21. Sample Data](#21-sample-data)
+- [22. Sequence Generation](#22-sequence-generation)
+- [23. Sharding](#23-sharding)
+- [24. SQS](#24-sqs)
+- [25. Streams](#25-streams)
+- [26. Staging](#26-staging)
+- [27. TestContainers](#27-testcontainers)
+- [28. Tools](#28-tools)
+- [29. Transactions](#29-transactions)
+  - [SELECT .. UPDATE](#select--update)
+- [30. VSCode](#30-vscode)
+- [31. Versioning](#31-versioning)
+- [32. MongoDB Shows](#32-mongodb-shows)
+  - [32.1. [Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore](#321-migrating-stored-procedures-to-mongodbhttpswwwyoutubecomwatchvbog0aighg0a-by-vittal-pai-blore)
+- [33. Curate](#33-curate)
+- [34. Sample Data Sets](#34-sample-data-sets)
 
 <!-- /TOC -->
 
@@ -145,30 +148,30 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. [Data Modeling Introduction By MongoDB Docs](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/)
 > 1. [[**MY-NEXT**] Modeling Data for a Car Reservation System By Rick Houlihan](https://www.youtube.com/watch?v=41ZIyAKNtdk)
 
-# In-Memory
+# 14. In-Memory
 
 1. [In-Memory Databases Explained](https://www.mongodb.com/databases/in-memory-database)
 
-# 14. Java
+# 15. Java
 
-## 14.1. Docker
+## 15.1. Docker
 
 1. [Spring Boot Application with MongoDB in Docker Container](https://www.appsdeveloperblog.com/deploying-spring-boot-mongodb-application-with-docker/)
 
-## 14.2. Spring Data
+## 15.2. Spring Data
 
 1. [Introduction to Spring Data MongoDB](https://www.baeldung.com/spring-data-mongodb-tutorial)
 1. [Chap 17 - Working with Spring Data MongoDB @ Java Persistence with Spring Data and Hibernate By Catalin Tudose](https://learning.oreilly.com/library/view/java-persistence-with/9781617299186/OEBPS/Text/17.htm#heading_id_3)
 1. [Spring Boot and MongoDB @ mongodb.com](https://www.mongodb.com/compatibility/spring-boot)
 
-## 14.3. 3rd Party
+## 15.3. 3rd Party
 1. [Using Javers](https://javers.org/documentation/spring-boot-integration/)
 
-## 14.4. Implementing Polymorphism
+## 15.4. Implementing Polymorphism
 
 1. [MongoDB Java Driver for Polymorphism](https://zx77.medium.com/mongodb-java-driver-for-polymorphism-8d8a9e28ec24)
 
-# 15. JOINs and Aggregations
+# 16. JOINs and Aggregations
 
 1. [JOINs and Aggregations Using Real-Time Indexing on MongoDB Atlas](https://www.youtube.com/watch?v=6be6aEOHk3w)
 2. [Joins and Other Aggregation Enhancements Coming in MongoDB 3.2 (Part 1 of 3) – Introduction](https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-1-of-3-introduction)
@@ -176,7 +179,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 4. [Joins and Other Aggregation Enhancements Coming in MongoDB 3.2 (Part 3 of 3) – Adding Some Code Glue and Geolocation](https://www.mongodb.com/blog/post/joins-and-other-aggregation-enhancements-coming-in-mongodb-3-2-part-3-of-3-adding-some-code-glue-and-geolocation)
 5. [JOINs and Aggregations Using Real-Time Indexing on MongoDB Atlas By Bhat](https://www.youtube.com/watch?v=6be6aEOHk3w)
 
-# 16. Lambda
+# 17. Lambda
 
 1. [How to Use MongoDB Connection Pooling on AWS Lambda](https://scalegrid.io/blog/how-to-use-mongodb-connection-pooling-on-aws-lambda/)
 1. [Manage Connections with AWS Lambda](https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/)
@@ -184,17 +187,23 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. [Serverless Development with AWS Lambda and MongoDB Atlas Using Java by Nic Raboy](https://www.mongodb.com/developer/products/atlas/serverless-development-aws-lambda-mongodb-atlas-using-java)
 1. [[See This before written article] Build an AWS Lambda Serverless function with Java and MongoDB By Nic Raboy](https://www.youtube.com/watch?v=hMlUrnx9n84)
 
-# 17. Optimistic Locking
+# 18. Locking
+
+## 18.1. Optimistic Locking
 
 1. [Optimistic locking in Mongo](https://medium.com/@andris.briedis/optimistic-locking-in-mongo-69fa693864ec)
 1. [Snapshot isolation](https://en.wikipedia.org/wiki/Snapshot_isolation)
 
-# 18. OpsManager
+## 18.2. Pessimistic Locking
+
+1. [Pessimistic Locking with MongoDB](https://www.codecentric.de/wissens-hub/blog/mongodb-pessimistic-locking)
+
+# 19. OpsManager
 
 1. [[ MongoDB 10 ] MongoDB OpsManager Installation](https://www.youtube.com/watch?v=AHBDcvcbQ9k)
 1. [[ MongoDB 11 ] Deploying a Replicaset using OpsManager](https://www.youtube.com/watch?v=Zzbvnpk-OXQ)
 
-# 19. Schema Validation
+# 20. Schema Validation
 
 1. [MongoDB Schema Validation Rules By Panos Zafeiropoulos](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b)
 2. [JSON Schema Validation - Locking down your model the smart way](https://www.mongodb.com/blog/post/json-schema-validation--locking-down-your-model-the-smart-way)
@@ -203,11 +212,11 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 5. [Schema validation from MongoDB docs](https://www.mongodb.com/docs/manual/core/schema-validation/)
 6. [Add a choice, conditional, or pattern field from hackolade docs](https://hackolade.com/help/Addachoiceconditionalorpatternfi.html)
 
-# 20. Sample Data
+# 21. Sample Data
 
 1. [Sample Data from MongoDB](https://www.mongodb.com/docs/atlas/sample-data/)
 
-# 21. Sequence Generation
+# 22. Sequence Generation
 
 1. [MongoDB Auto-Increment](https://www.mongodb.com/basics/mongodb-auto-increment)
 1. [Generating Globally Unique Identifiers for Use with MongoDB](https://www.mongodb.com/blog/post/generating-globally-unique-identifiers-for-use-with-mongodb)
@@ -217,7 +226,7 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. https://data-flair.training/blogs/mongodb-auto-increment-sequence/
 1. https://sujalmandal.medium.com/creating-sequence-id-in-with-mongo-spring-data-4fc3fd20d685
 
-# 22. Sharding
+# 23. Sharding
 
 1. [Sharding Manual](https://www.mongodb.com/docs/manual/sharding/)
 1. [Start here - Basics of Sharding by Albert Wong](https://youtu.be/8sk75-6W0ik?t=169)
@@ -228,66 +237,71 @@ https://stackoverflow.com/questions/40105958/mongodb-conditional-validation-on-a
 1. [[ MongoDB 9 ] Sharding a MongoDB Collection](https://www.youtube.com/watch?v=Rwg26U0Zs1o)
 1. [Demystifying Sharding in MongoDB (MongoDB World 2022)](https://www.youtube.com/watch?v=EvzPncoCr_M&t=278s)
 1. [Shard Key Indexes](https://www.mongodb.com/docs/manual/core/sharding-shard-key/?_ga=2.235059713.185528633.1697906928-343722034.1695661818#sharding-shard-key-selection)
-1. [Scaling MongoDB Best Practices for Sharding, Indexing and Performance Isolation](https://www.youtube.com/watch?v=ZcAErl9Ir6Q)
+1. [[START_HERE] Scaling MongoDB Best Practices for Sharding, Indexing and Performance Isolation](https://www.youtube.com/watch?v=ZcAErl9Ir6Q)
 1. [Chalk Talk: How to Choose the Perfect Shard Key (MongoDB World 2022)](https://www.youtube.com/watch?v=NjvyFmuuRM4&t=931s)
 1. [Demystifying Sharding in MongoDB (MongoDB World 2022)](https://www.youtube.com/watch?v=EvzPncoCr_M&t=1134s)
 1. [Demystifying Sharding in MongoDB](https://www.youtube.com/watch?v=fs7SoPfXhqc)
 
-# 23. SQS
+# 24. SQS
 
 1. [Improving Our MongoDB Write Throughput with SQS](https://hackernoon.com/improving-our-mongodb-write-throughput-with-sqs)
 
-# 24. Streams
+# 25. Streams
 
 1. [Robust Architecture to populate Data from MongoDB in Real-Time Using Mongo Streams, Event Bridge, SQS Queue and Lambdas](https://www.linkedin.com/pulse/robust-architecture-populate-data-from-mongodb-real-time-soumil-shah/)
 
-# 25. Staging
+# 26. Staging
 
 1. [Relational to NoSQL at Enterprise Scale: Lessons from Amazon By Rick Houlihan](https://www.mongodb.com/blog/post/relational-nosql-enterprise-scale-lessons-amazon)
 
-# 26. TestContainers
+# 27. TestContainers
 
 1. [Spring boot testing with MongoDB using TestContainers by Dennis](https://levelup.gitconnected.com/spring-boot-testing-with-mongodb-using-testcontainers-796320067c62)
 1. [Database Integration Tests with Mongo and Testcontainers](https://medium.com/@soham2312/database-integration-tests-with-mongo-and-testcontainers-8ae17ebd4d8c)
 1. [Testcontainers with MongoDB & Spring Boot](https://www.youtube.com/watch?v=9_1hkYVQ1eI)
 1. [MongoDB Testcontainers Setup for @DataMongoTest](https://rieckpil.de/mongodb-testcontainers-setup-for-datamongotest/)
 
-# 27. Tools
+# 28. Tools
 
 1. [Generate JSON Schema from JSON](https://www.jsonschema.net/)
 
-# 28. Transactions
+# 29. Transactions
 
 1. [Spring Data MongoDB Transactions](https://www.baeldung.com/spring-data-mongodb-transactions)
 1. [Spring Data MongoDB - Transaction sample](https://github.com/spring-projects/spring-data-examples/blob/main/mongodb/transactions/README.md)
 1. [Transactions course from MongoDB Institute](https://learn.mongodb.com/learn/course/mongodb-transactions/lesson-3-using-transactions-in-mongodb/learn?page=2)
 1. [[**START HERE**] MongoDB 4 Update: Multi-Document ACID Transactions](https://www.mongodb.com/blog/post/mongodb-multi-document-acid-transactions-general-availability)
+1. [[EXCELLANT] Are Transactions Right For You?](https://youtu.be/tnciVR4Bysw?t=1240)
 
-# 29. VSCode
+## SELECT .. UPDATE
+
+1. [How To SELECT ... FOR UPDATE inside MongoDB Transactions](https://www.mongodb.com/blog/post/how-to-select--for-update-inside-mongodb-transactions)
+
+# 30. VSCode
 
 1. [MongoDB for VS Code - MongoDB Developer Tools](https://www.youtube.com/watch?v=MLWlWrRAb4w)
 
-# 30. Versioning
+# 31. Versioning
 
 1. [Versioning using mongoose-vermongo](https://medium.com/versioning-in-database-mongodb-versioning-vermongo/database-versioning-7cf59a729bb3)
 1. [Implement Document Versioning Pattern with MongoDB Atlas](https://www.youtube.com/watch?v=BLILsO060gY)
 1. [[**MY-NEXT**] How to create document versioning in MongoDB using Spring Boot, REST API. #TechieTaught](https://www.youtube.com/watch?v=wSVsMFGkbOs)
 1. [[**MY-NEXT**] Versioning code](https://github.com/rabrath/techietaught/tree/master)
 
-# 31. MongoDB Shows
+# 32. MongoDB Shows
 
-## 31.1. [Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore
+## 32.1. [Migrating Stored Procedures to MongoDB](https://www.youtube.com/watch?v=Bog0aIGHG0A) By Vittal Pai @B'lore
 
 1. [Technical Guide: Migrating Stored Procedures to MongoDB](https://www.mongodb.com/collateral/technical-guide-migrating-stored-procedures-to-mongodb)
 1. https://github.com/vittalpai/Stored-Procedure-Migration
 1. https://landing.mdb.link/migrating-stored-procedures-mongodb
 
-# 32. Curate
+# 33. Curate
 
 1. https://www.mongodb.com/blog/post/generating-globally-unique-identifiers-for-use-with-mongodb
 1. https://www.mongodb.com/developer/products/mongodb/polymorphic-document-validation/
 
-# 33. Sample Data Sets
+# 34. Sample Data Sets
 
 1. https://github.com/neelabalan/mongodb-sample-dataset
 
