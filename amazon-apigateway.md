@@ -22,6 +22,8 @@
 
 # 1. Dashboard
 
+find examples for features in https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html
+
 # 2. APIs
 
 ## 2.1. Open API

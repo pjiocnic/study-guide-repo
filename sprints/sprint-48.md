@@ -10,6 +10,7 @@ Commands
 5. https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US
 6. https://www.w3schools.io/file/yaml-arrays/
 
+
 # Powertools
 
 1. https://docs.powertools.aws.dev/lambda/python/latest/core/event_handler/api_gateway/#considerations
@@ -38,3 +39,10 @@ https://theburningmonk.com/2023/08/whats-the-most-serverless-way-to-wait-for-a-s
 
 1. [Building storage-first serverless applications with HTTP APIs service integrations by Eric Johnson ](https://aws.amazon.com/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/)
 - https://github.com/aws-samples/sessions-with-aws-sam/tree/master/http-api-integrations-blog-example
+
+# Storage-first
+
+1. https://www.jeremydaly.com/the-storage-first-pattern/
+1. https://aws.amazon.com/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/
+1. https://github.com/aws-samples/sessions-with-aws-sam/tree/master/http-api-integrations-blog-example
+1. https://www.youtube.com/watch?v=qa3lkaz7pnI

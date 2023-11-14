@@ -10,6 +10,15 @@
 
 <!-- /TOC -->
 
+https://aws.amazon.com/blogs/containers/tag/crossplane/
+https://blog.upbound.io/crossplane-aws-lambda-intro
+https://medium.com/cloudnloud/crossplane-introduction-1ccd77d6aa12
+https://github.com/awslabs/crossplane-on-eks
+https://blog.upbound.io/crossplane-first-look
+
+Crossplane on Amazon EKS - YouTube -https://www.youtube.com/watch?v=aWRWKnniqeM
+What Is Crossplane? By Nic Cope - https://learning.oreilly.com/library/view/what-is-crossplane/9781098146306/
+
 # 1. Quickstart
 
 1. [AWS Quickstart](https://docs.crossplane.io/master/getting-started/provider-aws/)
