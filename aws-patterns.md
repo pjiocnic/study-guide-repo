@@ -147,6 +147,7 @@
 8. [See step-fns-backlogs.md/Content aggregation-Part 2](./step-fns-backlogs.md)
 9. [Application integration patterns for microservices: Running distributed RFQs By Dirk Fröhner](https://aws.amazon.com/blogs/compute/application-integration-patterns-running-distributed-rfqs/)
 - This technique is well explained and implemented by By Gregor Hohpe's Loan Broker example
+10. [Lab 3 - Scatter-gather without Step Functions](https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US/scatter-gather)
 
 # 19. Sequence Generator
 
