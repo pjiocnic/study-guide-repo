@@ -20,6 +20,14 @@
 # 1. Dashboard
 
 1. https://docs.powertools.aws.dev/lambda/python/latest/core/event_handler/api_gateway/#considerations
+1. [Simplifying serverless best practices with Lambda Powertools](https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-lambda-powertools/)
+1. [Serverless Shopping Cart Microservice](https://github.com/aws-samples/aws-serverless-shopping-cart)
+1. [[GITHUB] Powertools for AWS Lambda (Python)](https://github.com/aws-powertools/powertools-lambda-python/tree/develop/examples)
+1. [[DOCS] Powertools for AWS Lambda (Python)](https://docs.powertools.aws.dev/lambda/python/latest/)
+1. [AWS SAM custom builds: How to use Makefiles to customize builds in SAM (S2E9)](https://www.youtube.com/watch?v=wpccutnSbAk)
+1. [](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/building-custom-runtimes.html)
+1. [Continuous Integration with `make` for AWS Lambda using Python](https://dev.to/leahein/continuous-integration-with-make-for-aws-lambda-using-python-3dll)
+1. [4.6 Phony Targets](https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html)
 
 # 2. Features
 
