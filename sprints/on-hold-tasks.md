@@ -2,6 +2,7 @@
 
 # Topics
 
+1. Step functions workshop
 1. Powertool - idempotency, handling large payloads
 1. Subscription filters using sam?
 1. Mongo + Lambda + Spring
@@ -26,6 +27,9 @@
 1. [Sessions With SAM (S1E6): SAM templates for SQS, cross-account queue policies & Lambda event ](https://www.youtube.com/watch?v=q2rbHMyJBDY&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=6)
 1. [Make Notes](my-github/study-guide-repo/notes-under-construction/api-gateway.md)
 1. [Make Notes under Sessions with SAM](https://www.youtube.com/watch?v=IQfLHrtPW9o&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=26)
+1. [Orchestrating dependent file uploads with AWS Step Functions by Nelson Assis](https://aws.amazon.com/blogs/compute/orchestrating-dependent-file-uploads-with-aws-step-functions/)
+1. [Sending and receiving webhooks on AWS: Innovate with event notifications by by Daniel Wirjo](https://aws.amazon.com/blogs/compute/sending-and-receiving-webhooks-on-aws-innovate-with-event-notifications/)
+1. [Connect AWS API Gateway directly to SNS using a service integration By Alex Debrie](https://www.alexdebrie.com/posts/aws-api-gateway-service-proxy/)
 
 # Notes in Progress
 

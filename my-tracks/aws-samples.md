@@ -121,6 +121,7 @@
 # 15. Serverless
 
 1. [Fresh Tracks By Ben Smith](https://github.com/aws-samples/fresh-tracks/tree/master)
+1. [Serverless Shopping Cart Microservice](https://github.com/aws-samples/aws-serverless-shopping-cart)
 
 # 16. SQS
 

@@ -21,3 +21,4 @@
     - Lab 9:: Add a Content Delivery Network using cfn
     - Lab 10: Chaos testing with AWS Fault Injection Simulator
 4. [[WORKSHOP] - Welcome to the Serverlesspresso workshop!](https://workshop.serverlesscoffee.com/)
+1. Review - https://aws.amazon.com/blogs/compute/serverless-and-application-integration-sessions-at-aws-reinvent-2022/

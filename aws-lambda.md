@@ -59,6 +59,7 @@
 - [27. Networking](#27-networking)
   - [27.1. VPC-Enabled Lambda](#271-vpc-enabled-lambda)
     - [27.1.1. Deploying to a VPC](#2711-deploying-to-a-vpc)
+    - [VPC Latice](#vpc-latice)
 - [28. Observability](#28-observability)
 - [29. Pricing](#29-pricing)
 - [30. Powertools](#30-powertools)
@@ -141,6 +142,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [Understanding techniques to reduce AWS Lambda costs in serverless applications by James Beswick](https://aws.amazon.com/blogs/compute/understanding-techniques-to-reduce-aws-lambda-costs-in-serverless-applications/)
 2. [Serverless Automated Cost Controls, Part1 by Shankar Ramachandran ](https://aws.amazon.com/blogs/compute/serverless-automated-cost-controls-part1/)
     - [cfn_budget_lambda_blog_post.yaml](./templates/cfn_budget_lambda_blog_post.yaml)
+3. [Understanding techniques to reduce AWS Lambda costs in serverless applications by Josh Kahn](https://aws.amazon.com/blogs/compute/understanding-techniques-to-reduce-aws-lambda-costs-in-serverless-applications/)
 
 # 8. Cookbooks
 
@@ -402,6 +404,10 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Why Use AWS Lambda in a Custom VPC? by Akash Jain](https://aws.amazon.com/blogs/apn/why-use-aws-lambda-in-a-custom-vpc/)
 1. [lambda inside VPC with internet access By Asaf Adar](https://medium.com/@asafadar55/vpc-lambda-internet-access-f70a55dc7a39)
+
+### VPC Latice
+
+1. [Building private serverless APIs with AWS Lambda and Amazon VPC Lattice by Josh Kahn](https://aws.amazon.com/blogs/compute/building-private-serverless-apis-with-aws-lambda-and-amazon-vpc-lattice/)
 
 # 28. Observability
 

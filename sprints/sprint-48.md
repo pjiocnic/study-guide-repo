@@ -9,6 +9,10 @@ Commands
 4. Aggregation samples
 5. https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US
 6. https://www.w3schools.io/file/yaml-arrays/
+https://medium.com/@galbash/aws-lambda-internals-part-2-going-deeper-1e12b9d2515f
+7. Review - https://aws.amazon.com/blogs/compute/serverless-and-application-integration-sessions-at-aws-reinvent-2022/
+8. Must Review - https://aws.amazon.com/blogs/database/building-a-real-time-sales-analytics-dashboard-with-amazon-elasticache-for-redis/
+- https://github.com/aws-samples/aws-elasticache-retail-dashboard
 
 
 # Powertools
@@ -28,7 +32,10 @@ Commands
 
 # API Gateway
 
-1. https://www.alexdebrie.com/posts/aws-api-gateway-service-proxy/
+1. [Connect AWS API Gateway directly to SNS using a service integration](https://www.alexdebrie.com/posts/aws-api-gateway-service-proxy/)
+1. [A Detailed Overview of AWS API Gateway](https://www.alexdebrie.com/posts/api-gateway-elements/)
+1. [Using Custom Resources to Extend your CloudFormation By Alex Debrie](https://www.alexdebrie.com/posts/cloudformation-custom-resources/)
+1. [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway By Alex Debrie](https://www.alexdebrie.com/posts/lambda-custom-authorizers/)
 
 # Curate
 
