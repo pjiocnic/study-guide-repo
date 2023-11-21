@@ -66,13 +66,7 @@ https://github.com/ran-isenberg/cookiecutter-serverless-python/tree/main
 
 # 9. Idempotency
 
-> 1. [[**MY-NEXT**] Handling Lambda functions idempotency with AWS Lambda Powertools by Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/handling-lambda-functions-idempotency-with-aws-lambda-powertools/)
-1. [Making retries safe with idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/)
-1. [[GitHub] Lambda Power Tools for Java - Idempotency Module](https://github.com/aws-samples/aws-lambda-powertools-idempotency-examples)
-1. [Serverless API Idempotency with AWS Lambda Powertools and CDK By Ran Isenberg](https://www.ranthebuilder.cloud/post/serverless-api-idempotency-with-aws-lambda-powertools-and-cdk)
-1. [How do I make my Lambda function idempotent?](https://repost.aws/knowledge-center/lambda-function-idempotent)
-> 1. [[**MY-NEXT**] Implementing idempotent AWS Lambda functions with Powertools for AWS Lambda (TypeScript) By Alexander Schüren](https://aws.amazon.com/blogs/compute/implementing-idempotent-aws-lambda-functions-with-powertools-for-aws-lambda-typescript/)
-1. https://docs.powertools.aws.dev/lambda/java/utilities/idempotency/
+1. [aws-patterns#Idempotency](../aws-patterns.md#11-idempotency)
 
 # 10. Batch Processing
 

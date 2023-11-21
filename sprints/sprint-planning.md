@@ -2,6 +2,7 @@ https://www.epochconverter.com/weeks/2023
 
 <!-- TOC -->
 
+- [Sprint planning](#sprint-planning)
 - [1. Topics to visit](#1-topics-to-visit)
 - [2. Documentation to visit](#2-documentation-to-visit)
 - [3. In Progress](#3-in-progress)
@@ -17,8 +18,16 @@ https://www.epochconverter.com/weeks/2023
 - [13. Books to try](#13-books-to-try)
 - [09102023 - New planning](#09102023---new-planning)
   - [Mornings](#mornings)
+- [SAM](#sam)
 
 <!-- /TOC -->
+
+# Sprint planning
+
+1. Mornings - Patterns, Cookbook
+1. At work - pwoertools
+1. SAC003 prep
+1. Holidays + Weekend - Step functions
 
 # 1. Topics to visit
 
@@ -55,6 +64,7 @@ https://www.epochconverter.com/weeks/2023
 1. [Configuring a dead-letter queue redrive](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-configure-dead-letter-queue-redrive.html)
 2. [Lambda Operator guide](https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html)
 3. [Amazon Simple Notification Service](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
+4. [Amazon API Gateway > Developer Guide](https://docs.aws.amazon.com/apigateway/index.html)
 
 # 3. In Progress
 
@@ -173,3 +183,8 @@ https://www.epochconverter.com/weeks/2023
 1. AWS Fundamentals
 1. https://www.wellarchitectedlabs.com/
 1. https://www.youtube.com/@LearnCantrill/videos
+
+# SAM
+
+1. [Step Functions Local - mocking service integrations | Serverless Office Hours](https://www.youtube.com/watch?v=4pTfYon6zJ8)
+1. [Learning AWS SAM | sam local | E4](https://www.youtube.com/watch?v=owGuHgB0mVI)

@@ -1,6 +1,10 @@
 
 <!-- TOC -->
 
+- [Topics To explore](#topics-to-explore)
+- [Dashboard](#dashboard)
+  - [Router](#router)
+- [API Destinations](#api-destinations)
 - [1. Design](#1-design)
 - [2. Eventbridge Rules](#2-eventbridge-rules)
 - [3. Event Broker](#3-event-broker)
@@ -20,6 +24,31 @@
 - [9. Scheduling](#9-scheduling)
 
 <!-- /TOC -->
+
+# Topics To explore
+
+1. Many Targets
+1. Dead Letter queues
+1. Content-based filtering
+1. Input Transformation
+1. Event archive
+1. Event replay
+1. Schema registry
+1. Schema discovery
+1. Cross-account delivery
+1. API Destinations
+
+# Dashboard
+
+## Router
+
+1. [Reducing custom code by using advanced rules in Amazon EventBridge by James Beswick ](https://aws.amazon.com/blogs/compute/reducing-custom-code-by-using-advanced-rules-in-amazon-eventbridge/)
+1. [AWS re:Invent 2021 - Building next-gen applications with event-driven architectures By Sam Dengler](https://youtu.be/U5GZNt0iMZY?t=805)
+
+# API Destinations
+
+1. [Dev Guide - API destinations](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-api-destinations.html)
+1. [Amazon EventBridge - Using API destinations with Amazon EventBridge](https://www.youtube.com/watch?v=2ayxa3AdiK0)
 
 # 1. Design
 

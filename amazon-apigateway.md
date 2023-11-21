@@ -6,6 +6,7 @@
 - [2. APIs](#2-apis)
   - [2.1. Open API](#21-open-api)
   - [2.2. HTTP API vs REST API](#22-http-api-vs-rest-api)
+- [Custom Authorizers](#custom-authorizers)
 - [3. Best Practices](#3-best-practices)
 - [4. Cognito Integration](#4-cognito-integration)
 - [5. Custom Domains](#5-custom-domains)
@@ -17,12 +18,16 @@
 - [11. Usage Plans](#11-usage-plans)
 - [12. Use Cases](#12-use-cases)
   - [12.1. URL Shortner](#121-url-shortner)
+- [Curate](#curate)
+- [Workshops and Hands-On](#workshops-and-hands-on)
 
 <!-- /TOC -->
 
 # 1. Dashboard
 
-find examples for features in https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html
+1. [find examples for features](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html)
+1. [A Detailed Overview of AWS API Gateway By Alex Debrie](https://www.alexdebrie.com/posts/api-gateway-elements/)
+1. [The Missing Guide to AWS API Gateway Access Logs](https://www.alexdebrie.com/posts/page/2/)
 
 # 2. APIs
 
@@ -36,6 +41,18 @@ find examples for features in https://docs.aws.amazon.com/apigateway/latest/deve
 ## 2.2. HTTP API vs REST API
 
 1. [What’s the Difference Between AWS REST API & HTTP API? by Jonathan Davies](https://www.youtube.com/watch?v=O8RKpHQt6l4)
+
+# Custom Authorizers
+
+1. [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway BY Alex DeBrie](https://www.alexdebrie.com/posts/lambda-custom-authorizers/)
+1. [Introducing IAM and Lambda authorizers for Amazon API Gateway **HTTP APIs** by Julian Wood](https://aws.amazon.com/blogs/compute/introducing-iam-and-lambda-authorizers-for-amazon-api-gateway-http-apis/)
+1. [Introducing custom authorizers in Amazon API Gateway by Stefano Buliani](https://aws.amazon.com/blogs/compute/introducing-custom-authorizers-in-amazon-api-gateway/)
+1. [Use AWS Lambda authorizers with a third-party identity provider to secure Amazon API Gateway REST APIs by Bryant Bost](https://aws.amazon.com/blogs/security/use-aws-lambda-authorizers-with-a-third-party-identity-provider-to-secure-amazon-api-gateway-rest-apis/)
+1. [Restricting access on HTTP API Gateway Endpoint with Lambda Authorizer by Pratik Jain and Shirin Bano](https://aws.amazon.com/blogs/networking-and-content-delivery/restricting-access-http-api-gateway-lambda-authorizer/)
+1. [How to secure API Gateway HTTP endpoints with JWT authorizer by Siva Rajamani, Rajat Mathur, and Sudhanshu Malhotra ](https://aws.amazon.com/blogs/security/how-to-secure-api-gateway-http-endpoints-with-jwt-authorizer/)
+1. [Building fine-grained authorization using Amazon Cognito, API Gateway, and IAM by Artem Lovan](https://aws.amazon.com/blogs/security/building-fine-grained-authorization-using-amazon-cognito-api-gateway-and-iam/)
+1. [[SERVERLESS-LAND] Amazon API Gateway REST API with AWS Lambda token authorizer](https://serverlessland.com/patterns/apigw-lambda-authorizer-custom-header)
+1. [[SERVERLESS-LAND] API Gateway REST API with Lambda authorizer](https://serverlessland.com/patterns/apigw-lambda-authorizer-sam-nodejs)
 
 # 3. Best Practices
 
@@ -86,5 +103,11 @@ find examples for features in https://docs.aws.amazon.com/apigateway/latest/deve
 
 1. [Building Serverless URL Shortener Service on AWS Using API Gateway and Dynamodb](https://dev.to/aws-builders/building-serverless-url-shortener-service-on-aws-1895)
 
+# Curate
+
 https://aws.amazon.com/blogs/compute/using-api-gateway-mapping-templates-to-handle-changes-in-your-back-end-apis/
 https://www.alexdebrie.com/posts/api-gateway-elements/
+
+# Workshops and Hands-On
+
+1. [Amazon API Gateway tutorials and workshops](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-tutorials.html)

@@ -43,6 +43,9 @@
 1. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/documentdb/quick-start/my-readme.md
 1. /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/cloudformation/ha-web-app
 1. [Implementing architectural patterns with Amazon EventBridge Pipes by David Boyne](https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/)
+1. [AWS re:Invent 2021 - Building next-gen applications with event-driven architectures By Sam Dengler and Robbie Kohler (TACO BELL)](https://www.youtube.com/watch?v=U5GZNt0iMZY)
+- [Topics discussed](https://thomasstep.com/blog/reinvent-building-next-gen-applications-with-event-driven-architectures)
+1. [What's the best place to cache data for serverless applications? By Yan Cui](https://www.youtube.com/watch?v=8jMPh5ukJbE)
 
 # Tasks
 

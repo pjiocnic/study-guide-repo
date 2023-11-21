@@ -220,6 +220,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Introducing AWS Lambda Destinations by Julian Wood](https://aws.amazon.com/blogs/compute/introducing-aws-lambda-destinations/)
 > 1. [[**MY-NEXT**] Lambda Destinations: What We Learned the Hard Way By Trek10](https://www.trek10.com/blog/lambda-destinations-what-we-learned-the-hard-way)
+1. [3 Valuable Lessons Learned About AWS Lambda Destinations By Andrew Titenko](https://medium.com/@iamarkadyt/3-valuable-lessons-learned-about-aws-lambda-destinations-bc1004c94329)
 
 # 16. Devops
 
@@ -507,6 +508,8 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [Review of "Testing Serverless Architectures" by Yan Cui](https://www.trek10.com/blog/review-of-testing-serverless-architectures-by-yan-cui)
 2. [Testing Serverless Applications By Dan Fox](https://serverlessland.com/testing)
 3. [Testing Serverless Applications By Dan Fox | Serverless Office Hours](https://www.youtube.com/watch?v=8AxsqNmwAFw)
+4. [How To Test your AWS Lambda Locally with SAM](https://www.youtube.com/watch?v=AUQRyl1SNcU)
+5. [Introducing the AWS Integrated Application Test Kit (IATK) By Dan Fox](https://aws.amazon.com/blogs/compute/aws-integrated-application-test-kit/)
 
 # 37. Spring
 

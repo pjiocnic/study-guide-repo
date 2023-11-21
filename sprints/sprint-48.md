@@ -1,5 +1,6 @@
 <h1>Sprint 48 - Nov 13, 2023- Nov 20, 2023</h1>
 
+
 # My Topics for this week
 
 Commands
@@ -13,7 +14,16 @@ https://medium.com/@galbash/aws-lambda-internals-part-2-going-deeper-1e12b9d2515
 7. Review - https://aws.amazon.com/blogs/compute/serverless-and-application-integration-sessions-at-aws-reinvent-2022/
 8. Must Review - https://aws.amazon.com/blogs/database/building-a-real-time-sales-analytics-dashboard-with-amazon-elasticache-for-redis/
 - https://github.com/aws-samples/aws-elasticache-retail-dashboard
+9. https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/sns
+10. [The Complete AWS SAM Workshop](https://catalog.workshops.aws/complete-aws-sam/en-US/)
+11. [Deploying Lambda with EKS and Crossplane | Serverless Office Hours](https://www.youtube.com/watch?v=8CdyxX7eGkA)
+12. [Introducing the AWS Integrated Application Test Kit (IATK) By Dan Fox](https://aws.amazon.com/blogs/compute/aws-integrated-application-test-kit/)
 
+# Workshops
+
+1. [Building event-driven architectures on AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/sns)
+1. [Lab 3 - Scatter-gather](https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US/scatter-gather)
+1. [Step Functions workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US)
 
 # Powertools
 
@@ -41,6 +51,8 @@ https://medium.com/@galbash/aws-lambda-internals-part-2-going-deeper-1e12b9d2515
 
 https://medium.com/@galbash/aws-lambda-internals-part-2-going-deeper-1e12b9d2515f
 https://theburningmonk.com/2023/08/whats-the-most-serverless-way-to-wait-for-a-slow-http-response/
+https://dev.to/aws-builders/split-messages-from-single-sqs-queue-into-multiple-sqs-queues-using-eventbridge-g0p
+https://lumigo.io/blog/choosing-the-right-event-routing-on-aws-eventbridge-sns-or-sqs/
 
 # Direct Integrations
 
