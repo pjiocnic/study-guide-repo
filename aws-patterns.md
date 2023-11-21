@@ -133,6 +133,12 @@
 1. [Hostname routing](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/api-routing-hostname.html)
 1. [Path routing](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/api-routing-path.html)
 1. [HTTP header routing](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/api-routing-http.html)
+1. [Event Routers](https://workshop.serverlesscoffee.com/2-events.html)
+1. [Implementing architectural patterns with Amazon EventBridge Pipes by David Boyne](https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/)
+- Content filter and message filter pattern
+- Message translator pattern
+- Normalizer pattern
+- Claim check pattern
 
 # 16. Rate Limiter
 
@@ -194,6 +200,7 @@
 # 22. Saga Pattern
 
 1. [Saga orchestration](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/saga.html)
+1. [Lab 4 - Orchestration and coordination](https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US/orchestration-and-coordination)
 
 # 23. Strangler fig pattern
 

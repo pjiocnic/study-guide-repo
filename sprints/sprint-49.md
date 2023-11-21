@@ -8,8 +8,15 @@
 1. [API Gateway vs Application Load Balancer (ALB) cost comparison](https://www.youtube.com/watch?v=cCSEBfIFJ8g)
 1. [Orchestration vs Choreography, a Guide to Composing Your Monolith](https://www.youtube.com/watch?v=_OaOht0n9jA)
 1. [What's the best place to cache data for serverless applications? By Yan Cui](https://www.youtube.com/watch?v=8jMPh5ukJbE)
+
+## Webhooks
 1. [Deconstructing "The Scalable Webhook" AWS Serverless Architecture Pattern](https://www.youtube.com/watch?v=kRI7QJfGBI8&t=38s)
 1. [The Scalable Webhook By Jeremy Daly](https://www.jeremydaly.com/the-scalable-webhook/)
+1. https://developers.exlibrisgroup.com/blog/Getting-Started-Webhooks-in-Alma/
+1. https://developers.exlibrisgroup.com/blog/hosting-a-webhook-listener-in-aws/
+1. https://repost.aws/knowledge-center/sns-lambda-webhooks-chime-slack-teams
+1. https://enrico-portolan.medium.com/how-to-implement-a-serverless-webhook-6a444bc10d06
+1. https://blog.stefanolaru.com/scalable-webhook-listeners-in-aws
 
 
 # Serverless
