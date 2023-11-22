@@ -31,33 +31,34 @@ https://www.epochconverter.com/weeks/2023
 
 # 1. Topics to visit
 
+1. Event bridge routing
 1. FIFO queue
-2. Priority Queues
-3. AWS PowerTools ... see Track
-4. Step fns
-5. elasticcache: Whitepaper; hiemdall proxy
-6. elasticache workshop
-7. documentdb: scaling the read replicas, indexes
-8. centralized logging
-9. kinesis: using lambda as consumer
-10. eks workshop
-11. AWS Cookbook: Mornings?
-12. multi-service demos	"Need a way to record all example URLs
+1. Priority Queues
+1. AWS PowerTools ... see Track
+1. Step fns
+1. elasticcache: Whitepaper; hiemdall proxy
+1. elasticache workshop
+1. documentdb: scaling the read replicas, indexes
+1. centralized logging
+1. kinesis: using lambda as consumer
+1. eks workshop
+1. AWS Cookbook: Mornings?
+1. multi-service demos	"Need a way to record all example URLs
 - https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2"
-13. documentdb dev guide
-14. Event broker example by mohapathra
-15. Webhooks: From Lambda in action
-16. Hands-on with AWS S3 Safari course By Rick
-17. Review Lambda examples (Integration with other services) from
+1. documentdb dev guide
+1. Event broker example by mohapathra
+1. Webhooks: From Lambda in action
+1. Hands-on with AWS S3 Safari course By Rick
+1. Review Lambda examples (Integration with other services) from
 - https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html
 - https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html
-18. PostGresSQL workshop
-19. RealPython course
-20. Read IAM book By Tamas
-21. Troubleshooting Lambda using cloudwatch metrics (see Skillbuilder courses)
-22. Troubleshooting DynamoDB using cloudwatch metrics (see Skillbuilder courses)
-23. https://github.com/aws-samples/serverless-patterns/tree/main/sns-sqs-lambda-cdk
-24. S3 Security
+1. PostGresSQL workshop
+1. RealPython course
+1. Read IAM book By Tamas
+1. Troubleshooting Lambda using cloudwatch metrics (see Skillbuilder courses)
+1. Troubleshooting DynamoDB using cloudwatch metrics (see Skillbuilder courses)
+1. https://github.com/aws-samples/serverless-patterns/tree/main/sns-sqs-lambda-cdk
+1. S3 Security
 
 # 2. Documentation to visit
 

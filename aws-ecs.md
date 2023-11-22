@@ -13,29 +13,33 @@
 - [8. Docker containers on ECS](#8-docker-containers-on-ecs)
 - [9. ECS Console v2](#9-ecs-console-v2)
 - [10. Hands-on](#10-hands-on)
-- [11. Integrations](#11-integrations)
-  - [11.1. Event Bridge](#111-event-bridge)
-  - [11.2. Parameter Store](#112-parameter-store)
-  - [11.3. SQS](#113-sqs)
-- [12. Java](#12-java)
-- [13. LaunchTypes - EC2 vs Fargate](#13-launchtypes---ec2-vs-fargate)
-- [14. Tasks](#14-tasks)
-  - [14.1. Task with Multi-Containers](#141-task-with-multi-containers)
-- [15. Networking](#15-networking)
-  - [15.1. Differences between different Networking modes](#151-differences-between-different-networking-modes)
-  - [15.2. AWS VPC mode](#152-aws-vpc-mode)
-  - [15.3. Bridge Mode](#153-bridge-mode)
-  - [15.4. Host Mode](#154-host-mode)
-  - [15.5. NAT Mode](#155-nat-mode)
-  - [15.6. NONE Mode](#156-none-mode)
-- [16. Samples](#16-samples)
-  - [16.1. API Gateway](#161-api-gateway)
-  - [16.2. ALB](#162-alb)
-  - [16.3. SQS](#163-sqs)
-  - [16.4. Patterns](#164-patterns)
-- [17. Step functions](#17-step-functions)
-- [18. Videos](#18-videos)
-- [19. Workshops](#19-workshops)
+- [11. Accessing Fargate services](#11-accessing-fargate-services)
+  - [11.1. By HTTP](#111-by-http)
+  - [11.2. By Amazon API Gateway PrivateLink](#112-by-amazon-api-gateway-privatelink)
+  - [Private Link + NLBs](#private-link--nlbs)
+- [12. Integrations](#12-integrations)
+  - [12.1. Event Bridge](#121-event-bridge)
+  - [12.2. Parameter Store](#122-parameter-store)
+  - [12.3. SQS](#123-sqs)
+- [13. Java](#13-java)
+- [14. LaunchTypes - EC2 vs Fargate](#14-launchtypes---ec2-vs-fargate)
+- [15. Tasks](#15-tasks)
+  - [15.1. Task with Multi-Containers](#151-task-with-multi-containers)
+- [16. Networking](#16-networking)
+  - [16.1. Differences between different Networking modes](#161-differences-between-different-networking-modes)
+  - [16.2. AWS VPC mode](#162-aws-vpc-mode)
+  - [16.3. Bridge Mode](#163-bridge-mode)
+  - [16.4. Host Mode](#164-host-mode)
+  - [16.5. NAT Mode](#165-nat-mode)
+  - [16.6. NONE Mode](#166-none-mode)
+- [17. Samples](#17-samples)
+  - [17.1. API Gateway](#171-api-gateway)
+  - [17.2. ALB](#172-alb)
+  - [17.3. SQS](#173-sqs)
+  - [17.4. Patterns](#174-patterns)
+- [18. Step functions](#18-step-functions)
+- [19. Videos](#19-videos)
+- [20. Workshops](#20-workshops)
 
 <!-- /TOC -->
 
@@ -103,18 +107,38 @@
 3. [Deploy a Web App Using AWS Copilot](https://aws.amazon.com/getting-started/guides/deploy-webapp-copilot)
 4. [AWS ECS Tutorial using ECS Console v2](https://earthly.dev/blog/aws-ecs-tutorial/)
 
-# 11. Integrations
+# 11. Accessing Fargate services
 
-## 11.1. Event Bridge
+## 11.1. By HTTP
+
+1. [Building HTTP API-based services using Amazon API Gateway, AWS PrivateLink and AWS Fargate by Irshad Buchh](https://aws.amazon.com/blogs/containers/building-http-api-based-services-using-aws-fargate/)
+
+<img src="./images/aws-ecs-7.png" title="aws-ecs-7.png" width="900"/>
+
+## 11.2. By Amazon API Gateway PrivateLink
+
+1. [[API Gateway is used to expose applications running on AWS Fargate using REST APIs thru' NLB] Access Private applications on AWS Fargate using Amazon API Gateway PrivateLink by Mani Chandrasekaran](https://aws.amazon.com/blogs/compute/access-private-applications-on-aws-fargate-using-amazon-api-gateway-privatelink/)
+
+<img src="./images/aws-ecs-6.png" title="aws-ecs-6.png" width="900"/>
+
+## Private Link + NLBs
+
+1. [[Shows how to use AWS PrivateLink along with ALB and NLBs to expose applications] How to securely publish Internet applications at scale using Application Load Balancer and AWS PrivateLink by Tom Adamski ](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-securely-publish-internet-applications-at-scale-using-application-load-balancer-and-aws-privatelink/)
+
+<img src="./images/aws-ecs-5.png" title="aws-ecs-5.png" width="900"/>
+
+# 12. Integrations
+
+## 12.1. Event Bridge
 
 1. [[**MUST TRY**] Integrating Amazon EventBridge and Amazon ECS By Jakub Narloch](https://aws.amazon.com/blogs/compute/integrating-amazon-eventbridge-and-amazon-ecs/)
 
-## 11.2. Parameter Store
+## 12.2. Parameter Store
 
 1. [Managing Secrets for Amazon ECS Applications Using Parameter Store and IAM Roles for Tasks by Chris Barclay](https://aws.amazon.com/blogs/compute/managing-secrets-for-amazon-ecs-applications-using-parameter-store-and-iam-roles-for-tasks/)
 2. [How to Manage Secrets for Amazon EC2 Container Service–Based Applications by Using Amazon S3 and Docker by Matthew McClean](https://aws.amazon.com/blogs/security/how-to-manage-secrets-for-amazon-ec2-container-service-based-applications-by-using-amazon-s3-and-docker/)
 
-## 11.3. SQS
+## 12.3. SQS
 
 1. [How to poll for SQS by Fargate by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
     - See https://github.com/aws-samples/serverless-eda-insurance-claims-processing/blob/main/lib/services/settlement/app/src/main/java/com/amazon/settlement/services/SubscriberService.java
@@ -129,7 +153,7 @@
 - how to integrate ecs task with SQS using Lambda
 - Demos exception handling with retries
 
-# 12. Java
+# 13. Java
 
 1. [Field Notes: Optimize your Java application for Amazon ECS with Quarkus by Sascha Moellering](https://aws.amazon.com/blogs/architecture/field-notes-optimize-your-java-application-for-amazon-ecs-with-quarkus/)
 2. [[AWS Prescriptive Guidance] Deploy Java microservices on Amazon ECS using AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-java-microservices-on-amazon-ecs-using-aws-fargate.html)
@@ -139,24 +163,24 @@
     - Architecture: SNS -> SQS -> ECS (Java Polls SQS) -> EventBridge -> Lambda/Dynamodb
 6. [[**MUST TRY**] Spring Pet Clinic - Deploying Java Microservices on Amazon Elastic Container Service by Huy Huynh and Magnus Bjorkman](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
 
-# 13. LaunchTypes - EC2 vs Fargate
+# 14. LaunchTypes - EC2 vs Fargate
 
 1. [[**MUST SEE**] ECS on Fargate by AWSfundamentals.com](https://blog.awsfundamentals.com/ecs-on-fargate)
 2. [[**MUST SEE**] Comparing Amazon ECS launch types: EC2 vs. Fargate By Lumigo](https://lumigo.io/blog/comparing-amazon-ecs-launch-types-ec2-vs-fargate/)
 
-# 14. Tasks
+# 15. Tasks
 
-## 14.1. Task with Multi-Containers
+## 15.1. Task with Multi-Containers
 
 1. [Create a multi-container app with multiple tasks using ECS- Elastic Container Service. AWS Tutorials](https://www.youtube.com/watch?v=mbtU-5fXXiw)
 
-# 15. Networking
+# 16. Networking
 
-## 15.1. Differences between different Networking modes
+## 16.1. Differences between different Networking modes
 
 1. [Multi-Containers App on AWS Fargate](https://yosi-pramajaya.medium.com/multi-containers-app-on-aws-fargate-e86d9dc6e207)
 
-## 15.2. AWS VPC mode
+## 16.2. AWS VPC mode
 
 1. [[**MY NEXT**] Introducing Cloud Native Networking for Amazon ECS Containers By Anirudh Aithal](https://aws.amazon.com/blogs/compute/introducing-cloud-native-networking-for-ecs-containers/)
 2. [[**MY NEXT**] Under the Hood: Task Networking for Amazon ECS By Anirudh Aithal](https://aws.amazon.com/blogs/compute/under-the-hood-task-networking-for-amazon-ecs/)
@@ -164,38 +188,38 @@
 4. [Task Networking in AWS Fargate by Nathan Peck](https://aws.amazon.com/blogs/compute/task-networking-in-aws-fargate/)
 5. [Amazon ECS Workshop > ECS Networking > AWSVPC mode](https://ecsworkshop.com/ecs_networking/awsvpc/)
 
-## 15.3. Bridge Mode
+## 16.3. Bridge Mode
 
 1. [Amazon ECS Workshop > ECS Networking > Bridge mode](https://ecsworkshop.com/ecs_networking/bridge/)
 
-## 15.4. Host Mode
+## 16.4. Host Mode
 
 1. [Amazon ECS Workshop > ECS Networking > Host mode](https://ecsworkshop.com/ecs_networking/host/)
 
-## 15.5. NAT Mode
+## 16.5. NAT Mode
 
 1. [Amazon ECS Workshop > ECS Networking > NAT mode (Windows)](https://ecsworkshop.com/ecs_networking/nat/)
 
-## 15.6. NONE Mode
+## 16.6. NONE Mode
 
 1. [ Amazon ECS Workshop > ECS Networking > None mode](https://ecsworkshop.com/ecs_networking/none/)
 
-# 16. Samples
+# 17. Samples
 
-## 16.1. API Gateway
+## 17.1. API Gateway
 
 1. [[**CFN Included]** Serverless Container-based APIs with Amazon ECS and Amazon API Gateway by Simone Pomata ](https://aws.amazon.com/blogs/architecture/field-notes-serverless-container-based-apis-with-amazon-ecs-and-amazon-api-gateway/)
 
     <img src="./images/aws-ecs-1.png" title="aws-ecs-1.png" width="900"/>
 
-## 16.2. ALB
+## 17.2. ALB
 
 2. [Deploying Microservices with Amazon ECS, AWS CloudFormation, and an Application Load Balancer](https://github.com/aws-samples/ecs-refarch-cloudformation)
 - Has Nested Cloudformation templates
 
     <img src="./images/aws-ecs-2.png" title="aws-ecs-2.png" width="900"/>
 
-## 16.3. SQS
+## 17.3. SQS
 
 1. [[**MUST TRY**] Background worker that gets jobs from an SQS queue](https://containersonaws.com/pattern/background-worker-sqs-queue-container-copilot)
 - Poll SQS queue for messages?
@@ -209,11 +233,11 @@
 
     <img src="./images/aws-ecs-4.png" title="aws-ecs-2.png" width="900"/>
 
-## 16.4. Patterns
+## 17.4. Patterns
 
 1. [Container Examples from ContainerOnAWS](https://github.com/aws-samples/container-patterns/tree/main/pattern)
 
-# 17. Step functions
+# 18. Step functions
 
 1. [[**MUST TRY**] Amazon ECS and AWS Step Functions Design Patterns Starter kit](https://github.com/aws-samples/amazon-ecs-and-aws-step-functions-design-patterns-starter-kit)
 
@@ -221,12 +245,12 @@
 
     <img src="./images/Amazon_ECS_Java_Starter_Kit-Architecture_Pattern_2.png" title="Running ECS tasks using Step Functions native integration" width="900"/>
 
-# 18. Videos
+# 19. Videos
 
 1. [Lightning talk on Amazon ECS and AWS Fargate](https://www.youtube.com/playlist?list=PLhr1KZpdzukeNrcZo5aAgVPkm4UnugRX3)
 2. [Amazon ECS Console v2 updates](https://www.youtube.com/watch?v=aTlTH61GKKA)
 
-# 19. Workshops
+# 20. Workshops
 
 1. [Amazon ECS Workshop](https://ecsworkshop.com/)
 2. [Module 2: Container Performance Tuning](https://catalog.workshops.aws/performance-tuning/en-US/50-container/51-architecture)

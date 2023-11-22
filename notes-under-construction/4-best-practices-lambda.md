@@ -1,4 +1,16 @@
 
+<!-- TOC -->
+
+- [1. Governance Best Practices](#1-governance-best-practices)
+  - [1.1. Best practices for creating tags for serverless resources](#11-best-practices-for-creating-tags-for-serverless-resources)
+  - [1.2. How to maintain tags on serverless resources?](#12-how-to-maintain-tags-on-serverless-resources)
+  - [1.3. How to "group related resources"](#13-how-to-group-related-resources)
+  - [1.4. How to dynamically see what components make up your application?](#14-how-to-dynamically-see-what-components-make-up-your-application)
+  - [1.5. How to enable tracing using sam?](#15-how-to-enable-tracing-using-sam)
+- [2. Standardizing Project Organization](#2-standardizing-project-organization)
+- [3. GuardRails](#3-guardrails)
+
+<!-- /TOC -->
 
 # 1. Governance Best Practices
 
@@ -87,10 +99,10 @@ Resources:
         Enabled: True
 ```
 
-# Standardizing Project Organization
+# 2. Standardizing Project Organization
 
 1. [Operating serverless at scale: Improving consistency – Part 2 by Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-improving-consistency-part-2/)
 
-# GuardRails
+# 3. GuardRails
 
 1. [Operating serverless at scale: Keeping control of resources – Part 3 by Jerome Van Der Linden](https://aws.amazon.com/blogs/compute/operating-serverless-at-scale-keeping-control-of-resources-part-3/)

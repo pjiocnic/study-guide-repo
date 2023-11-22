@@ -132,6 +132,7 @@ a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-works
 
 # 7. Workshop
 
+1. [Serverless Optimization Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/2d960419-7d15-44e7-b540-fd3ebeb7ce2e/en-US)
 1. CloudTrail workshop (prep - understand the cdk code in oneobservability workshop before continuing with this workshop)
 1. Workshop - [AWS Serverless Developer Experience](https://catalog.workshops.aws/serverless-developer-experience/en-US/introduction/project-init)
 1. AWS Control Tower workshop: Will get back to this workshop after few months.  The cost to do this workshop = $50
@@ -142,6 +143,7 @@ a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-works
 1. Continue working thru workshop here - https://workshop-aws-account-setup.fstehle.com/
 1. Workshop - [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
 1. /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/[TODO] svs-307-powertools
+
 
 # 8. Parked on 09232023
 1. https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/

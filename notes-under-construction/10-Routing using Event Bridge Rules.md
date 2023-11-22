@@ -27,3 +27,15 @@ top-level envelope fields are Source, EventBusName, DetailType, Detail
   "Detail": "{\"action\":\"withdrawal”,\"amount\":300}"
 }
 ```
+
+# Custom Event Envelope Design
+
+<img src="./images/eventbridge-routing-1.png" title="Sample Event" width="900"/>
+
+src: https://workshop.serverlesscoffee.com/2-events/1-overview.html
+
+# References
+
+1. https://aws.amazon.com/blogs/compute/integrating-amazon-eventbridge-into-your-serverless-applications/
+1. https://aws.amazon.com/blogs/compute/reducing-custom-code-by-using-advanced-rules-in-amazon-eventbridge/
+1. https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/

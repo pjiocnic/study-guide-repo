@@ -18,7 +18,6 @@
 1. https://enrico-portolan.medium.com/how-to-implement-a-serverless-webhook-6a444bc10d06
 1. https://blog.stefanolaru.com/scalable-webhook-listeners-in-aws
 
-
 # Serverless
 
 1. [Refactoring to Serverless](https://serverlessland.com/content/guides/refactoring-serverless/introduction)
