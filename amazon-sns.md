@@ -8,7 +8,9 @@
 - [4. FIFO](#4-fifo)
 - [5. Monitoring](#5-monitoring)
 - [6. Scaling](#6-scaling)
-- [7. Throttling](#7-throttling)
+- [7. Targets](#7-targets)
+  - [7.1. Http Endpoints](#71-http-endpoints)
+- [8. Throttling](#8-throttling)
 
 <!-- /TOC -->
 
@@ -37,7 +39,13 @@
 
 1. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
 
-# 7. Throttling
+# 7. Targets
+
+## 7.1. Http Endpoints
+
+1. [Subscribing an HTTP/S endpoint to a topic](https://docs.aws.amazon.com/sns/latest/dg/sns-subscribe-https-s-endpoints-to-topic.html)
+
+# 8. Throttling
 
 1. [How To: Use SNS and SQS to Distribute and Throttle Events](https://www.jeremydaly.com/how-to-use-sns-and-sqs-to-distribute-and-throttle-events/)
 
