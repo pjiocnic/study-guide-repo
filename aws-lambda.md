@@ -59,7 +59,7 @@
 - [27. Networking](#27-networking)
   - [27.1. VPC-Enabled Lambda](#271-vpc-enabled-lambda)
     - [27.1.1. Deploying to a VPC](#2711-deploying-to-a-vpc)
-    - [VPC Latice](#vpc-latice)
+    - [27.1.2. VPC Latice](#2712-vpc-latice)
 - [28. Observability](#28-observability)
 - [29. Pricing](#29-pricing)
 - [30. Powertools](#30-powertools)
@@ -84,20 +84,21 @@
 - [38. Tooling](#38-tooling)
 - [39. Troubleshooting](#39-troubleshooting)
 - [40. Tracing](#40-tracing)
-- [41. User Stories](#41-user-stories)
-- [42. Use cases](#42-use-cases)
-  - [42.1. Aggregating Data](#421-aggregating-data)
-- [43. Videos](#43-videos)
-- [44. Workshops](#44-workshops)
-- [45. Well Architected](#45-well-architected)
-  - [45.1. Series TOC](#451-series-toc)
-  - [45.2. Controlling serverless API access](#452-controlling-serverless-api-access)
-  - [45.3. Security](#453-security)
-  - [45.4. Service Quotas / Scaling / Concurrency](#454-service-quotas--scaling--concurrency)
-  - [45.5. Event Driven](#455-event-driven)
-  - [45.6. How to secure workloads with public endpoints](#456-how-to-secure-workloads-with-public-endpoints)
-  - [45.7. Serverless Lens](#457-serverless-lens)
-- [46. Staging](#46-staging)
+- [41. TLS](#41-tls)
+- [42. User Stories](#42-user-stories)
+- [43. Use cases](#43-use-cases)
+  - [43.1. Aggregating Data](#431-aggregating-data)
+- [44. Videos](#44-videos)
+- [45. Workshops](#45-workshops)
+- [46. Well Architected](#46-well-architected)
+  - [46.1. Series TOC](#461-series-toc)
+  - [46.2. Controlling serverless API access](#462-controlling-serverless-api-access)
+  - [46.3. Security](#463-security)
+  - [46.4. Service Quotas / Scaling / Concurrency](#464-service-quotas--scaling--concurrency)
+  - [46.5. Event Driven](#465-event-driven)
+  - [46.6. How to secure workloads with public endpoints](#466-how-to-secure-workloads-with-public-endpoints)
+  - [46.7. Serverless Lens](#467-serverless-lens)
+- [47. Staging](#47-staging)
 
 <!-- /TOC -->
 
@@ -406,7 +407,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [Why Use AWS Lambda in a Custom VPC? by Akash Jain](https://aws.amazon.com/blogs/apn/why-use-aws-lambda-in-a-custom-vpc/)
 1. [lambda inside VPC with internet access By Asaf Adar](https://medium.com/@asafadar55/vpc-lambda-internet-access-f70a55dc7a39)
 
-### VPC Latice
+### 27.1.2. VPC Latice
 
 1. [Building private serverless APIs with AWS Lambda and Amazon VPC Lattice by Josh Kahn](https://aws.amazon.com/blogs/compute/building-private-serverless-apis-with-aws-lambda-and-amazon-vpc-lattice/)
 
@@ -535,21 +536,25 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [AWS Lambda Fundamentals - AWS Lambda tracing](https://www.youtube.com/watch?v=FSE_ngsBbTE)
 
-# 41. User Stories
+# 41. TLS
+
+1. [Implementing mutual TLS for Java-based AWS Lambda functions by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/implementing-mutual-tls-for-java-based-aws-lambda-functions/)
+
+# 42. User Stories
 
 1. [Building Scalable and Responsive Big Data Interfaces with AWS Lambda by FireEye](https://aws.amazon.com/blogs/big-data/building-scalable-and-responsive-big-data-interfaces-with-aws-lambda/)
 
-# 42. Use cases
+# 43. Use cases
 
-## 42.1. Aggregating Data
+## 43.1. Aggregating Data
 
 1. [Build a fault-tolerant, serverless data aggregation pipeline with exactly-once processing by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-fault-tolerant-serverless-data-aggregation-pipeline-with-exactly-once-processing/)
 
-# 43. Videos
+# 44. Videos
 
 1. [AWS re:Invent 2022 - Serverless Compute](https://www.youtube.com/watch?v=SbL3a9YOW7s&list=PL2yQDdvlhXf8Erryfslfo3E42QtcX-aiD)
 
-# 44. Workshops
+# 45. Workshops
 
 1. [Java on AWS Lambda](https://catalog.workshops.aws/java-on-aws-lambda/en-US)
   - From Serverful to Serverless Java with AWS Lambda
@@ -561,45 +566,45 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 1. [Build a Serverless Web Application with AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
 1. [AWS Lambda workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/66943748-f648-4a43-8b44-da8cfcc53286/en-US)
 
-# 45. Well Architected
+# 46. Well Architected
 
-## 45.1. Series TOC
+## 46.1. Series TOC
 
 1. [Building well-architected serverless applications: Introduction by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-introduction/)
 
-## 45.2. Controlling serverless API access
+## 46.2. Controlling serverless API access
 
 1. [Building well-architected serverless applications: Controlling serverless API access – part 1 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-1/)
 2. [Building well-architected serverless applications: Controlling serverless API access – part 2 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-2/)
 3. [Building well-architected serverless applications: Controlling serverless API access – part 3 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-controlling-serverless-api-access-part-3/)
 
-## 45.3. Security
+## 46.3. Security
 
 4. [Building well-architected serverless applications: Managing application security boundaries – part 1 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-managing-application-security-boundaries-part-1/)
 5. [Building well-architected serverless applications: Managing application security boundaries – part 2 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-managing-application-security-boundaries-part-2/)
 
-## 45.4. Service Quotas / Scaling / Concurrency
+## 46.4. Service Quotas / Scaling / Concurrency
 
 1. [Operating Lambda: Application design and Service Quotas – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-and-service-quotas-part-1/)
 2. [Operating Lambda: Application design – Scaling and concurrency: Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-scaling-and-concurrency-part-2/)
 3. [Operating Lambda: Application design – Part 3 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-part-3/)
 
-## 45.5. Event Driven
+## 46.5. Event Driven
 
 1. [Operating Lambda: Understanding event-driven architecture – Part 1 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/)
 2. [Operating Lambda: Design principles in event-driven architectures – Part 2 by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2/)
 3. [Operating Lambda: Anti-patterns in event-driven architectures – Part 3 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-anti-patterns-in-event-driven-architectures-part-3/)
 
-## 45.6. How to secure workloads with public endpoints
+## 46.6. How to secure workloads with public endpoints
 
 1. [Operating Lambda: Building a solid security foundation – Part 1 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-1/)
 2. [Operating Lambda: Building a solid security foundation – Part 2 by James Beswick ](https://aws.amazon.com/blogs/compute/operating-lambda-building-a-solid-security-foundation-part-2/)
 
-## 45.7. Serverless Lens
+## 46.7. Serverless Lens
 
 1. https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf
 
-# 46. Staging
+# 47. Staging
 
 1. [Extract time series from satellite weather data with AWS Lambda by Lior Perez](https://aws.amazon.com/blogs/big-data/extract-time-series-from-satellite-weather-data-with-aws-lambda/)
 2. [Enrich VPC Flow Logs with resource tags and deliver data to Amazon S3 using Amazon Kinesis Data Firehose by Chaitanya Shah and Vaibhav Katkade](https://aws.amazon.com/blogs/big-data/enrich-vpc-flow-logs-with-resource-tags-and-deliver-data-to-amazon-s3-using-amazon-kinesis-data-firehose/)
