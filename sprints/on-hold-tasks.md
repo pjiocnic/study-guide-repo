@@ -33,6 +33,7 @@
 
 # Notes in Progress
 
+1. /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/notes-under-construction/10-Routing using Event Bridge Rules.md
 1. /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/notes-under-construction/webhooks-architecture.md
 1. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/step-functions/[NOTES] aws-step-functions-callback-example
 1. /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/notes-under-construction/12-api-gateway.md
@@ -46,6 +47,7 @@
 1. [AWS re:Invent 2021 - Building next-gen applications with event-driven architectures By Sam Dengler and Robbie Kohler (TACO BELL)](https://www.youtube.com/watch?v=U5GZNt0iMZY)
 - [Topics discussed](https://thomasstep.com/blog/reinvent-building-next-gen-applications-with-event-driven-architectures)
 1. [What's the best place to cache data for serverless applications? By Yan Cui](https://www.youtube.com/watch?v=8jMPh5ukJbE)
+1. [[**MAKE-NOTES**] Using AWS Application Load Balancer and Network Load Balancer with EC2 Container Service By Nathan Peck](https://medium.com/containers-on-aws/using-aws-application-load-balancer-and-network-load-balancer-with-ec2-container-service-d0cb0b1d5ae5)
 
 # Tasks
 
@@ -80,6 +82,7 @@ QQQ - Why did I think of this.  Which workshop used this? WAF?
 
 1. Complete making notes on `/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/[TODO]svs-307-powertools`. Check out the TODO section in my-readme.md
 1. Complete /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/cdk/sample-app/my-readme.md
+1. [[**MAKE-NOTES**] Using AWS Application Load Balancer and Network Load Balancer with EC2 Container Service By Nathan Peck](https://medium.com/containers-on-aws/using-aws-application-load-balancer-and-network-load-balancer-with-ec2-container-service-d0cb0b1d5ae5)
 
 # 1. DocumentDB
 
@@ -112,6 +115,10 @@ a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-works
 1. [Lambda event source mappings](https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventsourcemapping.html)
 1. [AWS LAMBDA OPERATOR GUIDE](https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/intro)
 1. [The AWS Lambda Operator's Guide | Serverless Office Hours](https://www.youtube.com/watch?v=Xofyyqq_Dvs&t=1464s)
+
+# Networking
+
+1. [One to Many: Evolving VPC Design by Androski Spicer ](https://aws.amazon.com/blogs/architecture/one-to-many-evolving-vpc-design/)
 
 # 5. JSON Handling
 

@@ -2,7 +2,8 @@
 
 <!-- TOC -->
 
-- [1. Start Here](#1-start-here)
+- [1. Dashboard](#1-dashboard)
+- [Topics to explore](#topics-to-explore)
 - [2. Autoscaling](#2-autoscaling)
   - [2.1. Autoscaling using CDK](#21-autoscaling-using-cdk)
 - [3. BluePrints](#3-blueprints)
@@ -15,7 +16,7 @@
 - [10. Hands-on](#10-hands-on)
 - [11. Accessing Fargate services](#11-accessing-fargate-services)
   - [11.1. By HTTP](#111-by-http)
-  - [11.2. By Amazon API Gateway PrivateLink](#112-by-amazon-api-gateway-privatelink)
+  - [11.2. By Amazon API Gateway + PrivateLink](#112-by-amazon-api-gateway--privatelink)
   - [Private Link + NLBs](#private-link--nlbs)
 - [12. Integrations](#12-integrations)
   - [12.1. Event Bridge](#121-event-bridge)
@@ -43,10 +44,21 @@
 
 <!-- /TOC -->
 
-# 1. Start Here
+# 1. Dashboard
 
 1. [containersonaws.com/](https://containersonaws.com/)
-2. [[MUST SEE] ECS on Fargate by AWSfundamentals.com](https://blog.awsfundamentals.com/ecs-on-fargate)
+1. [[MUST SEE] ECS on Fargate by AWSfundamentals.com](https://blog.awsfundamentals.com/ecs-on-fargate)
+1. [Under the hood: Amazon Elastic Container Service and AWS Fargate increase task launch rates by Nathan Peck](https://aws.amazon.com/blogs/containers/under-the-hood-amazon-elastic-container-service-and-aws-fargate-increase-task-launch-rates/)
+1. [Building HTTP API-based services using Amazon API Gateway, AWS PrivateLink and AWS Fargate by Irshad Buchh](https://aws.amazon.com/blogs/containers/building-http-api-based-services-using-aws-fargate/)
+1. [Access Private applications on AWS Fargate using Amazon API Gateway PrivateLink by Mani Chandrasekaran](https://aws.amazon.com/blogs/compute/access-private-applications-on-aws-fargate-using-amazon-api-gateway-privatelink/)
+1. [How to securely publish Internet applications at scale using Application Load Balancer and AWS PrivateLink by Tom Adamsk](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-securely-publish-internet-applications-at-scale-using-application-load-balancer-and-aws-privatelink/)
+1. [[JAVA] Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
+
+# Topics to explore
+
+1. How to run EC2 Tasks and do they run in customer VPC? - https://containersonaws.com/pattern/public-facing-web-ecs-ec2-cloudformation
+1. How to run Fargate Tasks using SAM cli- https://containersonaws.com/pattern/sam-fargate
+1. Autoscaling using sqs messages
 
 # 2. Autoscaling
 
@@ -115,7 +127,7 @@
 
 <img src="./images/aws-ecs-7.png" title="aws-ecs-7.png" width="900"/>
 
-## 11.2. By Amazon API Gateway PrivateLink
+## 11.2. By Amazon API Gateway + PrivateLink
 
 1. [[API Gateway is used to expose applications running on AWS Fargate using REST APIs thru' NLB] Access Private applications on AWS Fargate using Amazon API Gateway PrivateLink by Mani Chandrasekaran](https://aws.amazon.com/blogs/compute/access-private-applications-on-aws-fargate-using-amazon-api-gateway-privatelink/)
 
@@ -140,7 +152,7 @@
 
 ## 12.3. SQS
 
-1. [How to poll for SQS by Fargate by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
+1. [[**MUST TRY**] How to poll for SQS by Fargate by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
     - See https://github.com/aws-samples/serverless-eda-insurance-claims-processing/blob/main/lib/services/settlement/app/src/main/java/com/amazon/settlement/services/SubscriberService.java
     - QueueProcessingFargateService is also mentioned in this article
 
@@ -166,7 +178,8 @@
 # 14. LaunchTypes - EC2 vs Fargate
 
 1. [[**MUST SEE**] ECS on Fargate by AWSfundamentals.com](https://blog.awsfundamentals.com/ecs-on-fargate)
-2. [[**MUST SEE**] Comparing Amazon ECS launch types: EC2 vs. Fargate By Lumigo](https://lumigo.io/blog/comparing-amazon-ecs-launch-types-ec2-vs-fargate/)
+1. [[**MUST SEE**] Comparing Amazon ECS launch types: EC2 vs. Fargate By Lumigo](https://lumigo.io/blog/comparing-amazon-ecs-launch-types-ec2-vs-fargate/)
+1. [Under the hood: Amazon Elastic Container Service and AWS Fargate increase task launch rates by Nathan Peck](https://aws.amazon.com/blogs/containers/under-the-hood-amazon-elastic-container-service-and-aws-fargate-increase-task-launch-rates/)
 
 # 15. Tasks
 

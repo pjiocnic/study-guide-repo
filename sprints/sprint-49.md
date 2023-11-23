@@ -1,5 +1,11 @@
 <h1>Sprint 49 - Nov 21, 2023- Nov 28, 2023</h1>
 
+# WIP
+
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/ecs/fargate-apigateway/fargate-apigateway-readme.md
+1. /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/notes-under-construction/10-[WIP] Routing using Event Bridge Rules.md
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-cookbook/networking/dns/1-Why do you need DHCP.md
+
 # Curate
 
 1. [Build on Serverless | Breaking the Monolith with Step Functions By Yan Cui](https://www.youtube.com/watch?v=CFelZoLjF50)
@@ -8,6 +14,9 @@
 1. [API Gateway vs Application Load Balancer (ALB) cost comparison](https://www.youtube.com/watch?v=cCSEBfIFJ8g)
 1. [Orchestration vs Choreography, a Guide to Composing Your Monolith](https://www.youtube.com/watch?v=_OaOht0n9jA)
 1. [What's the best place to cache data for serverless applications? By Yan Cui](https://www.youtube.com/watch?v=8jMPh5ukJbE)
+
+1. [Application Load Balancer-type Target Group for Network Load Balancer by Rohit Aswani and Eugene Wiehahn](https://aws.amazon.com/blogs/networking-and-content-delivery/application-load-balancer-type-target-group-for-network-load-balancer/)
+1. [How to use Multiple load balancer Target Group Support for Amazon ECS to access internal and external service endpoint using the same DNS name by Vijay Menon ](https://aws.amazon.com/blogs/containers/how-to-use-multiple-load-balancer-target-group-support-for-amazon-ecs-to-access-internal-and-external-service-endpoint-using-the-same-dns-name/)
 
 ## Webhooks
 1. [Deconstructing "The Scalable Webhook" AWS Serverless Architecture Pattern](https://www.youtube.com/watch?v=kRI7QJfGBI8&t=38s)
