@@ -17,6 +17,8 @@
 
 <!-- /TOC -->
 
+https://miro.com/app/dashboard/?tpTemplate=aws-architecture-diagram&fromRedirect=1
+
 # Architecture Diagrams
 
 1. [Serverless Loan Broker @ AWS, Part 5: Integration Patterns with CDK](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_cdk.html)

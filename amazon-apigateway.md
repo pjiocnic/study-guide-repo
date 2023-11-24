@@ -15,7 +15,7 @@
 - [6. Custom Domains](#6-custom-domains)
 - [7. Features](#7-features)
 - [8. Load Testing](#8-load-testing)
-- [9. Private Endpoints](#9-private-endpoints)
+- [9. API Gateway + Private Endpoints](#9-api-gateway--private-endpoints)
 - [10. Throttling](#10-throttling)
 - [11. Websockets](#11-websockets)
 - [12. Usage Plans](#12-usage-plans)
@@ -31,6 +31,7 @@
 1. [find examples for features](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html)
 1. [A Detailed Overview of AWS API Gateway By Alex Debrie](https://www.alexdebrie.com/posts/api-gateway-elements/)
 1. [The Missing Guide to AWS API Gateway Access Logs](https://www.alexdebrie.com/posts/page/2/)
+1. [Private Endpoints](#9-private-endpoints)
 
 # 2. APIs
 
@@ -38,8 +39,8 @@
 
 1. [Create RESTful APIs on AWS with OpenAPI Specification (With No Coding) by Samuel Baruffi, Radhika Gupta, and Anthony Watson](https://aws.amazon.com/blogs/opensource/create-restful-apis-on-aws-with-openapi-specification-with-no-coding/)
 1. [Building storage-first serverless applications with HTTP APIs service integrations by Eric Johnson](https://aws.amazon.com/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/)
-- https://github.com/aws-samples/sessions-with-aws-sam/tree/master/http-api-integrations-blog-example
-- https://www.youtube.com/watch?v=qa3lkaz7pnI
+    - https://github.com/aws-samples/sessions-with-aws-sam/tree/master/http-api-integrations-blog-example
+    - https://www.youtube.com/watch?v=qa3lkaz7pnI
 
 ## 2.2. HTTP API vs REST API
 
@@ -87,8 +88,13 @@
 1. [Using serverless to load test Amazon API Gateway with authorization by Ashish Mehra](https://aws.amazon.com/blogs/compute/using-serverless-to-load-test-amazon-api-gateway-with-authorization/)
 1. [Building well-architected serverless applications: Regulating inbound request rates – part 1 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-regulating-inbound-request-rates-part-1/)
 
-# 9. Private Endpoints
+# 9. API Gateway + Private Endpoints
 
+1. [[**_MAKE_NOTES_**] Understanding VPC links in Amazon API Gateway private integrations by Jose Eduardo Montilla Lugo](https://aws.amazon.com/blogs/compute/understanding-vpc-links-in-amazon-api-gateway-private-integrations/)
+1. [[**_ACROSS_ACCOUNTS_**] Building private cross-account APIs using Amazon API Gateway and AWS PrivateLink by Brian Zambrano](https://aws.amazon.com/blogs/compute/building-private-cross-account-apis-using-amazon-api-gateway-and-aws-privatelink/)
+  <img src="./images/agtwy-vpc-link-1.png" title="agtwy-vpc-link-1.png" width="900"/>
+1. [[**_ACROSS_REGIONS_**] Access Private applications on AWS Fargate using Amazon API Gateway PrivateLink by Mani Chandrasekaran](https://aws.amazon.com/blogs/compute/access-private-applications-on-aws-fargate-using-amazon-api-gateway-privatelink/)
+  <img src="./images/agtwy-vpc-link-2.png" title="agtwy-vpc-link-2.png" width="900"/>
 1. [Serverless Private APIs — Part 1 By Serverless Advocate](https://levelup.gitconnected.com/serverless-private-apis-60749934b161)
 
 # 10. Throttling
@@ -106,7 +112,7 @@
 
 1. [Creating Usage Plans in console](https://aws.amazon.com/blogs/aws/new-usage-plans-for-amazon-api-gateway/)
 2. [Visualizing Amazon API Gateway usage plans using Amazon QuickSight by Roberto Iturralde](https://aws.amazon.com/blogs/compute/visualizing-amazon-api-gateway-usage-plans-using-amazon-quicksight/)
-- [./templates/api-gateway-access-logs-visualization-core.yaml](api-gateway-access-logs-visualization-core.template)
+    - [./templates/api-gateway-access-logs-visualization-core.yaml](api-gateway-access-logs-visualization-core.template)
 
 # 13. Use Cases
 
@@ -116,8 +122,8 @@
 
 # 14. Curate
 
-https://aws.amazon.com/blogs/compute/using-api-gateway-mapping-templates-to-handle-changes-in-your-back-end-apis/
-https://www.alexdebrie.com/posts/api-gateway-elements/
+1. https://aws.amazon.com/blogs/compute/using-api-gateway-mapping-templates-to-handle-changes-in-your-back-end-apis/
+1. https://www.alexdebrie.com/posts/api-gateway-elements/
 
 # 15. Workshops and Hands-On
 
