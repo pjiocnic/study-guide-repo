@@ -2,34 +2,34 @@ https://www.epochconverter.com/weeks/2023
 
 <!-- TOC -->
 
-- [Sprint planning](#sprint-planning)
-- [1. Topics to visit](#1-topics-to-visit)
-- [2. Documentation to visit](#2-documentation-to-visit)
-- [3. In Progress](#3-in-progress)
-- [4. Planning my next big topic](#4-planning-my-next-big-topic)
-- [5. Weekend](#5-weekend)
-- [6. Weekly - planning](#6-weekly---planning)
-- [7. Blogs to explore](#7-blogs-to-explore)
-- [8. Topics to explore](#8-topics-to-explore)
-- [9. Blogs to explore](#9-blogs-to-explore)
-- [10. Workshops planning](#10-workshops-planning)
-- [11. AWS Samples to try](#11-aws-samples-to-try)
-- [12. Courses to try](#12-courses-to-try)
-- [13. Books to try](#13-books-to-try)
-- [09102023 - New planning](#09102023---new-planning)
-  - [Mornings](#mornings)
-- [SAM](#sam)
+- [1. Sprint planning](#1-sprint-planning)
+- [2. Topics to visit](#2-topics-to-visit)
+- [3. Documentation to visit](#3-documentation-to-visit)
+- [4. In Progress](#4-in-progress)
+- [5. Planning my next big topic](#5-planning-my-next-big-topic)
+- [6. Weekend](#6-weekend)
+- [7. Weekly - planning](#7-weekly---planning)
+- [8. Blogs to explore](#8-blogs-to-explore)
+- [9. Topics to explore](#9-topics-to-explore)
+- [10. Blogs to explore](#10-blogs-to-explore)
+- [11. Workshops planning](#11-workshops-planning)
+- [12. AWS Samples to try](#12-aws-samples-to-try)
+- [13. Courses to try](#13-courses-to-try)
+- [14. Books to try](#14-books-to-try)
+- [15. - New planning](#15---new-planning)
+  - [15.1. Mornings](#151-mornings)
+- [16. SAM](#16-sam)
 
 <!-- /TOC -->
 
-# Sprint planning
+# 1. Sprint planning
 
 1. Mornings - Patterns, Cookbook
 1. At work - pwoertools
 1. SAC003 prep
 1. Holidays + Weekend - Step functions
 
-# 1. Topics to visit
+# 2. Topics to visit
 
 1. Event bridge routing
 1. FIFO queue
@@ -60,21 +60,21 @@ https://www.epochconverter.com/weeks/2023
 1. https://github.com/aws-samples/serverless-patterns/tree/main/sns-sqs-lambda-cdk
 1. S3 Security
 
-# 2. Documentation to visit
+# 3. Documentation to visit
 
 1. [Configuring a dead-letter queue redrive](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-configure-dead-letter-queue-redrive.html)
 2. [Lambda Operator guide](https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html)
 3. [Amazon Simple Notification Service](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
 4. [Amazon API Gateway > Developer Guide](https://docs.aws.amazon.com/apigateway/index.html)
 
-# 3. In Progress
+# 4. In Progress
 
 1. [Amazon DocumentDB (with MongoDB compatibility) Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/464d6c17-9faa-4fef-ac9f-dd49610174d3/en-US/prerequisites/cloud9)
 2. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
 3. [AWS re:Invent 2022 - Building Serverlesspresso: Creating event-driven architectures (SVS312)](https://www.youtube.com/watch?v=qs0U0LdNkV0&list=PLJo-rJlep0ECijHdz01OZXo3bqhbW_Hb2&index=3&t=67s)
 4. [AWS re:Invent 2022 - Advanced serverless workflow patterns and best practices (API309)](https://www.youtube.com/watch?v=o6-7BAUWaqg)
 
-# 4. Planning my next big topic
+# 5. Planning my next big topic
 
 1. AWS WebServices In Action
 2. AWS CookBook
@@ -83,11 +83,11 @@ https://www.epochconverter.com/weeks/2023
 5. Networking course by Cantril
 6. Cloudformation workshop
 
-# 5. Weekend
+# 6. Weekend
 1. AWS Certified Security - Specialty (SCS-C02) Crash Course [O’Reilly Live Event] By chad Smith
 2. [Complete Python Mastery By Mosh](https://codewithmosh.teachable.com/courses/417695/lectures/6781574)
 
-# 6. Weekly - planning
+# 7. Weekly - planning
 
 1.  Read `https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/` blog posts
 2. [Modernize with AWS Lambda](https://aws.amazon.com/lambda/modernize-with-aws-lambda/)
@@ -99,14 +99,14 @@ https://www.epochconverter.com/weeks/2023
 7. [AWS Lambda resources](https://aws.amazon.com/lambda/resources/?aws-lambda-resources-blog.sort-by=item.additionalFields.createdDate&aws-lambda-resources-blog.sort-order=desc)
 8. [SQS Developer Documentstion](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-basic-architecture.html)
 
-# 7. Blogs to explore
+# 8. Blogs to explore
 
 1. [Unlike MQ, why SQS does not have a message broker](https://neiljbrown.com/2017/08/26/evaluating-message-brokers-amazon-sqs/)
 2. [Message Broker or Bus – what’s the difference?](https://neiljbrown.com/2017/05/13/message-broker-or-bus-whats-the-difference/)
 3. [Differences between Amazon SQS, Amazon MQ, and Amazon SNS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-difference-from-amazon-mq-sns.html)
 4. [How to setup DLQ for SNS Topics](https://faun.pub/aws-sns-dead-letter-queue-dlq-pattern-local-setup-272a206da3f)
 
-# 8. Topics to explore
+# 9. Topics to explore
 
 1. Cloudformation workshop
 2. DocumentDB workshop
@@ -129,7 +129,7 @@ https://www.epochconverter.com/weeks/2023
 19. CDK workshops
 20. [Prescriptive Guides](https://aws.amazon.com/prescriptive-guidance/?apg-all-cards.sort-by=item.additionalFields.sortDate&apg-all-cards.sort-order=desc&awsf.apg-new-filter=*all&awsf.apg-content-type-filter=*all&awsf.apg-code-filter=*all&awsf.apg-category-filter=*all&awsf.apg-rtype-filter=*all&awsf.apg-isv-filter=*all&awsf.apg-product-filter=*all&awsf.apg-env-filter=*all)
 
-# 9. Blogs to explore
+# 10. Blogs to explore
 
 1. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
 2. [Event storming](https://medium.com/serverless-transformation/eventbridge-storming-how-to-build-state-of-the-art-event-driven-serverless-architectures-e07270d4dee)
@@ -137,7 +137,7 @@ https://www.epochconverter.com/weeks/2023
 4. https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html
 5. [Powering Secondary DNS in a VPC using AWS Lambda and Amazon Route 53 Private Hosted Zones by Bryan Liston](https://aws.amazon.com/blogs/compute/powering-secondary-dns-in-a-vpc-using-aws-lambda-and-amazon-route-53-private-hosted-zones/)
 
-# 10. Workshops planning
+# 11. Workshops planning
 1. [AWS CloudTrail Log Monitoring](https://catalog.us-east-1.prod.workshops.aws/workshops/2e48b9fc-f721-4417-b811-962b7f31b61c/en-US)
 1. DocumentDB
 1.  [[My NEXT] Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
@@ -158,7 +158,7 @@ https://www.epochconverter.com/weeks/2023
     - [How to detect a customer accidentally created an IAM role policy that is overly permissive](https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating/6002_aws_iam.html)
     - [How to detect a customer accidentally created a SNS topic and SQS queue without encryption](https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating/6003_aws_sqs_and_sns.html)
 
-# 11. AWS Samples to try
+# 12. AWS Samples to try
 
 1. [Build a fault-tolerant, serverless data aggregation pipeline with exactly-once processing by Lucas Rettenmeier and Kirill Bogdanov](https://aws.amazon.com/blogs/database/build-a-fault-tolerant-serverless-data-aggregation-pipeline-with-exactly-once-processing/)
 2.  https://github.com/aws-samples/serverless-eda-insurance-claims-processing
@@ -166,26 +166,26 @@ https://www.epochconverter.com/weeks/2023
 4. ECS microservices
 5. Centralized Logging
 
-# 12. Courses to try
+# 13. Courses to try
 
 1. [Automation in AWS with CloudFormation, CLI, and SDKs By Richard A. Jones](https://learning.oreilly.com/videos/automation-in-aws/9780134818313/)
 - Good place to brush up
 
-# 13. Books to try
+# 14. Books to try
 
 1. [[READ THIS BOOK] AWS System Administration Mike Ryan, Federico Lucifredi](https://learning.oreilly.com/library/view/aws-system-administration/9781449342562/foreword01.html)
 
 
-# 09102023 - New planning
+# 15. - New planning
 
-## Mornings
+## 15.1. Mornings
 
 1. Do ECS Tutorial, AWS Cookbook
 1. AWS Fundamentals
 1. https://www.wellarchitectedlabs.com/
 1. https://www.youtube.com/@LearnCantrill/videos
 
-# SAM
+# 16. SAM
 
 1. [Step Functions Local - mocking service integrations | Serverless Office Hours](https://www.youtube.com/watch?v=4pTfYon6zJ8)
 1. [Learning AWS SAM | sam local | E4](https://www.youtube.com/watch?v=owGuHgB0mVI)

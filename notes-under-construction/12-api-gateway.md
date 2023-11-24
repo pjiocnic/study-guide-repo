@@ -110,5 +110,3 @@ https://www.youtube.com/watch?v=73R02KufLac&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1v
 
 1. [Sessions with SAM](https://www.youtube.com/playlist?list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd)
 
-
-https://www.alexdebrie.com/posts/aws-api-gateway-service-proxy/
