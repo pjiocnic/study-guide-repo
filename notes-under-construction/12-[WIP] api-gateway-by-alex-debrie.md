@@ -340,7 +340,7 @@ Reasons why you need to do transformation:
 }
 ```
 
-For complete examples of templates see -
+For complete examples of VTL templates see -
 
 [Sales invoice example (API Gateway models and mapping templates)](https://docs.aws.amazon.com/apigateway/latest/developerguide/example-invoice.html#example-invoice-input-mapping#example-invoice-input-mapping)
 
@@ -348,9 +348,9 @@ Also see
 
 [Using API Gateway mapping templates to handle changes in your back-end APIs by Stefano Buliani](https://aws.amazon.com/blogs/compute/using-api-gateway-mapping-templates-to-handle-changes-in-your-back-end-apis/)
 
-
 # NextSteps
 
+1. [The Missing Guide to AWS API Gateway Access Logs By Alex Debrie](https://www.alexdebrie.com/posts/api-gateway-access-logs/)
 1. [Amazon API Gateway with a mock integration](https://serverlessland.com/patterns/apigateway-rest-mock-sam)
 1. [Amazon API Gateway with an HTTP integration](https://serverlessland.com/patterns/apigateway-rest-http-sam)
 1. [Amazon API Gateway with a VPC Link integration](https://serverlessland.com/patterns/apigateway-rest-vpclink-sam)
