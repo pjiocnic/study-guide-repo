@@ -50,6 +50,7 @@
 
 # 5. Using Patterns to route messages
 
+1. [[**MUST_SEE**] Content-based Filtering By Tim Bray](https://www.tbray.org/ongoing/When/201x/2019/12/18/Content-based-filtering)
 1. [[**USER_GUIDE**] Amazon EventBridge event patterns](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-event-patterns.html)
 1. [Integrating Amazon EventBridge into your serverless applications by James Beswick](https://aws.amazon.com/blogs/compute/integrating-amazon-eventbridge-into-your-serverless-applications/)
 1. [Reducing custom code by using advanced rules in Amazon EventBridge by James Beswick](https://aws.amazon.com/blogs/compute/reducing-custom-code-by-using-advanced-rules-in-amazon-eventbridge/)

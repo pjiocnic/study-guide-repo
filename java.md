@@ -7,7 +7,8 @@
 - [4. JSONPath](#4-jsonpath)
 - [5. Books](#5-books)
 - [6. Maven](#6-maven)
-- [Java Features](#java-features)
+- [7. Java Features](#7-java-features)
+- [Curate](#curate)
 
 <!-- /TOC -->
 
@@ -38,10 +39,19 @@
 3. [AWS SDK for Java Maven Archetype by Jason Fulghum](https://aws.amazon.com/blogs/developer/aws-sdk-for-java-maven-archetype/)
 4. [Bootstrap a New Maven Project With Basic Testing Libraries In Less Than One Minute By Philip Riecks](https://www.youtube.com/watch?v=FsBdgJVkteY)
 
-# Java Features
+# 7. Java Features
 
 1. [Project uses new Lambda/Generic features of Java](https://github.com/aws-samples/aws-lambda-servlet/blob/main/src/main/java/com/aws/samples/lambda/servlet/LambdaWebServletProcessor.java)
 - Try.run
 - mapTry
 - List.ofAll(newServlets).appendAll(existingServlets).distinct();
 - Method references
+
+# Curate
+
+1. [Brush up on lambdas here](https://www.oracle.com/technical-resources/articles/java/lambda.html)
+1. [15 Practical Exercises Help You Master Java Stream API By Gavin Fong](https://blog.devgenius.io/15-practical-exercises-help-you-master-java-stream-api-3f9c86b1cf82)
+1. [Gavin Fong's Repo for his blog](https://github.com/gavinklfong/stream-api-exercises)
+1. Implementing Design Patterns Using Java 8 Lambda by Jose Paumard
+1. From Collections to Streams in Java 8 Using Lambda Expressions by Jose Paumard
+1. Streams, Collectors, and Optionals for Data Processing in Java 8 by Jose Paumard

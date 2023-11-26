@@ -57,3 +57,7 @@ Update aws-patterns with appropriate category
 1. [Extending a serverless, event-driven architecture to existing container workloads](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
 1. [Speeding up incremental changes with AWS SAM Accelerate and nested stacks by Jeff Marcinko](https://aws.amazon.com/blogs/compute/speeding-up-incremental-changes-with-aws-sam-accelerate-and-nested-stacks/)
 1. [Make Notes](https://aws.amazon.com/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/)
+
+1. [Guardrails for AWS event-driven serverless architectures By Capital One](https://www.capitalone.com/tech/cloud/using-aws-solutions-for-event-driven-serverless-architectures/)
+1. [AWS Step Functions Overview By DataDog](https://www.datadoghq.com/knowledge-center/aws-step-functions/)
+1. [Orchestrating backend calls with AWS Step Functions](https://www.sopin.dev/2021/08/02/Orchestrating-backend-calls-with-AWS-Step-Functions/)

@@ -18,6 +18,7 @@
 1. [Document object](https://www.baeldung.com/java-import-json-mongodb)
 1. https://www.mongodb.com/docs/drivers/java-drivers/
 1. https://mongodb.github.io/mongo-java-driver/3.5/driver/getting-started/quick-start-pojo/
+1. [MongoDB Driver V3.4 Quick Start](https://mongodb.github.io/mongo-java-driver/3.4/driver/tutorials/databases-collections/)
 
 # Books
 https://learning.oreilly.com/library/view/java-data-analysis/9781787285651/ch10s05.html

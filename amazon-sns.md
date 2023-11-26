@@ -2,9 +2,11 @@
 
 <!-- TOC -->
 
+- [Dashboard](#dashboard)
 - [1. Cross Accccount](#1-cross-accccount)
 - [2. DLQs](#2-dlqs)
 - [3. Delivery Status](#3-delivery-status)
+- [Filtering](#filtering)
 - [4. FIFO](#4-fifo)
 - [5. Monitoring](#5-monitoring)
 - [6. Scaling](#6-scaling)
@@ -13,6 +15,10 @@
 - [8. Throttling](#8-throttling)
 
 <!-- /TOC -->
+
+# Dashboard
+
+1. [Compare with Event Bridge Rules](#Filtering)
 
 # 1. Cross Accccount
 
@@ -26,6 +32,15 @@
 
 1. [Using the Delivery Status feature of Amazon SNS by Arjun Cholkar](https://aws.amazon.com/blogs/mobile/using-the-delivery-status-feature-of-amazon-sns/)
 1. [How do I access Amazon SNS topic delivery logs for SMS messages?](https://repost.aws/knowledge-center/monitor-sns-texts-cloudwatch)
+
+# Filtering
+
+1. [Introducing payload-based message filtering for Amazon SNS by Prachi Sharma, Mithun Mallick, Otavio Ferreira ](https://aws.amazon.com/blogs/compute/introducing-payload-based-message-filtering-for-amazon-sns/)
+1. [Advance Filtering Polices](https://betterprogramming.pub/a-quick-guide-to-amazon-sns-subscription-filter-policies-7c91865a9065)
+1. [Amazon SNS subscription filter policies](https://docs.aws.amazon.com/sns/latest/dg/sns-subscription-filter-policies.html)
+1. [[HANDS_ON] Filter Messages Published to Topics with Amazon SNS and Amazon SQS Thru' console](https://aws.amazon.com/tutorials/filter-messages-published-to-topics/)
+1. [How to filter messages based on the payload using Amazon SNS By FooBar](https://www.youtube.com/watch?v=36iMOJQUAuE)
+1. [Creating an AWS SNS Subscription Filter Policy (9/13) By Be A Better Dev](https://www.youtube.com/watch?v=ezrHUimmkzo)
 
 # 4. FIFO
 
