@@ -62,7 +62,7 @@
 
 ## 7.1. Demo - Permission Boundaries
 
-1. [Apply AWS IAM Permissions Boundary | Hands-on](https://www.youtube.com/watch?v=D-1u0dBM-q8&)
+1. [Apply AWS IAM Permissions Boundary | Hands-on By Digital Cloud Training](https://www.youtube.com/watch?v=D-1u0dBM-q8&)
 
 # 8. Roles
 

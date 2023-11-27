@@ -17,3 +17,8 @@
 9. [AWS Network – Monitoring and Troubleshooting](https://explore.skillbuilder.aws/learn/course/8187/aws-network-monitoring-and-troubleshooting)
 
 10. [Amazon Route 53 Domains - Troubleshooting](https://explore.skillbuilder.aws/learn/course/10422/amazon-route-53-domains-troubleshooting)
+
+# Additional Material
+
+1. [Which log group is causing a sudden increase in my CloudWatch Logs bill?](https://repost.aws/knowledge-center/cloudwatch-logs-bill-increase)
+1. [AWS CLI with jq and Bash By Lee Harding](https://medium.com/circuitpeople/aws-cli-with-jq-and-bash-9d54e2eabaf1)
