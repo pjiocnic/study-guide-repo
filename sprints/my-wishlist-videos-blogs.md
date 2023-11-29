@@ -17,6 +17,7 @@
 - [9. Lambda](#9-lambda)
   - [9.1. Secrets](#91-secrets)
   - [9.2. Error Handling](#92-error-handling)
+- [Refactoring](#refactoring)
 
 <!-- /TOC -->
 
@@ -69,6 +70,7 @@
 1. [Building a modern, event-driven application for insurance claims processing – Part 2 by Emily Shea, Vaibhav Jain, and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-2/)
 1. [Extending a serverless, event-driven architecture to existing container workloads](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
 
+
 ## 8.2. Schema Registry
 
 1. [Working with events and the Amazon EventBridge schema registry](https://aws.amazon.com/blogs/compute/working-with-events-and-amazon-eventbridge-schema-registry/)
@@ -90,5 +92,10 @@
 ## 9.2. Error Handling
 
 1. [Implementing AWS Lambda error handling patterns](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
+1. [**[MY_NEXT]** Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
+1. [**[MY_NEXT]** Using Amazon SQS dead-letter queues to replay messages By Alexandre Pinhel](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages/)
 
+# Refactoring
+
+1. [Refactoring to Serverless](https://serverlessland.com/content/guides/refactoring-serverless/introduction)
 

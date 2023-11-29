@@ -21,9 +21,9 @@
 1. AWS Fundamentals book by Tobias
 1. System Design books
 
+
 # Blogs in progress
 
-1. [Sending and receiving webhooks on AWS: Innovate with event notifications](https://aws.amazon.com/blogs/compute/sending-and-receiving-webhooks-on-aws-innovate-with-event-notifications/)
 1. [Sessions With SAM (S1E6): SAM templates for SQS, cross-account queue policies & Lambda event ](https://www.youtube.com/watch?v=q2rbHMyJBDY&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=6)
 1. [Make Notes](my-github/study-guide-repo/notes-under-construction/api-gateway.md)
 1. [Make Notes under Sessions with SAM](https://www.youtube.com/watch?v=IQfLHrtPW9o&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=26)
@@ -87,7 +87,8 @@ QQQ - Why did I think of this.  Which workshop used this? WAF?
 # 1. DocumentDB
 
 1. [Amazon EventBridge to SNS to Lambda Function](https://serverlessland.com/patterns/eventbridge-sns-lambda)
-a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/documentdb/amazon-documentdb-workshop/resources/change-streams.yml` and understand how SNS is setup as a scheduler. b) Update the architecture diagram
+a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/documentdb/amazon-documentdb-workshop/resources/change-streams.yml` and understand how SNS is setup as a scheduler.
+b) Update the architecture diagram
 1. [Creating Amazon EventBridge rules that react to events](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-create-rule.html)
 1. [Stream data from Amazon DocumentDB to Amazon Kinesis Data Firehose using AWS Lambda by Anshu Vajpayee and Sourav Biswas](https://aws.amazon.com/blogs/database/stream-data-from-amazon-documentdb-to-amazon-kinesis-data-firehose-using-aws-lambda/)
 > 1. [DocumentDB Insider Hour | Episode 27 | Lambda Event Source Mapping By Sourav Biswas](https://www.youtube.com/watch?v=U8z0To80crY)
@@ -104,6 +105,8 @@ a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-works
 # 3. EventBridge
 
 1. [{Orchestrator] Insurance Claims Processing using Serverless and Event-Driven Architecture](https://github.com/aws-samples/serverless-eda-insurance-claims-processing)
+
+> 1. [Testing Amazon EventBridge events using AWS Step Functions by Siarhei Kazhura](https://aws.amazon.com/blogs/compute/testing-amazon-eventbridge-events-using-aws-step-functions/)
 
 # 4. Lambda
 

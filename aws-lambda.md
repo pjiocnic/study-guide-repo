@@ -33,7 +33,7 @@
   - [17.4. SAM](#174-sam)
   - [17.5. Snapstart](#175-snapstart)
   - [17.6. Code organization](#176-code-organization)
-- [18. DLQs](#18-dlqs)
+- [18. Error Handling with DLQs](#18-error-handling-with-dlqs)
 - [19. Extensions](#19-extensions)
 - [20. Event Source Mapping](#20-event-source-mapping)
   - [20.1. Core](#201-core)
@@ -220,6 +220,7 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 # 15. Destinations
 
 1. [Introducing AWS Lambda Destinations by Julian Wood](https://aws.amazon.com/blogs/compute/introducing-aws-lambda-destinations/)
+- Diagram indicates Destinations don't work when Lambda is triggered by SQS (https://stackoverflow.com/questions/59669947/aws-lambda-w-sqs-trigger-sqs-lambda-destinations-never-adds-to-destination-qu)
 > 1. [[**MY-NEXT**] Lambda Destinations: What We Learned the Hard Way By Trek10](https://www.trek10.com/blog/lambda-destinations-what-we-learned-the-hard-way)
 1. [3 Valuable Lessons Learned About AWS Lambda Destinations By Andrew Titenko](https://medium.com/@iamarkadyt/3-valuable-lessons-learned-about-aws-lambda-destinations-bc1004c94329)
 
@@ -259,17 +260,18 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 1. [Best practices for organizing larger serverless applications by James Beswick](https://aws.amazon.com/blogs/compute/best-practices-for-organizing-larger-serverless-applications/)
 
-# 18. DLQs
+# 18. Error Handling with DLQs
 
 1. [Durable Serverless Architectures: Working with Dead-Letter Queues API309 By Otavio Ferreira](https://d1.awsstatic.com/events/reinvent/2019/Durable_serverless_architecture_Working_with_dead-letter_queues_API309.pdf)
 1. [Asynchronous invocation](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)
 1. [Configuring an Amazon SNS dead-letter queue for a subscription](https://docs.aws.amazon.com/sns/latest/dg/sns-configure-dead-letter-queue.html)
 1. [Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda By Otavio Ferreira](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
-1. [**[MY NEXT]** Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
-1. [**[MY NEXT]** Using Amazon SQS dead-letter queues to replay messages By Alexandre Pinhel](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages/)
+1. [**[MY_NEXT]** Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
+1. [**[MY_NEXT]** Using Amazon SQS dead-letter queues to replay messages By Alexandre Pinhel](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages/)
 1. [How do dead-letter queues work](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html)
 1. [DLQ with AWS Lambda By Thiwanka Wickramage](https://thiwankawickramage.medium.com/dlq-with-aws-lambda-ab7c080b6f5a)
 1. [AWS Lambda: Ultimate Guide to Error Handling By Yan Cui](https://www.youtube.com/watch?v=GK-z1n2E3BQ)
+1. [Implementing AWS Lambda error handling patterns](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
 
 # 19. Extensions
 

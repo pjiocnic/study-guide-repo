@@ -12,26 +12,27 @@
 - [9. Event Sourcing](#9-event-sourcing)
 - [10. High Availability Patterns](#10-high-availability-patterns)
 - [11. Idempotency](#11-idempotency)
-- [12. Orchestration and choreography patterns](#12-orchestration-and-choreography-patterns)
-- [Persistence Patterns](#persistence-patterns)
-- [13. Parallel Processing](#13-parallel-processing)
-- [14. Priority Queues](#14-priority-queues)
-- [15. Routing Patterns](#15-routing-patterns)
-- [16. Rate Limiter](#16-rate-limiter)
-- [17. Regulating Request Rates Using Token Buckets](#17-regulating-request-rates-using-token-buckets)
-- [18. Retry with Backoffs](#18-retry-with-backoffs)
-- [19. Scatter Gather](#19-scatter-gather)
-  - [19.1. Scatter-Gather without Step functions](#191-scatter-gather-without-step-functions)
-  - [19.2. Scatter-Gather using step functions](#192-scatter-gather-using-step-functions)
-- [20. Sequence Generator](#20-sequence-generator)
-- [21. Storage-first patterns](#21-storage-first-patterns)
-- [22. Saga Pattern](#22-saga-pattern)
-- [23. Strangler fig pattern](#23-strangler-fig-pattern)
-- [24. Task Scheduling](#24-task-scheduling)
-- [25. Transactional Outbox Pattern](#25-transactional-outbox-pattern)
-- [26. WebHook](#26-webhook)
-- [27. Websockets](#27-websockets)
-- [28. Webhooks](#28-webhooks)
+- [12. JSONPath](#12-jsonpath)
+- [13. Orchestration and choreography patterns](#13-orchestration-and-choreography-patterns)
+- [14. Persistence Patterns](#14-persistence-patterns)
+- [15. Parallel Processing](#15-parallel-processing)
+- [16. Priority Queues](#16-priority-queues)
+- [17. Routing Patterns](#17-routing-patterns)
+- [18. Rate Limiter](#18-rate-limiter)
+- [19. Regulating Request Rates Using Token Buckets](#19-regulating-request-rates-using-token-buckets)
+- [20. Retry with Backoffs](#20-retry-with-backoffs)
+- [21. Scatter Gather](#21-scatter-gather)
+  - [21.1. Scatter-Gather without Step functions](#211-scatter-gather-without-step-functions)
+  - [21.2. Scatter-Gather using step functions](#212-scatter-gather-using-step-functions)
+- [22. Sequence Generator](#22-sequence-generator)
+- [23. Storage-first patterns](#23-storage-first-patterns)
+- [24. Saga Pattern](#24-saga-pattern)
+- [25. Strangler fig pattern](#25-strangler-fig-pattern)
+- [26. Task Scheduling](#26-task-scheduling)
+- [27. Transactional Outbox Pattern](#27-transactional-outbox-pattern)
+- [28. WebHook](#28-webhook)
+- [29. Websockets](#29-websockets)
+- [30. Webhooks](#30-webhooks)
 
 <!-- /TOC -->
 
@@ -103,12 +104,16 @@
 1. https://docs.powertools.aws.dev/lambda/java/utilities/idempotency/
 1. [Amazon Builders' Library - Making retries safe with idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/)
 
-# 12. Orchestration and choreography patterns
+# 12. JSONPath
+
+1. [Using JSONPath effectively in AWS Step Functions by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/using-jsonpath-effectively-in-aws-step-functions/)
+
+# 13. Orchestration and choreography patterns
 
 1. [Orchestration and choreography patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/orchestration-choreography.html)
 1. [Choreography vs Orchestration in the land of serverless By Yan Cui](https://theburningmonk.com/2020/08/choreography-vs-orchestration-in-the-land-of-serverless/)
 
-# Persistence Patterns
+# 14. Persistence Patterns
 
 1. [Enabling data persistence in microservices](https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-data-persistence/welcome.html)
 - Database-per-service pattern
@@ -118,16 +123,16 @@
 - Saga pattern (https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/implement-the-serverless-saga-pattern-by-using-aws-step-functions.html)
 - Shared-database-per-service pattern
 
-# 13. Parallel Processing
+# 15. Parallel Processing
 
 1. [Design Pattern for Highly Parallel Compute: Recursive Scaling with Amazon SQS by Koushik Biswas and Al Mair](https://aws.amazon.com/blogs/architecture/design-pattern-for-highly-parallel-compute-recursive-scaling-with-amazon-sqs/)
 
-# 14. Priority Queues
+# 16. Priority Queues
 
 1. [Implement the Priority Queue Pattern with SQS and Lambda](https://bitesizedserverless.com/bite/implement-the-priority-queue-pattern-with-sqs-and-lambda/)
 2. [[MY NEXT] Implementing priority queueing with Amazon DynamoDB by Zoran Ivanovic](https://aws.amazon.com/blogs/database/implementing-priority-queueing-with-amazon-dynamodb/)
 
-# 15. Routing Patterns
+# 17. Routing Patterns
 
 1. [API routing patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/api-routing.html)
 1. [Hostname routing](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/api-routing-hostname.html)
@@ -140,7 +145,7 @@
 - Normalizer pattern
 - Claim check pattern
 
-# 16. Rate Limiter
+# 18. Rate Limiter
 
 1. [Prevent API overload with rate limiting in AWS](https://dev.to/aws-builders/prevent-api-overload-with-rate-limiting-in-aws-1dgb)
 2. [[RATED] System Design Basics: Rate Limiter By Abhinav Singh](https://builtin.com/software-engineering-perspectives/rate-limiter)
@@ -151,42 +156,42 @@
 7. [System Design — Design A Rate Limiter](https://medium.com/geekculture/system-design-design-a-rate-limiter-81d200c9d392)
 8. [COURSE - Design Patterns for Distributed Systems By Priyank Gupta](https://learning.oreilly.com/live-events/design-patterns-for-distributed-systems/0636920061982/0636920072964/)
 
-# 17. Regulating Request Rates Using Token Buckets
+# 19. Regulating Request Rates Using Token Buckets
 
 1. [Building well-architected serverless applications: Regulating inbound request rates – part 1 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-regulating-inbound-request-rates-part-1/)
 2. [Building well-architected serverless applications: Regulating inbound request rates – part 2 by Julian Wood ](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-regulating-inbound-request-rates-part-2/)
 3. [Distributed API Rate Limiter](https://systemsdesign.cloud/SystemDesign/RateLimiter)
 4. [See System Design Interview: An Insider’s Guide @ CHAPTER 4: DESIGN A RATE LIMITER]
 
-# 18. Retry with Backoffs
+# 20. Retry with Backoffs
 
 1. [retry-with-backoff](https://github.com/aws-samples/retry-with-backoff)
 1. [Retry with backoff pattern](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html)
 1. [Timeouts, retries, and backoff with jitter By Marc Brooker](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/)
 1. [[Example for Jitter] Using Amazon SQS dead-letter queues to replay messages By Alexandre Pinhel](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages/)
 
-# 19. Scatter Gather
+# 21. Scatter Gather
 
-## 19.1. Scatter-Gather without Step functions
+## 21.1. Scatter-Gather without Step functions
 
 1. [Lab 3 - Scatter-gather without Step Functions](https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US/scatter-gather)
 1. [Scalable Data Processing with AWS Serverless Scatter-Gather Pattern Implementation](https://aws.plainenglish.io/scalable-data-processing-with-aws-serverless-scatter-gather-pattern-implementation-63d25d6f6d23)
 1. [Scatter gather with AWS lambda by Cornelius Buschka](https://github.com/cbuschka/aws-scatter-gather)
 
-## 19.2. Scatter-Gather using step functions
+## 21.2. Scatter-Gather using step functions
 
 1. [Implementing Scatter Gather using step functions](./aws-step-functions.md#73-scatter-gather)
 1. [Application integration patterns for microservices: Running distributed RFQs By Dirk Fröhner](https://aws.amazon.com/blogs/compute/application-integration-patterns-running-distributed-rfqs/)
 - This technique is well explained and implemented by By Gregor Hohpe's Loan Broker example
 
-# 20. Sequence Generator
+# 22. Sequence Generator
 
 1. [Generating Sequence Numbers in Serverless via API Gateway By Sheen Brisals](https://medium.com/lego-engineering/sequence-numbering-in-serverless-via-api-gateway-40e5f6c83e93)
 2. [Reliable Auto-Incrementing Integers in DynamoDB By Bite-Sized Serverless](https://bitesizedserverless.com/bite/reliable-auto-increments-in-dynamodb/)
 3. [Atomic counters](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html#WorkingWithItems.AtomicCounters)
 4. [Implement resource counters with Amazon DynamoDB by Jason Hunter and Chris Gillespie](https://aws.amazon.com/blogs/database/implement-resource-counters-with-amazon-dynamodb/)
 
-# 21. Storage-first patterns
+# 23. Storage-first patterns
 
 1. [Building storage-first serverless applications with HTTP APIs service integrations by Eric Johnson](https://aws.amazon.com/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/)
 1. [serverlessDays Nashville 2020 - Thinking Asynchronously by Eric Johnson](https://www.youtube.com/watch?v=eyjxZK-YHIk)
@@ -197,25 +202,25 @@
 1. [Build Asynchronous API's using the Storage First Pattern & the AWS CDK By James Eastham](https://www.youtube.com/watch?v=E7M2WKM4O8Q&t=13s)
 - [Use ChaptGPT to convert to Java](https://github.com/jeastham1993/sustainable-architecture-patterns)
 
-# 22. Saga Pattern
+# 24. Saga Pattern
 
 1. [Saga orchestration](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/saga.html)
 1. [Lab 4 - Orchestration and coordination](https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US/orchestration-and-coordination)
 
-# 23. Strangler fig pattern
+# 25. Strangler fig pattern
 
 1. [Strangler fig pattern](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html)
 
-# 24. Task Scheduling
+# 26. Task Scheduling
 
 1. [Serverless Scheduling with Amazon EventBridge, AWS Lambda, and Amazon DynamoDB by Peter Grman](https://aws.amazon.com/blogs/architecture/serverless-scheduling-with-amazon-eventbridge-aws-lambda-and-amazon-dynamodb/)
 
-# 25. Transactional Outbox Pattern
+# 27. Transactional Outbox Pattern
 
 1. [Transactional outbox pattern](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/transactional-outbox.html)
 1. [Implementing the transactional outbox pattern with Amazon EventBridge Pipes By Sayan Moitra](https://aws.amazon.com/blogs/compute/implementing-the-transactional-outbox-pattern-with-amazon-eventbridge-pipes/)
 
-# 26. WebHook
+# 28. WebHook
 
 1. [Mastering AWS Lambda Yohan Wadia, Udita Gupta#Invoking Lambda using an external application](https://learning.oreilly.com/library/view/mastering-aws-lambda/9781786467690/25d22e80-8526-4310-994d-9b7863f938c5.xhtml)
 2. AWS Lambda in Action Danilo Poccia
@@ -226,11 +231,11 @@
 - HTTPS endpoint and code for linking your Git repository to AWS
 5. [Amazon Aurora & Amazon EventBridge Webhooks Sample](https://github.com/aws-samples/amazon-aurora-eventbridge-webhooks)
 
-# 27. Websockets
+# 29. Websockets
 
 1. [See APGW backlog.md#WebSockets][./apgw-backlog.md]
 
-# 28. Webhooks
+# 30. Webhooks
 
 1. [Building a Webhooks System By Derek Comartin](https://www.youtube.com/watch?v=NuHC5uwbFAc&list=PLThyvG1mlMzm2FyVpKDiU2c7VtrB2Zezg&index=33)
 2. [Building a Webhooks System with Event Driven Architecture](https://codeopinion.com/building-a-webhooks-system-with-event-driven-architecture/)

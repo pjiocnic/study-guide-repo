@@ -5,7 +5,8 @@
 - [2. Dashboard](#2-dashboard)
 - [3. API Destinations](#3-api-destinations)
 - [4. Design](#4-design)
-- [5. Using Patterns to route messages](#5-using-patterns-to-route-messages)
+- [5. Event Bridge Patterns](#5-event-bridge-patterns)
+  - [5.1. How to test event bridge patterns](#51-how-to-test-event-bridge-patterns)
 - [6. Integration Patterns](#6-integration-patterns)
   - [6.1. ECS](#61-ecs)
   - [6.2. Glue](#62-glue)
@@ -33,10 +34,12 @@
 1. Schema discovery
 1. Cross-account delivery
 1. API (http) Destinations
+1. Automated Event pattenr testing
 
 # 2. Dashboard
 
-1. [Using Patterns to route messages](#5-using-patterns-to-route-messages)
+1. [Using Patterns to route messages](#5-event-bridge-patterns)
+1. [[Automated Event pattenr testing] Testing Amazon EventBridge events using AWS Step Functions By by Siarhei Kazhura](https://aws.amazon.com/blogs/compute/testing-amazon-eventbridge-events-using-aws-step-functions/)
 
 # 3. API Destinations
 
@@ -48,7 +51,7 @@
 
 1.[Icons for Eventbridge, Eventbridge event and Eventbridge Rule](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-2/)
 
-# 5. Using Patterns to route messages
+# 5. Event Bridge Patterns
 
 1. [[**MUST_SEE**] Content-based Filtering By Tim Bray](https://www.tbray.org/ongoing/When/201x/2019/12/18/Content-based-filtering)
 1. [[**USER_GUIDE**] Amazon EventBridge event patterns](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-event-patterns.html)
@@ -60,6 +63,10 @@
 1. [Building a modern, event-driven application for insurance claims processing – Part 1 by Emily Shea and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-1/)
 2. [Building a modern, event-driven application for insurance claims processing – Part 2 by Emily Shea, Vaibhav Jain, and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-2/)
 3. [Extending a serverless, event-driven architecture to existing container workloads by Dhiraj Mahapatro and Sascha Moellering](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
+
+## 5.1. How to test event bridge patterns
+
+1. [Testing Amazon EventBridge events using AWS Step Functions by Siarhei Kazhura](https://aws.amazon.com/blogs/compute/testing-amazon-eventbridge-events-using-aws-step-functions/)
 
 # 6. Integration Patterns
 
