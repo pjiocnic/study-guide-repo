@@ -15,17 +15,18 @@
 - [6. Custom Domains](#6-custom-domains)
 - [7. Features](#7-features)
 - [8. Load Testing](#8-load-testing)
-- [Mapping Templates (VTL - Velocity Template Language)](#mapping-templates-vtl---velocity-template-language)
-- [9. Private Integrations (using AWS PrivateLink)](#9-private-integrations-using-aws-privatelink)
-- [10. Proxy](#10-proxy)
-  - [10.1. Proxy Resources ({/proxy+})](#101-proxy-resources-proxy)
-- [11. Throttling](#11-throttling)
-- [12. Websockets](#12-websockets)
-- [13. Usage Plans](#13-usage-plans)
-- [14. Use Cases](#14-use-cases)
-  - [14.1. URL Shortner](#141-url-shortner)
+- [9. Mapping Templates (VTL - Velocity Template Language)](#9-mapping-templates-vtl---velocity-template-language)
+- [10. Private Integrations (using AWS PrivateLink)](#10-private-integrations-using-aws-privatelink)
+- [11. Proxy](#11-proxy)
+  - [11.1. Proxy Resources ({/proxy+})](#111-proxy-resources-proxy)
+  - [11.2. Service Proxy](#112-service-proxy)
+- [12. Throttling](#12-throttling)
+- [13. Websockets](#13-websockets)
+- [14. Usage Plans](#14-usage-plans)
+- [15. Use Cases](#15-use-cases)
+  - [15.1. URL Shortner](#151-url-shortner)
 - [16. Workshops and Hands-On](#16-workshops-and-hands-on)
-- [Curate](#curate)
+- [17. Curate](#17-curate)
 
 <!-- /TOC -->
 
@@ -35,7 +36,7 @@
 1. [Amazon API Gateway tutorials and workshops](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-tutorials.html)
 1. [A Detailed Overview of AWS API Gateway By Alex Debrie](https://www.alexdebrie.com/posts/api-gateway-elements/)
 1. [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway By Alex Debrie](https://www.alexdebrie.com/posts/lambda-custom-authorizers/)
-1. [Connect AWS API Gateway directly to SNS using a service integration By Alex DeBrie](https://www.alexdebrie.com/posts/aws-api-gateway-service-proxy/)
+1. [[Service Proxy] Connect AWS API Gateway directly to SNS using a service integration By Alex DeBrie](https://www.alexdebrie.com/posts/aws-api-gateway-service-proxy/)
 1. [The Missing Guide to AWS API Gateway Access Logs](https://www.alexdebrie.com/posts/page/2/)
 1. [[**MY NEXT**] Handling arbitrary HTTP requests in Amazon API Gateway by Steve Engledow](https://aws.amazon.com/blogs/developer/handling-arbitrary-http-requests-in-amazon-api-gateway/)
 1. [Private Endpoints](#9-private-integrations-using-aws-privatelink)
@@ -96,12 +97,12 @@
 1. [Using serverless to load test Amazon API Gateway with authorization by Ashish Mehra](https://aws.amazon.com/blogs/compute/using-serverless-to-load-test-amazon-api-gateway-with-authorization/)
 1. [Building well-architected serverless applications: Regulating inbound request rates – part 1 by Julian Wood](https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-regulating-inbound-request-rates-part-1/)
 
-# Mapping Templates (VTL - Velocity Template Language)
+# 9. Mapping Templates (VTL - Velocity Template Language)
 
 1. [Using API Gateway mapping templates to handle changes in your back-end APIs by Stefano Buliani](https://aws.amazon.com/blogs/compute/using-api-gateway-mapping-templates-to-handle-changes-in-your-back-end-apis/)
 1. [Sales invoice example (API Gateway models and mapping templates)](https://docs.aws.amazon.com/apigateway/latest/developerguide/example-invoice.html#example-invoice-input-mapping#example-invoice-input-mapping)
 
-# 9. Private Integrations (using AWS PrivateLink)
+# 10. Private Integrations (using AWS PrivateLink)
 
 1. [[**MAKE NOTES**] Understanding VPC links in Amazon API Gateway private integrations by Jose Eduardo Montilla Lugo](https://aws.amazon.com/blogs/compute/understanding-vpc-links-in-amazon-api-gateway-private-integrations/)
 1. [[**ACROSS ACCOUNTS**] Building private cross-account APIs using Amazon API Gateway and AWS PrivateLink by Brian Zambrano](https://aws.amazon.com/blogs/compute/building-private-cross-account-apis-using-amazon-api-gateway-and-aws-privatelink/)
@@ -109,10 +110,11 @@
 1. [[**ACROSS REGIONS**] Access Private applications on AWS Fargate using Amazon API Gateway PrivateLink by Mani Chandrasekaran](https://aws.amazon.com/blogs/compute/access-private-applications-on-aws-fargate-using-amazon-api-gateway-privatelink/)
   <img src="./images/agtwy-vpc-link-2.png" title="agtwy-vpc-link-2.png" width="900"/>
 1. [Serverless Private APIs — Part 1 By Serverless Advocate](https://levelup.gitconnected.com/serverless-private-apis-60749934b161)
+1. [Mini Project - Learn to use API Gateway with Lambda, AWS Service and Mock Integrations By LearnCantrill](https://www.youtube.com/watch?v=sDxsTPbUiik)
 
-# 10. Proxy
+# 11. Proxy
 
-## 10.1. Proxy Resources ({/proxy+})
+## 11.1. Proxy Resources ({/proxy+})
 
 1. [Vocabulary time: Service proxies vs. proxy integrations vs. proxy resources By Alex Debrie](https://www.alexdebrie.com/posts/api-gateway-elements/#vocabulary-time-service-proxies-vs-proxy-integrations-vs-proxy-resources)
 1. [API Gateway Update – New Features Simplify API Development by Jeff Barr](https://aws.amazon.com/blogs/aws/api-gateway-update-new-features-simplify-api-development/)
@@ -120,26 +122,32 @@
 1. [Serving Content Using a Fully Managed Reverse Proxy Architecture in AWS by Leonardo Machado and Kilian Ruess](https://aws.amazon.com/blogs/architecture/serving-content-using-fully-managed-reverse-proxy-architecture/)
 1. [[**MUST SEE**] Handling arbitrary HTTP requests in Amazon API Gateway by Steve Engledow](https://aws.amazon.com/blogs/developer/handling-arbitrary-http-requests-in-amazon-api-gateway/)
 
-# 11. Throttling
+## 11.2. Service Proxy
+
+1. [Connect AWS API Gateway directly to SNS using a service integration By Alex DeBrie](https://www.alexdebrie.com/posts/aws-api-gateway-service-proxy/)
+1. [API Gateway: Why you should use Service Proxies By Yan Cui](https://www.youtube.com/watch?v=_NnO2JiPTEw)
+1. [Mini Project - Learn to use API Gateway with Lambda, AWS Service and Mock Integrations By LearnCantrill](https://www.youtube.com/watch?v=sDxsTPbUiik)
+
+# 12. Throttling
 
 1. [AWS re:Invent 2019: [REPEAT 2] I didn’t know Amazon API Gateway did that (SVS212-R2)](https://www.youtube.com/watch?v=yfJZc3sJZ8E)
 2. [How To: Use SNS and SQS to Distribute and Throttle Events](https://www.jeremydaly.com/how-to-use-sns-and-sqs-to-distribute-and-throttle-events/)
 
-# 12. Websockets
+# 13. Websockets
 
 1. [Announcing WebSocket APIs in Amazon API Gateway by Chris Munns](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/)
 4. [Building Real-Time Applications using WebSocket APIs Supported by Amazon API Gateway webinar](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/)
 3. [Building Real Time Applications using WebSocket APIs Supported by Amazon API Gateway By George Mao](https://pages.awscloud.com/Building-Real-Time-Applications-using-WebSocket-APIs-Supported-by-Amazon-API-Gateway_1211-SRV_OD.html)
 
-# 13. Usage Plans
+# 14. Usage Plans
 
 1. [Creating Usage Plans in console](https://aws.amazon.com/blogs/aws/new-usage-plans-for-amazon-api-gateway/)
 2. [Visualizing Amazon API Gateway usage plans using Amazon QuickSight by Roberto Iturralde](https://aws.amazon.com/blogs/compute/visualizing-amazon-api-gateway-usage-plans-using-amazon-quicksight/)
     - [./templates/api-gateway-access-logs-visualization-core.yaml](api-gateway-access-logs-visualization-core.template)
 
-# 14. Use Cases
+# 15. Use Cases
 
-## 14.1. URL Shortner
+## 15.1. URL Shortner
 
 1. [Building Serverless URL Shortener Service on AWS Using API Gateway and Dynamodb](https://dev.to/aws-builders/building-serverless-url-shortener-service-on-aws-1895)
 
@@ -147,6 +155,6 @@
 
 1. [Amazon API Gateway tutorials and workshops](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-tutorials.html)
 
-# Curate
+# 17. Curate
 
 1. https://www.alexdebrie.com/posts/api-gateway-elements

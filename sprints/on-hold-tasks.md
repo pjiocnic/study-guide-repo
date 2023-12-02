@@ -1,7 +1,8 @@
 <h1>My Tasks Put on hold</h1>
 
-# Topics
+# 1. Topics
 
+1. [DQLs,Jitters](../notes-under-construction/18-Different-ways-to-setup-DLQs.md)
 1. Step functions workshop
 1. Powertool - idempotency, handling large payloads
 1. Subscription filters using sam?
@@ -16,13 +17,13 @@
 1. DLQs
 1. Complete notes on "Insurance processing use case"
 1. Complete notes on API Gateway by Eric Johnson.
+1. Complete notes from API Gateway By Alex Debrie
 1. Complete notes on https://aws.amazon.com/blogs/compute/building-well-architected-serverless-applications-regulating-inbound-request-rates-part-2/ and part 1
 1. Sam Sessions
 1. AWS Fundamentals book by Tobias
 1. System Design books
 
-
-# Blogs in progress
+# 2. Blogs in progress
 
 1. [Sessions With SAM (S1E6): SAM templates for SQS, cross-account queue policies & Lambda event ](https://www.youtube.com/watch?v=q2rbHMyJBDY&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=6)
 1. [Make Notes](my-github/study-guide-repo/notes-under-construction/api-gateway.md)
@@ -31,7 +32,7 @@
 1. [Sending and receiving webhooks on AWS: Innovate with event notifications by by Daniel Wirjo](https://aws.amazon.com/blogs/compute/sending-and-receiving-webhooks-on-aws-innovate-with-event-notifications/)
 1. [Connect AWS API Gateway directly to SNS using a service integration By Alex Debrie](https://www.alexdebrie.com/posts/aws-api-gateway-service-proxy/)
 
-# Notes in Progress
+# 3. Notes in Progress
 
 1. /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/notes-under-construction/10-Routing using Event Bridge Rules.md
 1. /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/notes-under-construction/webhooks-architecture.md
@@ -49,7 +50,7 @@
 1. [What's the best place to cache data for serverless applications? By Yan Cui](https://www.youtube.com/watch?v=8jMPh5ukJbE)
 1. [[**MAKE-NOTES**] Using AWS Application Load Balancer and Network Load Balancer with EC2 Container Service By Nathan Peck](https://medium.com/containers-on-aws/using-aws-application-load-balancer-and-network-load-balancer-with-ec2-container-service-d0cb0b1d5ae5)
 
-# Tasks
+# 4. Tasks
 
 1. Review and Close notes - `/Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/faqs/my-faqs-for-sqs.md` and find a permanent home
 1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 3 by Pascal Vogel](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-3/)
@@ -84,7 +85,7 @@ QQQ - Why did I think of this.  Which workshop used this? WAF?
 1. Complete /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/cdk/sample-app/my-readme.md
 1. [[**MAKE-NOTES**] Using AWS Application Load Balancer and Network Load Balancer with EC2 Container Service By Nathan Peck](https://medium.com/containers-on-aws/using-aws-application-load-balancer-and-network-load-balancer-with-ec2-container-service-d0cb0b1d5ae5)
 
-# 1. DocumentDB
+# 5. DocumentDB
 
 1. [Amazon EventBridge to SNS to Lambda Function](https://serverlessland.com/patterns/eventbridge-sns-lambda)
 a) After completing this revisit `/Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/documentdb/amazon-documentdb-workshop/resources/change-streams.yml` and understand how SNS is setup as a scheduler.
@@ -96,19 +97,19 @@ b) Update the architecture diagram
 <img src="./images/docdb-lambda.png" title="Connect Lambda to DocumentDB" width="900"/>
 - https://github.com/aws-samples/amazon-documentdb-samples/tree/master/lambda-samples
 
-# 2. ECS
+# 6. ECS
 
 1. [[**MUST TRY**] Spring Pet Clinic - Deploying Java Microservices on Amazon Elastic Container Service by Huy Huynh and Magnus Bjorkman](https://aws.amazon.com/blogs/compute/deploying-java-microservices-on-amazon-ec2-container-service/)
 1. [[**MUST TRY**] Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
     - Architecture: SNS -> SQS -> ECS (Java Polls SQS) -> EventBridge -> Lambda/Dynamodb
 
-# 3. EventBridge
+# 7. EventBridge
 
 1. [{Orchestrator] Insurance Claims Processing using Serverless and Event-Driven Architecture](https://github.com/aws-samples/serverless-eda-insurance-claims-processing)
 
 > 1. [Testing Amazon EventBridge events using AWS Step Functions by Siarhei Kazhura](https://aws.amazon.com/blogs/compute/testing-amazon-eventbridge-events-using-aws-step-functions/)
 
-# 4. Lambda
+# 8. Lambda
 
 1. DLQs - why Lambda DLQs don't suport SQS? https://www.youtube.com/watch?v=hOetf6YN3zo&lc=Ugy1J5lsqtlB5mUBFVt4AaABAg.9unsQBRi0TN9unvMmRmQml
 1. Destinations - Why for SQS we dont have destinations?
@@ -119,16 +120,16 @@ b) Update the architecture diagram
 1. [AWS LAMBDA OPERATOR GUIDE](https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/intro)
 1. [The AWS Lambda Operator's Guide | Serverless Office Hours](https://www.youtube.com/watch?v=Xofyyqq_Dvs&t=1464s)
 
-# Networking
+# 9. Networking
 
 1. [One to Many: Evolving VPC Design by Androski Spicer ](https://aws.amazon.com/blogs/architecture/one-to-many-evolving-vpc-design/)
 
-# 5. JSON Handling
+# 10. JSON Handling
 
 1. [Spring Boot & JsonNode: How to use it and when to turn to creating Custom Deserializers](https://www.youtube.com/watch?v=cw0TfpcUkao)
 1. [Spring Boot & JSON: A Practical Guide to reading JSON and Persisting it to a database](https://www.youtube.com/watch?v=EumLbf8WjnY)
 
-# 6. WAF
+# 11. WAF
 
 1. [Serverless Applications Lens - AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html)
 2. [Serverless Applications Lens AWS Well-Architected Framework By AGPIAL](https://www.youtube.com/watch?v=g1WpzZHQ4Gc)
@@ -140,7 +141,7 @@ b) Update the architecture diagram
 6. [Operational Excellence Pillar AWS Well-Architected Framework. AGPIAL Audiobook](https://www.youtube.com/watch?v=Vhk6a5MUhE8)
 7. [Cost Optimization Pillar AWS Well-Architected Framework AGPIAL Audiobook](https://www.youtube.com/watch?v=zeLyoWund1I)
 
-# 7. Workshop
+# 12. Workshop
 
 1. [Serverless Optimization Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/2d960419-7d15-44e7-b540-fd3ebeb7ce2e/en-US)
 1. CloudTrail workshop (prep - understand the cdk code in oneobservability workshop before continuing with this workshop)
@@ -154,8 +155,8 @@ b) Update the architecture diagram
 1. Workshop - [Amazon DynamoDB Labs](https://amazon-dynamodb-labs.com/)
 1. /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/[TODO] svs-307-powertools
 
+# 13. Parked on 09232023
 
-# 8. Parked on 09232023
 1. https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/
 1. [System Design Interview - Rate Limiting (local and distributed)](https://www.youtube.com/watch?v=FU4WlwfS3G0)
 1. [Run any web app on Lambda | Serverless Office Hours](https://www.youtube.com/watch?v=ArsTZ2y7u80)
@@ -164,7 +165,7 @@ b) Update the architecture diagram
 1. [Understanding AWS Lambda’s invoke throttling limits By Archana Srikanta](https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/)
 1. [Get to Grips with AWS IAM Roles: Terms, Concepts, and Examples](https://blog.awsfundamentals.com/aws-iam-roles-terms-concepts-and-examples)
 
-# 9. Topics put on hold
+# 14. Topics put on hold
 
 1. Serverless experience workshop
 1. Powertools workshop
@@ -176,3 +177,8 @@ b) Update the architecture diagram
 1. Mongo AIM authentication
 1. AWS Lambda Operator Guide
 1. WAF workshop
+
+# 15. Private Link
+
+1. [/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/networking/privatelink/[TODO] sqs-endpoint/SQS-VPCE-Tutorial-CloudFormation.yaml](/Volumes/Lexar/git-repos/aws-repo/my-aws-samples/networking/privatelink/[TODO] sqs-endpoint/SQS-VPCE-Tutorial-CloudFormation.yaml)
+- https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-sending-messages-from-vpc.html

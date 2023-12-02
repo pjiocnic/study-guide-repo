@@ -1,6 +1,7 @@
 
 <!-- TOC -->
 
+- [Networking Concepts](#networking-concepts)
 - [1. Hub and Spoke](#1-hub-and-spoke)
 - [2. PrivateLinks](#2-privatelinks)
   - [2.1. SQS](#21-sqs)
@@ -10,6 +11,10 @@
 - [5. Twitch Shows](#5-twitch-shows)
 
 <!-- /TOC -->
+
+# Networking Concepts
+
+1. [Role of TCP vs UDP on LoadBalancers By Lee Harding](https://medium.com/circuitpeople/a-case-for-very-simple-load-balancing-f66f1aca86f9)
 
 # 1. Hub and Spoke
 

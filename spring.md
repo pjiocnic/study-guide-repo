@@ -1,6 +1,7 @@
 <h1>Spring Boot</h1>
 <!-- TOC -->
 
+- [AWS](#aws)
 - [1. Design Patterns](#1-design-patterns)
 - [2. Git Repos](#2-git-repos)
 - [3. Interview](#3-interview)
@@ -11,6 +12,13 @@
 - [7. Dan Vega's](#7-dan-vegas)
 
 <!-- /TOC -->
+
+# AWS
+
+1. [Getting started with Spring Boot on AWS: Part 1 by Ricardo Sueiras ](https://aws.amazon.com/blogs/opensource/getting-started-with-spring-boot-on-aws-part-1/)
+1. [Getting started with Spring Boot on AWS: Part 2 by Ricardo Sueiras](https://aws.amazon.com/blogs/opensource/getting-started-with-spring-boot-on-aws-part-2/)
+1. [Using Amazon SQS with Spring Boot and Spring JMS by Magnus Bjorkman ](https://aws.amazon.com/blogs/developer/using-amazon-sqs-with-spring-boot-and-spring-jms/)
+1. [Getting Started With AWS SQS and Spring Cloud](https://reflectoring.io/spring-cloud-aws-sqs/)
 
 # 1. Design Patterns
 

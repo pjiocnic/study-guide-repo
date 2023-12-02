@@ -11,11 +11,12 @@
   - [5.2. Payload filtering](#52-payload-filtering)
   - [5.3. Attribute Filtering](#53-attribute-filtering)
 - [6. FIFO](#6-fifo)
-- [7. Monitoring](#7-monitoring)
-- [8. Scaling](#8-scaling)
-- [9. Targets](#9-targets)
-  - [9.1. Http Endpoints](#91-http-endpoints)
-- [10. Throttling](#10-throttling)
+- [7. Message Protection](#7-message-protection)
+- [8. Monitoring](#8-monitoring)
+- [9. Scaling](#9-scaling)
+- [10. Targets](#10-targets)
+  - [10.1. Http Endpoints](#101-http-endpoints)
+- [11. Throttling](#11-throttling)
 
 <!-- /TOC -->
 
@@ -29,7 +30,8 @@
 
 # 3. DLQs
 
-[See aws-lambda.md#29-dlqs](./aws-lambda.md#29-dlqs)
+1. [See aws-lambda.md#29-dlqs](./aws-lambda.md#29-dlqs)
+2. [[DLQs for SNS] Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda by Rachel Richardson and Otavio Ferreira](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
 
 # 4. Delivery Status
 
@@ -52,26 +54,31 @@
 ## 5.3. Attribute Filtering
 
 1. [Lab 1 - Fan-out & message filtering @ Decoupled Microservices Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US/fan-out-and-message-filtering)
+1. [Managing Amazon SNS Subscription Attributes with AWS CloudFormation by Rachel Richardson and Otavio Ferreira](https://aws.amazon.com/blogs/compute/managing-amazon-sns-subscription-attributes-with-aws-cloudformation/)
 
 # 6. FIFO
 
 1. [Building event-driven architectures with Amazon SNS FIFO By Christian Mueller](https://aws.amazon.com/blogs/compute/building-event-driven-architectures-with-amazon-sns-fifo/)
 
-# 7. Monitoring
+# 7. Message Protection
+
+1. [Introducing message data protection for Amazon SNS by Julian Wood](https://aws.amazon.com/blogs/compute/introducing-message-data-protection-for-amazon-sns/)
+
+# 8. Monitoring
 
 1. [Monitor Amazon SNS-based applications end-to-end with AWS X-Ray active tracing by Pascal Vogel](https://aws.amazon.com/blogs/compute/monitor-amazon-sns-based-applications-end-to-end-with-aws-x-ray-active-tracing/)
 
-# 8. Scaling
+# 9. Scaling
 
 1. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads By Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
 
-# 9. Targets
+# 10. Targets
 
-## 9.1. Http Endpoints
+## 10.1. Http Endpoints
 
 1. [Subscribing an HTTP/S endpoint to a topic](https://docs.aws.amazon.com/sns/latest/dg/sns-subscribe-https-s-endpoints-to-topic.html)
 
-# 10. Throttling
+# 11. Throttling
 
 1. [How To: Use SNS and SQS to Distribute and Throttle Events](https://www.jeremydaly.com/how-to-use-sns-and-sqs-to-distribute-and-throttle-events/)
 

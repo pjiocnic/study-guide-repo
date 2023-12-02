@@ -81,3 +81,4 @@ We can register a webhook with the external service. It means: call me back at a
 1. [Talks about how to run a demo](https://zapier.com/blog/what-are-webhooks)
 1. [Another site for how to test webhooks]()
 1. [Building Webhooks Into Your Application: Guidelines and Best Practices](https://workos.com/blog/building-webhooks-into-your-application-guidelines-and-best-practices)
+1. [Sending and receiving webhooks on AWS: Innovate with event notifications by Daniel Wirjo](https://aws.amazon.com/blogs/compute/sending-and-receiving-webhooks-on-aws-innovate-with-event-notifications/)

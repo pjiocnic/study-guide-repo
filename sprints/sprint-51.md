@@ -1,10 +1,18 @@
 <h1>Sprint 49 - Nov 27, 2023- Dec 03, 2023</h1>
 
+# Friday
+
+1. https://repost.aws/knowledge-center/sns-subscribe-private-http-endpoint
+1. https://repost.aws/knowledge-center/sns-topic-https-endpoints-notification
+1. https://repost.aws/knowledge-center/lambda-subscribe-sns-topic-same-account
+1. [Publishing to HTTP/HTTPs Endpoints Using SNS and the AWS SDK for Java by Andrew Shore ](https://aws.amazon.com/blogs/developer/publishing-to-https-endpoints-using-sns-and-the-aws-sdk-for-java/)
+
 
 # Monday
 
 1. [Introducing payload-based message filtering for Amazon SNS by Julian Wood](https://aws.amazon.com/blogs/compute/introducing-payload-based-message-filtering-for-amazon-sns/)
 1. [When and where to use IAM permissions boundaries by Umair Rehmat ](https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries/)
+1. https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/
 
 # Mock testing
 1. [Mocking service integrations with AWS Step Functions Local](https://aws.amazon.com/blogs/compute/mocking-service-integrations-with-aws-step-functions-local/)

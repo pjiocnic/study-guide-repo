@@ -8,5 +8,6 @@ Samples: /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/step-functions/demo-st
 5. [Orchestrating dependent file uploads with AWS Step Functions](https://aws.amazon.com/blogs/compute/orchestrating-dependent-file-uploads-with-aws-step-functions/)
 6. [How do we combine the results of individual, but related messages so that they can be processed as a whole?](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html)
 7. [AWS S3 event aggregation with Lambda and DynamoDB](https://www.deplication.net/2018/08/aws-s3-event-aggregation-with-lambda.html)
+8. [Sending and receiving webhooks on AWS: Innovate with event notifications by Daniel Wirjo](https://aws.amazon.com/blogs/compute/sending-and-receiving-webhooks-on-aws-innovate-with-event-notifications/)
 
 

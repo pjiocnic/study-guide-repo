@@ -4,16 +4,16 @@
 
 - [1. Best Practices](#1-best-practices)
 - [2. AWS Lambda Web Adapter](#2-aws-lambda-web-adapter)
-- [3. Creating APIs using Lamda](#3-creating-apis-using-lamda)
-- [4. Architecture](#4-architecture)
-- [5. Autoscaling](#5-autoscaling)
-- [6. Batch Processing](#6-batch-processing)
-  - [6.1. Why is it cost effective?](#61-why-is-it-cost-effective)
-  - [6.2. Checkpointing](#62-checkpointing)
-- [7. Costs](#7-costs)
-- [8. Cookbooks](#8-cookbooks)
-  - [8.1. Cookbook by Ran Isenberg](#81-cookbook-by-ran-isenberg)
-- [9. CI/CD](#9-cicd)
+- [3. Architecture](#3-architecture)
+- [4. Autoscaling](#4-autoscaling)
+- [5. Batch Processing](#5-batch-processing)
+  - [5.1. Why is it cost effective?](#51-why-is-it-cost-effective)
+  - [5.2. Checkpointing](#52-checkpointing)
+- [6. Costs](#6-costs)
+- [7. Cookbooks](#7-cookbooks)
+  - [7.1. Cookbook by Ran Isenberg](#71-cookbook-by-ran-isenberg)
+- [8. CI/CD](#8-cicd)
+- [9. Creating APIs using Lamda](#9-creating-apis-using-lamda)
 - [10. Cross-account access](#10-cross-account-access)
   - [10.1. Blue Green Deployments](#101-blue-green-deployments)
   - [10.2. Canary Deployments](#102-canary-deployments)
@@ -116,43 +116,39 @@
 1. [Run any web app on Lambda | Serverless Office Hours By Harold Sun](https://www.youtube.com/watch?v=ArsTZ2y7u80)
 1. [Using response streaming with AWS Lambda Web Adapter to optimize performance by Harold Sun](https://aws.amazon.com/blogs/compute/using-response-streaming-with-aws-lambda-web-adapter-to-optimize-performance/)
 
-# 3. Creating APIs using Lamda
-
-1. [Running APIs Written in Java on AWS Lambda by Stefano Buliani](https://aws.amazon.com/blogs/opensource/java-apis-aws-lambda/)
-
-# 4. Architecture
+# 3. Architecture
 
 1. [AWS re:Invent 2022 - A closer look at AWS Lambda (SVS404-R)](https://www.youtube.com/watch?v=0_jfH6qijVY&t=1308s)
 
-# 5. Autoscaling
+# 4. Autoscaling
 
 See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
-# 6. Batch Processing
+# 5. Batch Processing
 
-## 6.1. Why is it cost effective?
+## 5.1. Why is it cost effective?
 
 1. [Why you should avoid setting batch size = 1 for the SQS/Lambda event pattern By Capital One Tech](https://medium.com/capital-one-tech/best-practices-configuring-aws-lambda-sqs-batch-size-27ebc8a5d5ce)
 
-## 6.2. Checkpointing
+## 5.2. Checkpointing
 
 1. [Optimizing batch processing with custom checkpoints in AWS Lambda by James Beswick |](https://aws.amazon.com/blogs/compute/optimizing-batch-processing-with-custom-checkpoints-in-aws-lambda/)
 
-# 7. Costs
+# 6. Costs
 
 1. [Understanding techniques to reduce AWS Lambda costs in serverless applications by James Beswick](https://aws.amazon.com/blogs/compute/understanding-techniques-to-reduce-aws-lambda-costs-in-serverless-applications/)
 2. [Serverless Automated Cost Controls, Part1 by Shankar Ramachandran ](https://aws.amazon.com/blogs/compute/serverless-automated-cost-controls-part1/)
     - [cfn_budget_lambda_blog_post.yaml](./templates/cfn_budget_lambda_blog_post.yaml)
 3. [Understanding techniques to reduce AWS Lambda costs in serverless applications by Josh Kahn](https://aws.amazon.com/blogs/compute/understanding-techniques-to-reduce-aws-lambda-costs-in-serverless-applications/)
 
-# 8. Cookbooks
+# 7. Cookbooks
 
 1. [aws/serverless-application-model](https://github.com/aws/serverless-application-model/tree/master/examples)
 - Found this link from https://aws.amazon.com/blogs/architecture/top-resources-for-api-architects-and-developers/
 2. [AWS Lambda Handler Cookbook - A Serverless Service Template By Ran the builder](https://ran-isenberg.github.io/aws-lambda-handler-cookbook/)
 - [Lambda cookbook with Python](https://www.youtube.com/watch?v=yoLAuHaIRs8)
 
-## 8.1. Cookbook by Ran Isenberg
+## 7.1. Cookbook by Ran Isenberg
 
 1. [AWS Lambda Cookbook — Part 1 — Logging Best Practices By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-elevate-your-handler-s-code-part-1-logging)
 2. [AWS Lambda Cookbook — Part 2 — Observability Best Practices By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-elevate-your-handler-s-code-part-2-observability)
@@ -163,10 +159,14 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 7. [Start Your AWS Serverless Service With Two Clicks By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-part-7-how-to-use-the-aws-lambda-cookbook-github-template-project)
 8. [AWS CDK - Best Practices From The Trenches By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-cdk-best-practices-from-the-trenches)
 
-# 9. CI/CD
+# 8. CI/CD
 
 1. [Using AWS Lambda SnapStart with infrastructure as code and CI/CD pipelines by James Beswick](https://aws.amazon.com/blogs/compute/using-aws-lambda-snapstart-with-infrastructure-as-code-and-ci-cd-pipelines/)
 2. [Implementing cross-account CI/CD with AWS SAM for container-based Lambda functions by Eric Johnson ](https://aws.amazon.com/blogs/compute/implementing-cross-account-cicd-with-aws-sam-for-container-based-lambda/)
+
+# 9. Creating APIs using Lamda
+
+1. [Running APIs Written in Java on AWS Lambda by Stefano Buliani](https://aws.amazon.com/blogs/opensource/java-apis-aws-lambda/)
 
 # 10. Cross-account access
 
@@ -200,7 +200,8 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
     - [Github code](https://github.com/aws-samples/aws-lambda-error-handling-pattern)
 2. [Implementing error handling for AWS Lambda asynchronous invocations By Poornima Chand](https://aws.amazon.com/blogs/compute/implementing-error-handling-for-aws-lambda-asynchronous-invocations/)
 3. [Implement custom retry logic with SQS & Lambda — Part II — using EventBridge Scheduler](https://medium.com/@pubudusj/implement-custom-retry-logic-with-sqs-lambda-part-ii-2568bb89dfb6)
-<img src="./images/aws-lambda-error-handling-1.png" title="aws-lambda-error-handling-1.png" width="900"/>
+  <img src="./images/aws-lambda-error-handling-1.png" title="aws-lambda-error-handling-1.png" width="900"/>
+
 
 ### 12.2.1. Exponential backoff and jitter algorithm
 
@@ -315,8 +316,8 @@ See [autoscaling-backlog.md](./autoscaling-backlog.md)
 
 ## 22.1. ECS
 
-1. [[MUST SEE] Run message-driven workloads at scale by using AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-message-driven-workloads-at-scale-by-using-aws-fargate.html)
-2. [[MUST SEE] Run event-driven and scheduled workloads at scale with AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-event-driven-and-scheduled-workloads-at-scale-with-aws-fargate.html)
+1. [[**MUST_SEE**] Run message-driven workloads at scale by using AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-message-driven-workloads-at-scale-by-using-aws-fargate.html)
+2. [[**MUST_SEE**] Run event-driven and scheduled workloads at scale with AWS Fargate](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/run-event-driven-and-scheduled-workloads-at-scale-with-aws-fargate.html)
 
 ## 22.2. CloudFront
 

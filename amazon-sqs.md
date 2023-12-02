@@ -19,6 +19,7 @@
 # 1. All about SQS
 
 1. [The Essential Guide to Amazon SQS](https://baselime.io/blog/sqs-guide)
+1. [Explaining sqs using sequence diagrams](https://medium.com/circuitpeople/aws-sqs-in-pictures-448c897534e1)
 
 # 2. Best Practices
 
@@ -34,7 +35,8 @@
 
 # 4. DLQs
 
-[See aws-lambda.md#29-dlqs](./aws-lambda.md#29-dlqs)
+1. [See aws-lambda.md#29-dlqs](./aws-lambda.md#29-dlqs)
+1. [[DLQs for SQS] Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda by Rachel Richardson and Otavio Ferreira](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
 
 # 5. Delay Queue
 
