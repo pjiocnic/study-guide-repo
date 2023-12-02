@@ -74,6 +74,9 @@
 # 9. Samples
 
 1. [Blueprints for Crossplane on Amazon EKS](https://github.com/awslabs/crossplane-on-eks)
+1. [[_**CDK,EKS,Fargate,Typescript**_] Building and deploying Fargate with EKS in an enterprise context using the AWS Cloud Development Kit and cdk8s+ by Jasper Wang and Van Vo Thanh](https://aws.amazon.com/blogs/containers/building-and-deploying-fargate-with-eks-in-an-enterprise-context-using-the-aws-cloud-development-kit-and-cdk8s/)
+<img src="./images/CDK8s-1.png" title="CDK8s-1.png" width="900"/>
+
 
 # 10. Terraform
 

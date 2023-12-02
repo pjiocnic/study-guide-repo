@@ -1,1 +1,0 @@
-https://blog.awsfundamentals.com/sqs-pricing

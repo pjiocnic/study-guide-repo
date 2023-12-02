@@ -1,5 +1,7 @@
 # [AWS re:Invent 2023 - Refactoring to serverless (SVS305)](https://www.youtube.com/watch?v=bIu8XZZROw4)
 
+- https://serverlessland.com/content/guides/refactoring-serverless/introduction
+
 Use Lambda destinations when Lambda is triggered asynchronously
 
 Lambda destinations always at the end of a Lambda function

@@ -77,6 +77,7 @@
 ## 10.1. Http Endpoints
 
 1. [Subscribing an HTTP/S endpoint to a topic](https://docs.aws.amazon.com/sns/latest/dg/sns-subscribe-https-s-endpoints-to-topic.html)
+1. [Publishing to HTTP/HTTPs Endpoints Using SNS and the AWS SDK for Java by Andrew Shore](https://aws.amazon.com/blogs/developer/publishing-to-https-endpoints-using-sns-and-the-aws-sdk-for-java/)
 
 # 11. Throttling
 

@@ -31,12 +31,14 @@ https://www.epochconverter.com/weeks/2023
 
 # 2. Topics to visit
 
+1. [Do AWS Precriptive Guide](../aws-prescriptive-guide.md)
+1. [Do aws Patterns](../aws-patterns.md)
 1. Event bridge routing
 1. FIFO queue
 1. Priority Queues
 1. AWS PowerTools ... see Track
 1. Step fns
-1. elasticcache: Whitepaper; hiemdall proxy
+1. elasticache: Whitepaper; hiemdall proxy
 1. elasticache workshop
 1. documentdb: scaling the read replicas, indexes
 1. centralized logging
