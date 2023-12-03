@@ -39,7 +39,7 @@
 1. [[Service Proxy] Connect AWS API Gateway directly to SNS using a service integration By Alex DeBrie](https://www.alexdebrie.com/posts/aws-api-gateway-service-proxy/)
 1. [The Missing Guide to AWS API Gateway Access Logs](https://www.alexdebrie.com/posts/page/2/)
 1. [[**MY NEXT**] Handling arbitrary HTTP requests in Amazon API Gateway by Steve Engledow](https://aws.amazon.com/blogs/developer/handling-arbitrary-http-requests-in-amazon-api-gateway/)
-1. [Private Endpoints](#9-private-integrations-using-aws-privatelink)
+1. [Private Endpoints](#10-private-integrations-using-aws-privatelink)
 
 # 2. APIs
 
