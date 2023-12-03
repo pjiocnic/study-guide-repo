@@ -10,5 +10,6 @@
 1. https://stackoverflow.com/questions/75568439/how-can-you-serialize-deserialize-aws-java-sdk-v2-classes-into-from-json
 1. https://sdk.amazonaws.com/java/api/2.0.0-preview-11/software/amazon/awssdk/core/util/json/JacksonUtils.html
 
-# Most Promising
+# Using Powertools
 1. https://docs.powertools.aws.dev/lambda/java/utilities/serialization/
+1. https://github.com/aws-powertools/powertools-lambda-java/tree/main/powertools-serialization

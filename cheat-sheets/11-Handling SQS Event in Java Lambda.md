@@ -72,3 +72,8 @@ Deploy your Lambda function, and configure it to receive events from the SQS que
 Make sure that the Lambda function's IAM role has the necessary permissions to receive messages from the SQS queue.
 
 With these steps, your Lambda function should be able to handle SQS events, deserialize the JSON messages into your custom POJO, and process the data accordingly.
+
+# Powertool way of Deserializing
+
+1. https://docs.powertools.aws.dev/lambda/java/utilities/serialization/
+1. https://github.com/aws-powertools/powertools-lambda-java/tree/main/powertools-serialization
