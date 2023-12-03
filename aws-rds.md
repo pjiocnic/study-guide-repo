@@ -5,11 +5,11 @@
 - [1. Dashboard](#1-dashboard)
 - [2. Architecture](#2-architecture)
 - [3. Audit](#3-audit)
-- [4. Authentication](#4-authentication)
-- [5. CDC](#5-cdc)
-- [6. Deployment Strategies - Single-AZ instance, Multi-AZ instance, or Multi-AZ](#6-deployment-strategies---single-az-instance-multi-az-instance-or-multi-az)
-- [7. Documentation](#7-documentation)
-- [8. Labs](#8-labs)
+- [4. CDC](#4-cdc)
+- [5. Deployment Strategies - Single-AZ instance, Multi-AZ instance, or Multi-AZ](#5-deployment-strategies---single-az-instance-multi-az-instance-or-multi-az)
+- [6. Documentation](#6-documentation)
+- [7. Labs](#7-labs)
+- [8. Password Management](#8-password-management)
 - [9. Replication](#9-replication)
 - [10. Sharding](#10-sharding)
 - [11. Scaling](#11-scaling)
@@ -29,28 +29,29 @@
 
 1. [Create an audit trail for an Amazon Aurora PostgreSQL table by Rana Dutt](https://aws.amazon.com/blogs/database/create-an-audit-trail-for-an-amazon-aurora-postgresql-table/)
 
-# 4. Authentication
-
-1. [[_**MUST_SEE**_] How to securely provide database credentials to Lambda functions by using AWS Secrets Manager by Ramesh Adabala, Anand Komandooru, and Noorul Hasan](https://aws.amazon.com/blogs/security/how-to-securely-provide-database-credentials-to-lambda-functions-by-using-aws-secrets-manager/)
-1. [[CLI] Using IAM authentication to connect with pgAdmin Amazon Aurora PostgreSQL or Amazon RDS for PostgreSQL by Ajeet Tewari](https://aws.amazon.com/blogs/database/using-iam-authentication-to-connect-with-pgadmin-amazon-aurora-postgresql-or-amazon-rds-for-postgresql/)
-
-# 5. CDC
+# 4. CDC
 
 1. [[_**MAKE_NOTES**_] Send Relational Database CDC Information to Kinesis Data Streams](https://www.youtube.com/watch?v=xfAJfKDwdIA)
 
-# 6. Deployment Strategies - Single-AZ instance, Multi-AZ instance, or Multi-AZ
+# 5. Deployment Strategies - Single-AZ instance, Multi-AZ instance, or Multi-AZ
 
 1. [[_**MY_NEXT**_] Choose the right Amazon RDS deployment option: Single-AZ instance, Multi-AZ instance, or Multi-AZ database cluster by Ankush Agarwal and Pranshu Mishra](https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/)
 
-# 7. Documentation
+# 6. Documentation
 
 1. [PostgreSQL 15.3 Documentation](https://www.postgresql.org/docs/current/index.html)
 
-# 8. Labs
+# 7. Labs
 
 1. [Building serverless applications with Amazon Aurora Serverless](https://aws.amazon.com/tutorials/building-serverless-applications-with-amazon-aurora-serverless/)
 2. [Configure and Connect to Serverless MySQL Database with Amazon Aurora Serverless](https://aws.amazon.com/getting-started/hands-on/configure-connect-serverless-mysql-database-aurora/)
 3. [AWS workshop and lab content portal for Amazon Aurora PostgreSQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_Tutorials.html#CHAP_Tutorials_postgreslabs)
+
+# 8. Password Management
+
+1. [[_**MUST_SEE**_] How to securely provide database credentials to Lambda functions by using AWS Secrets Manager by Ramesh Adabala, Anand Komandooru, and Noorul Hasan](https://aws.amazon.com/blogs/security/how-to-securely-provide-database-credentials-to-lambda-functions-by-using-aws-secrets-manager/)
+1. [[_**CLI**_] Using IAM authentication to connect with pgAdmin Amazon Aurora PostgreSQL or Amazon RDS for PostgreSQL by Ajeet Tewari](https://aws.amazon.com/blogs/database/using-iam-authentication-to-connect-with-pgadmin-amazon-aurora-postgresql-or-amazon-rds-for-postgresql/)
+1. [How to create and retrieve secrets managed in AWS Secrets Manager using AWS CloudFormation templates by Apurv Awasthi](https://aws.amazon.com/blogs/security/how-to-create-and-retrieve-secrets-managed-in-aws-secrets-manager-using-aws-cloudformation-template/)
 
 # 9. Replication
 

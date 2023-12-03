@@ -18,3 +18,5 @@ by Ramesh Adabala, Anand Komandooru, and Noorul Hasan](https://aws.amazon.com/bl
     - mysql RDS
     - NatGateway for Lambda to talk to internet
     - LambdaRDS_ManageConnections runs outside customer VPC. NatGateway is used to talk to it from VPC
+
+3. [How to create and retrieve secrets managed in AWS Secrets Manager using AWS CloudFormation templates by Apurv Awasthi](https://aws.amazon.com/blogs/security/how-to-create-and-retrieve-secrets-managed-in-aws-secrets-manager-using-aws-cloudformation-template/)

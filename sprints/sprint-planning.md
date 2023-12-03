@@ -25,7 +25,7 @@ https://www.epochconverter.com/weeks/2023
 # 1. Sprint planning
 
 1. Mornings - Patterns, Cookbook
-1. At work - pwoertools
+1. At work - pwoertools (both python and Java). Also read Pankaj's blog on java powertools
 1. SAC003 prep
 1. Holidays + Weekend - Step functions
 
