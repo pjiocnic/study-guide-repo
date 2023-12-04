@@ -1,0 +1,2 @@
+
+[External endpoints and testing of task states now available in AWS Step Functions by Marcia Villalba](https://aws.amazon.com/blogs/aws/external-endpoints-and-testing-of-task-states-now-available-in-aws-step-functions/)

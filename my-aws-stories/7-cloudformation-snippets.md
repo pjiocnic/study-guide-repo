@@ -1,5 +1,5 @@
 1. Based Network.yaml that creates a sanbox VPC
-1. Create and Associate Instance Profile. How do yu attach additional permissions to an existing profile?
+1. Create and Associate Instance Profile. How do you attach additional permissions to an existing profile?
 1. SSM sessionmanager
 1. EC2 Instance connect
 1. Event Bridge, Rules and EventBusPolicy  - /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/serverless-developer-experience/3-sandbox/templates/uni-prop-shared-dev.yaml

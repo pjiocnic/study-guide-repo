@@ -7,6 +7,7 @@
 1. Copy template.yaml to /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/templates
 1. Create my-aws-snippets also
 
+
 <img src="./images/eventbridge-content-filtering-1.png" title="event Bridge filtering" width="900"/>
 
 # JSON structure of Eventbridge Payload

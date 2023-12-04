@@ -5,28 +5,38 @@
 - [1. Dashboard](#1-dashboard)
   - [1.1. Testing](#11-testing)
   - [1.2. Workshop](#12-workshop)
-- [2. Samples](#2-samples)
-  - [2.1. Content aggregation](#21-content-aggregation)
-- [3. Drools](#3-drools)
-- [4. CallBack](#4-callback)
-- [5. Courses](#5-courses)
-- [6. Benefits of using step functions](#6-benefits-of-using-step-functions)
-- [7. Pricing](#7-pricing)
-- [8. Distributed Map](#8-distributed-map)
-- [9. JSON Paths](#9-json-paths)
-- [10. Parallelisms](#10-parallelisms)
-- [11. Patterns](#11-patterns)
-  - [11.1. Aggregating Events](#111-aggregating-events)
-  - [11.2. Circuit Breaker](#112-circuit-breaker)
-  - [11.3. Invoking external systems](#113-invoking-external-systems)
-  - [11.4. Scatter-Gather (Divide and conquer)](#114-scatter-gather-divide-and-conquer)
-- [12. Testing Locally](#12-testing-locally)
-- [13. Tutorials](#13-tutorials)
-- [14. Use cases / Real world scenarios](#14-use-cases--real-world-scenarios)
-- [15. Videos](#15-videos)
-- [16. Workshop](#16-workshop)
-- [17. Workflows](#17-workflows)
-  - [17.1. Queue based workflow](#171-queue-based-workflow)
+- [2. Calling HTTP Endpoints without API Gateway](#2-calling-http-endpoints-without-api-gateway)
+- [3. Examples](#3-examples)
+  - [Repo](#repo)
+  - [3.1. Content aggregation](#31-content-aggregation)
+- [4. Drools](#4-drools)
+- [5. CallBacks](#5-callbacks)
+  - [5.1. Callbacks across accounts](#51-callbacks-across-accounts)
+  - [5.2. SNS](#52-sns)
+  - [5.3. API Gateway](#53-api-gateway)
+  - [5.4. SQS](#54-sqs)
+  - [5.5. Emails](#55-emails)
+- [6. Courses](#6-courses)
+- [7. Benefits of using step functions](#7-benefits-of-using-step-functions)
+- [8. Pricing](#8-pricing)
+- [9. Distributed Map](#9-distributed-map)
+- [10. JSON Paths](#10-json-paths)
+- [11. Parallelisms](#11-parallelisms)
+- [12. Patterns](#12-patterns)
+  - [12.1. Aggregating Events](#121-aggregating-events)
+  - [12.2. Circuit Breaker](#122-circuit-breaker)
+  - [12.3. Invoking external systems](#123-invoking-external-systems)
+  - [12.4. Scatter-Gather (Divide and conquer)](#124-scatter-gather-divide-and-conquer)
+- [13. Integrations](#13-integrations)
+  - [13.1. What're SDK Integration?](#131-whatre-sdk-integration)
+  - [13.2. What're Optimized integrations](#132-whatre-optimized-integrations)
+- [14. Testing Locally](#14-testing-locally)
+- [15. Tutorials](#15-tutorials)
+- [16. Use cases / Real world scenarios](#16-use-cases--real-world-scenarios)
+- [17. Videos](#17-videos)
+- [18. Workshop](#18-workshop)
+- [19. Workflows](#19-workflows)
+  - [19.1. Queue based workflow](#191-queue-based-workflow)
 
 <!-- /TOC -->
 
@@ -49,55 +59,88 @@
 1. [Welcome to the source code repository for The AWS Step Functions Workshop!](https://github.com/aws-samples/the-aws-step-functions-workshop)
 1. [Complete guide to AWS Step Functions (FREE) By Yan Cui](https://school.theburningmonk.com/courses/take/complete-guide-to-aws-step-functions/lessons/6989783-what-is-step-functions)
 
-# 2. Samples
+# 2. Calling HTTP Endpoints without API Gateway
 
-## 2.1. Content aggregation
+1. [External endpoints and testing of task states now available in AWS Step Functions by Marcia Villalb](https://aws.amazon.com/blogs/aws/external-endpoints-and-testing-of-task-states-now-available-in-aws-step-functions/)
+
+# 3. Examples
+
+## Repo
+
+1. [aws-stepfunctions-examples](https://github.com/aws-samples/aws-stepfunctions-examples)
+- Accelerating workloads using parallelism in AWS Step Functions
+- Controlling concurrency in distributed systems using AWS Step Functions
+- Mocking service integrations with Step Functions Local
+- Orchestrating S3 Glacier Deep Archive object retrieval using Step Functions
+- Demo Step Functions Local testing with Mock service integrations using Java testing frameworks (JUnit and Spock)
+- Video Transcription with AWS SDK Service Integrations
+
+## 3.1. Content aggregation
 
 > 1. [[MY NEXT] Building Serverless Land: Part 1 – Automating content aggregation by Benjamin Smith ](https://aws.amazon.com/blogs/compute/building-serverless-land-part-1-automating-content-aggregation/)
 2. [Building Serverless Land: Part 2 – An auto-building static site by Benjamin Smith](https://aws.amazon.com/blogs/compute/building-serverless-land-part-2-an-auto-building-static-site/)
 3. [[MY NEXT] Building Serverless Land](https://github.com/aws-samples/content-aggregator-example)
 
-# 3. Drools
+# 4. Drools
 1. [Using AWS Step Functions and Amazon DynamoDB for business rules orchestration by Vijaykumar Pannirselvam](https://aws.amazon.com/blogs/compute/using-aws-step-functions-and-amazon-dynamodb-for-business-rules-orchestration/)
 
-# 4. CallBack
+# 5. CallBacks
 
-1. [Integrating AWS Step Functions callbacks and external systems by Zach Abrahamson,](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems)
 1. [Invoking asynchronous external APIs with AWS Step Functions by Jorge Fonseca, Hossam Ebrahim, and Shirisha Vivek](https://aws.amazon.com/blogs/architecture/invoking-asynchronous-external-apis-with-aws-step-functions/)
 
-# 5. Courses
+## 5.1. Callbacks across accounts
+
+1. [Introducing cross-account access capabilities for AWS Step Functions by Siarhei Kazhura](https://aws.amazon.com/blogs/compute/introducing-cross-account-access-capabilities-for-aws-step-functions/)
+
+## 5.2. SNS
+
+1. [Integrating AWS Step Functions callbacks and external systems by Zach Abrahamson,](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems)
+
+## 5.3. API Gateway
+
+1. [[Wait-for-Callback with APIGateway] Introducing Amazon API Gateway service integration for AWS Step Functions by Benjamin Smith](https://aws.amazon.com/blogs/compute/introducing-amazon-api-gateway-service-integration-for-aws-step-functions/)
+
+## 5.4. SQS
+
+1. [Callback with Task Token](https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US/basics/task-state/callback)
+
+## 5.5. Emails
+
+1. [Using callback URLs for approval emails with AWS Step Functions by Ben Kehoe](https://aws.amazon.com/blogs/aws/using-callback-urls-for-approval-emails-with-aws-step-functions/)
+
+# 6. Courses
 
 1. [Design Patterns for AWS Step Functions](https://explore.skillbuilder.aws/learn/course/10471/play/37562/design-patterns-for-aws-step-functions)
 1. [Troubleshooting Serverless Applications](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1124/troubleshooting-serverless-applications)
 1. [Complete guide to AWS Step Functions (FREE) By Yan Cui](https://school.theburningmonk.com/courses/take/complete-guide-to-aws-step-functions/lessons/6989783-what-is-step-functions)
 
-# 6. Benefits of using step functions
+# 7. Benefits of using step functions
 
 1. [Why use AWS Step Functions?](https://www.reddit.com/r/aws/comments/pmc1o2/why_use_aws_step_functions/)
 
-# 7. Pricing
+# 8. Pricing
 
 1. [AWS Step function pricing page](https://aws.amazon.com/step-functions/pricing/)
 1. [Callback pricing](https://stackoverflow.com/questions/58110826/aws-step-function-costing)
 2. [Pricing for Wait Tasks](https://blog.scottlogic.com/2018/06/19/step-functions.html)
 
-# 8. Distributed Map
+# 9. Distributed Map
 
 1. Missing Paper - introduction to distributed map for serverless data processing uma ramadoss
 2. [AWS Step functions Map State & Parallel State](https://towardsaws.com/aws-step-functions-map-state-parallel-state-3d1be5be8fc5)
 
-# 9. JSON Paths
+# 10. JSON Paths
 
 1. [Using JSONPath effectively in AWS Step Functions by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/using-jsonpath-effectively-in-aws-step-functions/)
 
-# 10. Parallelisms
+# 11. Parallelisms
 
 1. [AWS re:Invent 2022 - [NEW] Accelerate workloads using parallelism w/Step Functions & Lambda (API205)](https://www.youtube.com/watch?v=SG6_oy72hh4)
 1. [[Dynamic parallelism,AWS Batch] Orchestrating high performance computing with AWS Step Functions and AWS Batch By Dan Fox](https://aws.amazon.com/blogs/compute/orchestrating-high-performance-computing-with-aws-step-functions-and-aws-batch/)
 
-# 11. Patterns
+# 12. Patterns
 
-## 11.1. Aggregating Events
+## 12.1. Aggregating Events
 
 1. [Orchestrating dependent file uploads with AWS Step Functions](https://aws.amazon.com/blogs/compute/orchestrating-dependent-file-uploads-with-aws-step-functions/)
 
@@ -105,16 +148,16 @@
 
 <img src="./images/step-fns-2.png" title="step-fns-2.png" width="900"/>
 
-## 11.2. Circuit Breaker
+## 12.2. Circuit Breaker
 
 1. [Using the circuit breaker pattern with AWS Step Functions and Amazon DynamoDB by Anitha Deenadayalan](https://aws.amazon.com/blogs/compute/using-the-circuit-breaker-pattern-with-aws-step-functions-and-amazon-dynamodb/)
 
-## 11.3. Invoking external systems
+## 12.3. Invoking external systems
 
 1. [Integrating AWS Step Functions callbacks and external systems by Zach Abrahamson,](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems)
 1. [Invoking asynchronous external APIs with AWS Step Functions by Jorge Fonseca, Hossam Ebrahim, and Shirisha Vivek](https://aws.amazon.com/blogs/architecture/invoking-asynchronous-external-apis-with-aws-step-functions/)
 
-## 11.4. Scatter-Gather (Divide and conquer)
+## 12.4. Scatter-Gather (Divide and conquer)
 
 1. [How do we combine the results of individual, but related messages so that they can be processed as a whole?](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html)
 1. [Scatter Gather High level Example](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ComposedMessagingExample.html)
@@ -124,7 +167,17 @@
 1. [Serverless Loan Broker @ AWS, Part 4: Automation By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_cdk.html)
 1. [Serverless Loan Broker @ AWS, Part 5: Integration Patterns with CDK By Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_cdk.html)
 
-# 12. Testing Locally
+# 13. Integrations
+
+## 13.1. What're SDK Integration?
+
+1. [Now — AWS Step Functions Supports 200 AWS Services To Enable Easier Workflow Automation by Marcia Villalba](https://aws.amazon.com/blogs/aws/now-aws-step-functions-supports-200-aws-services-to-enable-easier-workflow-automation/)
+
+## 13.2. What're Optimized integrations
+
+1. [Optimized integrations for Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/connect-supported-services.html)
+
+# 14. Testing Locally
 
 1. [Step Functions Local - mocking service integrations | Serverless Office Hours](https://www.youtube.com/watch?v=4pTfYon6zJ8)
 1. [🆕 UNIT TEST your Step Functions with the Mocked Service Integrations By FooBar Serverless](https://www.youtube.com/watch?v=P3hEqxKxZe)
@@ -132,23 +185,23 @@
 1. [Step Functions Local - mocking service integrations | Serverless Office Hours By Sam Dengler and Dhiraj Mahapatro](https://www.youtube.com/watch?v=4pTfYon6zJ8&t=38s)
 1. [Step Functions Local Testing using JUnit and Spock By Dhiraj Mahapatro](https://github.com/aws-samples/aws-stepfunctions-examples/tree/main/sam/demo-local-testing-using-java)
 
-# 13. Tutorials
+# 15. Tutorials
 
 1. [Create a Serverless Workflow with AWS Step Functions and AWS Lambda](https://aws.amazon.com/tutorials/create-a-serverless-workflow-step-functions-lambda/)
 1. [How to Handle Errors in Serverless Apps with AWS Step Functions and AWS Lambda](https://aws.amazon.com/tutorials/handle-serverless-application-errors-step-functions-lambda/)
 1. [Schedule a Serverless Workflow with AWS Step Functions and Amazon EventBridge Scheduler](https://aws.amazon.com/tutorials/scheduling-a-serverless-workflow-step-functions-amazon-eventbridge-scheduler/)
 
-# 14. Use cases / Real world scenarios
+# 16. Use cases / Real world scenarios
 
 1. [Testing Amazon EventBridge events using AWS Step Functions by Siarhei Kazhura,](https://aws.amazon.com/blogs/compute/testing-amazon-eventbridge-events-using-aws-step-functions/)
 
-# 15. Videos
+# 17. Videos
 
 1. [AWS re:Invent 2022 - Advanced serverless workflow patterns and best practices (API309) By Ben Smith](https://www.youtube.com/watch?v=o6-7BAUWaqg)
 1. [Big Data Processing Using Distributed Maps and AWS Step Functions (S3 + Lambda) By Be Better Dev](https://www.youtube.com/watch?v=0Zs5s5F_lFc)
 1. [Building distributed data processing workloads with AWS Step Functions By Uma Ramadoss](https://www.youtube.com/watch?v=b7zfFdKzttw)
 
-# 16. Workshop
+# 18. Workshop
 
 1. [The AWS Step Functions Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US)
 1. [Welcome to the source code repository for The AWS Step Functions Workshop!](https://github.com/aws-samples/the-aws-step-functions-workshop)
@@ -156,8 +209,8 @@
 1. [Welcome to the source code repository for The AWS Step Functions Workshop!](https://github.com/aws-samples/the-aws-step-functions-workshop)
 1. [The AWS Step Functions workshop reinvent2022](https://d1.awsstatic.com/events/Summits/reinvent2022/API201-R_The-AWS-Step-Functions-workshop.pdf)
 
-# 17. Workflows
+# 19. Workflows
 
-## 17.1. Queue based workflow
+## 19.1. Queue based workflow
 
 1. [How To Orchestrate Queue-Based Microservices With AWS Step Functions And Amazon SQS?](https://www.workfall.com/learning/blog/how-to-orchestrate-queue-based-microservices-with-aws-step-functions-and-amazon-sqs/)
