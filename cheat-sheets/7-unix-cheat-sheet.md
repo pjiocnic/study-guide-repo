@@ -3,6 +3,7 @@
 ```bash
 find . -type d ! -name 'folder_to_exclude*' -exec ls -l {} \;
 find . -type d \( ! -name 'folder_to_exclude*' -o ! -name 'another_folder*' \) -exec ls -l {} \;
+for file in *; do mv "$file" `echo $file | tr ' ' '_'` ; done
 ```
 
 # Deleting old files
@@ -36,8 +37,7 @@ find "$directory" -type f -exec bash -c '
       sed -i "s/${escaped_old_string%,}//g" "$file"
     else
       # If the new string is not present, perform the replacement
-      sed -i "s/$escaped_old_string/$escaped_new_string==$(sed_escape "$new_string")
-/g" "$file"
+      sed -i "s/$escaped_old_string/$escaped_new_string/g" "$file"
     fi
   done
 ' bash {} +
