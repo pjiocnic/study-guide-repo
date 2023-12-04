@@ -2,6 +2,7 @@
 
 ```bash
 find . -type d ! -name 'folder_to_exclude*' -exec ls -l {} \;
+find . -type d \( ! -name 'folder_to_exclude*' -o ! -name 'another_folder*' \) -exec ls -l {} \;
 ```
 
 # Deleting old files
