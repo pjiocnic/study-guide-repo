@@ -1,3 +1,9 @@
+# find
+
+```bash
+find . -type d ! -name 'folder_to_exclude*' -exec ls -l {} \;
+```
+
 # Deleting old files
 
 ```bash
