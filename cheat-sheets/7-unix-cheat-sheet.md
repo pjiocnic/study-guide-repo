@@ -21,6 +21,10 @@ find /path/to/search -type f -mtime +7 -delete
 old_string="your_old_string"
 new_string="your_new_string"
 
+sed_escape() { printf '%s\n' "$1" | sed 's/[]\.|$(){}?+*^]/\\&/g'; }
+escaped_old_string=$(sed_escape "$old_string")
+escaped_new_string==$(sed_escape "$new_string")
+
 # Specify the directory where you want to start the search
 directory="/path/to/search"
 
@@ -29,10 +33,11 @@ find "$directory" -type f -exec bash -c '
   for file do
     if grep -q "$new_string" "$file"; then
       # If the new string is present, remove the old string
-      sed -i "s/${old_string%,}//g" "$file"
+      sed -i "s/${escaped_old_string%,}//g" "$file"
     else
       # If the new string is not present, perform the replacement
-      sed -i "s/$old_string/$new_string/g" "$file"
+      sed -i "s/$escaped_old_string/$escaped_new_string==$(sed_escape "$new_string")
+/g" "$file"
     fi
   done
 ' bash {} +
