@@ -1,0 +1,3 @@
+1. [Event-Driven Computing with Amazon SNS and AWS Compute, Storage, Database, and Networking Services by Christie Gifrin and Otavio Ferreira ](https://aws.amazon.com/blogs/compute/event-driven-computing-with-amazon-sns-compute-storage-database-and-networking-services/)
+
+1. [Messaging Fanout Pattern for Serverless Architectures Using Amazon SNS by Christie Gifrin and Sam Dengler ](https://aws.amazon.com/blogs/compute/messaging-fanout-pattern-for-serverless-architectures-using-amazon-sns/)
