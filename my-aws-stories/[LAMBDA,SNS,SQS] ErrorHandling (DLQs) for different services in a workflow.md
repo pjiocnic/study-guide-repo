@@ -20,3 +20,55 @@
 
 1. [**[MY_NEXT]** Implementing AWS Lambda error handling patterns by Julian Wood, Jeff Chen, and Jeff Li ](https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/)
 1. [**[MY_NEXT]** Using Amazon SQS dead-letter queues to replay messages By Alexandre Pinhel](https://aws.amazon.com/blogs/compute/using-amazon-sqs-dead-letter-queues-to-replay-messages/)
+
+# Sample code
+
+1. https://gist.github.com/austoonz/f6d45d5f22b4944df42ca80ed4e2d819
+
+2. The SAM Template equivalent for `https://github.com/aws-samples/aws-lambda-error-handling-pattern/blob/main/dlq/core_lambda.py` as given by ChatGPT
+
+```yaml
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  MyLambdaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.lambda_handler  # Adjust the handler as per your function
+      Runtime: python3.8  # Adjust the runtime as per your function
+      CodeUri: ./
+      Events:
+        SNSEvent:
+          Type: SNS
+          Properties:
+            Topic:
+              Fn::ImportValue: YourSNSTopicExportName  # Import the SNS topic export name
+            DeadLetterQueue:
+              Type: SQS
+              Queue:
+                Fn::GetAtt:
+                  - SNSDeadLetterQueue
+                  - QueueName
+
+  SNSDeadLetterQueue:
+    Type: AWS::SQS::Queue
+
+Outputs:
+  LambdaFunctionArn:
+    Value:
+      Fn::GetAtt:
+        - MyLambdaFunction
+        - Arn
+    Export:
+      Name: YourLambdaFunctionExportName
+
+  SNSDeadLetterQueueUrl:
+    Value:
+      Fn::GetAtt:
+        - SNSDeadLetterQueue
+        - QueueUrl
+    Export:
+      Name: YourSNSDeadLetterQueueExportName
+
+```
