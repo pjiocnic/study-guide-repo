@@ -33,3 +33,16 @@ https://learn.mongodb.com/learn/course/mongodb-crud-operations-in-java/lesson-1-
 1. https://rieckpil.de/mongodb-testcontainers-setup-for-datamongotest/
 1. https://levelup.gitconnected.com/spring-boot-testing-with-mongodb-using-testcontainers-796320067c62
 1. https://www.youtube.com/watch?v=9_1hkYVQ1eI
+
+# Good Name for Orchestrator
+
+WorkflowOrchestrator
+WorkflowManager
+FlowCoordinator
+OrchestratorService
+ProcessDirector
+Choreographer
+ExecutionController
+SequenceMaster
+OrderDispatcher
+HarmonyHandler
