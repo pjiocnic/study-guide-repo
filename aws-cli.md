@@ -8,8 +8,8 @@
 - [4. Documentation](#4-documentation)
 - [5. Lambda](#5-lambda)
 - [6. RDS](#6-rds)
-- [7. Workshop](#7-workshop)
-- [8. SNS](#8-sns)
+- [7. SNS](#7-sns)
+- [8. Workshop](#8-workshop)
 
 <!-- /TOC -->
 
@@ -40,10 +40,11 @@
 
 1. [Using IAM authentication to connect with pgAdmin Amazon Aurora PostgreSQL or Amazon RDS for PostgreSQL by Ajeet Tewari](https://aws.amazon.com/blogs/database/using-iam-authentication-to-connect-with-pgadmin-amazon-aurora-postgresql-or-amazon-rds-for-postgresql/)
 
-# 7. Workshop
+# 7. SNS
+
+1. [How do I subscribe a Lambda function to an Amazon SNS topic in the same account?](https://repost.aws/knowledge-center/lambda-subscribe-sns-topic-same-account)
+
+# 8. Workshop
 
 1. [AWS CLI tips and tricks](https://catalog.us-east-1.prod.workshops.aws/workshops/79521eff-62b5-4792-a2e0-6dbb59d83f4a/en-US)
 
-# 8. SNS
-
-1. [How do I subscribe a Lambda function to an Amazon SNS topic in the same account?](https://repost.aws/knowledge-center/lambda-subscribe-sns-topic-same-account)

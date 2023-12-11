@@ -17,6 +17,7 @@
 - [10. Targets](#10-targets)
   - [10.1. Http Endpoints](#101-http-endpoints)
 - [11. Throttling](#11-throttling)
+- [12. Workshop](#12-workshop)
 
 <!-- /TOC -->
 
@@ -82,4 +83,8 @@
 # 11. Throttling
 
 1. [How To: Use SNS and SQS to Distribute and Throttle Events](https://www.jeremydaly.com/how-to-use-sns-and-sqs-to-distribute-and-throttle-events/)
+
+# 12. Workshop
+
+1. [Building event-driven architectures on AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US)
 

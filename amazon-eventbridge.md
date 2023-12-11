@@ -4,7 +4,7 @@
 - [1. Topics To explore](#1-topics-to-explore)
 - [2. Dashboard](#2-dashboard)
 - [3. Targets](#3-targets)
-  - [3.1. Http Targets](#31-http-targets)
+  - [3.1. Http Targets (API Destinations)](#31-http-targets-api-destinations)
 - [4. Design](#4-design)
 - [5. Event Bridge Patterns](#5-event-bridge-patterns)
   - [5.1. How to test event bridge patterns](#51-how-to-test-event-bridge-patterns)
@@ -20,6 +20,7 @@
 - [7. SkillBuilder Course](#7-skillbuilder-course)
 - [8. Schema registry](#8-schema-registry)
 - [9. Scheduling](#9-scheduling)
+- [10. Workshops](#10-workshops)
 
 <!-- /TOC -->
 
@@ -40,15 +41,22 @@
 # 2. Dashboard
 
 1. [Using Patterns to route messages](#5-event-bridge-patterns)
-1. [[Automated Event pattenr testing] Testing Amazon EventBridge events using AWS Step Functions By by Siarhei Kazhura](https://aws.amazon.com/blogs/compute/testing-amazon-eventbridge-events-using-aws-step-functions/)
+1. [[Automated Event pattern testing] Testing Amazon EventBridge events using AWS Step Functions By by Siarhei Kazhura](https://aws.amazon.com/blogs/compute/testing-amazon-eventbridge-events-using-aws-step-functions/)
+1. [Amazon EventBridge: API Destinations Demystified-Part I By Sheen Brisals](https://sbrisals.medium.com/amazon-eventbridge-api-destinations-demystified-part-i-23fa70d9a04d)
+1. [Amazon EventBridge: How To Manage API Connection Credentials With AWS Secrets Manager By Sheen Brisals](https://sbrisals.medium.com/amazon-eventbridge-how-to-manage-api-connection-credentials-with-aws-secrets-manager-f773f7d2aac5)
+1. [EventBridge API Destinations configuration](https://serverlessland.com/patterns/eventbridge-api-destinations)
+
 
 # 3. Targets
 
-## 3.1. Http Targets
+## 3.1. Http Targets (API Destinations)
 
 1. [Using API destinations with Amazon EventBridge by James Beswick](https://aws.amazon.com/blogs/compute/using-api-destinations-with-amazon-eventbridge/)
 1. [Dev Guide - API destinations](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-api-destinations.html)
 1. [Amazon EventBridge - Using API destinations with Amazon EventBridge](https://www.youtube.com/watch?v=2ayxa3AdiK0)
+1. [Amazon EventBridge: API Destinations Demystified-Part I By Sheen Brisals](https://sbrisals.medium.com/amazon-eventbridge-api-destinations-demystified-part-i-23fa70d9a04d)
+1. [Amazon EventBridge: How To Manage API Connection Credentials With AWS Secrets Manager By Sheen Brisals](https://sbrisals.medium.com/amazon-eventbridge-how-to-manage-api-connection-credentials-with-aws-secrets-manager-f773f7d2aac5)
+1. [EventBridge API Destinations configuration](https://serverlessland.com/patterns/eventbridge-api-destinations)
 
 # 4. Design
 
@@ -67,7 +75,6 @@
 1. [Building a modern, event-driven application for insurance claims processing – Part 1 by Emily Shea and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-1/)
 1. [Building a modern, event-driven application for insurance claims processing – Part 2 by Emily Shea, Vaibhav Jain, and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-2/)
 1. [Extending a serverless, event-driven architecture to existing container workloads by Dhiraj Mahapatro and Sascha Moellering](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
-
 
 ## 5.1. How to test event bridge patterns
 
@@ -126,3 +133,7 @@
 1. [Introducing Amazon EventBridge Scheduler by Marcia Villalba](https://aws.amazon.com/blogs/compute/introducing-amazon-eventbridge-scheduler/)
 2. [Serverless Scheduling with Amazon EventBridge, AWS Lambda, and Amazon DynamoDB by Peter Grman](https://aws.amazon.com/blogs/architecture/serverless-scheduling-with-amazon-eventbridge-aws-lambda-and-amazon-dynamodb/)
 - see /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/event-bridge/scheduling
+
+# 10. Workshops
+
+1. [Building event-driven architectures on AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US)

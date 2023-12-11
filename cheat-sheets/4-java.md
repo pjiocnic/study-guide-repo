@@ -24,3 +24,10 @@ public class ExtractDigitsFromSentence {
     }
 }
 ```
+
+# Java Examples for Coding Best Practices
+
+1. [Powertools for AWS Lambda (Java)](https://github.com/aws-powertools/powertools-lambda-java/tree/main)
+1. [Simplifying serverless best practices with AWS Lambda Powertools Java by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/)
+1. [Java on AWS Immersion Day](https://github.com/aws-samples/java-on-aws/tree/main)
+- Has some ObjectMapper usage example

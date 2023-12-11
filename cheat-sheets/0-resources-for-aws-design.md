@@ -61,6 +61,7 @@ https://www.youtube.com/watch?v=yg3WcAjmR90
 # 6. Flow charts
 
 1. [Implementing patterns that exit early out of a parallel state in AWS Step Functions](https://serverlessland.com/blog/implementing-patterns-that-exit-early-out-of-a-parallel-state-in-aws-step-functions--aws-compute-blog)
+1. [Queue Integration with Third-party Services on AWS by Rostislav Markov, Justin Kuskowski, Ravindra Agrawal, Saswata Dash, and Michael Steward](https://aws.amazon.com/blogs/architecture/queue-integration-with-third-party-services-on-aws/)
 
 # 7. Design Templates
 

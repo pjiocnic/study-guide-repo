@@ -72,3 +72,183 @@ Outputs:
       Name: YourSNSDeadLetterQueueExportName
 
 ```
+
+Another template
+
+```yaml
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Java Application on EC2 Reading from SQS Queue with DLQ
+
+Parameters:
+  KeyName:
+    Type: AWS::EC2::KeyPair::KeyName
+    Description: Name of an existing EC2 Key Pair for SSH access
+
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-xxxxxxxxxxxxxxxxx  # Specify an appropriate AMI ID
+      InstanceType: t2.micro          # Specify an appropriate instance type
+      KeyName: !Ref KeyName
+      UserData:
+        Fn::Base64: !Sub |
+          #!/bin/bash
+          yum update -y
+          yum install -y java-11-openjdk
+
+          # Download and run your Java application JAR file
+          wget -O /home/ec2-user/your-application.jar s3://your-s3-bucket/your-application.jar
+          java -jar /home/ec2-user/your-application.jar
+
+  YourSQSQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: YourQueueName
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+            - "YourDLQ"
+            - "Arn"
+        maxReceiveCount: 5
+
+  YourDLQ:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: YourDLQName
+
+  SQSQueuePolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+        - !Ref YourSQSQueue
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ec2.amazonaws.com
+            Action: sqs:SendMessage
+            Resource: !GetAtt YourSQSQueue.Arn
+
+Outputs:
+  InstanceId:
+    Description: Instance ID of the created EC2 instance
+    Value: !Ref EC2Instance
+  SQSQueueUrl:
+    Description: URL of the created SQS queue
+    Value: !GetAtt YourSQSQueue.QueueUrl
+  DLQUrl:
+    Description: URL of the created DLQ
+    Value: !GetAtt YourDLQ.QueueUrl
+```
+
+Another script
+
+```yaml
+AWSTemplateFormatVersion: '2010-09-09'
+Description: SNS Topic with SQS Subscriptions and DLQs
+
+Parameters:
+  SNSDisplayName:
+    Type: String
+    Description: Display name for the SNS topic
+
+Resources:
+  SNSTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      DisplayName: !Ref SNSDisplayName
+      TopicName: YourSNSTopicName
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+            - "DLQForSNSTopic"
+            - "Arn"
+        maxReceiveCount: 5
+
+  DLQForSNSTopic:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: YourDLQForSNSTopicName
+
+  SubscriptionOneQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: YourSubscriptionOneQueueName
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+            - "DLQForSubscriptionOne"
+            - "Arn"
+        maxReceiveCount: 5
+
+  SubscriptionTwoQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: YourSubscriptionTwoQueueName
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+            - "DLQForSubscriptionTwo"
+            - "Arn"
+        maxReceiveCount: 5
+
+  DLQForSubscriptionOne:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: YourDLQForSubscriptionOneName
+
+  DLQForSubscriptionTwo:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: YourDLQForSubscriptionTwoName
+
+  FilterPolicyForSubscriptionOne:
+    Type: AWS::SNS::Subscription
+    Properties:
+      Protocol: sqs
+      TopicArn: !Ref SNSTopic
+      Endpoint: !GetAtt SubscriptionOneQueue.Arn
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+            - "DLQForSubscriptionOne"
+            - "Arn"
+        maxReceiveCount: 5
+      FilterPolicy:
+        MyFilterPolicyAttribute: ["filter-value-one"]
+
+  FilterPolicyForSubscriptionTwo:
+    Type: AWS::SNS::Subscription
+    Properties:
+      Protocol: sqs
+      TopicArn: !Ref SNSTopic
+      Endpoint: !GetAtt SubscriptionTwoQueue.Arn
+      RedrivePolicy:
+        deadLetterTargetArn:
+          Fn::GetAtt:
+            - "DLQForSubscriptionTwo"
+            - "Arn"
+        maxReceiveCount: 5
+      FilterPolicy:
+        MyFilterPolicyAttribute: ["filter-value-two"]
+
+Outputs:
+  SNSTopicArn:
+    Description: ARN of the created SNS Topic
+    Value: !Ref SNSTopic
+  SubscriptionOneQueueUrl:
+    Description: URL of the Subscription One SQS Queue
+    Value: !GetAtt SubscriptionOneQueue.QueueUrl
+  SubscriptionTwoQueueUrl:
+    Description: URL of the Subscription Two SQS Queue
+    Value: !GetAtt SubscriptionTwoQueue.QueueUrl
+  DLQForSNSTopicUrl:
+    Description: URL of the DLQ for the SNS Topic
+    Value: !GetAtt DLQForSNSTopic.QueueUrl
+
+
+
+
+```

@@ -23,21 +23,22 @@
   - [13.4. ECS](#134-ecs)
     - [13.4.1. Spring + ECS](#1341-spring--ecs)
     - [13.4.2. Fargate](#1342-fargate)
-  - [13.5. Lambda](#135-lambda)
-    - [13.5.1. Log Retentions](#1351-log-retentions)
-    - [13.5.2. Using docker + Lamba](#1352-using-docker--lamba)
-  - [13.6. SQS](#136-sqs)
-    - [13.6.1. Well Architected with SQS](#1361-well-architected-with-sqs)
-  - [13.7. Grafana](#137-grafana)
-  - [13.8. DynamoDB](#138-dynamodb)
-  - [13.9. S3](#139-s3)
-    - [13.9.1. Deletion](#1391-deletion)
-    - [13.9.2. Bucket Polices](#1392-bucket-polices)
-    - [13.9.3. Lifecyle](#1393-lifecyle)
-  - [13.10. Kinesis](#1310-kinesis)
-  - [13.11. Firehose](#1311-firehose)
-  - [13.12. Elasticache](#1312-elasticache)
-  - [13.13. MongoDB](#1313-mongodb)
+  - [13.5. EKS](#135-eks)
+  - [13.6. Lambda](#136-lambda)
+    - [13.6.1. Log Retentions](#1361-log-retentions)
+    - [13.6.2. Using docker + Lamba](#1362-using-docker--lamba)
+  - [13.7. SQS](#137-sqs)
+    - [13.7.1. Well Architected with SQS](#1371-well-architected-with-sqs)
+  - [13.8. Grafana](#138-grafana)
+  - [13.9. DynamoDB](#139-dynamodb)
+  - [13.10. S3](#1310-s3)
+    - [13.10.1. Deletion](#13101-deletion)
+    - [13.10.2. Bucket Polices](#13102-bucket-polices)
+    - [13.10.3. Lifecyle](#13103-lifecyle)
+  - [13.11. Kinesis](#1311-kinesis)
+  - [13.12. Firehose](#1312-firehose)
+  - [13.13. Elasticache](#1313-elasticache)
+  - [13.14. MongoDB](#1314-mongodb)
 - [14. By Language](#14-by-language)
   - [14.1. Typescript](#141-typescript)
   - [14.2. Python](#142-python)
@@ -213,73 +214,77 @@
 2. [[Typescript] Deploying applications to ECS Fargate with AWS CDK By George Evans](https://www.gravitywell.co.uk/insights/deploying-applications-to-ecs-fargate-with-aws-cdk/)
 https://github.com/georgeevans1995/cdk-templates/tree/main/cdk
 
-## 13.5. Lambda
+## 13.5. EKS
+
+1. [Simplify integration of your Amazon EKS cluster with Amazon EKS Blueprints for CDK by Mikhail Shapirov and Elamaran Shanmugam](https://aws.amazon.com/blogs/infrastructure-and-automation/simplify-integration-of-your-amazon-eks-cluster-with-amazon-eks-blueprints-for-cdk/)
+
+## 13.6. Lambda
 
 1. [Deploy a Java Lambda Function and API Gateway with AWS CDK](https://blog.tericcabrel.com/aws-lambda-java-cdk/)
 2. [How to package multiple Java Lambdas](https://github.com/aws-samples/cdk-lambda-packaging-java)
 3. [Implementing, bundling and deploying multi-language serverless applications using AWS CDK](https://github.com/aws-samples/cdk-lambda-bundling)
 
-### 13.5.1. Log Retentions
+### 13.6.1. Log Retentions
 
 1. [Configure Lambda Log Retention in AWS CDK By Borislav Hadzhiev](https://bobbyhadz.com/blog/aws-cdk-lambda-log-retention)
 
-### 13.5.2. Using docker + Lamba
+### 13.6.2. Using docker + Lamba
 
 1. [How to deploy multiple Java AWS Lambdas with Docker and CDK?](https://stackoverflow.com/questions/70030472/how-to-deploy-aws-lambdas-with-docker-and-cdk)
 2. [Package and deploy a Lambda function as a Docker container with AWS CDK	](https://itnext.io/package-and-deploy-a-lambda-function-as-a-docker-container-with-aws-cdk-fd0df5e37de7)
 
-## 13.6. SQS
+## 13.7. SQS
 
 1. [Effective Amazon SQS Batch Handling with AWS Lambda Powertools](https://www.ranthebuilder.cloud/post/effective-amazon-sqs-batch-handling-with-aws-lambda-powertools)
 2. [AWS CDK - Best Practices From The Trenches By Ran Isenberg](https://www.ranthebuilder.cloud/post/aws-cdk-best-practices-from-the-trenches)
 
-### 13.6.1. Well Architected with SQS
+### 13.7.1. Well Architected with SQS
 
 1. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 1 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-1/)
 2. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 2 by Pascal Vogel ](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-2/)
 3. [Implementing AWS Well-Architected best practices for Amazon SQS – Part 3 by Pascal Vogel](https://aws.amazon.com/blogs/compute/implementing-aws-well-architected-best-practices-for-amazon-sqs-part-3/)
 4. [Implementing Well-Architected Best Practices for Amazon SQS with CDK](https://github.com/aws-samples/amazon-sqs-best-practices-cdk)
 
-## 13.7. Grafana
+## 13.8. Grafana
 
 1. [CDK Grafana](https://github.com/aws-samples/aws-cdk-grafana)
 
-## 13.8. DynamoDB
+## 13.9. DynamoDB
 
 1. [Beginner's Guide to DynamoDB with AWS CDK: Step-by-Step Tutorial for provisioning NoSQL Databases](https://www.youtube.com/watch?v=4o1KzB2AAk4)
 
-## 13.9. S3
+## 13.10. S3
 
 1. [S3 Content Distribution via CloudFront Signed Urls Provisioned with AWS CDK](https://thecodinginterface.com/blog/signed-urls-cloudfront-s3/)
 2. [Manage Amazon S3 Event Notifications using a Lambda function by Philip Chen](https://aws.amazon.com/blogs/infrastructure-and-automation/manage-amazon-s3-event-notifications-using-lambda-function/)
 3. [S3 Bucket Example in AWS CDK - Complete Guide By Borislav Hadzhiev](https://bobbyhadz.com/blog/aws-cdk-s3-bucket-example)
 
-### 13.9.1. Deletion
+### 13.10.1. Deletion
 
 1. [How to Delete an S3 bucket on CDK destroy By Borislav Hadzhiev](https://bobbyhadz.com/blog/cdk-delete-s3-bucket)
 
-### 13.9.2. Bucket Polices
+### 13.10.2. Bucket Polices
 
 1. [S3 Bucket Policy Example in AWS CDK By Borislav Hadzhiev](https://bobbyhadz.com/blog/aws-cdk-s3-bucket-policy)
 
-### 13.9.3. Lifecyle
+### 13.10.3. Lifecyle
 
 1. [Configure S3 Lifecycle Rules in AWS CDK By Borislav Hadzhiev](https://bobbyhadz.com/blog/aws-cdk-s3-lifecycle-rules)
 
-## 13.10. Kinesis
+## 13.11. Kinesis
 
 1. [Deliver DynamoDB records to Amazon S3 using Kinesis Data Streams and Kinesis Data Firehose with AWS CDK](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deliver-dynamodb-records-to-amazon-s3-using-kinesis-data-streams-and-kinesis-data-firehose-with-aws-cdk.html)
 
-## 13.11. Firehose
+## 13.12. Firehose
 
 1. [aws-cdk-centralize-logs-typescript](https://github.com/aws-samples/aws-cdk-centralize-logs-typescript)
 - This is a CDK project that set up centralized logging to an S3 bucket via a Kinesis Firehose.
 
-## 13.12. Elasticache
+## 13.13. Elasticache
 
 1. [Deploy Amazon ElastiCache for Redis using AWS CDK](https://github.com/aws-samples/amazon-elasticache-demo-using-aws-cdk)
 
-## 13.13. MongoDB
+## 13.14. MongoDB
 
 1. [How to Deploy MongoDB Atlas with AWS CDK in TypeScript](https://www.youtube.com/watch?v=p7Fru0fbmxY)
 
