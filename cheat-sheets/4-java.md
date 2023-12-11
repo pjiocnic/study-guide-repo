@@ -31,3 +31,7 @@ public class ExtractDigitsFromSentence {
 1. [Simplifying serverless best practices with AWS Lambda Powertools Java by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/)
 1. [Java on AWS Immersion Day](https://github.com/aws-samples/java-on-aws/tree/main)
 - Has some ObjectMapper usage example
+
+# JSON to Java
+
+1. [Generate a Java Class From JSON](https://www.baeldung.com/java-generate-class-from-json)
