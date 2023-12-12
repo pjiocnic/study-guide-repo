@@ -46,7 +46,6 @@
 1. [Amazon EventBridge: How To Manage API Connection Credentials With AWS Secrets Manager By Sheen Brisals](https://sbrisals.medium.com/amazon-eventbridge-how-to-manage-api-connection-credentials-with-aws-secrets-manager-f773f7d2aac5)
 1. [EventBridge API Destinations configuration](https://serverlessland.com/patterns/eventbridge-api-destinations)
 
-
 # 3. Targets
 
 ## 3.1. Http Targets (API Destinations)
@@ -56,7 +55,7 @@
 1. [Amazon EventBridge - Using API destinations with Amazon EventBridge](https://www.youtube.com/watch?v=2ayxa3AdiK0)
 1. [Amazon EventBridge: API Destinations Demystified-Part I By Sheen Brisals](https://sbrisals.medium.com/amazon-eventbridge-api-destinations-demystified-part-i-23fa70d9a04d)
 1. [Amazon EventBridge: How To Manage API Connection Credentials With AWS Secrets Manager By Sheen Brisals](https://sbrisals.medium.com/amazon-eventbridge-how-to-manage-api-connection-credentials-with-aws-secrets-manager-f773f7d2aac5)
-1. [EventBridge API Destinations configuration](https://serverlessland.com/patterns/eventbridge-api-destinations)
+1. [[EXAMPLE] EventBridge API Destinations configuration](https://serverlessland.com/patterns/eventbridge-api-destinations)
 
 # 4. Design
 

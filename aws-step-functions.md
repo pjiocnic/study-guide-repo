@@ -64,7 +64,11 @@ CLEAUP THIS DOC
 
 # 2. Calling HTTP Endpoints without API Gateway
 
+**Pre-req:** [Read about Event Bridge API Destinations](./amazon-eventbridge.md#31-http-targets-api-destinations)
+
 1. [External endpoints and testing of task states now available in AWS Step Functions by Marcia Villalb](https://aws.amazon.com/blogs/aws/external-endpoints-and-testing-of-task-states-now-available-in-aws-step-functions/)
+1. [Step Functions: What's new! | Serverless Office Hours](https://www.twitch.tv/videos/1996001723)
+
 
 # 3. Examples
 

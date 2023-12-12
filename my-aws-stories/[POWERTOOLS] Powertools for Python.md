@@ -199,3 +199,7 @@ def lambda_handler(event: dict, context: LambdaContext) -> str:
 1. You might return sensitive information you don't want it to be added to your traces
 2. You might manipulate streaming objects that can be read only once; this prevents subsequent calls from being empty
 3. You might return more than 64K of data e.g., message too long error
+
+# Additional Material
+
+1. [Simplifying serverless best practices with Lambda Powertools](https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-lambda-powertools/)
