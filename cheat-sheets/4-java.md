@@ -37,4 +37,3 @@ public class ExtractDigitsFromSentence {
 1. [Generate a Java Class From JSON](https://www.baeldung.com/java-generate-class-from-json)
 1. [Converting JSON to POJOs Using Java](https://dzone.com/articles/converting-json-to-pojos-using-java)
 
-https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-1.console.aws.amazon.com%2Fstates%2Fhome%3Fregion%3Dus-east-1%26state%3DhashArgs%2523%252FsampleProjects%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fstates&forceMobileApp=0&code_challenge=SwDIs8O0-5_Z6BIhTAHm9ZP7S6Q0sPo_-GhmA3AaRoI&code_challenge_method=SHA-256
