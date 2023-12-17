@@ -6,9 +6,9 @@ Convert your JSON document to a JSON Schema. There are online tools available fo
 
 2. Add jsonschema2pojo Plugin to Your Maven Project:
 
-Open your pom.xml file and add the following plugin configuration:
-```xml
+Open your `pom.xml` file and add the following plugin configuration:
 
+```xml
 <build>
     <plugins>
         <plugin>

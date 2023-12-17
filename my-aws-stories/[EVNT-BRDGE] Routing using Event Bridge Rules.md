@@ -2,13 +2,11 @@
 
 # Consolidate Notes from
 1. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/eventbridge/amazon-eventbridge-producer-consumer-example/eventbridge-rule-patterns.md
-1. https://aws.amazon.com/blogs/compute/reducing-custom-code-by-using-advanced-rules-in-amazon-eventbridge/
-1. https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/
+1. [Reducing custom code by using advanced rules in Amazon EventBridge by James Beswick](https://aws.amazon.com/blogs/compute/reducing-custom-code-by-using-advanced-rules-in-amazon-eventbridge/)
+1. [Implementing architectural patterns with Amazon EventBridge Pipes by David Boyne](https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/)
 1. Copy template.yaml to /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/templates
 1. Create my-aws-snippets also
-
-
-<img src="./images/eventbridge-content-filtering-1.png" title="event Bridge filtering" width="900"/>
+  <img src="./images/eventbridge-content-filtering-1.png" title="event Bridge filtering" width="900"/>
 
 # JSON structure of Eventbridge Payload
 
@@ -44,6 +42,6 @@ src: https://workshop.serverlesscoffee.com/2-events/1-overview.html
 
 # References
 
-1. https://aws.amazon.com/blogs/compute/integrating-amazon-eventbridge-into-your-serverless-applications/
-1. https://aws.amazon.com/blogs/compute/reducing-custom-code-by-using-advanced-rules-in-amazon-eventbridge/
-1. https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/
+1. [Integrating Amazon EventBridge into your serverless applications by James Beswick ](https://aws.amazon.com/blogs/compute/integrating-amazon-eventbridge-into-your-serverless-applications/)
+1. [Reducing custom code by using advanced rules in Amazon EventBridge by James Beswick ](https://aws.amazon.com/blogs/compute/reducing-custom-code-by-using-advanced-rules-in-amazon-eventbridge/)
+1. [Implementing architectural patterns with Amazon EventBridge Pipes by David Boyne](https://aws.amazon.com/blogs/compute/implementing-architectural-patterns-with-amazon-eventbridge-pipes/)

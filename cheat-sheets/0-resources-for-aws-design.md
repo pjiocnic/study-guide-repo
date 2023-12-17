@@ -22,6 +22,7 @@ https://miro.com/app/dashboard/?tpTemplate=aws-architecture-diagram&fromRedirect
 # Architecture Diagrams
 
 1. [Serverless Loan Broker @ AWS, Part 5: Integration Patterns with CDK](https://www.enterpriseintegrationpatterns.com/ramblings/loanbroker_cdk.html)
+1. [How to centralize CloudWatch Alarms with Amazon EventBridge and AWS CloudFormation by Chaitanya Gummadi](https://aws.amazon.com/blogs/mt/how-to-centralize-cloudwatch-alarms-with-amazon-eventbridge-and-aws-cloudformation/)
 
 # 1. Network diagrams
 

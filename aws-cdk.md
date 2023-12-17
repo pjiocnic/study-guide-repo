@@ -136,9 +136,12 @@
 
 # 9. Projen
 
+Projen is a project generator
+
+1. [[TYPESCRIPT] Getting started with Projen and AWS CDK by Michael Tran, Alain Krok, and Dinesh Sajwan](https://aws.amazon.com/blogs/devops/getting-started-with-projen-and-aws-cdk/)
 1. [A Beginner's Guide to Create AWS CDK Construct Library with projen](https://dev.to/aws-builders/a-beginner-s-guide-to-create-aws-cdk-construct-library-with-projen-5eh4)
-2. [Production-Ready CDK - Project Structure](https://medium.com/@cagingulsen/production-ready-cdk-project-structure-fefeb7590ca8)
-3. [CDK Day 2020 - Projen... a CDK for Project Generation/Configuration](https://www.youtube.com/watch?v=SOWMPzXtTCw)
+1. [Production-Ready CDK - Project Structure](https://medium.com/@cagingulsen/production-ready-cdk-project-structure-fefeb7590ca8)
+1. [CDK Day 2020 - Projen... a CDK for Project Generation/Configuration](https://www.youtube.com/watch?v=SOWMPzXtTCw)
 
 # 10. Project Structures
 
