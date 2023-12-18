@@ -132,6 +132,85 @@ public class HttpClientExample {
 
 ```
 
+2. Method 2
+
+
+```java
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.net.http.HttpHeaders;
+import java.util.HashMap;
+import java.util.Map;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
+
+public class HttpClientExample {
+
+    public static void main(String[] args) {
+        HttpClient httpClient = null;
+        try {
+            // Create HttpClient
+            httpClient = HttpClient.newHttpClient();
+
+            // Define the base URL
+            String baseUrl = "https://example.com/api";
+
+            // Create parameters
+            Map<Object, Object> params = new HashMap<>();
+            params.put("param1", "value1");
+            params.put("param2", "value2");
+
+            // Build the URL with parameters
+            String urlWithParams = buildUrlWithParams(baseUrl, params);
+
+            // Create HttpRequest
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(new URI(urlWithParams))
+                    .POST(HttpRequest.BodyPublishers.noBody())
+                    .build();
+
+            // Send the request and handle the response
+            HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
+
+            // Print the response
+            System.out.println("Response Code: " + response.statusCode());
+            System.out.println("Response Body: " + response.body());
+
+            // Print response headers
+            HttpHeaders headers = response.headers();
+            headers.map().forEach((k, v) -> System.out.println(k + ":" + v));
+        } catch (Exception e) {
+            // Handle exceptions
+            e.printStackTrace();
+        } finally {
+            // Close the HttpClient in the finally block
+            if (httpClient != null) {
+                httpClient.close();
+            }
+        }
+    }
+
+    private static String buildUrlWithParams(String baseUrl, Map<Object, Object> params) {
+        StringBuilder stringBuilder = new StringBuilder(baseUrl);
+        if (!params.isEmpty()) {
+            stringBuilder.append("?");
+            params.forEach((key, value) -> {
+                stringBuilder.append(URLEncoder.encode(key.toString(), StandardCharsets.UTF_8));
+                stringBuilder.append("=");
+                stringBuilder.append(URLEncoder.encode(value.toString(), StandardCharsets.UTF_8));
+                stringBuilder.append("&");
+            });
+            stringBuilder.deleteCharAt(stringBuilder.length() - 1); // Remove the trailing "&"
+        }
+        return stringBuilder.toString();
+    }
+}
+
+
+```
+
 # Other examples
 
 1. [Introduction to the Java HTTP Client](https://openjdk.org/groups/net/httpclient/recipes.html)

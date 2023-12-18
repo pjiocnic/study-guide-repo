@@ -37,3 +37,7 @@ public class ExtractDigitsFromSentence {
 1. [Generate a Java Class From JSON](https://www.baeldung.com/java-generate-class-from-json)
 1. [Converting JSON to POJOs Using Java](https://dzone.com/articles/converting-json-to-pojos-using-java)
 
+# Java examples by AWS
+
+[Mutual TLS for Java based AWS Lambda functions](https://github.com/aws-samples/serverless-mutual-tls/tree/main/software)
+
