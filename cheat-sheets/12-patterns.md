@@ -9,6 +9,7 @@
 
 ## Example from CHATGPT
 
+
 ```java
 // Handler interface
 interface Handler {
@@ -107,3 +108,18 @@ public class Client {
     }
 }
 ```
+
+# Another example
+
+<img src="./images/cor-1.png" title="cor-1.png" width="900"/>
+
+<img src="./images/cor-2.png" title="cor-1.png" width="900"/>
+
+<img src="./images/cor-3.png" title="cor-1.png" width="900"/>
+
+<img src="./images/cor-4.png" title="cor-1.png" width="900"/>
+
+
+# Decorator
+
+1. https://refactoring.guru/design-patterns/decorator/java/example
