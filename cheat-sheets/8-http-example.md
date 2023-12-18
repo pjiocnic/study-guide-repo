@@ -211,6 +211,83 @@ public class HttpClientExample {
 
 ```
 
+3. Method 3: Sending parameters in the body
+
+```java
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.util.HashMap;
+import java.util.Map;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
+
+public class HttpClientExample {
+
+    public static void main(String[] args) {
+        HttpClient httpClient = null;
+        try {
+            // Create HttpClient
+            httpClient = HttpClient.newHttpClient();
+
+            // Define the base URL
+            String baseUrl = "https://example.com/api";
+
+            // Create parameters
+            Map<Object, Object> params = new HashMap<>();
+            params.put("param1", "value1");
+            params.put("param2", "value2");
+
+            // Create HttpRequest with parameters in the body
+            HttpRequest request = buildPostRequest(baseUrl, params);
+
+            // Send the request and handle the response
+            HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
+
+            // Print the response
+            System.out.println("Response Code: " + response.statusCode());
+            System.out.println("Response Body: " + response.body());
+
+            // Print response headers
+            HttpHeaders headers = response.headers();
+            headers.map().forEach((k, v) -> System.out.println(k + ":" + v));
+        } catch (Exception e) {
+            // Handle exceptions
+            e.printStackTrace();
+        } finally {
+            // Close the HttpClient in the finally block
+            if (httpClient != null) {
+                httpClient.close();
+            }
+        }
+    }
+
+    private static HttpRequest buildPostRequest(String baseUrl, Map<Object, Object> params) {
+        // Build the URL
+        String url = baseUrl;
+
+        // Build the request body
+        StringBuilder requestBody = new StringBuilder();
+        params.forEach((key, value) -> {
+            requestBody.append(URLEncoder.encode(key.toString(), StandardCharsets.UTF_8));
+            requestBody.append("=");
+            requestBody.append(URLEncoder.encode(value.toString(), StandardCharsets.UTF_8));
+            requestBody.append("&");
+        });
+        requestBody.deleteCharAt(requestBody.length() - 1); // Remove the trailing "&"
+
+        // Create HttpRequest with parameters in the body
+        return HttpRequest.newBuilder()
+                .uri(URI.create(url))
+                .header("Content-Type", "application/x-www-form-urlencoded")
+                .POST(HttpRequest.BodyPublishers.ofString(requestBody.toString()))
+                .build();
+    }
+}
+
+```
+
 # Other examples
 
 1. [Introduction to the Java HTTP Client](https://openjdk.org/groups/net/httpclient/recipes.html)
