@@ -332,6 +332,20 @@ public class HttpClientExample {
 
 ```
 
+# Using with Lambda
+
+1. Initializing
+
+public static readonly HttpClient client = new HttpClient();
+
+initialised at the top of my code before any functions
+
+2. https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/lambda-optimize-starttime.html
+
+3. https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/http-configuration-url.html
+
+4. [Introducing AWS Common Runtime HTTP Client in the AWS SDK for Java 2.x by Zoe Wang](https://aws.amazon.com/blogs/developer/introducing-aws-common-runtime-http-client-in-the-aws-sdk-for-java-2-x/)
+
 # Other examples
 
 1. [Introduction to the Java HTTP Client](https://openjdk.org/groups/net/httpclient/recipes.html)
@@ -339,6 +353,7 @@ public class HttpClientExample {
 1. [Apache HttpClient Example - CloseableHttpClient](https://www.digitalocean.com/community/tutorials/apache-httpclient-example-closeablehttpclient)
 1. [Comparison of Java HTTP Clients](https://reflectoring.io/comparison-of-java-http-clients/)
 1. [Posting with Java HttpClient By Baeldung](https://www.baeldung.com/java-httpclient-post)
+1. [API Docs](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpClient.html)
 
 # AWS
 
