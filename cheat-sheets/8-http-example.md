@@ -288,12 +288,57 @@ public class HttpClientExample {
 
 ```
 
+4. If you need to convert response body to pojo
+
+```java
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+// ...
+
+public class HttpClientExample {
+
+    // ...
+
+    public static void main(String[] args) {
+        HttpClient httpClient = null;
+        try {
+            // ...
+
+            // Send the request and handle the response
+            HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
+
+            // Check if the request was successful (status code 2xx)
+            if (response.statusCode() >= 200 && response.statusCode() < 300) {
+                // Parse the response body into a custom object (assuming it's JSON)
+                ObjectMapper objectMapper = new ObjectMapper();
+                YourCustomObject customObject = objectMapper.readValue(response.body(), YourCustomObject.class);
+
+                // Now you can work with the custom object
+                System.out.println("Custom Object: " + customObject);
+            } else {
+                // Handle error responses
+                System.err.println("Error response: " + response.statusCode() + " " + response.body());
+            }
+
+            // ...
+        } catch (Exception e) {
+            // Handle exceptions
+            e.printStackTrace();
+        } finally {
+            // ...
+        }
+    }
+}
+
+```
+
 # Other examples
 
 1. [Introduction to the Java HTTP Client](https://openjdk.org/groups/net/httpclient/recipes.html)
 1. [How to send HTTP request GET/POST in Java](https://mkyong.com/java/how-to-send-http-request-getpost-in-java/)
 1. [Apache HttpClient Example - CloseableHttpClient](https://www.digitalocean.com/community/tutorials/apache-httpclient-example-closeablehttpclient)
 1. [Comparison of Java HTTP Clients](https://reflectoring.io/comparison-of-java-http-clients/)
+1. [Posting with Java HttpClient By Baeldung](https://www.baeldung.com/java-httpclient-post)
 
 # AWS
 

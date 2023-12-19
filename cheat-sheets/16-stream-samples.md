@@ -35,3 +35,5 @@ List<String> filteredList = inputList.stream()
 System.out.println(filteredList);
 
 ```
+
+collections.filter((SubList, Predicate))
