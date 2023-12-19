@@ -344,8 +344,6 @@ initialised at the top of my code before any functions
 
 3. https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/http-configuration-url.html
 
-4. [Introducing AWS Common Runtime HTTP Client in the AWS SDK for Java 2.x by Zoe Wang](https://aws.amazon.com/blogs/developer/introducing-aws-common-runtime-http-client-in-the-aws-sdk-for-java-2-x/)
-
 # Other examples
 
 1. [Introduction to the Java HTTP Client](https://openjdk.org/groups/net/httpclient/recipes.html)
@@ -354,8 +352,11 @@ initialised at the top of my code before any functions
 1. [Comparison of Java HTTP Clients](https://reflectoring.io/comparison-of-java-http-clients/)
 1. [Posting with Java HttpClient By Baeldung](https://www.baeldung.com/java-httpclient-post)
 1. [API Docs](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpClient.html)
+1. [Java 11 Network API: Use HttpClient for Synchronous HTTP Communication](https://learning.oreilly.com/scenarios/java-11-network/9781492081234/)
 
 # AWS
 
+1. [Introducing AWS Common Runtime HTTP Client in the AWS SDK for Java 2.x by Zoe Wang](https://aws.amazon.com/blogs/developer/introducing-aws-common-runtime-http-client-in-the-aws-sdk-for-java-2-x/)
 1. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads by Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
 1. [Implementing mutual TLS for Java-based AWS Lambda functions by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/implementing-mutual-tls-for-java-based-aws-lambda-functions/)
+
