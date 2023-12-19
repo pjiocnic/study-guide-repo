@@ -8,7 +8,7 @@
 - [5. Books](#5-books)
 - [6. Maven](#6-maven)
 - [7. Java Features](#7-java-features)
-- [Curate](#curate)
+- [8. Curate](#8-curate)
 
 <!-- /TOC -->
 
@@ -47,7 +47,7 @@
 - List.ofAll(newServlets).appendAll(existingServlets).distinct();
 - Method references
 
-# Curate
+# 8. Curate
 
 1. [Brush up on lambdas here](https://www.oracle.com/technical-resources/articles/java/lambda.html)
 1. [15 Practical Exercises Help You Master Java Stream API By Gavin Fong](https://blog.devgenius.io/15-practical-exercises-help-you-master-java-stream-api-3f9c86b1cf82)

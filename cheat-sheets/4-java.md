@@ -31,6 +31,11 @@ public class ExtractDigitsFromSentence {
 1. [Simplifying serverless best practices with AWS Lambda Powertools Java by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/)
 1. [Java on AWS Immersion Day](https://github.com/aws-samples/java-on-aws/tree/main)
 - Has some ObjectMapper usage example
+1. [Project uses new Lambda/Generic features of Java](https://github.com/aws-samples/aws-lambda-servlet/blob/main/src/main/java/com/aws/samples/lambda/servlet/LambdaWebServletProcessor.java)
+- Try.run
+- mapTry
+- List.ofAll(newServlets).appendAll(existingServlets).distinct();
+- Method references
 
 # JSON to Java
 
@@ -39,5 +44,9 @@ public class ExtractDigitsFromSentence {
 
 # Java examples by AWS
 
-[Mutual TLS for Java based AWS Lambda functions](https://github.com/aws-samples/serverless-mutual-tls/tree/main/software)
+1. [Mutual TLS for Java based AWS Lambda functions](https://github.com/aws-samples/serverless-mutual-tls/tree/main/software)
+1. [AWS SDK for Java](https://github.com/aws/aws-sdk-java/tree/master)
+1. [AWS SDK for Java Documentation](https://docs.aws.amazon.com/sdk-for-java/index.html)
+1. [[MY NEXT] AWS SDK for Java (v2) code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2)
+1. [Managing Dependencies with AWS SDK for Java – Bill of Materials module (BOM) by Manikandan Subramanian ](https://aws.amazon.com/blogs/developer/managing-dependencies-with-aws-sdk-for-java-bill-of-materials-module-bom/)
 
