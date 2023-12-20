@@ -1,0 +1,2 @@
+
+1. [Caching data and configuration settings with AWS Lambda extensions by Julian Wood, Hari Ohm Prasath, and Vamsi Vikash Ankam](https://aws.amazon.com/blogs/compute/caching-data-and-configuration-settings-with-aws-lambda-extensions/)

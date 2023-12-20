@@ -5,6 +5,7 @@
 - [1. ALBs](#1-albs)
 - [2. Blueprints](#2-blueprints)
 - [3. CDK](#3-cdk)
+  - [3.1. Cluster Creation](#31-cluster-creation)
 - [4. CI/CD](#4-cicd)
   - [4.1. ArgoCD](#41-argocd)
   - [4.2. Spinnaker](#42-spinnaker)
@@ -35,6 +36,8 @@
 2. [Amazon EKS Blueprints for Terraform](https://aws-ia.github.io/terraform-aws-eks-blueprints/v4.32.1/)
 
 # 3. CDK
+
+## 3.1. Cluster Creation
 
 1. [Simplify integration of your Amazon EKS cluster with Amazon EKS Blueprints for CDK by Mikhail Shapirov and Elamaran Shanmugam](https://aws.amazon.com/blogs/infrastructure-and-automation/simplify-integration-of-your-amazon-eks-cluster-with-amazon-eks-blueprints-for-cdk/)
 
@@ -105,12 +108,14 @@
 
 # 15. Workshop
 
+1. [Welcome to the EKS Developers Workshop](https://developers.eksworkshop.com/docs/introduction)
+1. [Discover application refactoring with the EKS Developers Workshop by Leah Tucker](https://aws.amazon.com/blogs/containers/discover-application-refactoring-with-the-eks-developers-workshop/)
 1. [EKS Blueprints for CDK Workshop](https://catalog.workshops.aws/eks-blueprints-for-cdk/en-US)
-2. [Running batch workloads on Amazon EKS with AWS Batch](https://catalog.workshops.aws/running-batch-on-eks/en-US)
-3. [EKS Immersion Workshop](https://catalog.workshops.aws/eks-immersionday/en-US)
-4. [EKS Workshop - Practical exercises to learn about Amazon Elastic Kubernetes Service](https://www.eksworkshop.com/)
-5. [Manage your EKS cluster in Full-stack with CDK](https://catalog.us-east-1.prod.workshops.aws/workshops/c15012ac-d05d-46b1-8a4a-205e7c9d93c9/en-US/10-intro)
-6. [Kubernetes hands on introduction (2023) | Amazon EKS Workshop](https://www.youtube.com/watch?v=_TFk5jQr2lk&list=PLehXSATXjcQGIctop3ok3xIMB1cUCPYEK)
+1. [Running batch workloads on Amazon EKS with AWS Batch](https://catalog.workshops.aws/running-batch-on-eks/en-US)
+1. [EKS Immersion Workshop](https://catalog.workshops.aws/eks-immersionday/en-US)
+1. [EKS Workshop - Practical exercises to learn about Amazon Elastic Kubernetes Service](https://www.eksworkshop.com/)
+1. [Manage your EKS cluster in Full-stack with CDK](https://catalog.us-east-1.prod.workshops.aws/workshops/c15012ac-d05d-46b1-8a4a-205e7c9d93c9/en-US/10-intro)
+1. [Kubernetes hands on introduction (2023) | Amazon EKS Workshop](https://www.youtube.com/watch?v=_TFk5jQr2lk&list=PLehXSATXjcQGIctop3ok3xIMB1cUCPYEK)
 
 ## 15.1. Crossplane workshop
 
