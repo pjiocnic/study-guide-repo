@@ -7,7 +7,7 @@
 - https://github.com/fatihtepekoy/java-design-patterns/tree/master/src/designpatterns/behavioral/chainofresponsibility
 1. https://docs.spring.io/spring-security/reference/servlet/architecture.html
 1. https://kasunprageethdissanayake.medium.com/spring-security-the-security-filter-chain-2e399a1cb8e3
-1. https://medium.com/@omonsuru01/understanding-the-chain-of-responsibility-design-pattern-with-examples-e2f3101f657b
+1. [Understanding the Chain of Responsibility Design Pattern with Examples By Monsuru Okuniyi](https://medium.com/@omonsuru01/understanding-the-chain-of-responsibility-design-pattern-with-examples-e2f3101f657b)
 
 ## Example from CHATGPT
 
