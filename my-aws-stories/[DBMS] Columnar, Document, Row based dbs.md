@@ -16,3 +16,7 @@ In columnar database, All the column values are stored next to each other. In a 
 1. [AWS Purpose-Built Databases, Part 1 of 3](https://sqlstarters.com/2022/02/25/aws-purpose-built-databases-part-1-of-3/)
 2. [AWS Purpose-Built Databases, Part 2 of 3](https://sqlstarters.com/2022/03/24/aws-purpose-built-databases-part-2-of-3/)
 3. [AWS Purpose-Built Databases, Part 3 of 3](https://sqlstarters.com/2022/04/26/aws-purpose-built-databases-part-3-of-3/)
+
+# Columnar database
+
+1. https://learning.oreilly.com/library/view/scalable-data-architecture/9781801073080/B17084_02.xhtml#_idParaDest-41

@@ -4,8 +4,10 @@
 1. https://springframework.guru/gang-of-four-design-patterns/chain-of-responsibility-pattern/
 1. https://www.baeldung.com/chain-of-responsibility-pattern
 1. [Implementation of the Chain of Responsibility Design Pattern in Java with multiple children / Real world complex workflow example](https://www.linkedin.com/pulse/implementation-chain-responsibility-design-pattern-java-fatih-tepekoy/)
+- https://github.com/fatihtepekoy/java-design-patterns/tree/master/src/designpatterns/behavioral/chainofresponsibility
 1. https://docs.spring.io/spring-security/reference/servlet/architecture.html
 1. https://kasunprageethdissanayake.medium.com/spring-security-the-security-filter-chain-2e399a1cb8e3
+1. https://medium.com/@omonsuru01/understanding-the-chain-of-responsibility-design-pattern-with-examples-e2f3101f657b
 
 ## Example from CHATGPT
 

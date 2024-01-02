@@ -344,15 +344,31 @@ initialised at the top of my code before any functions
 
 3. https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/http-configuration-url.html
 
-# Other examples
+# JDK 11
 
+1. [Java 11 Network API: Use HttpClient for Synchronous HTTP Communication](https://learning.oreilly.com/scenarios/java-11-network/9781492081234/)
+1. [[JDK 11] Java HttpClient Connection Management](https://www.baeldung.com/java-httpclient-connection-management)
+1. [[JDK 11] Java HttpClient Timeout](https://www.baeldung.com/java-httpclient-timeout)
+1. [[JDK 11] Posting with Java HttpClient By Baeldung](https://www.baeldung.com/java-httpclient-post)
+1. [[JDK 11] Core Java, Volume II--Advanced Features, 11th Edition Cay S. Horstmann](https://learning.oreilly.com/library/view/core-java-volume/9780135167175/ch04.xhtml#ch4lev5)
+- How to turn on http logging
+1. [[MUST SEE] 10 Java Networking](https://docs.oracle.com/en/java/javase/17/core/java-networking.html#GUID-E6C82625-7C02-4AB3-B15D-0DF8A249CD73)
 1. [Introduction to the Java HTTP Client](https://openjdk.org/groups/net/httpclient/recipes.html)
 1. [How to send HTTP request GET/POST in Java](https://mkyong.com/java/how-to-send-http-request-getpost-in-java/)
-1. [Apache HttpClient Example - CloseableHttpClient](https://www.digitalocean.com/community/tutorials/apache-httpclient-example-closeablehttpclient)
-1. [Comparison of Java HTTP Clients](https://reflectoring.io/comparison-of-java-http-clients/)
-1. [Posting with Java HttpClient By Baeldung](https://www.baeldung.com/java-httpclient-post)
 1. [API Docs](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpClient.html)
-1. [Java 11 Network API: Use HttpClient for Synchronous HTTP Communication](https://learning.oreilly.com/scenarios/java-11-network/9781492081234/)
+
+# Apache Client
+
+1. [Apache HttpClient Example - CloseableHttpClient](https://www.digitalocean.com/community/tutorials/apache-httpclient-example-closeablehttpclient)
+
+# Comparisons
+
+1. [Comparison of Java HTTP Clients](https://reflectoring.io/comparison-of-java-http-clients/)
+- HttpClient included from Java 11
+- Apache HTTPClient from Apache HttpComponents project
+- OkHttpClient from Square
+- Spring WebClient for Spring Boot applications
+1. [Lesson I have learned from using JDK11 HTTP Client By Maxim Kirilov](https://medium.com/@kir.maxim/lesson-i-have-learned-from-using-jdk11-http-client-2cf990daba03)
 
 # AWS
 

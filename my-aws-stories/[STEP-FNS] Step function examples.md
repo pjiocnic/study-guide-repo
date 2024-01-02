@@ -14,3 +14,5 @@
 # workshop
 
 1. [PARALLEL STATE PROCESSING](https://000047.awsstudygroup.com/)
+1. [PARALLEL PROCESSING Using Step Functions](https://www.image-processing.serverlessworkshops.io/03_implementation/50_parallel-processing.html)
+1. [Triggering Step Functions using Event Bridge](https://www.image-processing.serverlessworkshops.io/04_validation.html)
