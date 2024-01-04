@@ -5,3 +5,4 @@
 1. Implementing Design Patterns Using Java 8 Lambda by Jose Paumard
 1. From Collections to Streams in Java 8 Using Lambda Expressions by Jose Paumard
 1. Streams, Collectors, and Optionals for Data Processing in Java 8 by Jose Paumard
+1. [Java 8 for Experienced Developers: Lambdas, Stream API & Beyond](https://www.educative.io/courses/java-8-lambdas-stream-api-beyond/functional-interfaces-in-java)

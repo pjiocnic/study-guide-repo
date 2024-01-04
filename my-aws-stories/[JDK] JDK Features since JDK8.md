@@ -20,3 +20,7 @@
 # Records
 
 1. [Avoid Lombok. Use Records to write cleaner code in Java 17 By Anurag Rana](https://medium.com/naukri-engineering/avoid-lombok-use-records-to-write-cleaner-code-in-java-17-b174548a6f5f)
+
+# Objects and Optionals
+
+https://www.baeldung.com/java-avoid-null-check
