@@ -1,0 +1,2 @@
+1. [Choosing the right solution for AWS Lambda external parameters by Julian Wood](https://aws.amazon.com/blogs/compute/choosing-the-right-solution-for-aws-lambda-external-parameters/)
+1. https://repost.aws/questions/QUem9rwtLGRriBseikwpXWSQ/when-to-use-lambda-env-variable-and-app-config

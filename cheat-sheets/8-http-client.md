@@ -57,7 +57,7 @@ public class HttpClientExample {
 
 ```
 
-# Deserialize to custom object
+# 1. Deserialize to custom object
 
 1. pom.xml
 
@@ -332,7 +332,7 @@ public class HttpClientExample {
 
 ```
 
-# Using with Lambda
+# 2. Using with Lambda
 
 1. Initializing
 
@@ -344,7 +344,7 @@ initialised at the top of my code before any functions
 
 3. https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/http-configuration-url.html
 
-# JDK 11
+# 3. JDK 11
 
 1. [Java 11 Network API: Use HttpClient for Synchronous HTTP Communication](https://learning.oreilly.com/scenarios/java-11-network/9781492081234/)
 1. [[JDK 11] Java HttpClient Connection Management](https://www.baeldung.com/java-httpclient-connection-management)
@@ -357,11 +357,15 @@ initialised at the top of my code before any functions
 1. [How to send HTTP request GET/POST in Java](https://mkyong.com/java/how-to-send-http-request-getpost-in-java/)
 1. [API Docs](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpClient.html)
 
-# Apache Client
+# 4. JDK 9
+
+1. [Exploring the New HTTP Client in Java](https://www.baeldung.com/java-9-http-client)
+
+# 5. Apache Client
 
 1. [Apache HttpClient Example - CloseableHttpClient](https://www.digitalocean.com/community/tutorials/apache-httpclient-example-closeablehttpclient)
 
-# Comparisons
+# 6. Comparisons
 
 1. [Comparison of Java HTTP Clients](https://reflectoring.io/comparison-of-java-http-clients/)
 - HttpClient included from Java 11
@@ -370,9 +374,17 @@ initialised at the top of my code before any functions
 - Spring WebClient for Spring Boot applications
 1. [Lesson I have learned from using JDK11 HTTP Client By Maxim Kirilov](https://medium.com/@kir.maxim/lesson-i-have-learned-from-using-jdk11-http-client-2cf990daba03)
 
-# AWS
+# 7. AWS
 
 1. [Introducing AWS Common Runtime HTTP Client in the AWS SDK for Java 2.x by Zoe Wang](https://aws.amazon.com/blogs/developer/introducing-aws-common-runtime-http-client-in-the-aws-sdk-for-java-2-x/)
 1. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads by Mithun Mallick](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)
 1. [Implementing mutual TLS for Java-based AWS Lambda functions by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/implementing-mutual-tls-for-java-based-aws-lambda-functions/)
 
+# 8. Jitters and Retries
+
+1. [Better Retries with Exponential Backoff and Jitter](https://www.baeldung.com/resilience4j-backoff-jitter)
+1. [Retries](https://encore.dev/blog/retries)
+
+# 9. Error Handling
+
+https://codereview.stackexchange.com/questions/11323/httpclient-error-handling
