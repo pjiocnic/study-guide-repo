@@ -1,0 +1,41 @@
+<h1>Sprint 3 - Jan 8, 2024 - Jan 14, 2024</h1>
+
+# Topics
+
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-samples/serverless/serverless-java-frameworks-samples
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/[TODO] svs-307-powertools
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/aws-lambda-java-workshop
+1. /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/aws-lambda-powertools-for-java
+
+
+# Tracks to Plan
+
+## API Gateway stories
+
+1. [A Detailed Overview of AWS API Gateway By Alex DeBrie](https://www.alexdebrie.com/posts/api-gateway-elements/#vocabulary-time-service-proxies-vs-proxy-integrations-vs-proxy-resources)
+1. [Connect AWS API Gateway directly to SNS using a service integration By Alex DeBrie](https://www.alexdebrie.com/posts/aws-api-gateway-service-proxy/)
+1. [Using Custom Resources to Extend your CloudFormation By Alex DeBrie](https://www.alexdebrie.com/posts/cloudformation-custom-resources/)
+1. [The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway By Alex DeBrie](https://www.alexdebrie.com/posts/lambda-custom-authorizers/)
+1. [The Missing Guide to AWS API Gateway Access Logs By Alex DeBrie](https://www.alexdebrie.com/posts/api-gateway-access-logs/)
+
+## Step Function integration with stripe
+
+1. [EventBridge API Destinations configuration](https://serverlessland.com/patterns/eventbridge-api-destinations)
+2. [Step Functions: What's new! | Serverless Office Hours](https://www.twitch.tv/videos/1996001723)
+
+## Lambda
+
+1. [Choosing the right solution for AWS Lambda external parameters by Julian Wood](https://aws.amazon.com/blogs/compute/choosing-the-right-solution-for-aws-lambda-external-parameters/)
+1. https://repost.aws/questions/QUem9rwtLGRriBseikwpXWSQ/when-to-use-lambda-env-variable-and-app-config
+1. [Java on AWS Lambda](https://catalog.workshops.aws/java-on-aws-lambda/en-US)
+1. [Lambda demo with common Java application frameworks](https://github.com/aws-samples/serverless-java-frameworks-samples/tree/main)
+1. https://docs.aws.amazon.com/lambda/latest/dg/java-samples.html
+
+## EKS
+
+1. https://www.eksworkshop.com/
+1. Rocking Kubernetes with Amazon EKS, Fargate, And DevOps
+
+## S3
+
+1. [[S3] How to query using Aethna.md](/Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/my-aws-stories/[S3] How to query using Aethna.md)

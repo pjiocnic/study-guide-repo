@@ -1,4 +1,4 @@
-<h1>Sprint 1 - Jan 1, 2024 - Jan 7, 2023</h1>
+<h1>Sprint 1 - Jan 1, 2024 - Jan 7, 2024</h1>
 
 # Topics
 

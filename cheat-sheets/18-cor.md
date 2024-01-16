@@ -189,7 +189,7 @@ public class HeaderTextProcessing extends ProcessingObject<String> {
 }
 public class SpellCheckerProcessing extends ProcessingObject<String> {
     public String handleWork(String text) {
-        return text.replaceAll("labda", "lambda");       1
+        return text.replaceAll("labda", "lambda");       
     }
 }
 ```
