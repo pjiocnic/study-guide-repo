@@ -2,6 +2,7 @@
 # Istio Introduction
 
 1. [Istio & Service Mesh - simply explained in 15 mins](https://www.youtube.com/watch?v=16fgzklcF7Y&t=0s)
+1. [[**MUST-SEE**] Service Mesh Architecture with Istio](https://www.baeldung.com/ops/istio-service-mesh)
 
 # Getting started
 

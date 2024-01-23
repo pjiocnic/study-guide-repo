@@ -24,3 +24,12 @@ https://aws.amazon.com/blogs/developer/aws-sdk-for-java-2-x-released/
 # 2. Read about serviceAccounts from KubernetesInAction ed1
 
 # 3. Getting started on Istio on EKS
+
+# Blogs
+
+1. [Service Mesh Architecture with Istio](https://www.baeldung.com/ops/istio-service-mesh)
+
+# Other stuff
+
+https://serverlessland.com/patterns/lambda-ssm
+https://serverlessland.com/patterns/lambda-secretsmanager-sam
