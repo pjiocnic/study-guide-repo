@@ -13,8 +13,7 @@
 https://aws.amazon.com/blogs/containers/tag/crossplane/
 https://blog.upbound.io/crossplane-aws-lambda-intro
 https://medium.com/cloudnloud/crossplane-introduction-1ccd77d6aa12
-https://github.com/awslabs/crossplane-on-eks
-https://blog.upbound.io/crossplane-first-look
+
 
 Crossplane on Amazon EKS - YouTube -https://www.youtube.com/watch?v=aWRWKnniqeM
 What Is Crossplane? By Nic Cope - https://learning.oreilly.com/library/view/what-is-crossplane/9781098146306/
@@ -28,7 +27,7 @@ What Is Crossplane? By Nic Cope - https://learning.oreilly.com/library/view/what
 # 2. Blueprints
 
 1. [Introducing AWS Blueprints for Crossplane by Vara Bonthu, Manabu McCloskey, and Nima Kaviani](https://aws.amazon.com/blogs/opensource/introducing-aws-blueprints-for-crossplane/)
-2. [Blueprints for Crossplane on Amazon EKS](https://github.com/awslabs/crossplane-on-eks)
+2. [[**AWS-LABS**] Blueprints for Crossplane on Amazon EKS](https://github.com/awslabs/crossplane-on-eks)
 
 # 3. Building infrastructure
 
@@ -44,7 +43,7 @@ What Is Crossplane? By Nic Cope - https://learning.oreilly.com/library/view/what
 
 # 5. Crossplane Videos
 
-1. [**[MY NEXT]** Deploying Lambda with EKS and Crossplane | Serverless Office Hours](https://www.youtube.com/watch?v=8CdyxX7eGkA)
+1. [[**MY-NEXT**] Deploying Lambda with EKS and Crossplane | Serverless Office Hours](https://www.youtube.com/watch?v=8CdyxX7eGkA)
 2. [Example that accompanies the video](https://github.com/awslabs/crossplane-on-eks/blob/main/examples/upbound-aws-provider/composite-resources/serverless-examples/sqs-lambda-s3/README.md)
 
 

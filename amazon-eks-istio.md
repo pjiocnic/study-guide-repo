@@ -5,11 +5,13 @@
 
 # Getting started
 
-1. [[START HERE] Istio Setup in Kubernetes By Nana | Step by Step Guide to install Istio Service Mesh](https://www.youtube.com/watch?v=voAyroDb6xk)
-1. [[START HERE] Mastering Istio on AWS EKS for Seamless Microservices Management By harsh](https://aws.plainenglish.io/unlocking-synergy-mastering-istio-on-aws-eks-for-seamless-microservices-management-b9ac7e1863b7)
+1. [[**START-HERE]** Istio Setup in Kubernetes By Nana | Step by Step Guide to install Istio Service Mesh](https://www.youtube.com/watch?v=voAyroDb6xk)
+1. [[**START-HERE**] Mastering Istio on AWS EKS for Seamless Microservices Management By harsh](https://aws.plainenglish.io/unlocking-synergy-mastering-istio-on-aws-eks-for-seamless-microservices-management-b9ac7e1863b7)
 1. [Getting Started with Istio on Amazon EKS by Praseeda Sathaye and Vijay Chintalapati](https://aws.amazon.com/blogs/opensource/getting-started-with-istio-on-amazon-eks/)
+1. [Using Istio Traffic Management on Amazon EKS to Enhance User Experience by Praseeda Sathaye, Sourav Paul, and Tiago Reichert](https://aws.amazon.com/blogs/opensource/using-istio-traffic-management-to-enhance-user-experience/)
 1. [Getting Started with Istio on Amazon EKS by Arun Gupta](https://aws.amazon.com/blogs/opensource/getting-started-istio-eks/)
-1. [[START HERE] Istio with Kubernetes on AWS](https://github.com/aws-samples/istio-on-amazon-eks)
+1. [[**START-HERE**] Istio with Kubernetes on AWS](https://github.com/aws-samples/istio-on-amazon-eks)
+1. https://aws.plainenglish.io/istio-kiali-and-jaeger-integration-in-amazon-eks-cluster-94e6574382b6
 
 # BluePrints
 
