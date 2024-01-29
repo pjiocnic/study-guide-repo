@@ -1,0 +1,1 @@
+[Recent Additions to Query and Aggregation You May Have Missed](https://youtu.be/FprmF6nmkWY?list=PL4RCxklHWZ9v3eIqQeKWcoNPSiLuVPyac&t=1062)

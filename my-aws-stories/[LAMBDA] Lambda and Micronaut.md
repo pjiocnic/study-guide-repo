@@ -7,6 +7,7 @@
 2. https://towardsaws.com/micronaut-application-on-aws-38ee7f029980
 3. https://towardsaws.com/deploy-micronaut-application-to-aws-d3d7ec25008a
 4. [START HERE](https://www.youtube.com/watch?v=dboYoxQFePo)
+5. [Micronaut Serverless Architecture using AWS Lambda](https://www.youtube.com/watch?v=dboYoxQFePo)
 
 # Books
 

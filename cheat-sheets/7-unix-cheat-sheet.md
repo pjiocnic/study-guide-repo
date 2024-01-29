@@ -43,3 +43,49 @@ find "$directory" -type f -exec bash -c '
 ' bash {} +
 
 ```
+
+# Unformat JSON
+
+I have an formatted input json
+
+```bash
+{
+"endpointApplications": {
+    "App_Name": {
+        "connectionState": "Disconnected",
+        "connectionTime": "No connection was established",
+        "linkAttributes": {
+            "ackSettings": {
+                "dataAckEnabled": "true",
+                "dataAckTimeout": "5000",
+                "dataNakRetryLimit": "0",
+                "retransmitDelay": "500"
+            },
+            "keepAliveSettings": {
+                "keepAliveAckTimeout": "5000",
+                "keepAliveInterval": "30000"
+            },
+            "logTraffic": "false",
+            "port": "9999",
+            "role": "server"
+        },
+        "protocol": "snmp"
+    }
+},
+"queueStats": {}
+}
+```
+
+Use following command to unformat:
+
+```bash
+awk -v RS= '{$1=$1}1' input.json
+
+{ "endpointApplications": { "App_Name": { "connectionState": "Disconnected", "connectionTime": "No connection was established", "linkAttributes": { "ackSettings": { "dataAckEnabled": "true", "dataAckTimeout": "5000", "dataNakRetryLimit": "0", "retransmitDelay": "500" }, "keepAliveSettings": { "keepAliveAckTimeout": "5000", "keepAliveInterval": "30000" }, "logTraffic": "false", "port": "9999", "role": "server" }, "protocol": "snmp" } }, "queueStats": {} }
+```
+
+Using jq option
+
+```bash
+jq -c . input.txt
+```

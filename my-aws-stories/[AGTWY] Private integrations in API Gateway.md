@@ -6,3 +6,5 @@ These examples also show how to deploy ECS fargate using CFN
   <img src="../images/agtwy-vpc-link-1.png" title="agtwy-vpc-link-1.png" width="900"/>
 1. [[**ACROSS REGIONS**] Access Private applications on AWS Fargate using Amazon API Gateway PrivateLink by Mani Chandrasekaran](https://aws.amazon.com/blogs/compute/access-private-applications-on-aws-fargate-using-amazon-api-gateway-privatelink/)
   <img src="../images/agtwy-vpc-link-2.png" title="agtwy-vpc-link-2.png" width="900"/>
+1. [Architecting for scale with Amazon API Gateway private integrations By by Lior Sadan and Anandprasanna Gaitonde](https://aws.amazon.com/blogs/compute/architecting-for-scale-with-amazon-api-gateway-private-integrations/)
+1. [API Gateway private integrations | Serverless Office Hours](https://www.twitch.tv/videos/2041400932)
