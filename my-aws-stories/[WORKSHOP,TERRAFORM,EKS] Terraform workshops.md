@@ -8,3 +8,4 @@
 
 1. [Terraform EKS Workshop](https://tf-eks-workshop.workshop.aws/)
 1. [EKS Blueprints for Terraform](https://catalog.us-east-1.prod.workshops.aws/workshops/d2b662ae-e9d7-4b31-b68b-64ade19d5dcc)
+1. [OLD VERSION - Amazon Eks Terraform Workshop](https://tf-eks-workshop.workshop.aws/)

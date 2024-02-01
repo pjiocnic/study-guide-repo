@@ -89,3 +89,23 @@ Using jq option
 ```bash
 jq -c . input.txt
 ```
+
+# awk patterns
+
+```bash
+awk '
+    /pattern/ {
+        # custom block to print the line
+    }
+    !/pattern/ {
+        # else do other things
+    }
+'
+```
+
+2. if-next-else
+
+```bash
+awk '/pattern/ {do this;next} {else this block will be run}
+awk '/orange/{gsub("cow", "cow~")} 1' "$file"
+```

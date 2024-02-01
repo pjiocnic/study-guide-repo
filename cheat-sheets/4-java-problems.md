@@ -1,5 +1,16 @@
+<h1>Solutions to Java Problems</h1>
 
-1. How to extract contiguous digits from a sentence?
+<!-- TOC -->
+
+- [1. How to extract contiguous digits from a sentence?](#1-how-to-extract-contiguous-digits-from-a-sentence)
+- [2. Java Examples for Coding Best Practices](#2-java-examples-for-coding-best-practices)
+- [3. JSON to Java](#3-json-to-java)
+- [4. Java examples by AWS](#4-java-examples-by-aws)
+- [5. Comparing examples](#5-comparing-examples)
+
+<!-- /TOC -->
+
+# 1. How to extract contiguous digits from a sentence?
 
 ```java
 import java.util.regex.Matcher;
@@ -25,7 +36,7 @@ public class ExtractDigitsFromSentence {
 }
 ```
 
-# Java Examples for Coding Best Practices
+# 2. Java Examples for Coding Best Practices
 
 1. [Powertools for AWS Lambda (Java)](https://github.com/aws-powertools/powertools-lambda-java/tree/main)
 1. [Simplifying serverless best practices with AWS Lambda Powertools Java by Pankaj Agrawal](https://aws.amazon.com/blogs/opensource/simplifying-serverless-best-practices-with-aws-lambda-powertools-java/)
@@ -37,12 +48,12 @@ public class ExtractDigitsFromSentence {
 - List.ofAll(newServlets).appendAll(existingServlets).distinct();
 - Method references
 
-# JSON to Java
+# 3. JSON to Java
 
 1. [Generate a Java Class From JSON](https://www.baeldung.com/java-generate-class-from-json)
 1. [Converting JSON to POJOs Using Java](https://dzone.com/articles/converting-json-to-pojos-using-java)
 
-# Java examples by AWS
+# 4. Java examples by AWS
 
 1. [Mutual TLS for Java based AWS Lambda functions](https://github.com/aws-samples/serverless-mutual-tls/tree/main/software)
 1. [AWS SDK for Java](https://github.com/aws/aws-sdk-java/tree/master)
@@ -50,3 +61,39 @@ public class ExtractDigitsFromSentence {
 1. [[MY NEXT] AWS SDK for Java (v2) code examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2)
 1. [Managing Dependencies with AWS SDK for Java – Bill of Materials module (BOM) by Manikandan Subramanian ](https://aws.amazon.com/blogs/developer/managing-dependencies-with-aws-sdk-for-java-bill-of-materials-module-bom/)
 
+# 5. Comparing examples
+
+```java
+
+public interface InterfaceA {
+    String getName();
+    int getAge();
+
+    default boolean commonEquals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+
+        InterfaceA other = (InterfaceA) obj;
+        return this.getName().equals(other.getName()) && this.getAge() == other.getAge();
+    }
+}
+
+public class ClassA implements InterfaceA {
+    private String name;
+    private int age;
+
+    // Constructor and other methods
+
+    // No need to override equals, it will use the default method in InterfaceA
+}
+
+public class ClassB implements InterfaceA {
+    private String name;
+    private int age;
+
+    // Constructor and other methods
+
+    // No need to override equals, it will use the default method in InterfaceA
+}
+
+```
