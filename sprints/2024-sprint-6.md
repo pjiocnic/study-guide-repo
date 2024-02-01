@@ -22,3 +22,5 @@ https://snyk.io/blog/10-kubernetes-security-context-settings-you-should-understa
 
 # HK 2
 1. https://github.com/aws/serverless-java-container/wiki/Quick-start---Jersey
+
+https://medium.com/@christopheradamson253/getting-started-with-aws-cloudmap-a-step-by-step-guide-c41100c4f07f
