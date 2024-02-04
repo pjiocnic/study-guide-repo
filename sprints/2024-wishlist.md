@@ -1,4 +1,8 @@
 
+# API Gateway Private Integrations
+
+See [[AGTWY] Private integrations in API Gateway.md](..//my-aws-stories/[AGTWY]%20Private%20integrations%20in%20API%20Gateway.md)
+
 # Step functions
 
 1. [Step Functions: What's new! | Serverless Office Hours](https://www.twitch.tv/videos/1996001723)

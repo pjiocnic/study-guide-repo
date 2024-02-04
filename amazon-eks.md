@@ -34,6 +34,7 @@
 
 1. [Amazon EKS Blueprints Quick Start](https://aws-quickstart.github.io/cdk-eks-blueprints/pipelines/)
 2. [Amazon EKS Blueprints for Terraform](https://aws-ia.github.io/terraform-aws-eks-blueprints/v4.32.1/)
+3. [[WORKSHOP] EKS Blueprints for Terraform](https://catalog.us-east-1.prod.workshops.aws/workshops/d2b662ae-e9d7-4b31-b68b-64ade19d5dcc/en-US)
 
 # 3. CDK
 
@@ -116,6 +117,7 @@
 1. [EKS Workshop - Practical exercises to learn about Amazon Elastic Kubernetes Service](https://www.eksworkshop.com/)
 1. [Manage your EKS cluster in Full-stack with CDK](https://catalog.us-east-1.prod.workshops.aws/workshops/c15012ac-d05d-46b1-8a4a-205e7c9d93c9/en-US/10-intro)
 1. [Kubernetes hands on introduction (2023) | Amazon EKS Workshop](https://www.youtube.com/watch?v=_TFk5jQr2lk&list=PLehXSATXjcQGIctop3ok3xIMB1cUCPYEK)
+1. [How to navigate EKS workshop](https://aws.plainenglish.io/hands-on-labs-for-amazon-eks-a-great-intro-to-learning-amazon-eks-8be386de483b)
 
 ## 15.1. Crossplane workshop
 

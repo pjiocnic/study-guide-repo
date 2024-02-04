@@ -4,6 +4,10 @@
 1. [Introduction to Terraform on AWS](https://catalog.workshops.aws/terraform101/en-US)
 1. [Managing Cloud Resources with Terraform](https://catalog.workshops.aws/manage-cloud-resources-with-terraform/en-US)
 
+# AWS
+
+1. [AWS Terraform Workshop](https://aws-quickstart.github.io/workshop-terraform-modules/)
+
 # EKS
 
 1. [Terraform EKS Workshop](https://tf-eks-workshop.workshop.aws/)
