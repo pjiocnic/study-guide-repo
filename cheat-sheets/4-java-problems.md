@@ -9,6 +9,7 @@
 - [5. Comparing examples](#5-comparing-examples)
 - [6. Add if absent](#6-add-if-absent)
 - [7. Maintaining a sort order](#7-maintaining-a-sort-order)
+- [Sorting by different ways](#sorting-by-different-ways)
 
 <!-- /TOC -->
 
@@ -278,6 +279,65 @@ public class Person implements Comparable<Person> {
 
         // Print the sorted set
         personSet.forEach(System.out::println);
+    }
+}
+
+```
+
+# Sorting by different ways
+
+```java
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+@Data
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+public class Person {
+    @EqualsAndHashCode.Include
+    private String name;
+
+    private int age;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public static void main(String[] args) {
+        // Sorting by name
+        Set<Person> nameSortedSet = new TreeSet<>(new NameComparator());
+        nameSortedSet.add(new Person("Alice", 30));
+        nameSortedSet.add(new Person("Bob", 25));
+        nameSortedSet.add(new Person("Alice", 25));
+
+        System.out.println("Sorted by name:");
+        nameSortedSet.forEach(System.out::println);
+
+        // Sorting by age
+        Set<Person> ageSortedSet = new TreeSet<>(new AgeComparator());
+        ageSortedSet.add(new Person("Alice", 30));
+        ageSortedSet.add(new Person("Bob", 25));
+        ageSortedSet.add(new Person("Alice", 25));
+
+        System.out.println("\nSorted by age:");
+        ageSortedSet.forEach(System.out::println);
+    }
+}
+
+class NameComparator implements java.util.Comparator<Person> {
+    @Override
+    public int compare(Person p1, Person p2) {
+        return p1.getName().compareTo(p2.getName());
+    }
+}
+
+class AgeComparator implements java.util.Comparator<Person> {
+    @Override
+    public int compare(Person p1, Person p2) {
+        return Integer.compare(p1.getAge(), p2.getAge());
     }
 }
 
