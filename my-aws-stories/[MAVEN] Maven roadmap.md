@@ -6,6 +6,7 @@
 - [3. Multi-topics](#3-multi-topics)
 - [4. Tutorial](#4-tutorial)
 - [5. Shade Plugin](#5-shade-plugin)
+- [Plugins](#plugins)
 
 <!-- /TOC -->
 
@@ -33,3 +34,7 @@
 # 5. Shade Plugin
 
 1. [How to Create an Executable JAR with Maven](https://www.baeldung.com/executable-jar-with-maven)
+
+# Plugins
+
+1. [How to Create a Maven Plugin](https://www.baeldung.com/maven-plugin)
