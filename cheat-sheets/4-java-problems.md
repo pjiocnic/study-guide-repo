@@ -10,6 +10,7 @@
 - [6. Add if absent](#6-add-if-absent)
 - [7. Maintaining a sort order](#7-maintaining-a-sort-order)
 - [Sorting by different ways](#sorting-by-different-ways)
+- [Implementing different equalsAndHashCode methods](#implementing-different-equalsandhashcode-methods)
 
 <!-- /TOC -->
 
@@ -338,6 +339,68 @@ class AgeComparator implements java.util.Comparator<Person> {
     @Override
     public int compare(Person p1, Person p2) {
         return Integer.compare(p1.getAge(), p2.getAge());
+    }
+}
+
+```
+
+# Implementing different equalsAndHashCode methods
+
+```java
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@Data
+@EqualsAndHashCode(onlyExplicitlyIncluded = true, callSuper = false)
+public class Person {
+    @EqualsAndHashCode.Include
+    private String name;
+
+    private int age;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public static void main(String[] args) {
+        // Using default equals and hashCode
+        Person person1 = new Person("Alice", 25);
+        Person person2 = new Person("Alice", 25);
+
+        System.out.println("Default equals and hashCode:");
+        System.out.println(person1.equals(person2));  // true
+        System.out.println(person1.hashCode() == person2.hashCode());  // true
+
+        // Using only name for equals and hashCode
+        @EqualsAndHashCode(onlyExplicitlyIncluded = true, callSuper = false, exclude = {"age"})
+        class PersonByName extends Person {
+            public PersonByName(String name, int age) {
+                super(name, age);
+            }
+        }
+
+        PersonByName personByName1 = new PersonByName("Alice", 25);
+        PersonByName personByName2 = new PersonByName("Alice", 30);
+
+        System.out.println("\nEquals and hashCode only based on name:");
+        System.out.println(personByName1.equals(personByName2));  // true
+        System.out.println(personByName1.hashCode() == personByName2.hashCode());  // true
+
+        // Using only age for equals and hashCode
+        @EqualsAndHashCode(onlyExplicitlyIncluded = true, callSuper = false, exclude = {"name"})
+        class PersonByAge extends Person {
+            public PersonByAge(String name, int age) {
+                super(name, age);
+            }
+        }
+
+        PersonByAge personByAge1 = new PersonByAge("Alice", 25);
+        PersonByAge personByAge2 = new PersonByAge("Bob", 25);
+
+        System.out.println("\nEquals and hashCode only based on age:");
+        System.out.println(personByAge1.equals(personByAge2));  // true
+        System.out.println(personByAge1.hashCode() == personByAge2.hashCode());  // true
     }
 }
 
