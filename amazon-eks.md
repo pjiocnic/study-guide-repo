@@ -2,6 +2,7 @@
 
 <!-- TOC -->
 
+- [Curate](#curate)
 - [1. ALBs](#1-albs)
 - [2. Blueprints](#2-blueprints)
 - [3. CDK](#3-cdk)
@@ -24,6 +25,11 @@
   - [15.1. Crossplane workshop](#151-crossplane-workshop)
 
 <!-- /TOC -->
+
+# Curate
+
+1. [Use CloudFormation to automate management of the Fargate profile in Amazon EKS by Gaurav Acharya](https://aws.amazon.com/blogs/containers/use-cloudformation-to-automate-management-of-the-fargate-profile-in-amazon-eks/)
+1. [8 best practices when automating your deployments with AWS CloudFormation by Dave May](https://aws.amazon.com/blogs/infrastructure-and-automation/best-practices-automating-deployments-with-aws-cloudformation/)
 
 # 1. ALBs
 

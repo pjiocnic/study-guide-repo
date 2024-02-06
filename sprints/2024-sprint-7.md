@@ -5,3 +5,4 @@
 3. EKS IP exhaustion
 4. Powertools
 5. Private endpoints for APIGTWY
+6. https://developer.hashicorp.com/terraform/tutorials/aws
