@@ -63,7 +63,6 @@
 
 <img src="./images/SecureEndtoEndTrafficOnEKS2.jpg" title="SecureEndtoEndTrafficOnEKS2.jpg" width="900"/>
 
-
 # 9. Path based routing
 
 1. [How to Implement Path-Based Routing Using Istio Ingress Gateway on AWS Elastic Kubernetes Service By Ronie Horca](https://hxhronies.medium.com/how-to-implement-path-based-routing-using-istio-ingress-gateway-on-aws-elastic-kubernetes-service-a15ce34eae3f)
