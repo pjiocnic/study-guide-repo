@@ -11,6 +11,7 @@
 - [7. Maintaining a sort order](#7-maintaining-a-sort-order)
 - [Sorting by different ways](#sorting-by-different-ways)
 - [Implementing different equalsAndHashCode methods](#implementing-different-equalsandhashcode-methods)
+- [Sorting and Unique TreeSets](#sorting-and-unique-treesets)
 
 <!-- /TOC -->
 
@@ -401,6 +402,71 @@ public class Person {
         System.out.println("\nEquals and hashCode only based on age:");
         System.out.println(personByAge1.equals(personByAge2));  // true
         System.out.println(personByAge1.hashCode() == personByAge2.hashCode());  // true
+    }
+}
+
+```
+
+# Sorting and Unique TreeSets
+
+```java
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+import java.time.LocalDateTime;
+import java.util.Comparator;
+import java.util.Set;
+import java.util.TreeSet;
+
+@Data
+@EqualsAndHashCode(onlyExplicitlyIncluded = true, of = {"B", "C"})
+public class MyClass {
+    private LocalDateTime A;
+    @EqualsAndHashCode.Include
+    private String B;
+    @EqualsAndHashCode.Include
+    private MyEnum C;
+
+    public MyClass(LocalDateTime A, String B, MyEnum C) {
+        this.A = A;
+        this.B = B;
+        this.C = C;
+    }
+
+    public static void main(String[] args) {
+        Set<MyClass> myClassSet = new TreeSet<>(new MyComparator());
+
+        // Adding elements to the set
+        myClassSet.add(new MyClass(LocalDateTime.now(), "B1", MyEnum.VALUE1));
+        myClassSet.add(new MyClass(LocalDateTime.now().minusDays(1), "B2", MyEnum.VALUE2));
+        myClassSet.add(new MyClass(LocalDateTime.now().minusDays(1), "B2", MyEnum.VALUE2)); // Duplicate B and C, but different A
+        myClassSet.add(new MyClass(LocalDateTime.now(), "B1", MyEnum.VALUE1)); // Duplicate A, B, and C
+
+        // Printing the set
+        myClassSet.forEach(System.out::println);
+    }
+}
+
+// Enum definition
+enum MyEnum {
+    VALUE1, VALUE2, VALUE3
+}
+
+// Custom comparator
+class MyComparator implements Comparator<MyClass> {
+    @Override
+    public int compare(MyClass o1, MyClass o2) {
+        int compareA = o1.getA().compareTo(o2.getA());
+        if (compareA != 0) {
+            return compareA;
+        }
+
+        int compareB = o1.getB().compareTo(o2.getB());
+        if (compareB != 0) {
+            return compareB;
+        }
+
+        return o1.getC().compareTo(o2.getC());
     }
 }
 
