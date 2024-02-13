@@ -13,6 +13,7 @@
 - [9. Implementing different equalsAndHashCode methods](#9-implementing-different-equalsandhashcode-methods)
 - [10. Sorting and Unique TreeSets](#10-sorting-and-unique-treesets)
 - [11. ENUM example](#11-enum-example)
+- [Conditional setting](#conditional-setting)
 
 <!-- /TOC -->
 
@@ -514,4 +515,37 @@ public class EnumExample {
     }
 }
 
+```
+
+# Conditional setting
+
+```java
+import java.util.Arrays;
+
+public class MyClass {
+    private String animalType;
+
+    // Constructor, getters, setters
+
+    // Method to set the animal type based on string value using lambda
+    public void setAnimalTypeFromString(String animalType) {
+        AnimalTypeEnum enumValue = Arrays.stream(AnimalTypeEnum.values())
+                                        .filter(value -> value.toString().equalsIgnoreCase(animalType))
+                                        .findFirst()
+                                        .orElse(AnimalTypeEnum.UNKNOWN);
+
+        if (enumValue == AnimalTypeEnum.DOG || enumValue == AnimalTypeEnum.CAT) {
+            this.animalType = enumValue.toString();
+        } else {
+            this.animalType = AnimalTypeEnum.UNKNOWN.toString();
+        }
+    }
+}
+
+// Define the AnimalTypeEnum with three values: DOG, CAT, and UNKNOWN
+enum AnimalTypeEnum {
+    DOG,
+    CAT,
+    UNKNOWN;
+}
 ```
