@@ -9,9 +9,10 @@
 - [5. Comparing examples](#5-comparing-examples)
 - [6. Add if absent](#6-add-if-absent)
 - [7. Maintaining a sort order](#7-maintaining-a-sort-order)
-- [Sorting by different ways](#sorting-by-different-ways)
-- [Implementing different equalsAndHashCode methods](#implementing-different-equalsandhashcode-methods)
-- [Sorting and Unique TreeSets](#sorting-and-unique-treesets)
+- [8. Sorting by different ways](#8-sorting-by-different-ways)
+- [9. Implementing different equalsAndHashCode methods](#9-implementing-different-equalsandhashcode-methods)
+- [10. Sorting and Unique TreeSets](#10-sorting-and-unique-treesets)
+- [11. ENUM example](#11-enum-example)
 
 <!-- /TOC -->
 
@@ -286,7 +287,7 @@ public class Person implements Comparable<Person> {
 
 ```
 
-# Sorting by different ways
+# 8. Sorting by different ways
 
 ```java
 import lombok.Data;
@@ -345,7 +346,7 @@ class AgeComparator implements java.util.Comparator<Person> {
 
 ```
 
-# Implementing different equalsAndHashCode methods
+# 9. Implementing different equalsAndHashCode methods
 
 ```java
 import lombok.Data;
@@ -407,7 +408,7 @@ public class Person {
 
 ```
 
-# Sorting and Unique TreeSets
+# 10. Sorting and Unique TreeSets
 
 ```java
 import lombok.Data;
@@ -467,6 +468,49 @@ class MyComparator implements Comparator<MyClass> {
         }
 
         return o1.getC().compareTo(o2.getC());
+    }
+}
+
+```
+
+# 11. ENUM example
+
+```java
+import java.util.Arrays;
+
+public class EnumExample {
+
+    // Define an enum with multiple types and a constructor
+    public enum AnimalType {
+        DOG("Dog"),
+        CAT("Cat"),
+        BIRD("Bird"),
+        UNKNOWN("Unknown");
+
+        private final String typeName;
+
+        AnimalType(String typeName) {
+            this.typeName = typeName;
+        }
+
+        public String getTypeName() {
+            return typeName;
+        }
+    }
+
+    // Method to convert a string parameter to the corresponding enum value using streams
+    public static AnimalType getAnimalType(String type) {
+        return Arrays.stream(AnimalType.values())
+                     .filter(animalType -> animalType.getTypeName().equalsIgnoreCase(type))
+                     .findFirst()
+                     .orElse(AnimalType.UNKNOWN);
+    }
+
+    public static void main(String[] args) {
+        // Example usage
+        String userInput = "Fish"; // This will result in UNKNOWN
+        AnimalType animalType = getAnimalType(userInput);
+        System.out.println("Selected animal type: " + animalType);
     }
 }
 

@@ -4,6 +4,7 @@
 
 - [1. Curate](#1-curate)
 - [2. ALBs](#2-albs)
+- [Best Practices](#best-practices)
 - [3. Blueprints](#3-blueprints)
 - [4. CDK](#4-cdk)
   - [4.1. Cluster Creation](#41-cluster-creation)
@@ -31,11 +32,17 @@
 
 1. [Use CloudFormation to automate management of the Fargate profile in Amazon EKS by Gaurav Acharya](https://aws.amazon.com/blogs/containers/use-cloudformation-to-automate-management-of-the-fargate-profile-in-amazon-eks/)
 1. [8 best practices when automating your deployments with AWS CloudFormation by Dave May](https://aws.amazon.com/blogs/infrastructure-and-automation/best-practices-automating-deployments-with-aws-cloudformation/)
+1. https://eksctl.io/usage/vpc-configuration/
+1. https://aws.github.io/aws-eks-best-practices/networking/vpc-cni/
 
 # 2. ALBs
 
 1. [Deploying AWS Load Balancer Controller on Amazon EKS by Karthik Chemudupati, Scott Chang, and James Wenzel](https://aws.amazon.com/blogs/networking-and-content-delivery/deploying-aws-load-balancer-controller-on-amazon-eks/)
 - [CODE / Cloudformation](https://github.com/aws-samples/eks-single-button-aws-alb-addon-installation/tree/main)
+
+# Best Practices
+
+1. [EKS Best Practices Guides](https://aws.github.io/aws-eks-best-practices/networking/vpc-cni/)
 
 # 3. Blueprints
 
