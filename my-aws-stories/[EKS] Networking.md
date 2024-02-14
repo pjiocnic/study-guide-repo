@@ -22,6 +22,7 @@
 # Curate
 
 1. [Amazon VPC CNI now supports Kubernetes Network Policies by Srinivas Jasti and Sheetal Joshi ](https://aws.amazon.com/blogs/containers/amazon-vpc-cni-now-supports-kubernetes-network-policies/)
+1. [Amazon EKS Best Practices Guide for Networking](https://aws.github.io/aws-eks-best-practices/networking/index/)
 
 # IPAMD
 
