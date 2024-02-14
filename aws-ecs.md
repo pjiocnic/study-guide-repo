@@ -27,13 +27,6 @@
 - [16. LaunchTypes - EC2 vs Fargate](#16-launchtypes---ec2-vs-fargate)
 - [17. Tasks](#17-tasks)
   - [17.1. Task with Multi-Containers](#171-task-with-multi-containers)
-- [18. Networking](#18-networking)
-  - [18.1. Differences between different Networking modes](#181-differences-between-different-networking-modes)
-  - [18.2. AWS VPC mode](#182-aws-vpc-mode)
-  - [18.3. Bridge Mode](#183-bridge-mode)
-  - [18.4. Host Mode](#184-host-mode)
-  - [18.5. NAT Mode](#185-nat-mode)
-  - [18.6. NONE Mode](#186-none-mode)
 - [19. Samples](#19-samples)
   - [19.1. API Gateway](#191-api-gateway)
   - [19.2. ALB](#192-alb)
@@ -192,36 +185,6 @@
 ## 17.1. Task with Multi-Containers
 
 1. [Create a multi-container app with multiple tasks using ECS- Elastic Container Service. AWS Tutorials](https://www.youtube.com/watch?v=mbtU-5fXXiw)
-
-# 18. Networking
-
-## 18.1. Differences between different Networking modes
-
-1. [Multi-Containers App on AWS Fargate](https://yosi-pramajaya.medium.com/multi-containers-app-on-aws-fargate-e86d9dc6e207)
-
-## 18.2. AWS VPC mode
-
-1. [[**MY NEXT**] Introducing Cloud Native Networking for Amazon ECS Containers By Anirudh Aithal](https://aws.amazon.com/blogs/compute/introducing-cloud-native-networking-for-ecs-containers/)
-2. [[**MY NEXT**] Under the Hood: Task Networking for Amazon ECS By Anirudh Aithal](https://aws.amazon.com/blogs/compute/under-the-hood-task-networking-for-amazon-ecs/)
-3. [Optimizing Amazon ECS task density using awsvpc network mode by Tony Pujals ](https://aws.amazon.com/blogs/compute/optimizing-amazon-ecs-task-density-using-awsvpc-network-mode/)
-4. [Task Networking in AWS Fargate by Nathan Peck](https://aws.amazon.com/blogs/compute/task-networking-in-aws-fargate/)
-5. [Amazon ECS Workshop > ECS Networking > AWSVPC mode](https://ecsworkshop.com/ecs_networking/awsvpc/)
-
-## 18.3. Bridge Mode
-
-1. [Amazon ECS Workshop > ECS Networking > Bridge mode](https://ecsworkshop.com/ecs_networking/bridge/)
-
-## 18.4. Host Mode
-
-1. [Amazon ECS Workshop > ECS Networking > Host mode](https://ecsworkshop.com/ecs_networking/host/)
-
-## 18.5. NAT Mode
-
-1. [Amazon ECS Workshop > ECS Networking > NAT mode (Windows)](https://ecsworkshop.com/ecs_networking/nat/)
-
-## 18.6. NONE Mode
-
-1. [ Amazon ECS Workshop > ECS Networking > None mode](https://ecsworkshop.com/ecs_networking/none/)
 
 # 19. Samples
 
