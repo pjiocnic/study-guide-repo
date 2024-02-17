@@ -1,0 +1,148 @@
+Resources:
+  cloud9workshopssmaccessroleFFE13872:
+    Type: "AWS::IAM::Role"
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action: "sts:AssumeRole"
+            Effect: Allow
+            Principal:
+              Service:
+                - cloud9.amazonaws.com
+                - ec2.amazonaws.com
+        Version: 2012-10-17
+      Description: Service linked role for AWS Cloud9
+      ManagedPolicyArns:
+        - !Join
+          - ""
+          - - "arn:"
+            - !Ref "AWS::Partition"
+            - ":iam::aws:policy/AdministratorAccess"
+      Path: /service-role/
+      RoleName: AWSCloud9SSMAccessRole
+      Tags:
+        - Key: Managed by
+          Value: aws-cdk
+        - Key: Owner
+          Value: jktruong
+    UpdateReplacePolicy: Delete
+    DeletionPolicy: Delete
+    Metadata:
+      "aws:cdk:path": Cloud9Stack/cloud9-workshop-ssm-access-role/Resource
+  cloud9workshopinstanceprofile:
+    Type: "AWS::IAM::InstanceProfile"
+    Properties:
+      Roles:
+        - !Ref cloud9workshopssmaccessroleFFE13872
+      InstanceProfileName: AWSCloud9SSMInstanceProfile
+      Path: /cloud9/
+    Metadata:
+      "aws:cdk:path": Cloud9Stack/cloud9-workshop-instance-profile
+  cloud9workshop:
+    Type: "AWS::Cloud9::EnvironmentEC2"
+    Properties:
+      InstanceType: t3.medium
+      AutomaticStopTimeMinutes: 90
+      ConnectionType: CONNECT_SSM
+      Description: Terraform // Cloud9
+      ImageId: "resolve:ssm:/aws/service/cloud9/amis/amazonlinux-2023-x86_64"
+      Name: cloud9-workshop
+      Tags:
+        - Key: Managed by
+          Value: aws-cdk
+        - Key: Owner
+          Value: jktruong
+        - Key: SSMInstallFiles
+          Value: "True"
+    DependsOn:
+      - cloud9workshopinstanceprofile
+    Metadata:
+      "aws:cdk:path": Cloud9Stack/cloud9-workshop
+  cloud9workshopdocument:
+    Type: "AWS::SSM::Document"
+    Properties:
+      Content:
+        schemaVersion: "2.2"
+        description: Update Cloud9 Instance
+        parameters:
+          environmentID:
+            type: String
+            description: Cloud9 Environment Id
+            default: Invalid ID
+          username:
+            type: String
+            description: Default User name
+            default: ec2-user
+        mainSteps:
+          - action: "aws:runShellScript"
+            name: PatchLinux
+            precondition:
+              StringEquals:
+                - platformType
+                - Linux
+            inputs:
+              runCommand:
+                - "#!/bin/bash"
+                - echo "Running as $(whoami)"
+                - 'echo "Target User - {{ username }}"'
+                - 'echo "Target Environment ID - {{ environmentID }}"'
+                - printenv
+                - >-
+                  echo "============================ SETTING UP PARAMETERS
+                  ========================================="
+                - echo "Using AWS CLI Version - $(aws --version)"
+                - dnf config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+                - dnf install --assumeyes terraform
+                - sudo -u {{ username }} terraform -install-autocomplete
+                - echo "Using Terraform Version - $(terraform --version)"
+      DocumentType: Command
+      Name: cloud9-workshop-document
+      Tags:
+        - Key: Managed by
+          Value: aws-cdk
+        - Key: Owner
+          Value: jktruong
+    Metadata:
+      "aws:cdk:path": Cloud9Stack/cloud9-workshop-document
+  cloud9workshopassociation:
+    Type: "AWS::SSM::Association"
+    Properties:
+      Name: !Ref cloud9workshopdocument
+      AssociationName: cloud9-workshop-document-association
+      Parameters:
+        environmentID:
+          - !Ref cloud9workshop
+      Targets:
+        - Key: "tag:SSMInstallFiles"
+          Values:
+            - "True"
+      WaitForSuccessTimeoutSeconds: 600
+    Metadata:
+      "aws:cdk:path": Cloud9Stack/cloud9-workshop-association
+Outputs:
+  cloud9workshoparn:
+    Description: Cloud9 ARN
+    Value: !GetAtt
+      - cloud9workshop
+      - Arn
+    Export:
+      Name: Cloud9ARN
+  cloud9workshopide:
+    Description: Cloud9 IDE Endpoint
+    Value: !Join
+      - ""
+      - - "https://"
+        - !Ref "AWS::Region"
+        - .console.aws.amazon.com/cloud9/ide/
+        - !Ref cloud9workshop
+    Export:
+      Name: Cloud9IDE
+  cloud9workshopcommand:
+    Description: Update Command to execute
+    Value: !Join
+      - ""
+      - - "aws cloud9 update-environment --environment-id "
+        - !Ref cloud9workshop
+        - " --managed-credentials-action DISABLE"
+    Export:
+      Name: Cloud9IDEUpdateCommand

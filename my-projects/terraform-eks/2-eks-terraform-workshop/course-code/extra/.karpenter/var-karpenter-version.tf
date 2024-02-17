@@ -1,0 +1,1 @@
+../../common-files/var-karpenter-version.tf
