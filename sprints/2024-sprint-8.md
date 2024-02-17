@@ -41,3 +41,4 @@ https://www.linkedin.com/in/maxschell/ https://twitter.com/maschnetwork
 # ECS
 
 1. [Optimizing Amazon ECS task density using awsvpc network mode by Ignacio Riesgo](https://aws.amazon.com/blogs/compute/optimizing-amazon-ecs-task-density-using-awsvpc-network-mode/)
+
