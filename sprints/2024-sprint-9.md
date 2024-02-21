@@ -8,3 +8,4 @@
 
 # Staging
 1. https://www.terraform-best-practices.com/
+1. https://project-awesome.org/shuaibiyy/awesome-terraform
