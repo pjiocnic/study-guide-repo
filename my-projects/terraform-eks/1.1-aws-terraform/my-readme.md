@@ -1,0 +1,1 @@
+https://aws-quickstart.github.io/workshop-terraform-modules/10_getting_started.html
