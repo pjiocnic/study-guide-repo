@@ -32,3 +32,7 @@
 
 1. [[TRUNKING] Optimizing Amazon ECS task density using awsvpc network mode by Ignacio Riesgo ](https://aws.amazon.com/blogs/compute/optimizing-amazon-ecs-task-density-using-awsvpc-network-mode/)
 1. [Increasing task density with ENI Trunking](https://docs.aws.amazon.com/AmazonECS/latest/bestpracticesguide/networking-networkmode-awsvpc.html)
+
+# Task Networking
+
+1. [Under the Hood: Task Networking for Amazon ECS by Nathan Taber](https://aws.amazon.com/blogs/compute/under-the-hood-task-networking-for-amazon-ecs/)

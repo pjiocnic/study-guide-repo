@@ -1,4 +1,7 @@
 
+
+2. Predicate example
+
 ```java
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.Predicate;

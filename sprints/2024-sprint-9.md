@@ -9,3 +9,9 @@
 # Staging
 1. https://www.terraform-best-practices.com/
 1. https://project-awesome.org/shuaibiyy/awesome-terraform
+1. https://medium.datadriveninvestor.com/deep-dive-on-advanced-features-on-aws-application-load-balancer-and-network-load-balancer-49b05662e06
+
+1. Do TGW deep Dive by Cantril
+2. Get back to Penmetsa's Private gateway
+3. EKS CNI by Bin Liu and Haofei Feng
+4. EKS Terraform workshop

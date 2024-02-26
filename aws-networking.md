@@ -9,6 +9,7 @@
 - [3. VPC Lattice](#3-vpc-lattice)
 - [4. DNS](#4-dns)
 - [5. Twitch Shows](#5-twitch-shows)
+- [CDK scripts](#cdk-scripts)
 
 <!-- /TOC -->
 
@@ -51,3 +52,7 @@
 1. [The Routing Loop](https://www.theroutingloop.net/)
 
  if NLB is deployed to multiple AZs, then how should we deploy Lambdas? particularly when Lambda is deployed to VPC should we somehow tell it to deploy into same AZs as the NLBs?
+
+# CDK scripts
+
+1. [Amazon VPC Routing Enhancements Allow You to Inspect Traffic Between Subnets In a VPC by Sébastien Stormacq](https://aws.amazon.com/blogs/aws/inspect-subnet-to-subnet-traffic-with-amazon-vpc-more-specific-routing/)

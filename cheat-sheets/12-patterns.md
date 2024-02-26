@@ -125,3 +125,7 @@ public class Client {
 # Decorator
 
 1. https://refactoring.guru/design-patterns/decorator/java/example
+
+# Design patterns using Lambda
+
+1. [Java 8 Lambda-Enabled Design patterns by Ranjith Raj D](https://ranjithraj-d.medium.com/java-8-lambda-enabled-design-patterns-64e0064cf4a5)

@@ -49,7 +49,6 @@ Parameters:
     Type: String
     Default: 100.64.0.20
     Description: VPC B Web Server IP
-
   LatestAmiId:
     Type: 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>'
     Default: '/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2'
