@@ -55,6 +55,7 @@ The ability for traffic that originates somewhere else to reach your nodes is ca
 - This attribute is associated with an individual Elastic Network Interface (ENI).
 - When you launch an EC2 instance within a subnet, if **AssociatePublicIpAddress** is set to **true** for the **specific ENI attached to that instance**, AWS will automatically assign a public IP address from the subnet's range to that ENI.
 - **Why useful?** This setting is useful when you need specific instances to have direct access to the internet without the need for a NAT gateway or a NAT instance.
+- [FAQ] Using `AssociatePublicIpAddress` flag you can set a public IP for an EC2 even though its launched in private subnet (mentioned in - https://aws.amazon.com/blogs/containers/upcoming-changes-to-ip-assignment-for-eks-managed-node-groups/). It overrides the settings in the private subnet.
 
 **2. MapPublicIpOnLaunch**:
 
@@ -95,6 +96,19 @@ See: `amazon-eks-vpc-private-subnets.yaml`
 4. Enable AWS PrivateLink for EC2 and all of your Amazon ECR and S3 repositories.
 5. You must set up PrivateLink interface and/or gateway endpoints for your Kubernetes application to be able to reach other AWS services.
 6. All container images you launch on the cluster must come from ECR repositories with endpoints configured for your VPC. This includes container images for operational tooling such as ClusterAutoscaler and Metrics Server.
+
+# DEVOPS
+
+1. You have to set `mapPublicIpOnLaunch = TRUE` if you want the nodes in public subnet to connect to API server or AWS services
+2. Nodes in private subnet will either use a NAT Gateway or VPC endpoint to connect to API server or AWS services
+3. Use following CLI to see the settings on a subnet
+
+```bash
+aws ec2 describe-subnets \
+--filters "Name=vpc-id,Values=<VPC-ID>" | grep 'MapPublicIpOnLaunch\|SubnetId\|VpcId\|State'
+```
+
+To update your subnet settings, you can manually change the mapPublicIpOnLaunch flag to TRUE using the AWS console, or by updating the CFN template
 
 # References
 
