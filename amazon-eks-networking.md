@@ -1,3 +1,13 @@
+<h1>Amazon EKS Networking</h1>
+
+<!-- TOC -->
+
+- [1. VPC Lattice](#1-vpc-lattice)
+- [2. CNI PlugIns](#2-cni-plugins)
+- [3. EKS Networking Basics](#3-eks-networking-basics)
+- [4. Private Links](#4-private-links)
+
+<!-- /TOC -->
 
 # 1. VPC Lattice
 
@@ -22,3 +32,7 @@
 
 1. [De-mystifying cluster networking for Amazon EKS worker nodes by Nathan Taber](https://aws.amazon.com/blogs/containers/de-mystifying-cluster-networking-for-amazon-eks-worker-nodes/)
 1. [Upcoming Changes to IP Assignment for EKS Managed Node Groups by Nathan Taber](https://aws.amazon.com/blogs/containers/upcoming-changes-to-ip-assignment-for-eks-managed-node-groups/)
+
+# 4. Private Links
+
+1. [Enable Private Access to the Amazon EKS Kubernetes API with AWS PrivateLink by Aaron Miller, Praseeda Sathaye, and Vijay Chintalapati](https://aws.amazon.com/blogs/containers/enable-private-access-to-the-amazon-eks-kubernetes-api-with-aws-privatelink/)

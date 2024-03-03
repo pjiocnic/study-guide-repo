@@ -1,4 +1,4 @@
-# My RoadMap
+# 1. My RoadMap
 
 1. Amazon EKS Terraform Workshop
 1. [AWS EKS Kubernetes - Masterclass | DevOps, Microservices](https://github.com/stacksimplify/aws-eks-kubernetes-masterclass)
@@ -12,6 +12,10 @@
 1. [Code for EKS Workshop](https://github.com/aws-samples/eks-workshop-v2)
 1. [EKS Workshop](https://www.eksworkshop.com/)
 
-# User Stories
+# 2. Networking
+
+1. [How to use Private Links in EKS to access AWS services](../amazon-eks-networking.md#4-private-links)
+
+# 3. User Stories
 
 1. [Scale from 100 to 10,000 pods on Amazon EKS by Akshaya Rawat](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks/)
