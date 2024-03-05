@@ -1,0 +1,1 @@
+micro-segmentation: This involves the control of which Kubernetes pods can talk to which other pods within the cluster and the control of which pods can talk to dependent services outside of the cluster

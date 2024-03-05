@@ -45,6 +45,7 @@ A tool that lets you directly manage AWS services from Kubernetes
 # 3. Managed Node Groups
 
 1. [What are Managed Node Groups By Raghav Tripathi, Michael Hausenblas, and Nathan Taber](https://aws.amazon.com/blogs/containers/eks-managed-node-groups/)
+1. [Amazon EKS > User Guide> Managed node groups](https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html)
 
 # 4. ALBs
 

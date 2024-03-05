@@ -6,6 +6,7 @@
 - [2. CNI PlugIns](#2-cni-plugins)
 - [3. EKS Networking Basics](#3-eks-networking-basics)
 - [4. Private Links](#4-private-links)
+- [5. Prefix delegation](#5-prefix-delegation)
 
 <!-- /TOC -->
 
@@ -36,3 +37,13 @@
 # 4. Private Links
 
 1. [Enable Private Access to the Amazon EKS Kubernetes API with AWS PrivateLink by Aaron Miller, Praseeda Sathaye, and Vijay Chintalapati](https://aws.amazon.com/blogs/containers/enable-private-access-to-the-amazon-eks-kubernetes-api-with-aws-privatelink/)
+
+# 5. Prefix delegation
+
+1. [[BEST-EXPLANATION] Prefix Mode for Linux](https://aws.github.io/aws-eks-best-practices/networking/prefix-mode/index_linux/)
+1. [Amazon VPC CNI plugin increases pods per node limits by Sheetal Joshi, Mike Stefaniak, and Jayanth Varavani ](https://aws.amazon.com/blogs/containers/amazon-vpc-cni-increases-pods-per-node-limits/)
+1. [AWS EKS — Increasing Pods numbers per node using aws-vpc CNI and IP prefix and save money! by Giorgio Cerruti](https://medium.com/@giorgiodevops/increasing-pods-numbers-running-in-an-eks-nodeusing-aws-vpc-cni-and-ip-prefix-22b1d381014)
+1. [Increase the amount of available IP addresses for your Amazon EC2 nodes](https://docs.aws.amazon.com/eks/latest/userguide/cni-increase-ip-addresses.html)
+1. [Increasing pod density for Windows nodes on Amazon EKS by Harsh Rawat, Purvi Goyal, and Jie Chen](https://aws.amazon.com/blogs/containers/increasing-pod-density-for-windows-nodes-on-amazon-eks/)
+1. [AWS Workshops DIY — EKS Workshop — 15. Amazon VPC CNI Prefix Mode to Increase Node IPs, Pod Density by John David Luther](https://medium.com/the-aws-way/aws-workshops-diy-eks-workshop-15-amazon-vpc-cni-prefix-mode-to-increase-node-ips-pod-density-e3b90c7a6d54)
+
