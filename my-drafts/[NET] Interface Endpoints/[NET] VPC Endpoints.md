@@ -16,7 +16,7 @@ https://docs.aws.amazon.com/whitepapers/latest/aws-privatelink/what-are-vpc-endp
 
 ## Private Hosted Zone and Interface Endpoints
 
-1. [Scale traffic using multiple Interface Endpoints by Pratik R. Mankad |](https://aws.amazon.com/blogs/networking-and-content-delivery/scale-traffic-using-multiple-interface-endpoints/)
+1. [[MUST-SEE] Scale traffic using multiple Interface Endpoints by Pratik R. Mankad |](https://aws.amazon.com/blogs/networking-and-content-delivery/scale-traffic-using-multiple-interface-endpoints/)
 
 ## Security
 
