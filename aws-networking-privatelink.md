@@ -70,6 +70,8 @@
 
   <img src="./images/shared-services-vpc.png" title="Shared Services VPC" width="900"/>
 
+1. [See Hub and Spoke @ aws-networking.md](./aws-networking.md#2-hub-and-spoke)
+
 # 8. RDS
 
 1. [[CFN] Access Amazon RDS across VPCs using AWS PrivateLink and Network Load Balancer by Jay Singh](https://aws.amazon.com/blogs/database/access-amazon-rds-across-vpcs-using-aws-privatelink-and-network-load-balancer/)

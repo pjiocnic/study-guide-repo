@@ -6,6 +6,9 @@ aws cloudformation create-stack \
   --capabilities CAPABILITY_NAMED_IAM
 ```
 
-aws cloudformation delete-stack --stack-name privatenatgatewaydemo
+```bash
+aws cloudformation delete-stack \
+  --stack-name privatenatgatewaydemo
+```
 
 https://repost.aws/knowledge-center/elb-find-load-balancer-ip

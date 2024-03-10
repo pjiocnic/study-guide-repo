@@ -1,0 +1,442 @@
+# src:https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-use-aws-privatelink-to-secure-and-scale-web-filtering-using-explicit-proxy/
+Parameters:
+  ProviderEnvironment:
+    Type: String
+    Default: Service Provider VPC
+    Description: Service Provider VPC
+  ProviderVpcCidr:
+    Type: String
+    Default: 10.0.0.0/16
+    Description: IP range (CIDR notation) for Shared VPC
+  ProviderPublicSubnet1Value:
+    Type: String
+    Default: 10.0.0.0/24
+    Description: Public Subnet 1 - IP range (CIDR notation) for Shared Service VPC
+  ProviderPublicSubnet2Value:
+    Type: String
+    Default: 10.0.1.0/24
+    Description: Public Subnet 2 -IP range (CIDR notation) for Shared Service VPC
+  KeyName:
+    Type: AWS::EC2::KeyPair::KeyName
+    Description: Amazon EC2 Key Pair
+  ConsumerEnvironment:
+    Type: String
+    Default: Service Consumer
+    Description: Service Consumer
+  ConsumerVpcCidr:
+    Type: String
+    Default: 172.16.0.0/16
+    Description: IP range (CIDR notation) for this Service Consumer VPC
+  ConsumerPublicSubnet1Value:
+    Type: String
+    Default: 172.16.0.0/24
+    Description: Public Subnet - IP range (CIDR notation) for Service Consumer VPC
+  ConsumerPrivateSubnet1Value:
+    Type: String
+    Default: 172.16.1.0/24
+    Description: 'Private Subnet - IP range (CIDR notation) for Service Consumer VPC '
+Mappings:
+  RegionMap:
+    us-east-1:
+      '64': ami-b70554c8
+    us-east-2:
+      '64': ami-8c122be9
+    us-west-1:
+      '64': ami-e0ba5c83
+    us-west-2:
+      '64': ami-a9d09ed1
+    ap-northeast-1:
+      '64': ami-e99f4896
+    ap-northeast-2:
+      '64': ami-afd86dc1
+    ap-northeast-3:
+      '64': ami-32b8b64f
+    ap-south-1:
+      '64': ami-d783a9b8
+    ap-southeast-1:
+      '64': ami-05868579
+    ap-southeast-2:
+      '64': ami-39f8215b
+    ca-central-1:
+      '64': ami-0ee86a6a
+    eu-central-1:
+      '64': ami-7c4f7097
+    eu-west-1:
+      '64': ami-466768ac
+    eu-west-2:
+      '64': ami-b8b45ddf
+    eu-west-3:
+      '64': ami-2cf54551
+    sa-east-1:
+      '64': ami-6dca9001
+Resources:
+  ProviderVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: !Ref 'ProviderVpcCidr'
+      Tags:
+        - Key: Name
+          Value: !Ref 'ProviderEnvironment'
+  InternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+        - Key: Name
+          Value: ServiceProviderIGW
+  InternetGatewayAttachment:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId: !Ref 'ProviderVPC'
+      InternetGatewayId: !Ref 'InternetGateway'
+  ProviderPublicSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref 'ProviderVPC'
+      AvailabilityZone: !Select
+        - '0'
+        - !GetAZs ''
+      CidrBlock: !Ref 'ProviderPublicSubnet1Value'
+      MapPublicIpOnLaunch: 'True'
+      Tags:
+        - Key: Name
+          Value: Provider Public Subnet1
+  ProviderPublicSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref 'ProviderVPC'
+      AvailabilityZone: !Select
+        - '1'
+        - !GetAZs ''
+      CidrBlock: !Ref 'ProviderPublicSubnet2Value'
+      MapPublicIpOnLaunch: 'True'
+      Tags:
+        - Key: Name
+          Value: Provider Public Subnet2
+  ProviderVPCDefaultSecurityGroupIngress:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      GroupId: !GetAtt 'ProviderVPC.DefaultSecurityGroup'
+      IpProtocol: tcp
+      FromPort: '22'
+      ToPort: '22'
+      CidrIp: '0.0.0.0/0'
+      # Tags:
+      #   - Key: Name
+      #     Value: Service Provider VPC Default Security Group
+  BastionHostSG:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: BastionHost-SG
+      GroupDescription: Accepts traffic on port 22 from on-premises network into the
+        Service Provider VPC
+      VpcId: !Ref 'ProviderVPC'
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: '22'
+          ToPort: '22'
+          CidrIp: '0.0.0.0/0'
+      Tags:
+        - Key: Name
+          Value: BastionHost-SG
+  SquidProxySG:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: SquidProxySG
+      GroupDescription: Accepts traffic on incoming port 3218 from Consumer VPCs-
+        172.16.0.0/16
+      VpcId: !Ref 'ProviderVPC'
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: '3128'
+          ToPort: '3128'
+          CidrIp: 172.16.0.0/16
+          Description: Accept Only Squid proxy traffic from Service Consumer VPC -
+            172.16.0.0/16
+        - IpProtocol: tcp
+          FromPort: '3128'
+          ToPort: '3128'
+          CidrIp: 10.0.0.0/16
+          Description: Rule is required for Network Load Balancer health check to
+            pass.
+      Tags:
+        - Key: Name
+          Value: SquidProxySG
+  ServiceProviderLB:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      Name: ServiceProviderLB
+      Scheme: internal
+      Subnets:
+        - !Ref 'ProviderPublicSubnet1'
+        - !Ref 'ProviderPublicSubnet2'
+      Tags:
+        - Key: Name
+          Value: ServiceProviderLB
+      Type: network
+  Ec2InstanceSquid1:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: !FindInMap
+        - RegionMap
+        - !Ref 'AWS::Region'
+        - '64'
+      KeyName: !Ref 'KeyName'
+      SecurityGroupIds:
+        - !Ref 'BastionHostSG'
+        - !Ref 'SquidProxySG'
+      SubnetId: !Ref 'ProviderPublicSubnet1'
+      SourceDestCheck: 'False'
+      Tags:
+        - Key: Name
+          Value: Squid Instance-1
+      InstanceType: t2.micro
+      UserData: !Base64
+        Fn::Join:
+          - ''
+          - - "#!/bin/bash -xe\n"
+            - "sudo yum install -y aws-cfn-bootstrap\n"
+            - "sudo yum install -y squid\n"
+            - "sudo chkconfig squid on\n"
+            - "sudo service squid start\n"
+            - "\n"
+  Ec2InstanceSquid2:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: !FindInMap
+        - RegionMap
+        - !Ref 'AWS::Region'
+        - '64'
+      KeyName: !Ref 'KeyName'
+      SecurityGroupIds:
+        - !Ref 'BastionHostSG'
+        - !Ref 'SquidProxySG'
+      SubnetId: !Ref 'ProviderPublicSubnet2'
+      SourceDestCheck: 'False'
+      Tags:
+        - Key: Name
+          Value: Squid Instance-2
+      InstanceType: t2.micro
+      UserData: !Base64
+        Fn::Join:
+          - ''
+          - - "#!/bin/bash -xe\n"
+            - "sudo yum install -y aws-cfn-bootstrap\n"
+            - "sudo yum install -y squid\n"
+            - "sudo chkconfig squid on\n"
+            - "sudo service squid start\n"
+            - "\n"
+  ProviderVPCPublicRouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref 'ProviderVPC'
+      Tags:
+        - Key: Name
+          Value: Provider VPC Public Route table
+  ProviderVPCDefaultPublicRoute:
+    Type: AWS::EC2::Route
+    DependsOn: InternetGatewayAttachment
+    Properties:
+      RouteTableId: !Ref 'ProviderVPCPublicRouteTable'
+      DestinationCidrBlock: '0.0.0.0/0'
+      GatewayId: !Ref 'InternetGateway'
+  PublicSubnetRouteTableAssociation1:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref 'ProviderVPCPublicRouteTable'
+      SubnetId: !Ref 'ProviderPublicSubnet1'
+  PublicSubnetRouteTableAssociation2:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref 'ProviderVPCPublicRouteTable'
+      SubnetId: !Ref 'ProviderPublicSubnet2'
+  ProviderTargetGroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      Name: SquidProxyServerTG
+      Port: '3128'
+      Protocol: TCP
+      Targets:
+        - Id: !Ref 'Ec2InstanceSquid1'
+          Port: '3128'
+        - Id: !Ref 'Ec2InstanceSquid2'
+          Port: '3128'
+      VpcId: !Ref 'ProviderVPC'
+      TargetType: instance
+  ServiceProviderListener:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      DefaultActions:
+        - Type: forward
+          TargetGroupArn: !Ref 'ProviderTargetGroup'
+      LoadBalancerArn: !Ref 'ServiceProviderLB'
+      Port: '3128'
+      Protocol: TCP
+  ProviderEndPointService:
+    Type: AWS::EC2::VPCEndpointService
+    Properties:
+      NetworkLoadBalancerArns:
+        - !Ref 'ServiceProviderLB'
+      AcceptanceRequired: 'False'
+  ConsumerVPCEndpointLink:
+    Type: AWS::EC2::VPCEndpoint
+    Properties:
+      VpcId: !Ref 'ConsumerVPC'
+      VpcEndpointType: Interface
+      ServiceName: !Join
+        - ''
+        - - com.amazonaws.vpce.
+          - !Ref 'AWS::Region'
+          - .
+          - !Ref 'ProviderEndPointService'
+      SubnetIds:
+        - !Ref 'ConsumerPrivateSubnet2'
+        - !Ref 'ConsumerPublicSubnet1'
+      SecurityGroupIds:
+        - !Ref 'ProxyTrafficSGConsumerVPC'
+  ConsumerVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: !Ref 'ConsumerVpcCidr'
+      Tags:
+        - Key: Name
+          Value: !Ref 'ConsumerEnvironment'
+  ConsumerInternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+        - Key: Name
+          Value: ServiceConsumerIGW
+  ConsumerInternetGatewayAttachment:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId: !Ref 'ConsumerVPC'
+      InternetGatewayId: !Ref 'ConsumerInternetGateway'
+  ConsumerPublicSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref 'ConsumerVPC'
+      AvailabilityZone: !Select
+        - '0'
+        - !GetAZs ''
+      CidrBlock: !Ref 'ConsumerPublicSubnet1Value'
+      MapPublicIpOnLaunch: 'True'
+      Tags:
+        - Key: Name
+          Value: Consumer Public Subnet1
+  ConsumerPrivateSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref 'ConsumerVPC'
+      AvailabilityZone: !Select
+        - '1'
+        - !GetAZs ''
+      CidrBlock: !Ref 'ConsumerPrivateSubnet1Value'
+      Tags:
+        - Key: Name
+          Value: Consumer Private Subnet1
+  ConsuerVPCPublicRouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref 'ConsumerVPC'
+      Tags:
+        - Key: Name
+          Value: Consumer Public RT
+  ConsumerVPCDefaultPublicRoute:
+    Type: AWS::EC2::Route
+    DependsOn: ConsumerInternetGatewayAttachment
+    Properties:
+      RouteTableId: !Ref 'ConsuerVPCPublicRouteTable'
+      DestinationCidrBlock: '0.0.0.0/0'
+      GatewayId: !Ref 'ConsumerInternetGateway'
+  ConsumerPublicSubnetRouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref 'ConsuerVPCPublicRouteTable'
+      SubnetId: !Ref 'ConsumerPublicSubnet1'
+  BastionHostSGConsumerVPC:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: BastionHost-SG-ConsumerVPC
+      GroupDescription: Accepts traffic on port 22 from on-premises network
+      VpcId: !Ref 'ConsumerVPC'
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: '22'
+          ToPort: '22'
+          CidrIp: '0.0.0.0/0'
+      Tags:
+        - Key: Name
+          Value: BastionHost-SG-ConsumerVPC
+  ProxyTrafficSGConsumerVPC:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: ProxyTraffic-SG-ConsumerVPC
+      GroupDescription: Accepts traffic on incoming port 3218 from Provider VPCs-
+        172.16.0.0/16
+      VpcId: !Ref 'ConsumerVPC'
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: '3128'
+          ToPort: '3128'
+          CidrIp: 172.16.0.0/16
+          Description: Accept Only Squid proxy traffic from Service Consumer VPC-
+            172.16.0.0/16
+        - IpProtocol: tcp
+          FromPort: '22'
+          ToPort: '22'
+          CidrIp: 172.16.0.0/24
+          Description: Accepts only SSH traffic from bastion host subnet.
+      Tags:
+        - Key: Name
+          Value: ProxyTraffic-SG-ConsumerVPC
+  Ec2ServiceConsumerBastionHost:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: !FindInMap
+        - RegionMap
+        - !Ref 'AWS::Region'
+        - '64'
+      KeyName: !Ref 'KeyName'
+      SecurityGroupIds:
+        - !Ref 'BastionHostSGConsumerVPC'
+      SubnetId: !Ref 'ConsumerPublicSubnet1'
+      Tags:
+        - Key: Name
+          Value: ServiceConsumerBastionHost
+      InstanceType: t2.micro
+  Ec2ServiceConsumerHost:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: !FindInMap
+        - RegionMap
+        - !Ref 'AWS::Region'
+        - '64'
+      KeyName: !Ref 'KeyName'
+      SecurityGroupIds:
+        - !Ref 'ProxyTrafficSGConsumerVPC'
+      SubnetId: !Ref 'ConsumerPrivateSubnet2'
+      Tags:
+        - Key: Name
+          Value: Test Instance
+      InstanceType: t2.micro
+Outputs:
+  EndPointServiceLinkName:
+    Description: Private Link Service Name
+    Value: !Join
+      - ''
+      - - com.amazonaws.vpce.
+        - !Ref 'AWS::Region'
+        - .
+        - !Ref 'ProviderEndPointService'
+  SquidInstance1PublicIP:
+    Description: 'Squid Instance 1 Public IP:'
+    Value: !GetAtt 'Ec2InstanceSquid1.PublicIp'
+  SquidInstance2PublicIP:
+    Description: 'Squid Instance 2 Public IP:'
+    Value: !GetAtt 'Ec2InstanceSquid2.PublicIp'
+  BastionHostPublicIP:
+    Description: 'Bastion Host Public IP:'
+    Value: !GetAtt 'Ec2ServiceConsumerBastionHost.PublicIp'
+  TestInstancePrivateIP:
+    Description: 'Test Instance Private IP:'
+    Value: !GetAtt 'Ec2ServiceConsumerHost.PrivateIp'

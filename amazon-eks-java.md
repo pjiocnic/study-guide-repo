@@ -1,0 +1,2 @@
+
+1. [Using CRaC to reduce Java startup times on Amazon EKS by Islam Mahgoub, Raglin Anthony, Owen Hawkins, and Sascha Moellering ](https://aws.amazon.com/blogs/containers/using-crac-to-reduce-java-startup-times-on-amazon-eks/)
