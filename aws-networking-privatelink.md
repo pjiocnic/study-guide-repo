@@ -8,12 +8,12 @@
 - [4. NLB -> ALB](#4-nlb---alb)
 - [5. Blue Green Deployments](#5-blue-green-deployments)
 - [6. EventBridge](#6-eventbridge)
-- [7. Centralized/Shared VPC](#7-centralizedshared-vpc)
-- [8. RDS](#8-rds)
-- [9. Route53](#9-route53)
-- [10. Migration](#10-migration)
-- [11. Multi-Region](#11-multi-region)
-- [12. Shared Services VPC using Endpoints](#12-shared-services-vpc-using-endpoints)
+- [7. Centralized / Shared VPC](#7-centralized--shared-vpc)
+- [8. Re-invent](#8-re-invent)
+- [9. RDS](#9-rds)
+- [10. Route53](#10-route53)
+- [11. Migration](#11-migration)
+- [12. Multi-Region](#12-multi-region)
 - [13. S3 endpoints](#13-s3-endpoints)
 - [14. Sessions Manager](#14-sessions-manager)
 - [15. Static WebSites with S3](#15-static-websites-with-s3)
@@ -60,7 +60,7 @@
 
 1. [Introducing global endpoints for Amazon EventBridge By Stephen Liedig](https://aws.amazon.com/blogs/compute/introducing-global-endpoints-for-amazon-eventbridge/)
 
-# 7. Centralized/Shared VPC
+# 7. Centralized / Shared VPC
 
 1. [[CDK] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
 
@@ -72,7 +72,11 @@
 
 1. [See Hub and Spoke @ aws-networking.md](./aws-networking.md#2-hub-and-spoke)
 
-# 8. RDS
+# 8. Re-invent
+
+1. [AWS New York Summit 2018 - AWS PrivateLink: Fundamentals (SRV211)](https://www.youtube.com/watch?v=20RxEzAXG9o)
+
+# 9. RDS
 
 1. [[CFN] Access Amazon RDS across VPCs using AWS PrivateLink and Network Load Balancer by Jay Singh](https://aws.amazon.com/blogs/database/access-amazon-rds-across-vpcs-using-aws-privatelink-and-network-load-balancer/)
 
@@ -80,25 +84,21 @@
 
     [CrossAccountRDSAccess.yml](./templates/rds/CrossAccountRDSAccess.yml)
 
-# 9. Route53
+# 10. Route53
 
 1. [Automating DNS infrastructure using Route 53 Resolver endpoints by Shiva Vaidyanathan and Akhil Nayabu ](https://aws.amazon.com/blogs/networking-and-content-delivery/automating-dns-infrastructure-using-route-53-resolver-endpoints/)
 
     <img src="./images/Blog-DNS-16.png" title="Blog-DNS-16.png" width="900"/>
 
-# 10. Migration
+# 11. Migration
 
 1. [How to migrate your VPC endpoint service backend targets by Luis Felipe Silveira da Silva and Tom Adamski ](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-migrate-your-vpc-endpoint-service-backend-targets/)
 
     <img src="./images/endpoints-1.png" title="Endpoint migration" width="900"/>
 
-# 11. Multi-Region
+# 12. Multi-Region
 
 1. [Amazon S3 Multi-Region Access Points](https://catalog.workshops.aws/s3multiregionaccesspoints/en-US)
-
-# 12. Shared Services VPC using Endpoints
-
-
 
 # 13. S3 endpoints
 

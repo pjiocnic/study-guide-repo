@@ -1,3 +1,3 @@
 https://repost.aws/knowledge-center/ec2-ppk-pem-conversion
 
-ssh ./abc.pem userid@ip
+ssh ec2-user@salesapp -i vpce.pem
