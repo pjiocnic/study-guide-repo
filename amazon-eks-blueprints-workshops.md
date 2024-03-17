@@ -1,4 +1,7 @@
 
+# 1. Workshops
+
+1. [AWS EKS - Elastic Kubernetes Service - Masterclass By Kalyan](https://www.stacksimplify.com/aws-eks/)
 1. [Introducing the Amazon EKS Workshop by Sai Vennam and Niall Thomson](https://aws.amazon.com/blogs/containers/introducing-the-amazon-eks-workshop/)
 1. [Building Web Applications based on Amazon EKS](https://catalog.us-east-1.prod.workshops.aws/workshops/9c0aa9ab-90a9-44a6-abe1-8dff360ae428/en-US)
 1. [Welcome to the EKS Developers Workshop](https://developers.eksworkshop.com/docs/introduction)
@@ -13,6 +16,19 @@
 1. [Discover application refactoring with the EKS Developers Workshop by Leah Tucker](https://aws.amazon.com/blogs/containers/discover-application-refactoring-with-the-eks-developers-workshop/)
 1. [EKS Upgrades Workshop](https://eks-upgrades-workshop.netlify.app/docs/intro/)
 
-## 19.1. Crossplane workshop
+# Terraform Workshop
+
+1. [Provisioning Kubernetes clusters on AWS with Terraform and EKS](https://learnk8s.io/terraform-eks)
+1. [Amazon EKS Terraform Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/afee4679-89af-408b-8108-44f5b1065cc7/en-US)
+
+# 2. Blueprints
+
+1. [Amazon EKS Blueprints for Terraform](https://aws-ia.github.io/terraform-aws-eks-blueprints/)
+
+# 3. Crossplane workshop
 
 1. [Crossplane workshop](https://www.eksworkshop.com/docs/automation/controlplanes/crossplane/)
+
+# 4. Best Practices
+
+1. [EKS Best Practices Guides](https://aws.github.io/aws-eks-best-practices/)
