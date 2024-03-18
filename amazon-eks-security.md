@@ -19,3 +19,6 @@
 
 1. [Understanding how EKS and IAM work together](https://www.padok.fr/en/blog/aws-eks-iam)
 1. [Amazon EKS Pod Identity: a new way for applications on EKS to obtain IAM credentials by George John, Ashok Srirama, and Hemanth AVS](https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials/)
+1. [Use IAM roles to connect GitHub Actions to actions in AWS by David Rowe](https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/)
+1. [Seamlessly Secure Your EKS Cluster: AWS EKS OIDC Identity Integration By Yash Thube](https://medium.com/@thube09/seamlessly-secure-your-eks-cluster-aws-eks-oidc-identity-integration-7045abdc7d4c)
+1. [Building an App Using Amazon Cognito and an OpenID Connect Identity Providerby Shon Shah and Abrom Douglas](https://aws.amazon.com/blogs/security/building-an-app-using-amazon-cognito-and-an-openid-connect-identity-provider/)
