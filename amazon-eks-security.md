@@ -14,3 +14,8 @@
 
 1. [Enabling IAM principal access to your cluster](https://docs.aws.amazon.com/eks/latest/userguide/add-user-role.html)
 1. [Identity and Access Management](https://aws.github.io/aws-eks-best-practices/security/docs/iam/)
+
+# OIDC
+
+1. [Understanding how EKS and IAM work together](https://www.padok.fr/en/blog/aws-eks-iam)
+1. [Amazon EKS Pod Identity: a new way for applications on EKS to obtain IAM credentials by George John, Ashok Srirama, and Hemanth AVS](https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials/)
