@@ -5,5 +5,3 @@
 - [Advanced Request Routing with ALB](https://exampleloadbalancer.com/advanced_request_routing_demo.html)
 
 
-
-# Workshops

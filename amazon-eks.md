@@ -24,8 +24,7 @@
 - [16. Samples](#16-samples)
 - [17. Terraform](#17-terraform)
 - [18. Videos](#18-videos)
-- [19. Workshop](#19-workshop)
-  - [19.1. Crossplane workshop](#191-crossplane-workshop)
+- [19. Newsletter](#19-newsletter)
 
 <!-- /TOC -->
 
@@ -131,5 +130,7 @@ A tool that lets you directly manage AWS services from Kubernetes
 
 1. [Deploying Lambda with EKS and Crossplane | Serverless Office Hours](https://www.youtube.com/watch?v=8CdyxX7eGkA)
 
-# 19. Workshop
+# 19. Newsletter
+
+1. [Amazon EKS now supports Kubernetes 1.22 by Chris Short](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-1-22/)
 

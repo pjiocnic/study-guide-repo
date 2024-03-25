@@ -1,3 +1,12 @@
+
+# Topics
+
+1. VPC CNI
+1. subnet sizing
+1. IP address allocation for pods
+
+# Blogs
+
 1. [[START HERE] Leveraging CNI custom networking alongside security groups for pods in Amazon EKSby Bin Liu and Haofei Feng ](https://aws.amazon.com/blogs/containers/leveraging-cni-custom-networking-alongside-security-groups-for-pods-in-amazon-eks/)
 1. [[OVERVIEW] De-mystifying cluster networking for Amazon EKS worker nodes by Nathan Taber](https://aws.amazon.com/blogs/containers/de-mystifying-cluster-networking-for-amazon-eks-worker-nodes/)
 1. [Upcoming Changes to IP Assignment for EKS Managed Node Groups by Nathan Taber](https://aws.amazon.com/blogs/containers/upcoming-changes-to-ip-assignment-for-eks-managed-node-groups/)
