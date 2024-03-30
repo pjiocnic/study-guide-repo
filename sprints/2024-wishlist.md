@@ -1,4 +1,8 @@
 
+# Boto Documentation
+
+1. [Boto3 1.34.73 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html#id1)
+
 # API Gateway Private Integrations
 
 See [[AGTWY] Private integrations in API Gateway.md](..//my-aws-stories/[AGTWY]%20Private%20integrations%20in%20API%20Gateway.md)

@@ -1,1 +1,0 @@
-https://us-east-1.console.aws.amazon.com/states/home?region=us-east-1&state=hashArgs%%252FsampleProjects&isauthcode=true&client_id=arn:aws:iam::015428540659:user/states&forceMobileApp=0&code_challenge=SwDIs8O0-5_Z6BIhTAHm9ZP7S6Q0sPo_-GhmA3AaRoI&code_challenge_method=SHA-256

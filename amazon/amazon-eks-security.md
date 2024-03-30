@@ -9,6 +9,7 @@
 - [5. ServiceAccounts](#5-serviceaccounts)
 - [6. RBAC](#6-rbac)
 - [7. IRSA](#7-irsa)
+- [ProjectedServiceAccountToken](#projectedserviceaccounttoken)
 
 <!-- /TOC -->
 
@@ -64,3 +65,8 @@
 1. [Introducing fine-grained IAM roles for service accounts by Micah Hausler and Michael Hausenblas](https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/)
 1. [IAM Roles for Service Accounts | Learn about IRSA with demo in 20 mins by Visa2Learn](https://www.youtube.com/watch?v=otmLHWW3Tos)
 1. [Implementing Cross-Account Access with Amazon EKS using IAM Roles for Service Accounts by Praveen Dandu](https://www.linkedin.com/pulse/implementing-cross-account-access-amazon-eks-using-iam-praveen-dandu-zj8te/)
+
+# ProjectedServiceAccountToken
+
+1. [Kubernetes Bound Projected Service Account Token Volumes Might Surprise You by Nick Gibbon](https://medium.com/pareture/kubernetes-bound-projected-service-account-token-volumes-might-surprise-you-434ff2cd1483)
+1. [Diving into IAM Roles for Service Accounts by Gaurav Pilay](https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts/)

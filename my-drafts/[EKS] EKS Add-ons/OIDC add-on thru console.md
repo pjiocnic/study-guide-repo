@@ -76,5 +76,4 @@ by Jimmy Ray ](https://aws.amazon.com/blogs/containers/amazon-eks-add-ons-preser
 1. https://aws.amazon.com/blogs/containers/introducing-amazon-eks-add-ons/
 
 # More
-1. [Amazon EKS add-ons preserve customer edits
-by Jimmy Ray ](https://aws.amazon.com/blogs/containers/amazon-eks-add-ons-preserve-customer-edits/)
+1. [Amazon EKS add-ons preserve customer edits by Jimmy Ray ](https://aws.amazon.com/blogs/containers/amazon-eks-add-ons-preserve-customer-edits/)

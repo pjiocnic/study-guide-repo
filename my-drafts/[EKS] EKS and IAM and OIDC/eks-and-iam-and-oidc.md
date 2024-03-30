@@ -11,3 +11,11 @@
 # References
 1. https://www.padok.fr/en/blog/aws-eks-iam
 1. Read thru' ServiceAccounts@Chapter 12 of KIA-ed1
+
+# Notes from "Diving into IAM Roles for Service Accounts by Gaurav Pilay"
+
+https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts/
+
+The challenge when your workload is running in Kubernetes, however, is providing an identity to that Kubernetes workload which IAM can use for authentication.
+
+**IAM Roles for Service Accounts (IRSA):** leveraging AWS Identity APIs, an OpenID Connect (OIDC) identity provider, and Kubernetes Service Accounts to apply fine-grained access controls to Kubernetes pods
