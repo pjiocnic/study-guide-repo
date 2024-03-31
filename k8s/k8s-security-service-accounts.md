@@ -1,5 +1,9 @@
 https://itnext.io/big-change-in-k8s-1-24-about-serviceaccounts-and-their-secrets-4b909a4af4e0
 
+# Secrets
+
+1. [Kubernetes Documentation > Concepts > Configuration > Secrets](https://kubernetes.io/docs/concepts/configuration/secret/#service-account-token-secrets)
+
 # Blogs
 
 1. [Kim Wuestkamp](https://wuestkamp.medium.com/)
