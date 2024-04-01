@@ -363,6 +363,12 @@ eksctl utils associate-iam-oidc-provider --region=us-east-2 --cluster=eks-oidc-d
 
 # Create new service account
 
+We need an additional token to authenticate with AWS APIs.  This additional token is created by **AWS identity webhook** that listens to create POD API calls and in the process injects an additional Token into our pods.
+
+To make this happen, we create a new Kubernetes Service Account `iamserviceaccount`, annotate our Service Account with an AWS IAM role ARN, and then reference this new Kubernetes Service Account in a Kubernetes Pod yaml. That IAM role is attached with IAM **AmazonS3ReadOnlyAccess** policy and also has a trust policy
+
+This is all done using `eksctl create iamserviceaccount` command
+
 ```bash
 eksctl create iamserviceaccount \
   --name my-sa \
@@ -386,11 +392,9 @@ eksctl create iamserviceaccount \
 
 ```
 
-`eksctl create iamserviceaccount` command creates:
-- A Kubernetes Service Account
-- An IAM role with the specified IAM policy
-- A trust policy on that IAM role
+Inspecting the newly created Kubernetes Service Account, we can see the role we want it to assume in our pod.
 
+```bash
 kubectl describe sa my-sa
 Name:                my-sa
 Namespace:           default
@@ -400,6 +404,8 @@ Image pull secrets:  <none>
 Mountable secrets:   <none>
 Tokens:              <none>
 Events:              <none>
+```
+
 
 # Appendix
 

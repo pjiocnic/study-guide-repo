@@ -4,8 +4,7 @@
 
 1. How do you use connection pooling inside a Lambda?
 2. Any cloudformation templates to create MongoDB in AWS
-
-Links to CDk and Cloudformation templates please
+3. Links to CDk and Cloudformation templates please
 
 https://www.mongodb.com/developer/code-examples/bash/get-started-atlas-aws-cloudformation/
 https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/
