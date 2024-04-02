@@ -410,3 +410,56 @@ Events:              <none>
 # Appendix
 
 1. aws-cli image/pod usage
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Federated": "arn:aws:iam::111122223333:oidc-provider/oidc.eks.us-east-2.amazonaws.com/id/xxxx"
+      },
+      "Action": "sts:AssumeRoleWithWebIdentity",
+      "Condition": {
+        "StringEquals": {
+          "oidc.eks.us-east-2.amazonaws.com/id/xxxx:aud": "sts.amazonaws.com",
+          "oidc.eks.us-east-2.amazonaws.com/id/xxxx:sub": "system:serviceaccount:default:my-sa"
+        }
+      }
+    }
+  ]
+}
+```
+
+The above follows this syntax
+
+```json
+{
+   "Version": "2012-10-17",
+   "Statement": [
+     {
+       "Effect": "Allow",
+       "Principal": {
+         "Federated": "arn:aws:iam::<ACCOUNT_ID>:oidc-provider/${OIDC_PROVIDER}"
+       },
+       "Action": "sts:AssumeRoleWithWebIdentity",
+       "Condition": {
+         "StringEquals": {
+           "<OIDC_PROVIDER>:aud": "sts.amazonaws.com" # aud = audience
+           "<OIDC_PROVIDER>:sub": "system:serviceaccount:<serviceAccountNamespace>:<serviceAccountName>" # sub = subject?
+         }
+       }
+     }
+   ]
+ }
+```
+
+aws iam create-role --role-name <IAM_ROLE_NAME> --assume-role-policy-document file://trust.json --description "<IAM_ROLE_DESCRIPTION>"
+aws iam attach-role-policy --role-name <IAM_ROLE_NAME> --policy-arn arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess
+kubectl annotate sa -n <serviceAccountNamespace> <serviceAccountName> eks.amazonaws.com/role-arn=$IAM_ROLE_ARN
+
+
+# Useful material to look into in conjunction
+https://medium.com/airwalk/how-a-pod-assumes-an-aws-identity-284fc6fda873
+https://www.perfectscale.io/blog/eks-iam-oidc-vs-pod-identity

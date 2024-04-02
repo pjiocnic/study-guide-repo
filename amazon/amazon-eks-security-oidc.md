@@ -1,0 +1,9 @@
+
+1. [[BEST] An Illustrated Guide to OAuth and OpenID Connect](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc)
+1. [[BEST] Understanding how EKS and IAM work together](https://www.padok.fr/en/blog/aws-eks-iam)
+1. [Create an oidc identity provider](https://archive.eksworkshop.com/beginner/110_irsa/oidc-provider/)
+1. [Creating OpenID Connect (OIDC) identity providers](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_oidc.html)
+1. [Seamlessly Secure Your EKS Cluster: AWS EKS OIDC Identity Integration By Yash Thube](https://medium.com/@thube09/seamlessly-secure-your-eks-cluster-aws-eks-oidc-identity-integration-7045abdc7d4c)
+1. [Building an App Using Amazon Cognito and an OpenID Connect Identity Providerby Shon Shah and Abrom Douglas](https://aws.amazon.com/blogs/security/building-an-app-using-amazon-cognito-and-an-openid-connect-identity-provider/)
+1. [Consistent OIDC authentication across multiple EKS clusters using Kube-OIDC-Proxy by Jeremy Cowan](https://aws.amazon.com/blogs/opensource/consistent-oidc-authentication-across-multiple-eks-clusters-using-kube-oidc-proxy/)
+1. [Use IAM roles to connect GitHub Actions to actions in AWS by David Rowe](https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/)

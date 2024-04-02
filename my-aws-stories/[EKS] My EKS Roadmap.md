@@ -11,6 +11,13 @@
 1. [Amazon EKS Blueprints for Terraform](https://aws-ia.github.io/terraform-aws-eks-blueprints/)
 1. [Code for EKS Workshop](https://github.com/aws-samples/eks-workshop-v2)
 1. [EKS Workshop](https://www.eksworkshop.com/)
+1. Luther's EKS workshop series
+
+# Topics
+
+1. RBAC from K8S in Action
+1. How does RBAC work in EKS?
+1.
 
 # 2. Networking
 
