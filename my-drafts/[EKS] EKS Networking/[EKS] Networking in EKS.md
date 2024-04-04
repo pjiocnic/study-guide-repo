@@ -27,11 +27,11 @@ When we enable CNI custom networking, the pods won’t be provisioned on the fir
 
 <img src="./images/eks-networking-custom-cni.png" title="Custom Networking plus SG" width="900"/>
 
-# Ingress
+# 4. Ingress
 
 <img src="./images/Ingress-traffic-patterns-image.png" title="Ingress patterns" width="900"/>
 
-# Egress
+# 5. Egress
 
 <img src="./images/Egress-traffic-patterns.png" title="Egress patterns" width="900"/>
 
@@ -52,12 +52,12 @@ https://jicowan.medium.com/custom-networking-with-the-aws-vpc-cni-plug-in-c6eebb
 https://jicowan.medium.com/the-impacts-of-using-custom-networking-with-the-aws-vpc-cni-65f109d245be
 https://blog.sivamuthukumar.com/eks-high-pod-density
 
-# 3. What is Trunking
+# 6. What is Trunking
 1. https://docs.aws.amazon.com/AmazonECS/latest/developerguide/container-instance-eni.html#eni-trunking-considerations
 1. https://aws.amazon.com/blogs/containers/leveraging-cni-custom-networking-alongside-security-groups-for-pods-in-amazon-eks/
 1. [Increasing task density with ENI Trunking](https://docs.aws.amazon.com/AmazonECS/latest/bestpracticesguide/networking-networkmode-awsvpc.html)
 
-# 4. Using custom CNI
+# 7. Using custom CNI
 
 1. To use a new CIDR range for the pods update `aws-node daemonset` by setting following varaible:
 `AWS_VPC_K8S_CNI_CUSTOM_NETWORK_CFG=TRUE`
@@ -66,20 +66,20 @@ When this variable is set to true, the CNI will allocate IP addresses from the s
 
 **ENIConfig (aka custom resource definition CRD)**: This lets you specify the subnet and security groups you want to use for the pods running on a particular worker node
 
-# 5. How does Prefix Delegation allow more pods (density) per node instance
+# 8. How does Prefix Delegation allow more pods (density) per node instance
 
 [See here](../../amazon-eks-networking.md#5-prefix-delegation)
 
-## 5.1. How to enable prefix delegation
+## 8.1. How to enable prefix delegation
 
 
-# 6. CNI custom networking
+# 9. CNI custom networking
 
 src: https://aws.amazon.com/blogs/containers/leveraging-cni-custom-networking-alongside-security-groups-for-pods-in-amazon-eks/
 
 You can attach a CIDR range from the `100.64.0.0/10` or `198.19.0.0/16` ranges to your VPC and then use CNI custom networking to provide additional IP space for Kubernetes pods.
 
-# 7. VPC CNI and POD Security
+# 10. VPC CNI and POD Security
 
 To provide POD level security, the VPC CNI creates a separate elastic network interface (ENI) for each pod, instead of the default configuration where multiple pods share an ENI.
 

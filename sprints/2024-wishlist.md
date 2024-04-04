@@ -24,3 +24,18 @@ See [[AGTWY] Private integrations in API Gateway.md](..//my-aws-stories/[AGTWY]%
 # Terraform and AWS
 
 1. Microservices: Up and Running Ronnie Mitra, Irakli Nadareishvili
+
+# EC2 Spot Instances
+
+1. [ Amazon EC2 Spot Workshops ](https://ec2spotworkshops.com/)
+- EC2 Auto Scaling with multiple instance types
+- ECS: Cost Optimize Container Workloads using EC2 Spot
+- Using Spot Instances with EKS
+- EKS and Karpenter
+- Using Amazon SageMaker Managed Spot Training
+- Running Spark apps with EMR on Spot Instances
+- CI/CD and Test Workloads with EC2 Spot Instances
+- Rendering Blender Projects with AWS Batch
+- Running EC2 Workloads at Scale with EC2 autoscaling
+- Running Efficient and Resilient Workloads with EC2 autoscaling
+- Pricing Financial Derivatives with AWS Batch

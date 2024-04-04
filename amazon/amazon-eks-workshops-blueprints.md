@@ -16,7 +16,7 @@
 1. [Discover application refactoring with the EKS Developers Workshop by Leah Tucker](https://aws.amazon.com/blogs/containers/discover-application-refactoring-with-the-eks-developers-workshop/)
 1. [EKS Upgrades Workshop](https://eks-upgrades-workshop.netlify.app/docs/intro/)
 
-# Workshop Series
+# 2. Workshop Series
 
 1. [AWS Workshops DIY — EKS Workshop — 1. Introduction and Scope Review](https://medium.com/the-aws-way/aws-workshops-diy-eks-workshop-1-introduction-and-scope-review-7599f38f06b3)
 1. [AWS Workshops DIY — EKS Workshop — 2. Let’s Cluster with ‘eksctl’](https://medium.com/the-aws-way/aws-workshops-diy-eks-workshop-2-lets-cluster-with-eksctl-e129a4a3be9b)
@@ -57,19 +57,24 @@
 1. [AWS Workshops DIY — EKS Workshop — 36. Observability: Viewing Kubernetes Resources in EKS Console](https://medium.com/the-aws-way/aws-workshops-diy-eks-workshop-36-observability-viewing-kubernetes-resources-in-eks-console-f4cb670b8c4d)
 1. [AWS Workshops DIY — EKS Workshop — 37. Observability: EKS Control Plane Logging on CloudWatch Logs](https://medium.com/the-aws-way/aws-workshops-diy-eks-workshop-37-observability-eks-control-plane-logging-on-cloudwatch-logs-8cd3d3684242)
 
-# Terraform Workshop
+# 3. Terraform Workshop
 
 1. [Provisioning Kubernetes clusters on AWS with Terraform and EKS](https://learnk8s.io/terraform-eks)
 1. [Amazon EKS Terraform Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/afee4679-89af-408b-8108-44f5b1065cc7/en-US)
 
-# 2. Blueprints
+# 4. Blueprints
 
 1. [Amazon EKS Blueprints for Terraform](https://aws-ia.github.io/terraform-aws-eks-blueprints/)
+1. [Bootstrapping clusters with EKS Blueprints by Kevin Coleman, Apoorva Kulkarni, Mikhail Shapirov, and Vara Bonthu](https://aws.amazon.com/blogs/containers/bootstrapping-clusters-with-eks-blueprints/)
 
-# 3. Crossplane workshop
+# 5. Teraform Bleuprints
+
+1. [Amazon EKS Blueprints for Terraform](https://github.com/aws-ia/terraform-aws-eks-blueprints)
+
+# 6. Crossplane workshop
 
 1. [Crossplane workshop](https://www.eksworkshop.com/docs/automation/controlplanes/crossplane/)
 
-# 4. Best Practices
+# 7. Best Practices
 
 1. [EKS Best Practices Guides](https://aws.github.io/aws-eks-best-practices/)
