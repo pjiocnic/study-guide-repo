@@ -44,3 +44,4 @@ https://medium.com/cloudnloud/crossplane-introduction-1ccd77d6aa12
 
 1. [[**MY-NEXT**] Deploying Lambda with EKS and Crossplane | Serverless Office Hours](https://www.youtube.com/watch?v=8CdyxX7eGkA)
 2. [Example that accompanies the video](https://github.com/awslabs/crossplane-on-eks/blob/main/examples/upbound-aws-provider/composite-resources/serverless-examples/sqs-lambda-s3/README.md)
+1. [Deploying Lambda with EKS and Crossplane | Serverless Office Hours](https://www.youtube.com/watch?v=8CdyxX7eGkA)

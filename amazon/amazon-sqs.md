@@ -38,9 +38,6 @@
 1. [See aws-lambda.md#29-dlqs](./aws-lambda.md#29-dlqs)
 1. [[DLQs for SQS] Designing durable serverless apps with DLQs for Amazon SNS, Amazon SQS, AWS Lambda by Rachel Richardson and Otavio Ferreira](https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/)
 
-# 5. Delay Queue
-
-1. [AWS SQS Delay Queue and Delay Message Example in Java](https://examples.javacodegeeks.com/aws-sqs-delay-queue-and-delay-message-example-in-java/)
 
 # 6. Lambda
 

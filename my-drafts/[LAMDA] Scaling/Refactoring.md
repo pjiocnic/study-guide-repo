@@ -1,0 +1,2 @@
+[AWS re:Invent 2023 - Refactoring to serverless (SVS305)](https://www.youtube.com/watch?v=bIu8XZZROw4)
+[Refactoring to Serverless | Serverless Office Hours](https://www.youtube.com/watch?v=F7wxgWaccHs)

@@ -1,0 +1,5 @@
+[Scalable and Cost-Effective Event-Driven Workloads with KEDA and Karpenter on Amazon EKS by Sanjeev Ganjihal and Asif Khan](https://aws.amazon.com/blogs/containers/scalable-and-cost-effective-event-driven-workloads-with-keda-and-karpenter-on-amazon-eks/)
+
+Code: git clone https://github.com/aws-samples/amazon-eks-scaling-with-keda-and-karpenter.git
+
+Video: [AWS EKS scaling with KEDA and Karpenter](https://www.youtube.com/watch?v=yOzyXY97CrI)

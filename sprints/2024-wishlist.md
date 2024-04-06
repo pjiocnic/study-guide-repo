@@ -39,3 +39,7 @@ See [[AGTWY] Private integrations in API Gateway.md](..//my-aws-stories/[AGTWY]%
 - Running EC2 Workloads at Scale with EC2 autoscaling
 - Running Efficient and Resilient Workloads with EC2 autoscaling
 - Pricing Financial Derivatives with AWS Batch
+
+# EKS
+
+1. [Hands on with EKS Networking (2023) | Amazon EKS Workshop](https://www.youtube.com/watch?v=EAZnXII9NTY&t=593s)

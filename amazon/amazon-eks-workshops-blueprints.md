@@ -78,3 +78,7 @@
 # 7. Best Practices
 
 1. [EKS Best Practices Guides](https://aws.github.io/aws-eks-best-practices/)
+
+# Workshop
+
+1. [[EKS Networking] Hands on with EKS Networking (2023) | Amazon EKS Workshop](https://www.youtube.com/watch?v=EAZnXII9NTY&t=593s)

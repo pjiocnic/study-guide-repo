@@ -2,6 +2,7 @@
 
 <!-- TOC -->
 
+- [EKS Series](#eks-series)
 - [1. Curate](#1-curate)
 - [2. AWS Controllers for Kubernetes (ACK)](#2-aws-controllers-for-kubernetes-ack)
 - [3. Managed Node Groups](#3-managed-node-groups)
@@ -17,8 +18,6 @@
 - [9. Crossplane](#9-crossplane)
 - [10. Integrations](#10-integrations)
 - [11. Istio](#11-istio)
-- [12. Lambda](#12-lambda)
-- [13. OpenID conenct](#13-openid-conenct)
 - [14. Observability](#14-observability)
 - [15. Kubernetes on AWS](#15-kubernetes-on-aws)
 - [16. Samples](#16-samples)
@@ -27,6 +26,11 @@
 - [19. Newsletter](#19-newsletter)
 
 <!-- /TOC -->
+
+# EKS Series
+
+1. [EKS Cluster Creation: The First Step in Your AWS EKS Journey(Part 1) by Ekant Mate](https://aws.plainenglish.io/eks-cluster-creation-the-first-step-in-your-aws-eks-journey-90d1640a3604)
+1. [AWS Workshops DIY — EKS Workshop — 1. Introduction and Scope Review By Luther](https://medium.com/the-aws-way/aws-workshops-diy-eks-workshop-1-introduction-and-scope-review-7599f38f06b3)
 
 # 1. Curate
 
@@ -100,14 +104,6 @@ A tool that lets you directly manage AWS services from Kubernetes
 1. [Getting Started with Istio on Amazon EKS by Praseeda Sathaye and Vijay Chintalapati](https://aws.amazon.com/blogs/opensource/getting-started-with-istio-on-amazon-eks/)
 - [Code](https://github.com/aws-ia/terraform-aws-eks-blueprints.git)
 
-# 12. Lambda
-
-1. [Deploying AWS Lambda functions using AWS Controllers for Kubernetes (ACK) By rajdeep saha](https://aws.amazon.com/blogs/compute/deploying-aws-lambda-functions-using-aws-controllers-for-kubernetes-ack/)
-
-# 13. OpenID conenct
-
-1. [Introducing OIDC identity provider authentication for Amazon EKS by Rashmi Dwaraka, Mike Stefaniak, and Paavan Mistry ](https://aws.amazon.com/blogs/containers/introducing-oidc-identity-provider-authentication-amazon-eks/)
-
 # 14. Observability
 
 1. [Hands on with EKS Observability (2023) | Amazon EKS Workshop](https://www.youtube.com/watch?v=ajPe7HVypxg)
@@ -128,7 +124,9 @@ A tool that lets you directly manage AWS services from Kubernetes
 
 # 18. Videos
 
-1. [Deploying Lambda with EKS and Crossplane | Serverless Office Hours](https://www.youtube.com/watch?v=8CdyxX7eGkA)
+1. [AWS re:Invent 2022 - Kubernetes virtually anywhere, for everyone (CON208-L)](https://www.youtube.com/watch?v=OB7IZolZk78)
+1. [AWS re:Invent 2023 - The future of Amazon EKS (CON203) BY Nathan Taber](https://www.youtube.com/watch?v=c9NJ6GSeNDM)
+1. [AWS re:Invent 2023 - Inner workings of Amazon EKS (CON327) By Vipin Mohan and Vipul Sabhaya](hhttps://youtu.be/I0hi6UiA7Ts?t=1226)
 
 # 19. Newsletter
 
