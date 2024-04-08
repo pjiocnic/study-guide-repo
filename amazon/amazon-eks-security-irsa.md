@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [1. Concepts](#1-concepts)
+- [Samples](#samples)
 - [2. Repost](#2-repost)
 - [3. Videos](#3-videos)
 - [4. Workshops](#4-workshops)
@@ -20,6 +21,10 @@
 1. [IAM Roles for Service Accounts](https://eksctl.io/usage/iamserviceaccounts/)
 1. [Introducing fine-grained IAM roles for service accounts by Micah Hausler and Michael Hausenblas](https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/)
 1. [Implementing Cross-Account Access with Amazon EKS using IAM Roles for Service Accounts by Praveen Dandu](https://www.linkedin.com/pulse/implementing-cross-account-access-amazon-eks-using-iam-praveen-dandu-zj8te/)
+
+# Samples
+
+1. [Amazon EKS IAM Role for Service Accounts CDK/CloudFormation Library](https://github.com/awslabs/amazon-eks-irsa-cfn)
 
 # 2. Repost
 

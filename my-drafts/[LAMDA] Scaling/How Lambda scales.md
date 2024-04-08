@@ -73,7 +73,9 @@ concurrent requests / AvgDurationInSeconds = RequestsPerSecond (TPS)
 
 <img src="./images/Lambda-account-and-burst-concurrency2.png" title="Lambda-account-and-burst-concurrency2.png" width="2000"/>
 
-# Scaling with SQS
+# [Scaling with SQS](https://aws.amazon.com/blogs/compute/introducing-faster-polling-scale-up-for-aws-lambda-functions-configured-with-amazon-sqs/)
+
+Git: https://github.com/aws-samples/lambda-sqs-event-source-mapping-scaling-improvements
 
 1. Lambda functions that subscribe to an SQS queue can scale up to five times faster for queues that see a spike in message backlog, adding up to **300 concurrent executions per minute**, and **scaling up to a maximum of 1,250 concurrent executions**
 
