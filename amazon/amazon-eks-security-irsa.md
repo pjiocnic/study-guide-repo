@@ -12,11 +12,11 @@
 
 # 1. Concepts
 
-1. [I[DOCS] AM roles for service accounts](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html)
+1. [[_**DOC-MAKE_NOTES**_] IAM roles for service accounts](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html)
 1. [AWS IAM: EKS Pod Identity vs OpenID Connect Comparison](https://www.perfectscale.io/blog/eks-iam-oidc-vs-pod-identity)
-1. [[BEST] Diving into IAM Roles for Service Accounts by Gaurav Pilay](https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts/)
-1. [[MY NEXT] Introducing fine-grained IAM roles for service accounts by Micah Hausler and Michael Hausenblas](https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/)
-1. [[START HERE] Understanding IAM roles for service accounts, IRSA, on AWS EKS by Ankit Wal](https://medium.com/@ankit.wal/the-how-of-iam-roles-for-service-accounts-irsa-on-aws-eks-3d76badb8942)
+1. [[_**BEST**_] Diving into IAM Roles for Service Accounts by Gaurav Pilay](https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts/)
+1. [[_**MY_NEXT**_] Introducing fine-grained IAM roles for service accounts by Micah Hausler and Michael Hausenblas](https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/)
+1. [[**START_HERE**] Understanding IAM roles for service accounts, IRSA, on AWS EKS by Ankit Wal](https://medium.com/@ankit.wal/the-how-of-iam-roles-for-service-accounts-irsa-on-aws-eks-3d76badb8942)
 1. [IAM Roles for Service Accounts (IRSA) in AWS EKS within and cross AWS Accounts](https://platformwale.blog/2023/08/02/iam-roles-for-service-accounts-irsa-in-aws-eks-within-and-cross-aws-accounts/)
 1. [IAM Roles for Service Accounts](https://eksctl.io/usage/iamserviceaccounts/)
 1. [Introducing fine-grained IAM roles for service accounts by Micah Hausler and Michael Hausenblas](https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/)

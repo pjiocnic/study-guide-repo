@@ -1,0 +1,2 @@
+
+1. [Managing access to Amazon Elastic Kubernetes Service clusters with X.509 certificates by Anuj Sharma, Ballu Singh, Harman Nagra, and Niall Thomson](https://aws.amazon.com/blogs/containers/managing-access-to-amazon-elastic-kubernetes-service-clusters-with-x-509-certificates/)

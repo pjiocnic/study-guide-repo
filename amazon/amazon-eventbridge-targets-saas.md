@@ -1,0 +1,2 @@
+
+1. [Quickly Build End-to-End Integrations to SaaS Partner Event Sources and AWS Services with Amazon EventBridge by Santiago Cardenas and Emily Shea](https://aws.amazon.com/blogs/apn/quickly-build-end-to-end-integrations-to-saas-partner-event-sources-and-aws-services-with-amazon-eventbridge/)
