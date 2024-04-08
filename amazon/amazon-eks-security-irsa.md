@@ -3,10 +3,10 @@
 <!-- TOC -->
 
 - [1. Concepts](#1-concepts)
-- [Samples](#samples)
-- [2. Repost](#2-repost)
-- [3. Videos](#3-videos)
-- [4. Workshops](#4-workshops)
+- [2. Samples](#2-samples)
+- [3. Repost](#3-repost)
+- [4. Videos](#4-videos)
+- [5. Workshops](#5-workshops)
 
 <!-- /TOC -->
 
@@ -22,20 +22,20 @@
 1. [Introducing fine-grained IAM roles for service accounts by Micah Hausler and Michael Hausenblas](https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/)
 1. [Implementing Cross-Account Access with Amazon EKS using IAM Roles for Service Accounts by Praveen Dandu](https://www.linkedin.com/pulse/implementing-cross-account-access-amazon-eks-using-iam-praveen-dandu-zj8te/)
 
-# Samples
+# 2. Samples
 
 1. [Amazon EKS IAM Role for Service Accounts CDK/CloudFormation Library](https://github.com/awslabs/amazon-eks-irsa-cfn)
 
-# 2. Repost
+# 3. Repost
 
 1. [[NOTES] How do I use the IAM roles for service accounts (IRSA) feature with Amazon EKS to restrict access to an Amazon S3 bucket?](https://repost.aws/knowledge-center/eks-restrict-s3-bucket)
 1. [Why can't I use an IAM role for the service account in my Amazon EKS pod?](https://repost.aws/knowledge-center/eks-pods-iam-role-service-accounts)
 
-# 3. Videos
+# 4. Videos
 
 1. [IAM Roles for Service Accounts | Learn about IRSA with demo in 20 mins by Visa2Learn](https://www.youtube.com/watch?v=otmLHWW3Tos)
 
-# 4. Workshops
+# 5. Workshops
 
 1. [IAM Roles for Service Accounts @ EKS Workshop](https://www.eksworkshop.com/docs/security/iam-roles-for-service-accounts/)
 
