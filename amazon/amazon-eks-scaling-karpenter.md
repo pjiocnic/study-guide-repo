@@ -16,6 +16,7 @@
 1. [[GUIDE] Getting Started](https://karpenter.sh/docs/getting-started/)
 1. [Manage scale-to-zero scenarios with Karpenter and Serverless by Giacomo Margaria, Marco Ballerini, and Federica Ciuffo](https://aws.amazon.com/blogs/containers/manage-scale-to-zero-scenarios-with-karpenter-and-serverless/)
 1. [Scale from 100 to 10,000 pods on Amazon EKS by Akshaya Rawat](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks/)
+1. [Eliminate Kubernetes node scaling lag with pod priority and over-provisioning by Jayesh Vartak](https://aws.amazon.com/blogs/containers/eliminate-kubernetes-node-scaling-lag-with-pod-priority-and-over-provisioning/)
 
 # 1. Workshop
 

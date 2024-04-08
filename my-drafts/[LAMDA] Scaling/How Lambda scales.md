@@ -73,6 +73,55 @@ concurrent requests / AvgDurationInSeconds = RequestsPerSecond (TPS)
 
 <img src="./images/Lambda-account-and-burst-concurrency2.png" title="Lambda-account-and-burst-concurrency2.png" width="2000"/>
 
+# Scaling with SQS
+
+1. Lambda functions that subscribe to an SQS queue can scale up to five times faster for queues that see a spike in message backlog, adding up to **300 concurrent executions per minute**, and **scaling up to a maximum of 1,250 concurrent executions**
+
+2. The new improved scaling rates are automatically **applied to all AWS accounts** using Lambda and SQS as an event source. There is no explicit action that you must take, and there’s **no additional cost**
+
+# [NOTES] Max and Reserved concurrenct
+
+<img src="./images/sqs-lambda-max-reserved-concurrency.png" title="sqs-lambda-max-reserved-concurrency.png" width="2000"/>
+
+src: https://aws.amazon.com/blogs/compute/introducing-faster-polling-scale-up-for-aws-lambda-functions-configured-with-amazon-sqs/
+
+1.  **Reserved concurrency** is the **maximum concurrency that you want to allocate to a function**. When a function has reserved concurrency allocated, no other functions can use that concurrency.
+
+2. **Throttling**: When an SQS event source is attempting to scale up concurrent Lambda invocations, but the function has already reached the threshold defined by the reserved concurrency, the Lambda service throttles further function invocations.
+
+3. What happens a throttling limit is reached?
+Depending on the queue configuration, the throttled messages are returned to the queue for retrying, expire based on the retention policy, or sent to a dead-letter queue (DLQ) or on-failure destination.
+
+4. The **maximum concurrency** setting allows you to control concurrency **at the event source level**. It allows you to define the maximum number of concurrent invocations the event source attempts to send to the Lambda function
+
+5. Can use both of them simultaneously
+
+Reserved concurrency and maximum concurrency are complementary capabilities, and can be used together
+
+6. Purpose of max concurrency and reserved concurrency
+
+Maximum concurrency can help to prevent overwhelming downstream systems and throttled invocations. Reserved concurrency helps to ensure available concurrency for the function.
+
+# Encryption
+
+Use **server-side encryption (SSE)** to store sensitive data in encrypted SQS queues. With SSE, your messages are always stored in encrypted form, and SQS only decrypts them for sending to an authorized consumer. SSE protects the contents of messages in queues using SQS-managed encryption keys (**SSE-SQS**) or keys managed in the AWS Key Management Service (**SSE-KMS**).
+
+src: https://aws.amazon.com/blogs/compute/introducing-faster-polling-scale-up-for-aws-lambda-functions-configured-with-amazon-sqs/
+
+# Cloud Watch Metrics / Operational metrics
+
+Monitor function **Invocations** and **Duration** to understand throughput. **Throttles** show throttled invocations.
+
+1. **ConcurrentExecutions**: tracks the total number of execution environments that are processing events. Ensure this doesn’t reach your account concurrency to avoid account throttling. Use the metric for individual functions to see which are using account concurrency, and also ensure reserved concurrency is not too high. For example, a function may have a reserved concurrency of 2000, but is only using 10.
+
+1. **UnreservedConcurrentExecutions**: show the number of function invocations without reserved concurrency. This is your available account concurrency buffer
+
+1. **ProvisionedConcurrencyUtilization**: o ensure you are not paying for Provisioned Concurrency that you are not using. The metric shows the percentage of allocated Provisioned Concurrency in use.
+
+1. **ProvisionedConcurrencySpilloverInvocations**: show function invocations using standard concurrency, above the configured Provisioned Concurrency value. This may show that you need to increase Provisioned Concurrency.
+
+1. **ClaimedAccountConcurrency**: to track overall account concurrency utilization and monitor when your account is reaching your account limit. This metric is the sum of UnreservedConcurrentExecution and allocated concurrency (reserved, provisioned)
+
 # References
 
 1. [Understanding AWS Lambda scaling and throughput by Julian Wood ](https://aws.amazon.com/blogs/compute/understanding-aws-lambda-scaling-and-throughput/)
