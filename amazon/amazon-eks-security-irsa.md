@@ -21,6 +21,7 @@
 1. [IAM Roles for Service Accounts](https://eksctl.io/usage/iamserviceaccounts/)
 1. [Introducing fine-grained IAM roles for service accounts by Micah Hausler and Michael Hausenblas](https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/)
 1. [Implementing Cross-Account Access with Amazon EKS using IAM Roles for Service Accounts by Praveen Dandu](https://www.linkedin.com/pulse/implementing-cross-account-access-amazon-eks-using-iam-praveen-dandu-zj8te/)
+1. [How a Pod assumes an AWS identity? By James Mak](https://medium.com/airwalk/how-a-pod-assumes-an-aws-identity-284fc6fda873)
 
 # 2. Samples
 
