@@ -1,0 +1,1 @@
+[AWS IAM: EKS Pod Identity vs OpenID Connect Comparison](https://www.perfectscale.io/blog/eks-iam-oidc-vs-pod-identity)
