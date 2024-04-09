@@ -13,11 +13,13 @@
 1. [EKS Workshop](https://www.eksworkshop.com/)
 1. Luther's EKS workshop series
 
+1. How does IRSA work - https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts/
+1. Deploying 3-Tier apps on EKS - https://catalog.us-east-1.prod.workshops.aws/workshops/9c0aa9ab-90a9-44a6-abe1-8dff360ae428/en-US/90-monitoring/100-build-insight
+
 # Topics
 
 1. RBAC from K8S in Action
 1. How does RBAC work in EKS?
-1.
 
 # 2. Networking
 
