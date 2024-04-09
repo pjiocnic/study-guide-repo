@@ -8,6 +8,7 @@
 - [4. S3 as origin](#4-s3-as-origin)
   - [4.1. Multi-region S3 as origin](#41-multi-region-s3-as-origin)
 - [5. Troubleshooting](#5-troubleshooting)
+- [Workshop](#workshop)
 
 <!-- /TOC -->
 
@@ -38,3 +39,7 @@
 # 5. Troubleshooting
 
 1. [Amazon CloudFront - Troubleshooting](https://explore.skillbuilder.aws/learn/course/10072/amazon-cloudfront-troubleshooting)
+
+# Workshop
+
+1. [Edge Services Immersion Day Workshop CloudFront Foundation I](https://catalog.us-east-1.prod.workshops.aws/workshops/84e87f63-1dfc-4935-8e25-59cf02bea425/en-US/cloudfront-foundation-i)

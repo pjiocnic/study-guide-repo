@@ -1,0 +1,2 @@
+1. [Leveraging RBAC configurations in Kubernetes by Israel Aminu](https://aws.plainenglish.io/organizing-eks-permissions-for-users-and-roles-on-aws-09f8454a5bf5)
+1. [Kubernetes RBAC and IAM Integration in Amazon EKS using a Java-based Kubernetes Operator by Viji Sarathy](https://aws.amazon.com/blogs/containers/kubernetes-rbac-and-iam-integration-in-amazon-eks-using-a-java-based-kubernetes-operator/)

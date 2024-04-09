@@ -8,3 +8,4 @@
 1. [Building an App Using Amazon Cognito and an OpenID Connect Identity Providerby Shon Shah and Abrom Douglas](https://aws.amazon.com/blogs/security/building-an-app-using-amazon-cognito-and-an-openid-connect-identity-provider/)
 1. [Consistent OIDC authentication across multiple EKS clusters using Kube-OIDC-Proxy by Jeremy Cowan](https://aws.amazon.com/blogs/opensource/consistent-oidc-authentication-across-multiple-eks-clusters-using-kube-oidc-proxy/)
 1. [Use IAM roles to connect GitHub Actions to actions in AWS by David Rowe](https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/)
+1. [How a Pod assumes an AWS identity? By James Mak](https://medium.com/airwalk/how-a-pod-assumes-an-aws-identity-284fc6fda873)

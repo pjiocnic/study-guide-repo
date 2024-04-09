@@ -8,8 +8,6 @@
 - [4. Delivery Status](#4-delivery-status)
 - [5. Filtering](#5-filtering)
   - [5.1. Uncategorized](#51-uncategorized)
-  - [5.2. Payload filtering](#52-payload-filtering)
-  - [5.3. Attribute Filtering](#53-attribute-filtering)
 - [6. FIFO](#6-fifo)
 - [7. Message Protection](#7-message-protection)
 - [8. Monitoring](#8-monitoring)
@@ -48,17 +46,8 @@
 1. [[HANDS_ON] Filter Messages Published to Topics with Amazon SNS and Amazon SQS Thru' console](https://aws.amazon.com/tutorials/filter-messages-published-to-topics/)
 1. [Creating an AWS SNS Subscription Filter Policy (9/13) By Be A Better Dev](https://www.youtube.com/watch?v=ezrHUimmkzo)
 
-## 5.2. Payload filtering
 
-1. [Introducing payload-based message filtering for Amazon SNS by Prachi Sharma, Mithun Mallick, Otavio Ferreira ](https://aws.amazon.com/blogs/compute/introducing-payload-based-message-filtering-for-amazon-sns/)
-1. [How to filter messages based on the payload using Amazon SNS By FooBar](https://www.youtube.com/watch?v=36iMOJQUAuE)
 
-## 5.3. Attribute Filtering
-
-1. [Lab 1 - Fan-out & message filtering @ Decoupled Microservices Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/e8738cf6-6eb0-4d1d-9e98-ae240d229535/en-US/fan-out-and-message-filtering)
-1. [[BEST] Managing Amazon SNS Subscription Attributes with AWS CloudFormation by Rachel Richardson and Otavio Ferreira](https://aws.amazon.com/blogs/compute/managing-amazon-sns-subscription-attributes-with-aws-cloudformation/)
-1. [Leveraging Filter Policies in AWS SNS to Optimize Lambda Event Processing by Divyansh Patel](https://medium.com/@divyansh9144/leveraging-filter-policies-in-aws-sns-to-optimize-lambda-event-processing-a4b746b5dd10)
-1. [A tutorial on AWS SNS Message filtering using message attributes by Keshav Bist](https://keshavbist.medium.com/a-tutorial-on-aws-sns-message-filtering-using-message-attributes-4716f9e0dedb)
 
 # 6. FIFO
 
