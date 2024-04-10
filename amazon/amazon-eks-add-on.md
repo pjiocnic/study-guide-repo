@@ -11,8 +11,7 @@ https://eksctl.io/usage/addons/
 
 # 2. ALB
 
-1. [AWS Load Balancer Controller](https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.7/deploy/installation/)
-1. [Building Web Applications based on Amazon EKS > Create Ingress Controller > Create AWS Load Balancer Controller](https://catalog.us-east-1.prod.workshops.aws/workshops/9c0aa9ab-90a9-44a6-abe1-8dff360ae428/en-US/60-ingress-controller/100-launch-alb)
+[see amazon-eks-alb-ingress.md](./amazon-eks-alb-ingress.md)
 
 # 3. Stormforge
 
