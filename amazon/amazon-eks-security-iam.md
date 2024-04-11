@@ -1,0 +1,2 @@
+
+1. [A deep dive into simplified Amazon EKS access management controls by Sheetal Joshi and Mike Stefaniak](https://aws.amazon.com/blogs/containers/a-deep-dive-into-simplified-amazon-eks-access-management-controls/)

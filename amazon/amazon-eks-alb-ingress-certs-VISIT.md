@@ -1,10 +1,16 @@
 <h1>amazon-eks-alb-ingress</h1>
 
+# ALB
+
+1. [How to leverage Application Load Balancer’s advanced request routing to route application traffic across multiple Amazon EKS clusters by Dumlu Timuralp, Pratik R. Mankad, and Praseeda Sathaye](https://aws.amazon.com/blogs/containers/how-to-leverage-application-load-balancers-advanced-request-routing-to-route-application-traffic-across-multiple-amazon-eks-clusters/)
+1. [[SCALE] How to rapidly scale your application with ALB on EKS (without losing traffic) by Yahav Biran, Sheetal Joshi, and Yuval Dovrat](https://aws.amazon.com/blogs/containers/how-to-rapidly-scale-your-application-with-alb-on-eks-without-losing-traffic/)
+
+# Ingress
+
 1. [Kubernetes Ingress with AWS ALB Ingress Controller by Yang Yang and Michael Hausenblas](https://aws.amazon.com/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller/)
 1. [Using ALB Ingress Controller with Amazon EKS on Fargate by Bruno Emer and Nathan Taber](https://aws.amazon.com/blogs/containers/using-alb-ingress-controller-with-amazon-eks-on-fargate/)
 1. [AWS Load Balancer Controller @ GITHub](https://github.com/kubernetes-sigs/aws-load-balancer-controller)
 1. [AWS Load Balancer Controller](https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.7/deploy/installation/)
-1. [How to rapidly scale your application with ALB on EKS (without losing traffic) by Yahav Biran, Sheetal Joshi, and Yuval Dovrat](https://aws.amazon.com/blogs/containers/how-to-rapidly-scale-your-application-with-alb-on-eks-without-losing-traffic/)
 
 # 1. Encryption
 

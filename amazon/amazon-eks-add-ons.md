@@ -13,6 +13,10 @@ https://eksctl.io/usage/addons/
 
 [see amazon-eks-alb-ingress.md](./amazon-eks-alb-ingress.md)
 
+# Deploying Add-ons from the console
+
+1. [Procure and deploy third-party EKS add-ons without leaving the EKS console by Swaminathan Jayaraman and Wendy Jabitta](https://aws.amazon.com/blogs/awsmarketplace/procure-deploy-third-party-eks-add-ons-eks-console/)
+
 # 3. Stormforge
 
 1. [Install Optimize Live as an EKS add-on](https://docs.stormforge.io/optimize-live/getting-started/install-eks-addon/)

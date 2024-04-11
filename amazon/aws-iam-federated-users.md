@@ -1,0 +1,3 @@
+
+1. [Enable Your Federated Users to Work in the AWS Management Console for up to 12 Hours by Kai Zhao](https://aws.amazon.com/blogs/security/enable-your-federated-users-to-work-in-the-aws-management-console-for-up-to-12-hours/)
+1. [How to Easily Identify Your Federated Users by Using AWS CloudTrail by Akshat Goel](https://aws.amazon.com/blogs/security/how-to-easily-identify-your-federated-users-by-using-aws-cloudtrail/)

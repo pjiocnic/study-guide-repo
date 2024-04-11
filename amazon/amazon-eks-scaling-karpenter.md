@@ -2,6 +2,7 @@
 
 <!-- TOC -->
 
+- [Karpenter Blueprints](#karpenter-blueprints)
 - [1. Workshop](#1-workshop)
 - [2. Git](#2-git)
 - [3. Video](#3-video)
@@ -18,6 +19,10 @@
 1. [Scale from 100 to 10,000 pods on Amazon EKS by Akshaya Rawat](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks/)
 1. [Eliminate Kubernetes node scaling lag with pod priority and over-provisioning by Jayesh Vartak](https://aws.amazon.com/blogs/containers/eliminate-kubernetes-node-scaling-lag-with-pod-priority-and-over-provisioning/)
 1. [Deliver Namespace as a Service multi tenancy for Amazon EKS using Karpenter by Rachel Leekin, Michael (Mike) Masaaud, and Jihed Mselmi ](https://aws.amazon.com/blogs/containers/deliver-namespace-as-a-service-multi-tenancy-for-amazon-eks-using-karpenter/)
+
+# Karpenter Blueprints
+
+1. [Karpenter Blueprints for Amazon EKS](https://github.com/aws-samples/karpenter-blueprints)
 
 # 1. Workshop
 

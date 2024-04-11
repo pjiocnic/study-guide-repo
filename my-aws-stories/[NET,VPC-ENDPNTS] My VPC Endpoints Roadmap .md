@@ -11,3 +11,5 @@
 1. How to reduce NAT changes by using VPC Endpoints
 2. How to configure NAT gateways for Availability Zone independence.
 2. How to Use AWS Trusted Advisor to check if your NAT gateways are configured with Availability Zone independence.
+3. How to connect VPCs using Endpoint and NLBs
+4. How to handle Overlapping CIDRs using private endpoints
