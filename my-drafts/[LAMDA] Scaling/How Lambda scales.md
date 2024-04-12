@@ -1,5 +1,10 @@
 https://aws.amazon.com/blogs/compute/understanding-aws-lambda-scaling-and-throughput/
 
+# Quick Tips
+
+1. Concurrency = num of lambda instances
+2. TPS = concurreny / function duration in secs
+
 # What is Transactions per second?
 
 **Formula**: AvgDurationInSeconds / concurrent requests = TPS
