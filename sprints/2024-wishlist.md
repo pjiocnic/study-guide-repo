@@ -16,20 +16,25 @@ See [[AGTWY] Private integrations in API Gateway.md](..//my-aws-stories/[AGTWY]%
 
 [AWS re:Invent 2023 - Best practices for serverless developers (SVS401)](https://www.youtube.com/watch?v=sdCA0Y7QDrM&t=550s)
 
-# 5. PrivateLink
+# 5. Organizations
+
+1. [Organizing Your AWS Environment Using Multiple Accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html)
+
+# 6. PrivateLink
 
 1. [[Read Docs] Access AWS services through AWS PrivateLink](https://docs.aws.amazon.com/vpc/latest/privatelink/privatelink-access-aws-services.html)
+1. [Access the Amazon Elastic Kubernetes Service using an interface endpoint (AWS PrivateLink)](https://docs.aws.amazon.com/eks/latest/userguide/vpc-interface-endpoints.html)
 
-# 6. ECS
+# 7. ECS
 
 1. [AWS re:Invent 2023 - Deep dive into Amazon ECS resilience and availability (CON401)](https://www.youtube.com/watch?v=C7HUkG_tu90)
 2. [A deep dive into resilience and availability on Amazon Elastic Container Service by Maish Saidel-Keesing and Malcolm Featonby](https://aws.amazon.com/blogs/containers/a-deep-dive-into-resilience-and-availability-on-amazon-elastic-container-service/)
 
-# 7. Terraform and AWS
+# 8. Terraform and AWS
 
 1. Microservices: Up and Running Ronnie Mitra, Irakli Nadareishvili
 
-# 8. EC2 Spot Instances
+# 9. EC2 Spot Instances
 
 1. [ Amazon EC2 Spot Workshops ](https://ec2spotworkshops.com/)
 - EC2 Auto Scaling with multiple instance types
@@ -44,6 +49,6 @@ See [[AGTWY] Private integrations in API Gateway.md](..//my-aws-stories/[AGTWY]%
 - Running Efficient and Resilient Workloads with EC2 autoscaling
 - Pricing Financial Derivatives with AWS Batch
 
-# 9. EKS
+# 10. EKS
 
 1. [Hands on with EKS Networking (2023) | Amazon EKS Workshop](https://www.youtube.com/watch?v=EAZnXII9NTY&t=593s)

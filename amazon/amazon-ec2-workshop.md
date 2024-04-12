@@ -1,4 +1,6 @@
 
+# Spot Instances
+
 1. [Amazon EC2 Auto Scaling with EC2 Spot Instances](https://aws.amazon.com/tutorials/ec2-auto-scaling-spot-instances/)
 - EC2 Auto Scaling with multiple instance types
 - ECS: Cost Optimize Container Workloads using EC2 Spot
@@ -11,5 +13,7 @@
 - Running EC2 Workloads at Scale with EC2 autoscaling
 - Running Efficient and Resilient Workloads with EC2 autoscaling
 - Pricing Financial Derivatives with AWS Batch
+
+# Building custom images
 
 1. [AWS for Linux Workloads Immersion Day > Building golden images using Amazon EC2 Image Builder](https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US/100-ec2-ib)
