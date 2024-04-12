@@ -1,0 +1,21 @@
+# src: [Building event-driven architectures on AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US)
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: "AWS::Serverless-2016-10-31"
+
+Resources:
+  DodgyFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: DodgyFunction
+      Handler: index.lambda_handler
+      Runtime: python3.9
+      Timeout: 10
+      InlineCode: |
+        import logging
+
+        logger = logging.getLogger()
+        logger.setLevel(logging.INFO)
+
+        def lambda_handler(event, context):
+          logger.info('{}'.format(event))
+          return event
