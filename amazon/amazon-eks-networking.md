@@ -8,6 +8,7 @@
 - [4. Private Links](#4-private-links)
 - [5. Prefix delegation](#5-prefix-delegation)
 - [6. Pod density](#6-pod-density)
+- [7. Videos](#7-videos)
 
 <!-- /TOC -->
 
@@ -53,3 +54,8 @@
 
 1. [Increasing pod density for Windows nodes on Amazon EKS by Harsh Rawat, Purvi Goyal, and Jie Chen](https://aws.amazon.com/blogs/containers/increasing-pod-density-for-windows-nodes-on-amazon-eks/)
 1. [Amazon VPC CNI plugin increases pods per node limits by Sheetal Joshi, Mike Stefaniak, and Jayanth Varavani ](https://aws.amazon.com/blogs/containers/amazon-vpc-cni-increases-pods-per-node-limits/)
+
+# 7. Videos
+
+1. [The Routing Loop - Chalk Talk - Networking strategies for Kubernetes on AWS](https://www.twitch.tv/videos/2057125802?collection=HBANRY7lIxagXQ)
+1. [The Routing Loop - Networking Strategies for Kubernetes on AWS - Part 2](https://www.twitch.tv/videos/2063623113)

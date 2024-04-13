@@ -10,6 +10,7 @@
 - [5. DNS](#5-dns)
 - [6. Twitch Shows](#6-twitch-shows)
 - [7. CDK scripts](#7-cdk-scripts)
+- [8. Workshops](#8-workshops)
 
 <!-- /TOC -->
 
@@ -57,3 +58,7 @@
 # 7. CDK scripts
 
 1. [Amazon VPC Routing Enhancements Allow You to Inspect Traffic Between Subnets In a VPC by Sébastien Stormacq](https://aws.amazon.com/blogs/aws/inspect-subnet-to-subnet-traffic-with-amazon-vpc-more-specific-routing/)
+
+# 8. Workshops
+
+1. [Networking Immersion Day](https://catalog.workshops.aws/networking/en-US)
