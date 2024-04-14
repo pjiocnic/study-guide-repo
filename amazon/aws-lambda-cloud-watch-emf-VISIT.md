@@ -1,0 +1,2 @@
+
+1. [Accelerate troubleshooting with structured logs in Amazon CloudWatch by Abhaya Chauhan, Nikhil Kapoor, and Purva Upasak](https://aws.amazon.com/blogs/mt/accelerate-troubleshooting-with-structured-logs-in-amazon-cloudwatch/)

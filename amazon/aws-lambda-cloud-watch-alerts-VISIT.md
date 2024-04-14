@@ -1,0 +1,1 @@
+> 1. [[**MY-NEXT**] How to get notified on specific Lambda function error patterns using CloudWatch by Sudhanshu Malhotra and Rajat Mathur](https://aws.amazon.com/blogs/mt/get-notified-specific-lambda-function-error-patterns-using-cloudwatch/)

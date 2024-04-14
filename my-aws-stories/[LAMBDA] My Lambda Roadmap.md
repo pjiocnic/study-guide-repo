@@ -8,3 +8,5 @@
 1. Where and How to set the SQS Visibility Timeout?
 1. Is it possible to control the Burst quota?
 1. How to set the max concurrency on ESM?
+1. How to see P99 performance and other percentiles in cloudwatch?
+- https://aws.amazon.com/about-aws/whats-new/2019/11/aws-lambda-adds-support-for-percentiles-on-amazon-cloudwatch-metrics/
