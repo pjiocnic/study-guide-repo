@@ -1,0 +1,3 @@
+
+1. [Addressing IPv4 address exhaustion in Amazon EKS clusters using private NAT gateways by Viji Sarathy and Sheetal Joshi](https://aws.amazon.com/blogs/containers/addressing-ipv4-address-exhaustion-in-amazon-eks-clusters-using-private-nat-gateways/)
+1. [Leveraging CNI custom networking alongside security groups for pods in Amazon EKS by Bin Liu and Haofei Feng](https://aws.amazon.com/blogs/containers/leveraging-cni-custom-networking-alongside-security-groups-for-pods-in-amazon-eks/)

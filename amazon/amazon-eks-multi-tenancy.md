@@ -9,6 +9,8 @@
 1. [Kubernetes Multi tenancy with Amazon EKS: Best practices and considerations](https://www.clickittech.com/saas/kubernetes-multi-tenancy)
 1. [Building a Multi-Tenant SaaS Solution Using Amazon EKS by Toby Buckley and Ranjith Raman](https://aws.amazon.com/blogs/apn/building-a-multi-tenant-saas-solution-using-amazon-eks/)
 1. [Tenant Isolation @ EKS Best Practices](https://aws.github.io/aws-eks-best-practices/security/docs/multitenancy/)
+1. [[VISIT] EKS Multi Cluster Strategy](https://repost.aws/questions/QUT6l_QH08TZa1s-p5TVi8Mw/eks-multi-cluster-strategy)
+1. [Multi Account Strategy](https://aws.github.io/aws-eks-best-practices/security/docs/multiaccount/)
 
 # AWS Solutions
 
