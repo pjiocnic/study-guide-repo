@@ -5,7 +5,7 @@
 # Samples
 
 1. https://github.com/aws-samples/aws-lambda-extensions
-1. https://github.com/aws-samples/aws-lambda-extensions/tree/main/cache-extension-demo
+1. [Cache Extension Demo in Go](https://github.com/aws-samples/aws-lambda-extensions/tree/main/cache-extension-demo)
 
     <img src="./images/aws-lambda-extensions-1.svg" title="aws-lambda-extensions-1.svg" width="900"/>
 
