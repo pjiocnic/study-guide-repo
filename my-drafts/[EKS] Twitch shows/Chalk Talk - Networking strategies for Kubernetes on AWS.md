@@ -1,17 +1,22 @@
 
 
-<img src="./images/eks-kubernetes-architecture.png" title="eks-kubernetes-architecture.png" width="900"/>
+<img src="./images/eks-networking-1-kubernetes-architecture.png" title="eks-networking-1-kubernetes-architecture" width="900"/>
 
-<img src="./images/eks-cluster-architecture.png" title="eks-cluster-architecture.png" width="900"/>
+<img src="./images/eks-networking-2-cluster-architecture.png" title="eks-networking-2-cluster-architecture" width="900"/>
 
-<img src="./images/eks-prefix-delegation.png" title="eks-prefix-delegation.png" width="900"/>
+<img src="./images/eks-networking-3-prefix-delegation.png" title="eks-networking-3-prefix-delegation" width="900"/>
 
-eks-vpc-cni-plugin.png
-eks-alb-controllers.png
-eks-ingress-patterns.png
-eks-isolation-strategies.png
-eks-vpc-lattice.png
-eks-service-mesh.png
+<img src="./images/eks-networking-4-vpc-cni-plugin.png" title="eks-networking-4-vpc-cni-plugin" width="900"/>
+
+<img src="./images/eks-networking-5-alb-controllers.png" title="eks-networking-5-alb-controllers" width="900"/>
+
+<img src="./images/eks-networking-6-ingress-patterns.png" title="eks-networking-6-ingress-patterns" width="900"/>
+
+<img src="./images/eks-networking-7-isolation-strategies.png" title="eks-networking-7-isolation-strategies" width="900"/>
+
+<img src="./images/eks-networking-8-vpc-lattice.png" title="eks-networking-8-vpc-lattice" width="900"/>
+
+<img src="./images/eks-networking-9-service-mesh.png" title="eks-networking-9-service-mesh" width="900"/>
 
 # References
 

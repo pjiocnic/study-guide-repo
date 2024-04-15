@@ -12,6 +12,7 @@
 1. [KEDA in Amazon EKS Part 1: Why and How to Install KEDA by Carlo Columna](https://dev.to/carlocolumna/keda-in-amazon-eks-why-and-how-to-install-keda-44pa)
 1. [KEDA in Amazon EKS Part 2: Scale Based On AWS SQS Queue by Carlo Columna](https://dev.to/carlocolumna/keda-in-amazon-eks-part-2-scale-based-on-aws-sqs-queue-5g4d)
 1. [Proactive autoscaling of Kubernetes workloads with KEDA using metrics ingested into Amazon Managed Service for Prometheus by Vikram Venkataraman and Imaya Kumar Jagannathan](https://aws.amazon.com/blogs/mt/proactive-autoscaling-kubernetes-workloads-keda-metrics-ingested-into-aws-amp/)
+1. [Autoscaling Kubernetes workloads with KEDA using Amazon Managed Service for Prometheus metrics by Siva Guruvareddiar and Imaya Kumar Jagannathan](https://aws.amazon.com/blogs/mt/autoscaling-kubernetes-workloads-with-keda-using-amazon-managed-service-for-prometheus-metrics/)
 
 # Samples
 
