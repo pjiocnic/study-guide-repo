@@ -6,3 +6,7 @@
 1. [Setting up end-to-end TLS encryption on Amazon EKS with the new AWS Load Balancer Controller by Petro Kashlikov](https://aws.amazon.com/blogs/containers/setting-up-end-to-end-tls-encryption-on-amazon-eks-with-the-new-aws-load-balancer-controller/)
 1. [[VIDEO] Introducing mTLS for the Application Load Balancer](https://www.twitch.tv/videos/2097281319)
 
+# Basics
+
+1. [TLS / SSL - The complete sequence - Practical TLS](https://www.youtube.com/watch?v=HMoFvRK4HUo&list=PLIFyRwBY_4bTwRX__Zn4-letrtpSj1mzY)
+

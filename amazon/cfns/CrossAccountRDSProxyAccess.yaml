@@ -1,0 +1,718 @@
+# src: https://aws.amazon.com/blogs/database/access-amazon-rds-across-aws-accounts-using-aws-privatelink-network-load-balancer-and-amazon-rds-proxy/
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "This CloudFormation template will deploy all the required components to create an Amazon Aurora cluster, Amazon RDS Proxy,
+Network Load Balancer, and Private Link to enable the cross-account connection from another VPC and/or AWS account."
+
+## ==========================================================================
+## =============================== PARAMETERS ===============================
+Parameters:
+  pDBClusterEngine:
+    Description: "Name of the database engine to be used for the DB cluster"
+    Type: String
+    Default: aurora-postgresql
+    AllowedValues:
+      - aurora-postgresql
+
+  pDBEngineVersion:
+    Description: "Select the Aurora Cluster Database Engine Version (current Aurora LTS versions)"
+    Type: String
+    Default: 14.6
+    AllowedValues:
+      - 14.6
+      - 13.9
+
+  pDBPort:
+    Description: "TCP Port for the Database"
+    Type: Number
+    Default: 5432
+
+  pDBInstanceClass:
+    Description: "Database Instance Class"
+    Type: String
+    Default: db.r6g.large
+    AllowedValues:
+      - db.r6g.large
+      - db.r6g.xlarge
+
+  pCidrBlockVPC:
+    Description: "CIDR block for the VPC"
+    Type: String
+    Default: "10.0.0.0/16"
+
+  pCidrBlockSubnetA:
+    Description: "CIDR block for SubnetA of the VPC"
+    Type: String
+    Default: "10.0.0.0/24"
+
+  pCidrBlockSubnetB:
+    Description: "CIDR block for SubnetB of the VPC"
+    Type: String
+    Default: "10.0.1.0/24"
+
+  pLambdaName:
+    Description: "Lambda function name that will update NLB Target Group with RDS Proxy endpoint IP"
+    Default: "NLB-IP-Update"
+    Type: String
+    MinLength: '1'
+    MaxLength: '256'
+
+  pSecretName:
+    Description: "Secret name to be used when creating the secret in Secrets Manager for the Aurora database cluster"
+    Default: "AuroraSecret"
+    Type: String
+    MinLength: '1'
+    MaxLength: '256'
+
+  pCACertificateIdentifier:
+    Description: "The CA identifier of the CA certificate used for the DB instance's server certificate"
+    Default: "rds-ca-rsa2048-g1"
+    AllowedValues:
+      - rds-ca-rsa2048-g1
+      - rds-ca-rsa4096-g1
+      - rds-ca-ecc384-g1
+    Type: String
+
+  pRDSDBProxyRoleName:
+    Description: "Role name for the RDS DB Proxy role"
+    Default: "RDSDBProxyRole"
+    Type: String
+    MinLength: '1'
+    MaxLength: '256'
+
+  pRDSProxyName:
+    Description: "Name for the RDS DB Proxy"
+    Default: "RDSProxy"
+    Type: String
+    MinLength: '1'
+    MaxLength: '256'
+
+  pConsumerAccount:
+    Description: "Consumer Account ID to enable access to VPC Endpoint Service from Database Account"
+    Default: "arn:aws:iam::012345678901:root"
+    Type: String
+    MinLength: '1'
+    MaxLength: '256'
+
+## ==========================================================================
+## ================================ RESOURCES ===============================
+Resources:
+
+## ============ Networking: VPC, private subnets, VPC endpoints =============
+
+  rVPC:
+    Type: "AWS::EC2::VPC"
+    Properties:
+      CidrBlock: !Ref pCidrBlockVPC
+      EnableDnsSupport: 'true'
+      EnableDnsHostnames: 'true'
+      Tags:
+      - Key: "Name"
+        Value: "VPCDatabaseAccount"
+
+  rSubnetA:
+    Type: "AWS::EC2::Subnet"
+    Properties:
+      AvailabilityZone: !Select
+        - 0
+        - !GetAZs
+          Ref: "AWS::Region"
+      VpcId: !Ref rVPC
+      CidrBlock: !Ref pCidrBlockSubnetA
+
+  rSubnetB:
+    Type: "AWS::EC2::Subnet"
+    Properties:
+      AvailabilityZone: !Select
+        - 1
+        - !GetAZs
+          Ref: "AWS::Region"
+      VpcId: !Ref rVPC
+      CidrBlock: !Ref pCidrBlockSubnetB
+
+  rRouteTable:
+    Type: "AWS::EC2::RouteTable"
+    Properties:
+      VpcId: !Ref rVPC
+
+  rSubnetARouteTableAssociation:
+    Type: "AWS::EC2::SubnetRouteTableAssociation"
+    Properties:
+      SubnetId:
+        Ref: rSubnetA
+      RouteTableId:
+        Ref: rRouteTable
+
+  rSubnetBRouteTableAssociation:
+    Type: "AWS::EC2::SubnetRouteTableAssociation"
+    Properties:
+      SubnetId:
+        Ref: rSubnetB
+      RouteTableId:
+        Ref: rRouteTable
+
+  rSecurityGroupRDS:
+    Type: "AWS::EC2::SecurityGroup"
+    Properties:
+      GroupName: "Security Group for RDS"
+      GroupDescription: "Security Group for RDS"
+      VpcId: !Ref rVPC
+      SecurityGroupEgress:
+      - IpProtocol: "-1"
+        CidrIp: "0.0.0.0/0"
+
+  # Inbound rules for rSecurityGroupRDS
+  rSecurityGroupRDSInboundRule:
+    Type: "AWS::EC2::SecurityGroupIngress"
+    DependsOn: rSecurityGroupRDS
+    Properties:
+      Description: "Inbound rule for DB port"
+      GroupId: !Ref rSecurityGroupRDS
+      IpProtocol: "tcp"
+      FromPort: !Ref pDBPort
+      ToPort: !Ref pDBPort
+      SourceSecurityGroupId: !Ref rSecurityGroupRDS
+
+  rSecurityGroupRDSInboundRuleNLBSubnetA:
+    Type: "AWS::EC2::SecurityGroupIngress"
+    DependsOn: rSecurityGroupRDS
+    Properties:
+      Description: "Allow access to RDS from NLB CIDR of Subnet A"
+      GroupId: !Ref rSecurityGroupRDS
+      IpProtocol: "tcp"
+      FromPort: !Ref pDBPort
+      ToPort: !Ref pDBPort
+      CidrIp: !Ref pCidrBlockSubnetA
+
+  rSecurityGroupRDSInboundRuleNLBSubnetB:
+    Type: "AWS::EC2::SecurityGroupIngress"
+    DependsOn: rSecurityGroupRDS
+    Properties:
+      Description: "Allow access to RDS from NLB CIDR of Subnet B"
+      GroupId: !Ref rSecurityGroupRDS
+      IpProtocol: "tcp"
+      FromPort: !Ref pDBPort
+      ToPort: !Ref pDBPort
+      CidrIp: !Ref pCidrBlockSubnetB
+
+  # VPC ELB endpoint
+  rVPCEndpointELB:
+    Type: "AWS::EC2::VPCEndpoint"
+    Properties:
+      VpcEndpointType: Interface
+      PrivateDnsEnabled: true
+      SubnetIds:
+      - !Ref rSubnetA
+      - !Ref rSubnetB
+      SecurityGroupIds:
+      - !Ref rSecurityGroupRDS
+      - !Ref rSecurityGroupLambda
+      ServiceName: !Sub 'com.amazonaws.${AWS::Region}.elasticloadbalancing'
+      VpcId: !Ref rVPC
+
+  # VPC S3 Gateway endpoint needed to get cfnresponse back from Lambda function
+  rS3GatewayEndpoint:
+    Type: "AWS::EC2::VPCEndpoint"
+    Properties:
+      ServiceName: !Sub "com.amazonaws.${AWS::Region}.s3"
+      VpcEndpointType: Gateway
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: '*'
+            Action:
+              - 's3:*'
+            Resource:
+              - '*'
+      VpcId: !Ref rVPC
+      RouteTableIds:
+        - !Ref rRouteTable
+
+## =================== Amazon Aurora cluster and DB instance =============
+
+  rDatabaseKMSKey:
+    Type: AWS::KMS::Key
+    Properties:
+      Description: "Key used by Aurora database cluster"
+      KeyPolicy:
+        Version: "2012-10-17"
+        Id: !Join
+              - ''
+              - - 'aurora-kms-id-'
+                - !Select [0, !Split [-, !Select [2, !Split [/, !Ref AWS::StackId ]]]]
+        Statement:
+          - Sid: Enable IAM User Permissions
+            Effect: Allow
+            Principal:
+              AWS: !Join
+                - ''
+                - - 'arn:aws:iam::'
+                  - !Ref 'AWS::AccountId'
+                  - ':root'
+            Action: 'kms:*'
+            Resource: '*'
+      EnableKeyRotation: True
+
+  rDBCluster:
+    Type: "AWS::RDS::DBCluster"
+    Properties:
+      Engine: !Ref pDBClusterEngine
+      EngineVersion: !Ref pDBEngineVersion
+      Port: !Ref pDBPort
+      MasterUsername: sampleuser
+      MasterUserPassword:
+        !Join ['', ['{{resolve:secretsmanager:', !Ref rRDSSecret, ':SecretString:password}}' ]]
+      EngineMode: provisioned
+      DeletionProtection: true
+      StorageEncrypted: true
+      KmsKeyId: !Ref rDatabaseKMSKey
+      DBSubnetGroupName: !Ref rDBSubnetGroup
+      VpcSecurityGroupIds:
+      - !Ref rSecurityGroupRDS
+      EnableCloudwatchLogsExports:
+        - postgresql
+
+  rDBInstance1:
+    Type: "AWS::RDS::DBInstance"
+    Properties:
+      DBClusterIdentifier: !Ref rDBCluster
+      DBInstanceClass: !Ref pDBInstanceClass
+      DBSubnetGroupName: !Ref rDBSubnetGroup
+      Engine: !Ref pDBClusterEngine
+      PubliclyAccessible: false
+      CACertificateIdentifier: !Ref pCACertificateIdentifier
+      AvailabilityZone: !Select
+        - 0
+        - !GetAZs
+          Ref: "AWS::Region"
+
+  rDBInstance2:
+    Type: "AWS::RDS::DBInstance"
+    Properties:
+      DBClusterIdentifier: !Ref rDBCluster
+      DBInstanceClass: !Ref pDBInstanceClass
+      DBSubnetGroupName: !Ref rDBSubnetGroup
+      Engine: !Ref pDBClusterEngine
+      PubliclyAccessible: false
+      CACertificateIdentifier: !Ref pCACertificateIdentifier
+      AvailabilityZone: !Select
+        - 1
+        - !GetAZs
+          Ref: "AWS::Region"
+
+  rDBSubnetGroup:
+    Type: "AWS::RDS::DBSubnetGroup"
+    Properties:
+      DBSubnetGroupName: !Join
+                           - ''
+                           - - 'RDSSubnetGroup-'
+                             - !Select [0, !Split [-, !Select [2, !Split [/, !Ref AWS::StackId ]]]]
+      DBSubnetGroupDescription: "Subnet Group for RDS"
+      SubnetIds:
+        - !Ref rSubnetA
+        - !Ref rSubnetB
+
+  rRDSSecret:
+    Type: "AWS::SecretsManager::Secret"
+    Properties:
+      Name: !Join
+              - ''
+              - - !Ref pSecretName
+                - '-'
+                - !Select [0, !Split [-, !Select [2, !Split [/, !Ref AWS::StackId ]]]]
+      Description: "Secrets Manager for Aurora DB"
+      GenerateSecretString:
+        SecretStringTemplate: '{"username": "sampleuser"}'
+        GenerateStringKey: "password"
+        ExcludeCharacters: '"@/\~$!`'
+        PasswordLength: 12
+
+## ============================= RDS Proxy ==================================
+
+  rRDSProxyRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      RoleName: !Join
+                  - ''
+                  - - !Ref pRDSDBProxyRoleName
+                    - '-'
+                    - !Select [0, !Split [-, !Select [2, !Split [/, !Ref AWS::StackId ]]]]
+      Description: "RDS Proxy Role to get secrets"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - "rds.amazonaws.com"
+            Action:
+              - "sts:AssumeRole"
+      Policies:
+        - PolicyName: "AllowGetSecretValue"
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "secretsmanager:GetResourcePolicy"
+                  - "secretsmanager:GetSecretValue"
+                  - "secretsmanager:DescribeSecret"
+                  - "secretsmanager:ListSecretVersionIds"
+                Resource: !Ref rRDSSecret
+
+  rRDSProxy:
+    Type: "AWS::RDS::DBProxy"
+    Properties:
+      Auth:
+        - AuthScheme: SECRETS
+          IAMAuth: DISABLED
+          SecretArn: !Ref rRDSSecret
+      DBProxyName: !Join
+                     - ''
+                     - - !Ref pRDSProxyName
+                       - '-'
+                       - !Select [0, !Split [-, !Select [2, !Split [/, !Ref AWS::StackId ]]]]
+      DebugLogging: true
+      EngineFamily: POSTGRESQL
+      RoleArn: !GetAtt rRDSProxyRole.Arn
+      VpcSecurityGroupIds:
+        - !Ref rSecurityGroupRDS
+      VpcSubnetIds:
+        - !Ref rSubnetA
+        - !Ref rSubnetB
+    DependsOn:
+      - rDBCluster
+      - rRDSSecret
+
+  rRDSProxyTargetGroup:
+    Type: "AWS::RDS::DBProxyTargetGroup"
+    Properties:
+      DBProxyName: !Ref rRDSProxy
+      TargetGroupName: default
+      DBClusterIdentifiers:
+        - !Ref rDBCluster
+    DependsOn:
+      - rDBCluster
+      - rRDSProxy
+      - rDBInstance1
+      - rDBInstance2
+
+## ==================== Network Load Balancer (NLB) =========================
+
+  rNetworkLoadBalancer:
+    Type: "AWS::ElasticLoadBalancingV2::LoadBalancer"
+    Properties:
+      Name: !Join
+              - ''
+              - - 'NLB-RDS-'
+                - !Select [0, !Split [-, !Select [2, !Split [/, !Ref AWS::StackId ]]]]
+      Scheme: internal
+      Subnets:
+      - !Ref rSubnetA
+      - !Ref rSubnetB
+      Type: network
+
+  rNetworkLoadBalancerTargetGroup:
+    Type: "AWS::ElasticLoadBalancingV2::TargetGroup"
+    Properties:
+      Name: !Join
+              - ''
+              - - 'NLB-TargetGroup-RDS-'
+                - !Select [0, !Split [-, !Select [2, !Split [/, !Ref AWS::StackId ]]]]
+      Port: !Ref pDBPort
+      TargetType: ip
+      Protocol: TCP
+      VpcId: !Ref rVPC
+      HealthCheckEnabled: True
+      HealthCheckIntervalSeconds: 10
+      HealthCheckPort: !Ref pDBPort
+      HealthCheckProtocol: TCP
+      HealthCheckTimeoutSeconds: 10
+      HealthyThresholdCount: 3
+      TargetGroupAttributes:
+        - Key: deregistration_delay.timeout_seconds
+          Value: 0
+
+  rNetworkLoadBalancerListener:
+    Type: "AWS::ElasticLoadBalancingV2::Listener"
+    Properties:
+      DefaultActions:
+        - Type: forward
+          TargetGroupArn: !Ref rNetworkLoadBalancerTargetGroup
+      LoadBalancerArn: !Ref rNetworkLoadBalancer
+      Port: !Ref pDBPort
+      Protocol: TCP
+
+## ======================== VPC Endpoint Service ============================
+
+  # VPC Endpoint Service for NLB
+  rVPCEndpointService:
+    Type: "AWS::EC2::VPCEndpointService"
+    Properties:
+      AcceptanceRequired: no
+      NetworkLoadBalancerArns:
+        - !Ref rNetworkLoadBalancer
+
+  rVPCEndpointServicePermission:
+    Type: "AWS::EC2::VPCEndpointServicePermissions"
+    Properties:
+      AllowedPrincipals:
+        - !Ref pConsumerAccount # allow cross-VPC role
+      ServiceId: !Ref rVPCEndpointService
+
+## =================================== Lambda ===============================
+
+  rSecurityGroupLambda:
+    Type: "AWS::EC2::SecurityGroup"
+    Properties:
+      GroupDescription: "Allow access to required services"
+      GroupName: LambdaSG
+      VpcId: !Ref rVPC
+
+  rSecurityGroupLambdaInboundRule:
+    Type: "AWS::EC2::SecurityGroupIngress"
+    Properties:
+      Description: "Allow input traffic for Port 443"
+      GroupId: !GetAtt rSecurityGroupLambda.GroupId
+      IpProtocol: tcp
+      FromPort: 443
+      ToPort: 443
+      CidrIp: 0.0.0.0/0
+
+  rSecurityGroupLambdaInboundRuleSGRDS:
+    Type: "AWS::EC2::SecurityGroupIngress"
+    Properties:
+      Description: "Allow input traffic from RDS Security Group"
+      GroupId: !GetAtt rSecurityGroupLambda.GroupId
+      IpProtocol: tcp
+      FromPort: !Ref pDBPort
+      ToPort: !Ref pDBPort
+      SourceSecurityGroupId: !Ref rSecurityGroupRDS
+
+  rSecurityGroupLambdaOutboundRule:
+    Type: "AWS::EC2::SecurityGroupEgress"
+    Properties:
+      Description: "Allow output traffic"
+      GroupId: !GetAtt rSecurityGroupLambda.GroupId
+      IpProtocol: -1
+      FromPort: -1
+      ToPort: -1
+      CidrIp: 0.0.0.0/0
+
+  rLambdaRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service:
+            - lambda.amazonaws.com
+          Action:
+          - sts:AssumeRole
+      Path: "/"
+      Policies:
+        - PolicyName: !Sub "UpdateNLBIpPolicy${AWS::StackName}"
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+            - Effect: Allow
+              Action:
+              - ec2:CreateNetworkInterface
+              - ec2:DeleteNetworkInterface
+              - ec2:DescribeNetworkInterfaces
+              - elasticloadbalancing:DescribeTargetHealth
+              - elasticloadbalancing:DeregisterTargets
+              - elasticloadbalancing:RegisterTargets
+              Resource: "*"
+            - Effect: Allow
+              Action:
+              - logs:CreateLogGroup
+              Resource: !Sub "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:*"
+            - Effect: Allow
+              Action:
+              - logs:CreateLogStream
+              - logs:PutLogEvents
+              Resource: !Sub "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/${pLambdaName}:*"
+      ManagedPolicyArns:
+        - "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+      RoleName: !Sub "UpdateNLBIP-${AWS::StackName}"
+
+  rLambdaNLBUpdate:
+    Type: "AWS::Lambda::Function"
+    Properties:
+      Description: "Lambda function to update NLB target group IP address"
+      Role: !GetAtt rLambdaRole.Arn
+      VpcConfig:
+        SecurityGroupIds:
+        - !Ref rSecurityGroupLambda
+        SubnetIds:
+        - !Ref rSubnetA
+        - !Ref rSubnetB
+      Timeout: 360
+      FunctionName: !Join
+                      - ''
+                      - - !Ref pLambdaName
+                        - '-'
+                        - !Select [0, !Split [-, !Select [2, !Split [/, !Ref AWS::StackId ]]]]
+      Runtime: python3.9
+      Handler: index.lambda_handler
+      Environment:
+        Variables:
+          TargetRDSProxyEndpoint: !GetAtt rRDSProxy.Endpoint
+          RDS_Port: !GetAtt rDBCluster.Endpoint.Port
+          NLBTargetGroupARN: !Ref rNetworkLoadBalancerTargetGroup
+      TracingConfig:
+          Mode: Active
+      Code:
+        ZipFile: |
+          import os
+          import json
+          import socket
+          import sys
+          import boto3
+          import cfnresponse
+
+          # Get Environment varilables
+          vTargetRDSProxyEndpoint = os.environ.get('TargetRDSProxyEndpoint')
+          vELB_arn = os.environ.get('NLBTargetGroupARN')
+          vNewPort = os.environ.get('RDS_Port')
+          client = boto3.client('elbv2')
+
+          # Deregister old IP from NLB
+          def deregister_oldip(vOldIp, vOldPort, vOldAZ):
+            response = client.deregister_targets(
+              TargetGroupArn=vELB_arn,
+              Targets=[
+                {
+                  'Id': vOldIp,
+                  'Port': vOldPort,
+                  'AvailabilityZone': vOldAZ
+                },
+              ]
+            )
+
+          # Register new IP to NLB
+          def register_newip(vNewIP, vNewPort):
+            response = client.register_targets(
+              TargetGroupArn=vELB_arn,
+              Targets=[
+                {
+                  'Id': vNewIP,
+                  'Port': int(vNewPort)
+                },
+              ]
+            )
+
+          def lambda_handler(event, context):
+
+            request_type = event["RequestType"]
+
+            try:
+
+              print(event)
+
+              # Update NLB Target Group if there is a CREATE or UPDATE event (Lambda-backed CF custom resource)
+              if request_type == "Create" or request_type == "Update":
+
+                print('Get IPs from RDS Proxy endpoint DNS name')
+                vNewIP = socket.gethostbyname_ex(vTargetRDSProxyEndpoint)
+                IPs = vNewIP[2]
+                print('IPs from RDS Proxy endpoint name: ', IPs)
+
+                print('Get registered IP detail from NLB')
+                dictNLB = client.describe_target_health(
+                  TargetGroupArn=vELB_arn
+                )
+
+                print('Get NLB Target Group target IPs')
+                ip_list = []
+                for i in  dictNLB['TargetHealthDescriptions']:
+                  ip = i.get('Target').get('Id')
+                  ip_list.append(ip)
+
+                # CASE 1 - NLB Target Group doesn't have target IPs, associate RDS Proxy endpoint IP
+                if not ip_list:
+                  for nIP in IPs:
+                    print('Register New IP')
+                    register_newip(nIP, vNewPort)
+                    print('New IP: ', nIP, 'Port: ', vNewPort)
+
+                # CASE 2 - NLB Target Group already has target IPs, if the new IPs are diferent
+                # register them and deregister the previous IPs
+                else:
+
+                  DeRegisterIP = set(ip_list) - set(IPs)
+                  RegisterIP = set(IPs) - set(ip_list)
+
+                  if DeRegisterIP:
+                    print('IP: ', str(DeRegisterIP), ' will be DeRegistered from NLB Target')
+
+                  if RegisterIP:
+                    print('IP: ', str(RegisterIP), ' will be registered to NLB Target')
+
+                  for nIP in RegisterIP:
+                    register_newip(nIP, vNewPort)
+                    print('New IP ', nIP, 'Port: ', vNewPort)
+
+                  for oIP in dictNLB['TargetHealthDescriptions']:
+                    vOldIp = oIP.get('Target').get('Id')
+                    vOldPort = oIP.get('Target').get('Port')
+                    vOldAZ = oIP.get('Target').get('AvailabilityZone')
+                    print('IP list from NLB Target Group: ', vOldIp)
+                    if vOldIp in DeRegisterIP:
+                        deregister_oldip(vOldIp, vOldPort, vOldAZ)
+                        print('Deregister IP: ', vOldIp, 'Port; ', vOldPort, 'AZ: ', vOldAZ)
+
+                # Send SUCCESS response back to CFN custom Lambda-backed resource
+                cfnresponse.send(
+                  event, context, cfnresponse.SUCCESS, {}, event["LogicalResourceId"]
+                )
+
+              elif request_type == "Delete":
+                # Send SUCCESS response back to CFN custom Lambda-backed resource
+                cfnresponse.send(
+                  event, context, cfnresponse.SUCCESS, {}, event["LogicalResourceId"]
+                )
+
+            except Exception:
+              # Send FAILED response back to CFN custom Lambda-backed resource
+              cfnresponse.send(
+                event, context, cfnresponse.FAILED, {}, event["LogicalResourceId"]
+              )
+
+  # Lambda-backed custom resource to update NLB Target IP based on events
+  rCustomLambdaResource:
+    Type: Custom::CustomNLBLambda
+    Properties:
+      ServiceToken: !GetAtt rLambdaNLBUpdate.Arn
+    DependsOn: rRDSProxyTargetGroup
+
+## ==========================================================================
+## ================================ OUTPUTS =================================
+Outputs:
+
+  oDBReadEndpointAddress:
+    Description: "RDS cluster read endpoint"
+    Value: !GetAtt rDBCluster.ReadEndpoint.Address
+
+  oDBWriteEndpointAddress:
+    Description: "RDS cluster write endpoint"
+    Value: !GetAtt rDBCluster.Endpoint.Address
+
+  oDBEndpointPort:
+    Description: "RDS cluster Port endpoint"
+    Value: !GetAtt rDBCluster.Endpoint.Port
+
+  oRDSProxyEndpoint:
+    Description: "RDS Proxy endpoint"
+    Value: !GetAtt rRDSProxy.Endpoint
+
+  oSecretsManagerARN:
+    Description: "Secrets Manager ARN for RDS"
+    Value: !Ref rRDSSecret
+
+  oVPCServiceEndpointID:
+    Description: "VPC Service Endpoint ID. Target for Account A VPC endpoint"
+    Value: !GetAtt rVPCEndpointService.ServiceId

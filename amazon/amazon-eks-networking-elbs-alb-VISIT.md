@@ -18,6 +18,7 @@
 
 1. [How to leverage Application Load Balancer’s advanced request routing to route application traffic across multiple Amazon EKS clusters by Dumlu Timuralp, Pratik R. Mankad, and Praseeda Sathaye](https://aws.amazon.com/blogs/containers/how-to-leverage-application-load-balancers-advanced-request-routing-to-route-application-traffic-across-multiple-amazon-eks-clusters/)
 1. [[SCALE] How to rapidly scale your application with ALB on EKS (without losing traffic) by Yahav Biran, Sheetal Joshi, and Yuval Dovrat](https://aws.amazon.com/blogs/containers/how-to-rapidly-scale-your-application-with-alb-on-eks-without-losing-traffic/)
+1. [[MUST_SEE] Deploying AWS Load Balancer Controller on Amazon EKS by Karthik Chemudupati, Scott Chang, and James Wenzel](https://aws.amazon.com/blogs/networking-and-content-delivery/deploying-aws-load-balancer-controller-on-amazon-eks/)
 
 # 3. Ingress
 

@@ -75,6 +75,10 @@
 
 1. [Crossplane workshop](https://www.eksworkshop.com/docs/automation/controlplanes/crossplane/)
 
+# Using CDK
+
+1. [Simplify integration of your Amazon EKS cluster with Amazon EKS Blueprints for CDK by Mikhail Shapirov and Elamaran Shanmugam](https://aws.amazon.com/blogs/infrastructure-and-automation/simplify-integration-of-your-amazon-eks-cluster-with-amazon-eks-blueprints-for-cdk/)
+
 # 7. Best Practices
 
 1. [EKS Best Practices Guides](https://aws.github.io/aws-eks-best-practices/)
