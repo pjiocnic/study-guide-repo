@@ -18,4 +18,4 @@ https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accoun
 
 The challenge when your workload is running in Kubernetes, however, is providing an identity to that Kubernetes workload which IAM can use for authentication.
 
-**IAM Roles for Service Accounts (IRSA):** leveraging AWS Identity APIs, an OpenID Connect (OIDC) identity provider, and Kubernetes Service Accounts to apply fine-grained access controls to Kubernetes pods
+**IAM Roles for Service Accounts (IRSA):** leveraging AWS Identity APIs, an OpenID Connect (OIDC) identity provider, and Kubernetes Service Accounts to apply fine-grained access controls to Kubernetes pods. IRSA lets you associate an IAM role with a Kubernetes service account

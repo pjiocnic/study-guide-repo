@@ -1,5 +1,25 @@
+<h1>EKS Workshops/Blueprints/Videos</h1>
 
-# 1. Workshops
+<!-- TOC -->
+
+- [1. Courses](#1-courses)
+- [2. Workshops](#2-workshops)
+- [3. Workshop Blog Series](#3-workshop-blog-series)
+- [4. Terraform Workshop](#4-terraform-workshop)
+- [5. Blueprints](#5-blueprints)
+- [6. Teraform Bleuprints](#6-teraform-bleuprints)
+- [7. Crossplane workshop](#7-crossplane-workshop)
+- [8. Using CDK](#8-using-cdk)
+- [9. Best Practices](#9-best-practices)
+- [10. Workshop Videos](#10-workshop-videos)
+
+<!-- /TOC -->
+
+# 1. Courses
+
+1. [Karpenter Masterclass for Kubernetes](https://www.udemy.com/course/karpenter-masterclass-for-kubernetes)
+
+# 2. Workshops
 
 1. [AWS EKS - Elastic Kubernetes Service - Masterclass By Kalyan](https://www.stacksimplify.com/aws-eks/)
 1. [Introducing the Amazon EKS Workshop by Sai Vennam and Niall Thomson](https://aws.amazon.com/blogs/containers/introducing-the-amazon-eks-workshop/)
@@ -8,15 +28,16 @@
 1. [Discover application refactoring with the EKS Developers Workshop by Leah Tucker](https://aws.amazon.com/blogs/containers/discover-application-refactoring-with-the-eks-developers-workshop/)
 1. [EKS Blueprints for CDK Workshop](https://catalog.workshops.aws/eks-blueprints-for-cdk/en-US)
 1. [Running batch workloads on Amazon EKS with AWS Batch](https://catalog.workshops.aws/running-batch-on-eks/en-US)
-1. [EKS Immersion Workshop](https://catalog.workshops.aws/eks-immersionday/en-US)
 1. [EKS Workshop - Practical exercises to learn about Amazon Elastic Kubernetes Service](https://www.eksworkshop.com/)
 1. [Manage your EKS cluster in Full-stack with CDK](https://catalog.us-east-1.prod.workshops.aws/workshops/c15012ac-d05d-46b1-8a4a-205e7c9d93c9/en-US/10-intro)
 1. [Kubernetes hands on introduction (2023) | Amazon EKS Workshop](https://www.youtube.com/watch?v=_TFk5jQr2lk&list=PLehXSATXjcQGIctop3ok3xIMB1cUCPYEK)
 1. [How to navigate EKS workshop](https://aws.plainenglish.io/hands-on-labs-for-amazon-eks-a-great-intro-to-learning-amazon-eks-8be386de483b)
 1. [Discover application refactoring with the EKS Developers Workshop by Leah Tucker](https://aws.amazon.com/blogs/containers/discover-application-refactoring-with-the-eks-developers-workshop/)
 1. [EKS Upgrades Workshop](https://eks-upgrades-workshop.netlify.app/docs/intro/)
+1. [[VISIT] EKS Immersion Day](https://catalog.workshops.aws/eks-immersionday/en-US)
+1. [Karpenter Workshop](https://catalog.workshops.aws/karpenter/en-US)
 
-# 2. Workshop Series
+# 3. Workshop Blog Series
 
 1. [AWS Workshops DIY — EKS Workshop — 1. Introduction and Scope Review](https://medium.com/the-aws-way/aws-workshops-diy-eks-workshop-1-introduction-and-scope-review-7599f38f06b3)
 1. [AWS Workshops DIY — EKS Workshop — 2. Let’s Cluster with ‘eksctl’](https://medium.com/the-aws-way/aws-workshops-diy-eks-workshop-2-lets-cluster-with-eksctl-e129a4a3be9b)
@@ -57,32 +78,33 @@
 1. [AWS Workshops DIY — EKS Workshop — 36. Observability: Viewing Kubernetes Resources in EKS Console](https://medium.com/the-aws-way/aws-workshops-diy-eks-workshop-36-observability-viewing-kubernetes-resources-in-eks-console-f4cb670b8c4d)
 1. [AWS Workshops DIY — EKS Workshop — 37. Observability: EKS Control Plane Logging on CloudWatch Logs](https://medium.com/the-aws-way/aws-workshops-diy-eks-workshop-37-observability-eks-control-plane-logging-on-cloudwatch-logs-8cd3d3684242)
 
-# 3. Terraform Workshop
+# 4. Terraform Workshop
 
 1. [Provisioning Kubernetes clusters on AWS with Terraform and EKS](https://learnk8s.io/terraform-eks)
 1. [Amazon EKS Terraform Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/afee4679-89af-408b-8108-44f5b1065cc7/en-US)
 
-# 4. Blueprints
+# 5. Blueprints
 
 1. [Amazon EKS Blueprints for Terraform](https://aws-ia.github.io/terraform-aws-eks-blueprints/)
 1. [Bootstrapping clusters with EKS Blueprints by Kevin Coleman, Apoorva Kulkarni, Mikhail Shapirov, and Vara Bonthu](https://aws.amazon.com/blogs/containers/bootstrapping-clusters-with-eks-blueprints/)
 
-# 5. Teraform Bleuprints
+# 6. Teraform Bleuprints
 
 1. [Amazon EKS Blueprints for Terraform](https://github.com/aws-ia/terraform-aws-eks-blueprints)
 
-# 6. Crossplane workshop
+# 7. Crossplane workshop
 
 1. [Crossplane workshop](https://www.eksworkshop.com/docs/automation/controlplanes/crossplane/)
 
-# Using CDK
+# 8. Using CDK
 
 1. [Simplify integration of your Amazon EKS cluster with Amazon EKS Blueprints for CDK by Mikhail Shapirov and Elamaran Shanmugam](https://aws.amazon.com/blogs/infrastructure-and-automation/simplify-integration-of-your-amazon-eks-cluster-with-amazon-eks-blueprints-for-cdk/)
 
-# 7. Best Practices
+# 9. Best Practices
 
 1. [EKS Best Practices Guides](https://aws.github.io/aws-eks-best-practices/)
 
-# Workshop
+# 10. Workshop Videos
 
 1. [[EKS Networking] Hands on with EKS Networking (2023) | Amazon EKS Workshop](https://www.youtube.com/watch?v=EAZnXII9NTY&t=593s)
+

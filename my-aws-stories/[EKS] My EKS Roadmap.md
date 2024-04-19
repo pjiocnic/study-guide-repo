@@ -16,15 +16,30 @@
 1. How does IRSA work - https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts/
 1. Deploying 3-Tier apps on EKS - https://catalog.us-east-1.prod.workshops.aws/workshops/9c0aa9ab-90a9-44a6-abe1-8dff360ae428/en-US/90-monitoring/100-build-insight
 
-# Topics
+# 2. Topics
 
-1. RBAC from K8S in Action
+1. RBAC in depth
+- see CH12 / Securing the Kubernetes API server @ KIA
+- See CH08 / Accessing pod metadata and other resources from applications @ KIA
+- see https://aws.amazon.com/blogs/containers/multi-tenant-design-considerations-for-amazon-eks-clusters/
 1. How does RBAC work in EKS?
+1. How to setup ResourceQuotas in namespaces
+- see CH14 / Managing pods’ computational resources @ KIA
+- see https://aws.amazon.com/blogs/containers/multi-tenant-design-considerations-for-amazon-eks-clusters/
+1. Pod Security Policy (PSP)
+- see CHAPTER 13 / Securing cluster nodes and the network @ KIA
+- see https://aws.amazon.com/blogs/containers/multi-tenant-design-considerations-for-amazon-eks-clusters/
+- see https://aws.amazon.com/blogs/opensource/using-pod-security-policies-amazon-eks-clusters/
+1. Pod Affinity / Pod Anti-affinity
+- see CH16 / Advanced scheduling @ KIA
+1. Pod security context
+ - see CH13 / Securing cluster nodes and the network @ KIA
+1. How do you enable/disable admission controller plugins?
 
-# 2. Networking
+# 3. Networking
 
 1. [How to use Private Links in EKS to access AWS services](../amazon-eks-networking.md#4-private-links)
 
-# 3. User Stories
+# 4. User Stories
 
 1. [Scale from 100 to 10,000 pods on Amazon EKS by Akshaya Rawat](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks/)

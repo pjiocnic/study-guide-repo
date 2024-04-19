@@ -1,4 +1,6 @@
 
+# 1. Event Bridge Integration
+
 1. [[_**XPOST**_] Sending Amazon EventBridge events to private endpoints in a VPC by Emily Shea](https://aws.amazon.com/blogs/compute/sending-amazon-eventbridge-events-to-private-endpoints-in-a-vpc/)
 
 <img src="./images/amazon-eventbridge-targets-private-endpoints-1.png" title="amazon-eventbridge-targets-private-endpoints" width="900"/>
@@ -12,3 +14,7 @@
     7. If the Flask application fails to process the event for any reason, the Lambda function raises an error. The function’s failure destination is configured to send the event and the error message to an SQS dead letter queue.
     8. If the Flask application successfully processes the event and the ‘return-response-event’ flag in the event was set to ‘true’, then the Lambda function publishes a new ‘outbound-event-sent’ event to the same EventBridge bus.
     9. Another EventBridge rule matches detail-type ‘outbound-event-sent’ events and routes these to the CloudWatch Logs group for debugging.
+
+# 2. Scaling
+
+1. [[_**XPOST**_] Eliminate Kubernetes node scaling lag with pod priority and over-provisioning by Jayesh Vartak](https://aws.amazon.com/blogs/containers/eliminate-kubernetes-node-scaling-lag-with-pod-priority-and-over-provisioning/)
