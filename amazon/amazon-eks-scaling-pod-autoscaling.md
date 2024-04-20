@@ -13,6 +13,7 @@
 1. [Introducing Horizontal Pod Autoscaling for Amazon EKS By by Brandon Chavis ](https://aws.amazon.com/blogs/opensource/horizontal-pod-autoscaling-eks/)
 1. [Mastering AWS EKS Pod Autoscaling: Types and Practical Insights(Part 9) Ekant Mate (AWS APN Ambassador)](https://aws.plainenglish.io/mastering-aws-eks-pod-autoscaling-types-and-practical-insights-part-9-4d442ad1fbed)
 1. [[_**XPOST**_] Eliminate Kubernetes node scaling lag with pod priority and over-provisioning by Jayesh Vartak](https://aws.amazon.com/blogs/containers/eliminate-kubernetes-node-scaling-lag-with-pod-priority-and-over-provisioning/)
+1. [Scale from 100 to 10,000 pods on Amazon EKS by Akshaya Rawat](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks/)
 
 # 2. Scaling using Promethesus
 

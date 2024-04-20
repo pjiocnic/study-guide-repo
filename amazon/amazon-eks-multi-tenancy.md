@@ -28,3 +28,7 @@
 
 # Repost
 1. [How do I manage permissions across namespaces for IAM users in an Amazon EKS cluster?](https://repost.aws/knowledge-center/eks-iam-permissions-namespaces)
+
+# Videos
+
+1. [AWS re:Invent 2019: Architecting multi-tenant PaaS offerings with Amazon EKS (GPSTEC337)](https://www.youtube.com/watch?v=P29eL_51iYU)
