@@ -37,8 +37,6 @@ It provides a way to define who can do what (aka authorization) on the **Kuberne
 
 1. Namespace DOES NOT provide workload or user isolation
 
-
-
 5. Example:
 
 Define a role called **namespace1-admin** to be used to provide administrator access to one namespace called **namespace1**, and associate it with a group named **admin-ns1** using RoleBinding **admins-ns1-rb**

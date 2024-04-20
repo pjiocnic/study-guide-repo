@@ -9,7 +9,7 @@
 - [6. Maven](#6-maven)
 - [7. Java Features](#7-java-features)
 - [8. Curate](#8-curate)
-- [How to implement multiple equals method](#how-to-implement-multiple-equals-method)
+- [9. How to implement multiple equals method](#9-how-to-implement-multiple-equals-method)
 
 <!-- /TOC -->
 
@@ -57,7 +57,7 @@
 1. From Collections to Streams in Java 8 Using Lambda Expressions by Jose Paumard
 1. Streams, Collectors, and Optionals for Data Processing in Java 8 by Jose Paumard
 
-# How to implement multiple equals method
+# 9. How to implement multiple equals method
 
 1. https://stackoverflow.com/questions/3124179/how-to-define-multiple-equals-function-for-a-class
 2. https://www.baeldung.com/java-comparing-objects
