@@ -1,2 +1,12 @@
 
-[Best Practices - ECS Networking](https://docs.aws.amazon.com/AmazonECS/latest/bestpracticesguide/networking.html)
+
+# Mornings
+
+1. Do EKS by Raj
+
+# Weekend
+
+EKS workshop
+
+# Daily
+

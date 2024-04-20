@@ -36,3 +36,7 @@
 # Task Networking
 
 1. [Under the Hood: Task Networking for Amazon ECS by Nathan Taber](https://aws.amazon.com/blogs/compute/under-the-hood-task-networking-for-amazon-ecs/)
+
+# Best Practices
+
+1. [Best Practices - ECS Networking](https://docs.aws.amazon.com/AmazonECS/latest/bestpracticesguide/networking.html)
