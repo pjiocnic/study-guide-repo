@@ -8,7 +8,7 @@
 - [5. DynamoDB](#5-dynamodb)
 - [6. Oracle](#6-oracle)
 - [7. Architecture](#7-architecture)
-- [Java](#java)
+- [8. Java](#8-java)
 
 <!-- /TOC -->
 
@@ -59,6 +59,6 @@
 
 1. [Let’s Architect](https://aws.amazon.com/blogs/architecture/tag/lets-architect/)
 
-# Java
+# 8. Java
 
 1. [AWS Developer Tools Blog Category: Java](https://aws.amazon.com/blogs/developer/category/programing-language/java/)

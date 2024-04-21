@@ -1,4 +1,8 @@
-[Building event-driven architectures on AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US)
+
+1. [One Observability Workshop](https://catalog.workshops.aws/observability/en-US)
+1. [AWS Serverless Observability Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/b3fc5f7a-ff34-41fa-a9f2-4cd9e093e6ff/en-US)
+
+1. [Building event-driven architectures on AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US)
 
 - [EventBridge] First event bus and targets
 - [EventBridge] Working with EventBridge rules for API Destination Target

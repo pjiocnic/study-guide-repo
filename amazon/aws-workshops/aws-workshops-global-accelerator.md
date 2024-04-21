@@ -1,5 +1,2 @@
-
-# workshop
-
 1. [AWS Global Accelerator Custom Routing Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/ac213084-3f4a-4b01-9835-5052d6096b5b/en-US)
 1. [Edge Services Immersion Day Workshop > AWS Global Accelerator](https://catalog.us-east-1.prod.workshops.aws/workshops/84e87f63-1dfc-4935-8e25-59cf02bea425/en-US/aws-global-accelerator)
