@@ -18,3 +18,7 @@
 # 2. Scaling
 
 1. [[_**XPOST**_] Eliminate Kubernetes node scaling lag with pod priority and over-provisioning by Jayesh Vartak](https://aws.amazon.com/blogs/containers/eliminate-kubernetes-node-scaling-lag-with-pod-priority-and-over-provisioning/)
+
+# 3. PetClinic
+
+1. [Modified version of the spring-petclinic-microservices Spring Boot sample application](https://github.com/aws-observability/application-signals-demo#eks-demo)

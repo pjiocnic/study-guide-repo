@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [1. Concepts](#1-concepts)
+- [Token volume projection](#token-volume-projection)
 - [2. Samples](#2-samples)
 - [3. Repost](#3-repost)
 - [4. Videos](#4-videos)
@@ -22,6 +23,11 @@
 1. [Introducing fine-grained IAM roles for service accounts by Micah Hausler and Michael Hausenblas](https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/)
 1. [Implementing Cross-Account Access with Amazon EKS using IAM Roles for Service Accounts by Praveen Dandu](https://www.linkedin.com/pulse/implementing-cross-account-access-amazon-eks-using-iam-praveen-dandu-zj8te/)
 1. [How a Pod assumes an AWS identity? By James Mak](https://medium.com/airwalk/how-a-pod-assumes-an-aws-identity-284fc6fda873)
+
+# Token volume projection
+
+1. [Understanding Service Accounts in Kubernetes by Mohammad Asim Ayub](https://medium.com/codex/understanding-service-accounts-in-kubernetes-236e22282eeb)
+1. [Understanding service account token volume projection in Kubernetes by Mohammad Asim Ayub](https://mohammad-ayub.medium.com/understanding-service-account-token-volume-projection-in-kubernetes-15d5623e7cc7)
 
 # 2. Samples
 
