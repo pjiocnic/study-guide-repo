@@ -7,10 +7,9 @@
   - [3.1. SQS](#31-sqs)
   - [3.2. S3](#32-s3)
 - [4. VPC Lattice](#4-vpc-lattice)
-- [5. DNS](#5-dns)
-- [6. Twitch Shows](#6-twitch-shows)
-- [7. CDK scripts](#7-cdk-scripts)
-- [8. Workshops](#8-workshops)
+- [5. Twitch Shows](#5-twitch-shows)
+- [6. CDK scripts](#6-cdk-scripts)
+- [7. Workshops](#7-workshops)
 
 <!-- /TOC -->
 
@@ -44,21 +43,17 @@
 2. [Amazon VPC Lattice Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/9e543f60-e409-43d4-b37f-78ff3e1a07f5/en-US)
 1. [Simplify Modernization of your monolithic application using Amazon VPC Lattice by Sanket Nasre and Hemant Ahire](https://aws.amazon.com/blogs/mt/simplify-modernization-of-your-monolithic-application-using-amazon-vpc-lattice/)
 
-# 5. DNS
 
-1. [Powering Secondary DNS in a VPC using AWS Lambda and Amazon Route 53 Private Hosted Zones by Bryan Liston](https://aws.amazon.com/blogs/compute/powering-secondary-dns-in-a-vpc-using-aws-lambda-and-amazon-route-53-private-hosted-zones/)
-2. [Building a Dynamic DNS for Route 53 using CloudWatch Events and Lambda by Bryan Liston ](https://aws.amazon.com/blogs/compute/building-a-dynamic-dns-for-route-53-using-cloudwatch-events-and-lambda/)
-
-# 6. Twitch Shows
+# 5. Twitch Shows
 
 1. [The Routing Loop](https://www.theroutingloop.net/)
 
  if NLB is deployed to multiple AZs, then how should we deploy Lambdas? particularly when Lambda is deployed to VPC should we somehow tell it to deploy into same AZs as the NLBs?
 
-# 7. CDK scripts
+# 6. CDK scripts
 
 1. [Amazon VPC Routing Enhancements Allow You to Inspect Traffic Between Subnets In a VPC by Sébastien Stormacq](https://aws.amazon.com/blogs/aws/inspect-subnet-to-subnet-traffic-with-amazon-vpc-more-specific-routing/)
 
-# 8. Workshops
+# 7. Workshops
 
 1. [Networking Immersion Day](https://catalog.workshops.aws/networking/en-US)

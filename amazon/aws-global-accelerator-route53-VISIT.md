@@ -19,6 +19,8 @@
 
 4. [Latency Based Routing in Aws](https://www.bschaatsbergen.com/latency-based-routing-in-aws)
 
+1. [AWS Edge Locations: What They Are and Where to Find Them by Eduardo Rabelo](https://blog.awsfundamentals.com/aws-edge-locations)
+
 # Curate
 
 1. [VERY GOOD](https://www.geeksforgeeks.org/amazon-web-services-global-accelerator/)

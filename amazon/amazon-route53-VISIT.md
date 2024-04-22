@@ -5,6 +5,7 @@
 - [1. DNS](#1-dns)
 - [2. Disaster Recovery](#2-disaster-recovery)
 - [3. Hosted Zones](#3-hosted-zones)
+- [Multi-Region](#multi-region)
 - [4. Private Hosted Zones](#4-private-hosted-zones)
 - [5. Routing Policies](#5-routing-policies)
 - [6. Split-View DNS](#6-split-view-dns)
@@ -17,17 +18,21 @@
 
 # 1. DNS
 
-1. [Powering Secondary DNS in a VPC using AWS Lambda and Amazon Route 53 Private Hosted Zones by Bryan Liston](https://aws.amazon.com/blogs/compute/powering-secondary-dns-in-a-vpc-using-aws-lambda-and-amazon-route-53-private-hosted-zones/)
-2. [Building a Dynamic DNS for Route 53 using CloudWatch Events and Lambda by Bryan Liston](https://aws.amazon.com/blogs/compute/building-a-dynamic-dns-for-route-53-using-cloudwatch-events-and-lambda/)
+see my-github/study-guide-repo/amazon/aws-networking-dns.md
 
 # 2. Disaster Recovery
 
 1. [[WORSHOP] Disaster Recovery with Amazon Route 53 Application Recovery Controller (ARC)](https://catalog.us-east-1.prod.workshops.aws/workshops/4d9ab448-5083-4db7-bee8-85b58cd53158/en-US/)
 1. [Managing Application Traffic Using Route53 Application Recovery Controller](https://awstip.com/managing-application-traffic-using-route53-application-recovery-controller-96c948fb6710)
+1. [Creating Disaster Recovery Mechanisms Using Amazon Route 53 by Joe Chapman and Gavin McCullagh](https://aws.amazon.com/blogs/networking-and-content-delivery/creating-disaster-recovery-mechanisms-using-amazon-route-53/)
 
 # 3. Hosted Zones
 
 1. [How to manage Route53 hosted zones in a multi-account environment](https://theburningmonk.com/2021/05/how-to-manage-route53-hosted-zones-in-a-multi-account-environment/)
+
+# Multi-Region
+
+1. [Getting started with Route53 for multi-region applications](https://www.youtube.com/watch?v=IM1xSBqBgIo)
 
 # 4. Private Hosted Zones
 
