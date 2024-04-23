@@ -1,3 +1,0 @@
-
-1. [Implementing Serverless Tiering Strategies with AWS Lambda Reserved Concurrency by Lal Verma ](https://aws.amazon.com/blogs/apn/implementing-serverless-tiering-strategies-with-aws-lambda-reserved-concurrency/)
-1. [Building a Multi-Tenant SaaS Solution Using AWS Serverless Services by Anubhav Sharma and Ujwal Bukka ](https://aws.amazon.com/blogs/apn/building-a-multi-tenant-saas-solution-using-aws-serverless-services/)

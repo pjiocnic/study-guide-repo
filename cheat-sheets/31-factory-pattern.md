@@ -190,3 +190,7 @@ public class Client {
 }
 
 ```
+
+# Useful referenances
+
+1. [Head First Design Patterns (2020 2nd Edition)](https://github.com/bethrobson/Head-First-Design-Patterns/tree/master/src/headfirst/designpatterns/factory)
