@@ -20,15 +20,18 @@
 ## 1.1. How does it work?
 
 1. [VERY GOOD](https://www.geeksforgeeks.org/amazon-web-services-global-accelerator/)
-1. https://toonk.io/building-a-high-available-anycast-service-using-aws-global-accelerator/index.html
+1. [Building a high available Anycast service using AWS Global Accelerator](https://toonk.io/building-a-high-available-anycast-service-using-aws-global-accelerator/index.html)
+1. [Building A Smarter AWS Global Accelerator](https://toonk.io/building-a-smarter-aws-global-accelerator/index.html)
 
 ## What is Anycast?
 
-https://www.cloudflare.com/learning/cdn/glossary/anycast-network/
+1. [What is Anycast? | How does Anycast work?](https://www.cloudflare.com/learning/cdn/glossary/anycast-network/)
 
 # 2. Traffic Management
 
-3. [[MUST_VISIT] Traffic management with AWS Global Accelerator by Tino Tran](https://aws.amazon.com/blogs/networking-and-content-delivery/traffic-management-with-aws-global-accelerator/)
+1. [[MUST_VISIT] Traffic management with AWS Global Accelerator by Tino Tran](https://aws.amazon.com/blogs/networking-and-content-delivery/traffic-management-with-aws-global-accelerator/)
+1. https://docs.aws.amazon.com/prescriptive-guidance/latest/dynamodb-global-tables/route-53-request-routing.html
+1. https://docs.aws.amazon.com/prescriptive-guidance/latest/dynamodb-global-tables/ga-request-routing.html
 
 # 3. ALB
 

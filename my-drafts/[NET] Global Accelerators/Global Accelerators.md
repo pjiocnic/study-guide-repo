@@ -13,6 +13,17 @@ Also see
 
 when you call the Global Accelerator endpoint, your ISP routes the traffic to the nearest AWS edge location. The edge location then routes the traffic to the nearest AWS region. This is a more efficient way to route traffic compared to the traditional method of routing traffic through the internet to the AWS region.
 
+# Why would you front a Global Accelerator with R53?
+
+Global Accelerator assigns a DNS name for accelerators, but you may want to use your own domain. In that case, you can use Amazon Route 53 to use a custom domain name with your accelerator.
+
+src: https://aws.amazon.com/blogs/containers/operating-a-multi-regional-stateless-application-using-amazon-eks/
+
+<img src="./images/global-accelerator-plus-r53.jpg" title="global-accelerator-plus-r53.jpg" width="900"/>
+
+- https://xebia.com/blog/latency-based-routing-in-aws/
+
 # References
 
 1. https://www.bschaatsbergen.com/latency-based-routing-in-aws#fnref1
+1. https://xebia.com/blog/latency-based-routing-in-aws/

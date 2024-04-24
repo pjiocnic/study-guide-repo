@@ -4,3 +4,4 @@
 1. How does BGP Routing happen to reach Global Accelerator?
 1. Is BGP routing used from Global accelerator to the final endpoint?
 1. In a multi-region setup, How does ISP route to the nameserver that is closest to the customer's region?
+1. How does R53 use anycast?
