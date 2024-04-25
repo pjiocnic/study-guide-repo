@@ -23,6 +23,12 @@ src: https://aws.amazon.com/blogs/containers/operating-a-multi-regional-stateles
 
 - https://xebia.com/blog/latency-based-routing-in-aws/
 
+# What are Network Zones
+
+They are simialr to AZ but means 2 independent network stacks
+
+
+
 # References
 
 1. https://www.bschaatsbergen.com/latency-based-routing-in-aws#fnref1

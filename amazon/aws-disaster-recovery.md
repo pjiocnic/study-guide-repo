@@ -1,0 +1,1 @@
+1. [[MUST_VISIT] Using latency-based routing with Amazon CloudFront for a multi-Region active-active architecture by Artem Lovan, Nikhil Bhagat, Mohan Pasappulatti, and Tulip Gupta](https://aws.amazon.com/blogs/networking-and-content-delivery/latency-based-routing-leveraging-amazon-cloudfront-for-a-multi-region-active-active-architecture/)

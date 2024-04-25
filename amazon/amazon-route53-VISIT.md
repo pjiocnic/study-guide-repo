@@ -14,7 +14,7 @@
 - [10. Videos](#10-videos)
 - [11. Zone delegation](#11-zone-delegation)
 - [12. Zone Apex](#12-zone-apex)
-- [How to prevent DDos attacks using WAF and Cloudfront](#how-to-prevent-ddos-attacks-using-waf-and-cloudfront)
+- [13. How to prevent DDos attacks using WAF and Cloudfront](#13-how-to-prevent-ddos-attacks-using-waf-and-cloudfront)
 
 <!-- /TOC -->
 
@@ -80,6 +80,6 @@ see my-github/study-guide-repo/amazon/aws-networking-dns.md
 1. [Solving DNS zone apex challenges with third-party DNS providers using AWS by Chris Carter and Sohaib Tahir](https://aws.amazon.com/blogs/networking-and-content-delivery/solving-dns-zone-apex-challenges-with-third-party-dns-providers-using-aws)
 
 
-# How to prevent DDos attacks using WAF and Cloudfront
+# 13. How to prevent DDos attacks using WAF and Cloudfront
 
 1. [How to Help Protect Dynamic Web Applications Against DDoS Attacks by Using Amazon CloudFront and Amazon Route 53 by Holly Willey |](https://aws.amazon.com/blogs/security/how-to-protect-dynamic-web-applications-against-ddos-attacks-by-using-amazon-cloudfront-and-amazon-route-53/#:~:text=Route%2053%20is%20also%20designed,the%20availability%20of%20the%20service.)
