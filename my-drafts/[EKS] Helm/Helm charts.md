@@ -99,20 +99,21 @@ helm uninstall mongo-release1
 helm uninstall mongo-release2
 ```
 
-# End-End demo using AngularJS node app
+# End-End demo using React and Java
+
+src: https://medium.com/bb-tutorials-and-thoughts/deploying-react-with-java-backend-on-aws-eks-using-helm-3937023151a6
 
 ```javascript {.line-numbers}
 // clone the project
-git clone https://github.com/bbachi/angular-nodejs-minikube.git
-// Run NodeJS server on port 3080
-npm install
-npm start
-// Run Angular code on port 4200
-cd my-app
-npm install
-npm start
+git clone https://github.com/bbachi/react-java-gke.git
+
+
 ```
 
 # References
 
 1. https://medium.com/bb-tutorials-and-thoughts/how-to-get-started-with-helm-b3babb30611f
+1. https://medium.com/bb-tutorials-and-thoughts/deploying-react-with-java-backend-on-aws-eks-using-helm-3937023151a6
+1. https://medium.com/bb-tutorials-and-thoughts/how-to-deploy-java-apis-on-aws-eks-using-helm-1c7bec29c4c7
+1. [Crafting Seamless Deployments: Docker, Kubernetes, and Helm Unite for Java Spring Boot Applications byShreelakshmi Javagal](https://medium.com/@akshatajavagal99/deploying-a-java-application-onto-a-kubernetes-cluster-using-docker-f5653c0161e4)
+1. [How To Deploy Java APIs on AWS EKS using HELM by Bhargav Bachina](https://medium.com/bb-tutorials-and-thoughts/how-to-deploy-java-apis-on-aws-eks-using-helm-1c7bec29c4c7)

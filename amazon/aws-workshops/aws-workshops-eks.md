@@ -1,1 +1,0 @@
-see my-github/study-guide-repo/amazon/amazon-eks-workshops-blueprints-VISIT.md
