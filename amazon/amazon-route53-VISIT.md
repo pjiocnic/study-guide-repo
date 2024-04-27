@@ -12,6 +12,7 @@
 - [8. Split-View DNS](#8-split-view-dns)
 - [9. Validating domain using certificates](#9-validating-domain-using-certificates)
 - [10. Videos](#10-videos)
+  - [Traffic Management](#traffic-management)
 - [11. Zone delegation](#11-zone-delegation)
 - [12. Zone Apex](#12-zone-apex)
 - [13. How to prevent DDos attacks using WAF and Cloudfront](#13-how-to-prevent-ddos-attacks-using-waf-and-cloudfront)
@@ -65,6 +66,14 @@ see my-github/study-guide-repo/amazon/aws-networking-dns.md
 # 10. Videos
 
 > 1. [[**MAKE-NOTES**] DNS Design Using Amazon Route 53 - AWS Online Tech Talks By James Devine](https://www.youtube.com/watch?v=2y_RBjDkRgY)
+1. [The Routing Loop - Migrate your domain to Amazon Route 53](https://www.twitch.tv/aws/video/1877197514)
+
+## Traffic Management
+
+1. [[**MAKE-NOTES**] AWS re:Invent 2020: Global traffic management with Amazon Route 53 By Tom Adamski](https://www.youtube.com/watch?v=E33dA6n9O7I)
+- Nameserver stripes
+1. [AWS re:Invent 2017: DNS Demystified: Global Traffic Management with Amazon Route 53 (NET302)](https://www.youtube.com/watch?v=PVBC1gb78r8)
+1. [AWS re:Invent 2016: Global Traffic Management with Amazon Route 53 Traffic Flow (NET302)](https://www.youtube.com/watch?v=QU7FQBgL0Po)
 
 # 11. Zone delegation
 
