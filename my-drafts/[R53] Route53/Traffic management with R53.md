@@ -1,3 +1,6 @@
+
+<img src="./images/r53-traffic-management-1.png" title="r53-traffic-management-1.png" width="900"/>
+
 **User:**
 1. how route53 use anycast? how does the ISP route dns queries to the authoritative nameservers provided by aws?
 
@@ -68,3 +71,10 @@ Here's a step-by-step explanation of how the ISP's DNS resolver makes this deter
 * **Response Routing:** After processing the DNS query, Route 53 sends the DNS response back to the ISP's DNS resolver, which forwards it to the end user's device.
 
 In summary, the ISP's DNS resolver determines that the DNS query needs to be sent to an AWS data center by following the DNS hierarchy, querying the authoritative nameservers specified for the domain, and leveraging anycast routing to determine the nearest AWS data center announcing the anycast IP address associated with the authoritative nameservers.
+
+# References
+
+1. https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/welcome-dns-service.html
+1. [Traffic management with AWS Global Accelerator by Tino Tran](https://aws.amazon.com/blogs/networking-and-content-delivery/traffic-management-with-aws-global-accelerator/)
+1. [[MAKE_NOTES] A Case Study in Global Fault Isolation by Lee-Ming Zen](https://aws.amazon.com/blogs/architecture/a-case-study-in-global-fault-isolation/)
+1. [AWS re:Invent 2019: Building highly available applications using Global Accelerator (NET318-R1)](https://www.youtube.com/watch?v=3ud_LLpzOAE)

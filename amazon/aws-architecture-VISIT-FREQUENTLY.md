@@ -8,6 +8,7 @@
 - [5. Caching](#5-caching)
 - [6. Monitoring](#6-monitoring)
 - [7. Retries](#7-retries)
+- [Curate](#curate)
 
 <!-- /TOC -->
 
@@ -83,3 +84,8 @@
 # 7. Retries
 
 1. [Making retries safe with idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs)
+
+# Curate
+
+[ICYMI: Serverless Q4 2020 by James Beswick](https://aws.amazon.com/blogs/compute/icymi-serverless-q4-2020/)
+[CYMI: Serverless pre:Invent 2020 by James Beswick ](https://aws.amazon.com/blogs/compute/icymi-serverless-preinvent-2020/)

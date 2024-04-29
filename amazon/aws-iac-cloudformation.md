@@ -39,6 +39,7 @@
 # 4. CFN Lint
 
 1. [AWS CloudFormation Linter](https://github.com/aws-cloudformation/cfn-lint)
+1. [Serverless Rules](https://awslabs.github.io/serverless-rules/rules/)
 
 # 5. Custom Resources
 

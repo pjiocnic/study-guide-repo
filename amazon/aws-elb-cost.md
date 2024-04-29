@@ -1,0 +1,2 @@
+
+1. [Exploring Data Transfer Costs for Classic and Application Load Balancers by Lucas Pellucci Barreto Rolim and Luis Felipe Silveira da Silva](https://aws.amazon.com/blogs/networking-and-content-delivery/exploring-data-transfer-costs-for-classic-and-application-load-balancers/)
