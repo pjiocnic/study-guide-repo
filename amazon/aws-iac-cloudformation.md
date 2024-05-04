@@ -4,6 +4,7 @@
 
 - [1. BestPractices](#1-bestpractices)
 - [2. Blog series](#2-blog-series)
+- [Series by Brett Gillet](#series-by-brett-gillet)
 - [3. Courses](#3-courses)
 - [4. CFN Lint](#4-cfn-lint)
 - [5. Custom Resources](#5-custom-resources)
@@ -30,6 +31,13 @@
 3. [Hands-on AWS CloudFormation - Part 3. Intrinsic functions in Action By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-3-intrinsic-functions-in-action-5hj2)
 4. [Hands-on AWS CloudFormation - Part 4. Create VPC with private and public subnets By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-4-create-vpc-with-private-and-public-subnets-85d)
 5. [Hands-on AWS CloudFormation - Part 5. IAM users, groups and roles By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-5-iam-users-groups-and-roles-5d9f)
+
+# Series by Brett Gillet
+
+1. [Using a Deletion Policy to protect resources deployed using AWS CloudFormation By Brett Gillett](https://curiousorbit.com/blog/cloudformation-deletion-policy/)
+1. [CloudFormation changesets - review changes before running a stack update By Brett Gillett](https://curiousorbit.com/blog/cloudformation-changeset/)
+1. [Using Conditions in your CloudFormation templates By Brett Gillett](https://curiousorbit.com/blog/cloudformation-using-conditions/)
+1. [Using Parameters in your CloudFormation templates By Brett Gillett ](https://curiousorbit.com/blog/cloudformation-using-parameters/)
 
 # 3. Courses
 
