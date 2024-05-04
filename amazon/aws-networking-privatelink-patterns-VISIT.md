@@ -10,7 +10,3 @@
     <img src="./images/networking-private-link-vpc-to-vpc.jpg" title="vpc to vpc connectivity using private link and nlb" width="900"/>
 
 1. [Reviewing DNS Mechanisms for Routing Traffic and Enabling Failover for AWS PrivateLink Deployments by Anuj Dewangan](https://aws.amazon.com/blogs/apn/reviewing-dns-mechanisms-for-routing-traffic-and-enabling-failover-for-aws-privatelink-deployments/)
-
-1. [[VISIT] Access Amazon RDS across AWS accounts using AWS PrivateLink, Network Load Balancer, and Amazon RDS Proxy by Domenico di Salvia and Itziar Molina Fernandez](https://aws.amazon.com/blogs/database/access-amazon-rds-across-aws-accounts-using-aws-privatelink-network-load-balancer-and-amazon-rds-proxy/)
-
-    <img src="./images/networking-private-link-use-cases-1.png" title="Access Amazon RDS across AWS accounts using AWS PrivateLink, Network Load Balancer, and Amazon RDS Proxy" width="900"/>
