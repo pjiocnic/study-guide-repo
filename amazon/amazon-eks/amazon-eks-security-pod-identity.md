@@ -1,3 +1,4 @@
 
 1. [Amazon EKS Pod Identity: a new way for applications on EKS to obtain IAM credentials by George John, Ashok Srirama, and Hemanth AVS](https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials/)
+- [The Solutionist on AWS - Amazon EKS Pod Identity - A new way for applications on EKS to obtain IAM credentials.](https://www.twitch.tv/aws/video/2133797533)
 1. [Amazon EKS Pod Identity simplifies IAM permissions for applications on Amazon EKS clusters by Donnie Prakoso](https://aws.amazon.com/blogs/aws/amazon-eks-pod-identity-simplifies-iam-permissions-for-applications-on-amazon-eks-clusters/)

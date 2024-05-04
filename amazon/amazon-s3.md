@@ -5,15 +5,14 @@
 - [1. Access tiers](#1-access-tiers)
 - [2. Access Control](#2-access-control)
 - [3. Cross Account Access](#3-cross-account-access)
-- [4. Encryption](#4-encryption)
-- [5. Query S3](#5-query-s3)
-- [6. Pre-Signed URLs](#6-pre-signed-urls)
-- [7. Replication](#7-replication)
-- [8. Java examples](#8-java-examples)
-- [9. S3 endpoints](#9-s3-endpoints)
-- [10. Static WebSites](#10-static-websites)
-- [11. Storage Classes](#11-storage-classes)
-- [Tools](#tools)
+- [4. Query S3](#4-query-s3)
+- [5. Pre-Signed URLs](#5-pre-signed-urls)
+- [6. Replication](#6-replication)
+- [7. Java examples](#7-java-examples)
+- [8. S3 endpoints](#8-s3-endpoints)
+- [9. Static WebSites](#9-static-websites)
+- [10. Storage Classes](#10-storage-classes)
+- [11. Tools](#11-tools)
 - [12. Uploading](#12-uploading)
 - [13. Workshops](#13-workshops)
 
@@ -29,20 +28,11 @@
 # 3. Cross Account Access
 1. [Cross-Account Access to Amazon S3 | AWS IAM By Neil Davis](https://www.youtube.com/watch?v=HP8XSRWrFQc)
 
-# 4. Encryption
-1. [workshop - Encryption On AWS - Tutorial](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3/serverside/sses3)
-2. [[MY NEXT] Difference between AWS S3 Bucket Encryption SSE-C , SSE-S3, SSE-KMS](https://awstip.com/5-minutes-to-aws-s3-bucket-encryption-sse-c-sse-s3-sse-kms-e2fb07b05cb3)
-3. [Secure AWS S3 with KMS Encryption By Neil Davis](https://www.youtube.com/watch?v=uqyf66kgB94)
-4. [Amazon S3 Client-Side Authenticated Encryption by Hanson Char](https://aws.amazon.com/blogs/developer/amazon-s3-client-side-authenticated-encryption/)
-5. [Taming client-side key rotation with the Amazon S3 encryption client by Hanson Char ](https://aws.amazon.com/blogs/developer/taming-client-side-key-rotation-with-the-amazon-s3-encryption-client/)
-6. [Amazon S3 Client-side Key Migration to AWS Key Management Service by Hanson Char](https://aws.amazon.com/blogs/developer/amazon-s3-client-side-key-migration-to-aws-key-management-service/)
-7. [Why am I getting an HTTP 403 Forbidden error when I try to upload files using the Amazon S3 console?](https://www.youtube.com/watch?v=rn4qLXhMesg)
-
-# 5. Query S3
+# 4. Query S3
 
 1. [Amazon S3 Select - Querying data without servers or databases](https://catalog.us-east-1.prod.workshops.aws/workshops/c85a4d91-2b80-4155-948d-bbdc200567a6/en-US)
 
-# 6. Pre-Signed URLs
+# 5. Pre-Signed URLs
 
 1. [Using presigned URLs to identify per-requester usage of Amazon S3 by John Lee, Chance Lee, and Justin Lim](https://fourtheorem.com/the-illustrated-guide-to-s3-pre-signed-urls/)
 1. [[1ST_EXAMPLE_START_HERE] Uploading to Amazon S3 directly from a web or mobile application
@@ -57,31 +47,31 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 1. [S3 URI Parsing is now available in AWS SDK for Java 2.x by David Ho](https://aws.amazon.com/blogs/devops/s3-uri-parsing-is-now-available-in-aws-sdk-for-java-2-x/)
 1. [Using presigned URLs to identify per-requester usage of Amazon S3 by John Lee, Chance Lee, and Justin Lim](https://aws.amazon.com/blogs/storage/using-presigned-urls-to-identify-per-requester-usage-of-amazon-s3/)
 
-# 7. Replication
+# 6. Replication
 
 1. [Configuring Amazon S3 Cross-Region Replication (CRR) and Same-Region Replication (SRR) By Neil Davis](https://www.youtube.com/watch?v=trmicgGpmd4&t=6s)
 
-# 8. Java examples
+# 7. Java examples
 
 1. [Amazon S3 Developer Guide](https://github.com/alexdebrie/amazon-s3-developer-guide/tree/master/code_examples/java_examples/S3Examples)
 
-# 9. S3 endpoints
+# 8. S3 endpoints
 
 1. [See aws-privatelink.md](./aws-privatelink.md)
 1. [Secure Hybrid Access to S3 using VPC Endpoints](https://catalog.us-east-1.prod.workshops.aws/workshops/3a8d4ddf-66c5-4d26-ae6f-6292a517f46c/en-US)
 
-# 10. Static WebSites
+# 9. Static WebSites
 
 1. [Hosting Internal HTTPS Static Websites with ALB, S3, and PrivateLink by Schuyler Jager](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/)
 
 <img src="./images/Networking_NetCDNBlog-430-v2.jpg" title="Networking_NetCDNBlog-430-v2.jpg" width="900"/>
 
-# 11. Storage Classes
+# 10. Storage Classes
 
 1. [Amazon S3 Storage Classes | AWS S3](https://www.youtube.com/watch?v=EqqtzKqewaA)
 1. [Getting started using the Amazon S3 Glacier storage classes](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-glacier-storage-classes/)
 
-# Tools
+# 11. Tools
 
 1. [Amazon S3 Bundler](https://github.com/jstrunk/s3bundler)
 - "Before moving Amazon DocumentDB events to S3 Glacier, you should consider bundling several events into larger objects" by using above tool
