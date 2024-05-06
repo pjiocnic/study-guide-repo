@@ -1,4 +1,5 @@
 
+1. Updating Best rep
 ```java
 import java.util.List;
 import java.util.Optional;
@@ -58,6 +59,52 @@ public class YoungestFinder {
 
         Optional<Person> youngest = youngestDoctor.isPresent() ? youngestDoctor : youngestEngineer;
         youngest.ifPresent(person -> System.out.println("Youngest " + person.getTitle() + ": " + person.getName() + ", Best Title: " + person.isBestTitle()));
+    }
+}
+```
+
+2. Finding earliest hire/termination date
+
+```java
+import java.time.LocalDateTime;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+
+class Employee {
+    private String name;
+    private String department;
+    private LocalDateTime hireDate;
+    private LocalDateTime terminateDate;
+
+    // Constructor, getters, and setters
+    // ...
+
+    public LocalDateTime getHireDate() {
+        return hireDate;
+    }
+
+    public LocalDateTime getTerminateDate() {
+        return terminateDate;
+    }
+}
+
+public class EmployeeAnalyzer {
+    public static void main(String[] args) {
+        List<Employee> employees = /* Your list of employees */;
+
+        // Find employee with earliest hire date
+        Optional<Employee> earliestHireDateEmployee = employees.stream()
+                .min(Comparator.comparing(Employee::getHireDate));
+
+        // Find employee with earliest termination date
+        Optional<Employee> earliestTerminateDateEmployee = employees.stream()
+                .filter(employee -> employee.getTerminateDate() != null) // Filter out employees with no termination date
+                .min(Comparator.comparing(Employee::getTerminateDate));
+
+        // Print results
+        earliestHireDateEmployee.ifPresent(employee -> System.out.println("Employee with earliest hire date: " + employee.getName() + ", Hire Date: " + employee.getHireDate()));
+        earliestTerminateDateEmployee.ifPresent(employee -> System.out.println("Employee with earliest termination date: " + employee.getName() + ", Termination Date: " + employee.getTerminateDate()));
     }
 }
 ```
