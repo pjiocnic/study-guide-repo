@@ -20,9 +20,9 @@
 1. [[**START_HERE**] Understanding IAM roles for service accounts, IRSA, on AWS EKS by Ankit Wal](https://medium.com/@ankit.wal/the-how-of-iam-roles-for-service-accounts-irsa-on-aws-eks-3d76badb8942)
 1. [IAM Roles for Service Accounts (IRSA) in AWS EKS within and cross AWS Accounts](https://platformwale.blog/2023/08/02/iam-roles-for-service-accounts-irsa-in-aws-eks-within-and-cross-aws-accounts/)
 1. [IAM Roles for Service Accounts](https://eksctl.io/usage/iamserviceaccounts/)
-
 1. [Implementing Cross-Account Access with Amazon EKS using IAM Roles for Service Accounts by Praveen Dandu](https://www.linkedin.com/pulse/implementing-cross-account-access-amazon-eks-using-iam-praveen-dandu-zj8te/)
 1. [How a Pod assumes an AWS identity? By James Mak](https://medium.com/airwalk/how-a-pod-assumes-an-aws-identity-284fc6fda873)
+1. [[**START_HERE/MAKE_NOTES**] Implementing and Understanding IAM Roles for Service Accounts in AWS EKS by Anil Goyal](https://medium.com/@anil.goyal0057/implementing-and-understanding-iam-roles-for-service-accounts-in-aws-eks-00e8fd2a0262)
 
 # 2. Token volume projection
 
