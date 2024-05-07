@@ -15,3 +15,8 @@
 # Workshop
 
 1. [[VISIT] EKS Developers Workshop for Java](https://developers.eksworkshop.com/docs/java/)
+
+# How to use SDK to get credentials from IAM Role
+
+1. [So we started using IAM roles for service accounts in our Kubernetes cluster](https://dinuka-roshan.medium.com/so-we-started-using-iam-roles-for-service-accounts-in-our-kubernetes-cluster-c02851f948b)
+1. [[MUST_SEE] Implementing and Understanding IAM Roles for Service Accounts in AWS EKS By Anil Goyal](https://medium.com/@anil.goyal0057/implementing-and-understanding-iam-roles-for-service-accounts-in-aws-eks-00e8fd2a0262)
