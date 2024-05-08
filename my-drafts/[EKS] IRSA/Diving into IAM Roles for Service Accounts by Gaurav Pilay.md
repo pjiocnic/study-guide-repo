@@ -1,4 +1,15 @@
-https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts/
+
+# [Diving into IAM Roles for Service Accounts by Gaurav Pilay](https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts/)
+
+<img src="./images/irsa-workflow.png" title="IRSA" width="900"/>
+
+1. We will select OpenID Connect as the provider type.
+2. Give the OIDC provider endpoint URL https://oidc.eks.us-east-2.amazonaws.com/id/xxxx.
+3. Select Get Thumbprint.
+4. The audience will be sts.amazonaws.com.
+5. Select Add Provider
+
+<img src="./images/configure-oidc.png" title="configure-oidc.png" width="900"/>
 
 # Useful tools
 
