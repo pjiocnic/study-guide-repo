@@ -1,0 +1,2 @@
+
+1. [Building serverless admission webhooks for Kubernetes with AWS SAM by Simon Woldemichael and Josh Jiang](https://aws.amazon.com/blogs/containers/building-serverless-admission-webhooks-for-kubernetes-with-aws-sam/)

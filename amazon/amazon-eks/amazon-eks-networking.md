@@ -5,9 +5,8 @@
 - [1. VPC Lattice](#1-vpc-lattice)
 - [2. Custom Networking](#2-custom-networking)
 - [3. How Data Plane connects to Control Plane](#3-how-data-plane-connects-to-control-plane)
-- [4. Private Links](#4-private-links)
-- [5. Pod density](#5-pod-density)
-- [6. Videos](#6-videos)
+- [4. Pod density](#4-pod-density)
+- [5. Videos](#5-videos)
 
 <!-- /TOC -->
 
@@ -34,17 +33,14 @@
 
 1. [De-mystifying cluster networking for Amazon EKS worker nodes by Nathan Taber](https://aws.amazon.com/blogs/containers/de-mystifying-cluster-networking-for-amazon-eks-worker-nodes/)
 1. [Upcoming Changes to IP Assignment for EKS Managed Node Groups by Nathan Taber](https://aws.amazon.com/blogs/containers/upcoming-changes-to-ip-assignment-for-eks-managed-node-groups/)
+1. [A Deep Dive Into AWS EKS Networking And Its Best Practices](https://www.codincity.com/blogs/a-deep-dive-into-aws-eks-networking-and-its-best-practices)
 
-# 4. Private Links
-
-1. [Enable Private Access to the Amazon EKS Kubernetes API with AWS PrivateLink by Aaron Miller, Praseeda Sathaye, and Vijay Chintalapati](https://aws.amazon.com/blogs/containers/enable-private-access-to-the-amazon-eks-kubernetes-api-with-aws-privatelink/)
-
-# 5. Pod density
+# 4. Pod density
 
 1. [Increasing pod density for Windows nodes on Amazon EKS by Harsh Rawat, Purvi Goyal, and Jie Chen](https://aws.amazon.com/blogs/containers/increasing-pod-density-for-windows-nodes-on-amazon-eks/)
 1. [Amazon VPC CNI plugin increases pods per node limits by Sheetal Joshi, Mike Stefaniak, and Jayanth Varavani ](https://aws.amazon.com/blogs/containers/amazon-vpc-cni-increases-pods-per-node-limits/)
 
-# 6. Videos
+# 5. Videos
 
 1. [The Routing Loop - Chalk Talk - Networking strategies for Kubernetes on AWS](https://www.twitch.tv/videos/2057125802?collection=HBANRY7lIxagXQ)
 1. [The Routing Loop - Networking Strategies for Kubernetes on AWS - Part 2](https://www.twitch.tv/videos/2063623113)

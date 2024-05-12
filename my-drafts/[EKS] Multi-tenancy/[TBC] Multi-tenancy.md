@@ -1,3 +1,19 @@
+<H1>[TBC] Multi-tenancy</H1>
+
+# Videos and Blogs to review
+
+1. [AWS re:Invent 2019: Architecting multi-tenant PaaS offerings with Amazon EKS (GPSTEC337)](https://www.youtube.com/watch?v=P29eL_51iYU)
+1. [Calculating SaaS Cost Per Tenant: A PoC Implementation in an AWS Kubernetes Environment](https://aws.amazon.com/blogs/apn/calculating-saas-cost-per-tenant-a-poc-implementation-in-an-aws-kubernetes-environment/)
+
+# Summary
+
+1. RBAC
+2. Pod security policies
+3. NetworkPolicies
+4. ResourceQuotas
+
+
+# Notes
 
 one cluster per team, per environment, per account
 
@@ -93,6 +109,43 @@ spec:
 ```
 
 8. Use **Pod Security Policy (PSP)** to limit access to node instance from pods
+
+- a set of conditions that pods must meet to be accepted by the cluster
+    - disable priviliged mode
+- Restrict deployment of tenant pods from accessing
+    - EC2 instance
+    - filesystems
+    - networks
+    - processes (PID)
+    - namespaces
+    - volumes
+Preventing a tenant's custom application from accessing another tenant's resources
+
+- Example policy
+
+```yaml
+apiVersion: extensions/v1beta1
+kind: PodSecurityPolicy
+metadata:
+  name: pod-security-policy
+spec:
+  privileged: false # Prevents creation of privileged containers
+  runAsUser:
+    rule: MustRunAsNonRoot # Prevents containers that require root privileges
+  seLinux:
+    rule: RunAsAny
+  fsGroup:
+    rule: RunAsAny
+  supplementalGroups:
+    rule: RunAsAny
+  volumes:
+  - "*"
+
+```
+
+**Note:** EKS 1.13 has the pod security policy admission plugin enabled by default
+
+**Also see:** https://aws.amazon.com/blogs/opensource/using-pod-security-policies-amazon-eks-clusters/
 
 9. Specifying where to schedule a pod using **Pod Anti-Affinity**?
 
