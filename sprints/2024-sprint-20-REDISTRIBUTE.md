@@ -40,12 +40,12 @@
 1. [Integrate Amazon API Gateway with Amazon EKS by Re Alvarez-Parmar and Vikram Venkataraman](https://aws.amazon.com/blogs/containers/integrate-amazon-api-gateway-with-amazon-eks/)
 1. [Kubernetes for Developers: Core Concepts by Dan Wahlin](https://app.pluralsight.com/ilx/video-courses/bea52e4a-38de-4ba1-8aa4-7787e2edb9a6/25473c1f-7248-4bba-87d4-2f235fea349a/a07bb717-ab86-48ad-a863-aea78ad120d0)
 1. [Traffic management with AWS Global Accelerator by Tino Tran](https://aws.amazon.com/blogs/networking-and-content-delivery/traffic-management-with-aws-global-accelerator/)
-1. [[MAKE_NOTES] A Case Study in Global Fault Isolation by Lee-Ming Zen](https://aws.amazon.com/blogs/architecture/a-case-study-in-global-fault-isolation/)
+1. [[**MAKE_NOTES**] A Case Study in Global Fault Isolation by Lee-Ming Zen](https://aws.amazon.com/blogs/architecture/a-case-study-in-global-fault-isolation/)
 1. [Starting Small with AWS Global Accelerator by Burak Gozluklu](https://aws.amazon.com/blogs/networking-and-content-delivery/starting-small-with-aws-global-accelerator/)
 - https://aws.amazon.com/getting-started/hands-on/launch-a-wordpress-website/
 1. [New – AWS Global Accelerator for Availability and Performance by Shaun Ray](https://aws.amazon.com/blogs/aws/new-aws-global-accelerator-for-availability-and-performance/)
 - [[TUTORIAL] Launch and Configure a WordPress Instance with Amazon Lightsail](https://aws.amazon.com/getting-started/hands-on/launch-a-wordpress-website/)
-1. [[MAKE_NOTES] AWS re:Invent 2020: Global traffic management with Amazon Route 53 By Tom Adamski](https://www.youtube.com/watch?v=E33dA6n9O7I)
+1. [[**MAKE_NOTES**] AWS re:Invent 2020: Global traffic management with Amazon Route 53 By Tom Adamski](https://www.youtube.com/watch?v=E33dA6n9O7I)
 - Nameserver striping
 - Anycast Nameserver
 

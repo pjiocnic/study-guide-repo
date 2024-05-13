@@ -1,0 +1,8 @@
+1. [Identity Round Robin](https://identity-round-robin.awssecworkshops.com/)
+2. [AWS Identity and Access Management (IAM) Immersion Day](https://catalog.us-east-1.prod.workshops.aws/workshops/18b3622c-5d4c-45c9-9834-6a7091109072/en-US)
+3. [AWS Identity and Access Management (IAM) Immersion Day > Advanced Modules > Permission Boundaries as Guardrails](https://catalog.us-east-1.prod.workshops.aws/workshops/18b3622c-5d4c-45c9-9834-6a7091109072/en-US/advanced-modules/60-permission-boundary/6-1)
+4. [How and when to use different IAM policy types](https://catalog.workshops.aws/iam-policy-types/en-US)
+5. [IAM policy evaluation workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/6dc3124a-6bd4-46eb-b5c4-be438a82ba3d/en-US)
+6. [Refining IAM Permissions Like A Pro](https://catalog.workshops.aws/refining-iam-permissions-like-a-pro/en-US)
+> 7. [IAM Troubleshooting Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a9661c42-97f6-400a-8dee-a8396e8d418f/en-US)
+8. [Refining IAM Permissions Like A Pro](https://catalog.workshops.aws/refining-iam-permissions-like-a-pro/en-US)
