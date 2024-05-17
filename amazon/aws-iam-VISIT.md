@@ -2,6 +2,7 @@
 <!-- TOC -->
 
 - [1. Dashboard](#1-dashboard)
+- [ABAC](#abac)
 - [2. Organizations](#2-organizations)
 - [3. courses](#3-courses)
 - [4. Different Policy Types](#4-different-policy-types)
@@ -35,6 +36,11 @@
     - Cross-Account Access
 1. [[**MY_NEXT**] When and where to use IAM permissions boundaries by Umair Rehmat](https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries/)
 1. [[**MY_NEXT**] IAM policy types: How and when to use them by Matt Luttrell and Josh Joy ](https://aws.amazon.com/blogs/security/iam-policy-types-how-and-when-to-use-them/)
+
+# ABAC
+
+1. [Introducing attribute-based access controls (ABAC) for Amazon SQS by Vikas Panghal](https://aws.amazon.com/blogs/compute/introducing-attribute-based-access-controls-abac-for-amazon-sqs/)
+1. [Scaling AWS Lambda permissions with Attribute-Based Access Control (ABAC) by Julian Wood and Chris McPeek](https://aws.amazon.com/blogs/compute/scaling-aws-lambda-permissions-with-attribute-based-access-control-abac/)
 
 # 2. Organizations
 
@@ -74,7 +80,7 @@
 ## 8.2. Resource Based Policies
 
 1. [How to access secrets across AWS accounts by attaching resource-based policies by Apurv Awasthi](https://aws.amazon.com/blogs/security/how-to-access-secrets-across-aws-accounts-by-attaching-resource-based-policies/)
-1. [Simplifying cross-account access with Amazon EventBridge resource policies by Stephen Liedig,](https://aws.amazon.com/blogs/compute/simplifying-cross-account-access-with-amazon-eventbridge-resource-policies/)
+1. [Simplifying cross-account access with Amazon EventBridge resource policies by Stephen Liedig](https://aws.amazon.com/blogs/compute/simplifying-cross-account-access-with-amazon-eventbridge-resource-policies/)
 1. [Simplify cross-account access control with Amazon DynamoDB using resource-based policies by Esteban Serna Parra and Ashwin Venkatesh](https://aws.amazon.com/blogs/database/simplify-cross-account-access-control-with-amazon-dynamodb-using-resource-based-policies/)
 1. [Approach 1: Resource-based policy access](https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials/)
 
