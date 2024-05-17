@@ -10,3 +10,4 @@
 3. [Venkat's Just me and Opensource](https://www.youtube.com/channel/UC6VkhPuCCwR_kG0GExjoozg)
 4. [Tony's mindmaps](https://tonylixu.medium.com/tonys-recommended-articles-66c1b8d5490a)
 5. [Best of Tony's](https://tonylixu.medium.com/)
+6. [Welcome to the hub for all things Kubernetes at AWS](https://community.aws/kubernetes)

@@ -2,10 +2,8 @@
 <!-- TOC -->
 
 - [1. Pod security](#1-pod-security)
-- [2. Access management](#2-access-management)
-  - [2.1. How does aws-auth configMap work?](#21-how-does-aws-auth-configmap-work)
-- [6. RBAC](#6-rbac)
-- [ProjectedServiceAccountToken](#projectedserviceaccounttoken)
+- [2. RBAC](#2-rbac)
+- [3. ProjectedServiceAccountToken](#3-projectedserviceaccounttoken)
 
 <!-- /TOC -->
 
@@ -17,20 +15,11 @@
 1. [EKS Best Practices Guides > Security Groups Per Pod](https://aws.github.io/aws-eks-best-practices/networking/sgpp/)
 1. [Implementing Pod Security Standards in Amazon EKS by Jayaprakash Alawala and Jimmy Ray](https://aws.amazon.com/blogs/containers/implementing-pod-security-standards-in-amazon-eks/)
 
-# 2. Access management
-
-1. [A deep dive into simplified Amazon EKS access management controls by Sheetal Joshi and Mike Stefaniak](https://aws.amazon.com/blogs/containers/a-deep-dive-into-simplified-amazon-eks-access-management-controls/)
-
-## 2.1. How does aws-auth configMap work?
-
-1. [Enabling IAM principal access to your cluster](https://docs.aws.amazon.com/eks/latest/userguide/add-user-role.html)
-1. [Identity and Access Management](https://aws.github.io/aws-eks-best-practices/security/docs/iam/)
-
-# 6. RBAC
+# 2. RBAC
 
 1. [How to manage access and EKS permissions?](https://www.padok.fr/en/blog/aws-eks-cluster)
 
-# ProjectedServiceAccountToken
+# 3. ProjectedServiceAccountToken
 
 1. [Kubernetes Bound Projected Service Account Token Volumes Might Surprise You by Nick Gibbon](https://medium.com/pareture/kubernetes-bound-projected-service-account-token-volumes-might-surprise-you-434ff2cd1483)
 1. [Diving into IAM Roles for Service Accounts by Gaurav Pilay](https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts/)

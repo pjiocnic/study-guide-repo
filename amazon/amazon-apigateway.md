@@ -149,6 +149,7 @@ REDO THIS PAGE
 
 1. [AWS re:Invent 2019: [REPEAT 2] I didn’t know Amazon API Gateway did that (SVS212-R2)](https://www.youtube.com/watch?v=yfJZc3sJZ8E)
 2. [How To: Use SNS and SQS to Distribute and Throttle Events](https://www.jeremydaly.com/how-to-use-sns-and-sqs-to-distribute-and-throttle-events/)
+3. [Throttling example](https://serverlessland.com/patterns/apigw-throttle-sam)
 
 # 14. Websockets
 

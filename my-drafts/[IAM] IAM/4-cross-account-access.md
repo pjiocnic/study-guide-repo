@@ -1,0 +1,1 @@
+[Secure Cross-account Access To Your AWS S3 Buckets Using IAM Roles!](https://www.youtube.com/watch?v=5Z_5fxJr05s)

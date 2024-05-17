@@ -1,0 +1,2 @@
+1. [A deep dive into simplified Amazon EKS access management controls by Sheetal Joshi and Mike Stefaniak](https://aws.amazon.com/blogs/containers/a-deep-dive-into-simplified-amazon-eks-access-management-controls/)
+1. [Simplified Amazon EKS Cluster Access Management using EKS APIs and AWS Console by Rajit Paul](https://community.aws/content/2aWo77epP0lbfrWhnqTpWzSSXyu/simplified-eks-cluster-access-management-directly-using-amazon-eks-apis?lang=en)

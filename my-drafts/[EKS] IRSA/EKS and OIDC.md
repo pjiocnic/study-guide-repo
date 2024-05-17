@@ -67,6 +67,11 @@ This policy applies to identities federated by your OIDC provider
 }
 ```
 
+Also see:
+1. [How to use trust policies with IAM roles by Jonathan Jenkyn and Liam Wadman](https://aws.amazon.com/blogs/security/how-to-use-trust-policies-with-iam-roles/)
+- the meaning of `sub` and `aud` used as claims in Access Tokens
+
+
 # 4. Assuming the IAM Role in a Pod
 
 1. Annotate ServiceAccount
@@ -121,3 +126,7 @@ spec:
 * Issued At: when token was issued.
 * Kubernetes Namespace: namespace of service account.
 * Service Account Name: name of service account
+
+# Difference between EKS OIDC Provider vs IAM Identity Provider
+
+see [OIDC provider URL and OIDC authentication in Amazon EKS cluster configuration](https://aws.amazon.com/blogs/containers/introducing-oidc-identity-provider-authentication-amazon-eks/)

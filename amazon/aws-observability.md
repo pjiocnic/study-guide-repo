@@ -1,6 +1,6 @@
 <h1>observability</h1>
 
-1. [[MY_NEXT] Build an observability solution using managed AWS services and the OpenTelemetry standard by Gaurav Dhamija, Vikram Mehto, and Yoginder Sethi](https://aws.amazon.com/blogs/mt/build-an-observability-solution-using-managed-aws-services-and-the-opentelemetry-standard/)
+1. [[**MY_NEXT**] Build an observability solution using managed AWS services and the OpenTelemetry standard by Gaurav Dhamija, Vikram Mehto, and Yoginder Sethi](https://aws.amazon.com/blogs/mt/build-an-observability-solution-using-managed-aws-services-and-the-opentelemetry-standard/)
 
 # 1. Cloudwatch
 
@@ -10,8 +10,8 @@ See cloudwatch.md
 
 1. [AWS Observe and Operate: Manage Your Cloud Infrastructure and Modern Applications—Centralized Operations with Control, Agility, and Scale Across Environments](https://learning.oreilly.com/videos/aws-observe-and/0636920941927/)
 2. [AWS Observe and Operate: Monitor Your Cloud Infrastructure and Modern Applications—Evolve and Scale Your Observability to Improve Insights and Performance](https://learning.oreilly.com/videos/aws-observe-and/0636920942153/)
-3. [[MUST_SEE] AWS Monitoring Strategies By Chad Smith](https://learning.oreilly.com/videos/aws-monitoring-strategies/9780136611899/)
-4. [[BOOK] Infrastructure Monitoring with Amazon CloudWatch By Ewere Diagboya](https://learning.oreilly.com/library/view/infrastructure-monitoring-with/9781800566057/)
+3. [[**MUST_SEE**] AWS Monitoring Strategies By Chad Smith](https://learning.oreilly.com/videos/aws-monitoring-strategies/9780136611899/)
+4. [[**BOOK**] Infrastructure Monitoring with Amazon CloudWatch By Ewere Diagboya](https://learning.oreilly.com/library/view/infrastructure-monitoring-with/9781800566057/)
 
 # 3. Percentile filters
 
@@ -39,3 +39,8 @@ See cloudwatch.md
 # 8. Videos
 
 1. [Container Observability with AWS | AWS Events](https://www.youtube.com/watch?v=1boyDH8Cjgg)
+
+# Accelerators
+
+1. [[**Terraform**] AWS Observability Accelerator for Terraform](https://aws-observability.github.io/terraform-aws-observability-accelerator/)
+1. [[**CDK**] AWS Observability Accelerator for CDK](https://aws-observability.github.io/cdk-aws-observability-accelerator/)
