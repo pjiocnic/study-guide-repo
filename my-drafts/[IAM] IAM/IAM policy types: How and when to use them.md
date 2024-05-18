@@ -1,0 +1,1 @@
+https://aws.amazon.com/blogs/security/iam-policy-types-how-and-when-to-use-them/

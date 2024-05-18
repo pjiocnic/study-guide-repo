@@ -1,0 +1,1 @@
+[Securing Your Amazon EKS Cluster - AWS Online Tech Talks By Paven Mistry](https://www.youtube.com/watch?v=4l4Kuds8O3s)

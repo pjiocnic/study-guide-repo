@@ -128,11 +128,7 @@ A tool that lets you directly manage AWS services from Kubernetes
 
 1. [Amazon EKS Blueprints for Terraform](https://aws-ia.github.io/terraform-aws-eks-blueprints/v4.1.0/)
 
-# 18. Videos
 
-1. [AWS re:Invent 2022 - Kubernetes virtually anywhere, for everyone (CON208-L)](https://www.youtube.com/watch?v=OB7IZolZk78)
-1. [AWS re:Invent 2023 - The future of Amazon EKS (CON203) BY Nathan Taber](https://www.youtube.com/watch?v=c9NJ6GSeNDM)
-1. [AWS re:Invent 2023 - Inner workings of Amazon EKS (CON327) By Vipin Mohan and Vipul Sabhaya](hhttps://youtu.be/I0hi6UiA7Ts?t=1226)
 
 # 19. Newsletter
 

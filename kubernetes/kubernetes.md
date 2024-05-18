@@ -11,3 +11,4 @@
 4. [Tony's mindmaps](https://tonylixu.medium.com/tonys-recommended-articles-66c1b8d5490a)
 5. [Best of Tony's](https://tonylixu.medium.com/)
 6. [Welcome to the hub for all things Kubernetes at AWS](https://community.aws/kubernetes)
+7. [EKS and Kubernetes blogs @ Kube academy](https://kubedemy.io/)
