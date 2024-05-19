@@ -3,7 +3,7 @@ TD;LR
 1. Difference between Resource Policy and Identity-based policy
 
 
-To grant permissions, you use **resource-based policies** (such as S3 bucket policies) or **identity-based policies** (such as **managed** or **in-line** permissions policies).
+To grant permissions, you use **resource-based policies** (such as S3 bucket policies) or **identity-based policies** (such as **managed** or **inline** permissions policies).
 
 ## Why is this needed
 
