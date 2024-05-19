@@ -6,7 +6,9 @@
 - [2. Custom Networking](#2-custom-networking)
 - [3. How Data Plane connects to Control Plane](#3-how-data-plane-connects-to-control-plane)
 - [4. Pod density](#4-pod-density)
-- [5. Videos](#5-videos)
+- [5. VPC Prefix delegation](#5-vpc-prefix-delegation)
+- [6. How to check # Pods thata node can run?](#6-how-to-check--pods-thata-node-can-run)
+- [7. Videos](#7-videos)
 
 <!-- /TOC -->
 
@@ -40,7 +42,14 @@
 1. [Increasing pod density for Windows nodes on Amazon EKS by Harsh Rawat, Purvi Goyal, and Jie Chen](https://aws.amazon.com/blogs/containers/increasing-pod-density-for-windows-nodes-on-amazon-eks/)
 1. [Amazon VPC CNI plugin increases pods per node limits by Sheetal Joshi, Mike Stefaniak, and Jayanth Varavani ](https://aws.amazon.com/blogs/containers/amazon-vpc-cni-increases-pods-per-node-limits/)
 
-# 5. Videos
+# 5. VPC Prefix delegation
 
-1. [The Routing Loop - Chalk Talk - Networking strategies for Kubernetes on AWS](https://www.twitch.tv/videos/2057125802?collection=HBANRY7lIxagXQ)
-1. [The Routing Loop - Networking Strategies for Kubernetes on AWS - Part 2](https://www.twitch.tv/videos/2063623113)
+1. [AWS: VPC Prefix and the maximum of Pods on Kubernetes WorkerNodes](https://rtfm.co.ua/en/aws-vpc-prefix-and-maximum-of-pods-on-kubernetes-workernodes/)
+
+# 6. How to check # Pods thata node can run?
+
+1. [AWS: VPC Prefix and the maximum of Pods on Kubernetes WorkerNodes](https://rtfm.co.ua/en/aws-vpc-prefix-and-maximum-of-pods-on-kubernetes-workernodes/)
+
+# 7. Videos
+
+[See Networking section of Re-invent videos](./amazon-eks-reinvent-REG.md#4-networking)

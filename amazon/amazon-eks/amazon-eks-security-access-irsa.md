@@ -28,7 +28,72 @@
 # 2. Trust policy for OIDC provider
 
 1. [How to use trust policies with IAM roles by Jonathan Jenkyn and Liam Wadman](https://aws.amazon.com/blogs/security/how-to-use-trust-policies-with-iam-roles/)
-- the meaning of `sub` and `aud` used as claims in Access Tokens
+- the meaning of `sub` and `aud` is used as claims in Access Tokens
+1. [AWS: EKS, OpenID Connect, and ServiceAccounts](https://rtfm.co.ua/en/aws-eks-openid-connect-and-serviceaccounts/)
+- How to find and see the contents of access token
+
+```bash
+$ token=`kubectl -n kube-system exec external-dns-85587d4b76-2flhg -- cat /var/run/secrets/kubernetes.io/serviceaccount/token`
+```
+
+```bash
+$ jwt decode $token
+
+Token header
+------------
+{
+  "alg": "RS256",
+  "kid": "64aacc8aa986bf6161312dfdfeba00e63ed64f9d"
+}
+
+Token claims
+------------
+{
+  "aud": [
+    "https://kubernetes.default.svc"
+  ],
+  "exp": 1720254790,
+  "iat": 1688718790,
+  "iss": "https://oidc.eks.us-east-1.amazonaws.com/id/FDF***F2F",
+  "kubernetes.io": {
+    "namespace": "kube-system",
+    "pod": {
+      "name": "external-dns-85587d4b76-2flhg",
+      "uid": "d59b56f1-fa01-4a0f-8897-1933926e4d42"
+    },
+    "serviceaccount": {
+      "name": "external-dns",
+      "uid": "38c8f023-60bf-416e-b6c2-d37939ac3c06"
+    },
+    "warnafter": 1688722397
+  },
+  "nbf": 1688718790,
+  "sub": "system:serviceaccount:kube-system:external-dns"
+}
+```
+
+and this usage can be seen in a trust policy(example from https://aws.amazon.com/blogs/security/how-to-use-trust-policies-with-iam-roles/)
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Federated": "arn:aws:iam::11112222333:oidc-provider/auth.example.com"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+                "StringEquals": {
+                    "auth.example.com:sub": "Administrator",
+                    "auth.example.com:aud": "MyappWebIdentity"
+                }
+            }
+        }
+    ]
+}
+```
 
 # 3. Token volume projection
 

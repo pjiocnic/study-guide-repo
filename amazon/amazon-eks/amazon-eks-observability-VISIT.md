@@ -1,4 +1,5 @@
 
+1. [Kubernetes: tracing requests with AWS X-Ray, and Grafana data source](https://rtfm.co.ua/en/kubernetes-tracing-requests-with-aws-x-ray-and-grafana-data-source/)
 1. [Application Tracing on Kubernetes with AWS X-Ray by Nathan Taber](https://aws.amazon.com/blogs/compute/application-tracing-on-kubernetes-with-aws-x-ray/)
 1. [Announcing Amazon CloudWatch Container Insights with Enhanced Observability for Amazon EKS on EC2 by Siva Guruvareddiar, Imaya Kumar Jagannathan, and Omur Kirikci ](https://aws.amazon.com/blogs/mt/new-container-insights-with-enhanced-observability-for-amazon-eks/)
 1. [[**VISIT**] Enhancing observability with a managed monitoring solution for Amazon EKS by Siva Guruvareddiar and Michael Hausenblas](https://aws.amazon.com/blogs/mt/enhancing-observability-with-a-managed-monitoring-solution-for-amazon-eks/)
