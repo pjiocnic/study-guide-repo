@@ -3,6 +3,7 @@
 
 - [1. Dashboard](#1-dashboard)
 - [2. ABAC](#2-abac)
+- [Cross Account Role Pattern](#cross-account-role-pattern)
 - [3. Organizations](#3-organizations)
 - [4. courses](#4-courses)
 - [5. Different Policy Types](#5-different-policy-types)
@@ -18,6 +19,8 @@
 - [11. Roles](#11-roles)
   - [11.1. AssumeRoles](#111-assumeroles)
   - [11.2. Role Chaining](#112-role-chaining)
+- [IAM Paths](#iam-paths)
+- [Temporary Elevated Access](#temporary-elevated-access)
 - [12. Session Tags](#12-session-tags)
 - [13. Service linked Roles](#13-service-linked-roles)
 - [14. Service Control Policies](#14-service-control-policies)
@@ -42,6 +45,14 @@
 
 1. [Introducing attribute-based access controls (ABAC) for Amazon SQS by Vikas Panghal](https://aws.amazon.com/blogs/compute/introducing-attribute-based-access-controls-abac-for-amazon-sqs/)
 1. [Scaling AWS Lambda permissions with Attribute-Based Access Control (ABAC) by Julian Wood and Chris McPeek](https://aws.amazon.com/blogs/compute/scaling-aws-lambda-permissions-with-attribute-based-access-control-abac/)
+
+# Cross Account Role Pattern
+
+1. [How to Enable Cross-Account Access to the AWS Management Console by Mike Pope](https://aws.amazon.com/blogs/security/how-to-enable-cross-account-access-to-the-aws-management-console/)
+1. [How to use trust policies with IAM roles by Jonathan Jenkyn and Liam Wadman ](https://aws.amazon.com/blogs/security/how-to-use-trust-policies-with-iam-roles/)
+- This pattern mentioned in this blog
+1. [Design patterns to access cross-account secrets stored in AWS Secrets Manager by Gowri Balasubramanian and Harsha Sharma](https://aws.amazon.com/blogs/database/design-patterns-to-access-cross-account-secrets-stored-in-aws-secrets-manager/)
+- Accessing secrets across accounts
 
 # 3. Organizations
 
@@ -118,6 +129,16 @@
 3. [See section "Approach 2: Role chaining in the application"](https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials/)
 4. [AWS IAM Role Chaining: Walkthrough](https://aws.plainenglish.io/aws-iam-role-chaining-walkthrough-248e48582b92)
 5. [AWS IAM Role Chaining by Aashish Gaba](https://aws.plainenglish.io/aws-iam-role-chaining-df41b1101068)
+
+# IAM Paths
+
+1. [How to enforce creation of roles in a specific path: Use IAM role naming in hierarchy models by Varun Sharma and Nishant Mainro ](https://aws.amazon.com/blogs/security/how-to-enforce-creation-of-roles-in-a-specific-path-use-iam-role-naming-in-hierarchy-models/)
+1. [Optimize AWS administration with IAM paths by David Rowe and Valentine Reid ](https://aws.amazon.com/blogs/security/optimize-aws-administration-with-iam-paths/)
+
+# Temporary Elevated Access
+
+1. [Managing temporary elevated access to your AWS environment by James Greenwood, Bikash Behera, and Kevin Higgins](https://aws.amazon.com/blogs/security/managing-temporary-elevated-access-to-your-aws-environment/)
+1. [Temporary elevated access management with IAM Identity Center by Taiwo Awoyinfa, James Greenwood, and Varvara Semenova](https://aws.amazon.com/blogs/security/temporary-elevated-access-management-with-iam-identity-center/)
 
 # 12. Session Tags
 

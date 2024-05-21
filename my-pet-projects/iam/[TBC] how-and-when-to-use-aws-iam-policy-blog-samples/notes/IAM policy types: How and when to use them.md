@@ -28,10 +28,10 @@ Different types of Identity-based policies
 1. These are attached to resources like S3.
 2. These policies grant the specified principal permission to perform specific actions on that resource and define under what conditions this permission applies.
 3. **Resource-based policies** are **inline policies**.
-4. You typically don't use Resource based policy for workloads that DONT span across accounts. For those workloads you use Identity-based policies
+4. For workloads that do not span across accounts, you typically rely on **identity-based policies** attached to users, groups, or roles within the same account. **Resource-based policies** are more commonly used when you need to grant access to resources across different AWS accounts.
 5. Exceptions to above Rule - For **KMS** and **IAM role trust policies** - both of these resources must have a resource-based policy even when the principal and the KMS key or IAM role are in the same account
 
-## 4.1. Common use-cases
+## 4.1. Common use-cases for Resource-baed policies
 
 1. [Granting cross-account access to your AWS resource](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic-cross-account.html)
 2. Granting an AWS service access to your resource when the AWS service uses an AWS service principal. For example, when using AWS CloudTrail, you must [explicitly grant the CloudTrail service principal access to write files to an Amazon S3 bucket](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/create-s3-bucket-policy-for-cloudtrail.html).
