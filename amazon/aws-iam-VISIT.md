@@ -124,11 +124,12 @@
 
 ## 11.2. Role Chaining
 
+1. [[**START_HERE**] AWS IAM Role Chaining by Aashish Gaba](https://aws.plainenglish.io/aws-iam-role-chaining-df41b1101068)
+
 1. [What is IAM Role Chaining and can I increase the IAM role chaining session duration limit?](https://www.youtube.com/watch?v=2TcKghUbikw)
-2. The AWS Service Catalog makes use of Role Chaining
-3. [See section "Approach 2: Role chaining in the application"](https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials/)
-4. [AWS IAM Role Chaining: Walkthrough](https://aws.plainenglish.io/aws-iam-role-chaining-walkthrough-248e48582b92)
-5. [AWS IAM Role Chaining by Aashish Gaba](https://aws.plainenglish.io/aws-iam-role-chaining-df41b1101068)
+1. The AWS Service Catalog makes use of Role Chaining
+1. [See section "Approach 2: Role chaining in the application"](https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials/)
+1. [AWS IAM Role Chaining: Walkthrough](https://aws.plainenglish.io/aws-iam-role-chaining-walkthrough-248e48582b92)
 
 # IAM Paths
 

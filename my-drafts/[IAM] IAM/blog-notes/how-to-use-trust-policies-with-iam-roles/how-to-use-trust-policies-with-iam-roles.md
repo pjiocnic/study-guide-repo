@@ -101,3 +101,157 @@ This trust policy is typically used in scenarios where an organization uses an e
 An a typical (and unrelated) access token will look as follows:
 
 <img src="./images/trust-policy-access-token.png" title="trust-policy-access-token.png" width="900"/>
+
+...
+...
+
+# Scenario 8: Limiting role assumption to only principals within your organization
+
+Following policy denies assumption of this role except by AWS services or by principals that are a member of the o-abcd12efg1 organization. This statement can be broadly applied to prevent someone outside your AWS organization from assuming your roles.
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Deny",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": "sts:AssumeRole",
+      "Condition": {
+        "StringNotEquals": { // denies access to this role by a principal that DOESN’T
+                          // belong to a member account of the specified organization o-abcd12efg1
+          "aws:PrincipalOrgID": "o-abcd12efg1"
+        },
+        "Bool": {
+          "aws:PrincipalIsAWSService": "false" // This DENY rule DOESNT impact AWS service. But you
+                                           // also need an explicit ALLOW separately if you want
+                                           // the AWS service to assume this Role.
+        }
+      }
+    }
+  ]
+}
+```
+
+Note: Use `aws:PrincipalOrgPaths` condition key to limit role assumption to **member accounts** within a specific OU of an organization
+
+# Scenaio 9: capture role session id in cloudtrail
+
+When using federated users from `SAML2.0 or Web Identity/OpenID Connect`, you want to relate IAM role activity to corporate identity.  This helps track the user activity thru' cloud trail logs.
+
+The `SourceIdentity attribute` also follows that role session if it assumes another role
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": {
+      "Effect": "Allow",
+      "Action": ["sts:AssumeRoleWithSAML","sts:SetSourceIdentity"],
+      "Principal": {"Federated": "arn:aws:iam::111122223333:saml-provider/PROVIDER-NAME"},
+      "Condition": {"StringEquals": {"SAML:aud": "https://signin.aws.amazon.com/saml"}}
+    }
+  }
+```
+
+More: [How to relate IAM role activity to corporate identity by Tracy Pierce ](https://aws.amazon.com/blogs/security/how-to-relate-iam-role-activity-to-corporate-identity/)
+
+- What you need to also do if the first role needs to assume second role
+
+In order for a role session that has a SourceIdentity set to assume a second role, it must also have the `sts:SetSourceIdentity` entitlement in that second role’s trust policy. If it doesn’t, the first role won’t be able to assume the second role.
+
+# Scenaior 10: Setting tags on role sessions
+
+Session tags are key-value pair attributes that you pass when you assume an IAM role or federate a user in AWS STS
+
+Tag values that are set when a role is assumed have precedence over tag values that are attached to the role.
+
+These can be used in IAM and resource policy authorization decisions
+
+The ability to tag a role session must be granted in a role’s trust policy using the `sts:TagSession permission`
+
+you can use conditions and condition keys to restrict which tags can be set to which values.
+
+allows a principal from account 111122223333 to assume the role and requires that the three session tags for Project, CostCenter and Department are set
+
+You can use Deny statements with the sts:TagSession operation to restrict certain tags from being set. In the
+
+# scenario: How to handle wild card principals
+
+<img src="./images/tp-wild-card-principals-1.png" title="wild card principals" width="900"/>
+
+The following policy allows a role from account 111122223333 in the **path OpsRoles** to assume it.
+
+```json
+{
+"Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::111122223333:root"
+      },
+      "Action": "sts:AssumeRole",
+      "Condition": {
+    "ArnLike": {
+      "aws:PrincipalArn": "arn:aws:iam::111122223333:role/OpsRoles/*"
+    }
+  }
+    }
+  ]
+}
+```
+
+# scenario: Using multiple statements
+
+Following allows ExampleRole to assume a role and tag the session, but only from the network range `203.0.113.0/24` while forbidding that the `Admin tag` be set:
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": [
+                    "arn:aws:iam::111122223333:role/ExampleRole"
+                ]
+            },
+            "Action": [
+                "sts:AssumeRole",
+                "sts:TagSession"
+            ],
+            "Condition": {
+                "IpAddress": {
+                    "aws:SourceIp": "203.0.113.0/24"
+                }
+            }
+        },
+        {
+            "Effect": "Deny",
+            "Action": "sts:TagSession",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Condition": {
+                "Null": {
+                    "aws:RequestTag/Admin": false
+                }
+            }
+        }
+    ]
+}
+```
+
+# Best practice
+
+Although it’s possible to use multiple statements, it’s a best practice that you don’t use roles for unrelated purposes, and that you don’t share roles across different AWS services. It’s also a best practice to use different IAM roles for different use cases and AWS services, and to avoid situations where different principals have access to the same IAM role.
+
+# Role chaining
+
+When a role assumes another role, it’s called role chaining. Sessions created by role chaining have a maximum lifetime of 1 hour regardless of the maximum session length that a role is configured to allow.
+
+Roles that are assumed by other means are not considered role chaining and are not subject to this restriction.
+
+Read more - my-github/study-guide-repo/amazon/aws-iam-VISIT.md#Role Chaining
