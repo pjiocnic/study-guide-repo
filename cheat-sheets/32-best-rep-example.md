@@ -108,3 +108,110 @@ public class EmployeeAnalyzer {
     }
 }
 ```
+
+# Example 2
+
+- Employee
+
+```java
+import java.time.LocalDate;
+
+public class Employee {
+    private String jobTitle;
+    private LocalDate startDate;
+    private LocalDate endDate;
+    private boolean bestInd;
+
+    public Employee(String jobTitle, LocalDate startDate, LocalDate endDate) {
+        this.jobTitle = jobTitle;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.bestInd = false;
+    }
+
+    public String getJobTitle() {
+        return jobTitle;
+    }
+
+    public LocalDate getStartDate() {
+        return startDate;
+    }
+
+    public LocalDate getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(LocalDate endDate) {
+        this.endDate = endDate;
+    }
+
+    public boolean isBestInd() {
+        return bestInd;
+    }
+
+    public void setBestInd(boolean bestInd) {
+        this.bestInd = bestInd;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "jobTitle='" + jobTitle + '\'' +
+                ", startDate=" + startDate +
+                ", endDate=" + endDate +
+                ", bestInd=" + bestInd +
+                '}';
+    }
+}
+```
+
+- Employee Management
+
+```java
+import java.util.HashSet;
+import java.util.Optional;
+import java.util.Set;
+import java.util.Comparator;
+
+public class EmployeeManager {
+    private Set<Employee> employees;
+    private static final LocalDate INACTIVE_DATE = LocalDate.now();
+    private static final LocalDate ACTIVE_DATE = LocalDate.of(9999, 12, 31);
+
+    public EmployeeManager() {
+        this.employees = new HashSet<>();
+    }
+
+    public void addEmployee(Employee newEmployee) {
+        Optional<Employee> activeEmployee = getActiveEmployeeByJobTitle(newEmployee.getJobTitle());
+
+        if (activeEmployee.isPresent()) {
+            Employee currentActive = activeEmployee.get();
+
+            if (newEmployee.getStartDate().isAfter(currentActive.getStartDate())) {
+                currentActive.setEndDate(INACTIVE_DATE);
+                newEmployee.setEndDate(ACTIVE_DATE);
+                newEmployee.setBestInd(true);
+                currentActive.setBestInd(false);
+            } else {
+                newEmployee.setEndDate(INACTIVE_DATE);
+            }
+        } else {
+            newEmployee.setEndDate(ACTIVE_DATE);
+            newEmployee.setBestInd(true);
+        }
+
+        employees.add(newEmployee);
+    }
+
+    private Optional<Employee> getActiveEmployeeByJobTitle(String jobTitle) {
+        return employees.stream()
+                .filter(e -> e.getJobTitle().equals(jobTitle) && e.getEndDate().equals(ACTIVE_DATE))
+                .findFirst();
+    }
+
+    public void printEmployees() {
+        employees.forEach(System.out::println);
+    }
+}
+```
