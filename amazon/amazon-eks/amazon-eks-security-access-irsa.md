@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [1. Concepts](#1-concepts)
+- [Cross Acccount Access Using SA](#cross-acccount-access-using-sa)
 - [2. Trust policy for OIDC provider](#2-trust-policy-for-oidc-provider)
 - [3. Token volume projection](#3-token-volume-projection)
 - [4. Samples](#4-samples)
@@ -24,6 +25,10 @@
 1. [Implementing Cross-Account Access with Amazon EKS using IAM Roles for Service Accounts by Praveen Dandu](https://www.linkedin.com/pulse/implementing-cross-account-access-amazon-eks-using-iam-praveen-dandu-zj8te/)
 1. [How a Pod assumes an AWS identity? By James Mak](https://medium.com/airwalk/how-a-pod-assumes-an-aws-identity-284fc6fda873)
 1. [[**START_HERE/MAKE_NOTES**] Implementing and Understanding IAM Roles for Service Accounts in AWS EKS by Anil Goyal](https://medium.com/@anil.goyal0057/implementing-and-understanding-iam-roles-for-service-accounts-in-aws-eks-00e8fd2a0262)
+
+# Cross Acccount Access Using SA
+
+1. [Cross account IAM roles for Kubernetes service accounts by Amit Borulkar](https://aws.amazon.com/blogs/containers/cross-account-iam-roles-for-kubernetes-service-accounts/)
 
 # 2. Trust policy for OIDC provider
 

@@ -4,3 +4,7 @@
 <img src="./images/aws-iam-oidc-1.png" title="aws-iam-oidc-1.png" width="900"/>
 
 - This has lot of how to tutorials - [Configure OpenID Connect in AWS and GitLab](https://gitlab.com/guided-explorations/aws/configure-openid-connect-in-aws), [OIDC and Multi-Account Deployments with GitLab and Amazon ECS](https://gitlab.com/guided-explorations/aws/oidc-and-multi-account-deployment-with-ecs)
+
+# GitActions
+
+1. [Use IAM roles to connect GitHub Actions to actions in AWS by David Rowe](https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/)

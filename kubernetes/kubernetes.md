@@ -12,3 +12,7 @@
 5. [Best of Tony's](https://tonylixu.medium.com/)
 6. [Welcome to the hub for all things Kubernetes at AWS](https://community.aws/kubernetes)
 7. [EKS and Kubernetes blogs @ Kube academy](https://kubedemy.io/)
+
+# Popular Videos
+
+1. [kubucation](https://www.youtube.com/watch?v=gJ81eaGlN_I)
