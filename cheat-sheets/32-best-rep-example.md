@@ -168,40 +168,79 @@ public class Employee {
 - Employee Management
 
 ```java
+import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
-import java.util.Comparator;
 
 public class EmployeeManager {
     private Set<Employee> employees;
-    private static final LocalDate INACTIVE_DATE = LocalDate.now();
-    private static final LocalDate ACTIVE_DATE = LocalDate.of(9999, 12, 31);
+    public static final LocalDate INACTIVE_DATE = LocalDate.now();
+    public static final LocalDate ACTIVE_DATE = LocalDate.of(9999, 12, 31);
 
     public EmployeeManager() {
         this.employees = new HashSet<>();
     }
 
     public void addEmployee(Employee newEmployee) {
-        Optional<Employee> activeEmployee = getActiveEmployeeByJobTitle(newEmployee.getJobTitle());
+        if (isEmployeePresent(newEmployee)) {
+            System.out.println("Employee already present: " + newEmployee);
+            return;
+        }
 
-        if (activeEmployee.isPresent()) {
-            Employee currentActive = activeEmployee.get();
+        Optional<Employee> activeManager = getActiveEmployeeByJobTitle("Manager");
 
-            if (newEmployee.getStartDate().isAfter(currentActive.getStartDate())) {
-                currentActive.setEndDate(INACTIVE_DATE);
-                newEmployee.setEndDate(ACTIVE_DATE);
-                newEmployee.setBestInd(true);
-                currentActive.setBestInd(false);
-            } else {
-                newEmployee.setEndDate(INACTIVE_DATE);
-            }
-        } else {
-            newEmployee.setEndDate(ACTIVE_DATE);
-            newEmployee.setBestInd(true);
+        if (newEmployee.getJobTitle().equals("Manager")) {
+            handleManagerAddition(newEmployee, activeManager);
+        } else if (newEmployee.getJobTitle().equals("Worker")) {
+            handleWorkerAddition(newEmployee, activeManager);
         }
 
         employees.add(newEmployee);
+    }
+
+    private boolean isEmployeePresent(Employee newEmployee) {
+        return employees.stream()
+                .anyMatch(e -> e.getJobTitle().equals(newEmployee.getJobTitle()) && e.getStartDate().equals(newEmployee.getStartDate()));
+    }
+
+    private void handleManagerAddition(Employee newManager, Optional<Employee> activeManager) {
+        if (activeManager.isPresent()) {
+            Employee currentActiveManager = activeManager.get();
+            if (newManager.getStartDate().isAfter(currentActiveManager.getStartDate())) {
+                currentActiveManager.setEndDate(INACTIVE_DATE);
+                newManager.setEndDate(ACTIVE_DATE);
+                newManager.setBestInd(true);
+                currentActiveManager.setBestInd(false);
+            } else {
+                newManager.setEndDate(INACTIVE_DATE);
+            }
+        } else {
+            newManager.setEndDate(ACTIVE_DATE);
+            newManager.setBestInd(true);
+        }
+    }
+
+    private void handleWorkerAddition(Employee newWorker, Optional<Employee> activeManager) {
+        if (activeManager.isPresent()) {
+            newWorker.setEndDate(INACTIVE_DATE);
+        } else {
+            Optional<Employee> activeWorker = getActiveEmployeeByJobTitle("Worker");
+            if (activeWorker.isPresent()) {
+                Employee currentActiveWorker = activeWorker.get();
+                if (newWorker.getStartDate().isAfter(currentActiveWorker.getStartDate())) {
+                    currentActiveWorker.setEndDate(INACTIVE_DATE);
+                    newWorker.setEndDate(ACTIVE_DATE);
+                    newWorker.setBestInd(true);
+                    currentActiveWorker.setBestInd(false);
+                } else {
+                    newWorker.setEndDate(INACTIVE_DATE);
+                }
+            } else {
+                newWorker.setEndDate(ACTIVE_DATE);
+                newWorker.setBestInd(true);
+            }
+        }
     }
 
     private Optional<Employee> getActiveEmployeeByJobTitle(String jobTitle) {
@@ -212,6 +251,32 @@ public class EmployeeManager {
 
     public void printEmployees() {
         employees.forEach(System.out::println);
+    }
+}
+
+```
+
+Driver class
+
+```java
+import java.time.LocalDate;
+import java.time.Month;
+
+public class Main {
+    public static void main(String[] args) {
+        EmployeeManager employeeManager = new EmployeeManager();
+
+        Employee manager1 = new Employee("Manager", LocalDate.of(2020, Month.JANUARY, 10), EmployeeManager.ACTIVE_DATE);
+        Employee manager2 = new Employee("Manager", LocalDate.of(2021, Month.FEBRUARY, 20), EmployeeManager.ACTIVE_DATE);
+        Employee worker1 = new Employee("Worker", LocalDate.of(2019, Month.MARCH, 15), EmployeeManager.ACTIVE_DATE);
+        Employee worker2 = new Employee("Worker", LocalDate.of(2022, Month.APRIL, 5), EmployeeManager.ACTIVE_DATE);
+
+        employeeManager.addEmployee(manager1);
+        employeeManager.addEmployee(manager2);
+        employeeManager.addEmployee(worker1);
+        employeeManager.addEmployee(worker2);
+
+        employeeManager.printEmployees();
     }
 }
 ```
