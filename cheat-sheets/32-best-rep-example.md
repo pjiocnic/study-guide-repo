@@ -280,3 +280,124 @@ public class Main {
     }
 }
 ```
+
+# Junit Tests
+
+```java
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.time.LocalDate;
+import java.time.Month;
+import java.util.Optional;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class EmployeeManagerTest {
+    private EmployeeManager employeeManager;
+
+    @BeforeEach
+    public void setUp() {
+        employeeManager = new EmployeeManager();
+    }
+
+    @Test
+    public void testAddManager_FirstManager_ShouldBeActive() {
+        Employee manager = new Employee("Manager", LocalDate.of(2020, Month.JANUARY, 10), EmployeeManager.ACTIVE_DATE);
+        employeeManager.addEmployee(manager);
+
+        Optional<Employee> activeManager = employeeManager.getActiveEmployeeByJobTitle("Manager");
+        assertTrue(activeManager.isPresent());
+        assertEquals(manager, activeManager.get());
+        assertTrue(activeManager.get().isBestInd());
+    }
+
+    @Test
+    public void testAddManager_SecondManager_ShouldDeactivateFirstManager() {
+        Employee manager1 = new Employee("Manager", LocalDate.of(2020, Month.JANUARY, 10), EmployeeManager.ACTIVE_DATE);
+        Employee manager2 = new Employee("Manager", LocalDate.of(2021, Month.FEBRUARY, 20), EmployeeManager.ACTIVE_DATE);
+        employeeManager.addEmployee(manager1);
+        employeeManager.addEmployee(manager2);
+
+        assertEquals(EmployeeManager.INACTIVE_DATE, manager1.getEndDate());
+        assertEquals(EmployeeManager.ACTIVE_DATE, manager2.getEndDate());
+        assertTrue(manager2.isBestInd());
+        assertFalse(manager1.isBestInd());
+    }
+
+    @Test
+    public void testAddManager_SecondManagerWithOlderDate_ShouldRemainInactive() {
+        Employee manager1 = new Employee("Manager", LocalDate.of(2021, Month.FEBRUARY, 20), EmployeeManager.ACTIVE_DATE);
+        Employee manager2 = new Employee("Manager", LocalDate.of(2020, Month.JANUARY, 10), EmployeeManager.ACTIVE_DATE);
+        employeeManager.addEmployee(manager1);
+        employeeManager.addEmployee(manager2);
+
+        assertEquals(EmployeeManager.ACTIVE_DATE, manager1.getEndDate());
+        assertEquals(EmployeeManager.INACTIVE_DATE, manager2.getEndDate());
+        assertTrue(manager1.isBestInd());
+        assertFalse(manager2.isBestInd());
+    }
+
+    @Test
+    public void testAddWorker_WithActiveManager_ShouldRemainInactive() {
+        Employee manager = new Employee("Manager", LocalDate.of(2020, Month.JANUARY, 10), EmployeeManager.ACTIVE_DATE);
+        Employee worker = new Employee("Worker", LocalDate.of(2021, Month.FEBRUARY, 20), EmployeeManager.ACTIVE_DATE);
+        employeeManager.addEmployee(manager);
+        employeeManager.addEmployee(worker);
+
+        assertEquals(EmployeeManager.ACTIVE_DATE, manager.getEndDate());
+        assertEquals(EmployeeManager.INACTIVE_DATE, worker.getEndDate());
+        assertFalse(worker.isBestInd());
+    }
+
+    @Test
+    public void testAddWorker_WithNoActiveManager_ShouldBeActive() {
+        Employee worker = new Employee("Worker", LocalDate.of(2021, Month.FEBRUARY, 20), EmployeeManager.ACTIVE_DATE);
+        employeeManager.addEmployee(worker);
+
+        Optional<Employee> activeWorker = employeeManager.getActiveEmployeeByJobTitle("Worker");
+        assertTrue(activeWorker.isPresent());
+        assertEquals(worker, activeWorker.get());
+        assertTrue(activeWorker.get().isBestInd());
+    }
+
+    @Test
+    public void testAddWorker_SecondWorker_ShouldDeactivateFirstWorker() {
+        Employee worker1 = new Employee("Worker", LocalDate.of(2020, Month.JANUARY, 10), EmployeeManager.ACTIVE_DATE);
+        Employee worker2 = new Employee("Worker", LocalDate.of(2021, Month.FEBRUARY, 20), EmployeeManager.ACTIVE_DATE);
+        employeeManager.addEmployee(worker1);
+        employeeManager.addEmployee(worker2);
+
+        assertEquals(EmployeeManager.INACTIVE_DATE, worker1.getEndDate());
+        assertEquals(EmployeeManager.ACTIVE_DATE, worker2.getEndDate());
+        assertTrue(worker2.isBestInd());
+        assertFalse(worker1.isBestInd());
+    }
+
+    @Test
+    public void testAddDuplicateEmployee_ShouldNotAdd() {
+        Employee worker1 = new Employee("Worker", LocalDate.of(2021, Month.FEBRUARY, 20), EmployeeManager.ACTIVE_DATE);
+        Employee worker2 = new Employee("Worker", LocalDate.of(2021, Month.FEBRUARY, 20), EmployeeManager.ACTIVE_DATE);
+        employeeManager.addEmployee(worker1);
+        employeeManager.addEmployee(worker2);
+
+        long count = employeeManager.employees.stream()
+                .filter(e -> e.getJobTitle().equals("Worker") && e.getStartDate().equals(LocalDate.of(2021, Month.FEBRUARY, 20)))
+                .count();
+        assertEquals(1, count);
+    }
+
+    @Test
+    public void testAddManagerThenWorker_ShouldDeactivateWorker() {
+        Employee worker = new Employee("Worker", LocalDate.of(2020, Month.JANUARY, 10), EmployeeManager.ACTIVE_DATE);
+        Employee manager = new Employee("Manager", LocalDate.of(2021, Month.FEBRUARY, 20), EmployeeManager.ACTIVE_DATE);
+        employeeManager.addEmployee(worker);
+        employeeManager.addEmployee(manager);
+
+        assertEquals(EmployeeManager.INACTIVE_DATE, worker.getEndDate());
+        assertEquals(EmployeeManager.ACTIVE_DATE, manager.getEndDate());
+        assertTrue(manager.isBestInd());
+        assertFalse(worker.isBestInd());
+    }
+}
+```
