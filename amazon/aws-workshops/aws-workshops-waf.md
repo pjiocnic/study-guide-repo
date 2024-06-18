@@ -1,0 +1,2 @@
+[Migrate the AWS Well-Architected Way](https://catalog.workshops.aws/well-architected-migration/en-US)
+[Hands-on AWS Support operational and resilience readiness](https://catalog.us-east-1.prod.workshops.aws/workshops/425648be-6b4b-4e60-90d2-077a74de91ab/en-US)

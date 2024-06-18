@@ -1,0 +1,1 @@
+[Serverless testing workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/0f9013f4-3960-426d-a445-dc3519b8e3d4/en-US)
