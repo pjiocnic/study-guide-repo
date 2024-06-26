@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [1. Curate](#1-curate)
+- [Getting Started](#getting-started)
 - [2. AWS Solutions Library](#2-aws-solutions-library)
 - [3. Best Practices](#3-best-practices)
 - [4. Cloudformation](#4-cloudformation)
@@ -18,6 +19,12 @@
 
 1. [AWS Account Structure: Think twice before using AWS Organizations](https://cloudonaut.io/aws-account-structure-think-twice-before-using-aws-organizations/)
 1. [How SMBs can deploy a multi-account environment quickly using AWS Organizations and AWS CloudFormation StackSets by Nivedita Tripathi, Alex Torres, Caroline Johnston, Justin Plock, and Siddhesh Jog](https://aws.amazon.com/blogs/mt/deploy-a-multi-account-environment-in-under-30-minutes-using-aws-cloudformation-stacksets/)
+
+# Getting Started
+
+1. [AWS Multi-Account Strategy I: AWS Organizations, OUs, and Accounts by Sarah Chen](https://towardsaws.com/aws-multi-account-strategy-i-aws-organizations-ous-and-accounts-a4860f475161)
+1. [AWS Multi-account Strategy II: IAM Identities and SCPs by Sarah Chen](https://medium.com/towards-aws/aws-multi-account-strategy-ii-iam-identities-and-scps-a84e371d72b7)
+1. [AWS Multi-account Strategy III: Federated Login and SSO by Sarah Chen](https://medium.com/towards-aws/aws-multi-account-strategy-iii-federated-login-and-sso-cc49b8be164f)
 
 # 2. AWS Solutions Library
 
