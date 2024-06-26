@@ -1,0 +1,1 @@
+[(AWS Management and Governance Tools Workshop > AWS Systems Manager > Documents](https://mng.workshop.aws/ssm/capability_hands-on_labs/documents.html)
