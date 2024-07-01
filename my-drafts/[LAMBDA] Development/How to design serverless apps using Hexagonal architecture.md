@@ -1,0 +1,4 @@
+1. [Developing evolutionary architecture with AWS Lambda by Luca Mezzalira](https://aws.amazon.com/blogs/compute/developing-evolutionary-architecture-with-aws-lambda/)
+1. [Effectively Running Java On Serverless By Vipin Kumar](https://serverlessland.com/content/service/lambda/guides/effectively-running-java-on-serverless/hexagonal)
+1. [AWS re:Invent 2021 - Evolutionary AWS Lambda functions with hexagonal architecture [REPEAT]](https://www.youtube.com/watch?v=kRFg6fkVChQ)
+1. [AWS Prescriptive Guidance > Building hexagonal architectures on AWS](https://docs.aws.amazon.com/prescriptive-guidance/latest/hexagonal-architectures/welcome.html)
