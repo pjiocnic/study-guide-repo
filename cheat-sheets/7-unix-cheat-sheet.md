@@ -109,3 +109,9 @@ awk '
 awk '/pattern/ {do this;next} {else this block will be run}
 awk '/orange/{gsub("cow", "cow~")} 1' "$file"
 ```
+
+logfile.txt contains
+2024-0705 10:38 my process blah blah Begin to process Msg: 012324, 09999, N,1,5
+2024-0705 10:40 my process blah blah Begin to process Msg: 012325, 09999, N,6,5
+
+grep "Begin to process Msg:" logfile.txt | awk -F"Begin to process Msg: " -F, '{ if ($4 > 5) print $2 }'
