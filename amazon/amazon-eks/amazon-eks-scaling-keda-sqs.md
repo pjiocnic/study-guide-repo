@@ -6,7 +6,7 @@
 
 **Project:** my-projects/amazon-eks-scaling-with-keda-and-karpenter
 **Video:** [AWS EKS scaling with KEDA and Karpenter](https://www.youtube.com/watch?v=yOzyXY97CrI)
-
+1. [The KEDA Blog](https://keda.sh/blog/)
 1. [Proactive autoscaling of Kubernetes workloads with KEDA and Amazon CloudWatch by Elamaran Shanmugam, Munish Dabra, and Vikram Venkataraman ](https://aws.amazon.com/blogs/mt/proactive-autoscaling-of-kubernetes-workloads-with-keda-using-metrics-ingested-into-amazon-cloudwatch/)
 1. [How to Level Up Your Kubernetes Workload Autoscaling by Carlo Columna](https://medium.com/@carlocolumna/eda-in-amazon-eks-install-keda-82849cf31f01)
 1. [KEDA in Amazon EKS Part 1: Why and How to Install KEDA by Carlo Columna](https://dev.to/carlocolumna/keda-in-amazon-eks-why-and-how-to-install-keda-44pa)
@@ -14,6 +14,9 @@
 1. [How to Scale Your Pods Based on HTTP Traffic  by Carlo Columna](https://medium.com/@carlocolumna/how-to-scale-your-pods-based-on-http-traffic-d58221d5e7f1)
 1. [Proactive autoscaling of Kubernetes workloads with KEDA using metrics ingested into Amazon Managed Service for Prometheus by Vikram Venkataraman and Imaya Kumar Jagannathan](https://aws.amazon.com/blogs/mt/proactive-autoscaling-kubernetes-workloads-keda-metrics-ingested-into-aws-amp/)
 1. [Autoscaling Kubernetes workloads with KEDA using Amazon Managed Service for Prometheus metrics by Siva Guruvareddiar and Imaya Kumar Jagannathan](https://aws.amazon.com/blogs/mt/autoscaling-kubernetes-workloads-with-keda-using-amazon-managed-service-for-prometheus-metrics/)
+1. [[AWS Solutions Library] Guidance for Event-Driven Application Autoscaling with KEDA on Amazon EKS](https://aws.amazon.com/solutions/guidance/event-driven-application-autoscaling-with-keda-on-amazon-eks/)
+- https://github.com/aws-solutions-library-samples/guidance-for-event-driven-application-auto-scaling-with-keda-on-amazon-eks
+1. [Guidance for Event-Driven Application Autoscaling with KEDA on Amazon EKS](https://aws-solutions-library-samples.github.io/compute/event-driven-application-autoscaling-with-keda-on-amazon-eks.html)
 
 # Samples
 

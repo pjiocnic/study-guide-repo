@@ -1,7 +1,9 @@
 <h1>My EKS Knowledge Base</h1>
 
-# TBC
-
-1. IRSA - How to use serviceaccounts to authenticate with IAM
-- Gaurav Pilay
-- Paven Mistry
+1. ISTIO - Praseeda's blog
+2. EKS Networking
+3. EKS integration with AWS Secrets manager
+4. EKS Integration with ALB / NLB
+5. EKS Integration with PostgressSQL - Praseeda's blog
+6. EKS and ServiceAccounts - Gaurav Pilay and Paaven Mistry
+7. EKS secrets and KMS - Paavan Mistry

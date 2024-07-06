@@ -299,3 +299,10 @@ In this mode, the JMS provider automatically acknowledges the receipt of a messa
 In this mode, the client (listener) must explicitly call the acknowledge() method on the message to acknowledge its receipt.
 
 **Message Visibility**: The message remains visible on the queue and can be redelivered if the session fails before acknowledgment. Once acknowledged, it is removed from the queue.
+
+# References
+
+1. https://www.ibm.com/docs/en/ibm-mq/9.1?topic=applications-handling-poison-messages-in-mq-classes-jms
+2. https://community.ibm.com/community/user/integration/blogs/stephanie-wilkerson1/2021/02/25/understanding-mq-backout-queues-thresholds
+3. https://stackoverflow.com/questions/14582494/jms-on-websphere-mq-and-backout-queue
+4. https://stackoverflow.com/questions/6077883/websphere-mq-message-keeps-toggling-between-input-queue-and-backout-queue
