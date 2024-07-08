@@ -114,4 +114,35 @@ logfile.txt contains
 2024-0705 10:38 my process blah blah Begin to process Msg: 012324, 09999, N,1,5
 2024-0705 10:40 my process blah blah Begin to process Msg: 012325, 09999, N,6,5
 
+# Grep samples
+
+1. Sample 1
+
+```bash
 grep "Begin to process Msg:" logfile.txt | awk -F"Begin to process Msg: " -F, '{ if ($4 > 5) print $2 }'
+```
+
+2. Sample 2
+
+```bash
+#!/bin/bash
+
+# Define the patterns
+patterns=("pattern 1" "pattern 2" "pattern 3")
+
+# Start the grep command with the base part
+grep_command="grep -v"
+
+# Loop through the patterns and append them to the grep command
+for pattern in "${patterns[@]}"; do
+  grep_command+=" -e \"$pattern\""
+done
+
+# Add the log file to the end of the command
+grep_command+=" log_file.txt"
+
+# Evaluate the command to execute it
+eval $grep_command
+```
+
+
