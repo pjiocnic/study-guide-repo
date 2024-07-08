@@ -13,14 +13,18 @@ https://eksctl.io/usage/addons/
 
 [see amazon-eks-alb-ingress.md](./amazon-eks-alb-ingress.md)
 
-# Deploying Add-ons from the console
+# 3. amazon-cloudwatch-observability add-on for Container Insights
+
+1. [Announcing Amazon CloudWatch Container Insights with Enhanced Observability for Amazon EKS on EC2 by Siva Guruvareddiar, Imaya Kumar Jagannathan, and Omur Kirikci](https://aws.amazon.com/blogs/mt/new-container-insights-with-enhanced-observability-for-amazon-eks/)
+
+# 4. Deploying Add-ons from the console
 
 1. [Procure and deploy third-party EKS add-ons without leaving the EKS console by Swaminathan Jayaraman and Wendy Jabitta](https://aws.amazon.com/blogs/awsmarketplace/procure-deploy-third-party-eks-add-ons-eks-console/)
 
-# 3. Stormforge
+# 5. Stormforge
 
 1. [Install Optimize Live as an EKS add-on](https://docs.stormforge.io/optimize-live/getting-started/install-eks-addon/)
 
-# 4. Lambda
+# 6. Lambda
 
 1. [Deploying AWS Lambda functions using AWS Controllers for Kubernetes (ACK) By rajdeep saha](https://aws.amazon.com/blogs/compute/deploying-aws-lambda-functions-using-aws-controllers-for-kubernetes-ack/)

@@ -6,3 +6,7 @@
 5. [Easily Consume AWS Secrets Manager Secrets From Your Amazon EKS Workloads](https://community.aws/content/2eKLFwELDylv0Sfuj3JLd6Out9W/navigating-amazon-eks-eks-integrate-secrets-manager?lang=en)
 6. [How to use AWS Secrets Manager and ABAC for enhanced secrets management in Amazon EKS by Nima Fotouhi and Sandeep Singh](https://aws.amazon.com/blogs/security/how-to-use-aws-secrets-manager-and-abac-for-enhanced-secrets-management-in-amazon-eks/)
 7. [Mounting AWS Secrets To EKS Pods by Mohammad Akif](https://www.linkedin.com/pulse/mounting-aws-secrets-eks-pods-mohammad-akif/)
+
+# Documentation
+
+1. [External Secrets Operator](https://external-secrets.io/latest/)
