@@ -1,5 +1,6 @@
 <h1>EKS and KEDA</h1>
 
+1. [[**_START_HERE_**] EKS Immersion Day > Autoscaling > Event-driven autoscaling with KEDA](https://catalog.workshops.aws/eks-immersionday/en-US/autoscaling/keda)
 1. [[**_START_HERE_**] Scalable and Cost-Effective Event-Driven Workloads with KEDA and Karpenter on Amazon EKS by Sanjeev Ganjihal and Asif Khan](https://aws.amazon.com/blogs/containers/scalable-and-cost-effective-event-driven-workloads-with-keda-and-karpenter-on-amazon-eks/)
 
   <img src="./images/amazon-eks-keda-1.png" title="amazon-eks-keda-1.png" width="900"/>
