@@ -3,6 +3,9 @@
 <!-- TOC -->
 
 - [1. Curate](#1-curate)
+- [Introductary](#introductary)
+- [Pod affinity example with Karpenter](#pod-affinity-example-with-karpenter)
+- [Best Practices](#best-practices)
 - [2. Karpenter Blueprints](#2-karpenter-blueprints)
 - [3. Workshop](#3-workshop)
 - [4. Git](#4-git)
@@ -13,16 +16,29 @@
 
 # 1. Curate
 
-1. [AWS: Getting started with Karpenter for autoscaling in EKS, and its installation with Helm](https://rtfm.co.ua/en/aws-getting-started-with-karpenter-for-autoscaling-in-eks-and-its-installation-with-helm/)
-1. [Introducing Karpenter – An Open-Source High-Performance Kubernetes Cluster Autoscaler by Channy Yun](https://aws.amazon.com/blogs/aws/introducing-karpenter-an-open-source-high-performance-kubernetes-cluster-autoscaler/)
+
 1. [Manage scale-to-zero scenarios with Karpenter and Serverless by Giacomo Margaria, Marco Ballerini, and Federica Ciuffo](https://aws.amazon.com/blogs/containers/manage-scale-to-zero-scenarios-with-karpenter-and-serverless/)
 1. [Optimize AZ traffic costs using Amazon EKS, Karpenter, and Istio by Sanjeev Ganjihal, Goutham Annem, and Lukonde Mwila ](https://aws.amazon.com/blogs/containers/optimize-az-traffic-costs-using-amazon-eks-karpenter-and-istio/)
   <img src="./images/Istio-EKS-Karpenter-architecture.png" title="Istio-EKS-Karpenter-architecture.png" width="900"/>
-1. [[GUIDE] Getting Started](https://karpenter.sh/docs/getting-started/)
+
 1. [Manage scale-to-zero scenarios with Karpenter and Serverless by Giacomo Margaria, Marco Ballerini, and Federica Ciuffo](https://aws.amazon.com/blogs/containers/manage-scale-to-zero-scenarios-with-karpenter-and-serverless/)
 1. [Scale from 100 to 10,000 pods on Amazon EKS by Akshaya Rawat](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks/)
 1. [Eliminate Kubernetes node scaling lag with pod priority and over-provisioning by Jayesh Vartak](https://aws.amazon.com/blogs/containers/eliminate-kubernetes-node-scaling-lag-with-pod-priority-and-over-provisioning/)
 1. [Deliver Namespace as a Service multi tenancy for Amazon EKS using Karpenter by Rachel Leekin, Michael (Mike) Masaaud, and Jihed Mselmi ](https://aws.amazon.com/blogs/containers/deliver-namespace-as-a-service-multi-tenancy-for-amazon-eks-using-karpenter/)
+
+# Introductary
+
+1. [Introducing Karpenter – An Open-Source High-Performance Kubernetes Cluster Autoscaler by Channy Yun](https://aws.amazon.com/blogs/aws/introducing-karpenter-an-open-source-high-performance-kubernetes-cluster-autoscaler/)
+1. [AWS: Getting started with Karpenter for autoscaling in EKS, and its installation with Helm](https://rtfm.co.ua/en/aws-getting-started-with-karpenter-for-autoscaling-in-eks-and-its-installation-with-helm/)
+1. [[GUIDE] Getting Started](https://karpenter.sh/docs/getting-started/)
+
+#  Pod affinity example with Karpenter
+
+1. [Scaling Kubernetes with Karpenter: Advanced Scheduling with Pod Affinity and Volume Topology Awareness by Jeremy Cowan](https://aws.amazon.com/blogs/containers/scaling-kubernetes-with-karpenter-advanced-scheduling-with-pod-affinity-and-volume-topology-awareness/)
+
+# Best Practices
+
+1. [EKS Cluster Autoscaler: 6 Best Practices For Effective Autoscaling Darius Piekus](https://cast.ai/blog/eks-cluster-autoscaler-6-best-practices-for-effective-autoscaling/)
 
 # 2. Karpenter Blueprints
 
