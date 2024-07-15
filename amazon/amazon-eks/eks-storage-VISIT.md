@@ -15,3 +15,8 @@
 # PVC
 
 1. [PersistentVolumeClaims](https://www.eksworkshop.com/docs/observability/resource-view/storage-view/persistent-volume-claim/)
+
+# EFS
+
+1. [EKS Immersion Day > Persistent Storage with AWS EFS](https://catalog.workshops.aws/eks-immersionday/en-US/persistentstorage-efs)
+1. [Persistent Storage using EFS for EKS on Bottlerocket by Narayana Vemburaj and Anjani Reddy ](https://aws.amazon.com/blogs/containers/persistent-storage-using-efs-for-eks-on-bottlerocket/)
