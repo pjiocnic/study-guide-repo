@@ -35,3 +35,4 @@
 - /Volumes/Lexar/git-repos/aws-repo/my-aws-workshops/serverless/serverless-developer-experience
 
 3. Lambda scaling project
+

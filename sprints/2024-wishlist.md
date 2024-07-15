@@ -14,7 +14,8 @@ See [[AGTWY] Private integrations in API Gateway.md](..//my-aws-stories/[AGTWY]%
 
 # 4. Lambda
 
-[AWS re:Invent 2023 - Best practices for serverless developers (SVS401)](https://www.youtube.com/watch?v=sdCA0Y7QDrM&t=550s)
+1. [AWS re:Invent 2023 - Best practices for serverless developers (SVS401)](https://www.youtube.com/watch?v=sdCA0Y7QDrM&t=550s)
+2. [Serverless testing workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/0f9013f4-3960-426d-a445-dc3519b8e3d4/en-US)
 
 # 5. Organizations
 
