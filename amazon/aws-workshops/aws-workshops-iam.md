@@ -6,3 +6,4 @@
 6. [Refining IAM Permissions Like A Pro](https://catalog.workshops.aws/refining-iam-permissions-like-a-pro/en-US)
 7. [IAM Troubleshooting Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a9661c42-97f6-400a-8dee-a8396e8d418f/en-US)
 8. [IAM policy learning experience](https://catalog.us-east-1.prod.workshops.aws/workshops/d1531d0a-79fd-45af-b198-d81e349ee660/en-US)
+9. [IAM permissions for workloads on Amazon EKS](https://catalog.us-east-1.prod.workshops.aws/workshops/7c41ed45-0120-4af8-bd23-420f9f0f5eb1/en-US/more)

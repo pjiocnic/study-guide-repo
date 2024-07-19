@@ -1,0 +1,4 @@
+1. [Introducing attribute-based access controls (ABAC) for Amazon SQS by Vikas Panghal](https://aws.amazon.com/blogs/compute/introducing-attribute-based-access-controls-abac-for-amazon-sqs/)
+1. [Scaling AWS Lambda permissions with Attribute-Based Access Control (ABAC) by Julian Wood and Chris McPeek](https://aws.amazon.com/blogs/compute/scaling-aws-lambda-permissions-with-attribute-based-access-control-abac/)
+
+1. [AWS Attribute Based Access Control (ABAC) By Example by John Tucker](https://codeburst.io/aws-attribute-based-access-control-abac-by-example-4dffabed40a4)
