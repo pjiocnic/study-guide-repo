@@ -1,4 +1,4 @@
-End-to-End Example Before IRSA
+<h1>Cross Account Access</h1>
 
 explain follwing excerpt from [Cross account IAM roles for Kubernetes service accounts by Amit Borulkar](https://aws.amazon.com/blogs/containers/cross-account-iam-roles-for-kubernetes-service-accounts/)
 
@@ -11,84 +11,119 @@ Prior to IRSA, to access the pics bucket in shared_content account, we perform t
 
 # Answer
 
-**Step 1: Create a Role in the shared_content Account**
+**Step 1: Create a S3_Pics Role in Shared Content Account (Account B)**
 
 1. Create the S3_Pics role in the shared_content account.
 
 This role should have a trust policy allowing the developer account to assume it.
 
-Trust Policy for S3_Pics Role:
+Trust Policy (`trust-relationship-policy.json`) for S3_Pics Role:
 
 ```json
 {
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Principal": {
-        "AWS": "arn:aws:iam::DEVELOPER_ACCOUNT_ID:root"
-      },
-      "Action": "sts:AssumeRole"
-    }
-  ]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::AccountA-ID:role/DeveloperEKSWorkerNodeRole"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
 }
 ```
 
-2. Attach a policy to the S3_Pics role to allow read-only access to the pics bucket.
+```bash
+aws iam create-role \
+  --role-name S3_Pics \
+  --assume-role-policy-document file://trust-relationship-policy.json
+```
 
-**Policy for S3_Pics Role:**
+2. Attach a policy (`readonly-policy.json`) to the S3_Pics role to allow read-only access to the pics bucket.
 
 ```json
 {
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::pics-bucket/*"
-    }
-  ]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::pics-bucket",
+                "arn:aws:s3:::pics-bucket/*"
+            ]
+        }
+    ]
 }
 ```
 
-**Step 2: Attach an Amazon EC2 Trust Relationship Policy to the EKS Worker Node Role in the developer Account**
+```bash
+aws iam put-role-policy \
+  --role-name S3_Pics \
+  --policy-name ReadOnlyAccessToPicsBucket \
+  --policy-document file://readonly-policy.json
+```
 
-1. Update the trust relationship of the EKS worker node role (let's assume the role is named eks-node-role).
+**Step 2: Attach an Amazon EC2 Trust Relationship Policy to the EKS Worker Node Role in Developer Account (Account A)**
 
-**Trust Policy for eks-node-role:**
+1. Get the EKS Worker Node Role Name:
+
+Assume the role name is `DeveloperEKSWorkerNodeRole`
+
+2. Create the Trust Relationship Policy `ec2-trust-relationship-policy.json`
 
 ```json
 {
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Principal": {
-        "Service": "ec2.amazonaws.com"
-      },
-      "Action": "sts:AssumeRole"
-    }
-  ]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
+
+```
+
+3. Update the Trust Relationship Policy for the EKS Worker Node Role:
+
+```bash
+aws iam update-assume-role-policy \
+  --role-name DeveloperEKSWorkerNodeRole \
+  --policy-document file://ec2-trust-relationship-policy.json
+```
+
+**Step 3: Attach a Policy to the EKS Worker Node Role to Allow sts Operation**
+
+1. Create Policy `assume-role-policy.json`
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "sts:AssumeRole",
+            "Resource": "arn:aws:iam::AccountB-ID:role/S3_Pics"
+        }
+    ]
 }
 ```
 
-**Step 3: Attach a Policy to the EKS Worker Node Role to Allow sts:AssumeRole**
+2. Attach the Policy to the EKS Worker Node Role:
 
-1. Attach a policy to the eks-node-role role in the developer account to allow the EKS worker nodes to assume the S3_Pics role in the shared_content account.
-
-**Policy for eks-node-role:**
-
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": "sts:AssumeRole",
-      "Resource": "arn:aws:iam::SHARED_CONTENT_ACCOUNT_ID:role/S3_Pics"
-    }
-  ]
-}
+```bash
+aws iam put-role-policy \
+  --role-name DeveloperEKSWorkerNodeRole \
+  --policy-name AssumeS3PicsRole \
+  --policy-document file://assume-role-policy.json
 ```
 
 **Step 4: Using the Role from a Pod in the EKS Cluster**
