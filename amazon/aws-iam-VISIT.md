@@ -143,8 +143,7 @@
 
 # 15. Session Tags
 
-1. [New for Identity Federation – Use Employee Attributes for Access Control in AWS by Sébastien Stormacq](https://aws.amazon.com/blogs/aws/new-for-identity-federation-use-employee-attributes-for-access-control-in-aws/)
-1. [See section "Support for session tags"](https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials)
+see `aws-iam-session-tags.md`
 
 # 16. Service linked Roles
 

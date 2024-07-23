@@ -1,0 +1,3 @@
+1. [[USED IN ABAC] Add Tags to Manage Your AWS IAM Users and Roles by Sulay Shah](https://aws.amazon.com/blogs/security/add-tags-to-manage-your-aws-iam-users-and-roles/)
+1. [New for Identity Federation – Use Employee Attributes for Access Control in AWS by Sébastien Stormacq](https://aws.amazon.com/blogs/aws/new-for-identity-federation-use-employee-attributes-for-access-control-in-aws/)
+1. [See section "Support for session tags"](https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials)

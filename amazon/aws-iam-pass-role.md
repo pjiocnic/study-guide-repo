@@ -1,3 +1,6 @@
 1. [Demystifying IAM PassRole permission](https://medium.com/@sapna.mandhare/demystifying-iam-passrole-permission-d62a2dc69778)
-1. [Passing a Role to AWS CloudFormation to Escalate Privileges](https://infosecwriteups.com/passing-a-role-to-cloudformation-to-escalate-privileges-602010d26f55)
 1. [How to use the PassRole permission with IAM roles by Liam Wadman and Laura Reith](https://aws.amazon.com/blogs/security/how-to-use-the-passrole-permission-with-iam-roles/)
+
+# Cloudformation
+
+1. [Passing a Role to AWS CloudFormation to Escalate Privileges](https://infosecwriteups.com/passing-a-role-to-cloudformation-to-escalate-privileges-602010d26f55)

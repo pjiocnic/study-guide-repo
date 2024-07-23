@@ -602,7 +602,6 @@ Supported EKS versions | All supported EKS versions | EKS version 1.24 and above
 Cross account access | Cross account here refers to the scenario where your EKS cluster is in one AWS account and the AWS resources that are being accessed by your applications is in another AWS account. In IRSA, you can configure cross account IAM permissions either by creating an IAM identity provider in the account your AWS resources live or by using chained AssumeRole operation. See EKS user guide on IRSA Cross-account IAM permissions for details. | EKS Pod Identity supports cross account access through resource policies and chained AssumeRole operation. See the previous section “How to perform cross account access with EKS Pod Identity” for details.
 Mapping inventory | You can find the mapping of IAM roles to service accounts by parsing individual IAM role’s trust policy or by inspecting the annotations added to service accounts. | EKS Pod Identity offers a new ListPodIdentityAssociations API to centrally see the mapping of roles to service accounts.
 
-
 # 10. Clean up
 
 ```bash
