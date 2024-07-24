@@ -6,7 +6,9 @@
 - [2. Getting Started](#2-getting-started)
 - [3. AWS Solutions Library](#3-aws-solutions-library)
 - [4. Best Practices](#4-best-practices)
-- [5. Cloudformation](#5-cloudformation)
+- [5. Setting up Environment](#5-setting-up-environment)
+  - [5.1. Using Cloudformation](#51-using-cloudformation)
+  - [5.2. Using CLI](#52-using-cli)
 - [6. Examples](#6-examples)
 - [7. QuickStarts](#7-quickstarts)
 - [8. Multiple accounts](#8-multiple-accounts)
@@ -38,11 +40,18 @@
 
 2. [[MY NEXT] Best Practices for Organizational Units with AWS Organizations by Andrew Blackham and Sam Elmalak ](https://aws.amazon.com/blogs/mt/best-practices-for-organizational-units-with-aws-organizations/)
 
-# 5. Cloudformation
+# 5. Setting up Environment
 
-1. [Deploy AWS Organizations resources by using CloudFormation by Matt Luttrell and Swara Gandhi](https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/)
+## 5.1. Using Cloudformation
+
+1. [[BEST] Deploy AWS Organizations resources by using CloudFormation by Matt Luttrell and Swara Gandhi](https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/)
 - [[CFN] CloudFormationForAWSOrganizations.yaml](./templates/organizations/CloudFormationForAWSOrganizations.yaml)
 2. [Foundational Organizational Unit Structure and Accounts](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main/organizations/foundational-organizational-unit-structure)
+
+## 5.2. Using CLI
+
+1. [[BEST] Workshop AWS Account Setup > Master Account > AWS organization setup](https://workshop-aws-account-setup.fstehle.com/master-account/aws-organization/)
+1. [Multi-Account Security Governance Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/d3f60827-89f2-46a8-9be7-6e7185bd7665/en-US/2-service-guardrails/cloudtrail)
 
 # 6. Examples
 
