@@ -15,24 +15,26 @@ Conditional Access Control in IAM Policies
 1. [AWS Identity and Access Management (IAM) Immersion Day > Advanced Modules > Permission Boundaries as Guardrails](https://catalog.us-east-1.prod.workshops.aws/workshops/18b3622c-5d4c-45c9-9834-6a7091109072/en-US/advanced-modules/60-permission-boundary/6-1)
 &nbsp;
 1. [[**MY_NEXT**] How and when to use different IAM policy types](https://catalog.workshops.aws/iam-policy-types/en-US)
-
+&nbsp;
 <img src="./images/policy-types-architecture.svg" title="policy-types-architecture" width="900"/>
+&nbsp;
+    - [ ] Lab 1: Grant access to Application Team
+    - [ ] Lab 2: Delegate access to the CI/CD pipeline
+    - [ ] Lab 3: Deploy the application
+    - [ ] Lab 4: Limit access to trusted buckets
+    - [ ] Lab 5: Enable access to Data Lake bucket
+    - [ ] Lab 6: Apply enterprise guardrails with SCPs (optional)
 
-- [ ] Lab 1: Grant access to Application Team
-- [ ] Lab 2: Delegate access to the CI/CD pipeline
-- [ ] Lab 3: Deploy the application
-- [ ] Lab 4: Limit access to trusted buckets
-- [ ] Lab 5: Enable access to Data Lake bucket
-- [ ] Lab 6: Apply enterprise guardrails with SCPs (optional)
+&nbsp;
 
 1. [IAM policy evaluation workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/6dc3124a-6bd4-46eb-b5c4-be438a82ba3d/en-US)
-
-- [x] Lab 1: IAM policy evaluation logic with identities and resources in the same account
-- [ ] Lab 2: IAM policy evaluation logic with permissions boundaries
-- [ ] Lab 3: IAM policy evaluation logic with VPC endpoints
-- [ ] Lab 4: Working with AWS KMS key policies
-- [ ] Lab 5: Working with IAM policy conditions
-
+&nbsp;
+    - [x] Lab 1: IAM policy evaluation logic with identities and resources in the same account
+    - [ ] Lab 2: IAM policy evaluation logic with permissions boundaries
+    - [ ] Lab 3: IAM policy evaluation logic with VPC endpoints
+    - [ ] Lab 4: Working with AWS KMS key policies
+    - [ ] Lab 5: Working with IAM policy conditions
+&nbsp;
 1. [Refining IAM Permissions Like A Pro](https://catalog.workshops.aws/refining-iam-permissions-like-a-pro/en-US)
 - IAM Access Analyzer > Validate policy
 - IAM Access Analyzer > Custom policy checks

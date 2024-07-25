@@ -3,6 +3,13 @@
 
 1. [A Way to Build Custom Widget on CloudWatch Dashboard by Md Shadekur Rahman](https://aws.plainenglish.io/a-way-to-build-custom-widget-on-cloudwatch-dashboard-abdf1b69c107)
 
+https://mng.workshop.aws/operations-2022/detect/cwdashboard.html
+https://catalog.us-east-1.prod.workshops.aws/workshops/a8e9c6a6-0ba9-48a7-a90d-378a440ab8ba/en-US/300-cloudwatch
+
+[Using Amazon CloudWatch dashboards custom widgets by Nick Sack and Kevin Nastase](https://aws.amazon.com/blogs/mt/introducing-amazon-cloudwatch-dashboards-custom-widgets/)
+[CloudWatch Custom Widgets Samples](https://github.com/aws-samples/cloudwatch-custom-widgets-samples)
+[Building dashboards for operational visibility](https://aws.amazon.com/builders-library/building-dashboards-for-operational-visibility/)
+
 # 2. Introductary
 
 1. [Improve Your AWS Monitoring with CloudWatch Dashboards by Sandro Volpicella](https://blog.awsfundamentals.com/improve-your-aws-monitoring-with-cloudwatch-dashboards)
