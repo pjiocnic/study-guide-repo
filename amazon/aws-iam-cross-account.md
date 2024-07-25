@@ -1,3 +1,6 @@
-# SQS
-
-[Cross Account SQS access](https://repost.aws/knowledge-center/sqs-queue-access-permissions)
+1. [Cross Account SQS access](https://repost.aws/knowledge-center/sqs-queue-access-permissions)
+1. [SwitchRoleMastery: Your Step-by-Step Guide to AWS Cross-Account Access by Mohasina Clt](https://medium.com/@mohasina.clt/switchrolemastery-your-step-by-step-guide-to-aws-cross-account-access-d3bef687589e)
+1. [How to Use a Single IAM User to Easily Access All Your Accounts by Using the AWS CLI by Brian Wagner](https://aws.amazon.com/blogs/security/how-to-use-a-single-iam-user-to-easily-access-all-your-accounts-by-using-the-aws-cli/)
+1. [How to Enable Cross-Account Access to the AWS Management Console by Mike Pope](https://aws.amazon.com/blogs/security/how-to-enable-cross-account-access-to-the-aws-management-console/)
+1. [How do I access resources in another AWS account using AWS IAM?](https://repost.aws/knowledge-center/cross-account-access-iam)
+1. [IAM tutorial: Delegate access across AWS accounts using IAM roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
