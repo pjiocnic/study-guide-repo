@@ -1,0 +1,1 @@
+https://catalog.workshops.aws/well-architected-cost-optimization/en-US

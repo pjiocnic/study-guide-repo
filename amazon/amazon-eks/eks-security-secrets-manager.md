@@ -10,3 +10,17 @@
 # Documentation
 
 1. [External Secrets Operator](https://external-secrets.io/latest/)
+
+# Secrets Store CSI driver
+
+1. [How to use AWS Secrets & Configuration Provider with your Kubernetes Secrets Store CSI driver by Tracy Pierce and Navaneeth Krishnan Venugopal](https://aws.amazon.com/blogs/security/how-to-use-aws-secrets-configuration-provider-with-kubernetes-secrets-store-csi-driver/)
+2. [AWS Secrets Manager and Config Provider for Secret Store CSI Driver](https://github.com/aws/secrets-store-csi-driver-provider-aws)
+3. [How to use the Secrets Store CSI driver to mount secrets to Kubernetes pods from AWS Secrets Manager? by Dhruvin Soni](https://overcast.blog/how-to-use-the-secrets-store-csi-driver-to-mount-secrets-to-kubernetes-pods-e0e61b481d79)
+
+[SECRETS STORE CSI DRIVER AND ASCP]https://archive.eksworkshop.com/beginner/194_secrets_manager/configure-csi-driver/
+
+[ENCRYPTING KUBERNETES SECRETS]https://archive.eksworkshop.com/beginner/191_secrets/
+
+# External Secrets Operator (ESO)
+
+1. [How to use AWS Secrets Manager and ABAC for enhanced secrets management in Amazon EKS by Nima Fotouhi and Sandeep Singh](https://aws.amazon.com/blogs/security/how-to-use-aws-secrets-manager-and-abac-for-enhanced-secrets-management-in-amazon-eks/)
