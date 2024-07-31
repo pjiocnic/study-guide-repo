@@ -32,3 +32,10 @@
 - EBS Track > Module 2: Remediate Unecrypted EBS Volume
 - EBS Track > Module 3: Sharing an Encrypted EBS Volume
 - Querying KMS CloudTrail logs with Athena
+
+[AWS KMS Workshop](https://github.com/aws-samples/aws-kms-workshop)
+- Workshop environment setup
+- Operating with AWS KMS and CMKs
+- Encryption with AWS KMS
+- Working with a WebApp - AWS KMS best practices
+- Monitoring and Logging in AWS KMS
