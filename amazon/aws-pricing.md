@@ -1,6 +1,5 @@
 https://blog.awsfundamentals.com/sqs-pricing
-
-
+https://blog.awsfundamentals.com/sqs-pricing
 1. https://blog.bassemdy.com/2020/06/08/aws/architecture/microservices/patterns/aws-step-functions-think-again.html
 
   * [You will be charged $0.40 per 1 million requests to the queue (SQS)](https://aws.amazon.com/sqs/pricing/)

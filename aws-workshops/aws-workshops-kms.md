@@ -39,3 +39,5 @@
 - Encryption with AWS KMS
 - Working with a WebApp - AWS KMS best practices
 - Monitoring and Logging in AWS KMS
+
+[ENCRYPT AT REST WITH AWS KMS](https://000033.awsstudygroup.com/)

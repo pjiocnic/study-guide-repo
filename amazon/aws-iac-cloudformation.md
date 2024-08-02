@@ -4,19 +4,21 @@
 
 - [1. BestPractices](#1-bestpractices)
 - [2. Blog series](#2-blog-series)
-- [Series by Brett Gillet](#series-by-brett-gillet)
-- [3. Courses](#3-courses)
-- [4. CFN Lint](#4-cfn-lint)
-- [5. Custom Resources](#5-custom-resources)
-- [6. Lambda](#6-lambda)
-- [7. Intrinsic Functions](#7-intrinsic-functions)
-- [8. Samples](#8-samples)
-- [9. Skillbuilder courses](#9-skillbuilder-courses)
-- [10. Stack Sets](#10-stack-sets)
-- [11. Testing](#11-testing)
-- [12. WaitConditions](#12-waitconditions)
-- [13. Workshop](#13-workshop)
-- [14. WhitePapers](#14-whitepapers)
+- [3. Series by Brett Gillet](#3-series-by-brett-gillet)
+- [4. Courses](#4-courses)
+- [5. CFN Lint](#5-cfn-lint)
+- [6. Custom Resources](#6-custom-resources)
+- [7. Lambda](#7-lambda)
+- [8. Intrinsic Functions](#8-intrinsic-functions)
+- [9. AWS CloudFormation modules](#9-aws-cloudformation-modules)
+- [10. StackSets](#10-stacksets)
+- [11. Samples](#11-samples)
+- [12. Skillbuilder courses](#12-skillbuilder-courses)
+- [13. Stack Sets](#13-stack-sets)
+- [14. Testing](#14-testing)
+- [15. WaitConditions](#15-waitconditions)
+- [16. Workshop](#16-workshop)
+- [17. WhitePapers](#17-whitepapers)
 
 <!-- /TOC -->
 
@@ -32,24 +34,24 @@
 4. [Hands-on AWS CloudFormation - Part 4. Create VPC with private and public subnets By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-4-create-vpc-with-private-and-public-subnets-85d)
 5. [Hands-on AWS CloudFormation - Part 5. IAM users, groups and roles By Samira Yusifova](https://dev.to/tiamatt/hands-on-aws-cloudformation-part-5-iam-users-groups-and-roles-5d9f)
 
-# Series by Brett Gillet
+# 3. Series by Brett Gillet
 
 1. [Using a Deletion Policy to protect resources deployed using AWS CloudFormation By Brett Gillett](https://curiousorbit.com/blog/cloudformation-deletion-policy/)
 1. [CloudFormation changesets - review changes before running a stack update By Brett Gillett](https://curiousorbit.com/blog/cloudformation-changeset/)
 1. [Using Conditions in your CloudFormation templates By Brett Gillett](https://curiousorbit.com/blog/cloudformation-using-conditions/)
 1. [Using Parameters in your CloudFormation templates By Brett Gillett ](https://curiousorbit.com/blog/cloudformation-using-parameters/)
 
-# 3. Courses
+# 4. Courses
 
 1. [Automation in AWS with CloudFormation, CLI, and SDKs By Richard A. Jones](https://learning.oreilly.com/videos/automation-in-aws/9780134818313/)
 - Good place to brush up
 
-# 4. CFN Lint
+# 5. CFN Lint
 
 1. [AWS CloudFormation Linter](https://github.com/aws-cloudformation/cfn-lint)
 1. [Serverless Rules](https://awslabs.github.io/serverless-rules/rules/)
 
-# 5. Custom Resources
+# 6. Custom Resources
 
 1. [Implementing long running deployments with AWS CloudFormation Custom Resources using AWS Step Functions by DAMODAR SHENVI WAGLE](https://aws.amazon.com/blogs/devops/implementing-long-running-deployments-with-aws-cloudformation-custom-resources-using-aws-step-functions/)
 2. [Coordinating complex resource dependencies across CloudFormation stacks by Rafael Liu and Tony Suarez](https://aws.amazon.com/blogs/mt/coordinating-complex-resource-dependencies-across-cloudformation-stacks/)
@@ -58,35 +60,45 @@
 4. [Managing resources using AWS CloudFormation Resource Types by Craig Lefkowitz](https://aws.amazon.com/blogs/mt/managing-resources-using-aws-cloudformation-resource-types/)
 5. [Lambda to S3 via a custom resource](https://serverlessland.com/patterns/lambda-s3-cfn)
 
-# 6. Lambda
+# 7. Lambda
 
 1. [Faster Auto Scaling in AWS CloudFormation Stacks with Lambda-backed Custom Resources by Tom Maddox ](https://aws.amazon.com/blogs/devops/faster-auto-scaling-in-aws-cloudformation-stacks-with-lambda-backed-custom-resources/)
 
-# 7. Intrinsic Functions
+# 8. Intrinsic Functions
 
 1. [AWS CloudFormation Intrinsic Functions By: Jeff Loughridge](https://konekti.us/post/aws-cloudformation-intrinsic-functions/)
 
-# 8. Samples
+# 9. AWS CloudFormation modules
+
+1. [[DEMO] Share reusable infrastructure as code by using AWS CloudFormation modules and StackSets by Josh Hart ](https://aws.amazon.com/blogs/mt/share-reusable-infrastructure-code-aws-cloudformation-modules-and-stacksets/)
+
+# 10. StackSets
+
+1. [[DEMO] Share reusable infrastructure as code by using AWS CloudFormation modules and StackSets by Josh Hart ](https://aws.amazon.com/blogs/mt/share-reusable-infrastructure-code-aws-cloudformation-modules-and-stacksets/)
+1. [[HOW_IT_WORKS] Use CloudFormation StackSets to Provision Resources Across Multiple AWS Accounts and Regions by Jeff Barr ](https://aws.amazon.com/blogs/aws/use-cloudformation-stacksets-to-provision-resources-across-multiple-aws-accounts-and-regions/)
+1. [Working with AWS CloudFormation StackSets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html)
+
+# 11. Samples
 
 1. [Cloud Foundations on AWS - Templates](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main)
 2. [AWS CloudFormation Sample Templates](https://github.com/awslabs/aws-cloudformation-templates)
 3. [Template snippets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/CHAP_TemplateQuickRef.html)
 4. [AWS CloudFormation Templates](https://aws.amazon.com/cloudformation/resources/templates/govcloud-us/)
 
-# 9. Skillbuilder courses
+# 12. Skillbuilder courses
 
 1. [Advanced CloudFormation: Macros](https://explore.skillbuilder.aws/learn/course/113/advanced-cloudformation-macros)
 
-# 10. Stack Sets
+# 13. Stack Sets
 
 1. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)
 
-# 11. Testing
+# 14. Testing
 
 1. [Automated CloudFormation Testing Pipeline with TaskCat and CodePipeline by Raleigh Hansen and Dan Le](https://aws.amazon.com/blogs/devops/automated-cloudformation-testing-pipeline-with-taskcat-and-codepipeline/)
 - Includes code for running `TaskCat` and scripts to test solution functionality
 
-# 12. WaitConditions
+# 15. WaitConditions
 
 1. https://tutorialsdojo.com/how-to-create-wait-conditions-in-a-cloudformation-template/
 2. [Signaling AWS CloudFormation WaitConditions using AWS PrivateLink by Chuck Meyer ](https://aws.amazon.com/blogs/mt/signaling-aws-cloudformation-waitconditions-using-aws-privatelink/)
@@ -94,7 +106,7 @@
 4. [Coordinating complex resource dependencies across CloudFormation stacks by Rafael Liu and Tony Suarez](https://aws.amazon.com/blogs/mt/coordinating-complex-resource-dependencies-across-cloudformation-stacks/)
 - How to coordinate across multiple stacks by using Custom Resources along with WaitCondition resources, based on custom events within the same account and region.
 
-# 13. Workshop
+# 16. Workshop
 
 1. [AWS CloudFormation Workshop](https://catalog.workshops.aws/cfn101/en-US)
 2. [[My NEXT] Highly Available Web Application Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US)
@@ -110,7 +122,7 @@
     - Lab 10: Chaos testing with AWS Fault Injection Simulator
 3. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)
 
-# 14. WhitePapers
+# 17. WhitePapers
 
 1. [Establishing Your Cloud Foundation on AWS](https://docs.aws.amazon.com/whitepapers/latest/establishing-your-cloud-foundation-on-aws/welcome.html)
 

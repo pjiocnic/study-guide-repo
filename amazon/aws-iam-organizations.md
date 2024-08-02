@@ -6,6 +6,8 @@
 - [2. Getting Started](#2-getting-started)
 - [3. AWS Solutions Library](#3-aws-solutions-library)
 - [4. Best Practices](#4-best-practices)
+- [Setting up Centralized Logging](#setting-up-centralized-logging)
+- [Using StackSets in an Organization](#using-stacksets-in-an-organization)
 - [5. Setting up Environment](#5-setting-up-environment)
   - [5.1. Using Cloudformation](#51-using-cloudformation)
   - [5.2. Using CLI](#52-using-cli)
@@ -18,6 +20,7 @@
 
 # 1. Curate
 
+1. [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively by Tobias Schmidt](https://blog.awsfundamentals.com/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively)
 1. [[MUST SEE] Getting started with AWS Multi-account approach by Alejandro Lazaro ](https://dev.to/aws-builders/getting-started-with-aws-multi-account-approach-4j5c)
 1. [AWS Account Structure: Think twice before using AWS Organizations](https://cloudonaut.io/aws-account-structure-think-twice-before-using-aws-organizations/)
 1. [How SMBs can deploy a multi-account environment quickly using AWS Organizations and AWS CloudFormation StackSets by Nivedita Tripathi, Alex Torres, Caroline Johnston, Justin Plock, and Siddhesh Jog](https://aws.amazon.com/blogs/mt/deploy-a-multi-account-environment-in-under-30-minutes-using-aws-cloudformation-stacksets/)
@@ -39,6 +42,16 @@
 # 4. Best Practices
 
 2. [[MY NEXT] Best Practices for Organizational Units with AWS Organizations by Andrew Blackham and Sam Elmalak ](https://aws.amazon.com/blogs/mt/best-practices-for-organizational-units-with-aws-organizations/)
+
+# Setting up Centralized Logging
+
+1. [[MUST SEE] Stream Amazon CloudWatch Logs to a Centralized Account for Audit and Analysis by David Bailey](https://aws.amazon.com/blogs/architecture/stream-amazon-cloudwatch-logs-to-a-centralized-account-for-audit-and-analysis/)
+    - Uses Firehouse
+    - cross account logging without OU
+
+# Using StackSets in an Organization
+
+See my-github/study-guide-repo/amazon/aws-iac-cloudformation.md#StackSets
 
 # 5. Setting up Environment
 
