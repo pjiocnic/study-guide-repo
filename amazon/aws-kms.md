@@ -1,15 +1,22 @@
 
-# How encryption works in AWS
+# 1. How encryption works in AWS
 
 1. [The importance of encryption and how AWS can help by Ken Beer](https://aws.amazon.com/blogs/security/importance-of-encryption-and-how-aws-can-help/)
 
-# single-Region or multi-Region KMS key
+# 2. single-Region or multi-Region KMS key
 
 1. [Choose the right type of AWS KMS key to encrypt Amazon RDS and Aurora Global Database by Siva Subramaniam and Robert Daly](https://aws.amazon.com/blogs/database/choose-the-right-type-of-aws-kms-key-to-encrypt-amazon-rds-and-aurora-global-database/)
 
-# Customer managed keys vs AWS managed keys vs AWS owned keys
+# 3. Customer managed keys vs AWS managed keys vs AWS owned keys
 
 1. [Choose the right type of AWS KMS key to encrypt Amazon RDS and Aurora Global Database by Siva Subramaniam and Robert Daly](https://aws.amazon.com/blogs/database/choose-the-right-type-of-aws-kms-key-to-encrypt-amazon-rds-and-aurora-global-database/)
 2. [Customer managed keys](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#customer-cmk)
 3. [AWS managed keys](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#aws-managed-cmk)
 4. [AWS owned keys](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#aws-owned-cmk)
+
+# 4. Sample Applications
+
+## 4.1. Customer-managed AWS KMS Key usage
+
+1. [Strengthening data security in AWS Step Functions with a customer-managed AWS KMS key by Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/strengthening-data-security-in-aws-step-functions-with-a-customer-managed-aws-kms-key/)
+2. [Sample stock trading application to showcase customer-managed AWS KMS Key usage in Step Functions](https://github.com/aws-samples/aws-stepfunctions-examples/tree/main/sam/app-sfn-kms-integration)
