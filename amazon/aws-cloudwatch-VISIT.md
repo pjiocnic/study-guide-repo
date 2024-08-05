@@ -61,7 +61,10 @@ see my-github/study-guide-repo/amazon/aws-cloudwatch-code.md
 # 9. Subscription filters
 
 > 1. [[**MY-NEXT**] How to automatically subscribe to Amazon CloudWatch Logs groups by Rohit Kumar Singh and Ennio Pastore](https://aws.amazon.com/blogs/infrastructure-and-automation/how-to-automatically-subscribe-to-amazon-cloudwatch-logs-groups/)
+&nbsp;
   <img src="./images/enniop-architecture-diagram.jpg" title="enniop-architecture-diagram.jpg" width="900"/>
+&nbsp;
+
 1. [CloudWatch Lambda Subscription Filter (CDK-Demo) by Duleendra Shashimal](https://towardsaws.com/cloudwatch-lamba-subscription-filter-cdk-demo-f0eb571547c6)
 
 1. [[WORKSHOP] AWS CloudTrail Log Monitoring > Subscriptions Filter](https://catalog.us-east-1.prod.workshops.aws/workshops/2e48b9fc-f721-4417-b811-962b7f31b61c/en-US/subscriptionsfilter/creating-filter)

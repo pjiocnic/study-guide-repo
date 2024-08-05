@@ -13,7 +13,10 @@
 
 1. [application-signals-demo/pet clinic project](https://github.com/aws-observability/application-signals-demo#eks-demo)
 
-# 2. Container insights
+# 2. Monitoring
 
 1. [Announcing Amazon CloudWatch Container Insights with Enhanced Observability for Amazon EKS on EC2 by Siva Guruvareddiar, Imaya Kumar Jagannathan, and Omur Kirikci ](https://aws.amazon.com/blogs/mt/new-container-insights-with-enhanced-observability-for-amazon-eks/)
+
 1. [Automate monitoring for your Amazon EKS cluster using CloudWatch Container Insights by Manish Garg, Navdeep Pareek, and Sushant Jagdale](https://aws.amazon.com/blogs/infrastructure-and-automation/automate-monitoring-for-your-amazon-eks-cluster-using-cloudwatch-container-insights/)
+
+<img src="./images/eks-monitoring-07242024.png" title="EKS Monitoring" width="900"/>

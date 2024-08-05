@@ -60,6 +60,7 @@ See my-github/study-guide-repo/amazon/aws-iac-cloudformation.md#StackSets
 1. [[BEST] Deploy AWS Organizations resources by using CloudFormation by Matt Luttrell and Swara Gandhi](https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/)
 - [[CFN] CloudFormationForAWSOrganizations.yaml](./templates/organizations/CloudFormationForAWSOrganizations.yaml)
 2. [Foundational Organizational Unit Structure and Accounts](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main/organizations/foundational-organizational-unit-structure)
+3. [[DEMO] How to Use AWS Organizations to Automate End-to-End Account Creation by David Schonbrun](https://aws.amazon.com/blogs/security/how-to-use-aws-organizations-to-automate-end-to-end-account-creation/)
 
 ## 5.2. Using CLI
 
@@ -84,4 +85,6 @@ See my-github/study-guide-repo/amazon/aws-iac-cloudformation.md#StackSets
 
 # 9. Route 53
 1. [How to manage Route53 hosted zones in a multi-account environment](https://theburningmonk.com/2021/05/how-to-manage-route53-hosted-zones-in-a-multi-account-environment/)
+
+
 
