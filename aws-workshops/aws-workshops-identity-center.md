@@ -1,0 +1,12 @@
+[Using IAM Identity Center (successor to AWS Single Sign-On) to achieve strong identity management](https://catalog.us-east-1.prod.workshops.aws/workshops/590f8439-42c7-46a1-8e70-28ee41498b3a/en-US)
+- Create User and Groups
+- Permission Sets
+- Testing the access based on user, group and permission set assignments
+- AWS CLI Access
+- Using Time-based access control
+- Using Customer Managed Policies in permission sets
+- Attribute Based Access Control (ABAC) with Identity Center
+- Using IAM Identity Center Identity Store APIs
+- Using Okta with Identity Center
+- Using Azure AD with Identity Center
+- Using PingFederate with Identity Center
