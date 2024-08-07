@@ -2,6 +2,7 @@
 
 <!-- TOC -->
 
+- [Curate](#curate)
 - [1. Anycast - How does R53 use Anycast?](#1-anycast---how-does-r53-use-anycast)
 - [2. DNS](#2-dns)
 - [3. Disaster Recovery](#3-disaster-recovery)
@@ -12,12 +13,17 @@
 - [8. Split-View DNS](#8-split-view-dns)
 - [9. Validating domain using certificates](#9-validating-domain-using-certificates)
 - [10. Videos](#10-videos)
-  - [Traffic Management](#traffic-management)
+  - [10.1. Traffic Management](#101-traffic-management)
 - [11. Zone delegation](#11-zone-delegation)
-- [12. Zone Apex](#12-zone-apex)
-- [13. How to prevent DDos attacks using WAF and Cloudfront](#13-how-to-prevent-ddos-attacks-using-waf-and-cloudfront)
+- [12. How to create Centralized DNS for Hybrid Environments](#12-how-to-create-centralized-dns-for-hybrid-environments)
+- [13. Zone Apex](#13-zone-apex)
+- [14. How to prevent DDos attacks using WAF and Cloudfront](#14-how-to-prevent-ddos-attacks-using-waf-and-cloudfront)
 
 <!-- /TOC -->
+
+# Curate
+
+1. [A Case Study in Global Fault Isolation by Lee-Ming Zen](https://aws.amazon.com/blogs/architecture/a-case-study-in-global-fault-isolation/)
 
 # 1. Anycast - How does R53 use Anycast?
 
@@ -26,9 +32,8 @@
 
 # 2. DNS
 
-see my-github/study-guide-repo/amazon/aws-networking-dns.md
-
-1. [A Case Study in Global Fault Isolation by Lee-Ming Zen](https://aws.amazon.com/blogs/architecture/a-case-study-in-global-fault-isolation/)
+Bring `my-github/study-guide-repo/amazon/aws-networking-dns.md` here or classify as `amazon-route53-DNS.md`
+[DNS best practices for Amazon Route 53 by Renato Gentil and Scott Morrison](https://aws.amazon.com/blogs/networking-and-content-delivery/dns-best-practices-for-amazon-route-53/)
 
 # 3. Disaster Recovery
 
@@ -68,7 +73,7 @@ see my-github/study-guide-repo/amazon/aws-networking-dns.md
 > 1. [[**MAKE-NOTES**] DNS Design Using Amazon Route 53 - AWS Online Tech Talks By James Devine](https://www.youtube.com/watch?v=2y_RBjDkRgY)
 1. [The Routing Loop - Migrate your domain to Amazon Route 53](https://www.twitch.tv/aws/video/1877197514)
 
-## Traffic Management
+## 10.1. Traffic Management
 
 1. [[**MAKE-NOTES**] AWS re:Invent 2020: Global traffic management with Amazon Route 53 By Tom Adamski](https://www.youtube.com/watch?v=E33dA6n9O7I)
 - Nameserver stripes
@@ -82,13 +87,25 @@ see my-github/study-guide-repo/amazon/aws-networking-dns.md
 1. [Workshop AWS Account Setup > Shared Services Account > Setting up a DNS zone in Route53](https://workshop-aws-account-setup.fstehle.com/shared-services-account/route53/)
 1. https://repost.aws/knowledge-center/route53-private-hosted-zone
 1. [Using Route 53 Private Hosted Zones for Cross-account Multi-region Architectures by Anandprasanna Gaitonde and John Bickle](https://aws.amazon.com/blogs/architecture/using-route-53-private-hosted-zones-for-cross-account-multi-region-architectures/)
-<img src="./images/DNS_Blog_Diagv2.jpg" title="DNS_Blog_Diagv2.jpg" width="900"/>
+&nbsp;
+  <img src="./images/DNS_Blog_Diagv2.jpg" title="DNS_Blog_Diagv2.jpg" width="900"/>
+&nbsp;
 
-# 12. Zone Apex
+# 12. How to create Centralized DNS for Hybrid Environments
+
+1. [Using Route 53 Private Hosted Zones for Cross-account Multi-region Architectures by Anandprasanna Gaitonde and John Bickle](https://aws.amazon.com/blogs/architecture/using-route-53-private-hosted-zones-for-cross-account-multi-region-architectures/)
+
+&nbsp;
+  <img src="./images/DNS_Blog_Diagv2.jpg" title="DNS_Blog_Diagv2.jpg" width="900"/>
+&nbsp;
+
+1. [Workshop AWS Account Setup > Shared Services Account > Setting up a DNS zone in Route53](https://workshop-aws-account-setup.fstehle.com/shared-services-account/route53/)
+1. https://repost.aws/knowledge-center/route53-private-hosted-zone
+
+# 13. Zone Apex
 
 1. [Solving DNS zone apex challenges with third-party DNS providers using AWS by Chris Carter and Sohaib Tahir](https://aws.amazon.com/blogs/networking-and-content-delivery/solving-dns-zone-apex-challenges-with-third-party-dns-providers-using-aws)
 
-
-# 13. How to prevent DDos attacks using WAF and Cloudfront
+# 14. How to prevent DDos attacks using WAF and Cloudfront
 
 1. [How to Help Protect Dynamic Web Applications Against DDoS Attacks by Using Amazon CloudFront and Amazon Route 53 by Holly Willey |](https://aws.amazon.com/blogs/security/how-to-protect-dynamic-web-applications-against-ddos-attacks-by-using-amazon-cloudfront-and-amazon-route-53/#:~:text=Route%2053%20is%20also%20designed,the%20availability%20of%20the%20service.)

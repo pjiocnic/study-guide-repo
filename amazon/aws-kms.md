@@ -51,3 +51,7 @@ Using DEKs (Data encryption keys)
 
 1. [How to verify AWS KMS asymmetric key signatures locally with OpenSSL by J.D. Bean ](https://aws.amazon.com/blogs/security/how-to-verify-aws-kms-asymmetric-key-signatures-locally-with-openssl/)
 2. [Digital signing with the new asymmetric keys feature of AWS KMS by Raj Copparapu](https://aws.amazon.com/blogs/security/digital-signing-asymmetric-keys-aws-kms/)
+
+# SDKs
+
+1. [[JAVA] How to Use the New AWS Encryption SDK to Simplify Data Encryption and Improve Application Availability by Greg Rubin](https://aws.amazon.com/blogs/security/how-to-use-the-new-aws-encryption-sdk-to-simplify-data-encryption-and-improve-application-availability/)

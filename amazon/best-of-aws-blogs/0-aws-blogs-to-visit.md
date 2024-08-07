@@ -13,3 +13,7 @@
 
 1. [Traffic management with AWS Global Accelerator by Tino Tran](https://aws.amazon.com/blogs/networking-and-content-delivery/traffic-management-with-aws-global-accelerator/)
 1. [[MAKE_NOTES] A Case Study in Global Fault Isolation by Lee-Ming Zen](https://aws.amazon.com/blogs/architecture/a-case-study-in-global-fault-isolation/)
+
+# Networking
+
+[One to Many: Evolving VPC Design by Androski Spicer ](https://aws.amazon.com/blogs/architecture/one-to-many-evolving-vpc-design/)
