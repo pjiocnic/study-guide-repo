@@ -55,3 +55,6 @@ Using DEKs (Data encryption keys)
 # SDKs
 
 1. [[JAVA] How to Use the New AWS Encryption SDK to Simplify Data Encryption and Improve Application Availability by Greg Rubin](https://aws.amazon.com/blogs/security/how-to-use-the-new-aws-encryption-sdk-to-simplify-data-encryption-and-improve-application-availability/)
+
+# How to choose policies for KMS keys
+

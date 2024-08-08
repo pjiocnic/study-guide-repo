@@ -2,37 +2,49 @@
 
 <!-- TOC -->
 
-- [1. Access tiers](#1-access-tiers)
-- [2. Access Control](#2-access-control)
-- [3. Cross Account Access](#3-cross-account-access)
-- [4. Query S3](#4-query-s3)
-- [5. Pre-Signed URLs](#5-pre-signed-urls)
-- [6. Replication](#6-replication)
-- [7. Java examples](#7-java-examples)
-- [8. S3 endpoints](#8-s3-endpoints)
-- [9. Static WebSites](#9-static-websites)
-- [10. Storage Classes](#10-storage-classes)
-- [11. Tools](#11-tools)
-- [12. Uploading](#12-uploading)
-- [13. Workshops](#13-workshops)
+- [1. How to analyze if my bucket is public or not](#1-how-to-analyze-if-my-bucket-is-public-or-not)
+- [2. Access tiers](#2-access-tiers)
+- [3. Access Control](#3-access-control)
+- [4. Bucket policies](#4-bucket-policies)
+- [5. Cross Account Access](#5-cross-account-access)
+- [6. Query S3](#6-query-s3)
+- [7. Pre-Signed URLs](#7-pre-signed-urls)
+- [8. Replication](#8-replication)
+- [9. Java examples](#9-java-examples)
+- [10. S3 endpoints](#10-s3-endpoints)
+- [11. Static WebSites](#11-static-websites)
+- [12. Storage Classes](#12-storage-classes)
+- [13. Tools](#13-tools)
+- [14. Uploading](#14-uploading)
+- [15. Workshops](#15-workshops)
 
 <!-- /TOC -->
 
-# 1. Access tiers
+# 1. How to analyze if my bucket is public or not
+
+1. [Understanding Amazon S3 Block Public Access by Andrew Gacek](https://aws.amazon.com/blogs/storage/understanding-s3-block-public-access/)
+1. [How AWS uses automated reasoning to help you achieve security at scale by Andrew Gacek ](https://aws.amazon.com/blogs/security/protect-sensitive-data-in-the-cloud-with-automated-reasoning-zelkova/)
+1. Use `IAM Access Analyzer`
+
+# 2. Access tiers
 
 1. [Amazon S3 Intelligent Tiering](https://blog.awsfundamentals.com/amazon-s3-intelligent-tiering)
 
-# 2. Access Control
+# 3. Access Control
 1. [Amazon S3 Access Control - IAM Policies, Bucket Policies and ACLs](https://www.youtube.com/watch?v=xFzJw6wJ8eY&t=16s)
 
-# 3. Cross Account Access
+# 4. Bucket policies
+
+1. [IAM Policies and Bucket Policies and ACLs! Oh, My! (Controlling Access to S3 Resources) by Kai Zhao, Gautam Kumar, and Laura Verghote ](https://aws.amazon.com/blogs/security/iam-policies-and-bucket-policies-and-acls-oh-my-controlling-access-to-s3-resources/)
+
+# 5. Cross Account Access
 1. [Cross-Account Access to Amazon S3 | AWS IAM By Neil Davis](https://www.youtube.com/watch?v=HP8XSRWrFQc)
 
-# 4. Query S3
+# 6. Query S3
 
 1. [Amazon S3 Select - Querying data without servers or databases](https://catalog.us-east-1.prod.workshops.aws/workshops/c85a4d91-2b80-4155-948d-bbdc200567a6/en-US)
 
-# 5. Pre-Signed URLs
+# 7. Pre-Signed URLs
 
 1. [Using presigned URLs to identify per-requester usage of Amazon S3 by John Lee, Chance Lee, and Justin Lim](https://fourtheorem.com/the-illustrated-guide-to-s3-pre-signed-urls/)
 1. [[1ST_EXAMPLE_START_HERE] Uploading to Amazon S3 directly from a web or mobile application
@@ -47,40 +59,40 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 1. [S3 URI Parsing is now available in AWS SDK for Java 2.x by David Ho](https://aws.amazon.com/blogs/devops/s3-uri-parsing-is-now-available-in-aws-sdk-for-java-2-x/)
 1. [Using presigned URLs to identify per-requester usage of Amazon S3 by John Lee, Chance Lee, and Justin Lim](https://aws.amazon.com/blogs/storage/using-presigned-urls-to-identify-per-requester-usage-of-amazon-s3/)
 
-# 6. Replication
+# 8. Replication
 
 1. [Configuring Amazon S3 Cross-Region Replication (CRR) and Same-Region Replication (SRR) By Neil Davis](https://www.youtube.com/watch?v=trmicgGpmd4&t=6s)
 
-# 7. Java examples
+# 9. Java examples
 
 1. [Amazon S3 Developer Guide](https://github.com/alexdebrie/amazon-s3-developer-guide/tree/master/code_examples/java_examples/S3Examples)
 
-# 8. S3 endpoints
+# 10. S3 endpoints
 
 1. [See aws-privatelink.md](./aws-privatelink.md)
 1. [Secure Hybrid Access to S3 using VPC Endpoints](https://catalog.us-east-1.prod.workshops.aws/workshops/3a8d4ddf-66c5-4d26-ae6f-6292a517f46c/en-US)
 
-# 9. Static WebSites
+# 11. Static WebSites
 
 1. [Hosting Internal HTTPS Static Websites with ALB, S3, and PrivateLink by Schuyler Jager](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/)
 
 <img src="./images/Networking_NetCDNBlog-430-v2.jpg" title="Networking_NetCDNBlog-430-v2.jpg" width="900"/>
 
-# 10. Storage Classes
+# 12. Storage Classes
 
 1. [Amazon S3 Storage Classes | AWS S3](https://www.youtube.com/watch?v=EqqtzKqewaA)
 1. [Getting started using the Amazon S3 Glacier storage classes](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-glacier-storage-classes/)
 
-# 11. Tools
+# 13. Tools
 
 1. [Amazon S3 Bundler](https://github.com/jstrunk/s3bundler)
 - "Before moving Amazon DocumentDB events to S3 Glacier, you should consider bundling several events into larger objects" by using above tool
 
-# 12. Uploading
+# 14. Uploading
 
 1. [Patterns for building an API to upload files to Amazon S3 by Thomas Moore,](https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/)
 
-# 13. Workshops
+# 15. Workshops
 
 1. [START HERE](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3)
 1. [Encryption On AWS - Tutorial for S3](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3)
