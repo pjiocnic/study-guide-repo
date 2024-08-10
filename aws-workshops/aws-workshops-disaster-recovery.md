@@ -2,3 +2,4 @@
 
 1. [Disaster Recovery on AWS](https://disaster-recovery.workshop.aws/en/prereqs.html)
 - https://github.com/aws-samples/disaster-recovery-workshop
+1. [Disaster Recovery with Amazon Route 53 Application Recovery Controller (ARC)](https://catalog.us-east-1.prod.workshops.aws/workshops/4d9ab448-5083-4db7-bee8-85b58cd53158/en-US)

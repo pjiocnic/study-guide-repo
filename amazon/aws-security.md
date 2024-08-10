@@ -6,3 +6,4 @@
 # How to prevent DDos attacks using WAF and Cloudfront
 
 1. [How to Help Protect Dynamic Web Applications Against DDoS Attacks by Using Amazon CloudFront and Amazon Route 53 by Holly Willey |](https://aws.amazon.com/blogs/security/how-to-protect-dynamic-web-applications-against-ddos-attacks-by-using-amazon-cloudfront-and-amazon-route-53/#:~:text=Route%2053%20is%20also%20designed,the%20availability%20of%20the%20service.)
+

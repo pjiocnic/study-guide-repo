@@ -2,9 +2,8 @@
 
 <!-- TOC -->
 
-- [Curate](#curate)
-- [1. Anycast - How does R53 use Anycast?](#1-anycast---how-does-r53-use-anycast)
-- [2. DNS](#2-dns)
+- [1. Curate](#1-curate)
+- [2. Anycast - How does R53 use Anycast?](#2-anycast---how-does-r53-use-anycast)
 - [3. Disaster Recovery](#3-disaster-recovery)
 - [4. Hosted Zones](#4-hosted-zones)
 - [5. Multi-Region](#5-multi-region)
@@ -21,19 +20,14 @@
 
 <!-- /TOC -->
 
-# Curate
+# 1. Curate
 
 1. [A Case Study in Global Fault Isolation by Lee-Ming Zen](https://aws.amazon.com/blogs/architecture/a-case-study-in-global-fault-isolation/)
 
-# 1. Anycast - How does R53 use Anycast?
+# 2. Anycast - How does R53 use Anycast?
 
 1. [Low-Latency DNS Resolution via AWS Route 53 and Anycast](https://www.bizety.com/2016/09/22/aws-route-53-anycast/)
 1. [[VISIT] A Case Study in Global Fault Isolation by Lee-Ming Zen](https://aws.amazon.com/blogs/architecture/a-case-study-in-global-fault-isolation/)
-
-# 2. DNS
-
-Bring `my-github/study-guide-repo/amazon/aws-networking-dns.md` here or classify as `amazon-route53-DNS.md`
-[DNS best practices for Amazon Route 53 by Renato Gentil and Scott Morrison](https://aws.amazon.com/blogs/networking-and-content-delivery/dns-best-practices-for-amazon-route-53/)
 
 # 3. Disaster Recovery
 

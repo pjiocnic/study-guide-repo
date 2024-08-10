@@ -7,7 +7,7 @@
 
 1. [Accelerate and protect your websites using Amazon CloudFront and AWS WAF by Achraf Souk and Cristian Graziano](https://aws.amazon.com/blogs/networking-and-content-delivery/accelerate-and-protect-your-websites-using-amazon-cloudfront-and-aws-waf/)
 
-# 2. QuickStart
+# 2. Getting Started
 
 1. [](https://aws.amazon.com/cloudfront/getting-started/)
 
@@ -19,3 +19,8 @@
 # 3. Workshop
 
 1. [Improve Your Architecture With Amazon CloudFront](https://catalog.us-east-1.prod.workshops.aws/workshops/4557215e-2a5c-4522-a69b-8d058aba088c/en-US/performance/dynamic-contents)
+
+# Cloudfront extensions
+
+1. [Amazon CloudFront Extensions](https://awslabs.github.io/aws-cloudfront-extensions/workshop/)
+1. [CloudFront Extensions](https://awslabs.github.io/aws-cloudfront-extensions/en/)
