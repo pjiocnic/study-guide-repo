@@ -1,4 +1,4 @@
-<h1>S3 Backlog</H1>
+<h1>[RECATEGORIZE] Amazon S3</H1>
 
 <!-- TOC -->
 
@@ -12,12 +12,11 @@
 - [8. Replication](#8-replication)
 - [9. Java examples](#9-java-examples)
 - [10. S3 endpoints](#10-s3-endpoints)
-- [11. Static WebSites](#11-static-websites)
-- [12. Storage Classes](#12-storage-classes)
-- [13. Tools](#13-tools)
-- [14. Uploading](#14-uploading)
-- [15. Workshops](#15-workshops)
-- [Static websites](#static-websites)
+- [11. Storage Classes](#11-storage-classes)
+- [12. Tools](#12-tools)
+- [13. Uploading](#13-uploading)
+- [14. Workshops](#14-workshops)
+- [15. Static websites](#15-static-websites)
 
 <!-- /TOC -->
 
@@ -73,27 +72,22 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 1. [See aws-privatelink.md](./aws-privatelink.md)
 1. [Secure Hybrid Access to S3 using VPC Endpoints](https://catalog.us-east-1.prod.workshops.aws/workshops/3a8d4ddf-66c5-4d26-ae6f-6292a517f46c/en-US)
 
-# 11. Static WebSites
 
-1. [Hosting Internal HTTPS Static Websites with ALB, S3, and PrivateLink by Schuyler Jager](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/)
-
-<img src="./images/Networking_NetCDNBlog-430-v2.jpg" title="Networking_NetCDNBlog-430-v2.jpg" width="900"/>
-
-# 12. Storage Classes
+# 11. Storage Classes
 
 1. [Amazon S3 Storage Classes | AWS S3](https://www.youtube.com/watch?v=EqqtzKqewaA)
 1. [Getting started using the Amazon S3 Glacier storage classes](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-glacier-storage-classes/)
 
-# 13. Tools
+# 12. Tools
 
 1. [Amazon S3 Bundler](https://github.com/jstrunk/s3bundler)
 - "Before moving Amazon DocumentDB events to S3 Glacier, you should consider bundling several events into larger objects" by using above tool
 
-# 14. Uploading
+# 13. Uploading
 
 1. [Patterns for building an API to upload files to Amazon S3 by Thomas Moore,](https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/)
 
-# 15. Workshops
+# 14. Workshops
 
 1. [START HERE](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3)
 1. [Encryption On AWS - Tutorial for S3](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3)
@@ -106,8 +100,9 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 1. [Applying Attribute Based Access Control in AWS - Workshop](https://catalog.workshops.aws/applying-abac/en-US)
 1. [Finding And Remediating Misconfigurations in S3](https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating/6001_s3_bucket.html)
 
-# Static websites
+# 15. Static websites
 
+1. [[**BASICS**] AWS Certified Solutions Architect - Associate (SAA-C03) > [SHAREDALL] [Demo] Creating a static website with S3](https://learn.cantrill.io/courses/1820301/lectures/41301471)
 1. [Hosting Internal HTTPS Static Websites with ALB, S3, and PrivateLink by Schuyler Jager](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/)
 1. [Serverless Static Website With Basic Authentication](https://github.com/dumrauf/serverless_static_website_with_basic_auth)
 1. [Restrict access to an Amazon Simple Storage Service origin](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html)
