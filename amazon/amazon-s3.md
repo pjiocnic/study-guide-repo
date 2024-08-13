@@ -17,6 +17,7 @@
 - [13. Tools](#13-tools)
 - [14. Uploading](#14-uploading)
 - [15. Workshops](#15-workshops)
+- [Static websites](#static-websites)
 
 <!-- /TOC -->
 
@@ -105,4 +106,22 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 1. [Applying Attribute Based Access Control in AWS - Workshop](https://catalog.workshops.aws/applying-abac/en-US)
 1. [Finding And Remediating Misconfigurations in S3](https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating/6001_s3_bucket.html)
 
+# Static websites
 
+1. [Hosting Internal HTTPS Static Websites with ALB, S3, and PrivateLink by Schuyler Jager](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/)
+1. [Serverless Static Website With Basic Authentication](https://github.com/dumrauf/serverless_static_website_with_basic_auth)
+1. [Restrict access to an Amazon Simple Storage Service origin](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html)
+1. [Authorization@Edge – How to Use Lambda@Edge and JSON Web Tokens to Enhance Web Application Security by Alex Tomic and Cameron Worrell](https://aws.amazon.com/blogs/networking-and-content-delivery/authorizationedge-how-to-use-lambdaedge-and-json-web-tokens-to-enhance-web-application-security/)
+
+
+    <img src="./images/s3+cognito.png" title="s3+cognito.png" width="900"/>
+
+    1. The viewer’s web browser is redirected to Amazon Cognito custom UI page to sign up and authenticate.
+    2. After authentication, Cognito generates and cryptographically signs a JWT then responds with a redirect containing the JWT embedded in the URL.
+    3. The viewer’s web browser extracts JWT from the URL and makes a request to private content (private/* path), adding Authorization request header with JWT.
+    4. Amazon CloudFront routes the request to the nearest AWS edge location. The CloudFront distribution’s private behavior is configured to launch a Lambda@Edge function on ViewerRequest event.
+    5. Lambda@Edge decodes the JWT and checks if the user belongs to the correct Cognito User Pool. It also verifies the cryptographic signature using the public RSA key for Cognito User Pool. Crypto verification ensures that JWT was created by the trusted party.
+    6. After passing all of the verification steps, Lambda@Edge strips out the Authorization header and allows the request to pass through to designated origin for CloudFront. In this case, the origin is the private content Amazon S3 bucket.
+    7. After receiving response from the origin S3 bucket, a JSON file in this example, CloudFront sends the response back to the browser. The browser displays the data from the returned JSON file.
+
+    [CFN Template](./templates/edge-auth.template)
