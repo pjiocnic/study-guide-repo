@@ -24,4 +24,5 @@ See my-github/study-guide-repo/aws-workshops/aws-workshops-control-tower.md
 
 # Decommisioning
 
-https://docs.aws.amazon.com/controltower/latest/userguide/decommission-landing-zone.html
+1. [Walkthrough: Decommission an AWS Control Tower Landing Zone](https://docs.aws.amazon.com/controltower/latest/userguide/decommission-landing-zone.html)
+1. [Unmanage an account](https://docs.aws.amazon.com/controltower/latest/userguide/unmanage-account.html)

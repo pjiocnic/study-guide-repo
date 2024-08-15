@@ -49,3 +49,9 @@ SSE-S3 / SSE-KMS / SSE-C / Client-side encryption
     - Server-side encryption  - SSE-KMS
     - Server-side encryption - SSE-C
     - Client-side encryption
+
+# Retroactive encryption
+
+Bucket encryption happens by default since Jan, 2023. But for buckets before that need to convert.
+
+[How to retroactively encrypt existing objects in Amazon S3 using S3 Inventory, Amazon Athena, and S3 Batch Operations by Adam Kozdrowicz](https://aws.amazon.com/blogs/security/how-to-retroactively-encrypt-existing-objects-in-amazon-s3-using-s3-inventory-amazon-athena-and-s3-batch-operations/)

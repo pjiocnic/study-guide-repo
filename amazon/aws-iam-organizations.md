@@ -15,6 +15,8 @@
 - [7. QuickStarts](#7-quickstarts)
 - [8. Multiple accounts](#8-multiple-accounts)
 - [9. Route 53](#9-route-53)
+- [Closing Member Accounts (aka legacy accounts)](#closing-member-accounts-aka-legacy-accounts)
+- [Tagging accounts in an Organization](#tagging-accounts-in-an-organization)
 
 <!-- /TOC -->
 
@@ -84,7 +86,14 @@ See my-github/study-guide-repo/amazon/aws-iac-cloudformation.md#StackSets
 3. [Multi-account strategy for small and medium businesses by Alex Torres and Siddhesh Jog](https://aws.amazon.com/blogs/mt/multi-account-strategy-for-small-and-medium-businesses/)
 
 # 9. Route 53
+
 1. [How to manage Route53 hosted zones in a multi-account environment](https://theburningmonk.com/2021/05/how-to-manage-route53-hosted-zones-in-a-multi-account-environment/)
 
+# Closing Member Accounts (aka legacy accounts)
+
+1. [AWS Organizations now provides a simple, scalable and more secure way to close your member accounts by Eric Peña](https://aws.amazon.com/blogs/mt/aws-organizations-now-provides-a-simple-scalable-and-more-secure-way-to-close-your-member-accounts/)
 
 
+# Tagging accounts in an Organization
+
+1. [Simplifying permissions management at scale using tags in AWS Organizations by Eric Peña ](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)

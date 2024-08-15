@@ -23,8 +23,12 @@
 - [15. Workshops](#15-workshops)
 - [16. Static websites](#16-static-websites)
 - [17. Object versioning](#17-object-versioning)
-- [Difference checker](#difference-checker)
-- [S3 Object Lambda](#s3-object-lambda)
+  - [17.1. Lifecycle management for versioned objects](#171-lifecycle-management-for-versioned-objects)
+- [18. Checking for non-compliant buckets using config Rules](#18-checking-for-non-compliant-buckets-using-config-rules)
+- [19. Difference checker](#19-difference-checker)
+- [20. S3 Object Lambda](#20-s3-object-lambda)
+- [21. Restricting bucket access](#21-restricting-bucket-access)
+- [22. Lifecycle](#22-lifecycle)
 
 <!-- /TOC -->
 
@@ -87,111 +91,46 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 # 10. Java examples
 
 1. [Amazon S3 Developer Guide](https://github.com/alexdebrie/amazon-s3-developer-guide/tree/master/code_examples/java_examples/S3Examples)
-CORS.java
-CopyObjectSingleOperation.java
-CreateBucket.java
-CreateBucketWithACL.java
-CrossRegionReplication.java
-DeleteBucket.java
-DeleteMultipleObjectsNonVersionedBucket.java
-DeleteMultipleObjectsVersionEnabledBucket.java
-DeleteObjectNonVersionedBucket.java
-
-
-
-DeleteObjectVersionEnabledBucket.java
-Adding license text to Java code samples
-6 years ago
-DualStackEndpoints.java
-Adding license text to Java code samples
-6 years ago
-EnableNotificationOnABucket.java
-Adding license text to Java code samples
-6 years ago
-GeneratePresignedURL.java
-Adding license text to Java code samples
-6 years ago
-GeneratePresignedUrlAndUploadObject.java
-Adding license text to Java code samples
-6 years ago
-GetObject.java
-Adding license text to Java code samples
-6 years ago
-HighLevelAbortMultipartUpload.java
-Adding license text to Java code samples
-6 years ago
-HighLevelMultipartUpload.java
-Adding license text to Java code samples
-6 years ago
-HighLevelTrackMultipartUpload.java
-Adding license text to Java code samples
-6 years ago
-LifecycleConfiguration.java
-Adding license text to Java code samples
-6 years ago
-ListKeys.java
-Adding license text to Java code samples
-6 years ago
-ListKeysVersioningEnabledBucket.java
-Adding license text to Java code samples
-6 years ago
-ListMultipartUploads.java
-Adding license text to Java code samples
-6 years ago
-LowLevelAbortMultipartUpload.java
-Adding license text to Java code samples
-6 years ago
-LowLevelMultipartCopy.java
-Adding license text to Java code samples
-6 years ago
-LowLevelMultipartUpload.java
-Adding license text to Java code samples
-6 years ago
-MakingRequests.java
-Adding license text to Java code samples
-6 years ago
-MakingRequestsWithFederatedTempCredentials.java
-Adding license text to Java code samples
-6 years ago
-MakingRequestsWithIAMTempCredentials.java
-Adding license text to Java code samples
-6 years ago
-ManagingObjectTags.java
-Adding license text to Java code samples
-6 years ago
-ModifyACLExistingObject.java
-Adding license text to Java code samples
-6 years ago
-RestoreArchivedObject.java
-Adding license text to Java code samples
-6 years ago
-S3ClientSideEncryptionAsymmetricMasterKey.java
-Adding license text to Java code samples
-6 years ago
-S3ClientSideEncryptionSymMasterKey.java
-Adding license text to Java code samples
-6 years ago
-ServerSideEncryptionCopyObjectUsingHLwithSSEC.java
-Adding license text to Java code samples
-6 years ago
-ServerSideEncryptionUsingClientSideEncryptionKey.java
-Adding license text to Java code samples
-6 years ago
-SpecifyServerSideEncryption.java
-Adding license text to Java code samples
-6 years ago
-TransferAcceleration.java
-Adding license text to Java code samples
-6 years ago
-UploadObject.java
-use the correct media type for generic plain text
-5 years ago
-UploadObjectKMSKey.java
-Adding license text to Java code samples
-6 years ago
-WebsiteConfiguration.java
-Adding license text to Java code samples
-6 years ago
+    * CORS.java
+    * CopyObjectSingleOperation.java
+    * CreateBucket.java
+    * CreateBucketWithACL.java
+    * CrossRegionReplication.java
+    * DeleteBucket.java
+    * DeleteMultipleObjectsNonVersionedBucket.java
+    * DeleteMultipleObjectsVersionEnabledBucket.java
+    * DeleteObjectNonVersionedBucket.java
+    * DeleteObjectVersionEnabledBucket.java
+    * DualStackEndpoints.java
+    * EnableNotificationOnABucket.java
+    * GeneratePresignedURL.java
+    * GeneratePresignedUrlAndUploadObject.java
+    * GetObject.java
+    * HighLevelAbortMultipartUpload.java
+    * HighLevelMultipartUpload.java
+    * HighLevelTrackMultipartUpload.java
+    * LifecycleConfiguration.java
+    * ListKeys.java
+    * ListKeysVersioningEnabledBucket.java
+    * ListMultipartUploads.java
+    * LowLevelAbortMultipartUpload.java
+    * LowLevelMultipartCopy.java
+    * LowLevelMultipartUpload.java
+    * MakingRequests.java
+    * MakingRequestsWithFederatedTempCredentials.java
+    * MakingRequestsWithIAMTempCredentials.java
+    * ManagingObjectTags.java
+    * ModifyACLExistingObject.java
+    * RestoreArchivedObject.java
+    * S3ClientSideEncryptionAsymmetricMasterKey.java
+    * S3ClientSideEncryptionSymMasterKey.java
+    * ServerSideEncryptionCopyObjectUsingHLwithSSEC.java
+    * ServerSideEncryptionUsingClientSideEncryptionKey.java
+    * SpecifyServerSideEncryption.java
+    * TransferAcceleration.java
+    * UploadObject.java
+    * UploadObjectKMSKey.java
+    * WebsiteConfiguration.java
 
 # 11. S3 endpoints
 
@@ -200,8 +139,11 @@ Adding license text to Java code samples
 
 # 12. Storage Classes
 
+1. [Amazon S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
 1. [Amazon S3 Storage Classes | AWS S3](https://www.youtube.com/watch?v=EqqtzKqewaA)
 1. [Getting started using the Amazon S3 Glacier storage classes](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-glacier-storage-classes/)
+1. [[TWITCH] Talks about storage classes and pricing](https://www.twitch.tv/videos/2224938553)
+1. [Optimize storage costs by analyzing API operations on Amazon S3 by Manish Singh](https://aws.amazon.com/blogs/storage/optimize-storage-costs-by-analyzing-api-operations-on-amazon-s3/)
 
 ## 12.1. Intelligent Tiering
 
@@ -210,6 +152,7 @@ Adding license text to Java code samples
 ## 12.2. Glacier
 
 1. [[**LAB**] Getting started using the Amazon S3 Glacier storage classes](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-glacier-storage-classes)
+1. [Identify cold objects for archiving to Amazon S3 Glacier storage classes by Archana Srinivasan and Arun Kumar SR](https://aws.amazon.com/blogs/storage/identify-cold-objects-for-archiving-to-amazon-s3-glacier-storage-classes/)
 
 ### 12.2.1. deletion in Glacier
 
@@ -262,10 +205,26 @@ Adding license text to Java code samples
 
 1. [New Feature: Amazon S3 now supports Object Versioning by Jeff Barr ](https://aws.amazon.com/blogs/aws/amazon-s3-enhancement-versioning/)
 
-# Difference checker
+## 17.1. Lifecycle management for versioned objects
+
+1. [Amazon S3 Lifecycle Management for Versioned Objects by Jeff Barr ](https://aws.amazon.com/blogs/aws/amazon-s3-lifecycle-management-update/)
+
+# 18. Checking for non-compliant buckets using config Rules
+
+[Automate Amazon S3 Versioning using AWS Config rules by Sonakshi Pandey and Nisha Nadkarni](https://aws.amazon.com/blogs/storage/automate-amazon-s3-versioning-using-aws-config-rules/)
+
+# 19. Difference checker
 
 1. [Building a difference checker with Amazon S3 and AWS Lambda by James Beswick](https://aws.amazon.com/blogs/compute/building-a-difference-checker-with-amazon-s3-and-aws-lambda/)
 
-# S3 Object Lambda
+# 20. S3 Object Lambda
 
 1. [Protect PII using Amazon S3 Object Lambda to process and modify data during retrieval](https://aws.amazon.com/blogs/machine-learning/protect-pii-using-amazon-s3-object-lambda-to-process-and-modify-data-during-retrieval/)
+
+# 21. Restricting bucket access
+
+1. [[**MUST_SEE**] How to restrict Amazon S3 bucket access to a specific IAM role by Chris Craig](https://aws.amazon.com/blogs/security/how-to-restrict-amazon-s3-bucket-access-to-a-specific-iam-role/)
+
+# 22. Lifecycle
+
+1. [AWS re:Invent 2021 - Amazon S3 Lifecycle best practices to optimize your storage spend](https://www.youtube.com/watch?v=yGNXn7jOytA)
