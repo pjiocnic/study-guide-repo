@@ -17,3 +17,8 @@
 # Networking
 
 [One to Many: Evolving VPC Design by Androski Spicer ](https://aws.amazon.com/blogs/architecture/one-to-many-evolving-vpc-design/)
+
+# S3
+
+1. [Building a difference checker with Amazon S3 and AWS Lambda by James Beswick](https://aws.amazon.com/blogs/compute/building-a-difference-checker-with-amazon-s3-and-aws-lambda/)
+1. [Authorization@Edge – How to Use Lambda@Edge and JSON Web Tokens to Enhance Web Application Security by Alex Tomic and Cameron Worrell](https://aws.amazon.com/blogs/networking-and-content-delivery/authorizationedge-how-to-use-lambdaedge-and-json-web-tokens-to-enhance-web-application-security/)

@@ -34,3 +34,16 @@ Read this article and execute samples - `/Volumes/Lexar/git-repos/aws-repo/my-gi
       }
   }
 ```
+
+# Control Twoer
+
+Inviting an existing account
+- existing account already has iamadmin
+- create role OrganizationAccountAccessRole with AdministratorAccess policy
+
+Creating a new account
+- AWS organizations will automatically create OrganizationAccountAccessRole in the account
+- see https://repost.aws/knowledge-center/organizations-member-account-access
+
+# decommissioning
+https://docs.aws.amazon.com/controltower/latest/userguide/decommission-landing-zone.html

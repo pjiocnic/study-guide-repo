@@ -5,6 +5,7 @@
 - [Account Factory](#account-factory)
 - [1. Workshop](#1-workshop)
 - [2. Samples](#2-samples)
+- [Decommisioning](#decommisioning)
 
 <!-- /TOC -->
 
@@ -21,3 +22,6 @@ See my-github/study-guide-repo/aws-workshops/aws-workshops-control-tower.md
 
 1. [Sample CloudFormation templates and architecture for AWS Control Tower](https://github.com/aws-samples/aws-control-tower-reference-architectures/tree/master)
 
+# Decommisioning
+
+https://docs.aws.amazon.com/controltower/latest/userguide/decommission-landing-zone.html

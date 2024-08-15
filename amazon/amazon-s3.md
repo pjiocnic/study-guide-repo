@@ -5,18 +5,26 @@
 - [1. How to analyze if my bucket is public or not](#1-how-to-analyze-if-my-bucket-is-public-or-not)
 - [2. Access tiers](#2-access-tiers)
 - [3. Access Control](#3-access-control)
-- [4. Bucket policies](#4-bucket-policies)
-- [5. Cross Account Access](#5-cross-account-access)
-- [6. Query S3](#6-query-s3)
-- [7. Pre-Signed URLs](#7-pre-signed-urls)
-- [8. Replication](#8-replication)
-- [9. Java examples](#9-java-examples)
-- [10. S3 endpoints](#10-s3-endpoints)
-- [11. Storage Classes](#11-storage-classes)
-- [12. Tools](#12-tools)
-- [13. Uploading](#13-uploading)
-- [14. Workshops](#14-workshops)
-- [15. Static websites](#15-static-websites)
+- [4. Object deletion](#4-object-deletion)
+  - [4.1. Delete Markers](#41-delete-markers)
+- [5. Bucket policies](#5-bucket-policies)
+- [6. Cross Account Access](#6-cross-account-access)
+- [7. Query S3](#7-query-s3)
+- [8. Pre-Signed URLs](#8-pre-signed-urls)
+- [9. Replication](#9-replication)
+- [10. Java examples](#10-java-examples)
+- [11. S3 endpoints](#11-s3-endpoints)
+- [12. Storage Classes](#12-storage-classes)
+  - [12.1. Intelligent Tiering](#121-intelligent-tiering)
+  - [12.2. Glacier](#122-glacier)
+    - [12.2.1. deletion in Glacier](#1221-deletion-in-glacier)
+- [13. Tools](#13-tools)
+- [14. Uploading](#14-uploading)
+- [15. Workshops](#15-workshops)
+- [16. Static websites](#16-static-websites)
+- [17. Object versioning](#17-object-versioning)
+- [Difference checker](#difference-checker)
+- [S3 Object Lambda](#s3-object-lambda)
 
 <!-- /TOC -->
 
@@ -33,18 +41,31 @@
 # 3. Access Control
 1. [Amazon S3 Access Control - IAM Policies, Bucket Policies and ACLs](https://www.youtube.com/watch?v=xFzJw6wJ8eY&t=16s)
 
-# 4. Bucket policies
+# 4. Object deletion
+
+1. [Protect Data on Amazon S3 Against Accidental Deletion or Application Bugs Using S3 Versioning, S3 Object Lock, and S3 Replicatio](https://aws.amazon.com/getting-started/hands-on/protect-data-on-amazon-s3/)
+1. [Step-By-Step: Emptying S3 Buckets and Directories Using the AWS CLI with S3 RM](https://blog.awsfundamentals.com/aws-s3-rm-removing-files)
+1. [How to delete using Java](https://docs.aws.amazon.com/AmazonS3/latest/userguide/delete-objects.html)
+- Example 1: Deleting an object (non-versioned bucket)
+- Example 2: Deleting an object (versioned bucket)
+
+## 4.1. Delete Markers
+
+1. [Managing delete markers Using Python](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ManagingDelMarkers.html)
+1. [How to delete the objects in S3 bucket if versioning is enabled? by Ekant Mate ](https://aws.plainenglish.io/how-to-delete-the-objects-in-s3-bucket-if-versioning-is-enabled-fbcf271ff2d8)
+
+# 5. Bucket policies
 
 1. [IAM Policies and Bucket Policies and ACLs! Oh, My! (Controlling Access to S3 Resources) by Kai Zhao, Gautam Kumar, and Laura Verghote ](https://aws.amazon.com/blogs/security/iam-policies-and-bucket-policies-and-acls-oh-my-controlling-access-to-s3-resources/)
 
-# 5. Cross Account Access
+# 6. Cross Account Access
 1. [Cross-Account Access to Amazon S3 | AWS IAM By Neil Davis](https://www.youtube.com/watch?v=HP8XSRWrFQc)
 
-# 6. Query S3
+# 7. Query S3
 
 1. [Amazon S3 Select - Querying data without servers or databases](https://catalog.us-east-1.prod.workshops.aws/workshops/c85a4d91-2b80-4155-948d-bbdc200567a6/en-US)
 
-# 7. Pre-Signed URLs
+# 8. Pre-Signed URLs
 
 1. [Using presigned URLs to identify per-requester usage of Amazon S3 by John Lee, Chance Lee, and Justin Lim](https://fourtheorem.com/the-illustrated-guide-to-s3-pre-signed-urls/)
 1. [[1ST_EXAMPLE_START_HERE] Uploading to Amazon S3 directly from a web or mobile application
@@ -59,35 +80,151 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 1. [S3 URI Parsing is now available in AWS SDK for Java 2.x by David Ho](https://aws.amazon.com/blogs/devops/s3-uri-parsing-is-now-available-in-aws-sdk-for-java-2-x/)
 1. [Using presigned URLs to identify per-requester usage of Amazon S3 by John Lee, Chance Lee, and Justin Lim](https://aws.amazon.com/blogs/storage/using-presigned-urls-to-identify-per-requester-usage-of-amazon-s3/)
 
-# 8. Replication
+# 9. Replication
 
 1. [Configuring Amazon S3 Cross-Region Replication (CRR) and Same-Region Replication (SRR) By Neil Davis](https://www.youtube.com/watch?v=trmicgGpmd4&t=6s)
 
-# 9. Java examples
+# 10. Java examples
 
 1. [Amazon S3 Developer Guide](https://github.com/alexdebrie/amazon-s3-developer-guide/tree/master/code_examples/java_examples/S3Examples)
+CORS.java
+CopyObjectSingleOperation.java
+CreateBucket.java
+CreateBucketWithACL.java
+CrossRegionReplication.java
+DeleteBucket.java
+DeleteMultipleObjectsNonVersionedBucket.java
+DeleteMultipleObjectsVersionEnabledBucket.java
+DeleteObjectNonVersionedBucket.java
 
-# 10. S3 endpoints
+
+
+DeleteObjectVersionEnabledBucket.java
+Adding license text to Java code samples
+6 years ago
+DualStackEndpoints.java
+Adding license text to Java code samples
+6 years ago
+EnableNotificationOnABucket.java
+Adding license text to Java code samples
+6 years ago
+GeneratePresignedURL.java
+Adding license text to Java code samples
+6 years ago
+GeneratePresignedUrlAndUploadObject.java
+Adding license text to Java code samples
+6 years ago
+GetObject.java
+Adding license text to Java code samples
+6 years ago
+HighLevelAbortMultipartUpload.java
+Adding license text to Java code samples
+6 years ago
+HighLevelMultipartUpload.java
+Adding license text to Java code samples
+6 years ago
+HighLevelTrackMultipartUpload.java
+Adding license text to Java code samples
+6 years ago
+LifecycleConfiguration.java
+Adding license text to Java code samples
+6 years ago
+ListKeys.java
+Adding license text to Java code samples
+6 years ago
+ListKeysVersioningEnabledBucket.java
+Adding license text to Java code samples
+6 years ago
+ListMultipartUploads.java
+Adding license text to Java code samples
+6 years ago
+LowLevelAbortMultipartUpload.java
+Adding license text to Java code samples
+6 years ago
+LowLevelMultipartCopy.java
+Adding license text to Java code samples
+6 years ago
+LowLevelMultipartUpload.java
+Adding license text to Java code samples
+6 years ago
+MakingRequests.java
+Adding license text to Java code samples
+6 years ago
+MakingRequestsWithFederatedTempCredentials.java
+Adding license text to Java code samples
+6 years ago
+MakingRequestsWithIAMTempCredentials.java
+Adding license text to Java code samples
+6 years ago
+ManagingObjectTags.java
+Adding license text to Java code samples
+6 years ago
+ModifyACLExistingObject.java
+Adding license text to Java code samples
+6 years ago
+RestoreArchivedObject.java
+Adding license text to Java code samples
+6 years ago
+S3ClientSideEncryptionAsymmetricMasterKey.java
+Adding license text to Java code samples
+6 years ago
+S3ClientSideEncryptionSymMasterKey.java
+Adding license text to Java code samples
+6 years ago
+ServerSideEncryptionCopyObjectUsingHLwithSSEC.java
+Adding license text to Java code samples
+6 years ago
+ServerSideEncryptionUsingClientSideEncryptionKey.java
+Adding license text to Java code samples
+6 years ago
+SpecifyServerSideEncryption.java
+Adding license text to Java code samples
+6 years ago
+TransferAcceleration.java
+Adding license text to Java code samples
+6 years ago
+UploadObject.java
+use the correct media type for generic plain text
+5 years ago
+UploadObjectKMSKey.java
+Adding license text to Java code samples
+6 years ago
+WebsiteConfiguration.java
+Adding license text to Java code samples
+6 years ago
+
+# 11. S3 endpoints
 
 1. [See aws-privatelink.md](./aws-privatelink.md)
 1. [Secure Hybrid Access to S3 using VPC Endpoints](https://catalog.us-east-1.prod.workshops.aws/workshops/3a8d4ddf-66c5-4d26-ae6f-6292a517f46c/en-US)
 
-
-# 11. Storage Classes
+# 12. Storage Classes
 
 1. [Amazon S3 Storage Classes | AWS S3](https://www.youtube.com/watch?v=EqqtzKqewaA)
 1. [Getting started using the Amazon S3 Glacier storage classes](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-glacier-storage-classes/)
 
-# 12. Tools
+## 12.1. Intelligent Tiering
+
+1. [[**LAB**] Protect Data on Amazon S3 Against Accidental Deletion or Application Bugs Using S3 Versioning, S3 Object Lock, and S3 Replicatio](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-intelligent-tiering/)
+
+## 12.2. Glacier
+
+1. [[**LAB**] Getting started using the Amazon S3 Glacier storage classes](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-glacier-storage-classes)
+
+### 12.2.1. deletion in Glacier
+
+1. [Guidance for Automated Deletion of Vault Archives in Amazon S3 Glacier](https://aws.amazon.com/solutions/guidance/automated-deletion-of-vault-archives-in-amazon-s3-glacier/)
+
+# 13. Tools
 
 1. [Amazon S3 Bundler](https://github.com/jstrunk/s3bundler)
 - "Before moving Amazon DocumentDB events to S3 Glacier, you should consider bundling several events into larger objects" by using above tool
 
-# 13. Uploading
+# 14. Uploading
 
 1. [Patterns for building an API to upload files to Amazon S3 by Thomas Moore,](https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/)
 
-# 14. Workshops
+# 15. Workshops
 
 1. [START HERE](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3)
 1. [Encryption On AWS - Tutorial for S3](https://catalog.us-east-1.prod.workshops.aws/workshops/aad9ff1e-b607-45bc-893f-121ea5224f24/en-US/s3)
@@ -100,7 +237,7 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 1. [Applying Attribute Based Access Control in AWS - Workshop](https://catalog.workshops.aws/applying-abac/en-US)
 1. [Finding And Remediating Misconfigurations in S3](https://trendmicro.awsworkshop.io/ee/60_finding_and_remediating/6001_s3_bucket.html)
 
-# 15. Static websites
+# 16. Static websites
 
 1. [[**BASICS**] AWS Certified Solutions Architect - Associate (SAA-C03) > [SHAREDALL] [Demo] Creating a static website with S3](https://learn.cantrill.io/courses/1820301/lectures/41301471)
 1. [Hosting Internal HTTPS Static Websites with ALB, S3, and PrivateLink by Schuyler Jager](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/)
@@ -120,3 +257,15 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
     7. After receiving response from the origin S3 bucket, a JSON file in this example, CloudFront sends the response back to the browser. The browser displays the data from the returned JSON file.
 
     [CFN Template](./templates/edge-auth.template)
+
+# 17. Object versioning
+
+1. [New Feature: Amazon S3 now supports Object Versioning by Jeff Barr ](https://aws.amazon.com/blogs/aws/amazon-s3-enhancement-versioning/)
+
+# Difference checker
+
+1. [Building a difference checker with Amazon S3 and AWS Lambda by James Beswick](https://aws.amazon.com/blogs/compute/building-a-difference-checker-with-amazon-s3-and-aws-lambda/)
+
+# S3 Object Lambda
+
+1. [Protect PII using Amazon S3 Object Lambda to process and modify data during retrieval](https://aws.amazon.com/blogs/machine-learning/protect-pii-using-amazon-s3-object-lambda-to-process-and-modify-data-during-retrieval/)
