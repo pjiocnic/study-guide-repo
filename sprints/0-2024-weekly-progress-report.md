@@ -1,5 +1,8 @@
 1. EKS + JAVA workshop
 1. EKS Immersion workshop
+1. In EKS workshop, how does the prepare script work. Also look at the cloud9 gitlab project
+1. raj's eks course
+1. waf - secuirty labs
 
 1.  Encryption in AWS
 

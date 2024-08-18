@@ -6,3 +6,7 @@
 1. [Configure fine-grained access to your resources shared using AWS Resource Access Manager by Fabian Labat and Nini Ren ](https://aws.amazon.com/blogs/security/configure-fine-grained-access-to-your-resources-shared-using-aws-resource-access-manager/)
 [Using VPC Sharing for a Cost-Effective Multi-Account Microservice Architecture by Anandprasanna Gaitonde and Mohit Malik](https://aws.amazon.com/blogs/architecture/using-vpc-sharing-for-a-cost-effective-multi-account-microservice-architecture/)
 [One to Many: Evolving VPC Design by Androski Spicer ](https://aws.amazon.com/blogs/architecture/one-to-many-evolving-vpc-design/)
+
+# Cross Account Resource Sharing
+
+1. [New AWS Resource Access Manager – Cross-Account Resource Sharing by Jeff Barr](https://aws.amazon.com/blogs/aws/new-aws-resource-access-manager-cross-account-resource-sharing/)
