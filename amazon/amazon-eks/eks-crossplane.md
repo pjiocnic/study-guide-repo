@@ -7,6 +7,9 @@
 - [3. Building infrastructure](#3-building-infrastructure)
 - [4. Crossplane](#4-crossplane)
 - [5. Crossplane Videos](#5-crossplane-videos)
+- [Gitops for crossplane](#gitops-for-crossplane)
+- [Using ArgoCD](#using-argocd)
+- [Tutorials](#tutorials)
 
 <!-- /TOC -->
 
@@ -45,3 +48,17 @@ https://medium.com/cloudnloud/crossplane-introduction-1ccd77d6aa12
 1. [[**MY-NEXT**] Deploying Lambda with EKS and Crossplane | Serverless Office Hours](https://www.youtube.com/watch?v=8CdyxX7eGkA)
 2. [Example that accompanies the video](https://github.com/awslabs/crossplane-on-eks/blob/main/examples/upbound-aws-provider/composite-resources/serverless-examples/sqs-lambda-s3/README.md)
 1. [Deploying Lambda with EKS and Crossplane | Serverless Office Hours](https://www.youtube.com/watch?v=8CdyxX7eGkA)
+
+# Gitops for crossplane
+
+1. [Part 1: Multi-Cluster GitOps using Amazon EKS, Flux, and Crossplane by Islam Mahgoub, Mike Rizzo, Nicholas Thomson, and Sheetal Joshi ](https://aws.amazon.com/blogs/containers/part-1-build-multi-cluster-gitops-using-amazon-eks-flux-cd-and-crossplane/)
+1. [Part 2: Multi-Cluster GitOps — Cluster fleet provisioning and bootstrapping by Viji Sarathy, Islam Mahgoub, Sourav Paul, and Sheetal Joshi](https://aws.amazon.com/blogs/containers/part-2-multi-cluster-gitops-cluster-fleet-provisioning-and-bootstrapping/)
+1. [Part 3: Multi-Cluster GitOps — Application onboarding by Islam Mahgoub, Mike Rizzo, Sourav Paul, and Viji Sarathy](https://aws.amazon.com/blogs/containers/part-3-multi-cluster-gitops-application-onboarding/)
+
+# Using ArgoCD
+
+1. [GitOps model for provisioning and bootstrapping Amazon EKS clusters using Crossplane and Argo CD by Viji Sarathy](https://aws.amazon.com/blogs/containers/gitops-model-for-provisioning-and-bootstrapping-amazon-eks-clusters-using-crossplane-and-argo-cd/)
+
+# Tutorials
+
+1. [Deploy a Serverless Application using Crossplane on EKS](https://aws.amazon.com/tutorials/deploy-serverless-application-using-crossplane-on-eks/)

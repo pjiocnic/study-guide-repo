@@ -3,13 +3,13 @@
 <!-- TOC -->
 
 - [1. How to analyze if my bucket is public or not](#1-how-to-analyze-if-my-bucket-is-public-or-not)
-- [2. Access tiers](#2-access-tiers)
-- [3. Access Control](#3-access-control)
-- [4. Object deletion](#4-object-deletion)
-  - [4.1. Delete Markers](#41-delete-markers)
+- [2. Bucket Policy examples](#2-bucket-policy-examples)
+- [3. Deleting objects](#3-deleting-objects)
+  - [3.1. Delete Markers](#31-delete-markers)
+- [4. Object Locks](#4-object-locks)
 - [5. Bucket policies](#5-bucket-policies)
 - [6. Cross Account Access](#6-cross-account-access)
-- [7. Query S3](#7-query-s3)
+- [7. Querying S3](#7-querying-s3)
 - [8. Pre-Signed URLs](#8-pre-signed-urls)
 - [9. Replication](#9-replication)
 - [10. Java examples](#10-java-examples)
@@ -38,14 +38,12 @@
 1. [How AWS uses automated reasoning to help you achieve security at scale by Andrew Gacek ](https://aws.amazon.com/blogs/security/protect-sensitive-data-in-the-cloud-with-automated-reasoning-zelkova/)
 1. Use `IAM Access Analyzer`
 
-# 2. Access tiers
+# 2. Bucket Policy examples
 
-1. [Amazon S3 Intelligent Tiering](https://blog.awsfundamentals.com/amazon-s3-intelligent-tiering)
-
-# 3. Access Control
+1. /Volumes/Lexar/git-repos/aws-repo/cantrill-courses/saac03-by-cantrill/course-notes/7-Simple storage service (s3)/99-Bucket policy examples.md
 1. [Amazon S3 Access Control - IAM Policies, Bucket Policies and ACLs](https://www.youtube.com/watch?v=xFzJw6wJ8eY&t=16s)
 
-# 4. Object deletion
+# 3. Deleting objects
 
 1. [Protect Data on Amazon S3 Against Accidental Deletion or Application Bugs Using S3 Versioning, S3 Object Lock, and S3 Replicatio](https://aws.amazon.com/getting-started/hands-on/protect-data-on-amazon-s3/)
 1. [Step-By-Step: Emptying S3 Buckets and Directories Using the AWS CLI with S3 RM](https://blog.awsfundamentals.com/aws-s3-rm-removing-files)
@@ -53,21 +51,27 @@
 - Example 1: Deleting an object (non-versioned bucket)
 - Example 2: Deleting an object (versioned bucket)
 
-## 4.1. Delete Markers
+## 3.1. Delete Markers
 
 1. [Managing delete markers Using Python](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ManagingDelMarkers.html)
 1. [How to delete the objects in S3 bucket if versioning is enabled? by Ekant Mate ](https://aws.plainenglish.io/how-to-delete-the-objects-in-s3-bucket-if-versioning-is-enabled-fbcf271ff2d8)
+
+# 4. Object Locks
+
+1. [Protecting data with Amazon S3 Object Lock by Ruhi Dang](https://aws.amazon.com/blogs/storage/protecting-data-with-amazon-s3-object-lock/)
 
 # 5. Bucket policies
 
 1. [IAM Policies and Bucket Policies and ACLs! Oh, My! (Controlling Access to S3 Resources) by Kai Zhao, Gautam Kumar, and Laura Verghote ](https://aws.amazon.com/blogs/security/iam-policies-and-bucket-policies-and-acls-oh-my-controlling-access-to-s3-resources/)
 
 # 6. Cross Account Access
+
 1. [Cross-Account Access to Amazon S3 | AWS IAM By Neil Davis](https://www.youtube.com/watch?v=HP8XSRWrFQc)
 
-# 7. Query S3
+# 7. Querying S3
 
 1. [Amazon S3 Select - Querying data without servers or databases](https://catalog.us-east-1.prod.workshops.aws/workshops/c85a4d91-2b80-4155-948d-bbdc200567a6/en-US)
+1. [How to optimize querying your data in Amazon S3 by Arushi Garg and Preethi Raajaratnam ](https://aws.amazon.com/blogs/storage/how-to-optimize-querying-your-data-in-amazon-s3/)
 
 # 8. Pre-Signed URLs
 
@@ -148,6 +152,7 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 ## 12.1. Intelligent Tiering
 
 1. [[**LAB**] Protect Data on Amazon S3 Against Accidental Deletion or Application Bugs Using S3 Versioning, S3 Object Lock, and S3 Replicatio](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-intelligent-tiering/)
+1. [Amazon S3 Intelligent Tiering](https://blog.awsfundamentals.com/amazon-s3-intelligent-tiering)
 
 ## 12.2. Glacier
 
@@ -211,7 +216,7 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 
 # 18. Checking for non-compliant buckets using config Rules
 
-[Automate Amazon S3 Versioning using AWS Config rules by Sonakshi Pandey and Nisha Nadkarni](https://aws.amazon.com/blogs/storage/automate-amazon-s3-versioning-using-aws-config-rules/)
+1. [Automate Amazon S3 Versioning using AWS Config rules by Sonakshi Pandey and Nisha Nadkarni](https://aws.amazon.com/blogs/storage/automate-amazon-s3-versioning-using-aws-config-rules/)
 
 # 19. Difference checker
 
@@ -224,7 +229,9 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 # 21. Restricting bucket access
 
 1. [[**MUST_SEE**] How to restrict Amazon S3 bucket access to a specific IAM role by Chris Craig](https://aws.amazon.com/blogs/security/how-to-restrict-amazon-s3-bucket-access-to-a-specific-iam-role/)
+1. Use aws-referrer to limit access from a certain service
 
 # 22. Lifecycle
 
 1. [AWS re:Invent 2021 - Amazon S3 Lifecycle best practices to optimize your storage spend](https://www.youtube.com/watch?v=yGNXn7jOytA)
+

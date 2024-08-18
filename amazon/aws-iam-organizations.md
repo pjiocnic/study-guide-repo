@@ -2,6 +2,7 @@
 
 <!-- TOC -->
 
+- [Quick Start](#quick-start)
 - [1. Curate](#1-curate)
 - [2. Getting Started](#2-getting-started)
 - [3. AWS Solutions Library](#3-aws-solutions-library)
@@ -19,6 +20,10 @@
 - [Tagging accounts in an Organization](#tagging-accounts-in-an-organization)
 
 <!-- /TOC -->
+
+# Quick Start
+
+1. [[ASSOCIATESHARED] AWS Organizations by Cantrill](https://learn.cantrill.io/courses/1820301/lectures/41301370)
 
 # 1. Curate
 
