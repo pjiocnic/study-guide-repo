@@ -11,6 +11,7 @@
 
 - [LAMBDA] AWS Lambda destinations
 - [LAMBDA] Error handling
+
 - [SNS] Simple pub/sub
 - [SNS] Message filtering
 - [SNS] Advanced message filtering

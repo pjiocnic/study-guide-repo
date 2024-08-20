@@ -1,0 +1,29 @@
+apiVersion: templates.gatekeeper.sh/v1
+kind: ConstraintTemplate
+metadata:
+  name: awsrequiredtags
+spec:
+  crd:
+    spec:
+      names:
+        kind: AwsRequiredTags
+      validation:
+        openAPIV3Schema:
+          type: object
+          properties:
+            tags:
+              type: array
+              items:
+                type: string
+  targets:
+    - target: admission.k8s.gatekeeper.sh
+      rego: |
+        package awsrequiredtags
+        
+        violation[{"msg": msg}] {
+          input.review.kind.group == "dynamodb.aws.upbound.io"
+          some i
+          required_tag := input.parameters.tags[i]
+          not input.review.object.spec.forProvider.tags[required_tag]
+          msg := sprintf("Attempting to provision a resource without the required tag '%v'", [required_tag])
+        }

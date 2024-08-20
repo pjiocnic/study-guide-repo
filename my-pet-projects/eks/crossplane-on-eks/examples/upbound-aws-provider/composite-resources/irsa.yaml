@@ -1,0 +1,9 @@
+apiVersion: awsblueprints.io/v1alpha1
+kind: IRSA
+metadata:
+  name: irsa-example
+spec:
+  serviceAccountName: irsa-example
+  resourceConfig:
+    providerConfigName: aws-provider-config
+    region: us-east-1

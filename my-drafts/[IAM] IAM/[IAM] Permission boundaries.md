@@ -2,7 +2,6 @@ TD;LR
 
 1. Difference between Resource Policy and Identity-based policy
 
-
 To grant permissions, you use **resource-based policies** (such as S3 bucket policies) or **identity-based policies** (such as **managed** or **inline** permissions policies).
 
 ## Why is this needed
@@ -38,7 +37,8 @@ To grant permissions, you use **resource-based policies** (such as S3 bucket pol
         }
       }
     },
-    {   // The central administrator can deny deletion of a permissions boundary
+    {
+      // The central administrator can deny deletion of a permissions boundary
       "Sid": "DenyPermissionsBoundaryDeletion",
       "Effect": "Deny",
       "Action": "iam:DeleteRolePermissionsBoundary",
@@ -49,7 +49,9 @@ To grant permissions, you use **resource-based policies** (such as S3 bucket pol
         }
       }
     },
-    { // The central administrator can further prevent detaching, modifying, or deleting the policy that is your permissions boundary
+    {
+      // The central administrator can further prevent detaching, modifying, or deleting
+      // the policy that is your permissions boundary
       "Sid": "DenyPolicyChange",
       "Effect": "Deny",
       "Action": [
@@ -64,5 +66,6 @@ To grant permissions, you use **resource-based policies** (such as S3 bucket pol
 }
 ```
 
-# References
-1. https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries/
+# Sources
+
+1. [When and where to use IAM permissions boundaries by Umair Rehmat](https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries/)

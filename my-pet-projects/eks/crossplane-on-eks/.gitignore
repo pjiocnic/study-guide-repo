@@ -1,0 +1,19 @@
+.idea/
+kubeconfig_*
+*.xpkg
+.DS_Store
+
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform lockfile
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+cluster-keys.json
+
+.vscode

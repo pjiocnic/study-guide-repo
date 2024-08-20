@@ -8,4 +8,5 @@ https://github.com/aws-samples/how-and-when-to-use-aws-iam-policy-blog-samples
 # TBC
 
 Deploy the pipeline template and investigate
+
 1. [Managing temporary elevated access to your AWS environment by James Greenwood, Bikash Behera, and Kevin Higgins](https://aws.amazon.com/blogs/security/managing-temporary-elevated-access-to-your-aws-environment/)
