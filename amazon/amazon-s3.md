@@ -6,6 +6,7 @@
 - [2. Bucket Policy examples](#2-bucket-policy-examples)
 - [3. Deleting objects](#3-deleting-objects)
   - [3.1. Delete Markers](#31-delete-markers)
+  - [Cros-Region Deletion](#cros-region-deletion)
 - [4. Object Locks](#4-object-locks)
 - [5. Bucket policies](#5-bucket-policies)
 - [6. Cross Account Access](#6-cross-account-access)
@@ -56,9 +57,14 @@
 1. [Managing delete markers Using Python](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ManagingDelMarkers.html)
 1. [How to delete the objects in S3 bucket if versioning is enabled? by Ekant Mate ](https://aws.plainenglish.io/how-to-delete-the-objects-in-s3-bucket-if-versioning-is-enabled-fbcf271ff2d8)
 
+## Cros-Region Deletion
+
+1. [Managing delete marker replication in Amazon S3 by Vikas Shah, Ganesh Sundaresan, and Mike Burbey](https://aws.amazon.com/blogs/storage/managing-delete-marker-replication-in-amazon-s3/)
+
 # 4. Object Locks
 
 1. [Protecting data with Amazon S3 Object Lock by Ruhi Dang](https://aws.amazon.com/blogs/storage/protecting-data-with-amazon-s3-object-lock/)
+1. [[**HANDS-ON]** Protect Data on Amazon S3 Against Accidental Deletion or Application Bugs Using S3 Versioning, S3 Object Lock, and S3 Replication](https://aws.amazon.com/getting-started/hands-on/protect-data-on-amazon-s3/?ref=gsrchandson&id=new)
 
 # 5. Bucket policies
 
@@ -91,6 +97,9 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 # 9. Replication
 
 1. [Configuring Amazon S3 Cross-Region Replication (CRR) and Same-Region Replication (SRR) By Neil Davis](https://www.youtube.com/watch?v=trmicgGpmd4&t=6s)
+1. [[_**HANDS-ON**_] Replicate Data within and between AWS Regions Using Amazon S3 Replication](https://aws.amazon.com/getting-started/hands-on/replicate-data-using-amazon-s3-replication/)
+1. [[_**HANDS-ON**_][**_BATCH_**] Replicate Existing Objects in your Amazon S3 Buckets with Amazon S3 Batch Replication]()
+1. [[**HANDS-ON]** Protect Data on Amazon S3 Against Accidental Deletion or Application Bugs Using S3 Versioning, S3 Object Lock, and S3 Replication](https://aws.amazon.com/getting-started/hands-on/protect-data-on-amazon-s3/?ref=gsrchandson&id=new)
 
 # 10. Java examples
 
@@ -151,12 +160,12 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 
 ## 12.1. Intelligent Tiering
 
-1. [[**LAB**] Protect Data on Amazon S3 Against Accidental Deletion or Application Bugs Using S3 Versioning, S3 Object Lock, and S3 Replicatio](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-intelligent-tiering/)
+1. [[**_HANDS-ON_**] Get started using Amazon S3 Intelligent-Tiering](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-intelligent-tiering/)
 1. [Amazon S3 Intelligent Tiering](https://blog.awsfundamentals.com/amazon-s3-intelligent-tiering)
 
 ## 12.2. Glacier
 
-1. [[**LAB**] Getting started using the Amazon S3 Glacier storage classes](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-glacier-storage-classes)
+1. [[**_HANDS-ON_**] Getting started using the Amazon S3 Glacier storage classes](https://aws.amazon.com/getting-started/hands-on/getting-started-using-amazon-s3-glacier-storage-classes)
 1. [Identify cold objects for archiving to Amazon S3 Glacier storage classes by Archana Srinivasan and Arun Kumar SR](https://aws.amazon.com/blogs/storage/identify-cold-objects-for-archiving-to-amazon-s3-glacier-storage-classes/)
 
 ### 12.2.1. deletion in Glacier
@@ -193,7 +202,6 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 1. [Restrict access to an Amazon Simple Storage Service origin](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html)
 1. [Authorization@Edge – How to Use Lambda@Edge and JSON Web Tokens to Enhance Web Application Security by Alex Tomic and Cameron Worrell](https://aws.amazon.com/blogs/networking-and-content-delivery/authorizationedge-how-to-use-lambdaedge-and-json-web-tokens-to-enhance-web-application-security/)
 
-
     <img src="./images/s3+cognito.png" title="s3+cognito.png" width="900"/>
 
     1. The viewer’s web browser is redirected to Amazon Cognito custom UI page to sign up and authenticate.
@@ -209,6 +217,7 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 # 17. Object versioning
 
 1. [New Feature: Amazon S3 now supports Object Versioning by Jeff Barr ](https://aws.amazon.com/blogs/aws/amazon-s3-enhancement-versioning/)
+1. [[**HANDS-ON]** Protect Data on Amazon S3 Against Accidental Deletion or Application Bugs Using S3 Versioning, S3 Object Lock, and S3 Replication](https://aws.amazon.com/getting-started/hands-on/protect-data-on-amazon-s3/?ref=gsrchandson&id=new)
 
 ## 17.1. Lifecycle management for versioned objects
 
