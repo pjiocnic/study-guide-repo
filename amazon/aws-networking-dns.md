@@ -4,6 +4,14 @@
 1. [How to centralize DNS management in a multi-account environment by Mahmoud Matouk](https://aws.amazon.com/blogs/security/how-to-centralize-dns-management-in-a-multi-account-environment/)
 1. [Simplify DNS management in a multi-account environment with Route 53 Resolver by Mahmoud Matouk](https://aws.amazon.com/blogs/security/simplify-dns-management-in-a-multiaccount-environment-with-route-53-resolver/)
 
+# DNS Best practices
+
+1. [DNS best practices for Amazon Route 53 by Renato Gentil and Scott Morrison](https://aws.amazon.com/blogs/networking-and-content-delivery/dns-best-practices-for-amazon-route-53/)
+
+# How to validate a DNS ownership?
+
+1. [Easier Certificate Validation Using DNS with AWS Certificate Manager by Todd Cignetti](https://aws.amazon.com/blogs/security/easier-certificate-validation-using-dns-with-aws-certificate-manager/)
+
 # Videos
 
 1. [Name Server Selection of DNS Caching Resolvers](https://www.youtube.com/watch?v=7AULnEEkXWI)

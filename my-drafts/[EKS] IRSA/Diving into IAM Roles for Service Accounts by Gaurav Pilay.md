@@ -466,10 +466,19 @@ The above follows this syntax
  }
 ```
 
-aws iam create-role --role-name <IAM_ROLE_NAME> --assume-role-policy-document file://trust.json --description "<IAM_ROLE_DESCRIPTION>"
-aws iam attach-role-policy --role-name <IAM_ROLE_NAME> --policy-arn arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess
-kubectl annotate sa -n <serviceAccountNamespace> <serviceAccountName> eks.amazonaws.com/role-arn=$IAM_ROLE_ARN
+```bash
+aws iam create-role \
+  --role-name <IAM_ROLE_NAME> \
+  --assume-role-policy-document file://trust.json \
+  --description "<IAM_ROLE_DESCRIPTION>"
 
+aws iam attach-role-policy \
+  --role-name <IAM_ROLE_NAME> \
+  --policy-arn arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess
+
+kubectl annotate sa \
+  -n <serviceAccountNamespace> <serviceAccountName> eks.amazonaws.com/role-arn=$IAM_ROLE_ARN
+```
 
 # Useful material to look into in conjunction
 https://medium.com/airwalk/how-a-pod-assumes-an-aws-identity-284fc6fda873
