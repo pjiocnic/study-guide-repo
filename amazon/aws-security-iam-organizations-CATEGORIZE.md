@@ -4,6 +4,7 @@
 
 - [1. Quick Start](#1-quick-start)
 - [2. Curate](#2-curate)
+- [Cost Reporting](#cost-reporting)
 - [3. Getting Started](#3-getting-started)
 - [4. AWS Solutions Library](#4-aws-solutions-library)
 - [5. Best Practices](#5-best-practices)
@@ -37,6 +38,11 @@
 1. [[Hierarchy Diagram] Organizing Your AWS Environment Using Multiple Accounts AWS Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/core-concepts.html)
 1. [Automated AWS Organization Creation Using CLI By Teri Radichel](https://medium.com/cloud-security/automated-aws-organization-creation-4d31519c4a32)
 1. [Creating and configuring an organization from console](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_tutorials_basic.html)
+
+# Cost Reporting
+
+1. [Cost Tagging and Reporting with AWS Organizations by Stephanie Gooch and Bowen Wang ](https://aws.amazon.com/blogs/aws-cloud-financial-management/cost-tagging-and-reporting-with-aws-organizations/)
+1. [Cost Reporting Based on AWS Organizations Account ID Tags by Bowen Wang](https://aws.amazon.com/blogs/aws-cloud-financial-management/cost-reporting-based-on-aws-organizations-account-id-tags/)
 
 # 3. Getting Started
 

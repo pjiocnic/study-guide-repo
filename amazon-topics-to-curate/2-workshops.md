@@ -1,0 +1,1 @@
+[How and when to use different IAM policy types](https://catalog.workshops.aws/iam-policy-types/en-US)

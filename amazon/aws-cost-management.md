@@ -1,0 +1,2 @@
+
+[Achieve Consistent Application-level Tagging for Cost Tracking in AWS by Tatiana Cooke and Srini Bala](https://aws.amazon.com/blogs/containers/achieve-consistent-application-level-tagging-for-cost-tracking-in-aws/)
