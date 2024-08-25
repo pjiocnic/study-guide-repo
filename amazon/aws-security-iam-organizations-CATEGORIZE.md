@@ -82,6 +82,7 @@ See my-github/study-guide-repo/amazon/aws-iac-cloudformation.md#StackSets
 
 1. [[BEST] Workshop AWS Account Setup > Master Account > AWS organization setup](https://workshop-aws-account-setup.fstehle.com/master-account/aws-organization/)
 1. [Multi-Account Security Governance Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/d3f60827-89f2-46a8-9be7-6e7185bd7665/en-US/2-service-guardrails/cloudtrail)
+1. [Announcing AWS Organizations: Centrally Manage Multiple AWS Accounts by Caitlyn Shim ](https://aws.amazon.com/blogs/security/announcing-aws-organizations-centrally-manage-multiple-aws-accounts/)
 
 # 9. Centralizing policy-management in an organization
 

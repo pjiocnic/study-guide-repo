@@ -10,3 +10,7 @@
 # Cross Account Resource Sharing
 
 1. [New AWS Resource Access Manager – Cross-Account Resource Sharing by Jeff Barr](https://aws.amazon.com/blogs/aws/new-aws-resource-access-manager-cross-account-resource-sharing/)
+
+# VPC Sharing
+
+1. [VPC sharing: key considerations and best practices by Evgeny Vaganov](https://aws.amazon.com/blogs/networking-and-content-delivery/vpc-sharing-key-considerations-and-best-practices/)

@@ -1,5 +1,9 @@
 
-# Shared services VPC
+# 1. Best Practices for sharing a VPC
+
+1. [VPC sharing: key considerations and best practices by Evgeny Vaganov](https://aws.amazon.com/blogs/networking-and-content-delivery/vpc-sharing-key-considerations-and-best-practices/)
+
+# 2. Shared services VPC
 
 1. [[CDK] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
 
@@ -9,6 +13,6 @@
 
   <img src="./images/shared-services-vpc.png" title="Shared Services VPC" width="900"/>
 
-# Zone Delegation
+# 3. Zone Delegation
 
 1. [[WORKSHOP] SHARED SERVICES ACCOUNT VPC](https://workshop-aws-account-setup.fstehle.com/shared-services-account/)
