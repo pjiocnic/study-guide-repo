@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: apod
-  labels:
-    kubernetes.courselabs.co: admission

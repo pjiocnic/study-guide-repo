@@ -1,1 +1,0 @@
-git clone git@github.com:simon-data/enable-bucket-key-example.git

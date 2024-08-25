@@ -1,7 +1,0 @@
-controller:
-  kind: DaemonSet
-  service: 
-    type: NodePort
-    nodePorts:
-      http: 30040
-      https: 30033

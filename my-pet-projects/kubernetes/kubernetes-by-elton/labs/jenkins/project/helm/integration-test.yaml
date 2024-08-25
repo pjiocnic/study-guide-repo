@@ -1,4 +1,0 @@
-serviceNodePort: 30029
-replicaCount: 3
-privateImageRegistry: true
-registrySecretName: registry-creds

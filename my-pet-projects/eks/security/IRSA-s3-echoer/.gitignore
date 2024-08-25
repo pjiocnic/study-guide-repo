@@ -1,4 +1,0 @@
-*.out
-.DS_Store
-/bin
-/s3-echoer-job.yaml

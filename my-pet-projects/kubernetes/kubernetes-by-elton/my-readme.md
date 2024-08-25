@@ -1,1 +1,0 @@
-https://kubernetes.courselabs.co/

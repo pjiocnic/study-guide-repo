@@ -1,1 +1,0 @@
-https://aws.amazon.com/blogs/containers/building-http-api-based-services-using-aws-fargate/

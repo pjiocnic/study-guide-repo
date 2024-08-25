@@ -1,7 +1,0 @@
-apiVersion: kubernetes.courselabs.co/v1
-kind: Student
-metadata:
-  name: edwin
-spec:
-  email: edwin@microsoft.com
-  company: Microsoft

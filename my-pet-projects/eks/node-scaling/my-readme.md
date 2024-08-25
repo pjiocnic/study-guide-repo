@@ -1,1 +1,0 @@
-PalceHolder for [Eliminate Kubernetes node scaling lag with pod priority and over-provisioning by Jayesh Vartak](https://aws.amazon.com/blogs/containers/eliminate-kubernetes-node-scaling-lag-with-pod-priority-and-over-provisioning/)

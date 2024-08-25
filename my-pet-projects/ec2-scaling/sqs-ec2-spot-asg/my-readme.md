@@ -1,1 +1,0 @@
-1. [[VISIT] Running Cost-effective queue workers with Amazon SQS and Amazon EC2 Spot Instances by Ben Peven](https://aws.amazon.com/blogs/compute/running-cost-effective-queue-workers-with-amazon-sqs-and-amazon-ec2-spot-instances/)

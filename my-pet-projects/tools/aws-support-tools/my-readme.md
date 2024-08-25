@@ -1,1 +1,0 @@
-https://repost.aws/knowledge-center/lambda-eni-find-delete

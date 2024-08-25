@@ -1,1 +1,0 @@
-https://catalog.workshops.aws/manage-cloud-resources-with-terraform/en-US
