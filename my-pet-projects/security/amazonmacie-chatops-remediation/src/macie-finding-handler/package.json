@@ -1,0 +1,18 @@
+{
+  "name": "macie-finding-handler",
+  "version": "1.0.0",
+  "description": "Handler for Amazon Macie findings",
+  "main": "macie-finding-handler.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aws-samples/amazonmacie-chatops-remediation.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikocuneo",
+  "license": "MIT-0",
+  "dependencies": {
+    "macie-rem-common": "file:../common/macie-rem-common"
+  }
+}

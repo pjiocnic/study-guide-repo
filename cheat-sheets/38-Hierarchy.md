@@ -1,5 +1,7 @@
 Sure, here's an example in Java that demonstrates how you can create a hierarchy of handlers based on an input request's token:
 
+
+```java
 import java.util.HashMap;
 import java.util.Map;
 
@@ -52,12 +54,16 @@ class HandlerC extends HandlerB {
     }
 }
 
+```
+
+```java
 // Example objects
 class ObjectA {}
 class ObjectB {}
 class ObjectC extends ObjectB {}
 
 public class HandlerExample {
+  
     private static Map<String, Handler> handlerMap = new HashMap<>();
 
     static {
@@ -81,52 +87,18 @@ public class HandlerExample {
     }
 }
 
-Copy
+```
 
-Insert at cursor
-java
-In this example, we have an abstract base class
-Handler
- and three concrete handler classes:
-HandlerA
-,
-HandlerB
-, and
-HandlerC
-. Each handler is responsible for producing a specific type of object based on the input token.
 
-The
-HandlerA
- class produces
-ObjectA
- when the token is "A",
-HandlerB
- produces
-ObjectB
- when the token is "B", and
-HandlerC
- (which extends
-HandlerB
-) produces
-ObjectC
- when the token is "C".
+In this example, we have an abstract base class Handler and three concrete handler classes: HandlerA,
+HandlerB, and HandlerC. Each handler is responsible for producing a specific type of object based on the input token.
 
-The handlers are chained together using the
-setNextHandler
- method, allowing them to delegate the request to the next handler in the chain if they cannot handle the current token.
+The HandlerA class produces ObjectA when the token is "A", HandlerB produces ObjectB when the token is "B", and HandlerC (which extends HandlerB) produces ObjectC when the token is "C".
 
-In the
-main
- method, we create instances of the handlers and store them in a
-Map
- for easy retrieval based on the first character of the token. We then retrieve the appropriate handler from the map, call its
-handleRequest
- method with the token, and print the result.
+The handlers are chained together using the setNextHandler method, allowing them to delegate the request to the next handler in the chain if they cannot handle the current token.
 
-You can modify the token in the
-main
- method to test different scenarios. For example, if you change the token to "A", the output will be
-Result: ObjectA@hashcode
-, and if you change it to "B", the output will be
+In the main method, we create instances of the handlers and store them in a Map for easy retrieval based on the first character of the token. We then retrieve the appropriate handler from the map, call its
+handleRequest method with the token, and print the result.
+
+You can modify the token in the main method to test different scenarios. For example, if you change the token to "A", the output will be Result: ObjectA@hashcode, and if you change it to "B", the output will be
 Result: ObjectB@hashcode
-.

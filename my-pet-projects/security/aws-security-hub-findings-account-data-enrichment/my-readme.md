@@ -1,0 +1,2 @@
+
+[How to enrich AWS Security Hub findings with account metadata by Siva Rajamani and Prashob Krishnan](https://aws.amazon.com/blogs/security/how-to-enrich-aws-security-hub-findings-with-account-metadata/)

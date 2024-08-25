@@ -49,6 +49,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
+      
         List<Map<String, String>> vehicles = Arrays.asList(
             new HashMap<>() {{
                 put("VIN", "1234");
