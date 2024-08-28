@@ -63,7 +63,7 @@
 
 # 5. Blue Green Deployments
 
-1. [[**CONSOLE**] How to securely publish Internet applications at scale using Application Load Balancer and AWS PrivateLink by Tom Adamski](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-securely-publish-internet-applications-at-scale-using-application-load-balancer-and-aws-privatelink/)
+1. [[**_CONSOLE_**] How to securely publish Internet applications at scale using Application Load Balancer and AWS PrivateLink by Tom Adamski](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-securely-publish-internet-applications-at-scale-using-application-load-balancer-and-aws-privatelink/)
 
     <img src="./images/endpoints-3.png" title="Blue Green Setup" width="900"/>
 

@@ -1,1 +1,0 @@
-https://auth0.com/blog/a-complete-guide-to-lombok/
