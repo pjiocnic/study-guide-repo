@@ -6,7 +6,7 @@
   - [1.1. Centralized Logging](#11-centralized-logging)
 - [2. R53](#2-r53)
 - [3. Networking](#3-networking)
-- [7. Centralized / Shared VPC](#7-centralized--shared-vpc)
+- [7. Private Links](#7-private-links)
 - [4. S3](#4-s3)
 - [5. IAM](#5-iam)
 - [6. EKS](#6-eks)
@@ -32,7 +32,10 @@
 # 3. Networking
 
 1. [One to Many: Evolving VPC Design by Androski Spicer ](https://aws.amazon.com/blogs/architecture/one-to-many-evolving-vpc-design/)
-# 7. Centralized / Shared VPC
+
+# 7. Private Links
+
+- Centralized / Shared VPC
 
 1. [[_**CDK**_] Centralize access using VPC interface endpoints to access AWS services across multiple VPCs by Chetan Agrawal](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
 
@@ -43,6 +46,10 @@
 &nbsp;
 
   <img src="./images/endpoints-2.png" title="Hub and Spoke architecture" width="900"/>
+
+1. [Building HTTP API-based services using Amazon API Gateway, AWS PrivateLink and AWS Fargate by Irshad Buchh](https://aws.amazon.com/blogs/containers/building-http-api-based-services-using-aws-fargate/)
+
+3. [Access Private applications on AWS Fargate using Amazon API Gateway PrivateLink by Mani Chandrasekaran](https://aws.amazon.com/blogs/compute/access-private-applications-on-aws-fargate-using-amazon-api-gateway-privatelink/)
 
 # 4. S3
 
@@ -64,3 +71,4 @@
 1. [DNS best practices for Amazon Route 53 by Renato Gentil and Scott Morrison](https://aws.amazon.com/blogs/networking-and-content-delivery/dns-best-practices-for-amazon-route-53/)
 
 2. [How to achieve DNS high availability with Route 53 Resolver endpoints by Kartik Bheemisetty and Randy Weinstein](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-achieve-dns-high-availability-with-route-53-resolver-endpoints/)
+

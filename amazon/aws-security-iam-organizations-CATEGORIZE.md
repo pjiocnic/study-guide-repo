@@ -14,11 +14,11 @@
   - [8.1. Using Cloudformation](#81-using-cloudformation)
   - [8.2. Using CLI](#82-using-cli)
 - [9. Centralizing policy-management in an organization](#9-centralizing-policy-management-in-an-organization)
-- [12. Multiple accounts](#12-multiple-accounts)
+- [12. Benefits of Multi-accounts](#12-benefits-of-multi-accounts)
 - [13. Centralizing Route 53 in an organization](#13-centralizing-route-53-in-an-organization)
 - [14. Closing Member Accounts (aka legacy accounts)](#14-closing-member-accounts-aka-legacy-accounts)
 - [15. Tagging accounts in an Organization](#15-tagging-accounts-in-an-organization)
-- [16. SCP Examples](#16-scp-examples)
+- [16. SCPs in Organization](#16-scps-in-organization)
 
 <!-- /TOC -->
 
@@ -86,9 +86,9 @@ See my-github/study-guide-repo/amazon/aws-iac-cloudformation.md#StackSets
 
 # 9. Centralizing policy-management in an organization
 
-1. [AWS Organizations – Policy-Based Management for Multiple AWS Accounts by Jeff Barr](https://aws.amazon.com/blogs/aws/aws-organizations-policy-based-management-for-multiple-aws-accounts/)
+1. [[COMPLETED] AWS Organizations – Policy-Based Management for Multiple AWS Accounts by Jeff Barr](https://aws.amazon.com/blogs/aws/aws-organizations-policy-based-management-for-multiple-aws-accounts/)
 
-# 12. Multiple accounts
+# 12. Benefits of Multi-accounts
 
 1. [How to use multiple AWS accounts for managing quotas by James Beswick](https://aws.amazon.com/blogs/compute/operating-lambda-application-design-and-service-quotas-part-1/)
 2. [[Whitepaper] Organizing Your AWS Environment Using Multiple Accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html)
@@ -98,8 +98,14 @@ See my-github/study-guide-repo/amazon/aws-iac-cloudformation.md#StackSets
 
 1. [How to manage Route53 hosted zones in a multi-account environment](https://theburningmonk.com/2021/05/how-to-manage-route53-hosted-zones-in-a-multi-account-environment/)
 1. [ Workshop AWS Account Setup > Shared Services Account > Setting up a DNS zone in Route53](https://workshop-aws-account-setup.fstehle.com/shared-services-account/route53/)
+1. [Simplify DNS management in a multi-account environment with Route 53 Resolver by Mahmoud Matouk](https://aws.amazon.com/blogs/security/simplify-dns-management-in-a-multiaccount-environment-with-route-53-resolver/)
+- Shows approach if you prefer to use a native forwarder service
+1. [How to centralize DNS management in a multi-account environment by Mahmoud Matouk ](https://aws.amazon.com/blogs/security/how-to-centralize-dns-management-in-a-multi-account-environment/)
+- Shows approach when you prefer to use AWS Managed Active Directory for DNS resolution
 
 # 14. Closing Member Accounts (aka legacy accounts)
+
+You have to wait for 90 days for the account to move from Suspended to closed
 
 1. [AWS Organizations now provides a simple, scalable and more secure way to close your member accounts by Eric Peña](https://aws.amazon.com/blogs/mt/aws-organizations-now-provides-a-simple-scalable-and-more-secure-way-to-close-your-member-accounts/)
 
@@ -107,7 +113,8 @@ See my-github/study-guide-repo/amazon/aws-iac-cloudformation.md#StackSets
 
 1. [Simplifying permissions management at scale using tags in AWS Organizations by Eric Peña ](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)
 
-# 16. SCP Examples
+# 16. SCPs in Organization
 
-1. [Service Control Policy examples](https://github.com/aws-samples/service-control-policy-examples/tree/main)
-1. [AWS Organizations and Service Control Policies](https://github.com/hamidnazari/workshop-aws-org-scp)
+1. [Identity Guide – Preventive controls with AWS Identity – SCPs by Valentine Reid and Josh Joy ](https://aws.amazon.com/blogs/mt/identity-guide-preventive-controls-with-aws-identity-scps/)
+1. [[**SCP Examples**] Service Control Policy examples](https://github.com/aws-samples/service-control-policy-examples/tree/main)
+1. [[**SCP Examples**] AWS Organizations and Service Control Policies](https://github.com/hamidnazari/workshop-aws-org-scp)

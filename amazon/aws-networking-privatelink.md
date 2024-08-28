@@ -3,9 +3,9 @@
 <!-- TOC -->
 
 - [1. Introduction](#1-introduction)
-- [2. APIGateway](#2-apigateway)
-- [3. ALB -> NLB](#3-alb---nlb)
-- [4. NLB -> ALB](#4-nlb---alb)
+- [2. API-Gateway -> PrivateLink -> AWS Resource](#2-api-gateway---privatelink---aws-resource)
+- [3. ALB -> PrivateLink -> NLB](#3-alb---privatelink---nlb)
+- [4. PrivateLink -> NLB -> ALB](#4-privatelink---nlb---alb)
 - [5. Blue Green Deployments](#5-blue-green-deployments)
 - [6. EventBridge](#6-eventbridge)
 - [7. Centralized / Shared VPC](#7-centralized--shared-vpc)
@@ -25,6 +25,8 @@
 - [21. Curate](#21-curate)
 - [22. Creating Private DNS for Endpoints](#22-creating-private-dns-for-endpoints)
 - [23. Creating endpoints for your applications](#23-creating-endpoints-for-your-applications)
+- [24. How to preserve client IP address](#24-how-to-preserve-client-ip-address)
+- [25. How to gracefully switch NLB target groups](#25-how-to-gracefully-switch-nlb-target-groups)
 
 <!-- /TOC -->
 
@@ -34,19 +36,22 @@
 1. [Interface endpoints/Gateway endpoints](https://blog.awsfundamentals.com/vpc-endpoints)
 1. [Basics of Private Links](https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints/)
 1. [Understanding VPC links in Amazon API Gateway private integrations by Jose Eduardo Montilla Lugo](https://aws.amazon.com/blogs/compute/understanding-vpc-links-in-amazon-api-gateway-private-integrations)
-1. []()
 
-# 2. APIGateway
+# 2. API-Gateway -> PrivateLink -> AWS Resource
 
 1. [Introducing Amazon API Gateway Private Endpoints by Chris Munns](https://aws.amazon.com/blogs/compute/introducing-amazon-api-gateway-private-endpoints/)
 
-# 3. ALB -> NLB
+1. [Building HTTP API-based services using Amazon API Gateway, AWS PrivateLink and AWS Fargate by Irshad Buchh](https://aws.amazon.com/blogs/containers/building-http-api-based-services-using-aws-fargate/)
+
+    <img src="./images/apgtwy-plink-fargate.png" title="apgtwy-plink-fargate.png" width="900"/>
+
+# 3. ALB -> PrivateLink -> NLB
 
 1. [How to securely publish Internet applications at scale using Application Load Balancer and AWS PrivateLink by Tom Adamski](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-securely-publish-internet-applications-at-scale-using-application-load-balancer-and-aws-privatelink/)
 
     <img src="./images/alb-nlb-blue-green.png" title="alb-nlb-blue-green.png" width="900"/>
 
-# 4. NLB -> ALB
+# 4. PrivateLink -> NLB -> ALB
 
 1. [How to configure the Application Load Balancer-type Target Group for Network Load Balancer By Somesh Srivastava](https://someshsrivastava1983.medium.com/how-to-configure-the-application-load-balancer-type-target-group-for-network-load-balancer-9b0c39106699)
 
@@ -58,7 +63,7 @@
 
 # 5. Blue Green Deployments
 
-1. [[CONSOLE] How to securely publish Internet applications at scale using Application Load Balancer and AWS PrivateLink by Tom Adamski](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-securely-publish-internet-applications-at-scale-using-application-load-balancer-and-aws-privatelink/)
+1. [[**CONSOLE**] How to securely publish Internet applications at scale using Application Load Balancer and AWS PrivateLink by Tom Adamski](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-securely-publish-internet-applications-at-scale-using-application-load-balancer-and-aws-privatelink/)
 
     <img src="./images/endpoints-3.png" title="Blue Green Setup" width="900"/>
 
@@ -96,7 +101,7 @@
 
 # 10. RDS
 
-1. [[CFN] Access Amazon RDS across VPCs using AWS PrivateLink and Network Load Balancer by Jay Singh](https://aws.amazon.com/blogs/database/access-amazon-rds-across-vpcs-using-aws-privatelink-and-network-load-balancer/)
+1. [[**CFN**] Access Amazon RDS across VPCs using AWS PrivateLink and Network Load Balancer by Jay Singh](https://aws.amazon.com/blogs/database/access-amazon-rds-across-vpcs-using-aws-privatelink-and-network-load-balancer/)
 
     <img src="./images/NLB_Over_Private_Link_v25-1024x540.png" title="NLB_Over_Private_Link_v25-1024x540.png" width="900"/>
 
@@ -120,7 +125,7 @@
 
 # 14. S3 endpoints
 
-1. [[MY NEXT] Best practices for using Amazon S3 endpoints with AWS CloudFormation by Tony Bulding](https://aws.amazon.com/blogs/infrastructure-and-automation/best-practices-for-using-amazon-s3-endpoints-in-aws-cloudformation-templates/)
+1. [[**MY_NEXT**] Best practices for using Amazon S3 endpoints with AWS CloudFormation by Tony Bulding](https://aws.amazon.com/blogs/infrastructure-and-automation/best-practices-for-using-amazon-s3-endpoints-in-aws-cloudformation-templates/)
 - difference between path-style and virtual-hosted-style endpoints
 - code: /Volumes/Lexar/git-repos/aws-repo/aws-samples/s3/s3-endpoints-and-cfn
 
@@ -134,7 +139,7 @@
 
 1. [Hosting Internal HTTPS Static Websites with ALB, S3, and PrivateLink by Schuyler Jager](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/)
 
-<img src="./images/Networking_NetCDNBlog-430-v2.jpg" title="Networking_NetCDNBlog-430-v2.jpg" width="900"/>
+    <img src="./images/Networking_NetCDNBlog-430-v2.jpg" title="Networking_NetCDNBlog-430-v2.jpg" width="900"/>
 
 # 17. Accessing S3 using private Links
 
@@ -150,7 +155,7 @@
 
 1. [How to use AWS PrivateLink to secure and scale web filtering using explicit proxy by Vinod Madabushi and Sahil Thapar](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-use-aws-privatelink-to-secure-and-scale-web-filtering-using-explicit-proxy/)
 
-<img src="./images/rsz_privatelink-blog-diagram.jpg" title="rsz_privatelink-blog-diagram.jpg" width="900"/>
+    <img src="./images/rsz_privatelink-blog-diagram.jpg" title="rsz_privatelink-blog-diagram.jpg" width="900"/>
 
 [cfn-privatelink.yaml](./templates/privatelink/cfn-privatelink.yaml)
 
@@ -160,9 +165,9 @@
 
 # 21. Curate
 
-[Building Secure Private Connectivity with AWS PrivateLink for TiDB Cloud by Ayan Ray, Arun Vijayraghavan, Savi Venkatachalapathy, and Yunqing Zhou](https://aws.amazon.com/blogs/apn/building-secure-private-connectivity-with-aws-privatelink-for-tidb-cloud/)
+1. [Building Secure Private Connectivity with AWS PrivateLink for TiDB Cloud by Ayan Ray, Arun Vijayraghavan, Savi Venkatachalapathy, and Yunqing Zhou](https://aws.amazon.com/blogs/apn/building-secure-private-connectivity-with-aws-privatelink-for-tidb-cloud/)
 
-<img src="./images/PingCAP-PrivateLink-TiDB-1.png" title="PingCAP-PrivateLink-TiDB-1.png" width="900"/>
+    <img src="./images/PingCAP-PrivateLink-TiDB-1.png" title="PingCAP-PrivateLink-TiDB-1.png" width="900"/>
 
 # 22. Creating Private DNS for Endpoints
 
@@ -178,3 +183,16 @@ Zonal hostname: vpce-123-us-east-2a.vpce-svc-12345.us-east-2.vpce.amazonaws.com
 # 23. Creating endpoints for your applications
 
 1. [AWS PrivateLink Update – VPC Endpoints for Your Own Applications & Services by Jeff Barr ](https://aws.amazon.com/blogs/storage/introducing-private-dns-support-for-amazon-s3-with-aws-privatelink/)
+
+# 24. How to preserve client IP address
+
+1. [Preserving client IP address with Proxy protocol v2 and Network Load Balancer by Ken Kitts](https://aws.amazon.com/blogs/networking-and-content-delivery/preserving-client-ip-address-with-proxy-protocol-v2-and-network-load-balancer/)
+1. [See Tom Adamski's talk @ 0:44](https://www.twitch.tv/videos/2231091426)
+
+# 25. How to gracefully switch NLB target groups
+
+1. [How to migrate your VPC endpoint service backend targets by Luis Felipe Silveira da Silva and Tom Adamski](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-migrate-your-vpc-endpoint-service-backend-targets/)
+
+    <img src="./images/vpcep-nlb-target-groups.png" title="vpcep-nlb-target-groups.png" width="900"/>
+
+Also see https://www.twitch.tv/videos/2231091426 @ 1:12
