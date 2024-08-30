@@ -46,6 +46,9 @@
 # 6. Private Hosted Zones
 
 1. [Handling Private Hosted Zones in R53 By Crishantha Nanayakkara](https://crishantha.medium.com/handling-private-hosted-zones-in-r53-3fbcdcd047e1)
+1. [[**MAKE_NOTES**] Integrating AWS Transit Gateway with AWS PrivateLink and Amazon Route 53 Resolver by James Devine](https://aws.amazon.com/blogs/networking-and-content-delivery/integrating-aws-transit-gateway-with-aws-privatelink-and-amazon-route-53-resolver/)
+1. [[**START_HERE**] Associating a Route 53 Private Hosted zone across AWS accounts](https://www.javierinthecloud.com/associating-a-route-53-private-hosted-zone-across-accounts/)
+1. [Route 53 Private Hosted Zone configuration with AWS CLI by Sourav Karmakar](https://towardsaws.com/route-53-private-hosted-zone-configuration-with-aws-cli-cb36ef896a3d)
 
 # 7. Routing Policies
 

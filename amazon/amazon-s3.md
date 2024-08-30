@@ -20,7 +20,7 @@
   - [12.2. Glacier](#122-glacier)
     - [12.2.1. deletion in Glacier](#1221-deletion-in-glacier)
 - [13. Tools](#13-tools)
-- [14. Uploading](#14-uploading)
+- [14. Multi-part Uploads](#14-multi-part-uploads)
 - [15. Workshops](#15-workshops)
 - [16. Static websites](#16-static-websites)
 - [17. Object versioning](#17-object-versioning)
@@ -30,6 +30,7 @@
 - [20. S3 Object Lambda](#20-s3-object-lambda)
 - [21. Restricting bucket access](#21-restricting-bucket-access)
 - [22. Lifecycle](#22-lifecycle)
+- [Transfer Acceleration](#transfer-acceleration)
 
 <!-- /TOC -->
 
@@ -177,7 +178,7 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 1. [Amazon S3 Bundler](https://github.com/jstrunk/s3bundler)
 - "Before moving Amazon DocumentDB events to S3 Glacier, you should consider bundling several events into larger objects" by using above tool
 
-# 14. Uploading
+# 14. Multi-part Uploads
 
 1. [Patterns for building an API to upload files to Amazon S3 by Thomas Moore,](https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/)
 
@@ -243,4 +244,8 @@ by James Beswick ](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-d
 # 22. Lifecycle
 
 1. [AWS re:Invent 2021 - Amazon S3 Lifecycle best practices to optimize your storage spend](https://www.youtube.com/watch?v=yGNXn7jOytA)
+
+# Transfer Acceleration
+
+1. [ShootProof boosts photo upload speeds with Amazon S3 Transfer Acceleration by Brian DeShong ](https://aws.amazon.com/blogs/storage/shootproof-boosts-photo-upload-speeds-with-amazon-s3-transfer-acceleration/)
 
