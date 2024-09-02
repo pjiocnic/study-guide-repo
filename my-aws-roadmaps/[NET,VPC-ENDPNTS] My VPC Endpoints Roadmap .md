@@ -1,18 +1,11 @@
-
-
-
-1. [[MUST-SEE] How to migrate your VPC endpoint service backend targets by Luis Felipe Silveira da Silva and Tom Adamski ](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-migrate-your-vpc-endpoint-service-backend-targets/)
-- VPC endpoint - NLB targets
-
-# Workshop
-
-1. [VPC Endpoint Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/25daa7f1-11a5-4c96-8923-9b0e333acc59/en-US)
-
 # Topics
 
-1. When connection privatelink to NLB, how to path based routing ALB?
-1. How to reduce NAT changes by using VPC Endpoints
+1. When connecting privatelink to NLB, how to do path based routing ALB?
+1. How to reduce NAT charges by using VPC Endpoints
 2. How to configure NAT gateways for Availability Zone independence.
 2. How to Use AWS Trusted Advisor to check if your NAT gateways are configured with Availability Zone independence.
 3. How to connect VPCs using Endpoint and NLBs
 4. How to handle Overlapping CIDRs using private endpoints
+5. [Private hosted zone sharing](../amazon/amazon-route53-VISIT.md#6-private-hosted-zones)
+6. [How do you switch NLB targets gracefully?](../amazon/aws-networking-nlb.md#2-how-to-migrate-nlb-targets-gracefully)
+7. [How to setup Hub and Spoke](../amazon/aws-networking-privatelink.md#7-hub-and-spoke)

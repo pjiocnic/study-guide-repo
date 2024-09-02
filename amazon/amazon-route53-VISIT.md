@@ -17,6 +17,7 @@
 - [12. How to create Centralized DNS for Hybrid Environments](#12-how-to-create-centralized-dns-for-hybrid-environments)
 - [13. Zone Apex](#13-zone-apex)
 - [14. How to prevent DDos attacks using WAF and Cloudfront](#14-how-to-prevent-ddos-attacks-using-waf-and-cloudfront)
+- [Route 53 Resolvers](#route-53-resolvers)
 
 <!-- /TOC -->
 
@@ -45,10 +46,15 @@
 
 # 6. Private Hosted Zones
 
+- How to share PHZ between VPCs in the same account and between accounts
+- How to share PHZ from on-prem
+- How to share a VPC endpoint to an on-premises environment
+
 1. [Handling Private Hosted Zones in R53 By Crishantha Nanayakkara](https://crishantha.medium.com/handling-private-hosted-zones-in-r53-3fbcdcd047e1)
 1. [[**MAKE_NOTES**] Integrating AWS Transit Gateway with AWS PrivateLink and Amazon Route 53 Resolver by James Devine](https://aws.amazon.com/blogs/networking-and-content-delivery/integrating-aws-transit-gateway-with-aws-privatelink-and-amazon-route-53-resolver/)
 1. [[**START_HERE**] Associating a Route 53 Private Hosted zone across AWS accounts](https://www.javierinthecloud.com/associating-a-route-53-private-hosted-zone-across-accounts/)
 1. [Route 53 Private Hosted Zone configuration with AWS CLI by Sourav Karmakar](https://towardsaws.com/route-53-private-hosted-zone-configuration-with-aws-cli-cb36ef896a3d)
+1. [How do I associate a Route 53 private hosted zone with a VPC on a different AWS account?](https://repost.aws/knowledge-center/route53-private-hosted-zone)
 
 # 7. Routing Policies
 
@@ -106,3 +112,12 @@
 # 14. How to prevent DDos attacks using WAF and Cloudfront
 
 1. [How to Help Protect Dynamic Web Applications Against DDoS Attacks by Using Amazon CloudFront and Amazon Route 53 by Holly Willey |](https://aws.amazon.com/blogs/security/how-to-protect-dynamic-web-applications-against-ddos-attacks-by-using-amazon-cloudfront-and-amazon-route-53/#:~:text=Route%2053%20is%20also%20designed,the%20availability%20of%20the%20service.)
+
+# Route 53 Resolvers
+
+1. [[**ADVANCED**][**MUST_SEE**] AWS re:Invent 2019: Deep dive on DNS in the hybrid cloud (NET410) By Gavin](https://www.youtube.com/watch?v=_Z5jAs2gvPA)
+- What is .2 Resolver (or now called R53 Resolver)
+- How does .2 Resolver send queries to PHZ, VPC DNS and Internet (see https://youtu.be/_Z5jAs2gvPA?t=360)
+- DNS Forwarders
+- lot more
+1. [Route53 Resolver Endpoints | Part-1 | Hybrid DNS | Route 53 Resolver | Forwarding Rules | DEMO](https://www.youtube.com/watch?v=P159VMSR694)
