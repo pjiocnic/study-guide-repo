@@ -116,15 +116,17 @@
 
 # Route 53 Resolvers
 
+1. [[**START_HERE**] Route53 Resolver Endpoints | Part-1 | Hybrid DNS | Route 53 Resolver | Forwarding Rules | DEMO By CloudDeepDive](https://www.youtube.com/watch?v=P159VMSR694)
+1. [Route53 Resolver Endpoints | Part-2 | Hybrid DNS | Route 53 Resolver | Forwarding Rules | DEMO By CloudDeepDive](https://www.youtube.com/watch?v=oddzx0JiukQ)
+1. [Mini Project - Hybrid DNS By Cantrill](https://www.youtube.com/watch?v=NHhtXpAcAc0)
 1. [[**ADVANCED**][**MUST_SEE**] AWS re:Invent 2019: Deep dive on DNS in the hybrid cloud (NET410) By Gavin](https://www.youtube.com/watch?v=_Z5jAs2gvPA)
 - What is .2 Resolver (or now called R53 Resolver)
 - How does .2 Resolver send queries to PHZ, VPC DNS and Internet (see https://youtu.be/_Z5jAs2gvPA?t=360)
 - DNS Forwarders
 - lot more
-1. [Route53 Resolver Endpoints | Part-1 | Hybrid DNS | Route 53 Resolver | Forwarding Rules | DEMO](https://www.youtube.com/watch?v=P159VMSR694)
-1. [Simplify DNS management in a multi-account environment with Route 53 Resolver by Mahmoud Matouk ](https://aws.amazon.com/blogs/security/simplify-dns-management-in-a-multiaccount-environment-with-route-53-resolver/)
+1. [[**ADVANCED**] Simplify DNS management in a multi-account environment with Route 53 Resolver by Mahmoud Matouk ](https://aws.amazon.com/blogs/security/simplify-dns-management-in-a-multiaccount-environment-with-route-53-resolver/)
 
 ## Sharing Rules with accounts using RAM
 
-1. [[START_HERE] Automating DNS infrastructure using Route 53 Resolver endpoints by Shiva Vaidyanathan and Akhil Nayabu](https://aws.amazon.com/blogs/networking-and-content-delivery/automating-dns-infrastructure-using-route-53-resolver-endpoints/)
+1. [[**_START_HERE_**] Automating DNS infrastructure using Route 53 Resolver endpoints by Shiva Vaidyanathan and Akhil Nayabu](https://aws.amazon.com/blogs/networking-and-content-delivery/automating-dns-infrastructure-using-route-53-resolver-endpoints/)
 1. [Using Route 53 Private Hosted Zones for Cross-account Multi-region Architectures by Anandprasanna Gaitonde and John Bickle](https://aws.amazon.com/blogs/architecture/using-route-53-private-hosted-zones-for-cross-account-multi-region-architectures/)
