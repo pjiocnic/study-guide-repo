@@ -19,6 +19,7 @@
 - [14. Closing Member Accounts (aka legacy accounts)](#14-closing-member-accounts-aka-legacy-accounts)
 - [15. Tagging accounts in an Organization](#15-tagging-accounts-in-an-organization)
 - [16. SCPs in Organization](#16-scps-in-organization)
+- [Curate](#curate)
 
 <!-- /TOC -->
 
@@ -73,7 +74,7 @@ See my-github/study-guide-repo/amazon/aws-iac-cloudformation.md#StackSets
 
 ## 8.1. Using Cloudformation
 
-1. [[BEST] Deploy AWS Organizations resources by using CloudFormation by Matt Luttrell and Swara Gandhi](https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/)
+1. [[_**BEST**_] Deploy AWS Organizations resources by using CloudFormation by Matt Luttrell and Swara Gandhi](https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/)
 - [[CFN] CloudFormationForAWSOrganizations.yaml](./templates/organizations/CloudFormationForAWSOrganizations.yaml)
 2. [Foundational Organizational Unit Structure and Accounts](https://github.com/cloud-foundations-on-aws/cloud-foundations-templates/tree/main/organizations/foundational-organizational-unit-structure)
 3. [[DEMO] How to Use AWS Organizations to Automate End-to-End Account Creation by David Schonbrun](https://aws.amazon.com/blogs/security/how-to-use-aws-organizations-to-automate-end-to-end-account-creation/)
@@ -118,3 +119,15 @@ You have to wait for 90 days for the account to move from Suspended to closed
 1. [Identity Guide – Preventive controls with AWS Identity – SCPs by Valentine Reid and Josh Joy ](https://aws.amazon.com/blogs/mt/identity-guide-preventive-controls-with-aws-identity-scps/)
 1. [[**SCP Examples**] Service Control Policy examples](https://github.com/aws-samples/service-control-policy-examples/tree/main)
 1. [[**SCP Examples**] AWS Organizations and Service Control Policies](https://github.com/hamidnazari/workshop-aws-org-scp)
+
+
+# Curate
+
+1. [AWS Organizations, moving an organization member account to another organization: Part 1 by Karl Schween and Deepa Pahuja](https://aws.amazon.com/blogs/mt/aws-organizations-moving-an-organization-member-account-to-another-organization-part-1/)
+- Organizations Polices
+- AWS Resource Access Manager (AWS RAM) shares
+- AWS global condition context keys
+1. [AWS Organizations, moving an organization member account to another organization: Part 2 by Karl Schween](https://aws.amazon.com/blogs/mt/aws-organizations-moving-an-organization-member-account-to-another-organization-part-2/)
+- AWS Organizations delegated administrator
+- AWS services that currently support AWS Organizations Delegated Administrator
+1. [AWS Organizations, moving an organization member account to another organization: Part 3 by Karl Schween and Deepa Pahuja](https://aws.amazon.com/blogs/mt/aws-organizations-moving-an-organization-member-account-to-another-organization-part-3/)
