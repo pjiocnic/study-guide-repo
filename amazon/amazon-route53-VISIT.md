@@ -8,6 +8,7 @@
 - [4. Hosted Zones](#4-hosted-zones)
 - [5. Multi-Region](#5-multi-region)
 - [6. Private Hosted Zones](#6-private-hosted-zones)
+  - [6.1. Associating PHZ with VPC](#61-associating-phz-with-vpc)
 - [7. Routing Policies](#7-routing-policies)
 - [8. Split-View DNS](#8-split-view-dns)
 - [9. Validating domain using certificates](#9-validating-domain-using-certificates)
@@ -18,9 +19,8 @@
 - [13. Zone Apex](#13-zone-apex)
 - [14. How to prevent DDos attacks using WAF and Cloudfront](#14-how-to-prevent-ddos-attacks-using-waf-and-cloudfront)
 - [15. Route 53 Resolvers](#15-route-53-resolvers)
-  - [15.1. Sharing Rules with accounts using RAM](#151-sharing-rules-with-accounts-using-ram)
 - [16. Route 53 Profiles](#16-route-53-profiles)
-- [Route 53 Resolver DNS Firewall](#route-53-resolver-dns-firewall)
+- [17. Route 53 Resolver DNS Firewall](#17-route-53-resolver-dns-firewall)
 
 <!-- /TOC -->
 
@@ -59,6 +59,11 @@
 1. [Route 53 Private Hosted Zone configuration with AWS CLI by Sourav Karmakar](https://towardsaws.com/route-53-private-hosted-zone-configuration-with-aws-cli-cb36ef896a3d)
 1. [How do I associate a Route 53 private hosted zone with a VPC on a different AWS account?](https://repost.aws/knowledge-center/route53-private-hosted-zone)
 
+## 6.1. Associating PHZ with VPC
+
+1. [How do I associate a Route 53 private hosted zone with a VPC on a different AWS account?](https://www.youtube.com/watch?v=2GvcB_1dI1o)
+1. [How do I associate a Route 53 private hosted zone with a VPC on a different AWS account?](https://repost.aws/knowledge-center/route53-private-hosted-zone)
+
 # 7. Routing Policies
 
 1. [How to register a Domain and creating a Record Set By Crishantha Nanayakkara](https://crishantha.medium.com/aws-route-53-and-routing-scenarios-671d12991260)
@@ -88,14 +93,7 @@
 
 # 11. Zone delegation
 
-1. [How to Share a Domain among AWS Accounts? By Enlear Academy](https://www.youtube.com/watch?v=MSIxbWz3qdo)
-1. [How to manage Route53 hosted zones in a multi-account environment](https://theburningmonk.com/2021/05/how-to-manage-route53-hosted-zones-in-a-multi-account-environment/)
-1. [Workshop AWS Account Setup > Shared Services Account > Setting up a DNS zone in Route53](https://workshop-aws-account-setup.fstehle.com/shared-services-account/route53/)
-1. https://repost.aws/knowledge-center/route53-private-hosted-zone
-1. [Using Route 53 Private Hosted Zones for Cross-account Multi-region Architectures by Anandprasanna Gaitonde and John Bickle](https://aws.amazon.com/blogs/architecture/using-route-53-private-hosted-zones-for-cross-account-multi-region-architectures/)
-&nbsp;
-  <img src="./images/DNS_Blog_Diagv2.jpg" title="DNS_Blog_Diagv2.jpg" width="900"/>
-&nbsp;
+[amazon-route53-dns.md](./amazon-route53-dns.md)
 
 # 12. How to create Centralized DNS for Hybrid Environments
 
@@ -119,31 +117,13 @@
 
 # 15. Route 53 Resolvers
 
-1. [[**START_HERE**] Route53 Resolver Endpoints | Part-1 | Hybrid DNS | Route 53 Resolver | Forwarding Rules | DEMO By CloudDeepDive](https://www.youtube.com/watch?v=P159VMSR694)
-1. [Route53 Resolver Endpoints | Part-2 | Hybrid DNS | Route 53 Resolver | Forwarding Rules | DEMO By CloudDeepDive](https://www.youtube.com/watch?v=oddzx0JiukQ)
-1. [Mini Project - Hybrid DNS By Cantrill](https://www.youtube.com/watch?v=NHhtXpAcAc0)
-1. [[**ADVANCED**][**MUST_SEE**] AWS re:Invent 2019: Deep dive on DNS in the hybrid cloud (NET410) By Gavin](https://www.youtube.com/watch?v=_Z5jAs2gvPA)
-- What is .2 Resolver (or now called R53 Resolver)
-- How does .2 Resolver send queries to PHZ, VPC DNS and Internet (see https://youtu.be/_Z5jAs2gvPA?t=360)
-- DNS Forwarders
-- lot more
-1. [[**ADVANCED**] Simplify DNS management in a multi-account environment with Route 53 Resolver by Mahmoud Matouk ](https://aws.amazon.com/blogs/security/simplify-dns-management-in-a-multiaccount-environment-with-route-53-resolver/)
-
-## 15.1. Sharing Rules with accounts using RAM
-
-1. [[**_START_HERE_**] Automating DNS infrastructure using Route 53 Resolver endpoints by Shiva Vaidyanathan and Akhil Nayabu](https://aws.amazon.com/blogs/networking-and-content-delivery/automating-dns-infrastructure-using-route-53-resolver-endpoints/)
-1. [Using Route 53 Private Hosted Zones for Cross-account Multi-region Architectures by Anandprasanna Gaitonde and John Bickle](https://aws.amazon.com/blogs/architecture/using-route-53-private-hosted-zones-for-cross-account-multi-region-architectures/)
+[See amazon-route53-hybriddns-and-r53-resolvers](./amazon-route53-hybriddns-and-r53-resolvers.md)
 
 # 16. Route 53 Profiles
 
-1. [[**START_HERE**] Amazon Route 53 Profiles | Migrating your Multi-Account DNS environment to Route53 Profiles by CloudDeepDive](https://www.youtube.com/watch?v=HXD4MZ5mqHA)
-1. [Unify DNS management using Amazon Route 53 Profiles with multiple VPCs and AWS accounts by Esra Kayabali ](https://aws.amazon.com/blogs/aws/unify-dns-management-using-amazon-route-53-profiles-with-multiple-vpcs-and-aws-accounts/)
-1. [The Routing Loop - Simplify DNS management using Route 53 Profiles](https://www.twitch.tv/videos/2177093237)
-1. [Amazon Route 53 Profiles - A Deeper look into Centralized DNS Configuration and Governance Solution](https://community.aws/content/2ZxIbTRrIAuGIwPxv5crGaaQygs/route53-profile?lang=en)
-1. [Using Amazon Route 53 Profiles for scalable multi-account AWS environments by Amit Narang and Anandprasanna Gaitonde](https://aws.amazon.com/blogs/networking-and-content-delivery/using-amazon-route-53-profiles-for-scalable-multi-account-aws-environments/)
-1. [Amazon Route 53 Profiles | Amazon Web Services](https://www.youtube.com/watch?v=JhdXcdxMwYc)
-1. [Migrating your multi-account DNS environment to Amazon Route 53 Profiles by Amit Narang, Anandprasanna Gaitonde, and Ankush Goyal](https://aws.amazon.com/blogs/networking-and-content-delivery/migrating-your-multi-account-dns-environment-to-amazon-route-53-profiles/)
+[See amazon-route53-profiles](./amazon-route53-profiles.md)
 
-# Route 53 Resolver DNS Firewall
+# 17. Route 53 Resolver DNS Firewall
 
 1. [How DNS Query Filtering Works on AWS and How to Configure It by Esteban](https://aws.plainenglish.io/how-dns-query-filtering-on-aws-works-and-how-to-configure-it-714be46c2204)
+
