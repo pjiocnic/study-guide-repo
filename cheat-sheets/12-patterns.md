@@ -1,0 +1,131 @@
+# COR
+
+1. https://www.digitalocean.com/community/tutorials/chain-of-responsibility-design-pattern-in-java
+1. https://springframework.guru/gang-of-four-design-patterns/chain-of-responsibility-pattern/
+1. https://www.baeldung.com/chain-of-responsibility-pattern
+1. [Implementation of the Chain of Responsibility Design Pattern in Java with multiple children / Real world complex workflow example](https://www.linkedin.com/pulse/implementation-chain-responsibility-design-pattern-java-fatih-tepekoy/)
+- https://github.com/fatihtepekoy/java-design-patterns/tree/master/src/designpatterns/behavioral/chainofresponsibility
+1. https://docs.spring.io/spring-security/reference/servlet/architecture.html
+1. https://kasunprageethdissanayake.medium.com/spring-security-the-security-filter-chain-2e399a1cb8e3
+1. [Understanding the Chain of Responsibility Design Pattern with Examples By Monsuru Okuniyi](https://medium.com/@omonsuru01/understanding-the-chain-of-responsibility-design-pattern-with-examples-e2f3101f657b)
+
+## Example from CHATGPT
+
+
+```java
+// Handler interface
+interface Handler {
+    void setNextHandler(Handler nextHandler);
+    void handleRequest(Request request);
+}
+
+// Request class
+class Request {
+    private String type;
+
+    public Request(String type) {
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
+    }
+}
+
+// Concrete Handlers
+class ConcreteHandler1 implements Handler {
+    private Handler nextHandler;
+
+    @Override
+    public void setNextHandler(Handler nextHandler) {
+        this.nextHandler = nextHandler;
+    }
+
+    @Override
+    public void handleRequest(Request request) {
+        if (request.getType().equals("Type1")) {
+            System.out.println("ConcreteHandler1 handling Type1 request");
+        } else if (nextHandler != null) {
+            nextHandler.handleRequest(request);
+        }
+    }
+}
+
+class ConcreteHandler2 implements Handler {
+    private Handler nextHandler;
+
+    @Override
+    public void setNextHandler(Handler nextHandler) {
+        this.nextHandler = nextHandler;
+    }
+
+    @Override
+    public void handleRequest(Request request) {
+        if (request.getType().equals("Type2")) {
+            System.out.println("ConcreteHandler2 handling Type2 request");
+        } else if (nextHandler != null) {
+            nextHandler.handleRequest(request);
+        }
+    }
+}
+
+class ConcreteHandler3 implements Handler {
+    private Handler nextHandler;
+
+    @Override
+    public void setNextHandler(Handler nextHandler) {
+        this.nextHandler = nextHandler;
+    }
+
+    @Override
+    public void handleRequest(Request request) {
+        if (request.getType().equals("Type3")) {
+            System.out.println("ConcreteHandler3 handling Type3 request");
+        } else if (nextHandler != null) {
+            nextHandler.handleRequest(request);
+        }
+    }
+}
+
+// Client class
+public class Client {
+    public static void main(String[] args) {
+        // Creating the chain
+        Handler handler1 = new ConcreteHandler1();
+        Handler handler2 = new ConcreteHandler2();
+        Handler handler3 = new ConcreteHandler3();
+
+        handler1.setNextHandler(handler2);
+        handler2.setNextHandler(handler3);
+
+        // Making requests
+        Request request1 = new Request("Type1");
+        Request request2 = new Request("Type2");
+        Request request3 = new Request("Type3");
+
+        // Handling requests
+        handler1.handleRequest(request1);
+        handler1.handleRequest(request2);
+        handler1.handleRequest(request3);
+    }
+}
+```
+
+# Another example
+
+<img src="./images/cor-1.png" title="cor-1.png" width="900"/>
+
+<img src="./images/cor-2.png" title="cor-1.png" width="900"/>
+
+<img src="./images/cor-3.png" title="cor-1.png" width="900"/>
+
+<img src="./images/cor-4.png" title="cor-1.png" width="900"/>
+
+
+# Decorator
+
+1. https://refactoring.guru/design-patterns/decorator/java/example
+
+# Design patterns using Lambda
+
+1. [Java 8 Lambda-Enabled Design patterns by Ranjith Raj D](https://ranjithraj-d.medium.com/java-8-lambda-enabled-design-patterns-64e0064cf4a5)
