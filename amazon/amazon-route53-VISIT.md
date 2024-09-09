@@ -13,14 +13,14 @@
 - [8. Split-View DNS](#8-split-view-dns)
 - [9. Validating domain using certificates](#9-validating-domain-using-certificates)
 - [10. Videos](#10-videos)
-  - [10.1. Traffic Management](#101-traffic-management)
-- [11. Zone delegation](#11-zone-delegation)
-- [12. How to create Centralized DNS for Hybrid Environments](#12-how-to-create-centralized-dns-for-hybrid-environments)
-- [13. Zone Apex](#13-zone-apex)
-- [14. How to prevent DDos attacks using WAF and Cloudfront](#14-how-to-prevent-ddos-attacks-using-waf-and-cloudfront)
-- [15. Route 53 Resolvers](#15-route-53-resolvers)
-- [16. Route 53 Profiles](#16-route-53-profiles)
-- [17. Route 53 Resolver DNS Firewall](#17-route-53-resolver-dns-firewall)
+- [11. Traffic Management](#11-traffic-management)
+- [12. Zone delegation](#12-zone-delegation)
+- [13. How to create Centralized DNS for Hybrid Environments](#13-how-to-create-centralized-dns-for-hybrid-environments)
+- [14. Zone Apex](#14-zone-apex)
+- [15. How to prevent DDos attacks using WAF and Cloudfront](#15-how-to-prevent-ddos-attacks-using-waf-and-cloudfront)
+- [16. Route 53 Resolvers](#16-route-53-resolvers)
+- [17. Route 53 Profiles](#17-route-53-profiles)
+- [18. Route 53 Resolver DNS Firewall](#18-route-53-resolver-dns-firewall)
 
 <!-- /TOC -->
 
@@ -81,21 +81,21 @@
 
 # 10. Videos
 
-> 1. [[**MAKE-NOTES**] DNS Design Using Amazon Route 53 - AWS Online Tech Talks By James Devine](https://www.youtube.com/watch?v=2y_RBjDkRgY)
+> 1. [[**_MAKE-NOTES_**] DNS Design Using Amazon Route 53 - AWS Online Tech Talks By James Devine](https://www.youtube.com/watch?v=2y_RBjDkRgY)
 1. [The Routing Loop - Migrate your domain to Amazon Route 53](https://www.twitch.tv/aws/video/1877197514)
 
-## 10.1. Traffic Management
+# 11. Traffic Management
 
-1. [[**MAKE-NOTES**] AWS re:Invent 2020: Global traffic management with Amazon Route 53 By Tom Adamski](https://www.youtube.com/watch?v=E33dA6n9O7I)
+1. [[**_MAKE-NOTES_**] AWS re:Invent 2020: Global traffic management with Amazon Route 53 By Tom Adamski](https://www.youtube.com/watch?v=E33dA6n9O7I)
 - Nameserver stripes
 1. [AWS re:Invent 2017: DNS Demystified: Global Traffic Management with Amazon Route 53 (NET302)](https://www.youtube.com/watch?v=PVBC1gb78r8)
 1. [AWS re:Invent 2016: Global Traffic Management with Amazon Route 53 Traffic Flow (NET302)](https://www.youtube.com/watch?v=QU7FQBgL0Po)
 
-# 11. Zone delegation
+# 12. Zone delegation
 
 [amazon-route53-dns.md](./amazon-route53-dns.md)
 
-# 12. How to create Centralized DNS for Hybrid Environments
+# 13. How to create Centralized DNS for Hybrid Environments
 
 1. [Using Route 53 Private Hosted Zones for Cross-account Multi-region Architectures by Anandprasanna Gaitonde and John Bickle](https://aws.amazon.com/blogs/architecture/using-route-53-private-hosted-zones-for-cross-account-multi-region-architectures/)
 
@@ -107,23 +107,23 @@
 1. https://repost.aws/knowledge-center/route53-private-hosted-zone
 1. [How to centralize hybrid DNS in AWS by Cedric De Schepper](https://awstip.com/how-to-centralise-hybrid-dns-in-aws-ea8b6da9609c)
 
-# 13. Zone Apex
+# 14. Zone Apex
 
 1. [Solving DNS zone apex challenges with third-party DNS providers using AWS by Chris Carter and Sohaib Tahir](https://aws.amazon.com/blogs/networking-and-content-delivery/solving-dns-zone-apex-challenges-with-third-party-dns-providers-using-aws)
 
-# 14. How to prevent DDos attacks using WAF and Cloudfront
+# 15. How to prevent DDos attacks using WAF and Cloudfront
 
 1. [How to Help Protect Dynamic Web Applications Against DDoS Attacks by Using Amazon CloudFront and Amazon Route 53 by Holly Willey |](https://aws.amazon.com/blogs/security/how-to-protect-dynamic-web-applications-against-ddos-attacks-by-using-amazon-cloudfront-and-amazon-route-53/#:~:text=Route%2053%20is%20also%20designed,the%20availability%20of%20the%20service.)
 
-# 15. Route 53 Resolvers
+# 16. Route 53 Resolvers
 
 [See amazon-route53-hybriddns-and-r53-resolvers](./amazon-route53-hybriddns-and-r53-resolvers.md)
 
-# 16. Route 53 Profiles
+# 17. Route 53 Profiles
 
 [See amazon-route53-profiles](./amazon-route53-profiles.md)
 
-# 17. Route 53 Resolver DNS Firewall
+# 18. Route 53 Resolver DNS Firewall
 
 1. [How DNS Query Filtering Works on AWS and How to Configure It by Esteban](https://aws.plainenglish.io/how-dns-query-filtering-on-aws-works-and-how-to-configure-it-714be46c2204)
 

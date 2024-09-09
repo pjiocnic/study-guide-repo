@@ -32,6 +32,4 @@
 
 ## 1.1. Sharing Resolver Rules with accounts using RAM
 
-1. [Automating DNS infrastructure using Route 53 Resolver endpoints by Shiva Vaidyanathan and Akhil Nayabu](https://aws.amazon.com/blogs/networking-and-content-delivery/automating-dns-infrastructure-using-route-53-resolver-endpoints/)
-- This uses Amazon DNS servers for the demo which may not be the newer approach
-1. [Using Route 53 Private Hosted Zones for Cross-account Multi-region Architectures by Anandprasanna Gaitonde and John Bickle](https://aws.amazon.com/blogs/architecture/using-route-53-private-hosted-zones-for-cross-account-multi-region-architectures/)
+[See aws-resource-access-manager.md](./aws-resource-access-manager.md#5-sharing-resolver-rules-using-ram)

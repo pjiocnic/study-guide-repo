@@ -19,11 +19,18 @@
 
 1. [How to share resources with multiple Accounts using AWS Resource Access Manager(RAM) By chinmay mandal](https://medium.com/@vanchi811/how-to-share-resources-with-multiple-accounts-using-aws-resource-access-manager-ram-b131d76b2641)
 
-# 5. How to share TGW
+# 5. Sharing Resolver Rules using RAM
+
+1. [Automating DNS infrastructure using Route 53 Resolver endpoints by Shiva Vaidyanathan and Akhil Nayabu](https://aws.amazon.com/blogs/networking-and-content-delivery/automating-dns-infrastructure-using-route-53-resolver-endpoints/)
+- This uses Amazon DNS servers for the demo which may not be the newer approach
+1. [Using Route 53 Private Hosted Zones for Cross-account Multi-region Architectures by Anandprasanna Gaitonde and John Bickle](https://aws.amazon.com/blogs/architecture/using-route-53-private-hosted-zones-for-cross-account-multi-region-architectures/)
+1. [How can I use AWS RAM to share Route 53 Resolver rules across multiple VPCs and AWS accounts?](https://repost.aws/knowledge-center/route-53-share-resolver-rules-with-ram)
+
+# 6. How to share TGW
 
 1. [Sharing Transit Gateway Across AWS Accounts Using Resource Access Manager (RAM) by Prasad Midde](https://blog.searce.com/sharing-transit-gateway-across-aws-accounts-using-resource-access-manager-ram-9831a22b2a84)
 1. [How to share TGW (and other AWS resources using RAM) by Prasad Domala](https://youtu.be/E5HpOVKNpug?t=523)
 
-# 6. How to share Aurora
+# 7. How to share Aurora
 
 1. [Using AWS Resource Access Manager to share an Aurora cluster for development By Conor Maher](https://fourtheorem.com/using-aws-resource-access-manager-for-development/)
