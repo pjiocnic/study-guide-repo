@@ -52,3 +52,48 @@ This is a simplified example, and you'll need to handle various edge cases, such
 stackoverflow.comquestions56082138
 [2] Spring Integration - Design - Prevent Infinite Processing Loop
 stackoverflow.comquestions45088629
+
+# [CURATE] Sequencing architecure
+
+Yes, there are several workshops, blog posts, and resources that discuss message sequencing and staging architectures, either directly or indirectly. Here are a few relevant ones:
+
+AWS Workshops :
+
+AWS Messaging Workshops: This set of workshops covers various messaging patterns and architectures using AWS services like Amazon SQS, Amazon SNS, and Amazon Kinesis. [1]
+
+Decoupling Workloads with Amazon SQS: This workshop focuses on using Amazon SQS for decoupling and sequencing workloads.
+
+AWS Blog Posts :
+
+Implementing Sequencing for Message Processing with Amazon SQS: This blog post discusses a solution for sequencing message processing using Amazon SQS and AWS Lambda.
+
+Implementing Sequencing for Message Processing with Amazon SQS and Amazon DynamoDB: This post explores a similar solution using Amazon DynamoDB as the staging area.
+
+Third-Party Resources :
+
+Sequencing Messages with Apache Kafka: This blog post from Confluent discusses message sequencing patterns using Apache Kafka.
+
+Message Sequencing in Distributed Systems: This blog post from RabbitMQ covers message sequencing challenges and solutions in distributed systems.
+
+Message Sequencing Patterns: This resource from the Enterprise Integration Patterns website discusses various message sequencing patterns. [2]
+
+Books :
+
+"Enterprise Integration Patterns" by Gregor Hohpe and Bobby Woolf: This book is considered a classic reference for messaging patterns, including message sequencing and staging.
+
+"Designing Data-Intensive Applications" by Martin Kleppmann: This book covers distributed systems concepts, including message sequencing and ordering challenges.
+
+While these resources may not provide a direct, step-by-step guide for your specific use case, they offer valuable insights, patterns, and best practices for implementing message sequencing and staging architectures in distributed systems.
+
+# Sources
+[1] Introduction to Messaging for Modern Cloud Architecture | AWS Architecture Blog
+aws.amazon.com > blogs> architecture > introduction-to-messaging-for-modern-cloud-architecture
+[2] Message Design Patterns
+stackoverflow.comquestions1624618
+
+# Addition Sources
+
+1. [Modernized Database Queuing using Amazon SQS and AWS Services by Scott Wainner, Anand Komandooru, and Harpreet Virk](https://aws.amazon.com/blogs/architecture/modernized-database-queuing-using-amazon-sqs-and-aws-services/)
+2. [How to use Apache Kafka to guarantee message ordering? by Chidambaram Kulandaian](https://medium.com/latentview-data-services/how-to-use-apache-kafka-to-guarantee-message-ordering-ac2d00da6c22)
+
+
