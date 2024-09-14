@@ -18,7 +18,7 @@
 - [13. Bucket Keys](#13-bucket-keys)
 - [14. Samples to curate (categorize)](#14-samples-to-curate-categorize)
 - [15. Digital Signing](#15-digital-signing)
-- [16. Key Material (BYOK)](#16-key-material-byok)
+- [16. Importing keys (BYOK)](#16-importing-keys-byok)
 
 <!-- /TOC -->
 
@@ -120,6 +120,8 @@ After
 1. [Digital signing with the new asymmetric keys feature of AWS KMS by Raj Copparapu](https://aws.amazon.com/blogs/security/digital-signing-asymmetric-keys-aws-kms/)
 1. [How to verify AWS KMS asymmetric key signatures locally with OpenSSL by J.D. Bean ](https://aws.amazon.com/blogs/security/how-to-verify-aws-kms-asymmetric-key-signatures-locally-with-openssl/)
 
-# 16. Key Material (BYOK)
+# 16. Importing keys (BYOK)
 
+1. [New – Bring Your Own Keys with AWS Key Management Service by Jeff Barr ](https://aws.amazon.com/blogs/aws/new-bring-your-own-keys-with-aws-key-management-service/)
 1. [Demystifying KMS keys operations, bring your own key (BYOK), custom key store, and ciphertext portability by Arthur Mnev](https://aws.amazon.com/blogs/security/demystifying-kms-keys-operations-bring-your-own-key-byok-custom-key-store-and-ciphertext-portability/)
+1. [How to migrate asymmetric keys from CloudHSM to AWS KMS by Mani Manasa Mylavarapu, Kevin Lee, and Patrick Palmer](https://aws.amazon.com/blogs/security/how-to-migrate-asymmetric-keys-from-cloudhsm-to-aws-kms)
