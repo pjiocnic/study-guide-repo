@@ -151,7 +151,7 @@ CLEAUP THIS DOC
 
 ## 12.1. Aggregating Events
 
-1. [Orchestrating dependent file uploads with AWS Step Functions](https://aws.amazon.com/blogs/compute/orchestrating-dependent-file-uploads-with-aws-step-functions/)
+1. [Orchestrating dependent file uploads with AWS Step Functions by Ben Smith](https://aws.amazon.com/blogs/compute/orchestrating-dependent-file-uploads-with-aws-step-functions/)
 
 <img src="./images/step-fns-1.png" title="step-fns-1.png" width="900"/>
 
