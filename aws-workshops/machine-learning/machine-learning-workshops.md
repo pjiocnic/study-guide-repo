@@ -13,3 +13,5 @@
 # Courses
 
 1. [New technical deep dive course: Generative AI Foundations on AWS by Emily Webber](https://aws.amazon.com/blogs/machine-learning/new-technical-deep-dive-course-generative-ai-foundations-on-aws/)
+
+[Building with Amazon Bedrock](https://catalog.workshops.aws/building-with-amazon-bedrock/en-US)
