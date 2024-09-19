@@ -56,6 +56,7 @@
 1. Implementing Design Patterns Using Java 8 Lambda by Jose Paumard
 1. From Collections to Streams in Java 8 Using Lambda Expressions by Jose Paumard
 1. Streams, Collectors, and Optionals for Data Processing in Java 8 by Jose Paumard
+1. [Lots of Java stuff](https://medium.com/@satyendra.jaiswal)
 
 # 9. How to implement multiple equals method
 

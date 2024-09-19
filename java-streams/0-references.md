@@ -1,0 +1,5 @@
+See https://medium.com/@satyendra.jaiswal for snippets
+- [Unleashing the Power of Grouping and Partitioning with Advanced Stream Techniques in Java Stream API](https://medium.com/@satyendra.jaiswal/unleashing-the-power-of-grouping-and-partitioning-with-advanced-stream-techniques-in-java-stream-f6a4264a5082)
+- [Exploring Short-Circuiting Operations in Java Stream API: findAny vs. findFirst](https://medium.com/@satyendra.jaiswal/exploring-short-circuiting-operations-in-java-stream-api-findany-vs-findfirst-698306ec6b92)
+- [Short-Circuiting Operations in Java Stream API: Demystifying anyMatch, allMatch, and noneMatch](https://medium.com/@satyendra.jaiswal/short-circuiting-operations-in-java-stream-api-demystifying-anymatch-allmatch-and-nonematch-df9f2e475d3a)
+- [Unveiling the Power of Terminal Operations in Java Stream API: forEach, count, collect, min, max, and reduce](https://medium.com/@satyendra.jaiswal/unveiling-the-power-of-terminal-operations-in-java-stream-api-foreach-count-collect-min-max-b592fe55eb24)
