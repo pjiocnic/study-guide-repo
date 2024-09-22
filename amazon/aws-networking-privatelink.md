@@ -9,6 +9,7 @@
 - [5. Blue Green Deployments](#5-blue-green-deployments)
 - [6. EventBridge](#6-eventbridge)
 - [7. Hub and spoke](#7-hub-and-spoke)
+  - [7.1. How to Share PrivateLink endpoints between VPCs](#71-how-to-share-privatelink-endpoints-between-vpcs)
 - [8. Hyperplane ENI vs ENI](#8-hyperplane-eni-vs-eni)
 - [9. RDS](#9-rds)
 - [10. Route53](#10-route53)
@@ -93,6 +94,12 @@
 3. [See Hub and Spoke @ aws-networking.md](./aws-networking.md#2-hub-and-spoke)
 
 4. [AWS re:Invent 2020: VPC endpoints & PrivateLink: Optimize for security, cost & operations by Laura Caicedo](https://www.youtube.com/watch?v=LNf8jjBt72Y)
+
+## 7.1. How to Share PrivateLink endpoints between VPCs
+
+1. [Centralized DNS management of hybrid cloud with Amazon Route 53 and AWS Transit Gateway by Bhavin Desai](https://aws.amazon.com/blogs/networking-and-content-delivery/centralized-dns-management-of-hybrid-cloud-with-amazon-route-53-and-aws-transit-gateway/)
+
+  <img src="./images/shared-services-vpc.png" title="Shared Services VPC" width="900"/>
 
 # 8. Hyperplane ENI vs ENI
 
