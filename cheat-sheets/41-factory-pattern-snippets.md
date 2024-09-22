@@ -1142,3 +1142,4 @@ This code maintains the Singleton pattern for handlers and factories, uses the B
 # References
 
 1. [Become a Better Java Developer: Master these 5 Creational Design Patterns by Corey Duffy](https://levelup.gitconnected.com/become-a-better-java-developer-master-these-5-creational-design-patterns-4e91e0100e04)
+1. [Using the @Singular Annotation with Lombok Builders](https://www.baeldung.com/lombok-builder-singular)
