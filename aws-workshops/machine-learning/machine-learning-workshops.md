@@ -14,4 +14,13 @@
 
 1. [New technical deep dive course: Generative AI Foundations on AWS by Emily Webber](https://aws.amazon.com/blogs/machine-learning/new-technical-deep-dive-course-generative-ai-foundations-on-aws/)
 
-[Building with Amazon Bedrock](https://catalog.workshops.aws/building-with-amazon-bedrock/en-US)
+# Bedrock
+
+1. [Building with Amazon Bedrock](https://catalog.workshops.aws/building-with-amazon-bedrock/en-US)
+1. [Amazon Bedrock Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US)
+
+# Examples
+
+1. [Automate digitization of transactional documents with human oversight using Amazon Textract and Amazon A2I by Pri Nonis, David Dasari, Dan Noble, Jae Sung Jang, and Jeremy Feltracco ](https://aws.amazon.com/blogs/machine-learning/automate-digitization-of-transactional-documents-with-human-oversight-using-amazon-textract-and-amazon-a2i/)
+1. [Building a visual search application with Amazon SageMaker and Amazon ES by Amit Mukherjee and Laith Al-Saadoon](https://aws.amazon.com/blogs/machine-learning/building-a-visual-search-application-with-amazon-sagemaker-and-amazon-es/)
+1. [Building an NLU-powered search application with Amazon SageMaker and the Amazon OpenSearch Service KNN feature by Amit Mukherjee, Eitan Sela, and Laith Al-Saadoon](https://aws.amazon.com/blogs/machine-learning/building-an-nlu-powered-search-application-with-amazon-sagemaker-and-the-amazon-es-knn-feature/)
