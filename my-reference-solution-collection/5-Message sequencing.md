@@ -1,3 +1,4 @@
+
 To handle the sequencing problem you described, where you need to process messages in the correct order even if they arrive out of order, you can implement a message staging and sequencing mechanism. Here's a high-level design approach you could consider: [1]
 
 **1. Message Queue:** Use a message queue (e.g., Amazon SQS, RabbitMQ, Apache Kafka) to receive and store incoming messages. This ensures that messages are not lost and can be processed in the order they were received.
@@ -63,13 +64,13 @@ AWS Messaging Workshops: This set of workshops covers various messaging patterns
 
 Decoupling Workloads with Amazon SQS: This workshop focuses on using Amazon SQS for decoupling and sequencing workloads.
 
-AWS Blog Posts :
+**AWS Blog Posts :**
 
 Implementing Sequencing for Message Processing with Amazon SQS: This blog post discusses a solution for sequencing message processing using Amazon SQS and AWS Lambda.
 
 Implementing Sequencing for Message Processing with Amazon SQS and Amazon DynamoDB: This post explores a similar solution using Amazon DynamoDB as the staging area.
 
-Third-Party Resources :
+**Third-Party Resources :**
 
 Sequencing Messages with Apache Kafka: This blog post from Confluent discusses message sequencing patterns using Apache Kafka.
 
@@ -77,7 +78,7 @@ Message Sequencing in Distributed Systems: This blog post from RabbitMQ covers m
 
 Message Sequencing Patterns: This resource from the Enterprise Integration Patterns website discusses various message sequencing patterns. [2]
 
-Books :
+**Books :**
 
 "Enterprise Integration Patterns" by Gregor Hohpe and Bobby Woolf: This book is considered a classic reference for messaging patterns, including message sequencing and staging.
 
@@ -96,4 +97,6 @@ stackoverflow.comquestions1624618
 1. [Modernized Database Queuing using Amazon SQS and AWS Services by Scott Wainner, Anand Komandooru, and Harpreet Virk](https://aws.amazon.com/blogs/architecture/modernized-database-queuing-using-amazon-sqs-and-aws-services/)
 2. [How to use Apache Kafka to guarantee message ordering? by Chidambaram Kulandaian](https://medium.com/latentview-data-services/how-to-use-apache-kafka-to-guarantee-message-ordering-ac2d00da6c22)
 
+# My Addition Sources
 
+[Using Python and Amazon SQS FIFO Queues to Preserve Message Sequencing by Tara Van Unen](https://aws.amazon.com/blogs/developer/using-python-and-amazon-sqs-fifo-queues-to-preserve-message-sequencing/)
