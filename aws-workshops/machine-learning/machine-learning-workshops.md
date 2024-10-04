@@ -2,6 +2,18 @@
 1. [Amazon SageMaker MLOps: from idea to production in six steps](https://catalog.us-east-1.prod.workshops.aws/workshops/741835d3-a2bf-4cb6-81f0-d0bb4a62edca/en-US)
 2. [Generative AI on Amazon SageMaker - Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/972fd252-36e5-4eed-8608-743e84957f8e/en-US)
 
+# LLM
+
+1. [Build a chat assistant with Amazon Bedrock](https://catalog.us-east-1.prod.workshops.aws/workshops/1fb5c6e9-a4b1-4475-b9c8-23a9a202b3cb/en-US)
+1. [Use LLMs for building real-world apps](https://github.com/aws-samples/llm-apps-workshop)
+1. [Build an Agentic LLM Assistant on AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/c429f039-04d5-47e7-a039-1ded123c412f/en-US)
+1. [LLM Workshop on Amazon sagemaker](https://github.com/aws-samples/llm-workshop-on-amazon-sagemaker)
+1. [Generative AI and Data Science on AWS](https://catalog.us-east-1.prod.workshops.aws/workshops/f772b430-37d0-4adc-ba65-2f3e229caa5c/en-US)
+
+# Hugging Face
+
+1. [[WORKSHOP] Fine-tune Hugging Face LLMs using Amazon SageMaker and AWS Trainium](https://catalog.us-east-1.prod.workshops.aws/workshops/0cd5851b-5253-4a65-b351-70d0d80a7fb5/en-US)
+
 # SageMaker
 
 1. [Amazon SageMaker 101 Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/0c6b8a23-b837-4e0f-b2e2-4a3ffd7d645b/en-US)
@@ -13,6 +25,7 @@
 # Courses
 
 1. [New technical deep dive course: Generative AI Foundations on AWS by Emily Webber](https://aws.amazon.com/blogs/machine-learning/new-technical-deep-dive-course-generative-ai-foundations-on-aws/)
+1. [DeepLearning.AI](https://www.deeplearning.ai/courses/)
 
 # Bedrock
 
