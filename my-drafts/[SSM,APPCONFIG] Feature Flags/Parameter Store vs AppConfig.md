@@ -1,4 +1,8 @@
-Yes, you can implement feature flags using AWS Systems Manager **Parameter Store** as well. Parameter Store allows you to store key-value pairs, and feature flags can be managed as parameters. However, there are specific use cases where **AWS AppConfig** may be a better choice over Parameter Store. Here’s a comparison:
+Yes, you can implement feature flags using AWS Systems Manager **Parameter Store** as well. Parameter Store allows you to store key-value pairs, and feature flags can be managed as parameters.
+
+The standard version (no additional charge) can store parameters up to 4 KB in size and the advanced version (additional charges apply) up to 8 KB.
+
+However, there are specific use cases where **AWS AppConfig** may be a better choice over Parameter Store. Here’s a comparison:
 
 ### Implementing Feature Flags with AWS Parameter Store
 **Pros:**
