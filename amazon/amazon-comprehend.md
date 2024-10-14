@@ -1,5 +1,13 @@
 # AWS Comprehend
 
+# Must Try Resources
+
+1. [All the things that Amazon Comprehend, Rekognition, Textract, Polly, Transcribe, and Others Do](https://community.aws/content/2drYnXZi872TUMUSfw4Icfy0CcV/all-the-things-that-comprehend-rekognition-textract-polly-transcribe-and-others-do?lang=en)
+1. [[_**MUST_TRY**_] Discovering and indexing podcast episodes using Amazon Transcribe and Amazon Comprehend by Angela Wang and Mike Gillespie](https://aws.amazon.com/blogs/machine-learning/discovering-and-indexing-podcast-episodes-using-amazon-transcribe-and-amazon-comprehend/)
+- [Code Samples for Amazon Transcribe Comprehend Podcast](https://github.com/aws-samples/amazon-transcribe-comprehend-podcast)
+- CFN templates
+1. [Amazon Translate](https://github.com/aws-samples/document-translation)
+
 # Developer Resources
 
 https://aws.amazon.com/comprehend/resources/
@@ -29,6 +37,12 @@ https://aws.amazon.com/comprehend/resources/
 2. [Extract entities with Amazon Comprehend - Part 2 | Amazon Web Services](https://www.youtube.com/watch?v=oDk5aOd400c)
 
 # Curate
+
+1. [[**MUST_SEE**] All the things that Amazon Comprehend, Rekognition, Textract, Polly, Transcribe, and Others Do](https://community.aws/content/2drYnXZi872TUMUSfw4Icfy0CcV/all-the-things-that-comprehend-rekognition-textract-polly-transcribe-and-others-do?lang=en)
+1. [Code Samples for Amazon Transcribe Comprehend Podcast](https://github.com/aws-samples/amazon-transcribe-comprehend-podcast)
+1. [Introducing one-step classification and entity recognition with Amazon Comprehend for intelligent document processing by Anjan Biswas, Godwin Sahayaraj Vincent, and Wrick Talukdar](https://aws.amazon.com/blogs/machine-learning/introducing-one-step-classification-and-entity-recognition-with-amazon-comprehend-for-intelligent-document-processing/)
+
+1. [Demystifying Natural Language Processing and Machine Learning with Amazon Comprehend by Ravi Prasad Vangala, Néstor Gándara, and Hussain Shabbir ](https://aws.amazon.com/blogs/apn/demystifying-natural-language-processing-and-machine-learning-with-amazon-comprehend/)
 
 1. [AWS Comprehend: Illustrated How-to Guide by Tanya Zyabkina](https://zyabkina.com/nlp-with-aws-comprehend-how-to-guide/)
 1. [What is Amazon Comprehend?](https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html)

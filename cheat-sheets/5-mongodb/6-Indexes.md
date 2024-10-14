@@ -1,0 +1,5 @@
+1. [What are indexes in MongoDB and why do we need them?](https://studio3t.com/knowledge-base/articles/mongodb-index-strategy)
+1. [Automated Index Recommendations](https://www.mongodb.com/blog/post/performance-best-practices-indexing#:~:text=Automated%20Index%20Recommendations,without%20incurring%20any%20application%20downtime)
+1. [Indexing Strategies](https://www.mongodb.com/docs/manual/applications/indexes/#:~:text=Indexing%20Strategies%20%2D%20MongoDB%20Manual)
+1. [MongoDB University's MongoDB Indexes course](https://learn.mongodb.com/courses/mongodb-indexes)
+1. [Chapter 5. Indexes @ MongoDB: The Definitive Guide, 3rd Edition Shannon Bradshaw, Eoin Brazil, Kristina Chodorow]()

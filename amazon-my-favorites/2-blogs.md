@@ -11,6 +11,7 @@
 - [5. IAM](#5-iam)
 - [6. EKS](#6-eks)
 - [7. DNS](#7-dns)
+  - [Transcribe + comprehend](#transcribe--comprehend)
 
 <!-- /TOC -->
 
@@ -71,4 +72,11 @@
 1. [DNS best practices for Amazon Route 53 by Renato Gentil and Scott Morrison](https://aws.amazon.com/blogs/networking-and-content-delivery/dns-best-practices-for-amazon-route-53/)
 
 2. [How to achieve DNS high availability with Route 53 Resolver endpoints by Kartik Bheemisetty and Randy Weinstein](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-achieve-dns-high-availability-with-route-53-resolver-endpoints/)
+
+## Transcribe + comprehend
+
+[Discovering and indexing podcast episodes using Amazon Transcribe and Amazon Comprehend by Angela Wang and Mike Gillespie](https://aws.amazon.com/blogs/machine-learning/discovering-and-indexing-podcast-episodes-using-amazon-transcribe-and-amazon-comprehend/)
+- https://github.com/aws-samples/amazon-transcribe-comprehend-podcast
+
+<img src="./images/comprehend-transcribe-architecture.png" title="High Level Architecture" width="900"/>
 

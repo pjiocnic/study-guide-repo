@@ -4,7 +4,9 @@
 
 - [1. Lambda Extensions](#1-lambda-extensions)
 - [2. Feature Flags](#2-feature-flags)
-- [3. Workshop](#3-workshop)
+- [3. Java Based Appconfig](#3-java-based-appconfig)
+- [4. Curate](#4-curate)
+- [5. Using Lambda Extension](#5-using-lambda-extension)
 
 <!-- /TOC -->
 
@@ -16,14 +18,19 @@
 
 1. [[AWS-SAMPLES] AWS AppConfig Feature Flags example](https://github.com/aws-samples/aws-appconfig-feature-flags)
 2. [AWS Lambda Cookbook  - Part 6 -  Configuration & Feature Flags Best Practices](https://www.ranthebuilder.cloud/post/aws-lambda-cookbook-part-6-feature-flags-configuration-best-practices)
+3. [Best Practices for validating AWS AppConfig Feature Flags and Configuration Data by Chloe Goldstein ](https://aws.amazon.com/blogs/mt/best-practices-for-validating-aws-appconfig-feature-flags-and-configuration-data/)
 
-# 3. Workshop
+# 3. Java Based Appconfig
 
-1. [Learn to Use AWS AppConfig Feature Flags](https://catalog.us-east-1.prod.workshops.aws/workshops/2ee2fc71-0618-479c-86dd-1d5fb168eb20/en-US/02-getting-started/01-aws-event)
+1. [AWS AppConfig Java Sample](https://github.com/aws-samples/aws-appconfig-java-sample)
+1. [Accelerate your serverless journey with Powertools for AWS Lambda > Improving secret & config handling](https://catalog.workshops.aws/powertools-for-aws-lambda/en-US/003-workshop/003-java/module2/004-improving-secret-config-handling)
+1. [AWS AppConfig and Lambda: Power in the hands of the business by Sjoerd](https://medium.com/postnl-engineering/aws-appconfig-and-lambda-power-in-the-hands-of-the-business-440c2f32c6c9)
 
-  <img src="./images/appconfig.png" title="appconfig.png" width="900"/>
+# 4. Curate
 
-2. [AWS Management and Governance Tools Workshop > AWS AppConfig](https://mng.workshop.aws/appconfig.html)
+1. [Using AWS AppConfig Feature Flags by Steve Rice and Ivan Garcia ](https://aws.amazon.com/blogs/mt/using-aws-appconfig-feature-flags/)
+1. [Introducing AWS AppConfig Feature Flags In Preview by Steve Rice, Gunnar Grosch, and Vinni Satija](https://aws.amazon.com/blogs/mt/introducing-aws-appconfig-feature-flags-in-preview/)
 
-3. [Serverless Optimization Workshop (Performance and Cost) > Setting Log Levels using AppConfig](https://catalog.us-east-1.prod.workshops.aws/workshops/2d960419-7d15-44e7-b540-fd3ebeb7ce2e/en-US/log-tuning)
+# 5. Using Lambda Extension
 
+1. [SAMPLES](https://serverlessland.com/patterns?services=appconfig)
