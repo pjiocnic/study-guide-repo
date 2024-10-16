@@ -37,3 +37,7 @@
 1. [Automate digitization of transactional documents with human oversight using Amazon Textract and Amazon A2I by Pri Nonis, David Dasari, Dan Noble, Jae Sung Jang, and Jeremy Feltracco ](https://aws.amazon.com/blogs/machine-learning/automate-digitization-of-transactional-documents-with-human-oversight-using-amazon-textract-and-amazon-a2i/)
 1. [Building a visual search application with Amazon SageMaker and Amazon ES by Amit Mukherjee and Laith Al-Saadoon](https://aws.amazon.com/blogs/machine-learning/building-a-visual-search-application-with-amazon-sagemaker-and-amazon-es/)
 1. [Building an NLU-powered search application with Amazon SageMaker and the Amazon OpenSearch Service KNN feature by Amit Mukherjee, Eitan Sela, and Laith Al-Saadoon](https://aws.amazon.com/blogs/machine-learning/building-an-nlu-powered-search-application-with-amazon-sagemaker-and-the-amazon-es-knn-feature/)
+
+# Courses
+
+1. [Machine Learning University: Accelerated Natural Language Processing Class](https://github.com/aws-samples/aws-machine-learning-university-accelerated-nlp)
