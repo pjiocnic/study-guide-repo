@@ -149,6 +149,7 @@ When designing your application, consider these behaviors to ensure your system 
 **sources**
 
 1. [Elastic Load Balancer: Maximizing Benefits and Keeping Costs Low by Philippe Lantin, Abel Cruz, and Avinash Kolluri](https://aws.amazon.com/blogs/networking-and-content-delivery/elb-maximizing-benefits-and-keeping-costs-low/)
-1. [Elastic Load Balancer - Part2](https://awslearner.hashnode.dev/elastic-load-balancer-part2)
+1. [Elastic Load Balancer - Part1 by Utkarsh Rastogi](https://awslearner.hashnode.dev/elastic-load-balancer-part1)
+1. [Elastic Load Balancer - Part2 by Utkarsh Rastogi](https://awslearner.hashnode.dev/elastic-load-balancer-part2)
 1. [nlb-cross-zone-load-balancing-enabled - Checks if cross-zone load balancing is enabled on Network Load Balancers (NLBs). The rule is NON_COMPLIANT if cross-zone load balancing is not enabled for an NLB.](https://docs.aws.amazon.com/config/latest/developerguide/nlb-cross-zone-load-balancing-enabled.html)
 - https://docs.aws.amazon.com/config/latest/developerguide/aws-config-managed-rules-cloudformation-templates.html
