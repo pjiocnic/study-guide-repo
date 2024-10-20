@@ -2,12 +2,18 @@
 
 <!-- TOC -->
 
-- [1. How to create ALB as targets of NLB](#1-how-to-create-alb-as-targets-of-nlb)
-- [2. How to migrate NLB targets gracefully?](#2-how-to-migrate-nlb-targets-gracefully)
+- [1. Introduction](#1-introduction)
+- [2. How to create ALB as targets of NLB](#2-how-to-create-alb-as-targets-of-nlb)
+- [3. How to migrate NLB targets gracefully?](#3-how-to-migrate-nlb-targets-gracefully)
+- [SDK Client](#sdk-client)
 
 <!-- /TOC -->
 
-# 1. How to create ALB as targets of NLB
+# 1. Introduction
+
+1. [New Network Load Balancer – Effortless Scaling to Millions of Requests per Second](https://aws.amazon.com/blogs/aws/new-network-load-balancer-effortless-scaling-to-millions-of-requests-per-second/)
+
+# 2. How to create ALB as targets of NLB
 
 1. [Application Load Balancer-type Target Group for Network Load Balancer by Rohit Aswani and Eugene Wiehahn](https://aws.amazon.com/blogs/networking-and-content-delivery/application-load-balancer-type-target-group-for-network-load-balancer/)
 
@@ -21,8 +27,13 @@
 
     <img src="./images/ALB-as-a-target-of-NLB-detailed-architecture-diagram.png" title="ALB-as-a-target-of-NLB-detailed-architecture-diagram.png" width="900"/>
 
-# 2. How to migrate NLB targets gracefully?
+# 3. How to migrate NLB targets gracefully?
 
 1. [How to migrate your VPC endpoint service backend targets by Luis Felipe Silveira da Silva and Tom Adamski ](https://aws.amazon.com/blogs/networking-and-content-delivery/how-to-migrate-your-vpc-endpoint-service-backend-targets/)
 
     <img src="./images/endpoints-1.png" title="Endpoint migration" width="900"/>
+
+# SDK Client
+
+1. http://aws-java-sdk-javadoc.s3-website-us-west-2.amazonaws.com/latest/software/amazon/awssdk/services/elasticloadbalancingv2/ElasticLoadBalancingv2Client.html
+2. https://docs.aws.amazon.com/code-library/latest/ug/elastic-load-balancing-v2_example_elastic-load-balancing-v2_Hello_section.html
