@@ -7,3 +7,14 @@
 # Multi-region architecture
 
 1. [AWS re:Invent 2019: [REPEAT 2] Architecture patterns for multi-region active-active (ARC213-R2)](https://www.youtube.com/watch?v=3K9AzSrCmiQ)
+
+# Curate
+
+1. [Disaster Recovery (DR) Architecture on AWS, Part I: Strategies for Recovery in the Cloud by Seth Eliot](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-i-strategies-for-recovery-in-the-cloud/)
+2. [Disaster Recovery (DR) Architecture on AWS, Part II: Backup and Restore with Rapid Recovery](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-ii-backup-and-restore-with-rapid-recovery/)
+3. [Disaster Recovery (DR) Architecture on AWS, Part III: Pilot Light and Warm Standby](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iii-pilot-light-and-warm-standby/)
+4. [Disaster Recovery (DR) Architecture on AWS, Part IV: Multi-site Active/Active](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iv-multi-site-active-active/)
+
+## WhitePaper
+
+1. [Disaster recovery options in the cloud whitepaper](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html)

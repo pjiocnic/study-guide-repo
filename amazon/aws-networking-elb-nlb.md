@@ -6,6 +6,7 @@
 - [2. How to create ALB as targets of NLB](#2-how-to-create-alb-as-targets-of-nlb)
 - [3. How to migrate NLB targets gracefully?](#3-how-to-migrate-nlb-targets-gracefully)
 - [SDK Client](#sdk-client)
+- [Disaster Recovery / Failover Mechanisms](#disaster-recovery--failover-mechanisms)
 
 <!-- /TOC -->
 
@@ -37,3 +38,7 @@
 
 1. http://aws-java-sdk-javadoc.s3-website-us-west-2.amazonaws.com/latest/software/amazon/awssdk/services/elasticloadbalancingv2/ElasticLoadBalancingv2Client.html
 2. https://docs.aws.amazon.com/code-library/latest/ug/elastic-load-balancing-v2_example_elastic-load-balancing-v2_Hello_section.html
+
+# Disaster Recovery / Failover Mechanisms
+
+see /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/amazon/amazon-route53-failover.md
