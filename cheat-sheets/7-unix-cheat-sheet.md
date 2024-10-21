@@ -145,4 +145,7 @@ grep_command+=" log_file.txt"
 eval $grep_command
 ```
 
-
+```bash
+grep '^AORL-' input_file > output_file
+grep -v '^AORL-' input_file > other_lines_file
+```
