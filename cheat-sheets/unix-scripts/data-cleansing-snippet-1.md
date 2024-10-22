@@ -1,4 +1,6 @@
 
+###  Use awk to extract the matching lines and the following line
+
 ```bash
 #!/bin/bash
 
@@ -19,7 +21,7 @@ awk '/^S " AORL-1/ {print; getline; print}' "$filename"
 ./extract_lines.sh your_file.txt
 ```
 
-### Using Python
+### Use Python to extract the matching lines and the following line
 
 ```py
 # Function to extract lines starting with "S " AORL-1 and the immediate next line
@@ -49,7 +51,7 @@ for line in result:
 
 ```
 
-./concatenate_lines.sh
+### Concatenate lines (concatenate_lines.sh) using bash
 
 ```bash
 #!/bin/bash
@@ -81,6 +83,51 @@ awk '
 echo "Concatenation complete. Output saved to $output_file"
 ```
 
+### Concatenate lines using Python
+
+```py
+import sys
+
+def concatenate_lines(filename):
+    output_file = "concatenated_output.txt"
+
+    # Open the input file and the output file
+    with open(filename, 'r') as infile, open(output_file, 'w') as outfile:
+        lines = infile.readlines()
+
+        i = 0
+        while i < len(lines):
+            # Check if the line starts with 'S "  AORL-1'
+            if lines[i].startswith('S "  AORL-1'):
+                # Extract the part after 'S "' (which is after the first 3 characters)
+                line1 = lines[i][3:].strip()
+
+                # Check if the next line exists
+                if i + 1 < len(lines):
+                    # Extract the part after 'S "' from the next line (skipping first 3 characters)
+                    line2 = lines[i + 1][3:].strip()
+
+                    # Write the concatenated result to the output file
+                    outfile.write(f"{line1}{line2}\n")
+
+                # Skip the next line as it is already processed
+                i += 1
+            # Move to the next line
+            i += 1
+
+    print(f"Concatenation complete. Output saved to {output_file}")
+
+# Check if filename is provided
+if len(sys.argv) < 2:
+    print("Usage: python script.py filename")
+    sys.exit(1)
+
+# Pass the filename as an argument to the function
+filename = sys.argv[1]
+concatenate_lines(filename)
+```
+
+
 - Final cleansing
 
 ```bash
@@ -111,4 +158,48 @@ awk '
 }' "$filename" > "$output_file"
 
 echo "Processing complete. Output saved to $output_file"
+```
+
+Equivalent python code:
+
+```py
+import sys
+
+def process_file(filename):
+    output_file = "cleaned_concatenated_output.txt"
+
+    # Open the input file and the output file
+    with open(filename, 'r') as infile, open(output_file, 'w') as outfile:
+        lines = infile.readlines()
+
+        i = 0
+        while i < len(lines):
+            # Check if the line starts with 'S "  AORL-1'
+            if lines[i].startswith('S "  AORL-1'):
+                # Extract the part after 'S "  AORL-' (which is after the first 10 characters)
+                line1 = lines[i][10:].strip()
+
+                # Check if the next line exists
+                if i + 1 < len(lines):
+                    # Extract the part after 'S "' from the next line (skipping first 3 characters)
+                    line2 = lines[i + 1][3:].strip()
+
+                    # Write the concatenated result to the output file
+                    outfile.write(f"{line1}{line2}\n")
+
+                # Skip the next line as it is already processed
+                i += 1
+            # Move to the next line
+            i += 1
+
+    print(f"Processing complete. Output saved to {output_file}")
+
+# Check if filename is provided
+if len(sys.argv) < 2:
+    print("Usage: python script.py filename")
+    sys.exit(1)
+
+# Pass the filename as an argument to the function
+filename = sys.argv[1]
+process_file(filename)
 ```
