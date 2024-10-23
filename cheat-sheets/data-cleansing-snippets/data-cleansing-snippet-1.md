@@ -149,8 +149,8 @@ output_file="cleaned_concatenated_output.txt"
 awk '
   /^S "  AORL-1/ {
     # Extract the part after S "  AORL- and just keep the numeric part onwards
-    line1 = substr($0, 11)  # Skip "S "  AORL-" (first 10 characters)
-    getline
+    line1 = substr($0, 11)  # Skip "S "  AORL-" (first 10 characters), $0 represents entire line
+    getline # getline reads the next line from the file
     # Remove S " from the next line and concatenate
     line2 = substr($0, 4)   # Skip "S " (first 3 characters)
     # Print the concatenated result to the output file
@@ -202,4 +202,39 @@ if len(sys.argv) < 2:
 # Pass the filename as an argument to the function
 filename = sys.argv[1]
 process_file(filename)
+```
+
+# Alternate cleaning methods
+
+```py
+import sys
+
+def concatenate_pairs(filename):
+    output_file = "concatenated_output.txt"
+
+    # Open the input file and the output file
+    with open(filename, 'r') as infile, open(output_file, 'w') as outfile:
+        lines = infile.readlines()
+
+        # Iterate over the lines in steps of 2 (pairing lines)
+        for i in range(0, len(lines), 2):
+            # Make sure we don't go out of bounds
+            if i + 1 < len(lines):
+                # Get the first line and second line of each pair
+                line1 = lines[i].strip()
+                line2 = lines[i + 1].strip()
+
+                # Concatenate and write to the output file
+                outfile.write(f"{line1}{line2}\n")
+
+    print(f"Concatenation complete. Output saved to {output_file}")
+
+# Check if filename is provided
+if len(sys.argv) < 2:
+    print("Usage: python script.py filename")
+    sys.exit(1)
+
+# Pass the filename as an argument to the function
+filename = sys.argv[1]
+concatenate_pairs(filename)
 ```
