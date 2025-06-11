@@ -1,0 +1,2 @@
+1. [Understanding Positional Encoding in Transformers by Kemal Erdem](https://towardsdatascience.com/understanding-positional-encoding-in-transformers-dc6bafc021ab)
+1. [ransformer Architecture: The Positional Encoding by Amirhossein Kazemnejad](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)

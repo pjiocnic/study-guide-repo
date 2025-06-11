@@ -1,0 +1,2 @@
+[K-Means Clustering in Python: A Practical Guide by Kevin Arvai](https://realpython.com/k-means-clustering-python)
+[K-means and hierarchical clustering with Python](https://learning.oreilly.com/library/view/k-means-and-hierarchical/9781491965306/)

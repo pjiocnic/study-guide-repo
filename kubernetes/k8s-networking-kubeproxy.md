@@ -1,0 +1,2 @@
+
+1. [[BEST / DIAGRAMS] Kube-Proxy and CNI: The Hidden Components of Kubernetes Networking by Seifeddine Rajhi](https://medium.com/@seifeddinerajhi/kube-proxy-and-cni-the-hidden-components-of-kubernetes-networking-eb30000bf87a)

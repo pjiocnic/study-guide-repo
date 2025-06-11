@@ -1,0 +1,1 @@
+[Polling Service](https://catalog.workshops.aws/serverless-patterns/en-US/module5/sam-python)

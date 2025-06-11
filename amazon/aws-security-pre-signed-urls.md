@@ -1,0 +1,1 @@
+1. [How to securely transfer files with presigned URLs by Sumit Bhati and Swapnil Singh](https://aws.amazon.com/blogs/security/how-to-securely-transfer-files-with-presigned-urls/)

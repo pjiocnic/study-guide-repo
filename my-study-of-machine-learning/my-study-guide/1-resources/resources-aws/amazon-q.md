@@ -1,0 +1,1 @@
+[Five ways to optimize code with Amazon Q Developer by Karthik Chemudupati, Roman Martynenko, and Shardul Vaidya](https://aws.amazon.com/blogs/devops/five-ways-to-optimize-code-with-amazon-q-developer/)

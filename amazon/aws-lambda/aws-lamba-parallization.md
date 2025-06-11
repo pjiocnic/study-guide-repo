@@ -1,0 +1,1 @@
+1. [Efficiently processing batched data using parallelization in AWS Lambda by Anton Aleksandrov](https://aws.amazon.com/blogs/compute/efficiently-processing-batched-data-using-parallelization-in-aws-lambda/)

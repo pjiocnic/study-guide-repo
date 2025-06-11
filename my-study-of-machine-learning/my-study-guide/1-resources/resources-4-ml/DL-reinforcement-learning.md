@@ -1,0 +1,1 @@
+[Stanford CS234 I Reinforcement Learning I Spring 2024 I Emma Brunskill by Stanford Online](https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX)

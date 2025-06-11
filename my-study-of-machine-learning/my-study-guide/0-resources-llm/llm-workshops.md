@@ -1,0 +1,1 @@
+[Mastering LLM Evaluation - A Hands-On Bedrock and Promptfoo Workshop](https://catalog.us-east-1.prod.workshops.aws/promptfoo/en-US)

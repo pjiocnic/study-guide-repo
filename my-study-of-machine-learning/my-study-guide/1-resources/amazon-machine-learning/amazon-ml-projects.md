@@ -1,0 +1,3 @@
+1. [Creating a Game Prototype with Amazon Q and Amazon Bedrock (Prompt Engineering on AWS) by Haowen Huang](https://www.youtube.com/watch?v=5rltfEd4oD8)
+- [From Concept to Playable in Seconds: Creating the Greedy Snake Game with Amazon Q Developer by Haowen Huang](https://community.aws/content/2mlndUmDADGwEWfv2K5SUmgJCM4/from-concept-to-playable-in-seconds-creating-the-greedy-snake-game-with-amazon-q-developer)
+- [From Concept to Playable in seconds: Creating the Greedy Snake Game with Amazon Bedrock by Haowen Huang](https://community.aws/content/2jOAm3ljdrqiMd3oyCEpcqo3ooF/from-concept-to-playable-in-seconds-creating-the-greedy-snake-game-with-amazon-bedrock)

@@ -1,0 +1,224 @@
+# src: https://aws.amazon.com/blogs/mt/how-to-centralize-cloudwatch-alarms-with-amazon-eventbridge-and-aws-cloudformation/
+# Need to format
+
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: |
+Centralize Amazon CloudWatch alarms in a multi-account environment with Amazon EventBridge.
+**WARNING** This template creates an Amazon CloudWatch Log group and uses Cross-account/Cross-region events with Amazon EventBridge.
+You will be billed for the AWS resources used if you create a stack from this template.
+
+Metadata:
+AWS::CloudFormation::Interface:
+ParameterGroups:
+- Label:
+
+default: Account Details Parameters:
+
+- ReceiverAccountIDParam - BusParam
+- OrganizationIDParam
+
+- Label:
+default: Centralize Regions
+
+Parameters:
+- CentralizationParam
+- CentralizationRegionParam
+
+- Label:
+default: (Optional) Add an Amazon CloudWatch Log group Target
+
+Parameters:
+
+-  CreateTargetParam
+-  CloudWatchLogGroupParam
+
+Parameters:
+ReceiverAccountIDParam:
+Description: The accountID for the Monitoring Account. Type: String
+AllowedPattern: ^[0-9]{12}$
+MinLength: 1
+MaxLength: 12
+
+BusParam:
+Description: The name of the custom Bus in the Monitoring Account. Type: String
+MinLength: 1
+MaxLength: 256
+
+OrganizationIDParam:
+
+Type: String
+
+AllowedPattern: ^o-[a-z0-9]+
+
+Description: The OrgID to allow all members of your AWS Organizations to use the PutEvents.
+
+CentralizationParam:
+Type: String
+Default: 'No'
+AllowedValues:
+- 'Yes'
+- 'No'
+
+Description: Select 'Yes' if you would like to centralize the events on the receiver account.
+CentralizationRegionParam:
+Type: String
+Default: ''
+
+Description: Enter the region to centralize the events on the receiver account. For example: US East (Ohio), type us-east-2. Leave this as blank if the above parameter is selected as 'NO'
+
+CreateTargetParam:
+Type: String
+Default: 'No'
+AllowedValues:
+- 'Yes'
+- 'No'
+Description: Select 'Yes' if you would like to create target .
+
+CloudWatchLogGroupParam:
+Type: String
+Default: /aws/events/EB-Test
+AllowedPattern: ^\/aws\/events\/[\.\-_/#A-Za-z0-9]+ MinLength: 13
+
+MaxLength: 512
+
+Description: Enter the CloudWatch log group name, if you would like to have a target in the receiving account. Use the prefix '/aws/events'.
+
+Conditions: IsReceiver: !Equals
+
+- !Ref 'ReceiverAccountIDParam'
+
+- !Ref 'AWS::AccountId' IsSender: !Not
+
+- !Condition 'IsReceiver' Centralize: !Equals
+
+- !Ref 'CentralizationParam'
+
+- 'Yes' CentralizeRegion: !Equals
+
+- !Ref 'CentralizationRegionParam'
+
+- !Ref 'AWS::Region' ReceiverRegion: !And
+
+- !Condition 'IsReceiver' - !Or
+
+- !Condition 'CentralizeRegion' - !And
+
+- !Not
+- !Condition 'Centralize'
+
+- !Not
+- !Condition 'CentralizeRegion'
+
+CreateTarget: !And
+- !Equals
+
+- !Ref 'CreateTargetParam'
+
+- 'Yes'
+- !Condition 'ReceiverRegion'
+
+Resources: ReceiverEventBus:
+
+Type: AWS::Events::EventBus Condition: ReceiverRegion Properties:
+
+Name: !Ref 'BusParam' ReceiverBusPolicy:
+
+Type: AWS::Events::EventBusPolicy Condition: ReceiverRegion DependsOn: ReceiverEventBus Properties:
+
+EventBusName: !Ref 'BusParam' StatementId: MyStatement Statement:
+
+Effect: Allow Principal: '*'
+Action: events:PutEvents
+
+Resource: !Sub 'arn:${AWS::Partition}:events:${AWS::Region}:${ReceiverAccountIDParam}:event- bus/${BusParam}'
+
+Condition:
+StringEquals:
+
+aws:PrincipalOrgID: !Sub '${OrganizationIDParam}' SenderEventRule:
+
+Type: AWS::Events::Rule Condition: IsSender Properties:
+
+Description: Captures CloudWatch Alarm State Changes. Name: CloudWatchAlarmMonitor
+EventBusName: default
+State: ENABLED
+EventPattern:
+source:
+
+- aws.cloudwatch
+detail-type:
+
+- CloudWatch Alarm State Change Targets: !If
+
+- Centralize
+
+- - Arn: !Sub 'arn:${AWS::Partition}:events:${CentralizationRegionParam}:${ReceiverAccountI DParam}:event-bus/${BusParam}'
+
+Id: CrossAccountDestinationBus
+
+RoleArn: !GetAtt 'EventBridgeIAMrole.Arn'
+
+- - Arn: !Sub 'arn:${AWS::Partition}:events:${AWS::Region}:${ReceiverAccountIDParam}:event- bus/${BusParam}'
+
+Id: CrossRegionDestinationBus
+
+RoleArn: !GetAtt 'EventBridgeIAMrole.Arn' ReceiverEventRule:
+
+Type: AWS::Events::Rule Condition: ReceiverRegion DependsOn: ReceiverEventBus Properties:
+
+Description: Captures CloudWatch Alarm State Changes. Name: CloudWatchAlarmMonitor
+EventBusName: !Ref 'BusParam'
+State: ENABLED
+
+EventPattern:
+source:
+
+- aws.cloudwatch
+detail-type:
+
+- CloudWatch Alarm State Change Targets: !If
+
+- CreateTarget
+
+- - Arn: !Sub 'arn:${AWS::Partition}:logs:${AWS::Region}:${ReceiverAccountIDParam}:log- group:${CloudWatchLogGroupParam}'
+Id: CloudWatchLogGroup - !Ref 'AWS::NoValue'
+
+CloudWatchLogGroup:
+Type: AWS::Logs::LogGroup Condition: CreateTarget Properties:
+
+LogGroupName: !Ref 'CloudWatchLogGroupParam' CloudWatchLogResourcePolicy:
+
+Type: AWS::Logs::ResourcePolicy Condition: CreateTarget Properties:
+
+PolicyName: TrustEventsToSendLogEvents
+
+PolicyDocument: !Sub '{"Version":"2012-10- 17","Statement":[{"Sid":"TrustEventsToStoreLogEvent","Effect":"Allow","Princi pal":{"Service":["events.amazonaws.com","delivery.logs.amazonaws.com"]},"Acti on":["logs:CreateLogStream","logs:PutLogEvents"],"Resource":"arn:${AWS::Parti tion}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/events/*:*"}]}'
+
+EventBridgeIAMrole: Type: AWS::IAM::Role Condition: IsSender Properties:
+
+AssumeRolePolicyDocument: Version: 2012-10-17 Statement:
+
+- Effect: Allow
+Principal:
+
+Service:
+- events.amazonaws.com
+
+Action: sts:AssumeRole Path: /
+
+Policies:
+- PolicyName: PutEventsDestinationBus
+
+PolicyDocument: Version: 2012-10-17 Statement:
+- Effect: Allow
+Action:
+
+- events:PutEvents
+Resource: !If
+
+- Centralize
+
+- - !Sub 'arn:${AWS::Partition}:events:${CentralizationRegionParam}:${ReceiverAccountI DParam}:event-bus/${BusParam}'
+
+- - !Sub 'arn:${AWS::Partition}:events:${AWS::Region}:${ReceiverAccountIDParam}:event- bus/${BusParam}'

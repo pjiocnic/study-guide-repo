@@ -1,0 +1,55 @@
+<h1>Sprint 20 - May 13, 2024 - May 19, 2024</h1>
+
+# Topics
+
+1. S3 encryption
+1. Difference between Role and Group - https://www.udemy.com/course/rocking-kubernetes-with-amazon-eks-fargate-and-devops/learn/lecture/20466635#overview:~:text=71.-,Optional,-%2D%20IAM%20User%2C%20Role
+1. [Get to Grips with AWS IAM Roles: Terms, Concepts, and Examples](https://blog.awsfundamentals.com/aws-iam-roles-terms-concepts-and-examples)
+    - Service Roles and Service Linked Roles
+    - IAM Pass Role
+    - Permission Boundaries
+    - Cross-Account Access
+1. /Volumes/Lexar/git-repos/aws-repo/my-github/study-guide-repo/my-drafts/[EKS] Helm/Helm charts.md
+1. How to access K8S API from inside a pod using java
+- https://github.com/kubernetes-client/java/blob/master/examples/examples-release-18/src/main/java/io/kubernetes/client/examples/InClusterClientExample.java
+- https://www.baeldung.com/kubernetes-java-client
+1. [[VISIT] EKS Developers Workshop for Java](https://developers.eksworkshop.com/docs/java/)
+1. https://docs.aws.amazon.com/eks/latest/userguide/pod-configuration.html
+1. https://medium.com/@anil.goyal0057/implementing-and-understanding-iam-roles-for-service-accounts-in-aws-eks-00e8fd2a0262
+1. [[_**MY_NEXT**_] Introducing fine-grained IAM roles for service accounts by Micah Hausler and Michael Hausenblas](https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/)
+- https://mhausenblas.info/rbIAM/
+- https://aws.amazon.com/blogs/opensource/centralized-container-logging-fluent-bit/
+
+
+# Tuesday
+
+1. https://mhausenblas.info/rbIAM/
+1. [Using IAM database authentication with workloads running on Amazon EKS by Praseeda Sathaye](https://aws.amazon.com/blogs/containers/using-iam-database-authentication-with-workloads-running-on-amazon-eks/)
+1. https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/
+1. [How to use Service Account in EKS by Wu Jiaojiao & Li Yuansan](https://medium.com/lazy-tech-leader-series/how-to-use-service-account-in-eks-cf4fb5926147)
+
+# 2. Make Notes
+
+1. [AWS re:Invent 2019: Building highly available applications using Global Accelerator (NET318-R1)](https://www.youtube.com/watch?v=3ud_LLpzOAE)
+1. [Operating a multi-regional stateless application using Amazon EKS by Re Alvarez-Parmar](https://aws.amazon.com/blogs/containers/operating-a-multi-regional-stateless-application-using-amazon-eks/)
+1. [Combining serverless messaging services | Serverless Office Hours](https://www.twitch.tv/videos/2121449912)
+1. https://aws.amazon.com/blogs/containers/multi-tenant-design-considerations-for-amazon-eks-clusters/
+1. [Understanding AWS Lambda’s invoke throttling limits by Archana Srikanta](https://aws.amazon.com/blogs/compute/understanding-aws-lambdas-invoke-throttle-limits/)
+1. [Diving into IAM Roles for Service Accounts by Gaurav Pilay ](https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts/)
+- compare with [Amazon EKS Pod Identity simplifies IAM permissions for applications on Amazon EKS clusters by Donnie Prakoso](https://aws.amazon.com/blogs/aws/amazon-eks-pod-identity-simplifies-iam-permissions-for-applications-on-amazon-eks-clusters/)
+1. [Integrate Amazon API Gateway with Amazon EKS by Re Alvarez-Parmar and Vikram Venkataraman](https://aws.amazon.com/blogs/containers/integrate-amazon-api-gateway-with-amazon-eks/)
+1. [Kubernetes for Developers: Core Concepts by Dan Wahlin](https://app.pluralsight.com/ilx/video-courses/bea52e4a-38de-4ba1-8aa4-7787e2edb9a6/25473c1f-7248-4bba-87d4-2f235fea349a/a07bb717-ab86-48ad-a863-aea78ad120d0)
+1. [Traffic management with AWS Global Accelerator by Tino Tran](https://aws.amazon.com/blogs/networking-and-content-delivery/traffic-management-with-aws-global-accelerator/)
+1. [[**MAKE_NOTES**] A Case Study in Global Fault Isolation by Lee-Ming Zen](https://aws.amazon.com/blogs/architecture/a-case-study-in-global-fault-isolation/)
+1. [Starting Small with AWS Global Accelerator by Burak Gozluklu](https://aws.amazon.com/blogs/networking-and-content-delivery/starting-small-with-aws-global-accelerator/)
+- https://aws.amazon.com/getting-started/hands-on/launch-a-wordpress-website/
+1. [New – AWS Global Accelerator for Availability and Performance by Shaun Ray](https://aws.amazon.com/blogs/aws/new-aws-global-accelerator-for-availability-and-performance/)
+- [[TUTORIAL] Launch and Configure a WordPress Instance with Amazon Lightsail](https://aws.amazon.com/getting-started/hands-on/launch-a-wordpress-website/)
+1. [[**MAKE_NOTES**] AWS re:Invent 2020: Global traffic management with Amazon Route 53 By Tom Adamski](https://www.youtube.com/watch?v=E33dA6n9O7I)
+- Nameserver striping
+- Anycast Nameserver
+
+# Blogs to read
+
+1. [Using IAM database authentication with workloads running on Amazon EKS by Praseeda Sathaye](https://aws.amazon.com/blogs/containers/using-iam-database-authentication-with-workloads-running-on-amazon-eks/)
+1. [[START_HERE] Introducing OIDC identity provider authentication for Amazon EKS by Rashmi Dwaraka, Mike Stefaniak, and Paavan Mistry](https://aws.amazon.com/blogs/containers/introducing-oidc-identity-provider-authentication-amazon-eks/)

@@ -1,0 +1,9 @@
+{
+    "Version": "2012-10-17",
+    "Statement": {
+      "Effect": "Allow",
+      "Action": ["sts:AssumeRoleWithSAML","sts:SetSourceIdentity"],
+      "Principal": {"Federated": "arn:aws:iam::111122223333:saml-provider/PROVIDER-NAME"},
+      "Condition": {"StringEquals": {"SAML:aud": "https://signin.aws.amazon.com/saml"}}
+    }
+  }

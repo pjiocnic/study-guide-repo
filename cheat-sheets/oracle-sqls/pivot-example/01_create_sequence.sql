@@ -1,0 +1,5 @@
+
+CREATE SEQUENCE team_scores_seq
+  START WITH 1
+  INCREMENT BY 1
+  NOCACHE;

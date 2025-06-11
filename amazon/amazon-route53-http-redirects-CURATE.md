@@ -1,0 +1,2 @@
+
+[Automating HTTP/S Redirects and certificate management at scale by Mandar Alankar, Rohit Aswani, and Saptarshi Moitra](https://aws.amazon.com/blogs/networking-and-content-delivery/automating-http-s-redirects-and-certificate-management-at-scale/)

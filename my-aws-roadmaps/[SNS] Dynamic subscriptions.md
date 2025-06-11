@@ -1,0 +1,2 @@
+
+1. [Building dynamic Amazon SNS subscriptions for auto scaling container workloads by Mithun Mallick,](https://aws.amazon.com/blogs/compute/building-dynamic-amazon-sns-subscriptions-for-auto-scaling-container-workloads/)

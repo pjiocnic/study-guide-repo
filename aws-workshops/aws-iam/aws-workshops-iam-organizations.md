@@ -1,0 +1,6 @@
+1. [Workshop: Getting started with Centralized Operations Management on AWS](https://catalog.workshops.aws/getting-started-with-com/en-US)
+2. [Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/)
+    - [Shared Services account](https://docs.aws.amazon.com/managedservices/latest/userguide/shared-services-account.html)
+3. [AWS Management and Governance Tools Workshop > AWS CloudFormation > MAPPING AND STACKSETS](https://mng.workshop.aws/cloudformation/mappingstacksets.html)
+4. [Multi-Account Security Governance Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/d3f60827-89f2-46a8-9be7-6e7185bd7665/en-US)
+5. [AWS organization setup @ Workshop AWS Account Setup](https://workshop-aws-account-setup.fstehle.com/master-account/aws-organization/)

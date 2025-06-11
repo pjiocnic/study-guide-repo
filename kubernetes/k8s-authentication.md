@@ -1,0 +1,1 @@
+[Kubernetes Authentication by kubucation](https://www.youtube.com/playlist?list=PLShDm2AZYnK22Gqm5UJJ5WlUm48AYhHQ_)

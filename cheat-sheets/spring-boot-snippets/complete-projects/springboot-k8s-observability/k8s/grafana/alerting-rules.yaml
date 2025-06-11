@@ -1,0 +1,12 @@
+apiVersion: 1
+groups:
+  - name: instance-health
+    rules:
+      - alert: HighProcessingTime
+        expr: rate(app_total_processing_time_seconds_sum[1m]) > 1
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High app processing time detected"
+          description: "App processing duration is too high on instance {{ $labels.instance }}"

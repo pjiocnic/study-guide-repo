@@ -1,0 +1,1 @@
+[Coordinating large messages across accounts and Regions with Amazon SNS and SQS by Mrudhula Balasubramanyan](https://aws.amazon.com/blogs/architecture/coordinating-large-messages-across-accounts-and-regions-with-amazon-sns-and-sqs/)

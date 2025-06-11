@@ -1,0 +1,1 @@
+1. [How to setup Jitters](../aws-lambda.md#1221-exponential-backoff-and-jitter-algorithm)

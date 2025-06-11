@@ -1,0 +1,2 @@
+1. [Tensorflow course by Tim](https://www.freecodecamp.org/learn/machine-learning-with-python/)
+1. [[REVIEW] Machine Learning Projects with TensorFlow 2.0 Vlad Sebastian Ionescu](https://learning.oreilly.com/course/machine-learning-projects/9781838980252/)

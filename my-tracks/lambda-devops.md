@@ -1,0 +1,2 @@
+1. [Automatically Detect Operational Issues in Lambda Functions with Amazon DevOps Guru for Serverless by Marcia Villalba](https://aws.amazon.com/blogs/aws/automatically-detect-operational-issues-in-lambda-functions-with-amazon-devops-guru-for-serverless/)
+2. [How to Debug AWS Lambda Performance Issues By Yan Cui](https://medium.com/lumigo/how-to-debug-aws-lambda-performance-issues-57053db1caf9)

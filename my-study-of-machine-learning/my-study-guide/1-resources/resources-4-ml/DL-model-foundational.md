@@ -1,0 +1,5 @@
+1. [What are Foundation Models? - Generative AI](https://aws.amazon.com/what-is/foundation-models/)
+2. [Foundation Models vs. Traditional AI: What’s the Difference? by Hakeem Abbas](https://medium.com/@hakeemsyd/foundation-models-vs-traditional-ai-whats-the-difference-ad9f3f097dec)
+3. [Foundational Model vs. LLM: Understanding the Differences by Novita AI](https://medium.com/@marketing_novita.ai/foundational-model-vs-llm-understanding-the-differences-820a4428dbc3)
+4. [What are foundation models? by IBM](https://www.ibm.com/think/topics/foundation-models)
+5. [Foundation Models Vs LLM(Large Language Models) by Aman Walia](https://www.linkedin.com/pulse/foundation-models-vs-llmlarge-language-aman-walia-aslsc/)

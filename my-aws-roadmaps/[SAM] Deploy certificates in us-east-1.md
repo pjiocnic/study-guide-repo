@@ -1,0 +1,1 @@
+[Edge API Gateway Custom Domain with SAM/certificate in us-east-1 when using another region](https://community.aws/content/2aOEpVsGlUkzYinAN3MKg4ITt17/edge-api-gateway-custom-domain-with-sam?lang=en)

@@ -1,0 +1,8 @@
+[Regularization (Day 55-57) by CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvZuSEZ24Wlm13QpsfLlJBM4)
+- [Ridge Regression Part 1 | Geometric Intuition and Code | Regularized Linear Models](https://www.youtube.com/watch?v=aEow1QoTLo0&list=PLKnIA16_RmvZuSEZ24Wlm13QpsfLlJBM4&index=1&t=872s&pp=iAQB)
+- [Ridge Regression Part 2 | Mathematical Formulation & Code from scratch | Regularized Linear Models](https://www.youtube.com/watch?v=oDlZBQjk_3A&list=PLKnIA16_RmvZuSEZ24Wlm13QpsfLlJBM4&index=2&pp=iAQB)
+- [Ridge Regression Part 3 | Gradient Descent | Regularized Linear Models](https://www.youtube.com/watch?v=Fci_wwMp8G8&list=PLKnIA16_RmvZuSEZ24Wlm13QpsfLlJBM4&index=3&pp=iAQB)
+- [5 Key Points - Ridge Regression | Part 4 | Regularized Linear Models](https://www.youtube.com/watch?v=8osKeShYVRQ&list=PLKnIA16_RmvZuSEZ24Wlm13QpsfLlJBM4&index=4&pp=iAQB)
+- [Lasso Regression | Intuition and Code Sample | Regularized Linear Models](https://www.youtube.com/watch?v=HLF4bFbBgwk&list=PLKnIA16_RmvZuSEZ24Wlm13QpsfLlJBM4&index=5&pp=iAQB)
+- [Why Lasso Regression creates sparsity?](https://www.youtube.com/watch?v=FN4aZPIAfI4&list=PLKnIA16_RmvZuSEZ24Wlm13QpsfLlJBM4&index=6&pp=iAQB)
+- [ElasticNet Regression | Intuition and Code Example | Regularized Linear Models](https://www.youtube.com/watch?v=2g2DBkFhTTY&list=PLKnIA16_RmvZuSEZ24Wlm13QpsfLlJBM4&index=7&pp=iAQB)

@@ -1,0 +1,1 @@
+1. [All You Need to Know to Build Your First LLM App A Step-by-Step Tutorial to Document Loaders, Embeddings, Vector Stores and Prompt Templates by Dominik Polzer](https://towardsdatascience.com/all-you-need-to-know-to-build-your-first-llm-app-eb982c78ffac)

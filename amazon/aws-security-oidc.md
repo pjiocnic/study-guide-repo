@@ -1,0 +1,3 @@
+1. [Use IAM roles to connect GitHub Actions to actions in AWS by David Rowe](https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/)
+1. [Building an App Using Amazon Cognito and an OpenID Connect Identity Providerby Shon Shah and Abrom Douglas](https://aws.amazon.com/blogs/security/building-an-app-using-amazon-cognito-and-an-openid-connect-identity-provider/)
+1. [Setting Up OpenID Connect with GitLab CI/CD to Provide Secure Access to Environments in AWS Accounts by Joe Randazzo, Darwin Sanoy, and Mark Kriaf](https://aws.amazon.com/blogs/apn/setting-up-openid-connect-with-gitlab-ci-cd-to-provide-secure-access-to-environments-in-aws-accounts/)

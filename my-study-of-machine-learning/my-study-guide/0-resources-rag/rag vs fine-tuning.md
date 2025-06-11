@@ -1,0 +1,2 @@
+[How to Make Your LLM More Accurate with RAG & Fine-Tuning By Sara Lee](https://towardsdatascience.com/how-to-make-your-llm-more-accurate-with-rag-fine-tuning/)
+[Comparing Retrieval Augmented Generation and fine-tuning](https://docs.aws.amazon.com/prescriptive-guidance/latest/retrieval-augmented-generation-options/rag-vs-fine-tuning.html)

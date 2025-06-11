@@ -1,0 +1,1 @@
+[Lesson 4 - The Rank Of A Matrix (Linear Algebra)](https://www.youtube.com/watch?v=XjwIdUvHOKw)

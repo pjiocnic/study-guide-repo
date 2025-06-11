@@ -1,0 +1,10 @@
+1. [Mastering Named Entity Recognition with BERT: A Comprehensive Guide by Ahmet Münir Kocaman](https://medium.com/@ahmetmnirkocaman/mastering-named-entity-recognition-with-bert-a-comprehensive-guide-b49f620e50b0)
+
+1. [Fine-Tuning BERT for Classification: A Practical Guide by Hey Amit](https://medium.com/@heyamit10/fine-tuning-bert-for-classification-a-practical-guide-b8c1c56f252c)
+1. [Fine-Tuning BERT for Sentiment Analysis: A Practical Guide by Hey Amit](https://medium.com/@heyamit10/fine-tuning-bert-for-sentiment-analysis-a-practical-guide-f3d9c9cac236)
+1. [Fine-Tuning BERT using Hugging Face Transformers by LearnOpenCV](https://www.youtube.com/watch?v=bHR88Ug7K8Q)
+1. [Fine-Tuning BERT using Hugging Face Transformers by Sovit RathSovit Rath](https://learnopencv.com/fine-tuning-bert/)
+1. [BERT Fine-Tuning Tutorial with PyTorch By Chris McCormick and Nick Ryan](https://mccormickml.com/2019/07/22/BERT-fine-tuning/)
+1. [Mastering BERT: A Comprehensive Guide from Beginner to Advanced in Natural Language Processing (NLP)](https://medium.com/@shaikhrayyan123/a-comprehensive-guide-to-understanding-bert-from-beginners-to-advanced-2379699e2b51)
+1. [Fine Tune BERT Models forum @ HuggingFace](https://discuss.huggingface.co/t/fine-tune-bert-models/1554)
+1. [A Complete Guide to BERT with Code by Bradney Smith](https://towardsdatascience.com/a-complete-guide-to-bert-with-code-9f87602e4a11)

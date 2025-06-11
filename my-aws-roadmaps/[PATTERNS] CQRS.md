@@ -1,0 +1,1 @@
+https://community.aws/posts/scaling-your-application-data-patterns

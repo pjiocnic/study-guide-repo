@@ -1,0 +1,1 @@
+[Essential Math for Data Science by Thomas Nield](https://learning.oreilly.com/library/view/essential-math-for/9781098102920/)

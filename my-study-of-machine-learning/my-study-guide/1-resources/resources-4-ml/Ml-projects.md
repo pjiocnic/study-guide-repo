@@ -1,0 +1,1 @@
+[The Ultimate Guide to Building a Machine Learning Portfolio That Lands Jobs](https://www.kdnuggets.com/the-ultimate-guide-to-building-a-machine-learning-portfolio-that-lands-jobs)

@@ -1,0 +1,1 @@
+[Python Core Concepts with Examples and Explanations](https://rohanpaul.gumroad.com/l/python-core-with-under-the-hood-explanations)

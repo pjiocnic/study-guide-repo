@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "spring-batch-starter.fullname" . }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ include "spring-batch-starter.name" . }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "spring-batch-starter.name" . }}
+    spec:
+      containers:
+        - name: spring-batch
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: {{ .Values.env.ORACLE_URL | quote }}
+            - name: SPRING_DATASOURCE_USERNAME
+              value: {{ .Values.env.ORACLE_USER | quote }}
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: {{ .Values.env.ORACLE_PASS | quote }}
+            - name: SPRING_REDIS_HOST
+              value: {{ .Values.env.REDIS_HOST | quote }}

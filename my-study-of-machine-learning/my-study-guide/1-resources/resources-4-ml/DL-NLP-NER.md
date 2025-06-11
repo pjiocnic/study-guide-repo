@@ -1,0 +1,2 @@
+1. [NER - Named Entity Recognition Tutorial](https://www.kaggle.com/code/eneszvo/ner-named-entity-recognition-tutorial)
+2. [Named Entity Recognition in NLP by Wiem Souai](https://medium.com/ubiai-nlp/named-entity-recognition-in-nlp-329335183b38)

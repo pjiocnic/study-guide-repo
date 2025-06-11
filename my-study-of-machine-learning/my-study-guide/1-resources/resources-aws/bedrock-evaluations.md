@@ -1,0 +1,1 @@
+[WS Tutorial - Amazon Bedrock - Evaluations - Overview By Namrata Shah](https://www.youtube.com/watch?v=KvWkajjS4pU)

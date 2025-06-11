@@ -1,0 +1,2 @@
+
+1. [Measuring AWS Global Accelerator performance and analyzing results by Jibril Touzi and Marco Cagna](https://aws.amazon.com/blogs/networking-and-content-delivery/measuring-aws-global-accelerator-performance-and-analyzing-results/)

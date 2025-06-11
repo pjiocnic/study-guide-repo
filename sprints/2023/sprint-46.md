@@ -1,0 +1,88 @@
+<h1>Sprint 46 - Nov 6, 2023- Nov 12, 2023</h1>
+
+# Topics To Cover
+
+1. [Create RESTful APIs on AWS with OpenAPI Specification (With No Coding) by Samuel Baruffi, Radhika Gupta, and Anthony Watson](https://aws.amazon.com/blogs/opensource/create-restful-apis-on-aws-with-openapi-specification-with-no-coding/)
+1. [Integrating AWS Step Functions callbacks and external systems](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems)
+1. PostGres Test containers BY Dan Vega
+1. [Mongodb Pessimistic Locking](https://www.mongodb.com/blog/post/mongodb-multi-document-acid-transactions-general-availability)
+1. https://medium.com/@iamarkadyt/3-valuable-lessons-learned-about-aws-lambda-destinations-bc1004c94329
+
+# Curate
+
+## Aggregations using DynamoDB
+
+1. [Build aggregations for Amazon DynamoDB tables using Amazon DynamoDB Streams by Rajesh Kantamani ](https://aws.amazon.com/blogs/database/build-aggregations-for-amazon-dynamodb-tables-using-amazon-dynamodb-streams/)
+1. https://deliveroo.engineering/2022/06/21/dynamodb-aggregation.html
+1. https://dev.to/aws-builders/select-count-from-dynamodb-group-by-pk1-sk1-with-streams-43dj
+
+
+# examples to work on
+
+1. [Speeding up incremental changes with AWS SAM Accelerate and nested stacks](https://aws.amazon.com/blogs/compute/speeding-up-incremental-changes-with-aws-sam-accelerate-and-nested-stacks/)
+1. [Create RESTful APIs on AWS with OpenAPI Specification (With No Coding) by Samuel Baruffi, Radhika Gupta, and Anthony Watson](https://aws.amazon.com/blogs/opensource/create-restful-apis-on-aws-with-openapi-specification-with-no-coding/)
+1. [Building a modern, event-driven application for insurance claims processing – Part 2 by Emily Shea, Vaibhav Jain, and Dhiraj Mahapatro](https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-2/)
+1. [Extending a serverless, event-driven architecture to existing container workloads](https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/)
+1. [Integrating AWS Step Functions callbacks and external systems](https://aws.amazon.com/blogs/compute/integrating-aws-step-functions-callbacks-and-external-systems/?ref=serverlessland)
+
+# Weekend
+
+1. SpringData + MongoTemplate
+1. Aggregations
+1. AWS Lambda + Mongodb
+
+# Make Notes
+
+1. [Orchestrating dependent file uploads with AWS Step Functions by Nelson Assis](https://aws.amazon.com/blogs/compute/orchestrating-dependent-file-uploads-with-aws-step-functions/)
+1. [Moving to event-driven architectures with serverless event aggregators by Semih Duru and Marco Sommella](https://aws.amazon.com/blogs/mt/moving-to-event-driven-architectures-with-serverless-event-aggregators/)
+
+# 1. Open API
+
+1. https://www.youtube.com/watch?v=0vqgWQIVfMI
+1. https://www.youtube.com/watch?v=fet3bh0QA80&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=25
+1. https://swagger.io/docs/specification/basic-structure/
+1. https://aws.amazon.com/blogs/opensource/create-restful-apis-on-aws-with-openapi-specification-with-no-coding/
+
+## 1.1. Code-first / Code-driven approach
+
+1. [API Code generation using Swagger in Springboot](https://medium.com/@ankithahjpgowda/api-code-generation-using-swagger-in-springboot-e6b2fafc583c)
+
+## 1.2. API First
+
+1. [API-First Development with Spring Boot and Swagger](https://reflectoring.io/spring-boot-openapi/)
+
+## APIGateway, OpenAPI, SAM
+1. [Create RESTful APIs on AWS with OpenAPI Specification (With No Coding) by Samuel Baruffi, Radhika Gupta, and Anthony Watson ](https://aws.amazon.com/blogs/opensource/create-restful-apis-on-aws-with-openapi-specification-with-no-coding/)
+
+# 2. Cross Account Access
+
+1. https://aws.amazon.com/blogs/security/iam-policy-types-how-and-when-to-use-them/
+2. https://repost.aws/knowledge-center/sqs-queue-access-permissions
+3. https://towardsaws.com/accessing-a-cross-account-amazon-sqs-queue-using-aws-lambda-173194940973
+4. https://aws.amazon.com/blogs/compute/simplifying-cross-account-access-with-amazon-eventbridge-resource-policies/
+5. https://aws.amazon.com/blogs/architecture/coordinating-large-messages-across-accounts-and-regions-with-amazon-sns-and-sqs/
+6. https://aws.amazon.com/blogs/compute/cross-account-integration-with-amazon-sns/
+7. https://aws.amazon.com/blogs/security/how-to-set-up-least-privilege-access-to-your-encrypted-amazon-sqs-queue/
+8. https://docs.aws.amazon.com/lambda/latest/dg/with-sqs-cross-account-example.html
+9. https://www.youtube.com/watch?v=q2rbHMyJBDY&list=PLJo-rJlep0ED198FJnTzhIB5Aut_1vDAd&index=8
+
+# 3. Insurance Project
+1. https://aws.amazon.com/blogs/industries/building-a-modern-event-driven-application-for-insurance-claims-processing-part-2/
+1. https://aws.amazon.com/blogs/compute/extending-a-serverless-event-driven-architecture-to-existing-container-workloads/
+
+# 4. Nested Stack in SAM
+1. https://aws.amazon.com/blogs/compute/speeding-up-incremental-changes-with-aws-sam-accelerate-and-nested-stacks/
+
+# 5. How to order messages
+1. https://www.clouddatainsights.com/the-value-proposition-of-eventbridge-pipes/
+1. https://cbannes.medium.com/decoupling-microservices-with-aws-eventbridge-pipes-3cef3a1dfce7
+
+# 6. Webhooks
+1. https://aws.amazon.com/blogs/compute/sending-and-receiving-webhooks-on-aws-innovate-with-event-notifications/
+
+# 7. Lambdas and Streams
+
+# Curate
+
+1. [Building storage-first serverless applications with HTTP APIs service integrations by Eric Johnson ](https://aws.amazon.com/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/)
+1. [What’s the most serverless way to wait for a slow HTTP response? By Yan Cui](https://theburningmonk.com/2023/08/whats-the-most-serverless-way-to-wait-for-a-slow-http-response/)

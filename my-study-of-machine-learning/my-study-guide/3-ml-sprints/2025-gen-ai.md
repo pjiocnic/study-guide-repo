@@ -1,0 +1,1 @@
+1. [[**COURSE/IN_PROGRESS**] Generative AI with Large Language Models By Coursera/DeepLearning AI/AWS](https://www.coursera.org/learn/generative-ai-with-llms/lecture/18SPI/generative-configuration)

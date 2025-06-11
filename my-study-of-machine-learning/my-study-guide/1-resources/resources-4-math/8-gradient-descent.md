@@ -1,0 +1,4 @@
+[Stanford CS229: Machine Learning - Linear Regression and Gradient Descent | Lecture 2 (Autumn 2018)](https://www.youtube.com/watch?v=4b4MUYve_U8)
+[Gradient Descent From Scratch | End to End Gradient Descent | Gradient Descent Animation](https://www.youtube.com/watch?v=ORyfPJypKuU&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=56)
+[1.2.5 Gradient Descent by Andrew Ng](https://www.youtube.com/watch?v=yFPLyDwVifc&list=PL6jyaRrk973TCX3TfnOZIGx5VZVJHvvBE&index=9)
+[Chap 11 Gradient Descent @ Math for Deep Learning Ronald T. Kneusel](https://learning.oreilly.com/library/view/math-for-deep/9781098129101/xhtml/ch11.xhtml)

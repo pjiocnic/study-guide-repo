@@ -1,0 +1,1 @@
+1. [The leverage of LLM system prompt by Knowledge Bases for Bedrock in RAG workflows](https://repost.aws/articles/AR-LV1HoR_S0m-qy89wXwHmw/the-leverage-of-llm-system-prompt-by-knowledge-bases-for-bedrock-in-rag-workflows)

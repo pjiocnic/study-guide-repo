@@ -1,0 +1,4 @@
+
+1. [Building a scalable log solution aggregator with AWS Fargate, Fluentd, and Amazon Kinesis Data Firehose by Anuneet Kumar](https://aws.amazon.com/blogs/compute/building-a-scalable-log-solution-aggregator-with-aws-fargate-fluentd-and-amazon-kinesis-data-firehose/)
+1. [Centralized Container Logging with Fluent Bit by Michael Hausenblas](https://aws.amazon.com/blogs/opensource/centralized-container-logging-fluent-bit/)
+1. [Introducing fine-grained IAM roles for service accounts by Micah Hausler and Michael Hausenblas](https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/)

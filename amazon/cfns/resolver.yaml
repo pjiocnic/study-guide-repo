@@ -1,0 +1,102 @@
+# src: https://aws.amazon.com/blogs/networking-and-content-delivery/automating-dns-infrastructure-using-route-53-resolver-endpoints/
+---
+
+AWSTemplateFormatVersion: 2010-09-09
+Description: >-
+  AWS CloudFormation Template to deploy Resolver endpoints
+Metadata:
+  'AWS::CloudFormation::Interface':
+    ParameterGroups:
+      - Label:
+          default: VPC Configuration
+        Parameters:
+          - endpointtype
+          - vpcId
+          - privatesubnet1
+          - privatesubnet2
+          - endpointcidr
+
+Parameters:
+  vpcId:
+    Type: AWS::EC2::VPC::Id
+    Description: VPC ID that hosts resolver endpoints
+  privatesubnet1:
+    Type: AWS::EC2::Subnet::Id
+    Description: Chose the private subnet in AZ-1
+  privatesubnet2:
+    Type: AWS::EC2::Subnet::Id
+    Description: Chose the private subnet in AZ-2
+  endpointtype:
+    Type: String
+    Default: 'OutboundEndpoint'
+    AllowedValues:
+      - OutboundEndpoint
+      - InboundEndpoint
+    Description: Name for Route53 resolver security group
+  endpointcidr:
+    Type: String
+    Description: Provide the CIDRs of resources in on-prem that will be accessed from AWS via outbound endpoint or CIDR of resources in on-prem accessing AWS Private Hosted Zones via inbound endpoints
+Conditions:
+  CreateOutboundEndpoint: !Equals [ !Ref endpointtype, OutboundEndpoint ]
+  CreateInboundEndpoint: !Equals [ !Ref endpointtype, InboundEndpoint ]
+
+Resources:
+
+  resolverSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName:
+        !If
+          - CreateOutboundEndpoint
+          - 'OutboundResolverEndpointSecurityGroup'
+          - 'InboundResolverEndpointSecurityGroup'
+      GroupDescription: Security group controlling Route53 Endpoint access
+      SecurityGroupEgress:
+        !If
+          - CreateOutboundEndpoint
+          - - IpProtocol: tcp
+              FromPort: 53
+              ToPort: 53
+              CidrIp: !Ref endpointcidr
+            - IpProtocol: udp
+              FromPort: 53
+              ToPort: 53
+              CidrIp: !Ref endpointcidr
+          - !Ref AWS::NoValue
+      SecurityGroupIngress:
+        !If
+          - CreateInboundEndpoint
+          - - IpProtocol: tcp
+              FromPort: 53
+              ToPort: 53
+              CidrIp: !Ref endpointcidr
+            - IpProtocol: udp
+              FromPort: 53
+              ToPort: 53
+              CidrIp: !Ref endpointcidr
+          - !Ref AWS::NoValue
+      VpcId: !Ref vpcId
+
+  resolverEndpoint:
+    Type: AWS::Route53Resolver::ResolverEndpoint
+    Properties :
+      Name :
+        !If
+        - CreateOutboundEndpoint
+        - OutboundEndpoint
+        - InboundEndpoint
+      Direction :
+        !If
+        - CreateOutboundEndpoint
+        - OUTBOUND
+        - INBOUND
+      IpAddresses :
+        - SubnetId: !Ref privatesubnet1
+        - SubnetId: !Ref privatesubnet2
+      SecurityGroupIds :
+        - !GetAtt resolverSecurityGroup.GroupId
+
+Outputs:
+  ResolverEndpointId:
+    Description: Route 53 Resolver Endpoint ID
+    Value: !GetAtt resolverEndpoint.ResolverEndpointId

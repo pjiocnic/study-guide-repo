@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Mobile styles */
+    @media only screen and (max-width: 600px) {
+      .container {
+        width: 100% !important;
+      }
+
+      .content {
+        padding: 10px !important;
+        font-size: 16px !important;
+      }
+
+      .logo {
+        width: 120px !important;
+        height: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body style="margin:0; padding:0; background-color:#f4f4f4;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td align="center" bgcolor="#f4f4f4">
+        <!-- Main container -->
+        <table class="container" border="0" cellpadding="0" cellspacing="0" width="600"
+          style="max-width:600px; background-color:#ffffff; margin: 20px auto; border-radius:8px;">
+          <!-- Header -->
+          <tr>
+            <td align="center" style="padding: 20px 0;">
+              <img src="https://via.placeholder.com/150x50" alt="Logo" class="logo"
+                style="display:block; width:150px; height:auto;">
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td class="content"
+              style="padding: 20px; font-family: Arial, sans-serif; color:#333333; font-size: 14px; line-height: 1.6;">
+              <h2 style="margin-top: 0;">Hello {{name}},</h2>
+              <p>This is a responsive email that will render well on mobile devices and web clients like Gmail and
+                Yahoo.</p>
+              <p>Here's some sample content. You can insert dynamic values using your templating engine like FreeMarker,
+                Velocity, etc.</p>
+              <p>Thanks,<br><strong>Your Company</strong></p>
+            </td>
+          </tr>
+          <!-- Footer -->
+          <tr>
+            <td align="center" bgcolor="#eeeeee"
+              style="padding: 15px; font-family: Arial, sans-serif; font-size: 12px; color: #777;">
+              © 2025 Your Company. All rights reserved.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
+---
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Mobile-friendly tweaks */
+    @media only screen and (max-width: 600px) {
+      .container {
+        width: 100% !important;
+      }
+
+      .content {
+        padding: 10px !important;
+        font-size: 16px !important;
+      }
+
+      .logo {
+        width: 120px !important;
+        height: auto !important;
+      }
+    }
+  </style>
+</head>

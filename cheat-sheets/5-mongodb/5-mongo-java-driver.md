@@ -1,0 +1,1 @@
+https://www.lonecpluspluscoder.com/2018/01/24/how-to-enable-logging-for-the-mongodb-java-driver/

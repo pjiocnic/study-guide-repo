@@ -1,0 +1,1 @@
+[Pipeline Design Pattern in Java](https://www.baeldung.com/java-pipeline-design-pattern)

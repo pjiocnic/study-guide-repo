@@ -1,0 +1,2 @@
+[*New* AWS Lambda Local IDE Experience! by AWS Developers](https://www.youtube.com/watch?v=rhBOuJqzABY)
+[Efficiently processing batched data using parallelization in AWS Lambda by Anton Aleksandrov](https://aws.amazon.com/blogs/compute/efficiently-processing-batched-data-using-parallelization-in-aws-lambda/)

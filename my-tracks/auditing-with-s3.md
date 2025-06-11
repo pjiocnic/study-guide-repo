@@ -1,0 +1,2 @@
+1. [Why You NEED an Audit Table For Your Database By Be Better dev](https://www.youtube.com/watch?v=7QFUEh-FYYE)
+2. [Create an Audit Table in AWS - Practical AWS Projects By Be Better dev](https://www.youtube.com/watch?v=17AmrTqn0GY)

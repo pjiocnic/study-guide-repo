@@ -1,0 +1,5 @@
+[Matrix Factorization in Recommendation Systems | Netflix Recommend Movie by Binod Suman Academy](https://www.youtube.com/watch?v=JJnIR_S6dg0)
+[Movie Recommender System using Python by Krish Naik](https://www.youtube.com/watch?v=R64Lh1Qwl_0)
+[Recommendation Systems using Machine Learning by Krish Naik](https://www.youtube.com/watch?v=EjOlN6uVBOg)
+[How does Netflix recommend movies? Matrix Factorization by Serrano.Academy](https://www.youtube.com/watch?v=ZspR5PZemcs&t=150s)
+[[**START_HERE**] COS 302: Applications of Matrix Factorization by Intelligent Systems Lab](https://www.youtube.com/watch?v=67a8CIukcPA)

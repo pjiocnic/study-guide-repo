@@ -1,0 +1,2 @@
+
+1. [A Guide to Craft Your Own Custom Hugging Face Model by Dandan Wei](https://medium.com/@edandwe/a-guide-to-craft-your-own-custom-hugging-face-model-ba9cd555a646)

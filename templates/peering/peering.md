@@ -1,0 +1,1 @@
+1. [https://github.com/aws-cloudformation/aws-cloudformation-templates/tree/main/Solutions/VPCPeering](../../../../aws-samples/cloudformation/aws-cloudformation-templates/aws/solutions/VPCPeering/README.md)

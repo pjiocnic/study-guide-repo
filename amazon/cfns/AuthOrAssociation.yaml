@@ -1,0 +1,33 @@
+
+# src: https://aws.amazon.com/blogs/networking-and-content-delivery/automating-dns-infrastructure-using-route-53-resolver-endpoints/
+
+---
+AWSTemplateFormatVersion: 2010-09-09
+Description: Custom Resource to authorize or associate VPC
+
+Parameters:
+  AddVPCID:
+    Type: List<String>
+  RemoveVPCID:
+    Type: List<String>
+  HostedZoneID:
+    Type: String
+  ActionType:
+    Type: String
+    AllowedValues:
+      - AUTHORIZE
+      - ASSOCIATE
+      - DEAUTHORIZE
+      - DISASSOCIATE
+
+Conditions:
+  isAssociateOrAuthorize: !Or [!Equals [!Ref ActionType, AUTHORIZE], !Equals [!Ref ActionType, ASSOCIATE] ]
+
+Resources:
+  HostedZoneVPC:
+    Type: AWS::CloudFormation::CustomResource
+    Properties:
+      ServiceToken: !ImportValue AuthorizeAssociateVPCLambdaArn
+      VPCID: !If [isAssociateOrAuthorize, !Ref AddVPCID, !Ref RemoveVPCID]
+      HostedZoneID: !Ref HostedZoneID
+      Action: !Ref ActionType

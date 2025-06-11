@@ -1,0 +1,3 @@
+1. [Mocking service integrations with AWS Step Functions Local by Sam Dengler, Dhiraj Mahapatro](https://aws.amazon.com/blogs/compute/mocking-service-integrations-with-aws-step-functions-local/)
+- https://github.com/aws-samples/aws-stepfunctions-examples/tree/main/sam/app-local-testing-mock-config
+- https://github.com/aws-samples/aws-stepfunctions-examples/tree/main/sam/demo-local-testing-using-java

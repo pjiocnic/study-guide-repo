@@ -1,0 +1,3 @@
+
+1. [A deep dive into resilience and availability on Amazon Elastic Container Service by Maish Saidel-Keesing and Malcolm Featonby](https://aws.amazon.com/blogs/containers/a-deep-dive-into-resilience-and-availability-on-amazon-elastic-container-service/)
+1. [AWS re:Invent 2023 - Deep dive into Amazon ECS resilience and availability (CON401) By Malcolm Featonby and Maish Saidel-Keesing](https://www.youtube.com/watch?v=C7HUkG_tu90)

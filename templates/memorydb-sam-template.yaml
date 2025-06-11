@@ -1,0 +1,26 @@
+#
+# src: https://aws.amazon.com/blogs/compute/integrating-amazon-memorydb-for-redis-with-java-based-aws-lambda/
+#
+HelloWorldFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: HelloWorldFunction
+      Handler: helloworld.App::handleRequest
+      Runtime: java8
+      MemorySize: 512
+      Timeout: 900 #seconds
+      Events:
+        HelloWorld:
+          Type: Api
+          Properties:
+            Path: /hello
+            Method: get
+      VpcConfig:
+        SecurityGroupIds:
+          - !GetAtt lambdaSG.GroupId
+        SubnetIds:
+          - !GetAtt privateSubnetA.SubnetId
+          - !GetAtt privateSubnetB.SubnetId
+      Environment:
+        Variables:
+          ClusterAddress: !GetAtt memoryDBCluster.ClusterEndpoint.Address

@@ -1,0 +1,3 @@
+1. [Efficient continual pre-training LLMs for financial domains by Yong Xie, Aitzaz Ahmad, Raghvender Arni, Karan Aggarwal, and Qingwei Li ](https://aws.amazon.com/blogs/machine-learning/efficient-continual-pre-training-llms-for-financial-domains/)
+2. https://github.com/arunprsh/train-bert-from-scratch-on-sagemaker
+3. [BloombergGPT: The first Large Language Model for Finance By AtulAnand](https://medium.com/codex/bloomberggpt-the-first-large-language-model-for-finance-61cc92075075)

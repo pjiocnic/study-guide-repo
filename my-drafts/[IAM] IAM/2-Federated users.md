@@ -1,0 +1,1 @@
+https://www.clouddefense.ai/glossary/aws/federated-user.php

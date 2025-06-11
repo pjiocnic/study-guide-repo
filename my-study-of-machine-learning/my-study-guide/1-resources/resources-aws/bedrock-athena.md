@@ -1,0 +1,1 @@
+[Generative AI with Amazon Bedrock and Amazon Athena](https://repost.aws/articles/ARDEyn8B0aQLud6ZGK7yyX3Q/generative-ai-with-amazon-bedrock-and-amazon-athena)

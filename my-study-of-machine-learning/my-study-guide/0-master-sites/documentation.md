@@ -1,0 +1,7 @@
+[scikit-learn](https://scikit-learn.org/stable/index.html)
+[XGBoost Documentation](https://xgboost.readthedocs.io/en/release_3.0.0/)
+- [XGBoost sample notebooks](https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost-sample-notebooks.html)
+[pandas](https://pandas.pydata.org/)
+[IPython Documentation](https://ipython.readthedocs.io/en/stable/index.html)
+[Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)
+[Machine Learning Glossary](https://ml-cheatsheet.readthedocs.io/en/latest/)

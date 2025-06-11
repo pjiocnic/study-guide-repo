@@ -1,0 +1,3 @@
+
+1. [[VISIT] Seamlessly migrate workloads from EKS self-managed node group to EKS-managed node groups by Abhishek Jawali](https://aws.amazon.com/blogs/database/access-amazon-rds-across-aws-accounts-using-aws-privatelink-network-load-balancer-and-amazon-rds-proxy/)
+    <img src="./images/networking-private-link-use-cases-1.png" title="Access Amazon RDS across AWS accounts using AWS PrivateLink, Network Load Balancer, and Amazon RDS Proxy" width="900"/>

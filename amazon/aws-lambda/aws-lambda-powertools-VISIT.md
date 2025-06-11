@@ -1,0 +1,1 @@
+see my-github/study-guide-repo/amazon/aws-workshops/aws-workshops-powertools.md

@@ -1,0 +1,12 @@
+*.zip
+push.sh
+blogs
+*drawio*
+notes-under-construction/images
+notes-under-construction/blogs
+*.code-workspace
+my-study-of-machine-learning/my-sandbox/xgboost/01-hands-on-gradient-boosting/code/Chapter09/cab_rides.csv
+my-study-of-machine-learning/my-sandbox/xgboost/01-hands-on-gradient-boosting/code/Chapter04/exoplanets.csv
+my-study-of-machine-learning/my-sandbox/xgboost/01-hands-on-gradient-boosting/code/Chapter07/exoplanets.csv
+my-study-of-machine-learning/my-sandbox/xgboost/01-hands-on-gradient-boosting/code/Chapter02/census_cleaned.csv
+my-study-of-machine-learning/my-sandbox/xgboost/01-hands-on-gradient-boosting/code/Chapter03/census_cleaned.csv

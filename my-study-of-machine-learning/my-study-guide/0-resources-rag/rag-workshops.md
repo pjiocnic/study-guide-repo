@@ -1,0 +1,1 @@
+[Semantic and Vector Search with Amazon OpenSearch Service](https://catalog.workshops.aws/semantic-search/en-US)

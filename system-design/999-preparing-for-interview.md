@@ -1,0 +1,1 @@
+[How to Crack Any System Design Interview By ByteByteGo](https://www.youtube.com/watch?v=o-k7h2G3Gco)

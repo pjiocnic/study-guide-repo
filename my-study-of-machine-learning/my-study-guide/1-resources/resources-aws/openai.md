@@ -1,0 +1,1 @@
+1. [OpenAI API for Python Developers](https://www.linkedin.com/learning/openai-api-for-python-developers/ai-integration-with-python)

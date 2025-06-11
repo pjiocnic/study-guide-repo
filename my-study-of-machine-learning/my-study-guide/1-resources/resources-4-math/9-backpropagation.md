@@ -1,0 +1,1 @@
+[Chapter 10 @ Math for Deep Learning Ronald T. Kneusel](https://learning.oreilly.com/library/view/math-for-deep/9781098129101/xhtml/ch10.xhtml#ch10lev1_1)

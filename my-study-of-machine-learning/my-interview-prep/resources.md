@@ -1,0 +1,1 @@
+[How to Explain Each Core Machine Learning Model in an Interview](https://medium.com/pythoneers/how-to-explain-core-machine-learning-models-in-an-interview-8fc8afcd6ee5)

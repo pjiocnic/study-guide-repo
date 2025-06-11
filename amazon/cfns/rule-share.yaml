@@ -1,0 +1,221 @@
+# https://aws.amazon.com/blogs/networking-and-content-delivery/automating-dns-infrastructure-using-route-53-resolver-endpoints/
+---
+AWSTemplateFormatVersion: 2010-09-09
+Description: >-
+  AWS CloudFormation Template to create the resolver rules and share the Resolver rules via Resource Access Manager
+Metadata:
+  'AWS::CloudFormation::Interface':
+    ParameterGroups:
+      - Label:
+          default: Resolver Endpoint Configuration
+        Parameters:
+          - outboundresolverendpointId
+      - Label:
+          default: Resolver Rule Configuration
+        Parameters:
+          - domainFQDN
+          - domainTargets
+      - Label:
+          default: Account Details
+        Parameters:
+          - AccountIds
+
+Parameters:
+  outboundresolverendpointId:
+    Type: String
+    Description: Provide the Outbound Resolver Endpoint Id
+  AccountIds:
+    Type: List<Number>
+    Description: List of account ids with which this rule will be shared.
+  RuleName:
+    Type: String
+    Description: resolver rule name
+  ResourceShareName:
+    Type: String
+    Description: resource share name
+  domainFQDN:
+    Type: String
+    Description: Provide FQDN for domain
+  domainTargetCount:
+    Type: String
+    Description: count for number targets ip for the resolver rule
+    AllowedValues:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+  domainTargets:
+    Type: List<String>
+    Default: 192.168.1.13:53, 192.168.2.14:53
+    Description: A comma separated list of IP:port targets (two targets) for example1.com domain resolution. Please change the default IPs as per your environment.
+
+Conditions:
+  isCountOne: !Equals [!Ref domainTargetCount, 1]
+  isCountTwo: !Equals [!Ref domainTargetCount, 2]
+  isCountThree: !Equals [!Ref domainTargetCount, 3]
+  isCountFour: !Equals [!Ref domainTargetCount, 4]
+  isCountFive: !Equals [!Ref domainTargetCount, 5]
+  isCountSix: !Equals [!Ref domainTargetCount, 6]
+
+
+Resources:
+  domainRuleWithOneTargets:
+    Condition: isCountOne
+    Type: AWS::Route53Resolver::ResolverRule
+    Properties:
+      DomainName: !Ref domainFQDN
+      Name: !Ref RuleName
+      ResolverEndpointId: !Ref outboundresolverendpointId
+      RuleType: FORWARD
+      TargetIps:
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+
+  domainRuleWithTwoTargets:
+    Condition: isCountTwo
+    Type : AWS::Route53Resolver::ResolverRule
+    Properties :
+      DomainName : !Ref domainFQDN
+      Name : !Ref RuleName
+      ResolverEndpointId : !Ref outboundresolverendpointId
+      RuleType : FORWARD
+      TargetIps :
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 1, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 1, !Ref domainTargets ] ] ]
+
+  domainRuleWithThreeTargets:
+    Condition: isCountThree
+    Type : AWS::Route53Resolver::ResolverRule
+    Properties :
+      DomainName : !Ref domainFQDN
+      Name : !Ref RuleName
+      ResolverEndpointId : !Ref outboundresolverendpointId
+      RuleType : FORWARD
+      TargetIps :
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 1, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 1, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 2, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 2, !Ref domainTargets ] ] ]
+
+  domainRuleWithFourTargets:
+    Condition: isCountFour
+    Type : AWS::Route53Resolver::ResolverRule
+    Properties :
+      DomainName : !Ref domainFQDN
+      Name : !Ref RuleName
+      ResolverEndpointId : !Ref outboundresolverendpointId
+      RuleType : FORWARD
+      TargetIps :
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 1, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 1, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 2, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 2, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 3, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 3, !Ref domainTargets ] ] ]
+
+  domainRuleWithFiveTargets:
+    Condition: isCountFive
+    Type : AWS::Route53Resolver::ResolverRule
+    Properties :
+      DomainName : !Ref domainFQDN
+      Name : !Ref RuleName
+      ResolverEndpointId : !Ref outboundresolverendpointId
+      RuleType : FORWARD
+      TargetIps :
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 1, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 1, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 2, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 2, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 3, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 3, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 4, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 4, !Ref domainTargets ] ] ]
+
+  domainRuleWithSixTargets:
+    Condition: isCountSix
+    Type : AWS::Route53Resolver::ResolverRule
+    Properties :
+      DomainName : !Ref domainFQDN
+      Name : !Ref RuleName
+      ResolverEndpointId : !Ref outboundresolverendpointId
+      RuleType : FORWARD
+      TargetIps :
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 0, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 1, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 1, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 2, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 2, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 3, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 3, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 4, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 4, !Ref domainTargets ] ] ]
+        - Ip: !Select [ 0, !Split [ ":", !Select [ 5, !Ref domainTargets ] ] ]
+          Port: !Select [ 1, !Split [ ":", !Select [ 5, !Ref domainTargets ] ] ]
+
+  resolverruleshare:
+    Type: AWS::RAM::ResourceShare
+    Properties:
+      Name: !Ref ResourceShareName
+      ResourceArns:
+        - !If
+          - isCountOne
+          - !GetAtt domainRuleWithOneTargets.Arn
+          - !Ref AWS::NoValue
+        - !If
+          - isCountTwo
+          - !GetAtt domainRuleWithTwoTargets.Arn
+          - !Ref AWS::NoValue
+        - !If
+          - isCountThree
+          - !GetAtt domainRuleWithThreeTargets.Arn
+          - !Ref AWS::NoValue
+        - !If
+          - isCountFour
+          - !GetAtt domainRuleWithFourTargets.Arn
+          - !Ref AWS::NoValue
+        - !If
+          - isCountFive
+          - !GetAtt domainRuleWithFiveTargets.Arn
+          - !Ref AWS::NoValue
+        - !If
+          - isCountSix
+          - !GetAtt domainRuleWithSixTargets.Arn
+          - !Ref AWS::NoValue
+      Principals: !Ref AccountIds
+
+Outputs:
+  domainRuleWithOneTargets:
+    Condition: isCountOne
+    Description: Route 53 Resolver Rule ID for domain1fqdn
+    Value: !Ref domainRuleWithOneTargets
+  domainRuleWithTwoTargets:
+    Condition: isCountTwo
+    Description: Route 53 Resolver Rule ID for domain1fqdn
+    Value: !Ref domainRuleWithTwoTargets
+  domainRuleWithThreeTargets:
+    Condition: isCountThree
+    Description: Route 53 Resolver Rule ID for domain1fqdn
+    Value: !Ref domainRuleWithThreeTargets
+  domainRuleWithFourTargets:
+    Condition: isCountFour
+    Description: Route 53 Resolver Rule ID for domain1fqdn
+    Value: !Ref domainRuleWithFourTargets
+  domainRuleWithFiveTargets:
+    Condition: isCountFive
+    Description: Route 53 Resolver Rule ID for domain1fqdn
+    Value: !Ref domainRuleWithFiveTargets
+  domainRuleWithSixTargets:
+    Condition: isCountSix
+    Description: Route 53 Resolver Rule ID for domain1fqdn
+    Value: !Ref domainRuleWithSixTargets

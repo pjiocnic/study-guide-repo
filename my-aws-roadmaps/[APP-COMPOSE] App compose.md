@@ -1,0 +1,2 @@
+
+[IDE extension for AWS Application Composer enhances visual modern applications development with AI-generated IaC by Donnie Prakoso](https://aws.amazon.com/blogs/aws/ide-extension-for-aws-application-composer-enhances-visual-modern-applications-development-with-ai-generated-iac/)

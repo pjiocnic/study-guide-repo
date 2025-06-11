@@ -1,0 +1,2 @@
+
+[Using AWS Global Accelerator to achieve blue/green deployments by Jibril Touzi](https://aws.amazon.com/blogs/networking-and-content-delivery/using-aws-global-accelerator-to-achieve-blue-green-deployments/)

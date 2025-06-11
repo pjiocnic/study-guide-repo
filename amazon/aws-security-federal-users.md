@@ -1,0 +1,4 @@
+
+1. [How US federal agencies can authenticate to AWS with multi-factor authentication by Kyle Hart](https://aws.amazon.com/blogs/security/how-us-federal-agencies-can-authenticate-to-aws-with-multi-factor-authentication/)
+2. [How US federal agencies can use AWS to improve logging and log retention by Derek Doerr ](https://aws.amazon.com/blogs/security/how-us-federal-agencies-can-authenticate-to-aws-with-multi-factor-authentication/)
+3. [How US federal agencies can use AWS to encrypt data at rest and in transit by Robert George](https://aws.amazon.com/blogs/security/how-us-federal-agencies-can-authenticate-to-aws-with-multi-factor-authentication/)

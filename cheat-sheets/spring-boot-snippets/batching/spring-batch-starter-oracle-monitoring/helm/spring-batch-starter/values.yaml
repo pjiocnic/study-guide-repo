@@ -1,0 +1,24 @@
+replicaCount: 1
+
+image:
+  repository: spring-batch-starter
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 8080
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+env:
+  REDIS_HOST: redis-master
+  ORACLE_URL: jdbc:oracle:thin:@oracle-xe:1521/ORCLCDB
+  ORACLE_USER: your_user
+  ORACLE_PASS: your_pass

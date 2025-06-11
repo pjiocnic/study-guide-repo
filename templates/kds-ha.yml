@@ -1,0 +1,467 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Kinesis ha deployment
+
+Parameters:
+  FailoverRegion:
+    Description: Specify failover region
+    Type: String
+    Default: 'us-east-2'
+  ReplicationdBatchSize:
+    Description: Specify replication batch size
+    Type: Number
+    Default: 100
+  ConsumerBatchSize:
+    Description: Specify consumer batch size
+    Type: Number
+    Default: 100
+
+Conditions:
+  IsFailoverRegion: !Equals [ !Ref FailoverRegion, !Sub '${AWS::Region}']
+  IsPrimaryRegion: !Not [Condition: IsFailoverRegion]
+
+Resources:
+
+  InputKinesisStream:
+    Type: 'AWS::Kinesis::Stream'
+    Properties:
+      Name: 'KDS-HA-Stream'
+      ShardCount: 4
+
+  InputKinesisStreamEFOConsumer:
+    Type: AWS::Kinesis::StreamConsumer
+    Properties:
+      ConsumerName: 'KDS-HA-Stream-EFO-Consumer'
+      StreamARN: !GetAtt InputKinesisStream.Arn
+
+  ReplicationAgentLambdaExecutionRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Path: /
+      Policies:
+        - PolicyName: root
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 'kinesis:DescribeStream'
+                  - 'kinesis:DescribeStreamSummary'
+                  - 'kinesis:GetRecords'
+                  - 'kinesis:GetShardIterator'
+                  - 'kinesis:ListShards'
+                  - 'kinesis:ListStreams'
+                  - 'kinesis:SubscribeToShard'
+                  - 'kinesis:PutRecords'
+                Resource:
+                  - 'arn:aws:kinesis:*:*:stream/KDS-HA-Stream'
+                  - 'arn:aws:kinesis:*:*:stream/KDS-HA-Stream/consumer/KDS-HA-Stream-EFO-Consumer:*'
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/CloudWatchLogsFullAccess'
+
+  ReplicationAgentLambda:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      FunctionName: KDS-HA-ReplicationAgentLambda
+      Environment:
+        Variables:
+          INPUT_STREAM:
+            Ref: InputKinesisStream
+          FAILOVER_REGION: !Ref FailoverRegion
+      Code:
+        ZipFile: |
+          import json
+          import boto3
+          import random
+          import os
+          import base64
+
+          def lambda_handler(event, context):
+              #print("Received event: " + json.dumps(event, indent=2))
+              client = boto3.client('kinesis', region_name= os.environ['FAILOVER_REGION'])
+              records = []
+              for record in event['Records']:
+                  records.append({
+                      'PartitionKey': record['kinesis']['partitionKey'],
+                      'Data': base64.b64decode(record['kinesis']['data']).decode('utf-8')
+                  })
+              response = client.put_records(
+              Records= records,
+              StreamName= 'KDS-HA-Stream'
+              )
+              if response["FailedRecordCount"] > 0:
+                      print("Failed replicating data: " + json.dumps(response))
+                      raise Exception("Failed replicating data!")
+      Handler: index.lambda_handler
+      Runtime: python3.9
+      Timeout: 60
+      Role: !GetAtt ReplicationAgentLambdaExecutionRole.Arn
+
+  ReplicationAgentLambdaSourceMapping:
+    Type: AWS::Lambda::EventSourceMapping
+    Condition: IsPrimaryRegion
+    Properties:
+      EventSourceArn: !GetAtt InputKinesisStreamEFOConsumer.ConsumerARN
+      FunctionName: !GetAtt ReplicationAgentLambda.Arn
+      StartingPosition: "TRIM_HORIZON"
+      BatchSize: !Ref ReplicationdBatchSize
+
+  GlobalTable:
+    Type: AWS::DynamoDB::GlobalTable
+    Condition: IsPrimaryRegion
+    Properties:
+      TableName: ticker-prices
+      BillingMode: PAY_PER_REQUEST
+      StreamSpecification:
+        StreamViewType: NEW_AND_OLD_IMAGES
+      Replicas:
+        - Region: !Sub '${AWS::Region}'
+        - Region: !Ref FailoverRegion
+      AttributeDefinitions:
+        - AttributeName: ticker
+          AttributeType: S
+        - AttributeName: reported_time
+          AttributeType: S
+      KeySchema:
+        - AttributeName: ticker
+          KeyType: HASH
+        - AttributeName: reported_time
+          KeyType: RANGE
+
+  ConsumerLambdaExecutionRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Path: /
+      Policies:
+        - PolicyName: root
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 'kinesis:DescribeStream'
+                  - 'kinesis:DescribeStreamSummary'
+                  - 'kinesis:GetRecords'
+                  - 'kinesis:GetShardIterator'
+                  - 'kinesis:ListShards'
+                  - 'kinesis:ListStreams'
+                  - 'kinesis:SubscribeToShard'
+                Resource:
+                  - 'arn:aws:kinesis:*:*:stream/KDS-HA-Stream'
+              - Effect: Allow
+                Action:
+                  - 'dynamodb:PutItem'
+                  - 'dynamodb:GetItem'
+                Resource:
+                  - 'arn:aws:dynamodb:*:*:table/ticker-prices'
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/CloudWatchLogsFullAccess'
+
+  ConsumerLambda:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      FunctionName: KDS-HA-ConsumerLambda
+      Environment:
+        Variables:
+          INPUT_STREAM:
+            Ref: InputKinesisStream
+      Code:
+        ZipFile: |
+          import json
+          import boto3
+          import random
+          import os
+          import base64
+          from boto3.dynamodb.conditions import Key
+          from datetime import datetime
+
+          def lambda_handler(event, context):
+              dynamodb = boto3.resource('dynamodb')
+              table = dynamodb.Table('ticker-prices')
+              for record in event['Records']:
+                  process_record(table, json.loads(base64.b64decode(record['kinesis']['data']).decode('utf-8')))
+
+          def process_record(table, data):
+              ticker_key = data['ticker']
+              price = data['price']
+              reported_time = datetime.strptime(data['reported_time'], '%Y-%m-%dT%H:%M:%SZ')
+              reported_time_key = reported_time.replace(second=0, minute=0).strftime('%Y-%m-%d %H:%M:%S')
+
+              response = table.get_item(Key={
+                  'ticker': ticker_key,
+                  'reported_time': reported_time_key
+              })
+
+              if 'Item' in response:
+                  table.put_item(Item= {
+                      'ticker': ticker_key,
+                      'reported_time': reported_time_key,
+                      'max_price': price if price > response['Item']['max_price'] else response['Item']['max_price'],
+                      'min_price': price if price < response['Item']['min_price'] else response['Item']['min_price'],
+                      'last_updated_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                      'last_updated_region': os.environ['AWS_REGION']
+                  })
+              else:
+                  table.put_item(Item= {
+                      'ticker': ticker_key,
+                      'reported_time': reported_time_key,
+                      'max_price': price,
+                      'min_price': price,
+                      'last_updated_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                      'last_updated_region': os.environ['AWS_REGION']
+                  })
+      Handler: index.lambda_handler
+      Runtime: python3.9
+      Timeout: 60
+      Role: !GetAtt ConsumerLambdaExecutionRole.Arn
+
+  ConsumerLambdaSourceMapping:
+    Type: AWS::Lambda::EventSourceMapping
+    Condition: IsPrimaryRegion
+    Properties:
+      EventSourceArn: !GetAtt InputKinesisStream.Arn
+      FunctionName: !GetAtt ConsumerLambda.Arn
+      StartingPosition: "TRIM_HORIZON"
+      BatchSize: !Ref ConsumerBatchSize
+
+  ProducerLambdaExecutionRole:
+    Type: 'AWS::IAM::Role'
+    Condition: IsPrimaryRegion
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Path: /
+      Policies:
+        - PolicyName: root
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 'kinesis:PutRecords'
+                Resource:
+                  - 'arn:aws:kinesis:*:*:stream/KDS-HA-Stream'
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/CloudWatchLogsFullAccess'
+
+  ProducerLambda:
+    Type: 'AWS::Lambda::Function'
+    Condition: IsPrimaryRegion
+    Properties:
+      FunctionName: KDS-HA-ProducerLambda
+      Environment:
+        Variables:
+          INPUT_STREAM:
+            Ref: InputKinesisStream
+          PRODUCING_TO_REGION: !Sub '${AWS::Region}'
+      Code:
+        ZipFile: |
+          from __future__ import print_function
+          import json
+          import boto3
+          import random
+          import os
+          from datetime import datetime
+
+          def lambda_handler(event, context):
+              ticker1 = random.choice(["AAPL", "GOOG", "MSFT"])
+              ticker2 = random.choice(["HPQ", "TGT", "WMT"])
+              client = boto3.client('kinesis', region_name= os.environ['PRODUCING_TO_REGION'])
+              response = client.put_records(
+              Records=[
+                  {
+                      'Data': json.dumps({ 'ticker': ticker1, 'price': random.randint(40, 90), 'reported_time': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ') }),
+                      'PartitionKey': str(ticker1)
+                  },
+                  {
+                      'Data': json.dumps({ 'ticker': ticker2, 'price': random.randint(50, 100), 'reported_time': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ') }),
+                      'PartitionKey': str(ticker2)
+                  },
+              ],
+              StreamName= os.environ['INPUT_STREAM']
+              )
+      Handler: index.lambda_handler
+      Runtime: python3.9
+      Timeout: 60
+      Role: !GetAtt ProducerLambdaExecutionRole.Arn
+
+  ProducerScheduledRule:
+    Type: AWS::Events::Rule
+    Condition: IsPrimaryRegion
+    Properties:
+      Description: "ScheduledRule"
+      ScheduleExpression: "rate(1 minute)"
+      Targets:
+        -
+          Arn:
+            Fn::GetAtt:
+              - ProducerLambda
+              - Arn
+          Id: "TargetFunctionV1"
+
+  ProducerPermissionForEventsToInvokeLambda:
+    Type: AWS::Lambda::Permission
+    Condition: IsPrimaryRegion
+    Properties:
+      FunctionName: !Ref ProducerLambda
+      Action: "lambda:InvokeFunction"
+      Principal: "events.amazonaws.com"
+      SourceArn:
+        Fn::GetAtt:
+          - ProducerScheduledRule
+          - Arn
+
+  FailoverLambdaExecutionRole:
+    Type: 'AWS::IAM::Role'
+    Condition: IsPrimaryRegion
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Path: /
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/CloudWatchFullAccess'
+        - 'arn:aws:iam::aws:policy/AWSLambda_FullAccess'
+
+  FailoverLambda:
+    Type: 'AWS::Lambda::Function'
+    Condition: IsPrimaryRegion
+    DependsOn:
+      - ConsumerLambdaSourceMapping
+      - ReplicationAgentLambdaSourceMapping
+    Properties:
+      FunctionName: KDS-HA-FailoverLambda
+      Environment:
+        Variables:
+          CONSUMER_SOURCE_MAPPING_UUID: !GetAtt ConsumerLambdaSourceMapping.Id
+          REPLICATION_AGENT_SOURCE_MAPPING_UUID: !GetAtt ReplicationAgentLambdaSourceMapping.Id
+          FAILOVER_REGION: !Ref FailoverRegion
+          ACCOUNT_ID: !Sub '${AWS::AccountId}'
+          CONSUMER_BATCH_SIZE: !Ref ConsumerBatchSize
+      Code:
+        ZipFile: |
+          import json
+          import boto3
+          import os
+          from datetime import timedelta, datetime, timezone
+
+          def lambda_handler(event, context):
+              primary_region_lambda_client = boto3.client('lambda')
+              failover_region_lambda_client = boto3.client('lambda', region_name= os.environ['FAILOVER_REGION'])
+
+              primary_region_cloudwatch_client = boto3.client('cloudwatch')
+
+              # disable cosumer in primary region
+              primary_region_lambda_client.delete_event_source_mapping(
+                  UUID= os.environ['CONSUMER_SOURCE_MAPPING_UUID']
+              )
+
+              # disable kds replication agent in primary region
+              primary_region_lambda_client.delete_event_source_mapping(
+                  UUID= os.environ['REPLICATION_AGENT_SOURCE_MAPPING_UUID']
+              )
+
+              #get milli behind from kds in primary region
+              milli_behind_metrics_response = primary_region_cloudwatch_client.get_metric_statistics(
+                  Namespace='AWS/Kinesis',
+                  MetricName='GetRecords.IteratorAgeMilliseconds',
+                  Dimensions=[
+                      {
+                          'Name': 'StreamName',
+                          'Value': 'KDS-HA-Stream'
+                      },
+                  ],
+                  StartTime=datetime.now(timezone.utc) - + timedelta(minutes=15),
+                  EndTime=datetime.now(timezone.utc),
+                  Period= 15 * 60,
+                  Statistics=[
+                      'Maximum'
+                  ],
+                  Unit='Milliseconds'
+              )
+              kds_consumer_lag_minutes = milli_behind_metrics_response['Datapoints'][0]['Maximum'] / 60000
+              print(kds_consumer_lag_minutes)
+
+              # start consumer in failover region
+              failover_region_lambda_client.create_event_source_mapping(
+                  EventSourceArn='arn:aws:kinesis:' + os.environ['FAILOVER_REGION'] + ':' + os.environ['ACCOUNT_ID'] + ':stream/KDS-HA-Stream',
+                  FunctionName='KDS-HA-ConsumerLambda',
+                  Enabled=True,
+                  BatchSize= int(os.environ['CONSUMER_BATCH_SIZE']),
+                  StartingPosition='AT_TIMESTAMP',
+                  StartingPositionTimestamp=datetime.now(timezone.utc) -  timedelta(minutes= kds_consumer_lag_minutes + 5)
+              )
+
+              primary_region_lambda_client.update_function_configuration(
+                  FunctionName='KDS-HA-ProducerLambda',
+                  Environment={
+                      'Variables': {
+                          'INPUT_STREAM': 'KDS-HA-Stream',
+                          'PRODUCING_TO_REGION': os.environ['FAILOVER_REGION'],
+                      }
+                  }
+              )
+      Handler: index.lambda_handler
+      Runtime: python3.9
+      Timeout: 60
+      Role: !GetAtt FailoverLambdaExecutionRole.Arn
+
+  FailoverSNSTopic:
+    Type: AWS::SNS::Topic
+    Condition: IsPrimaryRegion
+    Properties:
+      Subscription:
+        - Endpoint:
+            Fn::GetAtt:
+              - "FailoverLambda"
+              - "Arn"
+          Protocol: "lambda"
+      TopicName: "FailoverSNSTopic"
+
+  FailoverAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Condition: IsPrimaryRegion
+    Properties:
+      AlarmDescription: Kinesis PutRecords Failed
+      AlarmActions:
+        - !Ref FailoverSNSTopic
+      MetricName: PutRecords.FailedRecords
+      Namespace: AWS/Kinesis
+      Statistic: Average
+      Period: 300
+      EvaluationPeriods: 3
+      Threshold: 0
+      ComparisonOperator: GreaterThanThreshold
+      Dimensions:
+        - Name: "StreamName"
+          Value: "KDS-HA-Stream"

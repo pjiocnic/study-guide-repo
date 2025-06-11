@@ -1,0 +1,4 @@
+1. [Getting started with testing serverless applications by by Talia Nassi](https://aws.amazon.com/blogs/compute/getting-started-with-testing-serverless-applications/)
+1. [Refactoring to Serverless: From Application to Automation by Sindhu Pillai and Gregor Hohpe](https://aws.amazon.com/blogs/devops/refactoring-to-serverless-from-application-to-automation/)
+1. [Serverless UI testing using Selenium, AWS Lambda, AWS Fargate, and AWS Developer Tools by Prakash Palanisamy](https://aws.amazon.com/blogs/devops/serverless-ui-testing-using-selenium-aws-lambda-aws-fargate-and-aws-developer-tools/)
+1. [Serverless testing strategy by Jérôme Van Der Linden](https://jeromevdl.medium.com/serverless-testing-strategy-b12ada2252f)
