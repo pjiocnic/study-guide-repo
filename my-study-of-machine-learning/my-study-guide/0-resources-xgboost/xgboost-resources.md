@@ -6,6 +6,10 @@ https://www.google.com/search?q=xgboost+classification&sca_esv=0c78d1073bcd124b&
 5. https://www.kdnuggets.com/the-ultimate-guide-to-learning-anything-with-notebooklm
 6. [XGBoost Part 2 (of 4): Classification by StatQuest with Josh Starmer](https://www.youtube.com/watch?v=8b1JEDvenQU)
 7. [Complete Beginners Guide to XGBoost Models by Frank Kane](https://learning.oreilly.com/videos/complete-beginners-guide/10000MNLV2021131/10000MNLV2021131-ibibi/)
+8. [[**MUST SEE**] XGBoost: The Definitive Guide (Part 1) by Dr. Roi Yehoshua](https://towardsdatascience.com/xgboost-the-definitive-guide-part-1-cc24d2dcd87a/)
+9. [XGBoost with a Simple Example by Rayan Yassminh](https://medium.com/@ryassminh/xgboost-with-a-simple-example-92d5d91789e2)
+10. [[**MUST SEE**] All You Need to Know about Gradient Boosting Algorithm − Part 1. Regression](https://medium.com/data-science/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
+11. [[**MUST SEE**] All You Need to Know about Gradient Boosting Algorithm − Part 2. Classification by Tomonori Masui](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e/)
 
 ## Examples With SageMaker
 

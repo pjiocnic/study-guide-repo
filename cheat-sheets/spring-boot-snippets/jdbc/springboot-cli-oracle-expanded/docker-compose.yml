@@ -1,0 +1,17 @@
+
+version: '3'
+services:
+  oracle:
+    image: gvenzl/oracle-xe:18-slim
+    container_name: oracle-xe
+    ports:
+      - 1521:1521
+    environment:
+      - ORACLE_PASSWORD=Oracle123
+    volumes:
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    healthcheck:
+      test: ["CMD", "sqlplus", "-L", "system/Oracle123@//localhost/XEPDB1", "exit"]
+      interval: 30s
+      timeout: 10s
+      retries: 5

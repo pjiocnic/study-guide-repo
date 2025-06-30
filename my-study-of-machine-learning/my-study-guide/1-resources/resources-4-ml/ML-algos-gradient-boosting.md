@@ -7,6 +7,8 @@
 
 1. [Gradient Boosting In Depth Intuition- Part 1 Machine Learning by Krish Naik](https://www.youtube.com/watch?v=Nol1hVtLOSg&)
 1. [Gradient Boosting Complete Maths Indepth Intuiton Explained| Machine Learning- Part2 Krish Naik](https://www.youtube.com/watch?v=Oo9q6YtGzvc&t=253s)
+1. [[**MUST SEE**] All You Need to Know about Gradient Boosting Algorithm − Part 1. Regression](https://medium.com/data-science/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
+1.  [[**MUST SEE**] All You Need to Know about Gradient Boosting Algorithm − Part 2. Classification by Tomonori Masui](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e/)
 
 
 1. [Gradient Boosting Explained | How Gradient Boosting Works?](https://www.youtube.com/watch?v=fbKz7N92mhQ&)

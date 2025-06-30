@@ -30,3 +30,4 @@
 1. [What are Tensors | Tensor In-depth Explanation | Tensor in Machine Learning by CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)
 1. [Stanford CS229: Machine Learning Full Course taught by Andrew Ng | Autumn 2018 by Stanford Online](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
 1. [Free Mini-course: The Ultimate Beginners Guide to Machine Learning by AI Expert Academy](https://www.youtube.com/watch?v=tyrWPT7wJTc&list=PLyD5cYBdt_yt1ivm_uieYF6O3SPENIzV3)
+2. [[_**MUST_SEE**_] Machine Learning Specialization by Andrew Ng](https://www.coursera.org/specializations/machine-learning-introduction)

@@ -4,6 +4,7 @@
 ## Courses
 
 1. [Data Wrangling with Pandas for Machine Learning Engineers by Mike West](https://app.pluralsight.com/library/courses/pandas-data-wrangling-machine-learning-engineers/discussion#comment-4089902385)
+2. [pandas in 30 days by dataschool](https://courses.dataschool.io/view/courses/pandas-in-30-days/2341080-introduction/7781305-download-the-course-files)
 
 ## df.describe
 

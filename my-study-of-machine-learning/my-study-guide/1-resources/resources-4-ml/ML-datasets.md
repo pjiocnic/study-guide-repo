@@ -28,8 +28,11 @@ src: https://aws.amazon.com/blogs/machine-learning/maximizing-nlp-model-performa
 1. [Exploratory Data Analysis for Data Scientists by Pinal Dave](https://app.pluralsight.com/library/courses/exploratory-data-analysis-data-scientists/table-of-contents)
 2. [preprocessing-for-machine-learning-in-python](https://campus.datacamp.com/courses/preprocessing-for-machine-learning-in-python/introduction-to-data-preprocessing?ex=1)
 
+
+
+
 ### CampusX (Paid)
 
 1. [EDA on FIFA dataset](https://www.youtube.com/watch?v=79WUa9EviTE&t=34s)
 2. [EDA on Covid Dataset](https://www.youtube.com/watch?v=lUkjlNCEKUI&t=7s)
-3. [DA on Digital Marketing Dataset](https://www.youtube.com/watch?v=Yi4lSfErYH4&t=4s)
+3. [EDA on Digital Marketing Dataset](https://www.youtube.com/watch?v=Yi4lSfErYH4&t=4s)

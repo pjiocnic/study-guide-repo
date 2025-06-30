@@ -1,0 +1,7 @@
+
+CREATE TABLE USERS (
+  id NUMBER PRIMARY KEY,
+  name VARCHAR2(50)
+);
+
+INSERT INTO USERS (id, name) VALUES (1, 'InitialName');
