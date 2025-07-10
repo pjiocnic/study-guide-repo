@@ -1,0 +1,36 @@
+{
+  "root": {
+    "status": "SUCCESS",
+    "data": {
+      "id": 101,
+      "name": "Alice",
+      "phones": ["1234", "6789"],
+      "address": {
+        "city": "Wonderland",
+        "zip": "12345",
+        "locations": [
+          { "type": "home", "zip": "1234" },
+          { "type": "office", "zip": "6789" },
+          { "type": "warehouse", "zip": "9999" }
+        ]
+      }
+    }
+  }
+}
+{
+  "root": {
+    "status": "SUCCESS",
+    "data": {
+      "id": 102,
+      "name": "Peter",
+      "phones": ["0000"],
+      "address": {
+        "city": "Atlantis",
+        "zip": "54321",
+        "locations": [
+          { "type": "office", "zip": "9876" }
+        ]
+      }
+    }
+  }
+}
