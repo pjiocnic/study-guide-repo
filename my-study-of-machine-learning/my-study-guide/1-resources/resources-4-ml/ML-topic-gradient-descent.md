@@ -18,3 +18,7 @@
 ## Stochastic Gradient
 
 1. [Stochastic Gradient Descent, Clearly Explained!!! with Josh Starmer](https://www.youtube.com/watch?v=vMh0zPT0tLI)
+
+## Parked for further review
+
+1. Appendix B. The math behind gradient descent @ [Oreilly] Grokking Machine Learning by Luis Serrano

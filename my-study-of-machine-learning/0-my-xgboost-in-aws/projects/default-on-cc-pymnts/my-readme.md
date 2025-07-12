@@ -1,0 +1,1 @@
+[Simplify machine learning with XGBoost and Amazon SageMaker by Eitan Sela, Saksham Saini, Yash Pant, and Yijie Zhuang](https://aws.amazon.com/blogs/machine-learning/simplify-machine-learning-with-xgboost-and-amazon-sagemaker/)

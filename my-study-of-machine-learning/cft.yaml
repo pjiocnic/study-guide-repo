@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+    SagemakerNotebookRole:
+        Type: AWS::IAM::Role
+        Properties:
+            RoleName: 'extending-xgboost-image-execution-notebook'
+            ManagedPolicyArns:
+              - 'arn:aws:iam::aws:policy/AmazonSageMakerFullAccess'
+            Policies: 
+              - {   
+                    PolicyName: "inline-delete-stack",
+                    PolicyDocument: 
+                        {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "cloudformation:DeleteStack"
+                                    ],
+                                    "Resource": [
+                                        "arn:aws:cloudformation:*:*:stack/extending-xgboost-blogcfstack*"
+                                    ]
+                                }
+                            ]
+                        }
+                }
+            AssumeRolePolicyDocument:
+                Version: 2012-10-17
+                Statement:
+                  - Effect: Allow
+                    Principal:
+                      Service:
+                      - sagemaker.amazonaws.com
+                    Action:
+                      - 'sts:AssumeRole'
+
+
+    SagemakerNotebook:
+        Type: AWS::SageMaker::NotebookInstance
+        Properties:
+            DefaultCodeRepository: 'https://github.com/aws-samples/extending-sagemaker-xgboost-algorithm.git'
+            InstanceType: 'ml.t3.medium'
+            NotebookInstanceName: 'extending-built-in-xgboost-image'
+            RoleArn: !GetAtt SagemakerNotebookRole.Arn
+            VolumeSizeInGB: 5
