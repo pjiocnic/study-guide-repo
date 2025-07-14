@@ -1,0 +1,1 @@
+[PLURALSIGHT] Data Science with Python: Foundations of Machine Learning by Amber Israelsen
