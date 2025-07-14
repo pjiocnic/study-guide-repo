@@ -1,0 +1,12 @@
+{
+  "id": 101,
+  "name": "Alice",
+  "address": {
+    "city": "Wonderland",
+    "zip": "12345",
+    "locations": [
+      {"type": "home", "zip": "1234"},
+      {"type": "office", "zip": "6789"}
+    ]
+  }
+}
