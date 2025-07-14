@@ -22,63 +22,54 @@ public class CSVFlattener {
         Map<String, String> flatMap = new LinkedHashMap<>();
         for (String key : fieldConfig.stringPropertyNames()) {
             if (!"Y".equalsIgnoreCase(fieldConfig.getProperty(key))) continue;
-
-            if (key.contains("[*]")) {
-                String prefix = key.substring(0, key.indexOf("[*]"));
-                String suffix = key.substring(key.indexOf("[*]") + 4); // Skip "[*]."
-
-                try {
-                    Object current = person;
-                    for (String part : prefix.split("\.")) {
-                        Field f = current.getClass().getDeclaredField(part);
-                        f.setAccessible(true);
-                        current = f.get(current);
-                    }
-
-                    List<?> list = (List<?>) current;
-                    for (int i = 0; i < list.size(); i++) {
-                        Object item = list.get(i);
-                        Object value = item;
-
-                        for (String nested : suffix.split("\.")) {
-                            Field f = value.getClass().getDeclaredField(nested);
-                            f.setAccessible(true);
-                            value = f.get(value);
-                        }
-
-                        String finalKey = prefix + "[" + i + "]." + suffix;
-                        flatMap.put(finalKey, value != null ? value.toString() : "");
-                    }
-                } catch (Exception e) {
-                    flatMap.put(key, "ERROR");
-                }
-            } else {
-                try {
-                    String[] parts = key.split("\.");
-                    Object current = person;
-
-                    for (String part : parts) {
-                        int index = -1;
-                        if (part.matches(".+\[\d+]")) {
-                            String field = part.replaceAll("\[\d+]", "");
-                            index = Integer.parseInt(part.replaceAll(".*\[(\d+)]", "$1"));
-                            Field f = current.getClass().getDeclaredField(field);
-                            f.setAccessible(true);
-                            List<?> list = (List<?>) f.get(current);
-                            current = list.get(index);
-                        } else {
-                            Field f = current.getClass().getDeclaredField(part);
-                            f.setAccessible(true);
-                            current = f.get(current);
-                        }
-                    }
-
-                    flatMap.put(key, current != null ? current.toString() : "");
-                } catch (Exception e) {
-                    flatMap.put(key, "ERROR");
-                }
-            }
+            processKey(flatMap, key, person);
         }
         return flatMap;
+    }
+
+    private void processKey(Map<String, String> flatMap, String key, Object root) {
+        String[] tokens = key.split("\.");
+        processRecursive(flatMap, tokens, 0, root, "");
+    }
+
+    private void processRecursive(Map<String, String> flatMap, String[] tokens, int index, Object current, String path) {
+        if (index >= tokens.length || current == null) return;
+
+        String token = tokens[index];
+
+        if (token.endsWith("[*]")) {
+            String fieldName = token.substring(0, token.length() - 3);
+            try {
+                Field f = current.getClass().getDeclaredField(fieldName);
+                f.setAccessible(true);
+                Object value = f.get(current);
+                if (value instanceof List<?>) {
+                    List<?> list = (List<?>) value;
+                    for (int i = 0; i < list.size(); i++) {
+                        Object item = list.get(i);
+                        String newPath = path.isEmpty() ? fieldName + "[" + i + "]" : path + "." + fieldName + "[" + i + "]";
+                        processRecursive(flatMap, tokens, index + 1, item, newPath);
+                    }
+                }
+            } catch (Exception e) {
+                flatMap.put(path + "." + fieldName + "[*]", "ERROR");
+            }
+        } else {
+            try {
+                Field f = current.getClass().getDeclaredField(token);
+                f.setAccessible(true);
+                Object value = f.get(current);
+                if (index == tokens.length - 1) {
+                    String finalKey = path.isEmpty() ? token : path + "." + token;
+                    flatMap.put(finalKey, value != null ? value.toString() : "");
+                } else {
+                    String newPath = path.isEmpty() ? token : path + "." + token;
+                    processRecursive(flatMap, tokens, index + 1, value, newPath);
+                }
+            } catch (Exception e) {
+                String finalKey = path.isEmpty() ? token : path + "." + token;
+                flatMap.put(finalKey, "ERROR");
+            }
+        }
     }
 }

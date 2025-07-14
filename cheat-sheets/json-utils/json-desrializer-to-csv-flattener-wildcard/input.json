@@ -5,8 +5,16 @@
     "city": "Wonderland",
     "zip": "12345",
     "locations": [
-      {"type": "home", "zip": "1234"},
-      {"type": "office", "zip": "6789"}
+      {
+        "type": "home",
+        "coords": ["12345", "76548"],
+        "zip": "1234"
+      },
+      {
+        "type": "office",
+        "coords": ["22345", "86548"],
+        "zip": "6789"
+      }
     ]
   }
 }
