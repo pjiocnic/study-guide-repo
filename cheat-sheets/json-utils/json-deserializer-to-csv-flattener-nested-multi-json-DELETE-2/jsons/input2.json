@@ -1,0 +1,15 @@
+{
+  "id": 102,
+  "name": "Bob",
+  "address": {
+    "city": "Neverland",
+    "zip": "54321",
+    "locations": [
+      {
+        "type": "office",
+        "coords": ["22345", "86548"],
+        "zip": "6789"
+      }
+    ]
+  }
+}
