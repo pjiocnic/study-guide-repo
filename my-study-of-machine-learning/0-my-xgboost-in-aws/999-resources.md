@@ -1,6 +1,18 @@
-https://github.com/aws/amazon-sagemaker-examples/tree/main/introduction_to_amazon_algorithms/xgboost_abalone
-[Multiclass classification with Amazon SageMaker XGBoost algorithm](https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazon_algorithms/xgboost_mnist/xgboost_mnist.ipynb)
-[Introducing the open-source Amazon SageMaker XGBoost algorithm container by Rahul Iyer, Eric Kim, Laurence Rouesnel, and Rocky Zhang ](https://aws.amazon.com/blogs/machine-learning/introducing-the-open-source-amazon-sagemaker-xgboost-algorithm-container/)
+[amazon-sagemaker-examples/introduction_to_amazon_algorithms/xgboost_abalone](https://github.com/aws/amazon-sagemaker-examples/tree/main/introduction_to_amazon_algorithms/xgboost_abalone)
+
+
+### Repos
+
+1. [official XGBoost GitHub repository](https://github.com/dmlc/xgboost?tab=readme-ov-file)
+
+## Algorithms
+
+1. [Multiclass classification with Amazon SageMaker XGBoost algorithm](https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazon_algorithms/xgboost_mnist/xgboost_mnist.ipynb)
+2. [Introducing the open-source Amazon SageMaker XGBoost algorithm container by Rahul Iyer, Eric Kim, Laurence Rouesnel, and Rocky Zhang ](https://aws.amazon.com/blogs/machine-learning/introducing-the-open-source-amazon-sagemaker-xgboost-algorithm-container/)
+3. [Regression with Amazon SageMaker XGBoost algorithm](https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_amazon_algorithms/xgboost_abalone/xgboost_abalone.html)
+4. [Customer Churn Prediction with XGBoost](https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_applying_machine_learning/xgboost_customer_churn/xgboost_customer_churn.html)
+5. [Train and deploy a regression model with the Amazon SageMaker XGBoost Algorithm using Script Mode](https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_amazon_algorithms/xgboost_abalone/xgboost_abalone_dist_script_mode.html)
+6. [Regression with Amazon SageMaker XGBoost (Parquet input)](https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_amazon_algorithms/xgboost_abalone/xgboost_parquet_input_training.html)
 
 
 ## Youtube
