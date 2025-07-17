@@ -1,0 +1,3 @@
+[Feature Importance and Feature Selection With XGBoost in Python By Jason Brownlee](https://machinelearningmastery.com/feature-importance-and-feature-selection-with-xgboost-in-python/)
+[A Hands-on Guide to Feature Engineering for Machine Learning By Derrick Mwiti](https://cnvrg.io/feature-engineering/)
+[Data Preparation for Gradient Boosting with XGBoost in Python By Jason Brownlee](https://machinelearningmastery.com/data-preparation-gradient-boosting-xgboost-python/)
