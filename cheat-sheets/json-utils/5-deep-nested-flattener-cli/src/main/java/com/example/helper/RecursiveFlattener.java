@@ -10,12 +10,19 @@ import java.util.regex.Pattern;
 public class RecursiveFlattener {
 
     private static final String INDEX_PLACEHOLDER = "[*]";
-    private static final Pattern ARRAY_PATH_PATTERN = Pattern.compile("\[(\d+)]");
+    private static final Pattern ARRAY_PATH_PATTERN = Pattern.compile("\\[(\\d+)]");
 
     public static List<Map<String, String>> flattenList(List<?> dataList, Properties fieldProps) {
+    	
+    	// Maps field paths from flat-fields.properties to final CSV column names
+    	// e.g., "automobile[*].make" => "Make"
         Map<String, String> outputFieldLabels = new LinkedHashMap<>();
         for (String propKey : fieldProps.stringPropertyNames()) {
             String value = fieldProps.getProperty(propKey);
+            
+            // Handles:
+            //    automobile[*].make=Y:Make
+            //    passport.number=Y:psprt_nbr
             if (value.startsWith("Y:")) {
                 outputFieldLabels.put(propKey, value.substring(2));
             } else if (value.equalsIgnoreCase("Y")) {
@@ -38,6 +45,9 @@ public class RecursiveFlattener {
         return allRows;
     }
 
+	 // Calculates how many repetitions we need to reserve space for
+	 // Example: if "automobile" appears as a list of 2 in one JSON and 3 in another,
+	 // we use the max (3) for column allocation.
     private static void calculateMaxArraySizes(Object obj, String path, Map<String, Integer> maxSizes) {
         if (obj == null) return;
         Class<?> clazz = obj.getClass();
@@ -66,6 +76,8 @@ public class RecursiveFlattener {
         }
     }
 
+ // Recursive method that walks through each object/field/array recursively
+ // Builds a row of CSV data in currentRow map
     private static void flattenRecursive(Object obj,
                                          String path,
                                          Map<String, String> currentRow,
@@ -75,10 +87,18 @@ public class RecursiveFlattener {
         if (obj == null) return;
         Class<?> clazz = obj.getClass();
 
+        // If value is primitive/string — candidate for final CSV column
         if (isPrimitiveOrWrapper(clazz) || obj instanceof String) {
             for (String outputField : outputFields.keySet()) {
-                String regex = path.replaceAll("\[\d+\]", INDEX_PLACEHOLDER);
+            	
+                // Example:
+                // path = "automobile[0].make"
+                // outputField = "automobile[*].make"
+                //
+                // Convert [0] to [*] to match keys in properties
+                String regex = path.replaceAll("\\[\\d+\\]", INDEX_PLACEHOLDER);
                 if (outputField.equals(regex)) {
+                	// Replace indices into label to form: Make__idx0, Make__idx1
                     String colLabel = generateColumnLabel(outputFields.get(outputField), path);
                     currentRow.put(colLabel, obj.toString());
                 }
@@ -114,11 +134,15 @@ public class RecursiveFlattener {
         }
     }
 
+	 // If an array has fewer elements than maxSizes[path], we fill with NaN
+	 // Example:
+	 // max automobile[*].make is 3, but this object only has 2 entries
+	 // So we'll fill "Make__idx2" = "NaN"
     private static void fillNaN(String path,
                                 Map<String, String> currentRow,
                                 Map<String, String> outputFields) {
         for (String outputField : outputFields.keySet()) {
-            String regex = path.replaceAll("\[\d+\]", INDEX_PLACEHOLDER);
+            String regex = path.replaceAll("\\[\\d+\\]", INDEX_PLACEHOLDER);
             if (outputField.equals(regex)) {
                 String colLabel = generateColumnLabel(outputFields.get(outputField), path);
                 currentRow.put(colLabel, "NaN");
@@ -126,6 +150,9 @@ public class RecursiveFlattener {
         }
     }
 
+
+	 // Generates output column like: "Make__idx0__idx1"
+	 // when path = "address.locations[0].metadata.contacts[1].social[2].platform"
     private static String generateColumnLabel(String label, String fullPath) {
         Matcher matcher = ARRAY_PATH_PATTERN.matcher(fullPath);
         StringBuilder sb = new StringBuilder(label);
