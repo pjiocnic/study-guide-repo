@@ -3,11 +3,9 @@
     "id": 102,
     "name": "Bob",
     "automobile": [
-          {
-            "make": "Hyundai",
-            "fuelType": "Gas"
-          }
-        ],
+	    {"make": "hyundai", "fuelType": "gas"}
+    ],
+    
     "address": {
       "city": "Funderland",
       "zip": "54321",

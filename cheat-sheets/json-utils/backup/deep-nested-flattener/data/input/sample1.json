@@ -3,14 +3,8 @@
     "id": 101,
     "name": "Alice",
     "automobile": [
-      {
-        "make": "Toyota",
-        "fuelType": "Gas"
-      },
-      {
-        "make": "Tesla",
-        "fuelType": "electric"
-      }
+    {"make": "honda", "fuelType": "gas"},
+    {"make": "tesla", "fuelType": "electric"}
     ],
     "address": {
       "city": "Wonderland",

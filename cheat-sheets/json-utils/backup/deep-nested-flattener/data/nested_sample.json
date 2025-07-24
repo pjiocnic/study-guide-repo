@@ -2,16 +2,6 @@
   {
     "id": 101,
     "name": "Alice",
-    "automobile": [
-      {
-        "make": "Toyota",
-        "fuelType": "Gas"
-      },
-      {
-        "make": "Tesla",
-        "fuelType": "electric"
-      }
-    ],
     "address": {
       "city": "Wonderland",
       "zip": "12345",
@@ -26,10 +16,8 @@
                 "phone": "123-456-7890",
                 "email": "alice.home@example.com",
                 "social": [
-                  {
-                    "platform": "facebook",
-                    "handle": "alice.wonder"
-                  }
+                  {"platform": "facebook", "handle": "alice.wonder"},
+                  {"platform": "twitter", "handle": "@alice_home"}
                 ]
               }
             ]
