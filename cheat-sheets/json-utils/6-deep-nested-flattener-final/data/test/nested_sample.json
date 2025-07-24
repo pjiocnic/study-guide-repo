@@ -2,15 +2,6 @@
   {
     "id": 101,
     "name": "Alice",
-    "PASS_PRT": {
-      "N_UMBER": "A12345678",
-      "C_OUNTRY": "Wonderland",
-      "E_XPIRY": "2030-12-31"
-    },
-    "automobile": [
-      {"make": "Toyota", "fuelType": "Gas"},
-      {"make": "Tesla", "fuelType": "Electric"}
-    ],
     "address": {
       "city": "Wonderland",
       "zip": "12345",
@@ -25,10 +16,8 @@
                 "phone": "123-456-7890",
                 "email": "alice.home@example.com",
                 "social": [
-                  {
-                    "platform": "facebook",
-                    "handle": "alice.wonder"
-                  }
+                  {"platform": "facebook", "handle": "alice.wonder"},
+                  {"platform": "twitter", "handle": "@alice_home"}
                 ]
               }
             ]

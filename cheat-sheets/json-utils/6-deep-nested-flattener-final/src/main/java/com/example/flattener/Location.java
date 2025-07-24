@@ -1,7 +1,5 @@
 package com.example.flattener;
 
-import java.util.List;
-
 public class Location {
     private String type;
     private String zip;

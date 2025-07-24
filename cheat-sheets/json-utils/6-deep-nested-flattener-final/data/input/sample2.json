@@ -1,0 +1,55 @@
+[
+  {
+    "id": 102,
+    "name": "Bob",
+    "PASS_PRT": {
+      "N_UMBER": "B12345678",
+      "C_OUNTRY": "Jumpingland",
+      "E_XPIRY": "2030-01-31"
+    },
+    "automobile": [
+          {
+            "make": "Hyundai",
+            "fuelType": "Gas"
+          }
+        ],
+    "address": {
+      "city": "Funderland",
+      "zip": "54321",
+      "locations": [
+        {
+          "type": "office",
+          "zip": "4321",
+          "metadata": {
+            "isPrimary": false,
+            "contacts": [
+              {
+                "phone": "321-654-0987",
+                "email": "bob.office@example.com",
+                "social": []
+              },
+              {
+                "phone": "111-222-3333",
+                "email": null,
+                "social": [
+                  {
+                    "platform": "linkedin",
+                    "handle": "bob-link"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "remote",
+          "zip": "5678",
+          "metadata": {
+            "isPrimary": false,
+            "contacts": []
+          }
+        }
+      ]
+    }
+  }
+]

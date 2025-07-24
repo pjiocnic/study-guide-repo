@@ -1,0 +1,11 @@
+[
+  {
+    "id": 103,
+    "name": "Charlie",
+    "address": {
+      "city": "Dreamland",
+      "zip": "99999",
+      "locations": []
+    }
+  }
+]
