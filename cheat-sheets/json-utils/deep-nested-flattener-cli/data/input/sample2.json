@@ -2,6 +2,11 @@
   {
     "id": 102,
     "name": "Bob",
+    "PASS_PRT": {
+      "N_UMBER": "B12345678",
+      "C_OUNTRY": "Jumpingland",
+      "E_XPIRY": "2030-01-31"
+    },
     "automobile": [
           {
             "make": "Hyundai",

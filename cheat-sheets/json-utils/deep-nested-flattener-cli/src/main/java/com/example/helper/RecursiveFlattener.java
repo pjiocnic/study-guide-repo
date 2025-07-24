@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class RecursiveFlattener {
 
     private static final String INDEX_PLACEHOLDER = "[*]";
-    private static final Pattern ARRAY_PATH_PATTERN = Pattern.compile("\\[(\\d+)\\]");
+    private static final Pattern ARRAY_PATH_PATTERN = Pattern.compile("\\[(\\d+)]");
 
     public static List<Map<String, String>> flattenList(List<?> dataList, Properties fieldProps) {
         Map<String, String> outputFieldLabels = new LinkedHashMap<>();
@@ -21,13 +21,11 @@ public class RecursiveFlattener {
             }
         }
 
-        // 1. Find max sizes for array paths
         Map<String, Integer> maxSizes = new HashMap<>();
         for (Object obj : dataList) {
             calculateMaxArraySizes(obj, "", maxSizes);
         }
 
-        // 2. Flatten each object with padding
         List<Map<String, String>> allRows = new ArrayList<>();
         for (Object obj : dataList) {
             List<Map<String, String>> rows = new ArrayList<>();
@@ -129,7 +127,7 @@ public class RecursiveFlattener {
         Matcher matcher = ARRAY_PATH_PATTERN.matcher(fullPath);
         StringBuilder sb = new StringBuilder(label);
         while (matcher.find()) {
-            sb.append("_").append(matcher.group(1));
+            sb.append("__idx").append(matcher.group(1));  // safer than underscores in keys
         }
         return sb.toString();
     }
