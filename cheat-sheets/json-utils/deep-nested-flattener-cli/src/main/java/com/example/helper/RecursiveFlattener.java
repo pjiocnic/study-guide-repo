@@ -1,6 +1,8 @@
 package com.example.helper;
 
-import java.lang.reflect.*;
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -8,7 +10,7 @@ import java.util.regex.Pattern;
 public class RecursiveFlattener {
 
     private static final String INDEX_PLACEHOLDER = "[*]";
-    private static final Pattern ARRAY_PATH_PATTERN = Pattern.compile("\\[(\\d+)]");
+    private static final Pattern ARRAY_PATH_PATTERN = Pattern.compile("\[(\d+)]");
 
     public static List<Map<String, String>> flattenList(List<?> dataList, Properties fieldProps) {
         Map<String, String> outputFieldLabels = new LinkedHashMap<>();
@@ -53,11 +55,13 @@ public class RecursiveFlattener {
             return;
         }
 
-        for (Field field : clazz.getFields()) {
+        for (PropertyDescriptor pd : getPropertyDescriptors(clazz)) {
             try {
-                Object value = field.get(obj);
-                String newPath = path.isEmpty() ? field.getName() : path + "." + field.getName();
-                calculateMaxArraySizes(value, newPath, maxSizes);
+                Object value = pd.getReadMethod().invoke(obj);
+                if (value != null) {
+                    String newPath = path.isEmpty() ? pd.getName() : path + "." + pd.getName();
+                    calculateMaxArraySizes(value, newPath, maxSizes);
+                }
             } catch (Exception ignored) {}
         }
     }
@@ -73,7 +77,7 @@ public class RecursiveFlattener {
 
         if (isPrimitiveOrWrapper(clazz) || obj instanceof String) {
             for (String outputField : outputFields.keySet()) {
-                String regex = path.replaceAll("\\[\\d+\\]", INDEX_PLACEHOLDER);
+                String regex = path.replaceAll("\[\d+\]", INDEX_PLACEHOLDER);
                 if (outputField.equals(regex)) {
                     String colLabel = generateColumnLabel(outputFields.get(outputField), path);
                     currentRow.put(colLabel, obj.toString());
@@ -91,16 +95,16 @@ public class RecursiveFlattener {
                 index++;
             }
             while (index < max) {
-                fillNaN(obj, path + "[" + index + "]", currentRow, outputFields);
+                fillNaN(path + "[" + index + "]", currentRow, outputFields);
                 index++;
             }
             return;
         }
 
-        for (Field field : clazz.getFields()) {
+        for (PropertyDescriptor pd : getPropertyDescriptors(clazz)) {
             try {
-                Object value = field.get(obj);
-                String newPath = path.isEmpty() ? field.getName() : path + "." + field.getName();
+                Object value = pd.getReadMethod().invoke(obj);
+                String newPath = path.isEmpty() ? pd.getName() : path + "." + pd.getName();
                 flattenRecursive(value, newPath, currentRow, outputFields, maxSizes, rows);
             } catch (Exception ignored) {}
         }
@@ -110,12 +114,11 @@ public class RecursiveFlattener {
         }
     }
 
-    private static void fillNaN(Object sampleObj,
-                                String path,
+    private static void fillNaN(String path,
                                 Map<String, String> currentRow,
                                 Map<String, String> outputFields) {
         for (String outputField : outputFields.keySet()) {
-            String regex = path.replaceAll("\\[\\d+\\]", INDEX_PLACEHOLDER);
+            String regex = path.replaceAll("\[\d+\]", INDEX_PLACEHOLDER);
             if (outputField.equals(regex)) {
                 String colLabel = generateColumnLabel(outputFields.get(outputField), path);
                 currentRow.put(colLabel, "NaN");
@@ -127,7 +130,7 @@ public class RecursiveFlattener {
         Matcher matcher = ARRAY_PATH_PATTERN.matcher(fullPath);
         StringBuilder sb = new StringBuilder(label);
         while (matcher.find()) {
-            sb.append("__idx").append(matcher.group(1));  // safer than underscores in keys
+            sb.append("__idx").append(matcher.group(1));
         }
         return sb.toString();
     }
@@ -142,5 +145,14 @@ public class RecursiveFlattener {
                clazz == Double.class ||
                clazz == Float.class ||
                clazz == Character.class;
+    }
+
+    private static List<PropertyDescriptor> getPropertyDescriptors(Class<?> clazz) {
+        try {
+            PropertyDescriptor[] descriptors = Introspector.getBeanInfo(clazz, Object.class).getPropertyDescriptors();
+            return Arrays.asList(descriptors);
+        } catch (IntrospectionException e) {
+            return Collections.emptyList();
+        }
     }
 }
