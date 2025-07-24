@@ -1,0 +1,29 @@
+[
+  {
+    "id": 101,
+    "name": "Alice",
+    "address": {
+      "city": "Wonderland",
+      "zip": "12345",
+      "locations": [
+        {
+          "type": "home",
+          "zip": "1234",
+          "metadata": {
+            "isPrimary": true,
+            "contacts": [
+              {
+                "phone": "123-456-7890",
+                "email": "alice.home@example.com",
+                "social": [
+                  {"platform": "facebook", "handle": "alice.wonder"},
+                  {"platform": "twitter", "handle": "@alice_home"}
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]
