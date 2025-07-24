@@ -5,6 +5,8 @@
 
 1. [Data Wrangling with Pandas for Machine Learning Engineers by Mike West](https://app.pluralsight.com/library/courses/pandas-data-wrangling-machine-learning-engineers/discussion#comment-4089902385)
 2. [pandas in 30 days by dataschool](https://courses.dataschool.io/view/courses/pandas-in-30-days/2341080-introduction/7781305-download-the-course-files)
+3. [Pandas by CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvbR85fgbfVRKOiMokUKVupy)
+4. [Python Pandas Tutorial for Beginners | Pandas Playlist](https://www.youtube.com/playlist?list=PL4GjoPPG4VqP0BNdnIZQqjCYodmtFCcee)
 
 ## df.describe
 
