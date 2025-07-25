@@ -7,6 +7,7 @@
 2. [pandas in 30 days by dataschool](https://courses.dataschool.io/view/courses/pandas-in-30-days/2341080-introduction/7781305-download-the-course-files)
 3. [Pandas by CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvbR85fgbfVRKOiMokUKVupy)
 4. [Python Pandas Tutorial for Beginners | Pandas Playlist](https://www.youtube.com/playlist?list=PL4GjoPPG4VqP0BNdnIZQqjCYodmtFCcee)
+5. [[STARTED_HERE] Pandas & Python for Data Analysis by Example – Full Course for Beginners](https://www.youtube.com/watch?v=gtjxAH8uaP0)
 
 ## df.describe
 
