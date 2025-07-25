@@ -1,3 +1,5 @@
+target/
+.settings/
 node_modules/
 *.zip
 push.sh
