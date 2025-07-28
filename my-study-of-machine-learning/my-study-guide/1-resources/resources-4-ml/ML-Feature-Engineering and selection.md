@@ -20,3 +20,8 @@
 ## Online Material
 
 1. [Feature Engineering and Selection: A Practical Approach for Predictive Models Max Kuhn and Kjell Johnson](http://www.feat.engineering/)
+
+
+## Videos
+
+1. [Recommending Art with Feature Engineering Sinan Ozdemir](https://learning.oreilly.com/videos/recommending-art-with/10000MNHV202210/10000MNHV202210-aaaaa/)
