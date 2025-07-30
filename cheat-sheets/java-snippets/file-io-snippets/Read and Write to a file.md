@@ -69,7 +69,7 @@ public class FileUtils {
         return fileContents;
     }
 
-    public static String readFileInDirectory(String dirPath, String fileName) throws IOException {
+  public static String readFileInDirectory(String dirPath, String fileName) throws IOException {
       Path filePath = Paths.get(dirPath, fileName);
 
       if (!Files.exists(filePath)) {
@@ -80,9 +80,9 @@ public class FileUtils {
       }
 
       return new String(Files.readAllBytes(filePath));
-    }
+  }
 
-    public static List<String> readFileInDirectory(String dirPath, String fileName) throws IOException {
+  public static List<String> readFileInDirectory(String dirPath, String fileName) throws IOException {
       Path filePath = Paths.get(dirPath, fileName);
 
       if (!Files.exists(filePath)) {
@@ -93,6 +93,24 @@ public class FileUtils {
       }
 
       return Files.readAllLines(filePath);  // returns List<String>
-      }
+  }
+
+  public static void writeToFileAsJsonArray(String fileName, List<String> lines) throws IOException {
+    Path path = Paths.get(fileName);
+    try (BufferedWriter writer = Files.newBufferedWriter(path)) {
+        writer.write("[\n");
+
+        for (int i = 0; i < lines.size(); i++) {
+            writer.write(lines.get(i));
+            if (i < lines.size() - 1) {
+                writer.write(",\n");
+            } else {
+                writer.write("\n");
+            }
+        }
+
+        writer.write("]");
+    }
+  }
 }
 ```

@@ -12,3 +12,13 @@
 ## df.describe
 
 1. [What most people do not understand about df. describe()? Aaryan Ohekar](https://medium.com/@aaryanohekar277/what-most-people-do-not-understand-about-df-describe-e927954a91e5)
+
+
+## JSON
+
+1. [How to Convert JSON Data into a DataFrame with Pandas By Kanwal Mehreen](https://www.kdnuggets.com/how-to-convert-json-data-into-a-dataframe-with-pandas)
+
+
+## CheatSheets
+
+1. [Python Pandas Cheat Sheet](https://x.com/dankornas/status/1849799433610768648?s=48)
