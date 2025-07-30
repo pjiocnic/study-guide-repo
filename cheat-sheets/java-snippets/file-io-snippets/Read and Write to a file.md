@@ -81,5 +81,18 @@ public class FileUtils {
 
       return new String(Files.readAllBytes(filePath));
     }
+
+    public static List<String> readFileInDirectory(String dirPath, String fileName) throws IOException {
+      Path filePath = Paths.get(dirPath, fileName);
+
+      if (!Files.exists(filePath)) {
+          throw new IOException("File not found: " + filePath);
+      }
+      if (!Files.isRegularFile(filePath)) {
+          throw new IOException("Not a regular file: " + filePath);
+      }
+
+      return Files.readAllLines(filePath);  // returns List<String>
+      }
 }
 ```
