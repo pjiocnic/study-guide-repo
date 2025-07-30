@@ -49,5 +49,24 @@ public class FileUtils {
     public static void writeToFile(String fileName, List<String> lines) throws IOException {
         Files.write(Paths.get(fileName), lines);
     }
+
+    public static List<String> readFilesInDirectory(String dirPath, String globPattern) throws IOException {
+        List<String> fileContents = new ArrayList<>();
+
+        Path directory = Paths.get(dirPath);
+        if (!Files.isDirectory(directory)) {
+            throw new IOException("Path is not a directory: " + dirPath);
+        }
+
+        try (DirectoryStream<Path> stream = Files.newDirectoryStream(directory, globPattern)) {
+            for (Path filePath : stream) {
+                if (Files.isRegularFile(filePath)) {
+                    fileContents.add(new String(Files.readAllBytes(filePath)));
+                }
+            }
+        }
+
+        return fileContents;
+    }
 }
 ```
