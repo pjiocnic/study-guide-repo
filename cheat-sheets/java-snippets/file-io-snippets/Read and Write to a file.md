@@ -95,18 +95,22 @@ public class FileUtils {
       return Files.readAllLines(filePath);  // returns List<String>
   }
 
-  public static void writeToFileAsJsonArray(String fileName, List<String> lines) throws IOException {
+  public static void writeToFileAsJsonArray(String fileName, Collection<String> items) throws IOException {
     Path path = Paths.get(fileName);
     try (BufferedWriter writer = Files.newBufferedWriter(path)) {
         writer.write("[\n");
 
-        for (int i = 0; i < lines.size(); i++) {
-            writer.write(lines.get(i));
-            if (i < lines.size() - 1) {
+        int i = 0;
+        int size = items.size();
+
+        for (String item : items) {
+            writer.write(item);
+            if (i < size - 1) {
                 writer.write(",\n");
             } else {
                 writer.write("\n");
             }
+            i++;
         }
 
         writer.write("]");
