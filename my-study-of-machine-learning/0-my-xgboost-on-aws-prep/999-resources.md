@@ -1,5 +1,9 @@
-[amazon-sagemaker-examples/introduction_to_amazon_algorithms/xgboost_abalone](https://github.com/aws/amazon-sagemaker-examples/tree/main/introduction_to_amazon_algorithms/xgboost_abalone)
+## Getting Started
 
+1. [Introducing the open-source Amazon SageMaker XGBoost algorithm container by Rahul Iyer, Eric Kim, Laurence Rouesnel, and Rocky Zhang ](https://aws.amazon.com/blogs/machine-learning/introducing-the-open-source-amazon-sagemaker-xgboost-algorithm-container/)
+1. [Simplify machine learning with XGBoost and Amazon SageMaker by Eitan Sela, Saksham Saini, Yash Pant, and Yijie Zhuang](https://aws.amazon.com/blogs/machine-learning/simplify-machine-learning-with-xgboost-and-amazon-sagemaker/)
+1. [Amazon SageMaker End to End Workshop](https://github.com/aws-samples/sagemaker-end-to-end-workshop?tab=readme-ov-file)
+   - [[COMPANION] Predicting Customer Churn with Amazon Machine Learning by Denis V. Batalov](https://aws.amazon.com/blogs/machine-learning/predicting-customer-churn-with-amazon-machine-learning/)
 
 ### Repos
 
@@ -13,7 +17,7 @@
 4. [Customer Churn Prediction with XGBoost](https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_applying_machine_learning/xgboost_customer_churn/xgboost_customer_churn.html)
 5. [Train and deploy a regression model with the Amazon SageMaker XGBoost Algorithm using Script Mode](https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_amazon_algorithms/xgboost_abalone/xgboost_abalone_dist_script_mode.html)
 6. [Regression with Amazon SageMaker XGBoost (Parquet input)](https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_amazon_algorithms/xgboost_abalone/xgboost_parquet_input_training.html)
-
+7. [amazon-sagemaker-examples/introduction_to_amazon_algorithms/xgboost_abalone](https://github.com/aws/amazon-sagemaker-examples/tree/main/introduction_to_amazon_algorithms/xgboost_abalone)
 
 ## Youtube
 
@@ -44,5 +48,6 @@
   * Monitoring: Monitor our model for concept drift with SageMaker Model Monitor;
   * Pipelines: Create a Amazon SageMaker Pipelines to run our entire process.
 
-1. [[COMPANION] Predicting Customer Churn with Amazon Machine Learning by Denis V. Batalov](https://aws.amazon.com/blogs/machine-learning/predicting-customer-churn-with-amazon-machine-learning/)
-1. [Deep Learning MLOps workshop with Amazon SageMaker](https://catalog.workshops.aws/deep-learning-mlops-workshop-with-amazon-sagemaker/en-US)
+  [[COMPANION] Predicting Customer Churn with Amazon Machine Learning by Denis V. Batalov](https://aws.amazon.com/blogs/machine-learning/predicting-customer-churn-with-amazon-machine-learning/)
+
+2. [Deep Learning MLOps workshop with Amazon SageMaker](https://catalog.workshops.aws/deep-learning-mlops-workshop-with-amazon-sagemaker/en-US)

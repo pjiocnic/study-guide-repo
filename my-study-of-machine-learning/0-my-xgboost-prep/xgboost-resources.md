@@ -42,3 +42,4 @@ https://www.google.com/search?q=xgboost+classification&sca_esv=0c78d1073bcd124b&
 # Feature Engg and Selection
 
 1. [Feature Importance and Feature Selection With XGBoost in Python By Jason Brownlee](https://machinelearningmastery.com/feature-importance-and-feature-selection-with-xgboost-in-python/)
+2. [Data Preparation for Gradient Boosting with XGBoost in Python By Jason Brownlee](https://machinelearningmastery.com/data-preparation-gradient-boosting-xgboost-python/)
