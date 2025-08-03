@@ -30,29 +30,29 @@ file_class_0 = "class0.csv"
 output_file = "combined_shuffled.csv"
 chunksize = 100_000
 
-# Step 1: Infer union of all columns including 'target'
-sample1 = pd.read_csv(file_class_1, nrows=100)
-sample0 = pd.read_csv(file_class_0, nrows=100)
+# Step 1: Get column union
+cols1 = pd.read_csv(file_class_1, nrows=0).columns
+cols0 = pd.read_csv(file_class_0, nrows=0).columns
+all_columns = sorted(set(cols1).union(cols0))
 
-all_columns = sorted(set(sample1.columns).union(sample0.columns))
+# Step 2: Use str for all dtypes to avoid type issues
+dtype_map = {col: str for col in all_columns}
 
-print(f"Unified schema: {len(all_columns)} columns")
-
-# Step 2: Generator to stream each file with padded columns
-def stream_padded_chunks(filepath, all_columns, chunksize):
-    for chunk in pd.read_csv(filepath, chunksize=chunksize):
+# Step 3: Streaming generator
+def stream_padded_chunks(filepath, all_columns, dtype_map, chunksize):
+    for chunk in pd.read_csv(filepath, chunksize=chunksize, dtype=dtype_map):
         for col in all_columns:
             if col not in chunk.columns:
                 chunk[col] = np.nan
         yield chunk[all_columns]
 
-# Step 3: Write header
+# Step 4: Write header
 with open(output_file, "w", encoding="utf-8") as f:
     pd.DataFrame(columns=all_columns).to_csv(f, index=False)
 
-# Step 4: Interleave chunks from both CSVs
-stream1 = stream_padded_chunks(file_class_1, all_columns, chunksize)
-stream0 = stream_padded_chunks(file_class_0, all_columns, chunksize)
+# Step 5: Interleave & write chunks
+stream1 = stream_padded_chunks(file_class_1, all_columns, dtype_map, chunksize)
+stream0 = stream_padded_chunks(file_class_0, all_columns, dtype_map, chunksize)
 
 done1 = done0 = False
 
@@ -68,6 +68,7 @@ with open(output_file, "a", encoding="utf-8") as f:
             chunk.sample(frac=1).to_csv(f, index=False, header=False)
         except StopIteration:
             done0 = True
+
 ```
 
 ---
