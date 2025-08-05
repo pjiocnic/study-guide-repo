@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "geo": {
+        "lat": "40.7128",
+        "long": "74.0060"
+      }
+    },
+    "phones": [
+      {
+        "type": "home",
+        "number": "123-456-7890"
+      },
+      {
+        "type": "work",
+        "number": "987-654-3210"
+      }
+    ],
+    "employment": {
+      "current": {
+        "company": "TechCorp",
+        "role": "Engineer",
+        "location": {
+          "city": "New York",
+          "building": {
+            "name": "HQ North",
+            "floor": 15
+          }
+        }
+      },
+      "history": [
+        {
+          "company": "OldCorp",
+          "role": "Intern",
+          "duration": "1 year"
+        },
+        {
+          "company": "StartupX",
+          "role": "Developer",
+          "duration": "2 years"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "address": {
+      "street": "456 Market St",
+      "city": "Othertown",
+      "geo": {
+        "lat": "34.0522",
+        "long": "118.2437"
+      }
+    },
+    "phones": [
+      {
+        "type": "mobile",
+        "number": "555-123-4567"
+      }
+    ],
+    "employment": {
+      "current": {
+        "company": "InnovateNow",
+        "role": "Manager",
+        "location": {
+          "city": "Los Angeles",
+          "building": {
+            "name": "West Tower",
+            "floor": 22
+          }
+        }
+      },
+      "history": [
+        {
+          "company": "BigCorp",
+          "role": "Analyst",
+          "duration": "3 years"
+        }
+      ]
+    }
+  }
+]
