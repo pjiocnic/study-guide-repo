@@ -9,3 +9,7 @@
 
 [Practical Statistics for Data Scientists, 2nd Edition By Peter Bruce, Andrew Bruce, Peter Gedeck](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/)-
  - Recommended by https://www.youtube.com/watch?v=eE6yvtKLwvk
+
+[Statistics for Data Science and Business Analysis 365 Careers Ltd. by Packt Publishing](https://learning.oreilly.com/videos/statistics-for-data/9781789803259/9781789803259-video2_11/)
+
+

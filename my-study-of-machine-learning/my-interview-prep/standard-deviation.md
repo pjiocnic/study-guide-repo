@@ -1,0 +1,2 @@
+[Variance - Clearly Explained (How To Calculate Variance)](https://www.youtube.com/watch?v=x0rmUXWtSS8&list=PLxHjLUbDs-WEwEuwRGDyAI25vHvD8ngcM&index=10)
+[Standard Deviation and Variance by datatab](https://www.youtube.com/watch?v=5wJUUgnMGWA)

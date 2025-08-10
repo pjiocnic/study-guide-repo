@@ -1,5 +1,18 @@
-1. [[WEEKDAY] Data Analysis with Python: Zero to Pandas By Aakash@Jovin](https://jovian.ai/learn/data-analysis-with-python-zero-to-pandas)
-1. [Pandas Full Python Course - Data Science Fundamentals by NeuralNine](https://www.youtube.com/watch?v=EhYC02PD_gc)
+## API Docs
+
+1. [API reference](https://pandas.pydata.org/docs/reference/index.html)
+
+## Cookbooks
+
+1. [Julia Evans’s pandas-cookbook on GitHub](https://github.com/jvns/pandas-cookbook)
+2. [Cookbook](https://pandas.pydata.org/docs/user_guide/cookbook.html)
+
+## Getting Started
+
+1. [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+2. [Julia Evans’s pandas-cookbook on GitHub](https://github.com/jvns/pandas-cookbook)
+3. [[WEEKDAY] Data Analysis with Python: Zero to Pandas By Aakash@Jovin](https://jovian.ai/learn/data-analysis-with-python-zero-to-pandas)
+4. [Pandas Full Python Course - Data Science Fundamentals by NeuralNine](https://www.youtube.com/watch?v=EhYC02PD_gc)
 
 ## Courses
 
@@ -8,16 +21,16 @@
 3. [Pandas by CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvbR85fgbfVRKOiMokUKVupy)
 4. [Python Pandas Tutorial for Beginners | Pandas Playlist](https://www.youtube.com/playlist?list=PL4GjoPPG4VqP0BNdnIZQqjCYodmtFCcee)
 5. [[STARTED_HERE] Pandas & Python for Data Analysis by Example – Full Course for Beginners](https://www.youtube.com/watch?v=gtjxAH8uaP0)
+6. [[GPT] Complete Python Pandas Data Science Tutorial! (2025 Updated Edition) by Keith Galli](https://www.youtube.com/watch?v=2uvysYbKdjM)
+7. [[COMPREHESIVE][GPT] Pandas & Python for Data Analysis by Example – Full Course for Beginners BY Santiago](https://www.youtube.com/watch?v=gtjxAH8uaP0)
 
 ## df.describe
 
 1. [What most people do not understand about df. describe()? Aaryan Ohekar](https://medium.com/@aaryanohekar277/what-most-people-do-not-understand-about-df-describe-e927954a91e5)
 
-
 ## JSON
 
 1. [How to Convert JSON Data into a DataFrame with Pandas By Kanwal Mehreen](https://www.kdnuggets.com/how-to-convert-json-data-into-a-dataframe-with-pandas)
-
 
 ## CheatSheets
 
