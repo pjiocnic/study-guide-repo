@@ -28,6 +28,12 @@
 
 1. [What most people do not understand about df. describe()? Aaryan Ohekar](https://medium.com/@aaryanohekar277/what-most-people-do-not-understand-about-df-describe-e927954a91e5)
 
+## df.corr
+
+1. [What is the Correlation Coefficient in Statistics?](https://www.youtube.com/watch?v=35Gybn1vPnI)
+1. [Pearson Coefficient of Correlation Explained by Joseph Magiya](https://medium.com/data-science/pearson-coefficient-of-correlation-explained-369991d93404)
+1. [Pearson Coefficient of Correlation with Python](https://levelup.gitconnected.com/pearson-coefficient-of-correlation-using-pandas-ca68ce678c04)
+
 ## JSON
 
 1. [How to Convert JSON Data into a DataFrame with Pandas By Kanwal Mehreen](https://www.kdnuggets.com/how-to-convert-json-data-into-a-dataframe-with-pandas)
