@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:./checkpoint-db/sqs-producer;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+producer:
+  inputDir: "./sample-data"          # directory with your files
+  includePattern: ".*\\.txt"        # regex for files to load
+  threads: 8                          # workers per process
+  batchSize: 10                       # SQS max=10
+  checkpointEvery: 1000               # update DB every N messages
+  rateLimitPerSec: 0                  # 0 = unlimited
+  fifo: false                         # set true if your queue is FIFO
+  messageGroupId: "group-1"           # for FIFO only
+  dedupStrategy: "hash"               # "none" | "line" | "hash"
+aws:
+  region: "us-east-1"
+  queueUrl: "https://sqs.us-east-1.amazonaws.com/123456789012/my-queue"

@@ -1,0 +1,6 @@
+.idea/
+.target/
+target/
+checkpoint-db/
+*.lock
+*.log
