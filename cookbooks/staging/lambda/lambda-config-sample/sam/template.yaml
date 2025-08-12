@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Java Lambda that reads SSM Parameter Store and Secrets Manager
+
+Globals:
+  Function:
+    Runtime: java17
+    MemorySize: 512
+    Timeout: 30
+    Tracing: Active
+
+Parameters:
+  ParamDbUrlName:
+    Type: String
+    Default: /myapp/prod/db/url
+  SecretDbName:
+    Type: String
+    Default: myapp/prod/dbCredentials
+
+Resources:
+  ConfigFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: com.example.lambda.Handler::handleRequest
+      CodeUri: ../target/lambda-config-sample-0.0.1-shaded.jar
+      Environment:
+        Variables:
+          PARAM_DB_URL: !Ref ParamDbUrlName
+          SECRET_DB: !Ref SecretDbName
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - Statement:
+            - Effect: Allow
+              Action:
+                - ssm:GetParameter
+                - ssm:GetParameters
+                - ssm:GetParametersByPath
+              Resource: "*"
+            - Effect: Allow
+              Action:
+                - secretsmanager:GetSecretValue
+              Resource: "*"
