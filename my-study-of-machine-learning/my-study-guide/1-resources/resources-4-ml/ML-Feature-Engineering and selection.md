@@ -1,6 +1,12 @@
+# Must See
+
+1. [All about Feature Engineering, Feature Store, and Ground Truth in Amazon SageMaker](https://medium.com/@Shamimw/all-about-feature-engineering-feature-store-and-ground-truth-in-amazon-sagemaker-fbdd87cfefec)
+2. [What Is the Dummy Variable Trap? (With Pandas Code Examples) Written by Parul Pandey](https://builtin.com/machine-learning/dummy-variable-trap-pandas)
+
 ## Categorical Encoding
 
 1. [All about Categorical Variable Encoding by Baijayanta Roy](https://towardsdatascience.com/all-about-categorical-variable-encoding-305f3361fd02/))
+2. [What Is the Dummy Variable Trap? (With Pandas Code Examples) Written by Parul Pandey](https://builtin.com/machine-learning/dummy-variable-trap-pandas)
 
 ## Ordinal Data
 
@@ -25,3 +31,8 @@
 ## Videos
 
 1. [Recommending Art with Feature Engineering Sinan Ozdemir](https://learning.oreilly.com/videos/recommending-art-with/10000MNHV202210/10000MNHV202210-aaaaa/)
+
+
+# SageMaker
+
+1. [[MUST_SEE] All about Feature Engineering, Feature Store, and Ground Truth in Amazon SageMaker](https://medium.com/@Shamimw/all-about-feature-engineering-feature-store-and-ground-truth-in-amazon-sagemaker-fbdd87cfefec)
