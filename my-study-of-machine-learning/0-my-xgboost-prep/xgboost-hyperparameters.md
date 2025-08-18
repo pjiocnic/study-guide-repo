@@ -1,0 +1,2 @@
+1. [BayesSearchCV](https://python.plainenglish.io/bayesian-optimization-faster-hyperparameter-tuning-in-python-4b13c0a00454)
+2. [Scikit-Optimize for Hyperparameter Tuning in Machine Learning By Jason Brownlee](https://machinelearningmastery.com/scikit-optimize-for-hyperparameter-tuning-in-machine-learning)

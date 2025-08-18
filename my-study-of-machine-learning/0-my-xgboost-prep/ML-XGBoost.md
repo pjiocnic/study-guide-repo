@@ -1,3 +1,6 @@
+
+
+
 1. [Training Models with Amazon SageMaker by Jacob Lyman (Jake)](https://app.pluralsight.com/library/courses/model-training-amazon-sagemaker/table-of-contents)
 1. [Data Science with Python: Foundations of Machine Learning by Amber Israelsen](https://app.pluralsight.com/library/courses/data-science-python-foundations-machine-learning/table-of-contents)
     - https://sagemaker.readthedocs.io/en/stable/frameworks/xgboost/using_xgboost.html
@@ -32,10 +35,11 @@
 
 1. [XgBoost by CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvbXJbBW4zCy4Xbr81GRyaC4)
 
+1. [[**GOOD_EXAMPLE**] How to train XGBoost models in Python by Lianne and Justin](https://www.youtube.com/watch?v=aLOQD66Sj0g)
 
 ## Courses
 
-1. [Machine Learning with XGBoost Using scikit-learn in Python by Mike West](https://app.pluralsight.com/library/courses/xgboost-python-scikit-learn-machine-learning/table-of-contents)
+1. [[**MUST_SEE**] Machine Learning with XGBoost Using scikit-learn in Python by Mike West](https://app.pluralsight.com/library/courses/xgboost-python-scikit-learn-machine-learning/table-of-contents)
 - Dataset: https://www.kaggle.com/c/titanic
 
 1. [Introduction to Machine Learning](https://www.udacity.com/course/introduction-to-machine-learning--cd0385)
@@ -44,3 +48,9 @@
 ## AWS
 
 1. [XGBoost sample notebooks by AWS](https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost-sample-notebooks.html)
+
+
+## Demos (with code samples)
+
+1. [How to train XGBoost models in Python by Lianne and Justin](https://www.youtube.com/watch?v=aLOQD66Sj0g)
+- https://github.com/liannewriting/YouTube-videos-public/blob/main/xgboost-python-tutorial-example/xgboost_python.ipynb

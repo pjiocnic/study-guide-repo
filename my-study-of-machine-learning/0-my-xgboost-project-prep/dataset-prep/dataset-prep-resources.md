@@ -1,0 +1,3 @@
+[Data Preprocessing: A Complete Guide with Python Examples](https://www.datacamp.com/blog/data-preprocessing)
+[Preprocessing for Machine Learning in Python](https://app.datacamp.com/learn/courses/preprocessing-for-machine-learning-in-python)
+[Python for Data Analysis: step-by-step with projects](https://justintodata.thinkific.com/courses/take/python-for-data-analysis-projects/lessons/31918251-course-overview)

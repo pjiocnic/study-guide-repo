@@ -41,3 +41,8 @@
 ## CheatSheets
 
 1. [Python Pandas Cheat Sheet](https://x.com/dankornas/status/1849799433610768648?s=48)
+
+## CrossTab
+
+1. [The Power of Crosstab Function in Pandas for Data Analysis and Visualization](https://medium.com/geekculture/the-power-of-crosstab-function-in-pandas-for-data-analysis-and-visualization-6c085c269fcd)
+2. [Understanding pandas.crosstab() with Simple Examples by whyamit404](https://medium.com/@whyamit404/understanding-pandas-crosstab-with-simple-examples-90cf6ea5a9a1)

@@ -1,0 +1,1 @@
+[Customer Churn Prediction with XGBoost](https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_applying_machine_learning/xgboost_customer_churn/xgboost_customer_churn.html)

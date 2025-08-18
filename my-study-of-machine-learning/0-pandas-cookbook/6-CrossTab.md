@@ -1,0 +1,1 @@
+[The Power of Crosstab Function in Pandas for Data Analysis and Visualization](https://medium.com/geekculture/the-power-of-crosstab-function-in-pandas-for-data-analysis-and-visualization-6c085c269fcd)
