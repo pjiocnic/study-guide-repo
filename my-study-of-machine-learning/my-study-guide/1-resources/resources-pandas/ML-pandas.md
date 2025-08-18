@@ -44,5 +44,11 @@
 
 ## CrossTab
 
+1. [[START_HERE] Pandas Crosstab Explained by Chris Moffitt](https://pbpython.com/pandas-crosstab.html)
 1. [The Power of Crosstab Function in Pandas for Data Analysis and Visualization](https://medium.com/geekculture/the-power-of-crosstab-function-in-pandas-for-data-analysis-and-visualization-6c085c269fcd)
 2. [Understanding pandas.crosstab() with Simple Examples by whyamit404](https://medium.com/@whyamit404/understanding-pandas-crosstab-with-simple-examples-90cf6ea5a9a1)
+
+
+## PivotTable
+
+[Pandas Pivot Table Explained by Chris Moffitt](https://pbpython.com/pandas-pivot-table-explained.html)
