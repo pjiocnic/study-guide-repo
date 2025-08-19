@@ -16,6 +16,9 @@
 
 [Nominal Data vs. Ordinal Data: What’s the Difference?](https://builtin.com/articles/ordinal-data)
 
+## Target Encoding
+
+1. [Target-encoding Categorical Variables](https://towardsdatascience.com/dealing-with-categorical-variables-by-using-target-encoder-a0f1733a4c69/)
 
 ## Courses
 
