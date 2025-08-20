@@ -8,3 +8,8 @@
 
 1. https://pbpython.com/
 2. [book.pythontips](https://book.pythontips.com/en/latest/args_and_kwargs.html)
+
+## Stats
+
+1. [BradonFoltz]https://www.bcfoltz.com/stats-101/
+2. [Dataschool](https://courses.dataschool.io/view/courses)
