@@ -1,0 +1,4 @@
+# sample keys file
+inactive
+trial-expired
+suspended
