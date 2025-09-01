@@ -1,0 +1,2 @@
+[XGBoost vs Neural Network](https://mr-amit.medium.com/xgboost-vs-neural-network-acad9c8b3a9a)
+[When Do You Use Machine Learning vs. a Rules Based System? from InfoQ](https://www.youtube.com/watch?v=yjy90pdBLfo)

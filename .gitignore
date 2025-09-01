@@ -7,8 +7,18 @@ blogs
 notes-under-construction/images
 notes-under-construction/blogs
 *.code-workspace
+
+# Specific files
 my-study-of-machine-learning/my-sandbox/xgboost/01-hands-on-gradient-boosting/code/Chapter09/cab_rides.csv
 my-study-of-machine-learning/my-sandbox/xgboost/01-hands-on-gradient-boosting/code/Chapter04/exoplanets.csv
 my-study-of-machine-learning/my-sandbox/xgboost/01-hands-on-gradient-boosting/code/Chapter07/exoplanets.csv
 my-study-of-machine-learning/my-sandbox/xgboost/01-hands-on-gradient-boosting/code/Chapter02/census_cleaned.csv
 my-study-of-machine-learning/my-sandbox/xgboost/01-hands-on-gradient-boosting/code/Chapter03/census_cleaned.csv
+
+my-study-of-machine-learning/0-my-notebooks-collection/sagemaker/customer-churn/customer_churn_for_music_streaming/data/raw/sample.json
+my-study-of-machine-learning/0-my-notebooks-collection/sagemaker/customer-churn/customer_churn_for_music_streaming/data/raw/simu-1.json
+my-study-of-machine-learning/0-my-notebooks-collection/sagemaker/customer-churn/customer_churn_for_music_streaming/data/raw/simu-2.json
+my-study-of-machine-learning/0-my-notebooks-collection/sagemaker/customer-churn/customer_churn_for_music_streaming/data/raw/simu-3.json
+my-study-of-machine-learning/0-my-notebooks-collection/sagemaker/customer-churn/customer_churn_for_music_streaming/data/raw/simu-4.json
+my-study-of-machine-learning/0-my-notebooks-collection/sagemaker/customer-churn/customer_churn_for_music_streaming/customer-churn-data.zip
+
