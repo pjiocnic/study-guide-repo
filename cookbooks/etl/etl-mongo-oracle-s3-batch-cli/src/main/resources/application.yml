@@ -1,0 +1,33 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/appdb
+      database: appdb
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/FREEPDB1
+    username: system
+    password: oracle
+    driver-class-name: oracle.jdbc.OracleDriver
+
+app:
+  input:
+    ids-file: ./ids.txt
+    batch-size: 2
+  mongo:
+    collection: employees
+    id-field: _id
+  oracle:
+    enrich-by-id-sql: |
+      SELECT EMP_ID, DEPT AS ORACLE_DEPT, TITLE AS ORACLE_TITLE
+      FROM EMP_META
+      WHERE EMP_ID = ?
+  s3:
+    bucket: your-bucket-name
+    prefix: etl/batches
+    base-name: employees-batch
+  s3:
+    bucket: your-bucket-name
+    prefix: etl/batches
+    base-name: employees-batch
+    dry-run: false           # set true to write files locally instead of uploading
+    local-dir: ./out         # directory for dry-run gzip outputs
