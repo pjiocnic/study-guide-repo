@@ -9,6 +9,7 @@
 1. [Designing Machine Learning Systems by Chip Huyen](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/ch06.html)
 1. [Beginners Tutorial on XGBoost and Parameter Tuning in R](https://www.hackerearth.com/practice/machine-learning/machine-learning-algorithms/beginners-tutorial-on-xgboost-parameter-tuning-r/tutorial/)
 1. [[**START_HERE**] XGBoost Parameters Tuning: A Complete Guide with Python Codes](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
+2. [Mastering XGBoost: From Basics to Advanced Techniques with a Complete Use Case By Nick Gupta](https://www.linkedin.com/pulse/mastering-xgboost-from-basics-advanced-techniques-complete-nick-gupta/)
 
 
 ## Documentation

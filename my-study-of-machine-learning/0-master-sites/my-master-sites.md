@@ -13,3 +13,11 @@
 
 1. [BradonFoltz]https://www.bcfoltz.com/stats-101/
 2. [Dataschool](https://courses.dataschool.io/view/courses)
+
+## Pandas
+
+1. [Python and Pandas with Reuven Lerner](https://www.youtube.com/@ReuvenLerner)
+
+## SciKit-Learn
+
+1. [[_**MUST-SEE**_] Master Machine Learning with scikit-Learn By DataSchool](https://www.youtube.com/playlist?list=PL5-da3qGB5IDEeI0D8Y4Z5KLVmHgpgA-6)

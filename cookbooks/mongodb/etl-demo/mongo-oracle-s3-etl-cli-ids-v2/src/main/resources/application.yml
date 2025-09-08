@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/FREEPDB1
+    username: system
+    password: oracle
+    driver-class-name: oracle.jdbc.OracleDriver
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/appdb
+      database: appdb
+
+app:
+  input:
+    ids-file: ./ids.txt
+  mongo:
+    collection: employees
+    id-field: _id
+  oracle:
+    by-id-sql: "SELECT EMP_ID, FIRST_NAME, LAST_NAME, EMAIL FROM EMPLOYEES WHERE EMP_ID = ?"
+  s3:
+    bucket: your-bucket-name
+    prefix: etl/exports/records

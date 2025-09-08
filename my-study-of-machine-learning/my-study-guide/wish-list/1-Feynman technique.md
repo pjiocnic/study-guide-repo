@@ -1,0 +1,1 @@
+[Feynman Technique: The Ultimate Guide to Learning Anything Faster](https://fs.blog/feynman-technique/)

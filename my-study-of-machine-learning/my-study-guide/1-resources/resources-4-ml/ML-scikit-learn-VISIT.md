@@ -1,7 +1,7 @@
 
 1. Andreas C. Müller & Sarah Guido book is the **ULTIMATE BOOK** for scikit learn
 1. Building Machine Learning Models in Python with scikit-learn by Janani Ravi
-2. [[ON-HOLD] Scikit-learn Tutorial By Vincent D. Warmerdam](https://youtu.be/0B5eIE_1vpU?t=3803)
+2. [[ON-HOLD][_**MUST-SEE**_] Scikit-learn Tutorial By Vincent D. Warmerdam](https://youtu.be/0B5eIE_1vpU?t=3803)
 - https://calmcode.io/course/scikit-learn/introduction
 - https://github.com/koaning/calm-notebooks
 - RESTART FROM HERE - https://calmcode.io/course/scikit-metrics/metrics
@@ -19,3 +19,7 @@
    * https://www.freecodecamp.org/news/machine-learning-with-python-and-scikit-learn/
 5. [[_**START-HERE**_] Machine Learning with Python: Zero to GBMs By Aakash@Jovi](https://jovian.com/learn/machine-learning-with-python-zero-to-gbms)
 6. [Introduction to Machine Learning with scikit-learn by Dataschool](https://courses.dataschool.io/view/courses/introduction-to-machine-learning-with-scikit-learn)
+
+# PlayLists
+
+1. [[_**MUST-SEE**_] Master Machine Learning with scikit-Learn By DataSchool](https://www.youtube.com/playlist?list=PL5-da3qGB5IDEeI0D8Y4Z5KLVmHgpgA-6)

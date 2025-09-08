@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/appdb
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+server:
+  port: 8080

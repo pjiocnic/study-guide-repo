@@ -52,3 +52,8 @@
 ## PivotTable
 
 [Pandas Pivot Table Explained by Chris Moffitt](https://pbpython.com/pandas-pivot-table-explained.html)
+
+
+## PlayLists
+
+1. [Python and Pandas with Reuven Lerner](https://www.youtube.com/@ReuvenLerner)

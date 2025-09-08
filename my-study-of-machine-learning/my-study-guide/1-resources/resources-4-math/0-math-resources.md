@@ -13,3 +13,14 @@ correlation matrix: https://www.mathtutordvd.com/products/Mastering-Statistics-V
 ✅ **Multivariable Calculus (Jacobian, Hessian)** – For vector gradients.
 ✅ **Graph Theory (Computational Graphs)** – To store operations dynamically.
 ✅ **Optimization (Gradient Descent)** – For parameter updates.
+
+
+## How to Learn Math for AI
+
+[How to Learn the Math Needed for Machine Learning by Egor Howell](https://towardsdatascience.com/how-to-learn-the-math-needed-for-machine-learning/)
+
+
+## Books
+
+[Practical Statistics for Data Scientists, 2e: 50+ Essential Concepts](https://www.amazon.co.uk/Practical-Statistics-Data-Scientists-Essential/dp/149207294X)
+[Mathematics for Machine Learning Paperback by Marc Peter Deisenroth](https://www.amazon.co.uk/Mathematics-Machine-Learning-Peter-Deisenroth/dp/110845514X/)

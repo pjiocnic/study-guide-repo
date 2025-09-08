@@ -1,0 +1,4 @@
+app:
+  s3:
+    bucket: your-bucket-name
+    prefix: gzip-uploads
