@@ -23,3 +23,7 @@
 
 
 [Effective Feature Engineering for Random Forest, XGBoost, and LightGBM by Christophe Atten](https://medium.datadriveninvestor.com/effective-feature-engineering-for-random-forest-xgboost-and-lightgbm-9474dc3691bc)
+
+
+[XGBoost: The Smartest Prediction Power](https://python.plainenglish.io/xgboost-the-smartest-prediction-power-c3ce61c523d1)
+[Data Preparation for Gradient Boosting with XGBoost in Python By Jason Brownlee](https://machinelearningmastery.com/data-preparation-gradient-boosting-xgboost-python/)

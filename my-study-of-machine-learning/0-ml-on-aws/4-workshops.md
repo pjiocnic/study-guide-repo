@@ -1,0 +1,1 @@
+[Amazon SageMaker Canvas Immersion Day](https://catalog.workshops.aws/canvas-immersion-day/en-US)

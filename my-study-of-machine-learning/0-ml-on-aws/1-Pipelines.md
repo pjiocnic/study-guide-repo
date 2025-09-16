@@ -9,3 +9,7 @@
 5. [Utilizing XGBoost training reports to improve your models by Simon Zamarin, Nihal Harish, Lu Huang, Qingwei Li, and Satadal Bhattacharjee](https://aws.amazon.com/blogs/machine-learning/utilizing-xgboost-training-reports-to-improve-your-models)
 
 6. [Unlock near 3x performance gains with XGBoost and Amazon SageMaker Neo by Adam Kozdrowicz and Eitan Sela](https://aws.amazon.com/blogs/machine-learning/unlock-performance-gains-with-xgboost-amazon-sagemaker-neo-and-serverless-artillery)
+
+7. [Get started with SageMaker Pipelines](https://sagemaker-examples.readthedocs.io/en/latest/sagemaker-pipelines/index.html)
+
+[Amazon SageMaker AI MLOps: from idea to production in six steps](https://github.com/aws-samples/amazon-sagemaker-from-idea-to-production)

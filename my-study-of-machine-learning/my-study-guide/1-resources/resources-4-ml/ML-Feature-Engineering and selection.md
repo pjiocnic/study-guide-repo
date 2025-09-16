@@ -30,6 +30,7 @@
 ## Target Encoding
 
 1. [Target-encoding Categorical Variables](https://towardsdatascience.com/dealing-with-categorical-variables-by-using-target-encoder-a0f1733a4c69/)
+2. [Target Encoder: A powerful categorical encoding method](https://www.blog.trainindata.com/target-encoder-a-powerful-categorical-encoding-method/)
 
 ## Courses
 

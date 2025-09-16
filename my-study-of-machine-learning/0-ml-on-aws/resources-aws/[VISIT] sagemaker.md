@@ -37,6 +37,9 @@
 - Workshop for running HuggingFace Models on Amazon SageMaker.
 1. [Getting Started with "Amazon SageMaker 101"](https://github.com/aws-samples/sagemaker-101-workshop)
 1. [Amazon SageMaker 101 Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/0c6b8a23-b837-4e0f-b2e2-4a3ffd7d645b/en-US)
+2. [SageMaker AI Immersion Day](https://catalog.us-east-1.prod.workshops.aws/workshops/63069e26-921c-4ce1-9cc7-dd882ff62575/en-US)
+3. [Amazon SageMaker End to End Workshop](https://github.com/aws-samples/sagemaker-end-to-end-workshop)
+   - [Predicting Customer Churn with Amazon Machine Learning by Denis V. Batalov](https://aws.amazon.com/blogs/machine-learning/predicting-customer-churn-with-amazon-machine-learning/)
 
 # Examples
 

@@ -1,0 +1,1 @@
+[Binning Data with Pandas qcut and cut Posted by Chris Moffitt](https://pbpython.com/pandas-qcut-cut.html)

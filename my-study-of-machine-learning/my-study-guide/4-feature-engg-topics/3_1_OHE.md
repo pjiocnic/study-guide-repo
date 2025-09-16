@@ -1,0 +1,1 @@
+[One-hot encoding categorical variables by Sole Galli](https://www.blog.trainindata.com/one-hot-encoding-categorical-variables/)

@@ -1,0 +1,1 @@
+[Target Encoder: A powerful categorical encoding method](https://www.blog.trainindata.com/target-encoder-a-powerful-categorical-encoding-method/)

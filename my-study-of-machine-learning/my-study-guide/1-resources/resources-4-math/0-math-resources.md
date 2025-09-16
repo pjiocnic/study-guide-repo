@@ -24,3 +24,8 @@ correlation matrix: https://www.mathtutordvd.com/products/Mastering-Statistics-V
 
 [Practical Statistics for Data Scientists, 2e: 50+ Essential Concepts](https://www.amazon.co.uk/Practical-Statistics-Data-Scientists-Essential/dp/149207294X)
 [Mathematics for Machine Learning Paperback by Marc Peter Deisenroth](https://www.amazon.co.uk/Mathematics-Machine-Learning-Peter-Deisenroth/dp/110845514X/)
+
+
+## Intervals
+
+1. [Interval Notation](https://science.howstuffworks.com/math-concepts/interval-notation.htm)
