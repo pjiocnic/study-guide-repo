@@ -1,0 +1,1 @@
+[Text Classification in Python: Pipelines, NLP, NLTK, Transformers, XGBoost and more by Chris Fotache](https://chrisfotache.medium.com/text-classification-in-python-pipelines-nlp-nltk-tf-idf-xgboost-and-more-b83451a327e0)

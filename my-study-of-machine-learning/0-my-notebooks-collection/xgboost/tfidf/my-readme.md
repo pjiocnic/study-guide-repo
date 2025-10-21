@@ -1,0 +1,1 @@
+[BBC articles fulltext and category](https://www.kaggle.com/datasets/yufengdev/bbc-fulltext-and-category?select=bbc-text.csv)

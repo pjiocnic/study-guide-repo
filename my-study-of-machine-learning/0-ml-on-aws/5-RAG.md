@@ -1,0 +1,1 @@
+[Build secure RAG applications with AWS serverless data lakes by Venkata Sistla and Aamna Najmi](https://aws.amazon.com/blogs/machine-learning/build-secure-rag-applications-with-aws-serverless-data-lakes/)

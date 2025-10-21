@@ -12,4 +12,6 @@
 
 7. [Get started with SageMaker Pipelines](https://sagemaker-examples.readthedocs.io/en/latest/sagemaker-pipelines/index.html)
 
-[Amazon SageMaker AI MLOps: from idea to production in six steps](https://github.com/aws-samples/amazon-sagemaker-from-idea-to-production)
+8. [Amazon SageMaker AI MLOps: from idea to production in six steps](https://github.com/aws-samples/amazon-sagemaker-from-idea-to-production)
+
+9. [How Amazon trains sequential ensemble models at scale with Amazon SageMaker Pipelines by Bikram Singh, Rahul Sharma, Nada Abdalla, and Sachin Mishra](https://aws.amazon.com/blogs/machine-learning/how-amazon-trains-sequential-ensemble-models-at-scale-with-amazon-sagemaker-pipelines/)

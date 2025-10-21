@@ -1,3 +1,3 @@
 [XGBoost with a Simple Example by Rayan Yassminh](https://medium.com/@ryassminh/xgboost-with-a-simple-example-92d5d91789e2)
 [XGBoost Simplified: A Comprehensive Introduction to Model Tuning](https://www.numberanalytics.com/blog/xgboost-simplified-comprehensive-introduction)
-[Mastering XGBoost: From Basics to Advanced Techniques with a Complete Use Case Nick Gupta](https://www.linkedin.com/pulse/mastering-xgboost-from-basics-advanced-techniques-complete-nick-gupta)
+[[**MUST_SEE**] Mastering XGBoost: From Basics to Advanced Techniques with a Complete Use Case Nick Gupta](https://www.linkedin.com/pulse/mastering-xgboost-from-basics-advanced-techniques-complete-nick-gupta)

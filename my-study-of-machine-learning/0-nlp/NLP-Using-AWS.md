@@ -1,0 +1,2 @@
+1. [Practical Entity Resolution on AWS to Reconcile Data in the Real World by David Amatulli and Jennifer Ng](https://aws.amazon.com/blogs/architecture/practical-entity-resolution-on-aws-to-reconcile-data-in-the-real-world/)
+1. [How Amazon trains sequential ensemble models at scale with Amazon SageMaker Pipelines by Bikram Singh, Rahul Sharma, Nada Abdalla, and Sachin Mishra](https://aws.amazon.com/blogs/machine-learning/how-amazon-trains-sequential-ensemble-models-at-scale-with-amazon-sagemaker-pipelines/)

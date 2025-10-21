@@ -1,0 +1,1 @@
+[3 Ways to Speed Up Model Training Without More GPUs By Shittu Olumide](https://machinelearningmastery.com/3-ways-to-speed-up-model-training-without-more-gpus/)

@@ -1,0 +1,1 @@
+[Advanced fine-tuning methods on Amazon SageMaker AI by Ilan Gleiser, Deeksha Razdan, and Prashanth Ramaswamy](https://aws.amazon.com/blogs/machine-learning/build-secure-rag-applications-with-aws-serverless-data-lakes/)

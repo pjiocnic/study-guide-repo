@@ -1,0 +1,1 @@
+[How to Do Named Entity Recognition (NER) with a BERT Model By Muhammad Asad Iqbal Khan](https://machinelearningmastery.com/how-to-do-named-entity-recognition-ner-with-a-bert-model/)

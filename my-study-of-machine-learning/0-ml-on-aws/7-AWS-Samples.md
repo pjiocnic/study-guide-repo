@@ -1,0 +1,1 @@
+[Building predictive disease models using Amazon SageMaker with Amazon HealthLake normalized data by Ujjwal Ratan, Nihir Chadderwala, and Parminder Bhatia](https://aws.amazon.com/blogs/machine-learning/building-predictive-disease-models-using-amazon-sagemaker-with-amazon-healthlake-normalized-data/)

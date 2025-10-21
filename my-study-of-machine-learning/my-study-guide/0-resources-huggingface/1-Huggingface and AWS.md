@@ -12,6 +12,9 @@
 1. [[_**MUST_SEE**_] Train your first NLP Transformer Model with Amazon SageMaker by Philipp Schmid](https://www.youtube.com/watch?v=klRI2BqJ_WU)
 1. [Workshop: Enterprise-Scale NLP with Hugging Face & Amazon SageMaker by Philipp Schmid](https://github.com/philschmid/huggingface-sagemaker-workshop-series/tree/main)
 
-### SageMaker
+### SageMaker And HuggingFace
+[The Partnership: Amazon SageMaker and Hugging Face](https://huggingface.co/blog/the-partnership-amazon-sagemaker-and-hugging-face)
 
+## Docs
 https://docs.aws.amazon.com/sagemaker/latest/dg/hugging-face.html
+
