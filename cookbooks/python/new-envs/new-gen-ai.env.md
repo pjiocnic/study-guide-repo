@@ -21,7 +21,7 @@ dependencies:
 
   # Core scientific stack — pinned to NumPy 1.x line for maximum library compatibility
   - numpy=1.26.4
-  - scipy=1.11.4
+  - scipy=1.13.*
   - pandas=2.1.4
 
   # Viz
@@ -42,9 +42,8 @@ dependencies:
   - pytorch=2.4.1
   - pytorch-cuda=12.1  # from nvidia channel
 
-  - scipy=1.13.*
-  # or, if you prefer a range:
-  # - "scipy>=1.11,<1.14"
+  # Logging UI for Trainer
+  - tensorboard             # ✅ add here; no pin needed
 
   - pip=24.2
   - pip: # use pip to install
